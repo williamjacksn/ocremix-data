@@ -1,6 +1,6 @@
 import argparse
+import common
 import lxml.html
-import pathlib
 import sqlite3
 import urllib.error
 import urllib.request
@@ -13,7 +13,7 @@ def do_import(ocr_id: int):
     if tree is None:
         return
 
-    cnx = get_cnx()
+    cnx = common.get_cnx()
 
     remix_params = {
         'id': ocr_id,
@@ -27,24 +27,7 @@ def do_import(ocr_id: int):
 
     write_remix_artist(cnx, ocr_id, [a.get('id') for a in artists])
 
-    dump_data(cnx)
-    cnx.close()
-
-
-def dump_data(cnx: sqlite3.Connection):
-    ocremix_data_sql = pathlib.Path('ocremix-data.sql').resolve()
-    with ocremix_data_sql.open('w') as f:
-        for line in cnx.iterdump():
-            f.write(f'{line}\n')
-
-
-def get_cnx() -> sqlite3.Connection:
-    ocremix_data_sql = pathlib.Path('ocremix-data.sql').resolve()
-    cnx = sqlite3.connect(':memory:')
-    with ocremix_data_sql.open() as f:
-        cnx.executescript(f.read())
-    cnx.row_factory = sqlite3.Row
-    return cnx
+    common.write_data_and_close(cnx)
 
 
 def get_tree(ocr_id: int) -> lxml.html.HtmlElement:
