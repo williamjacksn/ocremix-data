@@ -1,0 +1,27 @@
+{
+    "artists": [
+        {
+            "id": 5409,
+            "name": "Brandon Strader",
+            "url": "https://ocremix.org/artist/5409/brandon-strader"
+        },
+        {
+            "id": 6144,
+            "name": "Chickenwarlord",
+            "url": "https://ocremix.org/artist/6144/chickenwarlord"
+        },
+        {
+            "id": 8998,
+            "name": "Lemonectric",
+            "url": "https://ocremix.org/artist/8998/lemonectric"
+        },
+        {
+            "id": 13677,
+            "name": "Tuberz McGee",
+            "url": "https://ocremix.org/artist/13677/tuberz-mcgee"
+        }
+    ],
+    "primary_game": "The Legend of Zelda: Oracle of Seasons",
+    "title": "No Rain in the Desert",
+    "url": "https://ocremix.org/remix/OCR03099"
+}

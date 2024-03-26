@@ -1,0 +1,22 @@
+{
+    "artists": [
+        {
+            "id": 10772,
+            "name": "DiGi Valentine",
+            "url": "https://ocremix.org/artist/10772/digi-valentine"
+        },
+        {
+            "id": 10893,
+            "name": "J Damashii",
+            "url": "https://ocremix.org/artist/10893/j-damashii"
+        },
+        {
+            "id": 13512,
+            "name": "J.ME the Sista' Damashii",
+            "url": "https://ocremix.org/artist/13512/jme-the-sista-damashii"
+        }
+    ],
+    "primary_game": "Metropolis Street Racer",
+    "title": "Tail Chaser",
+    "url": "https://ocremix.org/remix/OCR03728"
+}

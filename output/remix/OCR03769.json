@@ -1,0 +1,22 @@
+{
+    "artists": [
+        {
+            "id": 14461,
+            "name": "Jorito",
+            "url": "https://ocremix.org/artist/14461/jorito"
+        },
+        {
+            "id": 15320,
+            "name": "Stephen Kelly",
+            "url": "https://ocremix.org/artist/15320/stephen-kelly"
+        },
+        {
+            "id": 15612,
+            "name": "Audio Mocha",
+            "url": "https://ocremix.org/artist/15612/audio-mocha"
+        }
+    ],
+    "primary_game": "Shovel Knight",
+    "title": "Digging into Memories",
+    "url": "https://ocremix.org/remix/OCR03769"
+}

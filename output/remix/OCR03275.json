@@ -1,0 +1,27 @@
+{
+    "artists": [
+        {
+            "id": 4685,
+            "name": "Juan Medrano",
+            "url": "https://ocremix.org/artist/4685/juan-medrano"
+        },
+        {
+            "id": 13045,
+            "name": "Ivan Hak\u0161tok",
+            "url": "https://ocremix.org/artist/13045/ivan-hakstok"
+        },
+        {
+            "id": 14461,
+            "name": "Jorito",
+            "url": "https://ocremix.org/artist/14461/jorito"
+        },
+        {
+            "id": 14499,
+            "name": "Erik Vreven",
+            "url": "https://ocremix.org/artist/14499/erik-vreven"
+        }
+    ],
+    "primary_game": "Contra",
+    "title": "Aliens in My Waterfall!",
+    "url": "https://ocremix.org/remix/OCR03275"
+}

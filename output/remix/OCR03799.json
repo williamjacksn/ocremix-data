@@ -1,0 +1,22 @@
+{
+    "artists": [
+        {
+            "id": 4795,
+            "name": "Rozovian",
+            "url": "https://ocremix.org/artist/4795/rozovian"
+        },
+        {
+            "id": 11782,
+            "name": "Mak Eightman",
+            "url": "https://ocremix.org/artist/11782/mak-eightman"
+        },
+        {
+            "id": 16619,
+            "name": "Mozzaratti",
+            "url": "https://ocremix.org/artist/16619/mozzaratti"
+        }
+    ],
+    "primary_game": "Seiken Densetsu 3",
+    "title": "Scavenger",
+    "url": "https://ocremix.org/remix/OCR03799"
+}

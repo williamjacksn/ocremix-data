@@ -1,0 +1,32 @@
+{
+    "artists": [
+        {
+            "id": 14461,
+            "name": "Jorito",
+            "url": "https://ocremix.org/artist/14461/jorito"
+        },
+        {
+            "id": 14980,
+            "name": "Furilas",
+            "url": "https://ocremix.org/artist/14980/furilas"
+        },
+        {
+            "id": 15199,
+            "name": "Marc Papeghin",
+            "url": "https://ocremix.org/artist/15199/marc-papeghin"
+        },
+        {
+            "id": 16117,
+            "name": "VGcellomusic",
+            "url": "https://ocremix.org/artist/16117/vgcellomusic"
+        },
+        {
+            "id": 16119,
+            "name": "Lucas Guimaraes",
+            "url": "https://ocremix.org/artist/16119/lucas-guimaraes"
+        }
+    ],
+    "primary_game": "Secret of Mana",
+    "title": "Down the Rabite Hole",
+    "url": "https://ocremix.org/remix/OCR03938"
+}

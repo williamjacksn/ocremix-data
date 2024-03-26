@@ -1,0 +1,22 @@
+{
+    "artists": [
+        {
+            "id": 4754,
+            "name": "Fishy",
+            "url": "https://ocremix.org/artist/4754/fishy"
+        },
+        {
+            "id": 14466,
+            "name": "AndyP",
+            "url": "https://ocremix.org/artist/14466/andyp"
+        },
+        {
+            "id": 14483,
+            "name": "Dan Bryant",
+            "url": "https://ocremix.org/artist/14483/dan-bryant"
+        }
+    ],
+    "primary_game": "Final Fantasy IX",
+    "title": "Vamo alla Django",
+    "url": "https://ocremix.org/remix/OCR03579"
+}

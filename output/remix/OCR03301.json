@@ -1,0 +1,32 @@
+{
+    "artists": [
+        {
+            "id": 14938,
+            "name": "Peter Fernandes",
+            "url": "https://ocremix.org/artist/14938/peter-fernandes"
+        },
+        {
+            "id": 14939,
+            "name": "Brett Garsed",
+            "url": "https://ocremix.org/artist/14939/brett-garsed"
+        },
+        {
+            "id": 14940,
+            "name": "Ric Fierabracci",
+            "url": "https://ocremix.org/artist/14940/ric-fierabracci"
+        },
+        {
+            "id": 14941,
+            "name": "Richard Hallebeek",
+            "url": "https://ocremix.org/artist/14941/richard-hallebeek"
+        },
+        {
+            "id": 14942,
+            "name": "Shane Gaalaas",
+            "url": "https://ocremix.org/artist/14942/shane-gaalaas"
+        }
+    ],
+    "primary_game": "Sonic Adventure",
+    "title": "Red Barrage Aquarium",
+    "url": "https://ocremix.org/remix/OCR03301"
+}

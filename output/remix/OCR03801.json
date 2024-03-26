@@ -1,0 +1,22 @@
+{
+    "artists": [
+        {
+            "id": 4698,
+            "name": "Usa",
+            "url": "https://ocremix.org/artist/4698/usa"
+        },
+        {
+            "id": 4994,
+            "name": "TheDeath",
+            "url": "https://ocremix.org/artist/4994/thedeath"
+        },
+        {
+            "id": 12366,
+            "name": "Jackson Lawhead",
+            "url": "https://ocremix.org/artist/12366/jackson-lawhead"
+        }
+    ],
+    "primary_game": "Seiken Densetsu 3",
+    "title": "Gate Total Peril",
+    "url": "https://ocremix.org/remix/OCR03801"
+}

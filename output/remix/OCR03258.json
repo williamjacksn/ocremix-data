@@ -1,0 +1,27 @@
+{
+    "artists": [
+        {
+            "id": 10683,
+            "name": "Jeff Ball",
+            "url": "https://ocremix.org/artist/10683/jeff-ball"
+        },
+        {
+            "id": 13667,
+            "name": "ZackParrish",
+            "url": "https://ocremix.org/artist/13667/zackparrish"
+        },
+        {
+            "id": 14127,
+            "name": "Pearl Pixel",
+            "url": "https://ocremix.org/artist/14127/pearl-pixel"
+        },
+        {
+            "id": 14137,
+            "name": "mklachu",
+            "url": "https://ocremix.org/artist/14137/mklachu"
+        }
+    ],
+    "primary_game": "Mother",
+    "title": "If You Believe",
+    "url": "https://ocremix.org/remix/OCR03258"
+}

@@ -1,0 +1,22 @@
+{
+    "artists": [
+        {
+            "id": 4324,
+            "name": "FFmusic Dj",
+            "url": "https://ocremix.org/artist/4324/ffmusic-dj"
+        },
+        {
+            "id": 4694,
+            "name": "Geoffrey Taucer",
+            "url": "https://ocremix.org/artist/4694/geoffrey-taucer"
+        },
+        {
+            "id": 14595,
+            "name": "Chris Bess",
+            "url": "https://ocremix.org/artist/14595/chris-bess"
+        }
+    ],
+    "primary_game": "Chrono Trigger",
+    "title": "Coming Darkness",
+    "url": "https://ocremix.org/remix/OCR03255"
+}

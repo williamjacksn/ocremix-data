@@ -1,0 +1,32 @@
+{
+    "artists": [
+        {
+            "id": 12064,
+            "name": "XPRTNovice",
+            "url": "https://ocremix.org/artist/12064/xprtnovice"
+        },
+        {
+            "id": 14461,
+            "name": "Jorito",
+            "url": "https://ocremix.org/artist/14461/jorito"
+        },
+        {
+            "id": 15680,
+            "name": "Lauren the Flute",
+            "url": "https://ocremix.org/artist/15680/lauren-the-flute"
+        },
+        {
+            "id": 15681,
+            "name": "JoyDreamer",
+            "url": "https://ocremix.org/artist/15681/joydreamer"
+        },
+        {
+            "id": 15682,
+            "name": "Trev Wignall",
+            "url": "https://ocremix.org/artist/15682/trev-wignall"
+        }
+    ],
+    "primary_game": "Suikoden II",
+    "title": "Do You Remember?",
+    "url": "https://ocremix.org/remix/OCR03541"
+}

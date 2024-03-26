@@ -1,0 +1,32 @@
+{
+    "artists": [
+        {
+            "id": 4726,
+            "name": "DragonAvenger",
+            "url": "https://ocremix.org/artist/4726/dragonavenger"
+        },
+        {
+            "id": 4729,
+            "name": "OceansAndrew",
+            "url": "https://ocremix.org/artist/4729/oceansandrew"
+        },
+        {
+            "id": 5496,
+            "name": "Moonlapse",
+            "url": "https://ocremix.org/artist/5496/moonlapse"
+        },
+        {
+            "id": 12942,
+            "name": "Laura Intravia",
+            "url": "https://ocremix.org/artist/12942/laura-intravia"
+        },
+        {
+            "id": 12956,
+            "name": "BardicKnowledge",
+            "url": "https://ocremix.org/artist/12956/bardicknowledge"
+        }
+    ],
+    "primary_game": "Final Fantasy VI",
+    "title": "The Nightmare Oath",
+    "url": "https://ocremix.org/remix/OCR03022"
+}

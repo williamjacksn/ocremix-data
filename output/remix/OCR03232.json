@@ -1,0 +1,22 @@
+{
+    "artists": [
+        {
+            "id": 5386,
+            "name": "jmr",
+            "url": "https://ocremix.org/artist/5386/jmr"
+        },
+        {
+            "id": 14464,
+            "name": "streifig",
+            "url": "https://ocremix.org/artist/14464/streifig"
+        },
+        {
+            "id": 14465,
+            "name": "Marshall Art",
+            "url": "https://ocremix.org/artist/14465/marshall-art"
+        }
+    ],
+    "primary_game": "Donkey Kong Country 3: Dixie Kong's Double Trouble!",
+    "title": "My Monkey Drives a Maserati",
+    "url": "https://ocremix.org/remix/OCR03232"
+}

@@ -1,0 +1,22 @@
+{
+    "artists": [
+        {
+            "id": 12540,
+            "name": "Chernabogue",
+            "url": "https://ocremix.org/artist/12540/chernabogue"
+        },
+        {
+            "id": 14980,
+            "name": "Furilas",
+            "url": "https://ocremix.org/artist/14980/furilas"
+        },
+        {
+            "id": 15612,
+            "name": "Audio Mocha",
+            "url": "https://ocremix.org/artist/15612/audio-mocha"
+        }
+    ],
+    "primary_game": "Golden Sun: The Lost Age",
+    "title": "Au Clair de la Lune",
+    "url": "https://ocremix.org/remix/OCR03872"
+}

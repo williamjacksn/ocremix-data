@@ -1,0 +1,27 @@
+{
+    "artists": [
+        {
+            "id": 10656,
+            "name": "Wild_Cat",
+            "url": "https://ocremix.org/artist/10656/wild-cat"
+        },
+        {
+            "id": 12064,
+            "name": "XPRTNovice",
+            "url": "https://ocremix.org/artist/12064/xprtnovice"
+        },
+        {
+            "id": 13045,
+            "name": "Ivan Hak\u0161tok",
+            "url": "https://ocremix.org/artist/13045/ivan-hakstok"
+        },
+        {
+            "id": 13500,
+            "name": "jnWake",
+            "url": "https://ocremix.org/artist/13500/jnwake"
+        }
+    ],
+    "primary_game": "Super Final Match Tennis",
+    "title": "5 Minutes of Glory",
+    "url": "https://ocremix.org/remix/OCR03089"
+}

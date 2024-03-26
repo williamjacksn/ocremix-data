@@ -1,0 +1,22 @@
+{
+    "artists": [
+        {
+            "id": 5409,
+            "name": "Brandon Strader",
+            "url": "https://ocremix.org/artist/5409/brandon-strader"
+        },
+        {
+            "id": 12540,
+            "name": "Chernabogue",
+            "url": "https://ocremix.org/artist/12540/chernabogue"
+        },
+        {
+            "id": 12559,
+            "name": "Anton Corazza",
+            "url": "https://ocremix.org/artist/12559/anton-corazza"
+        }
+    ],
+    "primary_game": "Final Fantasy II",
+    "title": "Rebellion",
+    "url": "https://ocremix.org/remix/OCR03151"
+}

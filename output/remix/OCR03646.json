@@ -1,0 +1,32 @@
+{
+    "artists": [
+        {
+            "id": 5409,
+            "name": "Brandon Strader",
+            "url": "https://ocremix.org/artist/5409/brandon-strader"
+        },
+        {
+            "id": 12540,
+            "name": "Chernabogue",
+            "url": "https://ocremix.org/artist/12540/chernabogue"
+        },
+        {
+            "id": 13677,
+            "name": "Tuberz McGee",
+            "url": "https://ocremix.org/artist/13677/tuberz-mcgee"
+        },
+        {
+            "id": 14980,
+            "name": "Furilas",
+            "url": "https://ocremix.org/artist/14980/furilas"
+        },
+        {
+            "id": 14985,
+            "name": "Mirby",
+            "url": "https://ocremix.org/artist/14985/mirby"
+        }
+    ],
+    "primary_game": "Advance Wars",
+    "title": "Are You BadAss?",
+    "url": "https://ocremix.org/remix/OCR03646"
+}

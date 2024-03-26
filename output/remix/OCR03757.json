@@ -1,0 +1,32 @@
+{
+    "artists": [
+        {
+            "id": 12706,
+            "name": "PirateCrab",
+            "url": "https://ocremix.org/artist/12706/piratecrab"
+        },
+        {
+            "id": 14463,
+            "name": "sschafi1",
+            "url": "https://ocremix.org/artist/14463/sschafi1"
+        },
+        {
+            "id": 15199,
+            "name": "Marc Papeghin",
+            "url": "https://ocremix.org/artist/15199/marc-papeghin"
+        },
+        {
+            "id": 16102,
+            "name": "Tiago Rodrigues",
+            "url": "https://ocremix.org/artist/16102/tiago-rodrigues"
+        },
+        {
+            "id": 16525,
+            "name": "Jordan Chin",
+            "url": "https://ocremix.org/artist/16525/jordan-chin"
+        }
+    ],
+    "primary_game": "Final Fantasy Tactics",
+    "title": "Trichotomy",
+    "url": "https://ocremix.org/remix/OCR03757"
+}

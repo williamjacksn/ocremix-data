@@ -1,0 +1,27 @@
+{
+    "artists": [
+        {
+            "id": 14461,
+            "name": "Jorito",
+            "url": "https://ocremix.org/artist/14461/jorito"
+        },
+        {
+            "id": 15618,
+            "name": "Hank \"The Spank Tank\" Jankerson",
+            "url": "https://ocremix.org/artist/15618/hank-the-spank-tank-jankerson"
+        },
+        {
+            "id": 15682,
+            "name": "Trev Wignall",
+            "url": "https://ocremix.org/artist/15682/trev-wignall"
+        },
+        {
+            "id": 15840,
+            "name": "The Nikanoru",
+            "url": "https://ocremix.org/artist/15840/the-nikanoru"
+        }
+    ],
+    "primary_game": "Sonic the Hedgehog",
+    "title": "Gotta Start from Somewhere",
+    "url": "https://ocremix.org/remix/OCR03573"
+}

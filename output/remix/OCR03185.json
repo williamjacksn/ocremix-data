@@ -1,0 +1,42 @@
+{
+    "artists": [
+        {
+            "id": 4651,
+            "name": "Ben Briggs",
+            "url": "https://ocremix.org/artist/4651/ben-briggs"
+        },
+        {
+            "id": 4793,
+            "name": "halc",
+            "url": "https://ocremix.org/artist/4793/halc"
+        },
+        {
+            "id": 9080,
+            "name": "Elation",
+            "url": "https://ocremix.org/artist/9080/elation"
+        },
+        {
+            "id": 10683,
+            "name": "Jeff Ball",
+            "url": "https://ocremix.org/artist/10683/jeff-ball"
+        },
+        {
+            "id": 10990,
+            "name": "DjjD",
+            "url": "https://ocremix.org/artist/10990/djjd"
+        },
+        {
+            "id": 11931,
+            "name": "Luke Keever",
+            "url": "https://ocremix.org/artist/11931/luke-keever"
+        },
+        {
+            "id": 14473,
+            "name": "Giles Teskey",
+            "url": "https://ocremix.org/artist/14473/giles-teskey"
+        }
+    ],
+    "primary_game": "Chrono Cross",
+    "title": "Timewarp",
+    "url": "https://ocremix.org/remix/OCR03185"
+}

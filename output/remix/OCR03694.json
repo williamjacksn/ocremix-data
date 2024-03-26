@@ -1,0 +1,27 @@
+{
+    "artists": [
+        {
+            "id": 14927,
+            "name": "LongBoxofChocolate",
+            "url": "https://ocremix.org/artist/14927/longboxofchocolate"
+        },
+        {
+            "id": 15475,
+            "name": "Tyler Krug",
+            "url": "https://ocremix.org/artist/15475/tyler-krug"
+        },
+        {
+            "id": 15476,
+            "name": "Mary Horst",
+            "url": "https://ocremix.org/artist/15476/mary-horst"
+        },
+        {
+            "id": 16343,
+            "name": "Patrick Lanier",
+            "url": "https://ocremix.org/artist/16343/patrick-lanier"
+        }
+    ],
+    "primary_game": "Undertale",
+    "title": "The Spectral Mire",
+    "url": "https://ocremix.org/remix/OCR03694"
+}

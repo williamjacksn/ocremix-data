@@ -1,0 +1,27 @@
+{
+    "artists": [
+        {
+            "id": 10670,
+            "name": "Doc Nano",
+            "url": "https://ocremix.org/artist/10670/doc-nano"
+        },
+        {
+            "id": 10683,
+            "name": "Jeff Ball",
+            "url": "https://ocremix.org/artist/10683/jeff-ball"
+        },
+        {
+            "id": 15850,
+            "name": "Denis Bluteau",
+            "url": "https://ocremix.org/artist/15850/denis-bluteau"
+        },
+        {
+            "id": 15851,
+            "name": "Kristin Naigus",
+            "url": "https://ocremix.org/artist/15851/kristin-naigus"
+        }
+    ],
+    "primary_game": "The Legend of Zelda: A Link to the Past",
+    "title": "The Triforce of Sorrow",
+    "url": "https://ocremix.org/remix/OCR03590"
+}

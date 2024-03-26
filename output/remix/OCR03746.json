@@ -1,0 +1,22 @@
+{
+    "artists": [
+        {
+            "id": 5269,
+            "name": "Andrew Thompson",
+            "url": "https://ocremix.org/artist/5269/andrew-thompson"
+        },
+        {
+            "id": 16418,
+            "name": "Kristy Mezines",
+            "url": "https://ocremix.org/artist/16418/kristy-mezines"
+        },
+        {
+            "id": 16419,
+            "name": "Fernando Valencia",
+            "url": "https://ocremix.org/artist/16419/fernando-valencia"
+        }
+    ],
+    "primary_game": "Chrono Trigger",
+    "title": "Elements of Time",
+    "url": "https://ocremix.org/remix/OCR03746"
+}
