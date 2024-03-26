@@ -1,9 +1,18 @@
 import argparse
-import common
+import json
 import lxml.html
+import pathlib
 import sqlite3
 import urllib.error
 import urllib.request
+
+
+def cli_import(args: argparse.Namespace):
+    do_import(args.ocr_id)
+
+
+def cli_json(args: argparse.Namespace):
+    do_json(args.ocr_id)
 
 
 def do_import(ocr_id: int):
@@ -13,7 +22,7 @@ def do_import(ocr_id: int):
     if tree is None:
         return
 
-    cnx = common.get_cnx()
+    cnx = get_cnx()
 
     remix_params = {
         'id': ocr_id,
@@ -30,7 +39,22 @@ def do_import(ocr_id: int):
     write_tag_batch(cnx, tags)
     write_remix_tags(cnx, ocr_id, [t.get('id') for t in tags])
 
-    common.write_data_and_close(cnx)
+    write_data_and_close(cnx)
+
+
+def do_json(ocr_id: int):
+    cnx = get_cnx()
+    data = get_remix_data(cnx, ocr_id)
+    print(json.dumps(data, indent=4, sort_keys=True))
+
+
+def get_cnx() -> sqlite3.Connection:
+    ocremix_data_sql = pathlib.Path('ocremix-data.sql').resolve()
+    cnx = sqlite3.connect(':memory:')
+    with ocremix_data_sql.open() as f:
+        cnx.executescript(f.read())
+    cnx.row_factory = sqlite3.Row
+    return cnx
 
 
 def get_tree(ocr_id: int) -> lxml.html.HtmlElement:
@@ -43,15 +67,74 @@ def get_tree(ocr_id: int) -> lxml.html.HtmlElement:
         print(f'There was a problem reading {url}')
 
 
+def get_remix_data(cnx: sqlite3.Connection, ocr_id: int) -> dict:
+    result = {}
+    artists = []
+    tags = []
+    remix_sql = '''
+        select id, title, primary_game
+        from remix
+        where id = :id
+    '''
+    artists_sql = '''
+        select a.id, a.name, a.url
+        from remix_artist ra
+        join artist a on a.id = ra.artist_id
+        where ra.remix_id = :id
+        order by a.id
+    '''
+    tags_sql = '''
+        select t.id, t.path, t.url
+        from remix_tag rt
+        join tag t on t.id = rt.tag_id
+        where rt.remix_id = :id
+        order by t.id
+    '''
+    params = {
+        'id': ocr_id,
+    }
+    with cnx:
+        for row in cnx.execute(remix_sql, params):
+            result = {
+                'primary_game': row['primary_game'],
+                'title': row['title'],
+                'url': f'https://ocremix.org/remix/OCR{row["id"]:05}',
+            }
+        for row in cnx.execute(artists_sql, params):
+            artists.append({
+                'id': row['id'],
+                'name': row['name'],
+                'url': row['url'],
+            })
+        for row in cnx.execute(tags_sql, params):
+            tags.append({
+                'id': row['id'],
+                'path': row['path'],
+                'url': row['url'],
+            })
+    result['artists'] = artists
+    result['tags'] = tags
+    return result
+
+
 def main():
     args = parse_args()
-    do_import(args.ocr_id)
+    args.func(args)
 
 
-def parse_args():
-    parser = argparse.ArgumentParser()
-    parser.add_argument('ocr_id', type=int)
-    return parser.parse_args()
+def parse_args() -> argparse.Namespace:
+    ap = argparse.ArgumentParser(description='work with a local OC ReMix metadata database')
+    sp = ap.add_subparsers(title='Available commands', dest='command', required=True)
+
+    ps_import = sp.add_parser('import', description='fetch data from ocremix.org and store it in the local database')
+    ps_import.add_argument('ocr_id', type=int, help='the numeric ID of the ReMix to fetch')
+    ps_import.set_defaults(func=cli_import)
+
+    ps_json = sp.add_parser('json', description='print the JSON representation of a ReMix')
+    ps_json.add_argument('ocr_id', type=int, help='the numeric ID of the ReMix to print')
+    ps_json.set_defaults(func=cli_json)
+
+    return ap.parse_args()
 
 
 def parse_remix_artists(tree: lxml.html.HtmlElement) -> list[dict]:
@@ -98,6 +181,14 @@ def write_artist_batch(cnx: sqlite3.Connection, params: list[dict]):
     '''
     with cnx:
         cnx.executemany(sql, params)
+
+
+def write_data_and_close(cnx: sqlite3.Connection):
+    ocremix_data_sql = pathlib.Path('ocremix-data.sql').resolve()
+    with ocremix_data_sql.open('w') as f:
+        for line in cnx.iterdump():
+            f.write(f'{line}\n')
+    cnx.close()
 
 
 def write_remix(cnx: sqlite3.Connection, params: dict):
