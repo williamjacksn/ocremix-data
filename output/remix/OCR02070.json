@@ -7,6 +7,28 @@
         }
     ],
     "primary_game": "Mega Man 2",
+    "tags": [
+        {
+            "id": "aggressive",
+            "path": "Mood > Aggressive",
+            "url": "https://ocremix.org/tag/aggressive"
+        },
+        {
+            "id": "electric-guitar",
+            "path": "Instrumentation > Electric Guitar",
+            "url": "https://ocremix.org/tag/electric-guitar"
+        },
+        {
+            "id": "metal",
+            "path": "Genre > Rock > Metal",
+            "url": "https://ocremix.org/tag/metal"
+        },
+        {
+            "id": "rock",
+            "path": "Genre > Rock",
+            "url": "https://ocremix.org/tag/rock"
+        }
+    ],
     "title": "Dokuta Wairi, Rival to the Light",
     "url": "https://ocremix.org/remix/OCR02070"
 }

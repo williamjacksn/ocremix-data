@@ -12,6 +12,33 @@
         }
     ],
     "primary_game": "Final Fantasy VII",
+    "tags": [
+        {
+            "id": "collab",
+            "path": "Origin > Collaboration",
+            "url": "https://ocremix.org/tag/collab"
+        },
+        {
+            "id": "electric-guitar",
+            "path": "Instrumentation > Electric Guitar",
+            "url": "https://ocremix.org/tag/electric-guitar"
+        },
+        {
+            "id": "electronic",
+            "path": "Instrumentation > Electronic",
+            "url": "https://ocremix.org/tag/electronic"
+        },
+        {
+            "id": "rock",
+            "path": "Genre > Rock",
+            "url": "https://ocremix.org/tag/rock"
+        },
+        {
+            "id": "synth",
+            "path": "Instrumentation > Synth",
+            "url": "https://ocremix.org/tag/synth"
+        }
+    ],
     "title": "Lunatic Moon",
     "url": "https://ocremix.org/remix/OCR01640"
 }

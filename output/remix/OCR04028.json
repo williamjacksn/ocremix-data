@@ -7,6 +7,68 @@
         }
     ],
     "primary_game": "Secret of Mana",
+    "tags": [
+        {
+            "id": "acoustic-guitar",
+            "path": "Instrumentation > Acoustic Guitar",
+            "url": "https://ocremix.org/tag/acoustic-guitar"
+        },
+        {
+            "id": "ballad",
+            "path": "Genre > Easy Listening > Ballad",
+            "url": "https://ocremix.org/tag/ballad"
+        },
+        {
+            "id": "collab",
+            "path": "Origin > Collaboration",
+            "url": "https://ocremix.org/tag/collab"
+        },
+        {
+            "id": "dark",
+            "path": "Mood > Dark",
+            "url": "https://ocremix.org/tag/dark"
+        },
+        {
+            "id": "distortion",
+            "path": "Effects > Distortion",
+            "url": "https://ocremix.org/tag/distortion"
+        },
+        {
+            "id": "electric-guitar",
+            "path": "Instrumentation > Electric Guitar",
+            "url": "https://ocremix.org/tag/electric-guitar"
+        },
+        {
+            "id": "epic",
+            "path": "Mood > Epic",
+            "url": "https://ocremix.org/tag/epic"
+        },
+        {
+            "id": "lyrics-original",
+            "path": "Lyrics > Lyrics: Original",
+            "url": "https://ocremix.org/tag/lyrics-original"
+        },
+        {
+            "id": "prog-rock",
+            "path": "Genre > Rock > Progressive Rock",
+            "url": "https://ocremix.org/tag/prog-rock"
+        },
+        {
+            "id": "rock",
+            "path": "Genre > Rock",
+            "url": "https://ocremix.org/tag/rock"
+        },
+        {
+            "id": "singing",
+            "path": "Instrumentation > Singing",
+            "url": "https://ocremix.org/tag/singing"
+        },
+        {
+            "id": "vocals-male",
+            "path": "Instrumentation > Vocals: Male",
+            "url": "https://ocremix.org/tag/vocals-male"
+        }
+    ],
     "title": "Shadows from the Past",
     "url": "https://ocremix.org/remix/OCR04028"
 }

@@ -7,6 +7,28 @@
         }
     ],
     "primary_game": "Final Fantasy VIII",
+    "tags": [
+        {
+            "id": "ambient",
+            "path": "Genre > Easy Listening > Ambient",
+            "url": "https://ocremix.org/tag/ambient"
+        },
+        {
+            "id": "duration-long",
+            "path": "Time > Duration: Long",
+            "url": "https://ocremix.org/tag/duration-long"
+        },
+        {
+            "id": "mellow",
+            "path": "Mood > Mellow",
+            "url": "https://ocremix.org/tag/mellow"
+        },
+        {
+            "id": "piano",
+            "path": "Instrumentation > Piano",
+            "url": "https://ocremix.org/tag/piano"
+        }
+    ],
     "title": "Seasons",
     "url": "https://ocremix.org/remix/OCR01991"
 }

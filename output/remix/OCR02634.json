@@ -7,6 +7,28 @@
         }
     ],
     "primary_game": "Zombies Ate My Neighbors",
+    "tags": [
+        {
+            "id": "compo",
+            "path": "Origin > Competition",
+            "url": "https://ocremix.org/tag/compo"
+        },
+        {
+            "id": "electronic",
+            "path": "Instrumentation > Electronic",
+            "url": "https://ocremix.org/tag/electronic"
+        },
+        {
+            "id": "quirky",
+            "path": "Mood > Quirky",
+            "url": "https://ocremix.org/tag/quirky"
+        },
+        {
+            "id": "spooky",
+            "path": "Mood > Spooky",
+            "url": "https://ocremix.org/tag/spooky"
+        }
+    ],
     "title": "Heart Beats",
     "url": "https://ocremix.org/remix/OCR02634"
 }

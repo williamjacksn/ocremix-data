@@ -7,6 +7,18 @@
         }
     ],
     "primary_game": "Chrono Trigger",
+    "tags": [
+        {
+            "id": "piano",
+            "path": "Instrumentation > Piano",
+            "url": "https://ocremix.org/tag/piano"
+        },
+        {
+            "id": "solo",
+            "path": "Arrangement > Solo",
+            "url": "https://ocremix.org/tag/solo"
+        }
+    ],
     "title": "Town Life in Piano",
     "url": "https://ocremix.org/remix/OCR00873"
 }

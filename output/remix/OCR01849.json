@@ -7,6 +7,28 @@
         }
     ],
     "primary_game": "Phantasy Star Online",
+    "tags": [
+        {
+            "id": "chill",
+            "path": "Mood > Chill",
+            "url": "https://ocremix.org/tag/chill"
+        },
+        {
+            "id": "jazz",
+            "path": "Genre > Jazz",
+            "url": "https://ocremix.org/tag/jazz"
+        },
+        {
+            "id": "piano",
+            "path": "Instrumentation > Piano",
+            "url": "https://ocremix.org/tag/piano"
+        },
+        {
+            "id": "synth",
+            "path": "Instrumentation > Synth",
+            "url": "https://ocremix.org/tag/synth"
+        }
+    ],
     "title": "Ragol Weather",
     "url": "https://ocremix.org/remix/OCR01849"
 }

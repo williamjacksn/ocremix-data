@@ -12,6 +12,68 @@
         }
     ],
     "primary_game": "Super Castlevania IV",
+    "tags": [
+        {
+            "id": "ambient",
+            "path": "Genre > Easy Listening > Ambient",
+            "url": "https://ocremix.org/tag/ambient"
+        },
+        {
+            "id": "collab",
+            "path": "Origin > Collaboration",
+            "url": "https://ocremix.org/tag/collab"
+        },
+        {
+            "id": "dark",
+            "path": "Mood > Dark",
+            "url": "https://ocremix.org/tag/dark"
+        },
+        {
+            "id": "flute",
+            "path": "Instrumentation > Flute",
+            "url": "https://ocremix.org/tag/flute"
+        },
+        {
+            "id": "mellow",
+            "path": "Mood > Mellow",
+            "url": "https://ocremix.org/tag/mellow"
+        },
+        {
+            "id": "oboe",
+            "path": "Instrumentation > Oboe",
+            "url": "https://ocremix.org/tag/oboe"
+        },
+        {
+            "id": "orchestral",
+            "path": "Instrumentation > Orchestral",
+            "url": "https://ocremix.org/tag/orchestral"
+        },
+        {
+            "id": "piano",
+            "path": "Instrumentation > Piano",
+            "url": "https://ocremix.org/tag/piano"
+        },
+        {
+            "id": "sound-fx",
+            "path": "Instrumentation > Sound FX",
+            "url": "https://ocremix.org/tag/sound-fx"
+        },
+        {
+            "id": "strings",
+            "path": "Instrumentation > Strings",
+            "url": "https://ocremix.org/tag/strings"
+        },
+        {
+            "id": "symphonic",
+            "path": "Genre > Classical > Symphonic",
+            "url": "https://ocremix.org/tag/symphonic"
+        },
+        {
+            "id": "woodwinds",
+            "path": "Instrumentation > Woodwinds",
+            "url": "https://ocremix.org/tag/woodwinds"
+        }
+    ],
     "title": "Reflections",
     "url": "https://ocremix.org/remix/OCR03548"
 }

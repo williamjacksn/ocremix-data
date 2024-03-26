@@ -7,6 +7,28 @@
         }
     ],
     "primary_game": "Sonic Advance",
+    "tags": [
+        {
+            "id": "mellow",
+            "path": "Mood > Mellow",
+            "url": "https://ocremix.org/tag/mellow"
+        },
+        {
+            "id": "piano",
+            "path": "Instrumentation > Piano",
+            "url": "https://ocremix.org/tag/piano"
+        },
+        {
+            "id": "pop",
+            "path": "Genre > Pop",
+            "url": "https://ocremix.org/tag/pop"
+        },
+        {
+            "id": "tempo-fast",
+            "path": "Time > Tempo: Fast",
+            "url": "https://ocremix.org/tag/tempo-fast"
+        }
+    ],
     "title": "The Glacier's Peak",
     "url": "https://ocremix.org/remix/OCR02370"
 }

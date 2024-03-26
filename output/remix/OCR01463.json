@@ -7,6 +7,23 @@
         }
     ],
     "primary_game": "Grandia II",
+    "tags": [
+        {
+            "id": "cinematic",
+            "path": "Genre > Cinematic",
+            "url": "https://ocremix.org/tag/cinematic"
+        },
+        {
+            "id": "orchestral",
+            "path": "Instrumentation > Orchestral",
+            "url": "https://ocremix.org/tag/orchestral"
+        },
+        {
+            "id": "woodwinds",
+            "path": "Instrumentation > Woodwinds",
+            "url": "https://ocremix.org/tag/woodwinds"
+        }
+    ],
     "title": "A Deus ex Harpa (Second Seal Mix)",
     "url": "https://ocremix.org/remix/OCR01463"
 }

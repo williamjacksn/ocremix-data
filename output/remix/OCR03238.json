@@ -7,6 +7,58 @@
         }
     ],
     "primary_game": "Demon's Souls",
+    "tags": [
+        {
+            "id": "cinematic",
+            "path": "Genre > Cinematic",
+            "url": "https://ocremix.org/tag/cinematic"
+        },
+        {
+            "id": "classical",
+            "path": "Genre > Classical",
+            "url": "https://ocremix.org/tag/classical"
+        },
+        {
+            "id": "organ",
+            "path": "Instrumentation > Organ",
+            "url": "https://ocremix.org/tag/organ"
+        },
+        {
+            "id": "piano",
+            "path": "Instrumentation > Piano",
+            "url": "https://ocremix.org/tag/piano"
+        },
+        {
+            "id": "sad",
+            "path": "Mood > Sad",
+            "url": "https://ocremix.org/tag/sad"
+        },
+        {
+            "id": "solemn",
+            "path": "Mood > Solemn",
+            "url": "https://ocremix.org/tag/solemn"
+        },
+        {
+            "id": "strings",
+            "path": "Instrumentation > Strings",
+            "url": "https://ocremix.org/tag/strings"
+        },
+        {
+            "id": "tempo-variable",
+            "path": "Time > Tempo: Variable",
+            "url": "https://ocremix.org/tag/tempo-variable"
+        },
+        {
+            "id": "timesig-4-4",
+            "path": "Time > 4/4 Time Signature",
+            "url": "https://ocremix.org/tag/timesig-4-4"
+        },
+        {
+            "id": "woodwinds",
+            "path": "Instrumentation > Woodwinds",
+            "url": "https://ocremix.org/tag/woodwinds"
+        }
+    ],
     "title": "Abandoned by God",
     "url": "https://ocremix.org/remix/OCR03238"
 }

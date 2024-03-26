@@ -7,6 +7,48 @@
         }
     ],
     "primary_game": "Pok\u00e9mon Mystery Dungeon: Explorers of Time",
+    "tags": [
+        {
+            "id": "bells",
+            "path": "Instrumentation > Bells",
+            "url": "https://ocremix.org/tag/bells"
+        },
+        {
+            "id": "edm",
+            "path": "Genre > EDM",
+            "url": "https://ocremix.org/tag/edm"
+        },
+        {
+            "id": "electronic",
+            "path": "Instrumentation > Electronic",
+            "url": "https://ocremix.org/tag/electronic"
+        },
+        {
+            "id": "glitch-hop",
+            "path": "Genre > Hip Hop > Glitch Hop",
+            "url": "https://ocremix.org/tag/glitch-hop"
+        },
+        {
+            "id": "glitching",
+            "path": "Effects > Glitching",
+            "url": "https://ocremix.org/tag/glitching"
+        },
+        {
+            "id": "harp",
+            "path": "Instrumentation > Harp",
+            "url": "https://ocremix.org/tag/harp"
+        },
+        {
+            "id": "lo-fi",
+            "path": "Effects > Lo-Fi",
+            "url": "https://ocremix.org/tag/lo-fi"
+        },
+        {
+            "id": "synth",
+            "path": "Instrumentation > Synth",
+            "url": "https://ocremix.org/tag/synth"
+        }
+    ],
     "title": "The Lost Explorer",
     "url": "https://ocremix.org/remix/OCR03660"
 }

@@ -7,6 +7,23 @@
         }
     ],
     "primary_game": "Final Fantasy V",
+    "tags": [
+        {
+            "id": "classical",
+            "path": "Genre > Classical",
+            "url": "https://ocremix.org/tag/classical"
+        },
+        {
+            "id": "compo",
+            "path": "Origin > Competition",
+            "url": "https://ocremix.org/tag/compo"
+        },
+        {
+            "id": "orchestral",
+            "path": "Instrumentation > Orchestral",
+            "url": "https://ocremix.org/tag/orchestral"
+        }
+    ],
     "title": "The Heroes Emerge",
     "url": "https://ocremix.org/remix/OCR01756"
 }

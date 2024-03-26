@@ -12,6 +12,53 @@
         }
     ],
     "primary_game": "Sid Meier's Civilization IV",
+    "tags": [
+        {
+            "id": "acoustic-guitar",
+            "path": "Instrumentation > Acoustic Guitar",
+            "url": "https://ocremix.org/tag/acoustic-guitar"
+        },
+        {
+            "id": "collab",
+            "path": "Origin > Collaboration",
+            "url": "https://ocremix.org/tag/collab"
+        },
+        {
+            "id": "electric-guitar",
+            "path": "Instrumentation > Electric Guitar",
+            "url": "https://ocremix.org/tag/electric-guitar"
+        },
+        {
+            "id": "lyrics-existing",
+            "path": "Lyrics > Lyrics: Existing",
+            "url": "https://ocremix.org/tag/lyrics-existing"
+        },
+        {
+            "id": "rock",
+            "path": "Genre > Rock",
+            "url": "https://ocremix.org/tag/rock"
+        },
+        {
+            "id": "singing",
+            "path": "Instrumentation > Singing",
+            "url": "https://ocremix.org/tag/singing"
+        },
+        {
+            "id": "vocals-male",
+            "path": "Instrumentation > Vocals: Male",
+            "url": "https://ocremix.org/tag/vocals-male"
+        },
+        {
+            "id": "woodwinds",
+            "path": "Instrumentation > Woodwinds",
+            "url": "https://ocremix.org/tag/woodwinds"
+        },
+        {
+            "id": "world",
+            "path": "Regional > World",
+            "url": "https://ocremix.org/tag/world"
+        }
+    ],
     "title": "Destined for Greatness",
     "url": "https://ocremix.org/remix/OCR01843"
 }

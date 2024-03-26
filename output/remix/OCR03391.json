@@ -7,6 +7,43 @@
         }
     ],
     "primary_game": "Final Fantasy IV",
+    "tags": [
+        {
+            "id": "ballad",
+            "path": "Genre > Easy Listening > Ballad",
+            "url": "https://ocremix.org/tag/ballad"
+        },
+        {
+            "id": "electric-piano",
+            "path": "Instrumentation > Electric Piano",
+            "url": "https://ocremix.org/tag/electric-piano"
+        },
+        {
+            "id": "funky",
+            "path": "Mood > Funky",
+            "url": "https://ocremix.org/tag/funky"
+        },
+        {
+            "id": "mellow",
+            "path": "Mood > Mellow",
+            "url": "https://ocremix.org/tag/mellow"
+        },
+        {
+            "id": "rnb",
+            "path": "Genre > R&B",
+            "url": "https://ocremix.org/tag/rnb"
+        },
+        {
+            "id": "synth",
+            "path": "Instrumentation > Synth",
+            "url": "https://ocremix.org/tag/synth"
+        },
+        {
+            "id": "tempo-slow",
+            "path": "Time > Tempo: Slow",
+            "url": "https://ocremix.org/tag/tempo-slow"
+        }
+    ],
     "title": "The Light of My Father",
     "url": "https://ocremix.org/remix/OCR03391"
 }

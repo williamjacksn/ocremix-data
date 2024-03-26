@@ -7,6 +7,43 @@
         }
     ],
     "primary_game": "Adventures of Lolo 3",
+    "tags": [
+        {
+            "id": "brass",
+            "path": "Instrumentation > Brass",
+            "url": "https://ocremix.org/tag/brass"
+        },
+        {
+            "id": "happy",
+            "path": "Mood > Happy",
+            "url": "https://ocremix.org/tag/happy"
+        },
+        {
+            "id": "march",
+            "path": "Genre > Classical > March",
+            "url": "https://ocremix.org/tag/march"
+        },
+        {
+            "id": "orchestral",
+            "path": "Instrumentation > Orchestral",
+            "url": "https://ocremix.org/tag/orchestral"
+        },
+        {
+            "id": "strings",
+            "path": "Instrumentation > Strings",
+            "url": "https://ocremix.org/tag/strings"
+        },
+        {
+            "id": "tempo-fast",
+            "path": "Time > Tempo: Fast",
+            "url": "https://ocremix.org/tag/tempo-fast"
+        },
+        {
+            "id": "woodwinds",
+            "path": "Instrumentation > Woodwinds",
+            "url": "https://ocremix.org/tag/woodwinds"
+        }
+    ],
     "title": "The Eggerlander March",
     "url": "https://ocremix.org/remix/OCR02433"
 }

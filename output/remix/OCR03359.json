@@ -7,6 +7,63 @@
         }
     ],
     "primary_game": "Mega Man X2",
+    "tags": [
+        {
+            "id": "breakbeats",
+            "path": "Instrumentation > Breakbeats",
+            "url": "https://ocremix.org/tag/breakbeats"
+        },
+        {
+            "id": "dubstep",
+            "path": "Genre > EDM > Dubstep",
+            "url": "https://ocremix.org/tag/dubstep"
+        },
+        {
+            "id": "energetic",
+            "path": "Mood > Energetic",
+            "url": "https://ocremix.org/tag/energetic"
+        },
+        {
+            "id": "goofy",
+            "path": "Mood > Goofy",
+            "url": "https://ocremix.org/tag/goofy"
+        },
+        {
+            "id": "lyrics-existing",
+            "path": "Lyrics > Lyrics: Existing",
+            "url": "https://ocremix.org/tag/lyrics-existing"
+        },
+        {
+            "id": "singing",
+            "path": "Instrumentation > Singing",
+            "url": "https://ocremix.org/tag/singing"
+        },
+        {
+            "id": "synth",
+            "path": "Instrumentation > Synth",
+            "url": "https://ocremix.org/tag/synth"
+        },
+        {
+            "id": "tempo-variable",
+            "path": "Time > Tempo: Variable",
+            "url": "https://ocremix.org/tag/tempo-variable"
+        },
+        {
+            "id": "timesig-4-4",
+            "path": "Time > 4/4 Time Signature",
+            "url": "https://ocremix.org/tag/timesig-4-4"
+        },
+        {
+            "id": "vocals-male",
+            "path": "Instrumentation > Vocals: Male",
+            "url": "https://ocremix.org/tag/vocals-male"
+        },
+        {
+            "id": "vocoder",
+            "path": "Effects > Vocoder",
+            "url": "https://ocremix.org/tag/vocoder"
+        }
+    ],
     "title": "(Don't Wanna) Hurt You",
     "url": "https://ocremix.org/remix/OCR03359"
 }

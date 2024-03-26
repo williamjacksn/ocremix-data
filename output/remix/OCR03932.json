@@ -7,6 +7,48 @@
         }
     ],
     "primary_game": "The Legend of Zelda: A Link to the Past",
+    "tags": [
+        {
+            "id": "chill",
+            "path": "Mood > Chill",
+            "url": "https://ocremix.org/tag/chill"
+        },
+        {
+            "id": "dark",
+            "path": "Mood > Dark",
+            "url": "https://ocremix.org/tag/dark"
+        },
+        {
+            "id": "downtempo",
+            "path": "Genre > EDM > Downtempo",
+            "url": "https://ocremix.org/tag/downtempo"
+        },
+        {
+            "id": "electronic",
+            "path": "Instrumentation > Electronic",
+            "url": "https://ocremix.org/tag/electronic"
+        },
+        {
+            "id": "orchestral",
+            "path": "Instrumentation > Orchestral",
+            "url": "https://ocremix.org/tag/orchestral"
+        },
+        {
+            "id": "piano",
+            "path": "Instrumentation > Piano",
+            "url": "https://ocremix.org/tag/piano"
+        },
+        {
+            "id": "synth",
+            "path": "Instrumentation > Synth",
+            "url": "https://ocremix.org/tag/synth"
+        },
+        {
+            "id": "trap",
+            "path": "Genre > Hip Hop > Trap",
+            "url": "https://ocremix.org/tag/trap"
+        }
+    ],
     "title": "Dark World's Prophet",
     "url": "https://ocremix.org/remix/OCR03932"
 }

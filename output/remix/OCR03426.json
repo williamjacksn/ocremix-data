@@ -7,6 +7,33 @@
         }
     ],
     "primary_game": "Pony Island",
+    "tags": [
+        {
+            "id": "aggressive",
+            "path": "Mood > Aggressive",
+            "url": "https://ocremix.org/tag/aggressive"
+        },
+        {
+            "id": "dark",
+            "path": "Mood > Dark",
+            "url": "https://ocremix.org/tag/dark"
+        },
+        {
+            "id": "electric-guitar",
+            "path": "Instrumentation > Electric Guitar",
+            "url": "https://ocremix.org/tag/electric-guitar"
+        },
+        {
+            "id": "glitching",
+            "path": "Effects > Glitching",
+            "url": "https://ocremix.org/tag/glitching"
+        },
+        {
+            "id": "metal",
+            "path": "Genre > Rock > Metal",
+            "url": "https://ocremix.org/tag/metal"
+        }
+    ],
     "title": "Diabolus ex Machina",
     "url": "https://ocremix.org/remix/OCR03426"
 }

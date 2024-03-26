@@ -7,6 +7,43 @@
         }
     ],
     "primary_game": "Rockman & Forte",
+    "tags": [
+        {
+            "id": "electric-piano",
+            "path": "Instrumentation > Electric Piano",
+            "url": "https://ocremix.org/tag/electric-piano"
+        },
+        {
+            "id": "electronic",
+            "path": "Instrumentation > Electronic",
+            "url": "https://ocremix.org/tag/electronic"
+        },
+        {
+            "id": "energetic",
+            "path": "Mood > Energetic",
+            "url": "https://ocremix.org/tag/energetic"
+        },
+        {
+            "id": "funk",
+            "path": "Genre > R&B > Funk",
+            "url": "https://ocremix.org/tag/funk"
+        },
+        {
+            "id": "funky",
+            "path": "Mood > Funky",
+            "url": "https://ocremix.org/tag/funky"
+        },
+        {
+            "id": "jazzy",
+            "path": "Mood > Jazzy",
+            "url": "https://ocremix.org/tag/jazzy"
+        },
+        {
+            "id": "synth",
+            "path": "Instrumentation > Synth",
+            "url": "https://ocremix.org/tag/synth"
+        }
+    ],
     "title": "Monsieur Mega",
     "url": "https://ocremix.org/remix/OCR03124"
 }

@@ -27,6 +27,93 @@
         }
     ],
     "primary_game": "Suikoden II",
+    "tags": [
+        {
+            "id": "acoustic-guitar",
+            "path": "Instrumentation > Acoustic Guitar",
+            "url": "https://ocremix.org/tag/acoustic-guitar"
+        },
+        {
+            "id": "ballad",
+            "path": "Genre > Easy Listening > Ballad",
+            "url": "https://ocremix.org/tag/ballad"
+        },
+        {
+            "id": "bells",
+            "path": "Instrumentation > Bells",
+            "url": "https://ocremix.org/tag/bells"
+        },
+        {
+            "id": "celtic",
+            "path": "Regional > Celtic",
+            "url": "https://ocremix.org/tag/celtic"
+        },
+        {
+            "id": "collab",
+            "path": "Origin > Collaboration",
+            "url": "https://ocremix.org/tag/collab"
+        },
+        {
+            "id": "flute",
+            "path": "Instrumentation > Flute",
+            "url": "https://ocremix.org/tag/flute"
+        },
+        {
+            "id": "folk",
+            "path": "Genre > Folk",
+            "url": "https://ocremix.org/tag/folk"
+        },
+        {
+            "id": "live-instruments",
+            "path": "Production > Live Instruments",
+            "url": "https://ocremix.org/tag/live-instruments"
+        },
+        {
+            "id": "lyrics-original",
+            "path": "Lyrics > Lyrics: Original",
+            "url": "https://ocremix.org/tag/lyrics-original"
+        },
+        {
+            "id": "mellow",
+            "path": "Mood > Mellow",
+            "url": "https://ocremix.org/tag/mellow"
+        },
+        {
+            "id": "piano",
+            "path": "Instrumentation > Piano",
+            "url": "https://ocremix.org/tag/piano"
+        },
+        {
+            "id": "romantic",
+            "path": "Mood > Romantic",
+            "url": "https://ocremix.org/tag/romantic"
+        },
+        {
+            "id": "singing",
+            "path": "Instrumentation > Singing",
+            "url": "https://ocremix.org/tag/singing"
+        },
+        {
+            "id": "timesig-3-4",
+            "path": "Time > 3/4 Time Signature",
+            "url": "https://ocremix.org/tag/timesig-3-4"
+        },
+        {
+            "id": "violin",
+            "path": "Instrumentation > Violin",
+            "url": "https://ocremix.org/tag/violin"
+        },
+        {
+            "id": "vocals-female",
+            "path": "Instrumentation > Vocals: Female",
+            "url": "https://ocremix.org/tag/vocals-female"
+        },
+        {
+            "id": "woodwinds",
+            "path": "Instrumentation > Woodwinds",
+            "url": "https://ocremix.org/tag/woodwinds"
+        }
+    ],
     "title": "Do You Remember?",
     "url": "https://ocremix.org/remix/OCR03541"
 }

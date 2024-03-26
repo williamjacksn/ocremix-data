@@ -7,6 +7,23 @@
         }
     ],
     "primary_game": "Castlevania II: Simon's Quest",
+    "tags": [
+        {
+            "id": "jazz",
+            "path": "Genre > Jazz",
+            "url": "https://ocremix.org/tag/jazz"
+        },
+        {
+            "id": "piano",
+            "path": "Instrumentation > Piano",
+            "url": "https://ocremix.org/tag/piano"
+        },
+        {
+            "id": "vibraphone",
+            "path": "Instrumentation > Vibraphone",
+            "url": "https://ocremix.org/tag/vibraphone"
+        }
+    ],
     "title": "The Solace of the Daylight",
     "url": "https://ocremix.org/remix/OCR01928"
 }

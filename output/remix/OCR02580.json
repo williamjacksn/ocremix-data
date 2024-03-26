@@ -7,6 +7,33 @@
         }
     ],
     "primary_game": "Persona 4 Arena",
+    "tags": [
+        {
+            "id": "electric-piano",
+            "path": "Instrumentation > Electric Piano",
+            "url": "https://ocremix.org/tag/electric-piano"
+        },
+        {
+            "id": "jazz",
+            "path": "Genre > Jazz",
+            "url": "https://ocremix.org/tag/jazz"
+        },
+        {
+            "id": "saxophone",
+            "path": "Instrumentation > Saxophone",
+            "url": "https://ocremix.org/tag/saxophone"
+        },
+        {
+            "id": "synth",
+            "path": "Instrumentation > Synth",
+            "url": "https://ocremix.org/tag/synth"
+        },
+        {
+            "id": "tempo-fast",
+            "path": "Time > Tempo: Fast",
+            "url": "https://ocremix.org/tag/tempo-fast"
+        }
+    ],
     "title": "Little Arena",
     "url": "https://ocremix.org/remix/OCR02580"
 }

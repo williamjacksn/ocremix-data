@@ -7,6 +7,23 @@
         }
     ],
     "primary_game": "The Legend of Zelda: Oracle of Ages",
+    "tags": [
+        {
+            "id": "chiptune",
+            "path": "Instrumentation > Chiptune",
+            "url": "https://ocremix.org/tag/chiptune"
+        },
+        {
+            "id": "orchestral",
+            "path": "Instrumentation > Orchestral",
+            "url": "https://ocremix.org/tag/orchestral"
+        },
+        {
+            "id": "synth",
+            "path": "Instrumentation > Synth",
+            "url": "https://ocremix.org/tag/synth"
+        }
+    ],
     "title": "Essence of Lime",
     "url": "https://ocremix.org/remix/OCR02054"
 }

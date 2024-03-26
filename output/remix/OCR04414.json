@@ -7,6 +7,48 @@
         }
     ],
     "primary_game": "Final Fantasy X",
+    "tags": [
+        {
+            "id": "cello",
+            "path": "Instrumentation > Cello",
+            "url": "https://ocremix.org/tag/cello"
+        },
+        {
+            "id": "chamber",
+            "path": "Genre > Classical > Chamber",
+            "url": "https://ocremix.org/tag/chamber"
+        },
+        {
+            "id": "classical",
+            "path": "Genre > Classical",
+            "url": "https://ocremix.org/tag/classical"
+        },
+        {
+            "id": "mellow",
+            "path": "Mood > Mellow",
+            "url": "https://ocremix.org/tag/mellow"
+        },
+        {
+            "id": "piano",
+            "path": "Instrumentation > Piano",
+            "url": "https://ocremix.org/tag/piano"
+        },
+        {
+            "id": "solemn",
+            "path": "Mood > Solemn",
+            "url": "https://ocremix.org/tag/solemn"
+        },
+        {
+            "id": "trio",
+            "path": "Arrangement > Trio",
+            "url": "https://ocremix.org/tag/trio"
+        },
+        {
+            "id": "violin",
+            "path": "Instrumentation > Violin",
+            "url": "https://ocremix.org/tag/violin"
+        }
+    ],
     "title": "Yuna at Zanarkand, Her Mind on Lost Friends",
     "url": "https://ocremix.org/remix/OCR04414"
 }

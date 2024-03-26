@@ -7,6 +7,38 @@
         }
     ],
     "primary_game": "Final Fantasy VI",
+    "tags": [
+        {
+            "id": "dance",
+            "path": "Genre > EDM > Dance",
+            "url": "https://ocremix.org/tag/dance"
+        },
+        {
+            "id": "edm",
+            "path": "Genre > EDM",
+            "url": "https://ocremix.org/tag/edm"
+        },
+        {
+            "id": "happy",
+            "path": "Mood > Happy",
+            "url": "https://ocremix.org/tag/happy"
+        },
+        {
+            "id": "sound-fx",
+            "path": "Instrumentation > Sound FX",
+            "url": "https://ocremix.org/tag/sound-fx"
+        },
+        {
+            "id": "synth",
+            "path": "Instrumentation > Synth",
+            "url": "https://ocremix.org/tag/synth"
+        },
+        {
+            "id": "tempo-fast",
+            "path": "Time > Tempo: Fast",
+            "url": "https://ocremix.org/tag/tempo-fast"
+        }
+    ],
     "title": "Celces (Dance)",
     "url": "https://ocremix.org/remix/OCR00199"
 }

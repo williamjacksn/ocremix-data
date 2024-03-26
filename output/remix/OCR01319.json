@@ -7,6 +7,38 @@
         }
     ],
     "primary_game": "Xenogears",
+    "tags": [
+        {
+            "id": "brass",
+            "path": "Instrumentation > Brass",
+            "url": "https://ocremix.org/tag/brass"
+        },
+        {
+            "id": "cinematic",
+            "path": "Genre > Cinematic",
+            "url": "https://ocremix.org/tag/cinematic"
+        },
+        {
+            "id": "sad",
+            "path": "Mood > Sad",
+            "url": "https://ocremix.org/tag/sad"
+        },
+        {
+            "id": "singing",
+            "path": "Instrumentation > Singing",
+            "url": "https://ocremix.org/tag/singing"
+        },
+        {
+            "id": "strings",
+            "path": "Instrumentation > Strings",
+            "url": "https://ocremix.org/tag/strings"
+        },
+        {
+            "id": "vocals-female",
+            "path": "Instrumentation > Vocals: Female",
+            "url": "https://ocremix.org/tag/vocals-female"
+        }
+    ],
     "title": "Xenosphere",
     "url": "https://ocremix.org/remix/OCR01319"
 }

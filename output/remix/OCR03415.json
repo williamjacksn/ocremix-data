@@ -7,6 +7,63 @@
         }
     ],
     "primary_game": "Secret of Mana",
+    "tags": [
+        {
+            "id": "acoustic-guitar",
+            "path": "Instrumentation > Acoustic Guitar",
+            "url": "https://ocremix.org/tag/acoustic-guitar"
+        },
+        {
+            "id": "flute",
+            "path": "Instrumentation > Flute",
+            "url": "https://ocremix.org/tag/flute"
+        },
+        {
+            "id": "folk",
+            "path": "Genre > Folk",
+            "url": "https://ocremix.org/tag/folk"
+        },
+        {
+            "id": "funky",
+            "path": "Mood > Funky",
+            "url": "https://ocremix.org/tag/funky"
+        },
+        {
+            "id": "live-instruments",
+            "path": "Production > Live Instruments",
+            "url": "https://ocremix.org/tag/live-instruments"
+        },
+        {
+            "id": "quirky",
+            "path": "Mood > Quirky",
+            "url": "https://ocremix.org/tag/quirky"
+        },
+        {
+            "id": "saxophone",
+            "path": "Instrumentation > Saxophone",
+            "url": "https://ocremix.org/tag/saxophone"
+        },
+        {
+            "id": "singing",
+            "path": "Instrumentation > Singing",
+            "url": "https://ocremix.org/tag/singing"
+        },
+        {
+            "id": "trombone",
+            "path": "Instrumentation > Trombone",
+            "url": "https://ocremix.org/tag/trombone"
+        },
+        {
+            "id": "ukulele",
+            "path": "Instrumentation > Ukulele",
+            "url": "https://ocremix.org/tag/ukulele"
+        },
+        {
+            "id": "vocals-female",
+            "path": "Instrumentation > Vocals: Female",
+            "url": "https://ocremix.org/tag/vocals-female"
+        }
+    ],
     "title": "Thick Jams",
     "url": "https://ocremix.org/remix/OCR03415"
 }

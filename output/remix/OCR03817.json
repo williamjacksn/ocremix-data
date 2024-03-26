@@ -7,6 +7,58 @@
         }
     ],
     "primary_game": "Seiken Densetsu 3",
+    "tags": [
+        {
+            "id": "aggressive",
+            "path": "Mood > Aggressive",
+            "url": "https://ocremix.org/tag/aggressive"
+        },
+        {
+            "id": "bells",
+            "path": "Instrumentation > Bells",
+            "url": "https://ocremix.org/tag/bells"
+        },
+        {
+            "id": "electric-guitar",
+            "path": "Instrumentation > Electric Guitar",
+            "url": "https://ocremix.org/tag/electric-guitar"
+        },
+        {
+            "id": "energetic",
+            "path": "Mood > Energetic",
+            "url": "https://ocremix.org/tag/energetic"
+        },
+        {
+            "id": "flute",
+            "path": "Instrumentation > Flute",
+            "url": "https://ocremix.org/tag/flute"
+        },
+        {
+            "id": "march",
+            "path": "Genre > Classical > March",
+            "url": "https://ocremix.org/tag/march"
+        },
+        {
+            "id": "metal",
+            "path": "Genre > Rock > Metal",
+            "url": "https://ocremix.org/tag/metal"
+        },
+        {
+            "id": "strings",
+            "path": "Instrumentation > Strings",
+            "url": "https://ocremix.org/tag/strings"
+        },
+        {
+            "id": "symphonic",
+            "path": "Genre > Classical > Symphonic",
+            "url": "https://ocremix.org/tag/symphonic"
+        },
+        {
+            "id": "synth",
+            "path": "Instrumentation > Synth",
+            "url": "https://ocremix.org/tag/synth"
+        }
+    ],
     "title": "March to High",
     "url": "https://ocremix.org/remix/OCR03817"
 }

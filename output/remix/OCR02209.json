@@ -7,6 +7,23 @@
         }
     ],
     "primary_game": "Mega Man 7",
+    "tags": [
+        {
+            "id": "jazz",
+            "path": "Genre > Jazz",
+            "url": "https://ocremix.org/tag/jazz"
+        },
+        {
+            "id": "latin",
+            "path": "Genre > Latin",
+            "url": "https://ocremix.org/tag/latin"
+        },
+        {
+            "id": "piano",
+            "path": "Instrumentation > Piano",
+            "url": "https://ocremix.org/tag/piano"
+        }
+    ],
     "title": "Slash Claw",
     "url": "https://ocremix.org/remix/OCR02209"
 }

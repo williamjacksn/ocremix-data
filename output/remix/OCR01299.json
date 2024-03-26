@@ -7,6 +7,18 @@
         }
     ],
     "primary_game": "Commander Keen IV: Secret of the Oracle",
+    "tags": [
+        {
+            "id": "goofy",
+            "path": "Mood > Goofy",
+            "url": "https://ocremix.org/tag/goofy"
+        },
+        {
+            "id": "synth",
+            "path": "Instrumentation > Synth",
+            "url": "https://ocremix.org/tag/synth"
+        }
+    ],
     "title": "Tuatara Swamp Jam",
     "url": "https://ocremix.org/remix/OCR01299"
 }

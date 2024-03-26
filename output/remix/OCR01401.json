@@ -7,6 +7,33 @@
         }
     ],
     "primary_game": "Castlevania III: Dracula's Curse",
+    "tags": [
+        {
+            "id": "compo-dod",
+            "path": "Origin > Competition > Dwelling of Duels",
+            "url": "https://ocremix.org/tag/compo-dod"
+        },
+        {
+            "id": "halloween",
+            "path": "Usage > Halloween",
+            "url": "https://ocremix.org/tag/halloween"
+        },
+        {
+            "id": "piano",
+            "path": "Instrumentation > Piano",
+            "url": "https://ocremix.org/tag/piano"
+        },
+        {
+            "id": "solo",
+            "path": "Arrangement > Solo",
+            "url": "https://ocremix.org/tag/solo"
+        },
+        {
+            "id": "solo-piano",
+            "path": "Instrumentation > Solo Piano",
+            "url": "https://ocremix.org/tag/solo-piano"
+        }
+    ],
     "title": "A Clockwork Vampire",
     "url": "https://ocremix.org/remix/OCR01401"
 }

@@ -7,6 +7,18 @@
         }
     ],
     "primary_game": "Donkey Kong Country 2: Diddy's Kong Quest",
+    "tags": [
+        {
+            "id": "classical",
+            "path": "Genre > Classical",
+            "url": "https://ocremix.org/tag/classical"
+        },
+        {
+            "id": "orchestral",
+            "path": "Instrumentation > Orchestral",
+            "url": "https://ocremix.org/tag/orchestral"
+        }
+    ],
     "title": "Set Sail",
     "url": "https://ocremix.org/remix/OCR01276"
 }

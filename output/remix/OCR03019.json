@@ -7,6 +7,53 @@
         }
     ],
     "primary_game": "Ecco: The Tides of Time",
+    "tags": [
+        {
+            "id": "cinematic",
+            "path": "Genre > Cinematic",
+            "url": "https://ocremix.org/tag/cinematic"
+        },
+        {
+            "id": "dark",
+            "path": "Mood > Dark",
+            "url": "https://ocremix.org/tag/dark"
+        },
+        {
+            "id": "duration-long",
+            "path": "Time > Duration: Long",
+            "url": "https://ocremix.org/tag/duration-long"
+        },
+        {
+            "id": "electronic",
+            "path": "Instrumentation > Electronic",
+            "url": "https://ocremix.org/tag/electronic"
+        },
+        {
+            "id": "experimental",
+            "path": "Genre > Experimental",
+            "url": "https://ocremix.org/tag/experimental"
+        },
+        {
+            "id": "glitching",
+            "path": "Effects > Glitching",
+            "url": "https://ocremix.org/tag/glitching"
+        },
+        {
+            "id": "piano",
+            "path": "Instrumentation > Piano",
+            "url": "https://ocremix.org/tag/piano"
+        },
+        {
+            "id": "solemn",
+            "path": "Mood > Solemn",
+            "url": "https://ocremix.org/tag/solemn"
+        },
+        {
+            "id": "strings",
+            "path": "Instrumentation > Strings",
+            "url": "https://ocremix.org/tag/strings"
+        }
+    ],
     "title": "A Derelict Machine",
     "url": "https://ocremix.org/remix/OCR03019"
 }

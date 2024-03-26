@@ -7,6 +7,38 @@
         }
     ],
     "primary_game": "Mega Man 6",
+    "tags": [
+        {
+            "id": "acoustic",
+            "path": "Instrumentation > Acoustic",
+            "url": "https://ocremix.org/tag/acoustic"
+        },
+        {
+            "id": "acoustic-guitar",
+            "path": "Instrumentation > Acoustic Guitar",
+            "url": "https://ocremix.org/tag/acoustic-guitar"
+        },
+        {
+            "id": "flute",
+            "path": "Instrumentation > Flute",
+            "url": "https://ocremix.org/tag/flute"
+        },
+        {
+            "id": "folk",
+            "path": "Genre > Folk",
+            "url": "https://ocremix.org/tag/folk"
+        },
+        {
+            "id": "jazz",
+            "path": "Genre > Jazz",
+            "url": "https://ocremix.org/tag/jazz"
+        },
+        {
+            "id": "rock",
+            "path": "Genre > Rock",
+            "url": "https://ocremix.org/tag/rock"
+        }
+    ],
     "title": "Quir\u00f3n's Mallets",
     "url": "https://ocremix.org/remix/OCR02847"
 }

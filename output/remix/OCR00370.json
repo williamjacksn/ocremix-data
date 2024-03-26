@@ -12,6 +12,13 @@
         }
     ],
     "primary_game": "Parasite Eve",
+    "tags": [
+        {
+            "id": "lyrics-explicit",
+            "path": "Lyrics > Lyrics: Explicit",
+            "url": "https://ocremix.org/tag/lyrics-explicit"
+        }
+    ],
     "title": "Primal Eyes (Tapeworm)",
     "url": "https://ocremix.org/remix/OCR00370"
 }

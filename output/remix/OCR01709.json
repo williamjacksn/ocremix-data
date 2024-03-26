@@ -7,6 +7,33 @@
         }
     ],
     "primary_game": "Klax",
+    "tags": [
+        {
+            "id": "dark",
+            "path": "Mood > Dark",
+            "url": "https://ocremix.org/tag/dark"
+        },
+        {
+            "id": "duration-short",
+            "path": "Time > Duration: Short",
+            "url": "https://ocremix.org/tag/duration-short"
+        },
+        {
+            "id": "electronic",
+            "path": "Instrumentation > Electronic",
+            "url": "https://ocremix.org/tag/electronic"
+        },
+        {
+            "id": "industrial",
+            "path": "Genre > EDM > Industrial",
+            "url": "https://ocremix.org/tag/industrial"
+        },
+        {
+            "id": "synth",
+            "path": "Instrumentation > Synth",
+            "url": "https://ocremix.org/tag/synth"
+        }
+    ],
     "title": "Nine Inch Klax",
     "url": "https://ocremix.org/remix/OCR01709"
 }

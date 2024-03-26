@@ -7,6 +7,68 @@
         }
     ],
     "primary_game": "Chrono Cross",
+    "tags": [
+        {
+            "id": "bassoon",
+            "path": "Instrumentation > Bassoon",
+            "url": "https://ocremix.org/tag/bassoon"
+        },
+        {
+            "id": "brass",
+            "path": "Instrumentation > Brass",
+            "url": "https://ocremix.org/tag/brass"
+        },
+        {
+            "id": "chill",
+            "path": "Mood > Chill",
+            "url": "https://ocremix.org/tag/chill"
+        },
+        {
+            "id": "clarinet",
+            "path": "Instrumentation > Clarinet",
+            "url": "https://ocremix.org/tag/clarinet"
+        },
+        {
+            "id": "dark",
+            "path": "Mood > Dark",
+            "url": "https://ocremix.org/tag/dark"
+        },
+        {
+            "id": "didgeridoo",
+            "path": "Instrumentation > Didgeridoo",
+            "url": "https://ocremix.org/tag/didgeridoo"
+        },
+        {
+            "id": "flute",
+            "path": "Instrumentation > Flute",
+            "url": "https://ocremix.org/tag/flute"
+        },
+        {
+            "id": "hand-drums",
+            "path": "Instrumentation > Hand Drums",
+            "url": "https://ocremix.org/tag/hand-drums"
+        },
+        {
+            "id": "harp",
+            "path": "Instrumentation > Harp",
+            "url": "https://ocremix.org/tag/harp"
+        },
+        {
+            "id": "middle-eastern",
+            "path": "Regional > Middle Eastern",
+            "url": "https://ocremix.org/tag/middle-eastern"
+        },
+        {
+            "id": "suspenseful",
+            "path": "Mood > Suspenseful",
+            "url": "https://ocremix.org/tag/suspenseful"
+        },
+        {
+            "id": "woodwinds",
+            "path": "Instrumentation > Woodwinds",
+            "url": "https://ocremix.org/tag/woodwinds"
+        }
+    ],
     "title": "Hydra Shadow",
     "url": "https://ocremix.org/remix/OCR03960"
 }

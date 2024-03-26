@@ -7,6 +7,38 @@
         }
     ],
     "primary_game": "Metroid",
+    "tags": [
+        {
+            "id": "dark",
+            "path": "Mood > Dark",
+            "url": "https://ocremix.org/tag/dark"
+        },
+        {
+            "id": "distortion",
+            "path": "Effects > Distortion",
+            "url": "https://ocremix.org/tag/distortion"
+        },
+        {
+            "id": "edm",
+            "path": "Genre > EDM",
+            "url": "https://ocremix.org/tag/edm"
+        },
+        {
+            "id": "minimalist",
+            "path": "Arrangement > Minimalist",
+            "url": "https://ocremix.org/tag/minimalist"
+        },
+        {
+            "id": "synth",
+            "path": "Instrumentation > Synth",
+            "url": "https://ocremix.org/tag/synth"
+        },
+        {
+            "id": "tempo-moderate",
+            "path": "Time > Tempo: Moderate",
+            "url": "https://ocremix.org/tag/tempo-moderate"
+        }
+    ],
     "title": "Metro Trans Funk",
     "url": "https://ocremix.org/remix/OCR00192"
 }

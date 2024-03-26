@@ -7,6 +7,23 @@
         }
     ],
     "primary_game": "Parasite Eve",
+    "tags": [
+        {
+            "id": "hip-hop",
+            "path": "Genre > Hip Hop",
+            "url": "https://ocremix.org/tag/hip-hop"
+        },
+        {
+            "id": "orchestral",
+            "path": "Instrumentation > Orchestral",
+            "url": "https://ocremix.org/tag/orchestral"
+        },
+        {
+            "id": "piano",
+            "path": "Instrumentation > Piano",
+            "url": "https://ocremix.org/tag/piano"
+        }
+    ],
     "title": "PMS",
     "url": "https://ocremix.org/remix/OCR01543"
 }

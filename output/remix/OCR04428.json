@@ -7,6 +7,58 @@
         }
     ],
     "primary_game": "Super Mario Maker 2",
+    "tags": [
+        {
+            "id": "breakbeats",
+            "path": "Instrumentation > Breakbeats",
+            "url": "https://ocremix.org/tag/breakbeats"
+        },
+        {
+            "id": "dnb",
+            "path": "Genre > EDM > Drum and bass",
+            "url": "https://ocremix.org/tag/dnb"
+        },
+        {
+            "id": "electronic",
+            "path": "Instrumentation > Electronic",
+            "url": "https://ocremix.org/tag/electronic"
+        },
+        {
+            "id": "energetic",
+            "path": "Mood > Energetic",
+            "url": "https://ocremix.org/tag/energetic"
+        },
+        {
+            "id": "happy",
+            "path": "Mood > Happy",
+            "url": "https://ocremix.org/tag/happy"
+        },
+        {
+            "id": "ingame-fx",
+            "path": "Instrumentation > In-game FX",
+            "url": "https://ocremix.org/tag/ingame-fx"
+        },
+        {
+            "id": "resubmission",
+            "path": "Origin > Resubmission",
+            "url": "https://ocremix.org/tag/resubmission"
+        },
+        {
+            "id": "sound-fx",
+            "path": "Instrumentation > Sound FX",
+            "url": "https://ocremix.org/tag/sound-fx"
+        },
+        {
+            "id": "synth",
+            "path": "Instrumentation > Synth",
+            "url": "https://ocremix.org/tag/synth"
+        },
+        {
+            "id": "tempo-fast",
+            "path": "Time > Tempo: Fast",
+            "url": "https://ocremix.org/tag/tempo-fast"
+        }
+    ],
     "title": "Banned Wagon Mix",
     "url": "https://ocremix.org/remix/OCR04428"
 }

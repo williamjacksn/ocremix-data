@@ -7,6 +7,43 @@
         }
     ],
     "primary_game": "Kirby's Epic Yarn",
+    "tags": [
+        {
+            "id": "acoustic",
+            "path": "Instrumentation > Acoustic",
+            "url": "https://ocremix.org/tag/acoustic"
+        },
+        {
+            "id": "banjo",
+            "path": "Instrumentation > Banjo",
+            "url": "https://ocremix.org/tag/banjo"
+        },
+        {
+            "id": "bluegrass",
+            "path": "Genre > Folk > Bluegrass",
+            "url": "https://ocremix.org/tag/bluegrass"
+        },
+        {
+            "id": "energetic",
+            "path": "Mood > Energetic",
+            "url": "https://ocremix.org/tag/energetic"
+        },
+        {
+            "id": "folk",
+            "path": "Genre > Folk",
+            "url": "https://ocremix.org/tag/folk"
+        },
+        {
+            "id": "live-instruments",
+            "path": "Production > Live Instruments",
+            "url": "https://ocremix.org/tag/live-instruments"
+        },
+        {
+            "id": "mandolin",
+            "path": "Instrumentation > Mandolin",
+            "url": "https://ocremix.org/tag/mandolin"
+        }
+    ],
     "title": "Blue Lava, Grass Landing",
     "url": "https://ocremix.org/remix/OCR03754"
 }

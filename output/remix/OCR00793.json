@@ -7,6 +7,48 @@
         }
     ],
     "primary_game": "Wizards & Warriors",
+    "tags": [
+        {
+            "id": "dance",
+            "path": "Genre > EDM > Dance",
+            "url": "https://ocremix.org/tag/dance"
+        },
+        {
+            "id": "electronic",
+            "path": "Instrumentation > Electronic",
+            "url": "https://ocremix.org/tag/electronic"
+        },
+        {
+            "id": "energetic",
+            "path": "Mood > Energetic",
+            "url": "https://ocremix.org/tag/energetic"
+        },
+        {
+            "id": "lang-japanese",
+            "path": "Lyrics > Language: Japanese",
+            "url": "https://ocremix.org/tag/lang-japanese"
+        },
+        {
+            "id": "lyrics-original",
+            "path": "Lyrics > Lyrics: Original",
+            "url": "https://ocremix.org/tag/lyrics-original"
+        },
+        {
+            "id": "piano",
+            "path": "Instrumentation > Piano",
+            "url": "https://ocremix.org/tag/piano"
+        },
+        {
+            "id": "synth",
+            "path": "Instrumentation > Synth",
+            "url": "https://ocremix.org/tag/synth"
+        },
+        {
+            "id": "timesig-4-4",
+            "path": "Time > 4/4 Time Signature",
+            "url": "https://ocremix.org/tag/timesig-4-4"
+        }
+    ],
     "title": "Kono Sekai De",
     "url": "https://ocremix.org/remix/OCR00793"
 }

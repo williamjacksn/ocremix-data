@@ -12,6 +12,13 @@
         }
     ],
     "primary_game": "Sonic CD",
+    "tags": [
+        {
+            "id": "lyrics-original",
+            "path": "Lyrics > Lyrics: Original",
+            "url": "https://ocremix.org/tag/lyrics-original"
+        }
+    ],
     "title": "WhACKASS WORKShIFTS",
     "url": "https://ocremix.org/remix/OCR02786"
 }

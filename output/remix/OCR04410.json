@@ -7,6 +7,48 @@
         }
     ],
     "primary_game": "Undertale",
+    "tags": [
+        {
+            "id": "chiptune",
+            "path": "Instrumentation > Chiptune",
+            "url": "https://ocremix.org/tag/chiptune"
+        },
+        {
+            "id": "electronic",
+            "path": "Instrumentation > Electronic",
+            "url": "https://ocremix.org/tag/electronic"
+        },
+        {
+            "id": "energetic",
+            "path": "Mood > Energetic",
+            "url": "https://ocremix.org/tag/energetic"
+        },
+        {
+            "id": "rock",
+            "path": "Genre > Rock",
+            "url": "https://ocremix.org/tag/rock"
+        },
+        {
+            "id": "suspenseful",
+            "path": "Mood > Suspenseful",
+            "url": "https://ocremix.org/tag/suspenseful"
+        },
+        {
+            "id": "synth",
+            "path": "Instrumentation > Synth",
+            "url": "https://ocremix.org/tag/synth"
+        },
+        {
+            "id": "tempo-fast",
+            "path": "Time > Tempo: Fast",
+            "url": "https://ocremix.org/tag/tempo-fast"
+        },
+        {
+            "id": "tempo-variable",
+            "path": "Time > Tempo: Variable",
+            "url": "https://ocremix.org/tag/tempo-variable"
+        }
+    ],
     "title": "NoMercy",
     "url": "https://ocremix.org/remix/OCR04410"
 }

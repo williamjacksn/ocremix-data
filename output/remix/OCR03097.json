@@ -7,6 +7,38 @@
         }
     ],
     "primary_game": "The 7th Saga",
+    "tags": [
+        {
+            "id": "cello",
+            "path": "Instrumentation > Cello",
+            "url": "https://ocremix.org/tag/cello"
+        },
+        {
+            "id": "classical",
+            "path": "Genre > Classical",
+            "url": "https://ocremix.org/tag/classical"
+        },
+        {
+            "id": "live-instruments",
+            "path": "Production > Live Instruments",
+            "url": "https://ocremix.org/tag/live-instruments"
+        },
+        {
+            "id": "mellow",
+            "path": "Mood > Mellow",
+            "url": "https://ocremix.org/tag/mellow"
+        },
+        {
+            "id": "timesig-4-4",
+            "path": "Time > 4/4 Time Signature",
+            "url": "https://ocremix.org/tag/timesig-4-4"
+        },
+        {
+            "id": "trio",
+            "path": "Arrangement > Trio",
+            "url": "https://ocremix.org/tag/trio"
+        }
+    ],
     "title": "Seven Songs for Seventh Saga: II. Water",
     "url": "https://ocremix.org/remix/OCR03097"
 }

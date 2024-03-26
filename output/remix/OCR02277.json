@@ -7,6 +7,38 @@
         }
     ],
     "primary_game": "Metroid Prime 3: Corruption",
+    "tags": [
+        {
+            "id": "clarinet",
+            "path": "Instrumentation > Clarinet",
+            "url": "https://ocremix.org/tag/clarinet"
+        },
+        {
+            "id": "jazz",
+            "path": "Genre > Jazz",
+            "url": "https://ocremix.org/tag/jazz"
+        },
+        {
+            "id": "mellow",
+            "path": "Mood > Mellow",
+            "url": "https://ocremix.org/tag/mellow"
+        },
+        {
+            "id": "piano",
+            "path": "Instrumentation > Piano",
+            "url": "https://ocremix.org/tag/piano"
+        },
+        {
+            "id": "strings",
+            "path": "Instrumentation > Strings",
+            "url": "https://ocremix.org/tag/strings"
+        },
+        {
+            "id": "tempo-fast",
+            "path": "Time > Tempo: Fast",
+            "url": "https://ocremix.org/tag/tempo-fast"
+        }
+    ],
     "title": "Lore Hunter",
     "url": "https://ocremix.org/remix/OCR02277"
 }

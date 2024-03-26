@@ -12,6 +12,68 @@
         }
     ],
     "primary_game": "Final Fantasy VI",
+    "tags": [
+        {
+            "id": "bells",
+            "path": "Instrumentation > Bells",
+            "url": "https://ocremix.org/tag/bells"
+        },
+        {
+            "id": "brass",
+            "path": "Instrumentation > Brass",
+            "url": "https://ocremix.org/tag/brass"
+        },
+        {
+            "id": "collab",
+            "path": "Origin > Collaboration",
+            "url": "https://ocremix.org/tag/collab"
+        },
+        {
+            "id": "dark",
+            "path": "Mood > Dark",
+            "url": "https://ocremix.org/tag/dark"
+        },
+        {
+            "id": "harp",
+            "path": "Instrumentation > Harp",
+            "url": "https://ocremix.org/tag/harp"
+        },
+        {
+            "id": "orchestral",
+            "path": "Instrumentation > Orchestral",
+            "url": "https://ocremix.org/tag/orchestral"
+        },
+        {
+            "id": "solemn",
+            "path": "Mood > Solemn",
+            "url": "https://ocremix.org/tag/solemn"
+        },
+        {
+            "id": "spooky",
+            "path": "Mood > Spooky",
+            "url": "https://ocremix.org/tag/spooky"
+        },
+        {
+            "id": "strings",
+            "path": "Instrumentation > Strings",
+            "url": "https://ocremix.org/tag/strings"
+        },
+        {
+            "id": "suspenseful",
+            "path": "Mood > Suspenseful",
+            "url": "https://ocremix.org/tag/suspenseful"
+        },
+        {
+            "id": "symphonic",
+            "path": "Genre > Classical > Symphonic",
+            "url": "https://ocremix.org/tag/symphonic"
+        },
+        {
+            "id": "woodwinds",
+            "path": "Instrumentation > Woodwinds",
+            "url": "https://ocremix.org/tag/woodwinds"
+        }
+    ],
     "title": "Land of the Eidolons",
     "url": "https://ocremix.org/remix/OCR04087"
 }

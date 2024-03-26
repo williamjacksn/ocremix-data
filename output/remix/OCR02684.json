@@ -7,6 +7,38 @@
         }
     ],
     "primary_game": "Chrono Trigger",
+    "tags": [
+        {
+            "id": "mellow",
+            "path": "Mood > Mellow",
+            "url": "https://ocremix.org/tag/mellow"
+        },
+        {
+            "id": "piano",
+            "path": "Instrumentation > Piano",
+            "url": "https://ocremix.org/tag/piano"
+        },
+        {
+            "id": "rock",
+            "path": "Genre > Rock",
+            "url": "https://ocremix.org/tag/rock"
+        },
+        {
+            "id": "synth",
+            "path": "Instrumentation > Synth",
+            "url": "https://ocremix.org/tag/synth"
+        },
+        {
+            "id": "tempo-fast",
+            "path": "Time > Tempo: Fast",
+            "url": "https://ocremix.org/tag/tempo-fast"
+        },
+        {
+            "id": "violin",
+            "path": "Instrumentation > Violin",
+            "url": "https://ocremix.org/tag/violin"
+        }
+    ],
     "title": "Weaving the Threads of Time",
     "url": "https://ocremix.org/remix/OCR02684"
 }

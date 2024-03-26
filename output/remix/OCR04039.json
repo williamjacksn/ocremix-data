@@ -7,6 +7,38 @@
         }
     ],
     "primary_game": "The Legend of Zelda: Majora's Mask",
+    "tags": [
+        {
+            "id": "electronic",
+            "path": "Instrumentation > Electronic",
+            "url": "https://ocremix.org/tag/electronic"
+        },
+        {
+            "id": "experimental",
+            "path": "Genre > Experimental",
+            "url": "https://ocremix.org/tag/experimental"
+        },
+        {
+            "id": "glitching",
+            "path": "Effects > Glitching",
+            "url": "https://ocremix.org/tag/glitching"
+        },
+        {
+            "id": "quirky",
+            "path": "Mood > Quirky",
+            "url": "https://ocremix.org/tag/quirky"
+        },
+        {
+            "id": "sound-fx",
+            "path": "Instrumentation > Sound FX",
+            "url": "https://ocremix.org/tag/sound-fx"
+        },
+        {
+            "id": "suspenseful",
+            "path": "Mood > Suspenseful",
+            "url": "https://ocremix.org/tag/suspenseful"
+        }
+    ],
     "title": "Machine Wash",
     "url": "https://ocremix.org/remix/OCR04039"
 }

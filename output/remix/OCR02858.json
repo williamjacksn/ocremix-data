@@ -7,6 +7,48 @@
         }
     ],
     "primary_game": "Super Spike V'Ball",
+    "tags": [
+        {
+            "id": "brass",
+            "path": "Instrumentation > Brass",
+            "url": "https://ocremix.org/tag/brass"
+        },
+        {
+            "id": "compo-dod",
+            "path": "Origin > Competition > Dwelling of Duels",
+            "url": "https://ocremix.org/tag/compo-dod"
+        },
+        {
+            "id": "electric-guitar",
+            "path": "Instrumentation > Electric Guitar",
+            "url": "https://ocremix.org/tag/electric-guitar"
+        },
+        {
+            "id": "jazz",
+            "path": "Genre > Jazz",
+            "url": "https://ocremix.org/tag/jazz"
+        },
+        {
+            "id": "mellow",
+            "path": "Mood > Mellow",
+            "url": "https://ocremix.org/tag/mellow"
+        },
+        {
+            "id": "piano",
+            "path": "Instrumentation > Piano",
+            "url": "https://ocremix.org/tag/piano"
+        },
+        {
+            "id": "saxophone",
+            "path": "Instrumentation > Saxophone",
+            "url": "https://ocremix.org/tag/saxophone"
+        },
+        {
+            "id": "trumpet",
+            "path": "Instrumentation > Trumpet",
+            "url": "https://ocremix.org/tag/trumpet"
+        }
+    ],
     "title": "Copacabana Beach",
     "url": "https://ocremix.org/remix/OCR02858"
 }

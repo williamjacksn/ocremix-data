@@ -7,6 +7,18 @@
         }
     ],
     "primary_game": "The Legend of Zelda: Twilight Princess",
+    "tags": [
+        {
+            "id": "classical",
+            "path": "Genre > Classical",
+            "url": "https://ocremix.org/tag/classical"
+        },
+        {
+            "id": "orchestral",
+            "path": "Instrumentation > Orchestral",
+            "url": "https://ocremix.org/tag/orchestral"
+        }
+    ],
     "title": "Tattered Slippers",
     "url": "https://ocremix.org/remix/OCR01591"
 }

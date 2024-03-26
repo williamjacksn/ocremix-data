@@ -12,6 +12,13 @@
         }
     ],
     "primary_game": "Final Fantasy VI",
+    "tags": [
+        {
+            "id": "lyrics-original",
+            "path": "Lyrics > Lyrics: Original",
+            "url": "https://ocremix.org/tag/lyrics-original"
+        }
+    ],
     "title": "Blackjack's Breakup Bossa",
     "url": "https://ocremix.org/remix/OCR02722"
 }

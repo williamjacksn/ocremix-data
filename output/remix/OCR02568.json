@@ -22,6 +22,48 @@
         }
     ],
     "primary_game": "The Legend of Zelda: Majora's Mask",
+    "tags": [
+        {
+            "id": "acoustic-guitar",
+            "path": "Instrumentation > Acoustic Guitar",
+            "url": "https://ocremix.org/tag/acoustic-guitar"
+        },
+        {
+            "id": "duration-long",
+            "path": "Time > Duration: Long",
+            "url": "https://ocremix.org/tag/duration-long"
+        },
+        {
+            "id": "folk",
+            "path": "Genre > Folk",
+            "url": "https://ocremix.org/tag/folk"
+        },
+        {
+            "id": "happy",
+            "path": "Mood > Happy",
+            "url": "https://ocremix.org/tag/happy"
+        },
+        {
+            "id": "sound-fx",
+            "path": "Instrumentation > Sound FX",
+            "url": "https://ocremix.org/tag/sound-fx"
+        },
+        {
+            "id": "strings",
+            "path": "Instrumentation > Strings",
+            "url": "https://ocremix.org/tag/strings"
+        },
+        {
+            "id": "tempo-fast",
+            "path": "Time > Tempo: Fast",
+            "url": "https://ocremix.org/tag/tempo-fast"
+        },
+        {
+            "id": "woodwinds",
+            "path": "Instrumentation > Woodwinds",
+            "url": "https://ocremix.org/tag/woodwinds"
+        }
+    ],
     "title": "Dawn of a New Day",
     "url": "https://ocremix.org/remix/OCR02568"
 }

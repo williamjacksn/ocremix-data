@@ -12,6 +12,58 @@
         }
     ],
     "primary_game": "Final Fantasy IX",
+    "tags": [
+        {
+            "id": "aggressive",
+            "path": "Mood > Aggressive",
+            "url": "https://ocremix.org/tag/aggressive"
+        },
+        {
+            "id": "collab",
+            "path": "Origin > Collaboration",
+            "url": "https://ocremix.org/tag/collab"
+        },
+        {
+            "id": "dark",
+            "path": "Mood > Dark",
+            "url": "https://ocremix.org/tag/dark"
+        },
+        {
+            "id": "electric-guitar",
+            "path": "Instrumentation > Electric Guitar",
+            "url": "https://ocremix.org/tag/electric-guitar"
+        },
+        {
+            "id": "electric-piano",
+            "path": "Instrumentation > Electric Piano",
+            "url": "https://ocremix.org/tag/electric-piano"
+        },
+        {
+            "id": "live-instruments",
+            "path": "Production > Live Instruments",
+            "url": "https://ocremix.org/tag/live-instruments"
+        },
+        {
+            "id": "metal",
+            "path": "Genre > Rock > Metal",
+            "url": "https://ocremix.org/tag/metal"
+        },
+        {
+            "id": "prog-rock",
+            "path": "Genre > Rock > Progressive Rock",
+            "url": "https://ocremix.org/tag/prog-rock"
+        },
+        {
+            "id": "synth",
+            "path": "Instrumentation > Synth",
+            "url": "https://ocremix.org/tag/synth"
+        },
+        {
+            "id": "violin",
+            "path": "Instrumentation > Violin",
+            "url": "https://ocremix.org/tag/violin"
+        }
+    ],
     "title": "Into the Sandstorm",
     "url": "https://ocremix.org/remix/OCR03581"
 }

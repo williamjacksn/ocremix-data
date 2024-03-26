@@ -7,6 +7,43 @@
         }
     ],
     "primary_game": "One Must Fall 2097",
+    "tags": [
+        {
+            "id": "chiptune",
+            "path": "Instrumentation > Chiptune",
+            "url": "https://ocremix.org/tag/chiptune"
+        },
+        {
+            "id": "compo",
+            "path": "Origin > Competition",
+            "url": "https://ocremix.org/tag/compo"
+        },
+        {
+            "id": "edm",
+            "path": "Genre > EDM",
+            "url": "https://ocremix.org/tag/edm"
+        },
+        {
+            "id": "electronic",
+            "path": "Instrumentation > Electronic",
+            "url": "https://ocremix.org/tag/electronic"
+        },
+        {
+            "id": "energetic",
+            "path": "Mood > Energetic",
+            "url": "https://ocremix.org/tag/energetic"
+        },
+        {
+            "id": "funky",
+            "path": "Mood > Funky",
+            "url": "https://ocremix.org/tag/funky"
+        },
+        {
+            "id": "synth",
+            "path": "Instrumentation > Synth",
+            "url": "https://ocremix.org/tag/synth"
+        }
+    ],
     "title": "One Must Fall 2064",
     "url": "https://ocremix.org/remix/OCR04129"
 }

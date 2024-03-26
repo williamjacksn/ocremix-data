@@ -7,6 +7,33 @@
         }
     ],
     "primary_game": "Splatterhouse 3",
+    "tags": [
+        {
+            "id": "ambient",
+            "path": "Genre > Easy Listening > Ambient",
+            "url": "https://ocremix.org/tag/ambient"
+        },
+        {
+            "id": "cinematic",
+            "path": "Genre > Cinematic",
+            "url": "https://ocremix.org/tag/cinematic"
+        },
+        {
+            "id": "dark",
+            "path": "Mood > Dark",
+            "url": "https://ocremix.org/tag/dark"
+        },
+        {
+            "id": "halloween",
+            "path": "Usage > Halloween",
+            "url": "https://ocremix.org/tag/halloween"
+        },
+        {
+            "id": "orchestral",
+            "path": "Instrumentation > Orchestral",
+            "url": "https://ocremix.org/tag/orchestral"
+        }
+    ],
     "title": "Call of the Mask",
     "url": "https://ocremix.org/remix/OCR01772"
 }

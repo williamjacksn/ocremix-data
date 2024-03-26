@@ -12,6 +12,78 @@
         }
     ],
     "primary_game": "Knuckles' Chaotix",
+    "tags": [
+        {
+            "id": "chill",
+            "path": "Mood > Chill",
+            "url": "https://ocremix.org/tag/chill"
+        },
+        {
+            "id": "collab",
+            "path": "Origin > Collaboration",
+            "url": "https://ocremix.org/tag/collab"
+        },
+        {
+            "id": "funk",
+            "path": "Genre > R&B > Funk",
+            "url": "https://ocremix.org/tag/funk"
+        },
+        {
+            "id": "funky",
+            "path": "Mood > Funky",
+            "url": "https://ocremix.org/tag/funky"
+        },
+        {
+            "id": "hip-hop",
+            "path": "Genre > Hip Hop",
+            "url": "https://ocremix.org/tag/hip-hop"
+        },
+        {
+            "id": "lyrics-original",
+            "path": "Lyrics > Lyrics: Original",
+            "url": "https://ocremix.org/tag/lyrics-original"
+        },
+        {
+            "id": "piano",
+            "path": "Instrumentation > Piano",
+            "url": "https://ocremix.org/tag/piano"
+        },
+        {
+            "id": "rnb",
+            "path": "Genre > R&B",
+            "url": "https://ocremix.org/tag/rnb"
+        },
+        {
+            "id": "singing",
+            "path": "Instrumentation > Singing",
+            "url": "https://ocremix.org/tag/singing"
+        },
+        {
+            "id": "synth",
+            "path": "Instrumentation > Synth",
+            "url": "https://ocremix.org/tag/synth"
+        },
+        {
+            "id": "turntable",
+            "path": "Instrumentation > Turntable",
+            "url": "https://ocremix.org/tag/turntable"
+        },
+        {
+            "id": "vocals-male",
+            "path": "Instrumentation > Vocals: Male",
+            "url": "https://ocremix.org/tag/vocals-male"
+        },
+        {
+            "id": "vocals-rapping",
+            "path": "Instrumentation > Vocals: Rapping",
+            "url": "https://ocremix.org/tag/vocals-rapping"
+        },
+        {
+            "id": "vocoder",
+            "path": "Effects > Vocoder",
+            "url": "https://ocremix.org/tag/vocoder"
+        }
+    ],
     "title": "Chaotic 5",
     "url": "https://ocremix.org/remix/OCR03283"
 }

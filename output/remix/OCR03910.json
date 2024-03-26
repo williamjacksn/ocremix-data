@@ -7,6 +7,63 @@
         }
     ],
     "primary_game": "Street Fighter II: The World Warrior",
+    "tags": [
+        {
+            "id": "brass",
+            "path": "Instrumentation > Brass",
+            "url": "https://ocremix.org/tag/brass"
+        },
+        {
+            "id": "chamber",
+            "path": "Genre > Classical > Chamber",
+            "url": "https://ocremix.org/tag/chamber"
+        },
+        {
+            "id": "energetic",
+            "path": "Mood > Energetic",
+            "url": "https://ocremix.org/tag/energetic"
+        },
+        {
+            "id": "latin",
+            "path": "Genre > Latin",
+            "url": "https://ocremix.org/tag/latin"
+        },
+        {
+            "id": "live-ensemble",
+            "path": "Production > Live Ensemble",
+            "url": "https://ocremix.org/tag/live-ensemble"
+        },
+        {
+            "id": "live-instruments",
+            "path": "Production > Live Instruments",
+            "url": "https://ocremix.org/tag/live-instruments"
+        },
+        {
+            "id": "medley",
+            "path": "Arrangement > Medley",
+            "url": "https://ocremix.org/tag/medley"
+        },
+        {
+            "id": "quartet",
+            "path": "Arrangement > Quartet",
+            "url": "https://ocremix.org/tag/quartet"
+        },
+        {
+            "id": "quirky",
+            "path": "Mood > Quirky",
+            "url": "https://ocremix.org/tag/quirky"
+        },
+        {
+            "id": "trombone",
+            "path": "Instrumentation > Trombone",
+            "url": "https://ocremix.org/tag/trombone"
+        },
+        {
+            "id": "trumpet",
+            "path": "Instrumentation > Trumpet",
+            "url": "https://ocremix.org/tag/trumpet"
+        }
+    ],
     "title": "Double KO",
     "url": "https://ocremix.org/remix/OCR03910"
 }

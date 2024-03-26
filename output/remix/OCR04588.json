@@ -7,6 +7,53 @@
         }
     ],
     "primary_game": "Chicory: A Colorful Tale",
+    "tags": [
+        {
+            "id": "ambient",
+            "path": "Genre > Easy Listening > Ambient",
+            "url": "https://ocremix.org/tag/ambient"
+        },
+        {
+            "id": "chill",
+            "path": "Mood > Chill",
+            "url": "https://ocremix.org/tag/chill"
+        },
+        {
+            "id": "electronic",
+            "path": "Instrumentation > Electronic",
+            "url": "https://ocremix.org/tag/electronic"
+        },
+        {
+            "id": "meditation",
+            "path": "Usage > Meditation",
+            "url": "https://ocremix.org/tag/meditation"
+        },
+        {
+            "id": "mellow",
+            "path": "Mood > Mellow",
+            "url": "https://ocremix.org/tag/mellow"
+        },
+        {
+            "id": "new-age",
+            "path": "Genre > Easy Listening > New Age",
+            "url": "https://ocremix.org/tag/new-age"
+        },
+        {
+            "id": "piano",
+            "path": "Instrumentation > Piano",
+            "url": "https://ocremix.org/tag/piano"
+        },
+        {
+            "id": "synth",
+            "path": "Instrumentation > Synth",
+            "url": "https://ocremix.org/tag/synth"
+        },
+        {
+            "id": "timesig-4-4",
+            "path": "Time > 4/4 Time Signature",
+            "url": "https://ocremix.org/tag/timesig-4-4"
+        }
+    ],
     "title": "Skipping Stones Down Sips River",
     "url": "https://ocremix.org/remix/OCR04588"
 }

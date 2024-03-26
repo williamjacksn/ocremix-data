@@ -7,6 +7,58 @@
         }
     ],
     "primary_game": "Final Fantasy IX",
+    "tags": [
+        {
+            "id": "choir",
+            "path": "Instrumentation > Choir",
+            "url": "https://ocremix.org/tag/choir"
+        },
+        {
+            "id": "cinematic",
+            "path": "Genre > Cinematic",
+            "url": "https://ocremix.org/tag/cinematic"
+        },
+        {
+            "id": "epic",
+            "path": "Mood > Epic",
+            "url": "https://ocremix.org/tag/epic"
+        },
+        {
+            "id": "hand-drums",
+            "path": "Instrumentation > Hand Drums",
+            "url": "https://ocremix.org/tag/hand-drums"
+        },
+        {
+            "id": "mellow",
+            "path": "Mood > Mellow",
+            "url": "https://ocremix.org/tag/mellow"
+        },
+        {
+            "id": "new-age",
+            "path": "Genre > Easy Listening > New Age",
+            "url": "https://ocremix.org/tag/new-age"
+        },
+        {
+            "id": "orchestral",
+            "path": "Instrumentation > Orchestral",
+            "url": "https://ocremix.org/tag/orchestral"
+        },
+        {
+            "id": "piano",
+            "path": "Instrumentation > Piano",
+            "url": "https://ocremix.org/tag/piano"
+        },
+        {
+            "id": "resubmission",
+            "path": "Origin > Resubmission",
+            "url": "https://ocremix.org/tag/resubmission"
+        },
+        {
+            "id": "woodwinds",
+            "path": "Instrumentation > Woodwinds",
+            "url": "https://ocremix.org/tag/woodwinds"
+        }
+    ],
     "title": "Prelude to Fantasy",
     "url": "https://ocremix.org/remix/OCR03556"
 }

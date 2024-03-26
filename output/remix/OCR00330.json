@@ -7,6 +7,48 @@
         }
     ],
     "primary_game": "Radical Dreamers: Nusumenai Houseki",
+    "tags": [
+        {
+            "id": "classical",
+            "path": "Genre > Classical",
+            "url": "https://ocremix.org/tag/classical"
+        },
+        {
+            "id": "dark",
+            "path": "Mood > Dark",
+            "url": "https://ocremix.org/tag/dark"
+        },
+        {
+            "id": "duration-short",
+            "path": "Time > Duration: Short",
+            "url": "https://ocremix.org/tag/duration-short"
+        },
+        {
+            "id": "epic",
+            "path": "Mood > Epic",
+            "url": "https://ocremix.org/tag/epic"
+        },
+        {
+            "id": "oboe",
+            "path": "Instrumentation > Oboe",
+            "url": "https://ocremix.org/tag/oboe"
+        },
+        {
+            "id": "strings",
+            "path": "Instrumentation > Strings",
+            "url": "https://ocremix.org/tag/strings"
+        },
+        {
+            "id": "tempo-moderate",
+            "path": "Time > Tempo: Moderate",
+            "url": "https://ocremix.org/tag/tempo-moderate"
+        },
+        {
+            "id": "violin",
+            "path": "Instrumentation > Violin",
+            "url": "https://ocremix.org/tag/violin"
+        }
+    ],
     "title": "Northern Promise",
     "url": "https://ocremix.org/remix/OCR00330"
 }

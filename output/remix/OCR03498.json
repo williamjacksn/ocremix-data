@@ -7,6 +7,83 @@
         }
     ],
     "primary_game": "Lunar 2: Eternal Blue Complete",
+    "tags": [
+        {
+            "id": "ballad",
+            "path": "Genre > Easy Listening > Ballad",
+            "url": "https://ocremix.org/tag/ballad"
+        },
+        {
+            "id": "bells",
+            "path": "Instrumentation > Bells",
+            "url": "https://ocremix.org/tag/bells"
+        },
+        {
+            "id": "brass",
+            "path": "Instrumentation > Brass",
+            "url": "https://ocremix.org/tag/brass"
+        },
+        {
+            "id": "flute",
+            "path": "Instrumentation > Flute",
+            "url": "https://ocremix.org/tag/flute"
+        },
+        {
+            "id": "harp",
+            "path": "Instrumentation > Harp",
+            "url": "https://ocremix.org/tag/harp"
+        },
+        {
+            "id": "lyrics-existing",
+            "path": "Lyrics > Lyrics: Existing",
+            "url": "https://ocremix.org/tag/lyrics-existing"
+        },
+        {
+            "id": "mellow",
+            "path": "Mood > Mellow",
+            "url": "https://ocremix.org/tag/mellow"
+        },
+        {
+            "id": "romantic",
+            "path": "Mood > Romantic",
+            "url": "https://ocremix.org/tag/romantic"
+        },
+        {
+            "id": "singing",
+            "path": "Instrumentation > Singing",
+            "url": "https://ocremix.org/tag/singing"
+        },
+        {
+            "id": "strings",
+            "path": "Instrumentation > Strings",
+            "url": "https://ocremix.org/tag/strings"
+        },
+        {
+            "id": "symphonic",
+            "path": "Genre > Classical > Symphonic",
+            "url": "https://ocremix.org/tag/symphonic"
+        },
+        {
+            "id": "tempo-slow",
+            "path": "Time > Tempo: Slow",
+            "url": "https://ocremix.org/tag/tempo-slow"
+        },
+        {
+            "id": "tempo-variable",
+            "path": "Time > Tempo: Variable",
+            "url": "https://ocremix.org/tag/tempo-variable"
+        },
+        {
+            "id": "vocals-male",
+            "path": "Instrumentation > Vocals: Male",
+            "url": "https://ocremix.org/tag/vocals-male"
+        },
+        {
+            "id": "woodwinds",
+            "path": "Instrumentation > Woodwinds",
+            "url": "https://ocremix.org/tag/woodwinds"
+        }
+    ],
     "title": "Blue Star Prayer",
     "url": "https://ocremix.org/remix/OCR03498"
 }

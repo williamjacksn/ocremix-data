@@ -7,6 +7,43 @@
         }
     ],
     "primary_game": "Deus Ex: Invisible War",
+    "tags": [
+        {
+            "id": "downtempo",
+            "path": "Genre > EDM > Downtempo",
+            "url": "https://ocremix.org/tag/downtempo"
+        },
+        {
+            "id": "electric-guitar",
+            "path": "Instrumentation > Electric Guitar",
+            "url": "https://ocremix.org/tag/electric-guitar"
+        },
+        {
+            "id": "electric-piano",
+            "path": "Instrumentation > Electric Piano",
+            "url": "https://ocremix.org/tag/electric-piano"
+        },
+        {
+            "id": "mellow",
+            "path": "Mood > Mellow",
+            "url": "https://ocremix.org/tag/mellow"
+        },
+        {
+            "id": "rock",
+            "path": "Genre > Rock",
+            "url": "https://ocremix.org/tag/rock"
+        },
+        {
+            "id": "sound-fx",
+            "path": "Instrumentation > Sound FX",
+            "url": "https://ocremix.org/tag/sound-fx"
+        },
+        {
+            "id": "synth",
+            "path": "Instrumentation > Synth",
+            "url": "https://ocremix.org/tag/synth"
+        }
+    ],
     "title": "Tears in Rain",
     "url": "https://ocremix.org/remix/OCR02652"
 }

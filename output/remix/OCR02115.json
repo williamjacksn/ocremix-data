@@ -7,6 +7,43 @@
         }
     ],
     "primary_game": "Super Mario Bros. 2",
+    "tags": [
+        {
+            "id": "dark",
+            "path": "Mood > Dark",
+            "url": "https://ocremix.org/tag/dark"
+        },
+        {
+            "id": "indian",
+            "path": "Regional > Indian",
+            "url": "https://ocremix.org/tag/indian"
+        },
+        {
+            "id": "middle-eastern",
+            "path": "Regional > Middle Eastern",
+            "url": "https://ocremix.org/tag/middle-eastern"
+        },
+        {
+            "id": "sitar",
+            "path": "Instrumentation > Sitar",
+            "url": "https://ocremix.org/tag/sitar"
+        },
+        {
+            "id": "strings",
+            "path": "Instrumentation > Strings",
+            "url": "https://ocremix.org/tag/strings"
+        },
+        {
+            "id": "woodwinds",
+            "path": "Instrumentation > Woodwinds",
+            "url": "https://ocremix.org/tag/woodwinds"
+        },
+        {
+            "id": "world",
+            "path": "Regional > World",
+            "url": "https://ocremix.org/tag/world"
+        }
+    ],
     "title": "Melancholy Dreams",
     "url": "https://ocremix.org/remix/OCR02115"
 }

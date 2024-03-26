@@ -12,6 +12,48 @@
         }
     ],
     "primary_game": "Mario Kart 64",
+    "tags": [
+        {
+            "id": "acoustic-guitar",
+            "path": "Instrumentation > Acoustic Guitar",
+            "url": "https://ocremix.org/tag/acoustic-guitar"
+        },
+        {
+            "id": "chiptune",
+            "path": "Instrumentation > Chiptune",
+            "url": "https://ocremix.org/tag/chiptune"
+        },
+        {
+            "id": "collab",
+            "path": "Origin > Collaboration",
+            "url": "https://ocremix.org/tag/collab"
+        },
+        {
+            "id": "lyrics-original",
+            "path": "Lyrics > Lyrics: Original",
+            "url": "https://ocremix.org/tag/lyrics-original"
+        },
+        {
+            "id": "pop",
+            "path": "Genre > Pop",
+            "url": "https://ocremix.org/tag/pop"
+        },
+        {
+            "id": "singing",
+            "path": "Instrumentation > Singing",
+            "url": "https://ocremix.org/tag/singing"
+        },
+        {
+            "id": "tempo-fast",
+            "path": "Time > Tempo: Fast",
+            "url": "https://ocremix.org/tag/tempo-fast"
+        },
+        {
+            "id": "vocals-male",
+            "path": "Instrumentation > Vocals: Male",
+            "url": "https://ocremix.org/tag/vocals-male"
+        }
+    ],
     "title": "Radiance",
     "url": "https://ocremix.org/remix/OCR02798"
 }

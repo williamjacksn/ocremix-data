@@ -7,6 +7,53 @@
         }
     ],
     "primary_game": "Street Fighter II: The World Warrior",
+    "tags": [
+        {
+            "id": "aggressive",
+            "path": "Mood > Aggressive",
+            "url": "https://ocremix.org/tag/aggressive"
+        },
+        {
+            "id": "chiptune",
+            "path": "Instrumentation > Chiptune",
+            "url": "https://ocremix.org/tag/chiptune"
+        },
+        {
+            "id": "edm",
+            "path": "Genre > EDM",
+            "url": "https://ocremix.org/tag/edm"
+        },
+        {
+            "id": "electronic",
+            "path": "Instrumentation > Electronic",
+            "url": "https://ocremix.org/tag/electronic"
+        },
+        {
+            "id": "japanese",
+            "path": "Regional > Japanese",
+            "url": "https://ocremix.org/tag/japanese"
+        },
+        {
+            "id": "koto",
+            "path": "Instrumentation > Koto",
+            "url": "https://ocremix.org/tag/koto"
+        },
+        {
+            "id": "lo-fi",
+            "path": "Effects > Lo-Fi",
+            "url": "https://ocremix.org/tag/lo-fi"
+        },
+        {
+            "id": "synth",
+            "path": "Instrumentation > Synth",
+            "url": "https://ocremix.org/tag/synth"
+        },
+        {
+            "id": "tempo-moderate",
+            "path": "Time > Tempo: Moderate",
+            "url": "https://ocremix.org/tag/tempo-moderate"
+        }
+    ],
     "title": "Hey, Mr. Honda",
     "url": "https://ocremix.org/remix/OCR00149"
 }

@@ -7,6 +7,53 @@
         }
     ],
     "primary_game": "Street Fighter II: The World Warrior",
+    "tags": [
+        {
+            "id": "chill",
+            "path": "Mood > Chill",
+            "url": "https://ocremix.org/tag/chill"
+        },
+        {
+            "id": "experimental",
+            "path": "Genre > Experimental",
+            "url": "https://ocremix.org/tag/experimental"
+        },
+        {
+            "id": "hand-drums",
+            "path": "Instrumentation > Hand Drums",
+            "url": "https://ocremix.org/tag/hand-drums"
+        },
+        {
+            "id": "latin",
+            "path": "Genre > Latin",
+            "url": "https://ocremix.org/tag/latin"
+        },
+        {
+            "id": "mandolin",
+            "path": "Instrumentation > Mandolin",
+            "url": "https://ocremix.org/tag/mandolin"
+        },
+        {
+            "id": "marimba",
+            "path": "Instrumentation > Marimba",
+            "url": "https://ocremix.org/tag/marimba"
+        },
+        {
+            "id": "strings",
+            "path": "Instrumentation > Strings",
+            "url": "https://ocremix.org/tag/strings"
+        },
+        {
+            "id": "tempo-moderate",
+            "path": "Time > Tempo: Moderate",
+            "url": "https://ocremix.org/tag/tempo-moderate"
+        },
+        {
+            "id": "timesig-4-4",
+            "path": "Time > 4/4 Time Signature",
+            "url": "https://ocremix.org/tag/timesig-4-4"
+        }
+    ],
     "title": "Blanka Braziliamix",
     "url": "https://ocremix.org/remix/OCR00151"
 }

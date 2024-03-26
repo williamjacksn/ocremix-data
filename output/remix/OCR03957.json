@@ -7,6 +7,43 @@
         }
     ],
     "primary_game": "Pok\u00e9mon Diamond Version",
+    "tags": [
+        {
+            "id": "cinematic",
+            "path": "Genre > Cinematic",
+            "url": "https://ocremix.org/tag/cinematic"
+        },
+        {
+            "id": "march",
+            "path": "Genre > Classical > March",
+            "url": "https://ocremix.org/tag/march"
+        },
+        {
+            "id": "orchestral",
+            "path": "Instrumentation > Orchestral",
+            "url": "https://ocremix.org/tag/orchestral"
+        },
+        {
+            "id": "piano",
+            "path": "Instrumentation > Piano",
+            "url": "https://ocremix.org/tag/piano"
+        },
+        {
+            "id": "strings",
+            "path": "Instrumentation > Strings",
+            "url": "https://ocremix.org/tag/strings"
+        },
+        {
+            "id": "suspenseful",
+            "path": "Mood > Suspenseful",
+            "url": "https://ocremix.org/tag/suspenseful"
+        },
+        {
+            "id": "trumpet",
+            "path": "Instrumentation > Trumpet",
+            "url": "https://ocremix.org/tag/trumpet"
+        }
+    ],
     "title": "A Snowy Wonderland",
     "url": "https://ocremix.org/remix/OCR03957"
 }

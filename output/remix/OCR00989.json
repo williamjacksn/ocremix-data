@@ -7,6 +7,13 @@
         }
     ],
     "primary_game": "The Legend of Zelda",
+    "tags": [
+        {
+            "id": "jazz",
+            "path": "Genre > Jazz",
+            "url": "https://ocremix.org/tag/jazz"
+        }
+    ],
     "title": "Link Goes to New Orleans",
     "url": "https://ocremix.org/remix/OCR00989"
 }

@@ -7,6 +7,28 @@
         }
     ],
     "primary_game": "Final Fantasy XII",
+    "tags": [
+        {
+            "id": "ambient",
+            "path": "Genre > Easy Listening > Ambient",
+            "url": "https://ocremix.org/tag/ambient"
+        },
+        {
+            "id": "dnb",
+            "path": "Genre > EDM > Drum and bass",
+            "url": "https://ocremix.org/tag/dnb"
+        },
+        {
+            "id": "electronic",
+            "path": "Instrumentation > Electronic",
+            "url": "https://ocremix.org/tag/electronic"
+        },
+        {
+            "id": "tempo-fast",
+            "path": "Time > Tempo: Fast",
+            "url": "https://ocremix.org/tag/tempo-fast"
+        }
+    ],
     "title": "The Drum of Basswall",
     "url": "https://ocremix.org/remix/OCR02669"
 }

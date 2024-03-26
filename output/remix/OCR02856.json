@@ -7,6 +7,43 @@
         }
     ],
     "primary_game": "Top Gear 2",
+    "tags": [
+        {
+            "id": "electronic",
+            "path": "Instrumentation > Electronic",
+            "url": "https://ocremix.org/tag/electronic"
+        },
+        {
+            "id": "psytrance",
+            "path": "Genre > EDM > Psytrance",
+            "url": "https://ocremix.org/tag/psytrance"
+        },
+        {
+            "id": "sound-fx",
+            "path": "Instrumentation > Sound FX",
+            "url": "https://ocremix.org/tag/sound-fx"
+        },
+        {
+            "id": "synth",
+            "path": "Instrumentation > Synth",
+            "url": "https://ocremix.org/tag/synth"
+        },
+        {
+            "id": "tempo-fast",
+            "path": "Time > Tempo: Fast",
+            "url": "https://ocremix.org/tag/tempo-fast"
+        },
+        {
+            "id": "trance",
+            "path": "Genre > EDM > Trance",
+            "url": "https://ocremix.org/tag/trance"
+        },
+        {
+            "id": "vocals-voice-acting",
+            "path": "Instrumentation > Vocals: Voice Acting",
+            "url": "https://ocremix.org/tag/vocals-voice-acting"
+        }
+    ],
     "title": "Velocity Shift",
     "url": "https://ocremix.org/remix/OCR02856"
 }

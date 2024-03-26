@@ -7,6 +7,13 @@
         }
     ],
     "primary_game": "Castlevania II: Simon's Quest",
+    "tags": [
+        {
+            "id": "lyrics-original",
+            "path": "Lyrics > Lyrics: Original",
+            "url": "https://ocremix.org/tag/lyrics-original"
+        }
+    ],
     "title": "Simon's Symphony",
     "url": "https://ocremix.org/remix/OCR00940"
 }

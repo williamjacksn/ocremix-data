@@ -7,6 +7,18 @@
         }
     ],
     "primary_game": "Dragon Warrior",
+    "tags": [
+        {
+            "id": "classical",
+            "path": "Genre > Classical",
+            "url": "https://ocremix.org/tag/classical"
+        },
+        {
+            "id": "woodwinds",
+            "path": "Instrumentation > Woodwinds",
+            "url": "https://ocremix.org/tag/woodwinds"
+        }
+    ],
     "title": "Overture Variations",
     "url": "https://ocremix.org/remix/OCR01744"
 }

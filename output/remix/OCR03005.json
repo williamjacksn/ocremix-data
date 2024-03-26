@@ -7,6 +7,43 @@
         }
     ],
     "primary_game": "Darkwing Duck",
+    "tags": [
+        {
+            "id": "chiptune",
+            "path": "Instrumentation > Chiptune",
+            "url": "https://ocremix.org/tag/chiptune"
+        },
+        {
+            "id": "dubstep",
+            "path": "Genre > EDM > Dubstep",
+            "url": "https://ocremix.org/tag/dubstep"
+        },
+        {
+            "id": "electric-piano",
+            "path": "Instrumentation > Electric Piano",
+            "url": "https://ocremix.org/tag/electric-piano"
+        },
+        {
+            "id": "funk",
+            "path": "Genre > R&B > Funk",
+            "url": "https://ocremix.org/tag/funk"
+        },
+        {
+            "id": "jazz",
+            "path": "Genre > Jazz",
+            "url": "https://ocremix.org/tag/jazz"
+        },
+        {
+            "id": "strings",
+            "path": "Instrumentation > Strings",
+            "url": "https://ocremix.org/tag/strings"
+        },
+        {
+            "id": "synth",
+            "path": "Instrumentation > Synth",
+            "url": "https://ocremix.org/tag/synth"
+        }
+    ],
     "title": "Funky Moles & Trashy Ducks",
     "url": "https://ocremix.org/remix/OCR03005"
 }

@@ -12,6 +12,58 @@
         }
     ],
     "primary_game": "Sonic the Hedgehog 3",
+    "tags": [
+        {
+            "id": "brass",
+            "path": "Instrumentation > Brass",
+            "url": "https://ocremix.org/tag/brass"
+        },
+        {
+            "id": "energetic",
+            "path": "Mood > Energetic",
+            "url": "https://ocremix.org/tag/energetic"
+        },
+        {
+            "id": "jazz",
+            "path": "Genre > Jazz",
+            "url": "https://ocremix.org/tag/jazz"
+        },
+        {
+            "id": "jazzy",
+            "path": "Mood > Jazzy",
+            "url": "https://ocremix.org/tag/jazzy"
+        },
+        {
+            "id": "latin",
+            "path": "Genre > Latin",
+            "url": "https://ocremix.org/tag/latin"
+        },
+        {
+            "id": "latin-american",
+            "path": "Regional > Latin American",
+            "url": "https://ocremix.org/tag/latin-american"
+        },
+        {
+            "id": "live-ensemble",
+            "path": "Production > Live Ensemble",
+            "url": "https://ocremix.org/tag/live-ensemble"
+        },
+        {
+            "id": "live-instruments",
+            "path": "Production > Live Instruments",
+            "url": "https://ocremix.org/tag/live-instruments"
+        },
+        {
+            "id": "live-recording",
+            "path": "Production > Live Recording",
+            "url": "https://ocremix.org/tag/live-recording"
+        },
+        {
+            "id": "saxophone",
+            "path": "Instrumentation > Saxophone",
+            "url": "https://ocremix.org/tag/saxophone"
+        }
+    ],
     "title": "Samba del Anjos",
     "url": "https://ocremix.org/remix/OCR03675"
 }

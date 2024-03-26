@@ -7,6 +7,43 @@
         }
     ],
     "primary_game": "Metroid",
+    "tags": [
+        {
+            "id": "acoustic",
+            "path": "Instrumentation > Acoustic",
+            "url": "https://ocremix.org/tag/acoustic"
+        },
+        {
+            "id": "collab",
+            "path": "Origin > Collaboration",
+            "url": "https://ocremix.org/tag/collab"
+        },
+        {
+            "id": "dark",
+            "path": "Mood > Dark",
+            "url": "https://ocremix.org/tag/dark"
+        },
+        {
+            "id": "live-ensemble",
+            "path": "Production > Live Ensemble",
+            "url": "https://ocremix.org/tag/live-ensemble"
+        },
+        {
+            "id": "live-recording",
+            "path": "Production > Live Recording",
+            "url": "https://ocremix.org/tag/live-recording"
+        },
+        {
+            "id": "strings",
+            "path": "Instrumentation > Strings",
+            "url": "https://ocremix.org/tag/strings"
+        },
+        {
+            "id": "violin",
+            "path": "Instrumentation > Violin",
+            "url": "https://ocremix.org/tag/violin"
+        }
+    ],
     "title": "Kraid's Hideout",
     "url": "https://ocremix.org/remix/OCR01171"
 }

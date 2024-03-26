@@ -7,6 +7,28 @@
         }
     ],
     "primary_game": "Pilotwings Resort",
+    "tags": [
+        {
+            "id": "chiptune",
+            "path": "Instrumentation > Chiptune",
+            "url": "https://ocremix.org/tag/chiptune"
+        },
+        {
+            "id": "electronic",
+            "path": "Instrumentation > Electronic",
+            "url": "https://ocremix.org/tag/electronic"
+        },
+        {
+            "id": "jazzy",
+            "path": "Mood > Jazzy",
+            "url": "https://ocremix.org/tag/jazzy"
+        },
+        {
+            "id": "mellow",
+            "path": "Mood > Mellow",
+            "url": "https://ocremix.org/tag/mellow"
+        }
+    ],
     "title": "Depth Perception",
     "url": "https://ocremix.org/remix/OCR02426"
 }

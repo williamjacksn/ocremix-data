@@ -7,6 +7,43 @@
         }
     ],
     "primary_game": "Lufia II: Rise of the Sinistrals",
+    "tags": [
+        {
+            "id": "bells",
+            "path": "Instrumentation > Bells",
+            "url": "https://ocremix.org/tag/bells"
+        },
+        {
+            "id": "brass",
+            "path": "Instrumentation > Brass",
+            "url": "https://ocremix.org/tag/brass"
+        },
+        {
+            "id": "chill",
+            "path": "Mood > Chill",
+            "url": "https://ocremix.org/tag/chill"
+        },
+        {
+            "id": "mellow",
+            "path": "Mood > Mellow",
+            "url": "https://ocremix.org/tag/mellow"
+        },
+        {
+            "id": "piano",
+            "path": "Instrumentation > Piano",
+            "url": "https://ocremix.org/tag/piano"
+        },
+        {
+            "id": "strings",
+            "path": "Instrumentation > Strings",
+            "url": "https://ocremix.org/tag/strings"
+        },
+        {
+            "id": "winter-holiday",
+            "path": "Usage > Winter Holiday",
+            "url": "https://ocremix.org/tag/winter-holiday"
+        }
+    ],
     "title": "Christmas in the Village (Silver Bells)",
     "url": "https://ocremix.org/remix/OCR00887"
 }

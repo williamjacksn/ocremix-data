@@ -7,6 +7,23 @@
         }
     ],
     "primary_game": "Pok\u00e9mon Gold Version",
+    "tags": [
+        {
+            "id": "electric-guitar",
+            "path": "Instrumentation > Electric Guitar",
+            "url": "https://ocremix.org/tag/electric-guitar"
+        },
+        {
+            "id": "rock",
+            "path": "Genre > Rock",
+            "url": "https://ocremix.org/tag/rock"
+        },
+        {
+            "id": "synth",
+            "path": "Instrumentation > Synth",
+            "url": "https://ocremix.org/tag/synth"
+        }
+    ],
     "title": "Champion's Horizon",
     "url": "https://ocremix.org/remix/OCR02195"
 }

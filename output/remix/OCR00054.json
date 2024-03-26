@@ -7,6 +7,53 @@
         }
     ],
     "primary_game": "Metroid",
+    "tags": [
+        {
+            "id": "cinematic",
+            "path": "Genre > Cinematic",
+            "url": "https://ocremix.org/tag/cinematic"
+        },
+        {
+            "id": "electric-guitar",
+            "path": "Instrumentation > Electric Guitar",
+            "url": "https://ocremix.org/tag/electric-guitar"
+        },
+        {
+            "id": "epic",
+            "path": "Mood > Epic",
+            "url": "https://ocremix.org/tag/epic"
+        },
+        {
+            "id": "piano",
+            "path": "Instrumentation > Piano",
+            "url": "https://ocremix.org/tag/piano"
+        },
+        {
+            "id": "rock",
+            "path": "Genre > Rock",
+            "url": "https://ocremix.org/tag/rock"
+        },
+        {
+            "id": "solemn",
+            "path": "Mood > Solemn",
+            "url": "https://ocremix.org/tag/solemn"
+        },
+        {
+            "id": "strings",
+            "path": "Instrumentation > Strings",
+            "url": "https://ocremix.org/tag/strings"
+        },
+        {
+            "id": "tempo-moderate",
+            "path": "Time > Tempo: Moderate",
+            "url": "https://ocremix.org/tag/tempo-moderate"
+        },
+        {
+            "id": "tempo-slow",
+            "path": "Time > Tempo: Slow",
+            "url": "https://ocremix.org/tag/tempo-slow"
+        }
+    ],
     "title": "efsisos featuring Samus Aran",
     "url": "https://ocremix.org/remix/OCR00054"
 }

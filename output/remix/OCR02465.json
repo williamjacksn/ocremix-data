@@ -7,6 +7,33 @@
         }
     ],
     "primary_game": "Xenogears",
+    "tags": [
+        {
+            "id": "ballad",
+            "path": "Genre > Easy Listening > Ballad",
+            "url": "https://ocremix.org/tag/ballad"
+        },
+        {
+            "id": "hip-hop",
+            "path": "Genre > Hip Hop",
+            "url": "https://ocremix.org/tag/hip-hop"
+        },
+        {
+            "id": "mellow",
+            "path": "Mood > Mellow",
+            "url": "https://ocremix.org/tag/mellow"
+        },
+        {
+            "id": "piano",
+            "path": "Instrumentation > Piano",
+            "url": "https://ocremix.org/tag/piano"
+        },
+        {
+            "id": "romantic",
+            "path": "Mood > Romantic",
+            "url": "https://ocremix.org/tag/romantic"
+        }
+    ],
     "title": "You and I",
     "url": "https://ocremix.org/remix/OCR02465"
 }

@@ -7,6 +7,13 @@
         }
     ],
     "primary_game": "Final Fantasy VI",
+    "tags": [
+        {
+            "id": "duration-long",
+            "path": "Time > Duration: Long",
+            "url": "https://ocremix.org/tag/duration-long"
+        }
+    ],
     "title": "Monument of Non-Existence",
     "url": "https://ocremix.org/remix/OCR03317"
 }

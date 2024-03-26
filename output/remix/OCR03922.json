@@ -7,6 +7,43 @@
         }
     ],
     "primary_game": "Kirby's Return to Dream Land",
+    "tags": [
+        {
+            "id": "classical",
+            "path": "Genre > Classical",
+            "url": "https://ocremix.org/tag/classical"
+        },
+        {
+            "id": "energetic",
+            "path": "Mood > Energetic",
+            "url": "https://ocremix.org/tag/energetic"
+        },
+        {
+            "id": "happy",
+            "path": "Mood > Happy",
+            "url": "https://ocremix.org/tag/happy"
+        },
+        {
+            "id": "jazz",
+            "path": "Genre > Jazz",
+            "url": "https://ocremix.org/tag/jazz"
+        },
+        {
+            "id": "piano",
+            "path": "Instrumentation > Piano",
+            "url": "https://ocremix.org/tag/piano"
+        },
+        {
+            "id": "solo",
+            "path": "Arrangement > Solo",
+            "url": "https://ocremix.org/tag/solo"
+        },
+        {
+            "id": "solo-piano",
+            "path": "Instrumentation > Solo Piano",
+            "url": "https://ocremix.org/tag/solo-piano"
+        }
+    ],
     "title": "Cocoa 'n' Cookies",
     "url": "https://ocremix.org/remix/OCR03922"
 }

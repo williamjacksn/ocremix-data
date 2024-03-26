@@ -12,6 +12,28 @@
         }
     ],
     "primary_game": "Super Castlevania IV",
+    "tags": [
+        {
+            "id": "aggressive",
+            "path": "Mood > Aggressive",
+            "url": "https://ocremix.org/tag/aggressive"
+        },
+        {
+            "id": "electric-guitar",
+            "path": "Instrumentation > Electric Guitar",
+            "url": "https://ocremix.org/tag/electric-guitar"
+        },
+        {
+            "id": "metal",
+            "path": "Genre > Rock > Metal",
+            "url": "https://ocremix.org/tag/metal"
+        },
+        {
+            "id": "orchestral",
+            "path": "Instrumentation > Orchestral",
+            "url": "https://ocremix.org/tag/orchestral"
+        }
+    ],
     "title": "Dark Cellar",
     "url": "https://ocremix.org/remix/OCR03250"
 }

@@ -7,6 +7,48 @@
         }
     ],
     "primary_game": "Sonic the Hedgehog 2",
+    "tags": [
+        {
+            "id": "dance",
+            "path": "Genre > EDM > Dance",
+            "url": "https://ocremix.org/tag/dance"
+        },
+        {
+            "id": "distortion",
+            "path": "Effects > Distortion",
+            "url": "https://ocremix.org/tag/distortion"
+        },
+        {
+            "id": "edm",
+            "path": "Genre > EDM",
+            "url": "https://ocremix.org/tag/edm"
+        },
+        {
+            "id": "electro",
+            "path": "Genre > EDM > Electro",
+            "url": "https://ocremix.org/tag/electro"
+        },
+        {
+            "id": "funky",
+            "path": "Mood > Funky",
+            "url": "https://ocremix.org/tag/funky"
+        },
+        {
+            "id": "quirky",
+            "path": "Mood > Quirky",
+            "url": "https://ocremix.org/tag/quirky"
+        },
+        {
+            "id": "synth",
+            "path": "Instrumentation > Synth",
+            "url": "https://ocremix.org/tag/synth"
+        },
+        {
+            "id": "tempo-moderate",
+            "path": "Time > Tempo: Moderate",
+            "url": "https://ocremix.org/tag/tempo-moderate"
+        }
+    ],
     "title": "Chemical Juice",
     "url": "https://ocremix.org/remix/OCR00110"
 }

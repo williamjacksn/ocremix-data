@@ -7,6 +7,33 @@
         }
     ],
     "primary_game": "NiGHTS into dreams...",
+    "tags": [
+        {
+            "id": "fusion",
+            "path": "Genre > Jazz > Fusion",
+            "url": "https://ocremix.org/tag/fusion"
+        },
+        {
+            "id": "jazz",
+            "path": "Genre > Jazz",
+            "url": "https://ocremix.org/tag/jazz"
+        },
+        {
+            "id": "mellow",
+            "path": "Mood > Mellow",
+            "url": "https://ocremix.org/tag/mellow"
+        },
+        {
+            "id": "piano",
+            "path": "Instrumentation > Piano",
+            "url": "https://ocremix.org/tag/piano"
+        },
+        {
+            "id": "vibraphone",
+            "path": "Instrumentation > Vibraphone",
+            "url": "https://ocremix.org/tag/vibraphone"
+        }
+    ],
     "title": "Overnight Cloverleaf",
     "url": "https://ocremix.org/remix/OCR02261"
 }

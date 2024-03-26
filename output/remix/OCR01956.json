@@ -12,6 +12,33 @@
         }
     ],
     "primary_game": "Wild Arms",
+    "tags": [
+        {
+            "id": "duration-long",
+            "path": "Time > Duration: Long",
+            "url": "https://ocremix.org/tag/duration-long"
+        },
+        {
+            "id": "electronic",
+            "path": "Instrumentation > Electronic",
+            "url": "https://ocremix.org/tag/electronic"
+        },
+        {
+            "id": "lyrics-original",
+            "path": "Lyrics > Lyrics: Original",
+            "url": "https://ocremix.org/tag/lyrics-original"
+        },
+        {
+            "id": "trance",
+            "path": "Genre > EDM > Trance",
+            "url": "https://ocremix.org/tag/trance"
+        },
+        {
+            "id": "vocals-female",
+            "path": "Instrumentation > Vocals: Female",
+            "url": "https://ocremix.org/tag/vocals-female"
+        }
+    ],
     "title": "A Ring and a Promise",
     "url": "https://ocremix.org/remix/OCR01956"
 }

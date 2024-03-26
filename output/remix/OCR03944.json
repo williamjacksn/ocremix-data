@@ -12,6 +12,83 @@
         }
     ],
     "primary_game": "Chrono Cross",
+    "tags": [
+        {
+            "id": "bouzouki",
+            "path": "Instrumentation > Bouzouki",
+            "url": "https://ocremix.org/tag/bouzouki"
+        },
+        {
+            "id": "collab",
+            "path": "Origin > Collaboration",
+            "url": "https://ocremix.org/tag/collab"
+        },
+        {
+            "id": "dance",
+            "path": "Genre > EDM > Dance",
+            "url": "https://ocremix.org/tag/dance"
+        },
+        {
+            "id": "dulcimer",
+            "path": "Instrumentation > Dulcimer",
+            "url": "https://ocremix.org/tag/dulcimer"
+        },
+        {
+            "id": "energetic",
+            "path": "Mood > Energetic",
+            "url": "https://ocremix.org/tag/energetic"
+        },
+        {
+            "id": "folk",
+            "path": "Genre > Folk",
+            "url": "https://ocremix.org/tag/folk"
+        },
+        {
+            "id": "happy",
+            "path": "Mood > Happy",
+            "url": "https://ocremix.org/tag/happy"
+        },
+        {
+            "id": "harp",
+            "path": "Instrumentation > Harp",
+            "url": "https://ocremix.org/tag/harp"
+        },
+        {
+            "id": "live-instruments",
+            "path": "Production > Live Instruments",
+            "url": "https://ocremix.org/tag/live-instruments"
+        },
+        {
+            "id": "lyrics-original",
+            "path": "Lyrics > Lyrics: Original",
+            "url": "https://ocremix.org/tag/lyrics-original"
+        },
+        {
+            "id": "pop",
+            "path": "Genre > Pop",
+            "url": "https://ocremix.org/tag/pop"
+        },
+        {
+            "id": "synth",
+            "path": "Instrumentation > Synth",
+            "url": "https://ocremix.org/tag/synth"
+        },
+        {
+            "id": "vocals-female",
+            "path": "Instrumentation > Vocals: Female",
+            "url": "https://ocremix.org/tag/vocals-female"
+        },
+        {
+            "id": "vocals-male",
+            "path": "Instrumentation > Vocals: Male",
+            "url": "https://ocremix.org/tag/vocals-male"
+        },
+        {
+            "id": "woodwinds",
+            "path": "Instrumentation > Woodwinds",
+            "url": "https://ocremix.org/tag/woodwinds"
+        }
+    ],
     "title": "When Two Worlds Meet",
     "url": "https://ocremix.org/remix/OCR03944"
 }

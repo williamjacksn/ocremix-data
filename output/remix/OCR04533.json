@@ -22,6 +22,68 @@
         }
     ],
     "primary_game": "Super Metroid",
+    "tags": [
+        {
+            "id": "acoustic-guitar",
+            "path": "Instrumentation > Acoustic Guitar",
+            "url": "https://ocremix.org/tag/acoustic-guitar"
+        },
+        {
+            "id": "collab",
+            "path": "Origin > Collaboration",
+            "url": "https://ocremix.org/tag/collab"
+        },
+        {
+            "id": "easy-listening",
+            "path": "Genre > Easy Listening",
+            "url": "https://ocremix.org/tag/easy-listening"
+        },
+        {
+            "id": "flute",
+            "path": "Instrumentation > Flute",
+            "url": "https://ocremix.org/tag/flute"
+        },
+        {
+            "id": "meditation",
+            "path": "Usage > Meditation",
+            "url": "https://ocremix.org/tag/meditation"
+        },
+        {
+            "id": "medley",
+            "path": "Arrangement > Medley",
+            "url": "https://ocremix.org/tag/medley"
+        },
+        {
+            "id": "mellow",
+            "path": "Mood > Mellow",
+            "url": "https://ocremix.org/tag/mellow"
+        },
+        {
+            "id": "mystical",
+            "path": "Mood > Mystical",
+            "url": "https://ocremix.org/tag/mystical"
+        },
+        {
+            "id": "new-age",
+            "path": "Genre > Easy Listening > New Age",
+            "url": "https://ocremix.org/tag/new-age"
+        },
+        {
+            "id": "timesig-4-4",
+            "path": "Time > 4/4 Time Signature",
+            "url": "https://ocremix.org/tag/timesig-4-4"
+        },
+        {
+            "id": "violin",
+            "path": "Instrumentation > Violin",
+            "url": "https://ocremix.org/tag/violin"
+        },
+        {
+            "id": "vocals-male",
+            "path": "Instrumentation > Vocals: Male",
+            "url": "https://ocremix.org/tag/vocals-male"
+        }
+    ],
     "title": "Binary Stars",
     "url": "https://ocremix.org/remix/OCR04533"
 }

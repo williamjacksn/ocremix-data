@@ -7,6 +7,28 @@
         }
     ],
     "primary_game": "Animal Crossing",
+    "tags": [
+        {
+            "id": "funky",
+            "path": "Mood > Funky",
+            "url": "https://ocremix.org/tag/funky"
+        },
+        {
+            "id": "goofy",
+            "path": "Mood > Goofy",
+            "url": "https://ocremix.org/tag/goofy"
+        },
+        {
+            "id": "jazz",
+            "path": "Genre > Jazz",
+            "url": "https://ocremix.org/tag/jazz"
+        },
+        {
+            "id": "singing",
+            "path": "Instrumentation > Singing",
+            "url": "https://ocremix.org/tag/singing"
+        }
+    ],
     "title": "purdieoldays",
     "url": "https://ocremix.org/remix/OCR02048"
 }

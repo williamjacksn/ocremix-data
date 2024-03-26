@@ -7,6 +7,33 @@
         }
     ],
     "primary_game": "Secret of Mana",
+    "tags": [
+        {
+            "id": "ambient",
+            "path": "Genre > Easy Listening > Ambient",
+            "url": "https://ocremix.org/tag/ambient"
+        },
+        {
+            "id": "chill",
+            "path": "Mood > Chill",
+            "url": "https://ocremix.org/tag/chill"
+        },
+        {
+            "id": "electronic",
+            "path": "Instrumentation > Electronic",
+            "url": "https://ocremix.org/tag/electronic"
+        },
+        {
+            "id": "mellow",
+            "path": "Mood > Mellow",
+            "url": "https://ocremix.org/tag/mellow"
+        },
+        {
+            "id": "tempo-slow",
+            "path": "Time > Tempo: Slow",
+            "url": "https://ocremix.org/tag/tempo-slow"
+        }
+    ],
     "title": "Mother",
     "url": "https://ocremix.org/remix/OCR02937"
 }

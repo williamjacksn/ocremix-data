@@ -7,6 +7,28 @@
         }
     ],
     "primary_game": "Mega Man 4",
+    "tags": [
+        {
+            "id": "disco",
+            "path": "Genre > R&B > Disco",
+            "url": "https://ocremix.org/tag/disco"
+        },
+        {
+            "id": "middle-eastern",
+            "path": "Regional > Middle Eastern",
+            "url": "https://ocremix.org/tag/middle-eastern"
+        },
+        {
+            "id": "strings",
+            "path": "Instrumentation > Strings",
+            "url": "https://ocremix.org/tag/strings"
+        },
+        {
+            "id": "tempo-fast",
+            "path": "Time > Tempo: Fast",
+            "url": "https://ocremix.org/tag/tempo-fast"
+        }
+    ],
     "title": "Pharaoh's Last Dance",
     "url": "https://ocremix.org/remix/OCR02305"
 }

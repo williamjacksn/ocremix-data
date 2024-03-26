@@ -7,6 +7,33 @@
         }
     ],
     "primary_game": "The Legend of Zelda: A Link to the Past",
+    "tags": [
+        {
+            "id": "ambient",
+            "path": "Genre > Easy Listening > Ambient",
+            "url": "https://ocremix.org/tag/ambient"
+        },
+        {
+            "id": "bells",
+            "path": "Instrumentation > Bells",
+            "url": "https://ocremix.org/tag/bells"
+        },
+        {
+            "id": "mellow",
+            "path": "Mood > Mellow",
+            "url": "https://ocremix.org/tag/mellow"
+        },
+        {
+            "id": "peaceful",
+            "path": "Mood > Peaceful",
+            "url": "https://ocremix.org/tag/peaceful"
+        },
+        {
+            "id": "piano",
+            "path": "Instrumentation > Piano",
+            "url": "https://ocremix.org/tag/piano"
+        }
+    ],
     "title": "Magic Fountain",
     "url": "https://ocremix.org/remix/OCR02058"
 }

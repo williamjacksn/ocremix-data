@@ -7,6 +7,33 @@
         }
     ],
     "primary_game": "Super Street Fighter II Turbo",
+    "tags": [
+        {
+            "id": "electronic",
+            "path": "Instrumentation > Electronic",
+            "url": "https://ocremix.org/tag/electronic"
+        },
+        {
+            "id": "koto",
+            "path": "Instrumentation > Koto",
+            "url": "https://ocremix.org/tag/koto"
+        },
+        {
+            "id": "strings",
+            "path": "Instrumentation > Strings",
+            "url": "https://ocremix.org/tag/strings"
+        },
+        {
+            "id": "synth",
+            "path": "Instrumentation > Synth",
+            "url": "https://ocremix.org/tag/synth"
+        },
+        {
+            "id": "world",
+            "path": "Regional > World",
+            "url": "https://ocremix.org/tag/world"
+        }
+    ],
     "title": "Flying Heaven",
     "url": "https://ocremix.org/remix/OCR01480"
 }

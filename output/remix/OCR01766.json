@@ -7,6 +7,28 @@
         }
     ],
     "primary_game": "Final Fantasy VI",
+    "tags": [
+        {
+            "id": "duration-short",
+            "path": "Time > Duration: Short",
+            "url": "https://ocremix.org/tag/duration-short"
+        },
+        {
+            "id": "funk",
+            "path": "Genre > R&B > Funk",
+            "url": "https://ocremix.org/tag/funk"
+        },
+        {
+            "id": "hip-hop",
+            "path": "Genre > Hip Hop",
+            "url": "https://ocremix.org/tag/hip-hop"
+        },
+        {
+            "id": "synth",
+            "path": "Instrumentation > Synth",
+            "url": "https://ocremix.org/tag/synth"
+        }
+    ],
     "title": "TimeShock",
     "url": "https://ocremix.org/remix/OCR01766"
 }

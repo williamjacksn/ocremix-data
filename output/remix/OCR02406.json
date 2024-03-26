@@ -7,6 +7,53 @@
         }
     ],
     "primary_game": "Mega Man X6",
+    "tags": [
+        {
+            "id": "chill",
+            "path": "Mood > Chill",
+            "url": "https://ocremix.org/tag/chill"
+        },
+        {
+            "id": "electric-piano",
+            "path": "Instrumentation > Electric Piano",
+            "url": "https://ocremix.org/tag/electric-piano"
+        },
+        {
+            "id": "electronic",
+            "path": "Instrumentation > Electronic",
+            "url": "https://ocremix.org/tag/electronic"
+        },
+        {
+            "id": "funky",
+            "path": "Mood > Funky",
+            "url": "https://ocremix.org/tag/funky"
+        },
+        {
+            "id": "jazz",
+            "path": "Genre > Jazz",
+            "url": "https://ocremix.org/tag/jazz"
+        },
+        {
+            "id": "jazzy",
+            "path": "Mood > Jazzy",
+            "url": "https://ocremix.org/tag/jazzy"
+        },
+        {
+            "id": "koto",
+            "path": "Instrumentation > Koto",
+            "url": "https://ocremix.org/tag/koto"
+        },
+        {
+            "id": "mellow",
+            "path": "Mood > Mellow",
+            "url": "https://ocremix.org/tag/mellow"
+        },
+        {
+            "id": "world",
+            "path": "Regional > World",
+            "url": "https://ocremix.org/tag/world"
+        }
+    ],
     "title": "Insecta Robotica",
     "url": "https://ocremix.org/remix/OCR02406"
 }

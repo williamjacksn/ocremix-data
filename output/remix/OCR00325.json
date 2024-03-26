@@ -7,6 +7,53 @@
         }
     ],
     "primary_game": "Radical Dreamers: Nusumenai Houseki",
+    "tags": [
+        {
+            "id": "aggressive",
+            "path": "Mood > Aggressive",
+            "url": "https://ocremix.org/tag/aggressive"
+        },
+        {
+            "id": "angry",
+            "path": "Mood > Angry",
+            "url": "https://ocremix.org/tag/angry"
+        },
+        {
+            "id": "dark",
+            "path": "Mood > Dark",
+            "url": "https://ocremix.org/tag/dark"
+        },
+        {
+            "id": "distortion",
+            "path": "Effects > Distortion",
+            "url": "https://ocremix.org/tag/distortion"
+        },
+        {
+            "id": "duration-short",
+            "path": "Time > Duration: Short",
+            "url": "https://ocremix.org/tag/duration-short"
+        },
+        {
+            "id": "experimental",
+            "path": "Genre > Experimental",
+            "url": "https://ocremix.org/tag/experimental"
+        },
+        {
+            "id": "lo-fi",
+            "path": "Effects > Lo-Fi",
+            "url": "https://ocremix.org/tag/lo-fi"
+        },
+        {
+            "id": "synth",
+            "path": "Instrumentation > Synth",
+            "url": "https://ocremix.org/tag/synth"
+        },
+        {
+            "id": "tempo-fast",
+            "path": "Time > Tempo: Fast",
+            "url": "https://ocremix.org/tag/tempo-fast"
+        }
+    ],
     "title": "Industrial Promise",
     "url": "https://ocremix.org/remix/OCR00325"
 }

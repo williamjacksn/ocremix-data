@@ -7,6 +7,28 @@
         }
     ],
     "primary_game": "Crusader of Centy",
+    "tags": [
+        {
+            "id": "electric-guitar",
+            "path": "Instrumentation > Electric Guitar",
+            "url": "https://ocremix.org/tag/electric-guitar"
+        },
+        {
+            "id": "piano",
+            "path": "Instrumentation > Piano",
+            "url": "https://ocremix.org/tag/piano"
+        },
+        {
+            "id": "pop",
+            "path": "Genre > Pop",
+            "url": "https://ocremix.org/tag/pop"
+        },
+        {
+            "id": "resubmission",
+            "path": "Origin > Resubmission",
+            "url": "https://ocremix.org/tag/resubmission"
+        }
+    ],
     "title": "Daily Training",
     "url": "https://ocremix.org/remix/OCR01765"
 }

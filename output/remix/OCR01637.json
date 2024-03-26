@@ -7,6 +7,18 @@
         }
     ],
     "primary_game": "Flashback: The Quest for Identity",
+    "tags": [
+        {
+            "id": "cinematic",
+            "path": "Genre > Cinematic",
+            "url": "https://ocremix.org/tag/cinematic"
+        },
+        {
+            "id": "orchestral",
+            "path": "Instrumentation > Orchestral",
+            "url": "https://ocremix.org/tag/orchestral"
+        }
+    ],
     "title": "Memory Leak Suite",
     "url": "https://ocremix.org/remix/OCR01637"
 }

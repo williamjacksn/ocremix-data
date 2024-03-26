@@ -7,6 +7,63 @@
         }
     ],
     "primary_game": "The Guardian Legend",
+    "tags": [
+        {
+            "id": "chill",
+            "path": "Mood > Chill",
+            "url": "https://ocremix.org/tag/chill"
+        },
+        {
+            "id": "dark",
+            "path": "Mood > Dark",
+            "url": "https://ocremix.org/tag/dark"
+        },
+        {
+            "id": "downtempo",
+            "path": "Genre > EDM > Downtempo",
+            "url": "https://ocremix.org/tag/downtempo"
+        },
+        {
+            "id": "electronic",
+            "path": "Instrumentation > Electronic",
+            "url": "https://ocremix.org/tag/electronic"
+        },
+        {
+            "id": "glitch-hop",
+            "path": "Genre > Hip Hop > Glitch Hop",
+            "url": "https://ocremix.org/tag/glitch-hop"
+        },
+        {
+            "id": "glitching",
+            "path": "Effects > Glitching",
+            "url": "https://ocremix.org/tag/glitching"
+        },
+        {
+            "id": "lo-fi",
+            "path": "Effects > Lo-Fi",
+            "url": "https://ocremix.org/tag/lo-fi"
+        },
+        {
+            "id": "organ",
+            "path": "Instrumentation > Organ",
+            "url": "https://ocremix.org/tag/organ"
+        },
+        {
+            "id": "quirky",
+            "path": "Mood > Quirky",
+            "url": "https://ocremix.org/tag/quirky"
+        },
+        {
+            "id": "sound-fx",
+            "path": "Instrumentation > Sound FX",
+            "url": "https://ocremix.org/tag/sound-fx"
+        },
+        {
+            "id": "synth",
+            "path": "Instrumentation > Synth",
+            "url": "https://ocremix.org/tag/synth"
+        }
+    ],
     "title": "Arboreality",
     "url": "https://ocremix.org/remix/OCR04156"
 }

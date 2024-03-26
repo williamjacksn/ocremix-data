@@ -7,6 +7,48 @@
         }
     ],
     "primary_game": "Tehkan World Cup",
+    "tags": [
+        {
+            "id": "distortion",
+            "path": "Effects > Distortion",
+            "url": "https://ocremix.org/tag/distortion"
+        },
+        {
+            "id": "electric-guitar",
+            "path": "Instrumentation > Electric Guitar",
+            "url": "https://ocremix.org/tag/electric-guitar"
+        },
+        {
+            "id": "fusion",
+            "path": "Genre > Jazz > Fusion",
+            "url": "https://ocremix.org/tag/fusion"
+        },
+        {
+            "id": "happy",
+            "path": "Mood > Happy",
+            "url": "https://ocremix.org/tag/happy"
+        },
+        {
+            "id": "lo-fi",
+            "path": "Effects > Lo-Fi",
+            "url": "https://ocremix.org/tag/lo-fi"
+        },
+        {
+            "id": "quirky",
+            "path": "Mood > Quirky",
+            "url": "https://ocremix.org/tag/quirky"
+        },
+        {
+            "id": "rock",
+            "path": "Genre > Rock",
+            "url": "https://ocremix.org/tag/rock"
+        },
+        {
+            "id": "synth",
+            "path": "Instrumentation > Synth",
+            "url": "https://ocremix.org/tag/synth"
+        }
+    ],
     "title": "Playing in the Park",
     "url": "https://ocremix.org/remix/OCR03110"
 }

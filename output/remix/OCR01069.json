@@ -7,6 +7,48 @@
         }
     ],
     "primary_game": "Mario Kart 64",
+    "tags": [
+        {
+            "id": "bells",
+            "path": "Instrumentation > Bells",
+            "url": "https://ocremix.org/tag/bells"
+        },
+        {
+            "id": "choir",
+            "path": "Instrumentation > Choir",
+            "url": "https://ocremix.org/tag/choir"
+        },
+        {
+            "id": "funky",
+            "path": "Mood > Funky",
+            "url": "https://ocremix.org/tag/funky"
+        },
+        {
+            "id": "happy",
+            "path": "Mood > Happy",
+            "url": "https://ocremix.org/tag/happy"
+        },
+        {
+            "id": "jazz",
+            "path": "Genre > Jazz",
+            "url": "https://ocremix.org/tag/jazz"
+        },
+        {
+            "id": "saxophone",
+            "path": "Instrumentation > Saxophone",
+            "url": "https://ocremix.org/tag/saxophone"
+        },
+        {
+            "id": "tempo-fast",
+            "path": "Time > Tempo: Fast",
+            "url": "https://ocremix.org/tag/tempo-fast"
+        },
+        {
+            "id": "winter-holiday",
+            "path": "Usage > Winter Holiday",
+            "url": "https://ocremix.org/tag/winter-holiday"
+        }
+    ],
     "title": "Party in the Snowland",
     "url": "https://ocremix.org/remix/OCR01069"
 }

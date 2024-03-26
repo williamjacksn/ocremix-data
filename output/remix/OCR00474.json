@@ -7,6 +7,38 @@
         }
     ],
     "primary_game": "Sonic the Hedgehog 3",
+    "tags": [
+        {
+            "id": "dance",
+            "path": "Genre > EDM > Dance",
+            "url": "https://ocremix.org/tag/dance"
+        },
+        {
+            "id": "electronic",
+            "path": "Instrumentation > Electronic",
+            "url": "https://ocremix.org/tag/electronic"
+        },
+        {
+            "id": "ingame-fx",
+            "path": "Instrumentation > In-game FX",
+            "url": "https://ocremix.org/tag/ingame-fx"
+        },
+        {
+            "id": "synth",
+            "path": "Instrumentation > Synth",
+            "url": "https://ocremix.org/tag/synth"
+        },
+        {
+            "id": "tempo-fast",
+            "path": "Time > Tempo: Fast",
+            "url": "https://ocremix.org/tag/tempo-fast"
+        },
+        {
+            "id": "winter-holiday",
+            "path": "Usage > Winter Holiday",
+            "url": "https://ocremix.org/tag/winter-holiday"
+        }
+    ],
     "title": "Ice Cap Zone (Frozen Knuckles Mix)",
     "url": "https://ocremix.org/remix/OCR00474"
 }

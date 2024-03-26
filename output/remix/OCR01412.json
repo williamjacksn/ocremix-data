@@ -7,6 +7,28 @@
         }
     ],
     "primary_game": "Final Doom",
+    "tags": [
+        {
+            "id": "acoustic-guitar",
+            "path": "Instrumentation > Acoustic Guitar",
+            "url": "https://ocremix.org/tag/acoustic-guitar"
+        },
+        {
+            "id": "dark",
+            "path": "Mood > Dark",
+            "url": "https://ocremix.org/tag/dark"
+        },
+        {
+            "id": "hip-hop",
+            "path": "Genre > Hip Hop",
+            "url": "https://ocremix.org/tag/hip-hop"
+        },
+        {
+            "id": "piano",
+            "path": "Instrumentation > Piano",
+            "url": "https://ocremix.org/tag/piano"
+        }
+    ],
     "title": "River Styx",
     "url": "https://ocremix.org/remix/OCR01412"
 }

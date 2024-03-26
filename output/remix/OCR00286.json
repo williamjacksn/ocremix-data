@@ -7,6 +7,88 @@
         }
     ],
     "primary_game": "Final Fantasy VI",
+    "tags": [
+        {
+            "id": "acoustic-guitar",
+            "path": "Instrumentation > Acoustic Guitar",
+            "url": "https://ocremix.org/tag/acoustic-guitar"
+        },
+        {
+            "id": "cello",
+            "path": "Instrumentation > Cello",
+            "url": "https://ocremix.org/tag/cello"
+        },
+        {
+            "id": "choir",
+            "path": "Instrumentation > Choir",
+            "url": "https://ocremix.org/tag/choir"
+        },
+        {
+            "id": "cowbell",
+            "path": "Instrumentation > Cowbell",
+            "url": "https://ocremix.org/tag/cowbell"
+        },
+        {
+            "id": "easy-listening",
+            "path": "Genre > Easy Listening",
+            "url": "https://ocremix.org/tag/easy-listening"
+        },
+        {
+            "id": "flute",
+            "path": "Instrumentation > Flute",
+            "url": "https://ocremix.org/tag/flute"
+        },
+        {
+            "id": "hand-drums",
+            "path": "Instrumentation > Hand Drums",
+            "url": "https://ocremix.org/tag/hand-drums"
+        },
+        {
+            "id": "happy",
+            "path": "Mood > Happy",
+            "url": "https://ocremix.org/tag/happy"
+        },
+        {
+            "id": "mellow",
+            "path": "Mood > Mellow",
+            "url": "https://ocremix.org/tag/mellow"
+        },
+        {
+            "id": "middle-eastern",
+            "path": "Regional > Middle Eastern",
+            "url": "https://ocremix.org/tag/middle-eastern"
+        },
+        {
+            "id": "piano",
+            "path": "Instrumentation > Piano",
+            "url": "https://ocremix.org/tag/piano"
+        },
+        {
+            "id": "strings",
+            "path": "Instrumentation > Strings",
+            "url": "https://ocremix.org/tag/strings"
+        },
+        {
+            "id": "tempo-fast",
+            "path": "Time > Tempo: Fast",
+            "url": "https://ocremix.org/tag/tempo-fast"
+        },
+        {
+            "id": "timesig-4-4",
+            "path": "Time > 4/4 Time Signature",
+            "url": "https://ocremix.org/tag/timesig-4-4"
+        },
+        {
+            "id": "violin",
+            "path": "Instrumentation > Violin",
+            "url": "https://ocremix.org/tag/violin"
+        },
+        {
+            "id": "woodwinds",
+            "path": "Instrumentation > Woodwinds",
+            "url": "https://ocremix.org/tag/woodwinds"
+        }
+    ],
     "title": "The Arab Painting",
     "url": "https://ocremix.org/remix/OCR00286"
 }

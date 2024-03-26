@@ -7,6 +7,28 @@
         }
     ],
     "primary_game": "Professor Layton and the Curious Village",
+    "tags": [
+        {
+            "id": "duration-short",
+            "path": "Time > Duration: Short",
+            "url": "https://ocremix.org/tag/duration-short"
+        },
+        {
+            "id": "jazz",
+            "path": "Genre > Jazz",
+            "url": "https://ocremix.org/tag/jazz"
+        },
+        {
+            "id": "mellow",
+            "path": "Mood > Mellow",
+            "url": "https://ocremix.org/tag/mellow"
+        },
+        {
+            "id": "piano",
+            "path": "Instrumentation > Piano",
+            "url": "https://ocremix.org/tag/piano"
+        }
+    ],
     "title": "Luke, a True Gentleman Prefers a Touch of Light Jazz",
     "url": "https://ocremix.org/remix/OCR02153"
 }

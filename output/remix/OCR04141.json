@@ -7,6 +7,38 @@
         }
     ],
     "primary_game": "Final Fantasy V",
+    "tags": [
+        {
+            "id": "classical",
+            "path": "Genre > Classical",
+            "url": "https://ocremix.org/tag/classical"
+        },
+        {
+            "id": "energetic",
+            "path": "Mood > Energetic",
+            "url": "https://ocremix.org/tag/energetic"
+        },
+        {
+            "id": "piano",
+            "path": "Instrumentation > Piano",
+            "url": "https://ocremix.org/tag/piano"
+        },
+        {
+            "id": "solo",
+            "path": "Arrangement > Solo",
+            "url": "https://ocremix.org/tag/solo"
+        },
+        {
+            "id": "solo-piano",
+            "path": "Instrumentation > Solo Piano",
+            "url": "https://ocremix.org/tag/solo-piano"
+        },
+        {
+            "id": "suspenseful",
+            "path": "Mood > Suspenseful",
+            "url": "https://ocremix.org/tag/suspenseful"
+        }
+    ],
     "title": "Flight over the Enchanted Forest",
     "url": "https://ocremix.org/remix/OCR04141"
 }

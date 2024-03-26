@@ -32,6 +32,98 @@
         }
     ],
     "primary_game": "Final Fantasy VIII",
+    "tags": [
+        {
+            "id": "collab",
+            "path": "Origin > Collaboration",
+            "url": "https://ocremix.org/tag/collab"
+        },
+        {
+            "id": "experimental",
+            "path": "Genre > Experimental",
+            "url": "https://ocremix.org/tag/experimental"
+        },
+        {
+            "id": "flute",
+            "path": "Instrumentation > Flute",
+            "url": "https://ocremix.org/tag/flute"
+        },
+        {
+            "id": "jazz",
+            "path": "Genre > Jazz",
+            "url": "https://ocremix.org/tag/jazz"
+        },
+        {
+            "id": "live-instruments",
+            "path": "Production > Live Instruments",
+            "url": "https://ocremix.org/tag/live-instruments"
+        },
+        {
+            "id": "lo-fi",
+            "path": "Effects > Lo-Fi",
+            "url": "https://ocremix.org/tag/lo-fi"
+        },
+        {
+            "id": "mellow",
+            "path": "Mood > Mellow",
+            "url": "https://ocremix.org/tag/mellow"
+        },
+        {
+            "id": "piano",
+            "path": "Instrumentation > Piano",
+            "url": "https://ocremix.org/tag/piano"
+        },
+        {
+            "id": "saxophone",
+            "path": "Instrumentation > Saxophone",
+            "url": "https://ocremix.org/tag/saxophone"
+        },
+        {
+            "id": "sitar",
+            "path": "Instrumentation > Sitar",
+            "url": "https://ocremix.org/tag/sitar"
+        },
+        {
+            "id": "sound-fx",
+            "path": "Instrumentation > Sound FX",
+            "url": "https://ocremix.org/tag/sound-fx"
+        },
+        {
+            "id": "timesig-variable",
+            "path": "Time > Time Signature: Variable",
+            "url": "https://ocremix.org/tag/timesig-variable"
+        },
+        {
+            "id": "trip-hop",
+            "path": "Genre > Hip Hop > Trip Hop",
+            "url": "https://ocremix.org/tag/trip-hop"
+        },
+        {
+            "id": "trippy",
+            "path": "Mood > Trippy",
+            "url": "https://ocremix.org/tag/trippy"
+        },
+        {
+            "id": "trumpet",
+            "path": "Instrumentation > Trumpet",
+            "url": "https://ocremix.org/tag/trumpet"
+        },
+        {
+            "id": "turntable",
+            "path": "Instrumentation > Turntable",
+            "url": "https://ocremix.org/tag/turntable"
+        },
+        {
+            "id": "violin",
+            "path": "Instrumentation > Violin",
+            "url": "https://ocremix.org/tag/violin"
+        },
+        {
+            "id": "vocals-female",
+            "path": "Instrumentation > Vocals: Female",
+            "url": "https://ocremix.org/tag/vocals-female"
+        }
+    ],
     "title": "Even Ill Omens Need a Break",
     "url": "https://ocremix.org/remix/OCR04546"
 }

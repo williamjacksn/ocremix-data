@@ -7,6 +7,33 @@
         }
     ],
     "primary_game": "Star Control II",
+    "tags": [
+        {
+            "id": "ambient",
+            "path": "Genre > Easy Listening > Ambient",
+            "url": "https://ocremix.org/tag/ambient"
+        },
+        {
+            "id": "cinematic",
+            "path": "Genre > Cinematic",
+            "url": "https://ocremix.org/tag/cinematic"
+        },
+        {
+            "id": "orchestral",
+            "path": "Instrumentation > Orchestral",
+            "url": "https://ocremix.org/tag/orchestral"
+        },
+        {
+            "id": "piano",
+            "path": "Instrumentation > Piano",
+            "url": "https://ocremix.org/tag/piano"
+        },
+        {
+            "id": "sad",
+            "path": "Mood > Sad",
+            "url": "https://ocremix.org/tag/sad"
+        }
+    ],
     "title": "Through the Angles of Space",
     "url": "https://ocremix.org/remix/OCR01190"
 }

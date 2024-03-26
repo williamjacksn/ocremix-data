@@ -12,6 +12,68 @@
         }
     ],
     "primary_game": "Sonic CD",
+    "tags": [
+        {
+            "id": "disco",
+            "path": "Genre > R&B > Disco",
+            "url": "https://ocremix.org/tag/disco"
+        },
+        {
+            "id": "electric-piano",
+            "path": "Instrumentation > Electric Piano",
+            "url": "https://ocremix.org/tag/electric-piano"
+        },
+        {
+            "id": "energetic",
+            "path": "Mood > Energetic",
+            "url": "https://ocremix.org/tag/energetic"
+        },
+        {
+            "id": "funky",
+            "path": "Mood > Funky",
+            "url": "https://ocremix.org/tag/funky"
+        },
+        {
+            "id": "fusion",
+            "path": "Genre > Jazz > Fusion",
+            "url": "https://ocremix.org/tag/fusion"
+        },
+        {
+            "id": "jazzy",
+            "path": "Mood > Jazzy",
+            "url": "https://ocremix.org/tag/jazzy"
+        },
+        {
+            "id": "lyrics-existing",
+            "path": "Lyrics > Lyrics: Existing",
+            "url": "https://ocremix.org/tag/lyrics-existing"
+        },
+        {
+            "id": "piano",
+            "path": "Instrumentation > Piano",
+            "url": "https://ocremix.org/tag/piano"
+        },
+        {
+            "id": "singing",
+            "path": "Instrumentation > Singing",
+            "url": "https://ocremix.org/tag/singing"
+        },
+        {
+            "id": "tempo-fast",
+            "path": "Time > Tempo: Fast",
+            "url": "https://ocremix.org/tag/tempo-fast"
+        },
+        {
+            "id": "vocals-male",
+            "path": "Instrumentation > Vocals: Male",
+            "url": "https://ocremix.org/tag/vocals-male"
+        },
+        {
+            "id": "vocals-rapping",
+            "path": "Instrumentation > Vocals: Rapping",
+            "url": "https://ocremix.org/tag/vocals-rapping"
+        }
+    ],
     "title": "The Jazzy Cosmos",
     "url": "https://ocremix.org/remix/OCR03702"
 }

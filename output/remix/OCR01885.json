@@ -22,6 +22,33 @@
         }
     ],
     "primary_game": "Final Fantasy IV",
+    "tags": [
+        {
+            "id": "chill",
+            "path": "Mood > Chill",
+            "url": "https://ocremix.org/tag/chill"
+        },
+        {
+            "id": "collab",
+            "path": "Origin > Collaboration",
+            "url": "https://ocremix.org/tag/collab"
+        },
+        {
+            "id": "electric-guitar",
+            "path": "Instrumentation > Electric Guitar",
+            "url": "https://ocremix.org/tag/electric-guitar"
+        },
+        {
+            "id": "jazz",
+            "path": "Genre > Jazz",
+            "url": "https://ocremix.org/tag/jazz"
+        },
+        {
+            "id": "world",
+            "path": "Regional > World",
+            "url": "https://ocremix.org/tag/world"
+        }
+    ],
     "title": "Kind of Green",
     "url": "https://ocremix.org/remix/OCR01885"
 }

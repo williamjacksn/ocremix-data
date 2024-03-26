@@ -7,6 +7,28 @@
         }
     ],
     "primary_game": "Super Mario Kart",
+    "tags": [
+        {
+            "id": "acoustic-guitar",
+            "path": "Instrumentation > Acoustic Guitar",
+            "url": "https://ocremix.org/tag/acoustic-guitar"
+        },
+        {
+            "id": "flute",
+            "path": "Instrumentation > Flute",
+            "url": "https://ocremix.org/tag/flute"
+        },
+        {
+            "id": "latin",
+            "path": "Genre > Latin",
+            "url": "https://ocremix.org/tag/latin"
+        },
+        {
+            "id": "mellow",
+            "path": "Mood > Mellow",
+            "url": "https://ocremix.org/tag/mellow"
+        }
+    ],
     "title": "Koopa Nova",
     "url": "https://ocremix.org/remix/OCR02165"
 }

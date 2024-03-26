@@ -7,6 +7,48 @@
         }
     ],
     "primary_game": "Akumajo Dracula X: Nocturne in the Moonlight",
+    "tags": [
+        {
+            "id": "aggressive",
+            "path": "Mood > Aggressive",
+            "url": "https://ocremix.org/tag/aggressive"
+        },
+        {
+            "id": "compo-dod",
+            "path": "Origin > Competition > Dwelling of Duels",
+            "url": "https://ocremix.org/tag/compo-dod"
+        },
+        {
+            "id": "electric-guitar",
+            "path": "Instrumentation > Electric Guitar",
+            "url": "https://ocremix.org/tag/electric-guitar"
+        },
+        {
+            "id": "live-instruments",
+            "path": "Production > Live Instruments",
+            "url": "https://ocremix.org/tag/live-instruments"
+        },
+        {
+            "id": "organ",
+            "path": "Instrumentation > Organ",
+            "url": "https://ocremix.org/tag/organ"
+        },
+        {
+            "id": "piano",
+            "path": "Instrumentation > Piano",
+            "url": "https://ocremix.org/tag/piano"
+        },
+        {
+            "id": "rock",
+            "path": "Genre > Rock",
+            "url": "https://ocremix.org/tag/rock"
+        },
+        {
+            "id": "timesig-4-4",
+            "path": "Time > 4/4 Time Signature",
+            "url": "https://ocremix.org/tag/timesig-4-4"
+        }
+    ],
     "title": "Bloody Mayhem",
     "url": "https://ocremix.org/remix/OCR03042"
 }

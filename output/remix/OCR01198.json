@@ -7,6 +7,18 @@
         }
     ],
     "primary_game": "Final Doom",
+    "tags": [
+        {
+            "id": "cinematic",
+            "path": "Genre > Cinematic",
+            "url": "https://ocremix.org/tag/cinematic"
+        },
+        {
+            "id": "synth",
+            "path": "Instrumentation > Synth",
+            "url": "https://ocremix.org/tag/synth"
+        }
+    ],
     "title": "Iron Demon",
     "url": "https://ocremix.org/remix/OCR01198"
 }

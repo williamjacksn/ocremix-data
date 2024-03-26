@@ -7,6 +7,23 @@
         }
     ],
     "primary_game": "Donkey Kong Country 2: Diddy's Kong Quest",
+    "tags": [
+        {
+            "id": "jazz",
+            "path": "Genre > Jazz",
+            "url": "https://ocremix.org/tag/jazz"
+        },
+        {
+            "id": "mellow",
+            "path": "Mood > Mellow",
+            "url": "https://ocremix.org/tag/mellow"
+        },
+        {
+            "id": "world",
+            "path": "Regional > World",
+            "url": "https://ocremix.org/tag/world"
+        }
+    ],
     "title": "It's a Jungle Out There!",
     "url": "https://ocremix.org/remix/OCR02004"
 }

@@ -12,6 +12,13 @@
         }
     ],
     "primary_game": "Chrono Trigger",
+    "tags": [
+        {
+            "id": "duration-long",
+            "path": "Time > Duration: Long",
+            "url": "https://ocremix.org/tag/duration-long"
+        }
+    ],
     "title": "Magus (Decay of Hope)",
     "url": "https://ocremix.org/remix/OCR00376"
 }

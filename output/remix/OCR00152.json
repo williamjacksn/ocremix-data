@@ -7,6 +7,68 @@
         }
     ],
     "primary_game": "Final Fantasy IX",
+    "tags": [
+        {
+            "id": "ballad",
+            "path": "Genre > Easy Listening > Ballad",
+            "url": "https://ocremix.org/tag/ballad"
+        },
+        {
+            "id": "chill",
+            "path": "Mood > Chill",
+            "url": "https://ocremix.org/tag/chill"
+        },
+        {
+            "id": "duet",
+            "path": "Arrangement > Duet",
+            "url": "https://ocremix.org/tag/duet"
+        },
+        {
+            "id": "meditation",
+            "path": "Usage > Meditation",
+            "url": "https://ocremix.org/tag/meditation"
+        },
+        {
+            "id": "mellow",
+            "path": "Mood > Mellow",
+            "url": "https://ocremix.org/tag/mellow"
+        },
+        {
+            "id": "oboe",
+            "path": "Instrumentation > Oboe",
+            "url": "https://ocremix.org/tag/oboe"
+        },
+        {
+            "id": "peaceful",
+            "path": "Mood > Peaceful",
+            "url": "https://ocremix.org/tag/peaceful"
+        },
+        {
+            "id": "piano",
+            "path": "Instrumentation > Piano",
+            "url": "https://ocremix.org/tag/piano"
+        },
+        {
+            "id": "romantic",
+            "path": "Mood > Romantic",
+            "url": "https://ocremix.org/tag/romantic"
+        },
+        {
+            "id": "solo-piano",
+            "path": "Instrumentation > Solo Piano",
+            "url": "https://ocremix.org/tag/solo-piano"
+        },
+        {
+            "id": "strings",
+            "path": "Instrumentation > Strings",
+            "url": "https://ocremix.org/tag/strings"
+        },
+        {
+            "id": "tempo-slow",
+            "path": "Time > Tempo: Slow",
+            "url": "https://ocremix.org/tag/tempo-slow"
+        }
+    ],
     "title": "Melodies of Life (Arranged)",
     "url": "https://ocremix.org/remix/OCR00152"
 }

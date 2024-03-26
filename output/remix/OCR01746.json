@@ -7,6 +7,23 @@
         }
     ],
     "primary_game": "Kingdom Hearts II",
+    "tags": [
+        {
+            "id": "duet",
+            "path": "Arrangement > Duet",
+            "url": "https://ocremix.org/tag/duet"
+        },
+        {
+            "id": "duration-long",
+            "path": "Time > Duration: Long",
+            "url": "https://ocremix.org/tag/duration-long"
+        },
+        {
+            "id": "piano",
+            "path": "Instrumentation > Piano",
+            "url": "https://ocremix.org/tag/piano"
+        }
+    ],
     "title": "Duet of the Keyblade Masters",
     "url": "https://ocremix.org/remix/OCR01746"
 }

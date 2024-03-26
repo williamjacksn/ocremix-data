@@ -7,6 +7,58 @@
         }
     ],
     "primary_game": "Pok\u00e9mon Red Version",
+    "tags": [
+        {
+            "id": "dark",
+            "path": "Mood > Dark",
+            "url": "https://ocremix.org/tag/dark"
+        },
+        {
+            "id": "dnb",
+            "path": "Genre > EDM > Drum and bass",
+            "url": "https://ocremix.org/tag/dnb"
+        },
+        {
+            "id": "edm",
+            "path": "Genre > EDM",
+            "url": "https://ocremix.org/tag/edm"
+        },
+        {
+            "id": "electronic",
+            "path": "Instrumentation > Electronic",
+            "url": "https://ocremix.org/tag/electronic"
+        },
+        {
+            "id": "energetic",
+            "path": "Mood > Energetic",
+            "url": "https://ocremix.org/tag/energetic"
+        },
+        {
+            "id": "experimental",
+            "path": "Genre > Experimental",
+            "url": "https://ocremix.org/tag/experimental"
+        },
+        {
+            "id": "halloween",
+            "path": "Usage > Halloween",
+            "url": "https://ocremix.org/tag/halloween"
+        },
+        {
+            "id": "ingame-fx",
+            "path": "Instrumentation > In-game FX",
+            "url": "https://ocremix.org/tag/ingame-fx"
+        },
+        {
+            "id": "spooky",
+            "path": "Mood > Spooky",
+            "url": "https://ocremix.org/tag/spooky"
+        },
+        {
+            "id": "synth",
+            "path": "Instrumentation > Synth",
+            "url": "https://ocremix.org/tag/synth"
+        }
+    ],
     "title": "Marowak's Revenge",
     "url": "https://ocremix.org/remix/OCR03451"
 }

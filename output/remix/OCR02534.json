@@ -7,6 +7,33 @@
         }
     ],
     "primary_game": "Super Meat Boy",
+    "tags": [
+        {
+            "id": "classical",
+            "path": "Genre > Classical",
+            "url": "https://ocremix.org/tag/classical"
+        },
+        {
+            "id": "piano",
+            "path": "Instrumentation > Piano",
+            "url": "https://ocremix.org/tag/piano"
+        },
+        {
+            "id": "solo",
+            "path": "Arrangement > Solo",
+            "url": "https://ocremix.org/tag/solo"
+        },
+        {
+            "id": "solo-piano",
+            "path": "Instrumentation > Solo Piano",
+            "url": "https://ocremix.org/tag/solo-piano"
+        },
+        {
+            "id": "tempo-fast",
+            "path": "Time > Tempo: Fast",
+            "url": "https://ocremix.org/tag/tempo-fast"
+        }
+    ],
     "title": "Kind of Betus Blue (Betus Blues Piano)",
     "url": "https://ocremix.org/remix/OCR02534"
 }

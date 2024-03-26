@@ -12,6 +12,13 @@
         }
     ],
     "primary_game": "Super Mario 64",
+    "tags": [
+        {
+            "id": "lyrics-original",
+            "path": "Lyrics > Lyrics: Original",
+            "url": "https://ocremix.org/tag/lyrics-original"
+        }
+    ],
     "title": "Hush Hour",
     "url": "https://ocremix.org/remix/OCR02911"
 }

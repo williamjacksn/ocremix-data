@@ -7,6 +7,28 @@
         }
     ],
     "primary_game": "Mario Kart 64",
+    "tags": [
+        {
+            "id": "electric-piano",
+            "path": "Instrumentation > Electric Piano",
+            "url": "https://ocremix.org/tag/electric-piano"
+        },
+        {
+            "id": "jazz",
+            "path": "Genre > Jazz",
+            "url": "https://ocremix.org/tag/jazz"
+        },
+        {
+            "id": "saxophone",
+            "path": "Instrumentation > Saxophone",
+            "url": "https://ocremix.org/tag/saxophone"
+        },
+        {
+            "id": "winter-holiday",
+            "path": "Usage > Winter Holiday",
+            "url": "https://ocremix.org/tag/winter-holiday"
+        }
+    ],
     "title": "Frappe Cafe Vibe",
     "url": "https://ocremix.org/remix/OCR01107"
 }

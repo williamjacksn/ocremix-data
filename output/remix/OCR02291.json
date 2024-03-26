@@ -7,6 +7,33 @@
         }
     ],
     "primary_game": "Mega Man 9",
+    "tags": [
+        {
+            "id": "electric-guitar",
+            "path": "Instrumentation > Electric Guitar",
+            "url": "https://ocremix.org/tag/electric-guitar"
+        },
+        {
+            "id": "punk",
+            "path": "Genre > Rock > Punk",
+            "url": "https://ocremix.org/tag/punk"
+        },
+        {
+            "id": "rock",
+            "path": "Genre > Rock",
+            "url": "https://ocremix.org/tag/rock"
+        },
+        {
+            "id": "synth",
+            "path": "Instrumentation > Synth",
+            "url": "https://ocremix.org/tag/synth"
+        },
+        {
+            "id": "tempo-fast",
+            "path": "Time > Tempo: Fast",
+            "url": "https://ocremix.org/tag/tempo-fast"
+        }
+    ],
     "title": "A New Beginning",
     "url": "https://ocremix.org/remix/OCR02291"
 }

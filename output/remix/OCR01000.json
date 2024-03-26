@@ -7,6 +7,33 @@
         }
     ],
     "primary_game": "Super Mario RPG: Legend of the Seven Stars",
+    "tags": [
+        {
+            "id": "electric-guitar",
+            "path": "Instrumentation > Electric Guitar",
+            "url": "https://ocremix.org/tag/electric-guitar"
+        },
+        {
+            "id": "funky",
+            "path": "Mood > Funky",
+            "url": "https://ocremix.org/tag/funky"
+        },
+        {
+            "id": "jazzy",
+            "path": "Mood > Jazzy",
+            "url": "https://ocremix.org/tag/jazzy"
+        },
+        {
+            "id": "saxophone",
+            "path": "Instrumentation > Saxophone",
+            "url": "https://ocremix.org/tag/saxophone"
+        },
+        {
+            "id": "surf",
+            "path": "Genre > Rock > Surf",
+            "url": "https://ocremix.org/tag/surf"
+        }
+    ],
     "title": "Booster Tarantino",
     "url": "https://ocremix.org/remix/OCR01000"
 }

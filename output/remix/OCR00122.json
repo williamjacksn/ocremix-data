@@ -7,6 +7,48 @@
         }
     ],
     "primary_game": "Castlevania",
+    "tags": [
+        {
+            "id": "breakbeats",
+            "path": "Instrumentation > Breakbeats",
+            "url": "https://ocremix.org/tag/breakbeats"
+        },
+        {
+            "id": "cinematic",
+            "path": "Genre > Cinematic",
+            "url": "https://ocremix.org/tag/cinematic"
+        },
+        {
+            "id": "dnb",
+            "path": "Genre > EDM > Drum and bass",
+            "url": "https://ocremix.org/tag/dnb"
+        },
+        {
+            "id": "electronic",
+            "path": "Instrumentation > Electronic",
+            "url": "https://ocremix.org/tag/electronic"
+        },
+        {
+            "id": "epic",
+            "path": "Mood > Epic",
+            "url": "https://ocremix.org/tag/epic"
+        },
+        {
+            "id": "orchestral",
+            "path": "Instrumentation > Orchestral",
+            "url": "https://ocremix.org/tag/orchestral"
+        },
+        {
+            "id": "strings",
+            "path": "Instrumentation > Strings",
+            "url": "https://ocremix.org/tag/strings"
+        },
+        {
+            "id": "tempo-fast",
+            "path": "Time > Tempo: Fast",
+            "url": "https://ocremix.org/tag/tempo-fast"
+        }
+    ],
     "title": "Wicked Orchestra",
     "url": "https://ocremix.org/remix/OCR00122"
 }

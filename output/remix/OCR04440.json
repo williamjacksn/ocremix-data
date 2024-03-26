@@ -22,6 +22,78 @@
         }
     ],
     "primary_game": "Final Fantasy VIII",
+    "tags": [
+        {
+            "id": "acoustic",
+            "path": "Instrumentation > Acoustic",
+            "url": "https://ocremix.org/tag/acoustic"
+        },
+        {
+            "id": "acoustic-guitar",
+            "path": "Instrumentation > Acoustic Guitar",
+            "url": "https://ocremix.org/tag/acoustic-guitar"
+        },
+        {
+            "id": "bouzouki",
+            "path": "Instrumentation > Bouzouki",
+            "url": "https://ocremix.org/tag/bouzouki"
+        },
+        {
+            "id": "celtic",
+            "path": "Regional > Celtic",
+            "url": "https://ocremix.org/tag/celtic"
+        },
+        {
+            "id": "chill",
+            "path": "Mood > Chill",
+            "url": "https://ocremix.org/tag/chill"
+        },
+        {
+            "id": "cinematic",
+            "path": "Genre > Cinematic",
+            "url": "https://ocremix.org/tag/cinematic"
+        },
+        {
+            "id": "collab",
+            "path": "Origin > Collaboration",
+            "url": "https://ocremix.org/tag/collab"
+        },
+        {
+            "id": "flute",
+            "path": "Instrumentation > Flute",
+            "url": "https://ocremix.org/tag/flute"
+        },
+        {
+            "id": "folk",
+            "path": "Genre > Folk",
+            "url": "https://ocremix.org/tag/folk"
+        },
+        {
+            "id": "irish-whistle",
+            "path": "Instrumentation > Irish Whistle",
+            "url": "https://ocremix.org/tag/irish-whistle"
+        },
+        {
+            "id": "live-instruments",
+            "path": "Production > Live Instruments",
+            "url": "https://ocremix.org/tag/live-instruments"
+        },
+        {
+            "id": "solemn",
+            "path": "Mood > Solemn",
+            "url": "https://ocremix.org/tag/solemn"
+        },
+        {
+            "id": "violin",
+            "path": "Instrumentation > Violin",
+            "url": "https://ocremix.org/tag/violin"
+        },
+        {
+            "id": "woodwinds",
+            "path": "Instrumentation > Woodwinds",
+            "url": "https://ocremix.org/tag/woodwinds"
+        }
+    ],
     "title": "Longing for the Horizon",
     "url": "https://ocremix.org/remix/OCR04440"
 }

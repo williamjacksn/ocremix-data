@@ -7,6 +7,28 @@
         }
     ],
     "primary_game": "Final Fantasy Legend II",
+    "tags": [
+        {
+            "id": "harp",
+            "path": "Instrumentation > Harp",
+            "url": "https://ocremix.org/tag/harp"
+        },
+        {
+            "id": "lo-fi",
+            "path": "Effects > Lo-Fi",
+            "url": "https://ocremix.org/tag/lo-fi"
+        },
+        {
+            "id": "mellow",
+            "path": "Mood > Mellow",
+            "url": "https://ocremix.org/tag/mellow"
+        },
+        {
+            "id": "strings",
+            "path": "Instrumentation > Strings",
+            "url": "https://ocremix.org/tag/strings"
+        }
+    ],
     "title": "Gift of the MAGI",
     "url": "https://ocremix.org/remix/OCR02947"
 }

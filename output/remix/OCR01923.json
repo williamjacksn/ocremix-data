@@ -12,6 +12,28 @@
         }
     ],
     "primary_game": "Xenogears",
+    "tags": [
+        {
+            "id": "collab",
+            "path": "Origin > Collaboration",
+            "url": "https://ocremix.org/tag/collab"
+        },
+        {
+            "id": "electronic",
+            "path": "Instrumentation > Electronic",
+            "url": "https://ocremix.org/tag/electronic"
+        },
+        {
+            "id": "lyrics-explicit",
+            "path": "Lyrics > Lyrics: Explicit",
+            "url": "https://ocremix.org/tag/lyrics-explicit"
+        },
+        {
+            "id": "sexy",
+            "path": "Mood > Sexy",
+            "url": "https://ocremix.org/tag/sexy"
+        }
+    ],
     "title": "Daijiru (Too Hot for Clothes)",
     "url": "https://ocremix.org/remix/OCR01923"
 }

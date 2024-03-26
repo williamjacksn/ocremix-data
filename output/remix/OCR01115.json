@@ -7,6 +7,23 @@
         }
     ],
     "primary_game": "Chrono Trigger",
+    "tags": [
+        {
+            "id": "piano",
+            "path": "Instrumentation > Piano",
+            "url": "https://ocremix.org/tag/piano"
+        },
+        {
+            "id": "solo",
+            "path": "Arrangement > Solo",
+            "url": "https://ocremix.org/tag/solo"
+        },
+        {
+            "id": "tempo-slow",
+            "path": "Time > Tempo: Slow",
+            "url": "https://ocremix.org/tag/tempo-slow"
+        }
+    ],
     "title": "Another Fair",
     "url": "https://ocremix.org/remix/OCR01115"
 }

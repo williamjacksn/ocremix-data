@@ -7,6 +7,23 @@
         }
     ],
     "primary_game": "Final Fantasy Adventure",
+    "tags": [
+        {
+            "id": "chill",
+            "path": "Mood > Chill",
+            "url": "https://ocremix.org/tag/chill"
+        },
+        {
+            "id": "electronic",
+            "path": "Instrumentation > Electronic",
+            "url": "https://ocremix.org/tag/electronic"
+        },
+        {
+            "id": "piano",
+            "path": "Instrumentation > Piano",
+            "url": "https://ocremix.org/tag/piano"
+        }
+    ],
     "title": "Notes on a Revelation in a Public Place",
     "url": "https://ocremix.org/remix/OCR01572"
 }

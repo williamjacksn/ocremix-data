@@ -7,6 +7,48 @@
         }
     ],
     "primary_game": "Dark Souls",
+    "tags": [
+        {
+            "id": "cello",
+            "path": "Instrumentation > Cello",
+            "url": "https://ocremix.org/tag/cello"
+        },
+        {
+            "id": "chamber",
+            "path": "Genre > Classical > Chamber",
+            "url": "https://ocremix.org/tag/chamber"
+        },
+        {
+            "id": "classical",
+            "path": "Genre > Classical",
+            "url": "https://ocremix.org/tag/classical"
+        },
+        {
+            "id": "minimalist",
+            "path": "Arrangement > Minimalist",
+            "url": "https://ocremix.org/tag/minimalist"
+        },
+        {
+            "id": "quintet",
+            "path": "Arrangement > Quintet",
+            "url": "https://ocremix.org/tag/quintet"
+        },
+        {
+            "id": "solemn",
+            "path": "Mood > Solemn",
+            "url": "https://ocremix.org/tag/solemn"
+        },
+        {
+            "id": "strings",
+            "path": "Instrumentation > Strings",
+            "url": "https://ocremix.org/tag/strings"
+        },
+        {
+            "id": "suspenseful",
+            "path": "Mood > Suspenseful",
+            "url": "https://ocremix.org/tag/suspenseful"
+        }
+    ],
     "title": "Fire Fade with Me",
     "url": "https://ocremix.org/remix/OCR03908"
 }

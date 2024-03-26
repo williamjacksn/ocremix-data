@@ -7,6 +7,43 @@
         }
     ],
     "primary_game": "Threads of Fate",
+    "tags": [
+        {
+            "id": "chromatic-percussion",
+            "path": "Instrumentation > Chromatic Percussion",
+            "url": "https://ocremix.org/tag/chromatic-percussion"
+        },
+        {
+            "id": "cinematic",
+            "path": "Genre > Cinematic",
+            "url": "https://ocremix.org/tag/cinematic"
+        },
+        {
+            "id": "mystical",
+            "path": "Mood > Mystical",
+            "url": "https://ocremix.org/tag/mystical"
+        },
+        {
+            "id": "orchestral",
+            "path": "Instrumentation > Orchestral",
+            "url": "https://ocremix.org/tag/orchestral"
+        },
+        {
+            "id": "strings",
+            "path": "Instrumentation > Strings",
+            "url": "https://ocremix.org/tag/strings"
+        },
+        {
+            "id": "timesig-4-4",
+            "path": "Time > 4/4 Time Signature",
+            "url": "https://ocremix.org/tag/timesig-4-4"
+        },
+        {
+            "id": "woodwinds",
+            "path": "Instrumentation > Woodwinds",
+            "url": "https://ocremix.org/tag/woodwinds"
+        }
+    ],
     "title": "Birth of Knowledge",
     "url": "https://ocremix.org/remix/OCR04609"
 }

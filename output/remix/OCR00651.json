@@ -7,6 +7,53 @@
         }
     ],
     "primary_game": "Xenogears",
+    "tags": [
+        {
+            "id": "duration-short",
+            "path": "Time > Duration: Short",
+            "url": "https://ocremix.org/tag/duration-short"
+        },
+        {
+            "id": "jazz",
+            "path": "Genre > Jazz",
+            "url": "https://ocremix.org/tag/jazz"
+        },
+        {
+            "id": "jazzy",
+            "path": "Mood > Jazzy",
+            "url": "https://ocremix.org/tag/jazzy"
+        },
+        {
+            "id": "mellow",
+            "path": "Mood > Mellow",
+            "url": "https://ocremix.org/tag/mellow"
+        },
+        {
+            "id": "minimalist",
+            "path": "Arrangement > Minimalist",
+            "url": "https://ocremix.org/tag/minimalist"
+        },
+        {
+            "id": "piano",
+            "path": "Instrumentation > Piano",
+            "url": "https://ocremix.org/tag/piano"
+        },
+        {
+            "id": "solemn",
+            "path": "Mood > Solemn",
+            "url": "https://ocremix.org/tag/solemn"
+        },
+        {
+            "id": "strings",
+            "path": "Instrumentation > Strings",
+            "url": "https://ocremix.org/tag/strings"
+        },
+        {
+            "id": "timesig-6-8",
+            "path": "Time > 6/8 Time Signature",
+            "url": "https://ocremix.org/tag/timesig-6-8"
+        }
+    ],
     "title": "Theme of a Sailor",
     "url": "https://ocremix.org/remix/OCR00651"
 }

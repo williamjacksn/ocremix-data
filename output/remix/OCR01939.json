@@ -17,6 +17,33 @@
         }
     ],
     "primary_game": "Teenage Mutant Ninja Turtles III: The Manhattan Project",
+    "tags": [
+        {
+            "id": "collab",
+            "path": "Origin > Collaboration",
+            "url": "https://ocremix.org/tag/collab"
+        },
+        {
+            "id": "compo-dod",
+            "path": "Origin > Competition > Dwelling of Duels",
+            "url": "https://ocremix.org/tag/compo-dod"
+        },
+        {
+            "id": "electric-guitar",
+            "path": "Instrumentation > Electric Guitar",
+            "url": "https://ocremix.org/tag/electric-guitar"
+        },
+        {
+            "id": "metal",
+            "path": "Genre > Rock > Metal",
+            "url": "https://ocremix.org/tag/metal"
+        },
+        {
+            "id": "rock",
+            "path": "Genre > Rock",
+            "url": "https://ocremix.org/tag/rock"
+        }
+    ],
     "title": "BTMNTBAMLOL",
     "url": "https://ocremix.org/remix/OCR01939"
 }

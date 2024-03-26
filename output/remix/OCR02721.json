@@ -7,6 +7,13 @@
         }
     ],
     "primary_game": "Final Fantasy VI",
+    "tags": [
+        {
+            "id": "halloween",
+            "path": "Usage > Halloween",
+            "url": "https://ocremix.org/tag/halloween"
+        }
+    ],
     "title": "The Endless Stair",
     "url": "https://ocremix.org/remix/OCR02721"
 }

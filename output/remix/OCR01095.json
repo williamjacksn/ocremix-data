@@ -7,6 +7,13 @@
         }
     ],
     "primary_game": "Chrono Trigger",
+    "tags": [
+        {
+            "id": "timesig-7-8",
+            "path": "Time > 7/8 Time Signature",
+            "url": "https://ocremix.org/tag/timesig-7-8"
+        }
+    ],
     "title": "Blue Skies over Guardia",
     "url": "https://ocremix.org/remix/OCR01095"
 }

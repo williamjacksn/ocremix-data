@@ -7,6 +7,13 @@
         }
     ],
     "primary_game": "Virtua Fighter 2",
+    "tags": [
+        {
+            "id": "synth",
+            "path": "Instrumentation > Synth",
+            "url": "https://ocremix.org/tag/synth"
+        }
+    ],
     "title": "Juunen Hayaindayou",
     "url": "https://ocremix.org/remix/OCR01962"
 }

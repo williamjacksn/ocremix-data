@@ -7,6 +7,18 @@
         }
     ],
     "primary_game": "Contra",
+    "tags": [
+        {
+            "id": "electric-guitar",
+            "path": "Instrumentation > Electric Guitar",
+            "url": "https://ocremix.org/tag/electric-guitar"
+        },
+        {
+            "id": "rock",
+            "path": "Genre > Rock",
+            "url": "https://ocremix.org/tag/rock"
+        }
+    ],
     "title": "Feeding Frenzy",
     "url": "https://ocremix.org/remix/OCR01595"
 }

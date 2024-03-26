@@ -7,6 +7,23 @@
         }
     ],
     "primary_game": "Final Fantasy VII",
+    "tags": [
+        {
+            "id": "acoustic-guitar",
+            "path": "Instrumentation > Acoustic Guitar",
+            "url": "https://ocremix.org/tag/acoustic-guitar"
+        },
+        {
+            "id": "duet",
+            "path": "Arrangement > Duet",
+            "url": "https://ocremix.org/tag/duet"
+        },
+        {
+            "id": "mellow",
+            "path": "Mood > Mellow",
+            "url": "https://ocremix.org/tag/mellow"
+        }
+    ],
     "title": "Daydreaming Again",
     "url": "https://ocremix.org/remix/OCR01634"
 }

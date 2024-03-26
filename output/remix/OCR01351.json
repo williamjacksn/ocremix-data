@@ -7,6 +7,33 @@
         }
     ],
     "primary_game": "Double Dragon III: The Sacred Stones",
+    "tags": [
+        {
+            "id": "electronic",
+            "path": "Instrumentation > Electronic",
+            "url": "https://ocremix.org/tag/electronic"
+        },
+        {
+            "id": "funk",
+            "path": "Genre > R&B > Funk",
+            "url": "https://ocremix.org/tag/funk"
+        },
+        {
+            "id": "japanese",
+            "path": "Regional > Japanese",
+            "url": "https://ocremix.org/tag/japanese"
+        },
+        {
+            "id": "koto",
+            "path": "Instrumentation > Koto",
+            "url": "https://ocremix.org/tag/koto"
+        },
+        {
+            "id": "piano",
+            "path": "Instrumentation > Piano",
+            "url": "https://ocremix.org/tag/piano"
+        }
+    ],
     "title": "J! Groove",
     "url": "https://ocremix.org/remix/OCR01351"
 }

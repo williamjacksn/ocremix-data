@@ -17,6 +17,48 @@
         }
     ],
     "primary_game": "Mega Man X3",
+    "tags": [
+        {
+            "id": "chill",
+            "path": "Mood > Chill",
+            "url": "https://ocremix.org/tag/chill"
+        },
+        {
+            "id": "chromatic-percussion",
+            "path": "Instrumentation > Chromatic Percussion",
+            "url": "https://ocremix.org/tag/chromatic-percussion"
+        },
+        {
+            "id": "collab",
+            "path": "Origin > Collaboration",
+            "url": "https://ocremix.org/tag/collab"
+        },
+        {
+            "id": "compo",
+            "path": "Origin > Competition",
+            "url": "https://ocremix.org/tag/compo"
+        },
+        {
+            "id": "edm",
+            "path": "Genre > EDM",
+            "url": "https://ocremix.org/tag/edm"
+        },
+        {
+            "id": "electronic",
+            "path": "Instrumentation > Electronic",
+            "url": "https://ocremix.org/tag/electronic"
+        },
+        {
+            "id": "medley",
+            "path": "Arrangement > Medley",
+            "url": "https://ocremix.org/tag/medley"
+        },
+        {
+            "id": "synth",
+            "path": "Instrumentation > Synth",
+            "url": "https://ocremix.org/tag/synth"
+        }
+    ],
     "title": "Crystal Cipher",
     "url": "https://ocremix.org/remix/OCR03053"
 }

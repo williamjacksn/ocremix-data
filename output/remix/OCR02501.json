@@ -7,6 +7,33 @@
         }
     ],
     "primary_game": "Wizards & Warriors",
+    "tags": [
+        {
+            "id": "accordion",
+            "path": "Instrumentation > Accordion",
+            "url": "https://ocremix.org/tag/accordion"
+        },
+        {
+            "id": "celtic",
+            "path": "Regional > Celtic",
+            "url": "https://ocremix.org/tag/celtic"
+        },
+        {
+            "id": "folk",
+            "path": "Genre > Folk",
+            "url": "https://ocremix.org/tag/folk"
+        },
+        {
+            "id": "tempo-fast",
+            "path": "Time > Tempo: Fast",
+            "url": "https://ocremix.org/tag/tempo-fast"
+        },
+        {
+            "id": "woodwinds",
+            "path": "Instrumentation > Woodwinds",
+            "url": "https://ocremix.org/tag/woodwinds"
+        }
+    ],
     "title": "Wizard's Bride",
     "url": "https://ocremix.org/remix/OCR02501"
 }

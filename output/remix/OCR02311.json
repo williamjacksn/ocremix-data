@@ -7,6 +7,28 @@
         }
     ],
     "primary_game": "Chrono Cross",
+    "tags": [
+        {
+            "id": "mellow",
+            "path": "Mood > Mellow",
+            "url": "https://ocremix.org/tag/mellow"
+        },
+        {
+            "id": "piano",
+            "path": "Instrumentation > Piano",
+            "url": "https://ocremix.org/tag/piano"
+        },
+        {
+            "id": "solemn",
+            "path": "Mood > Solemn",
+            "url": "https://ocremix.org/tag/solemn"
+        },
+        {
+            "id": "solo",
+            "path": "Arrangement > Solo",
+            "url": "https://ocremix.org/tag/solo"
+        }
+    ],
     "title": "Improvisation on a Moment Seized by Time",
     "url": "https://ocremix.org/remix/OCR02311"
 }

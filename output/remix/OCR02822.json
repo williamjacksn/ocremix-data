@@ -7,6 +7,23 @@
         }
     ],
     "primary_game": "Super Smash Bros. Melee",
+    "tags": [
+        {
+            "id": "duration-long",
+            "path": "Time > Duration: Long",
+            "url": "https://ocremix.org/tag/duration-long"
+        },
+        {
+            "id": "lyrics-explicit",
+            "path": "Lyrics > Lyrics: Explicit",
+            "url": "https://ocremix.org/tag/lyrics-explicit"
+        },
+        {
+            "id": "lyrics-original",
+            "path": "Lyrics > Lyrics: Original",
+            "url": "https://ocremix.org/tag/lyrics-original"
+        }
+    ],
     "title": "Tengen Toppa Dairantou: Part 3 - All-Stars",
     "url": "https://ocremix.org/remix/OCR02822"
 }

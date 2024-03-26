@@ -7,6 +7,28 @@
         }
     ],
     "primary_game": "The Legend of Zelda: The Wind Waker",
+    "tags": [
+        {
+            "id": "jazz",
+            "path": "Genre > Jazz",
+            "url": "https://ocremix.org/tag/jazz"
+        },
+        {
+            "id": "latin",
+            "path": "Genre > Latin",
+            "url": "https://ocremix.org/tag/latin"
+        },
+        {
+            "id": "piano",
+            "path": "Instrumentation > Piano",
+            "url": "https://ocremix.org/tag/piano"
+        },
+        {
+            "id": "saxophone",
+            "path": "Instrumentation > Saxophone",
+            "url": "https://ocremix.org/tag/saxophone"
+        }
+    ],
     "title": "Hyrule Wimbledon",
     "url": "https://ocremix.org/remix/OCR01422"
 }

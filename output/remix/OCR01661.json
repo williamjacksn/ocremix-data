@@ -7,6 +7,23 @@
         }
     ],
     "primary_game": "Metroid Prime 3: Corruption",
+    "tags": [
+        {
+            "id": "orchestral",
+            "path": "Instrumentation > Orchestral",
+            "url": "https://ocremix.org/tag/orchestral"
+        },
+        {
+            "id": "piano",
+            "path": "Instrumentation > Piano",
+            "url": "https://ocremix.org/tag/piano"
+        },
+        {
+            "id": "synth",
+            "path": "Instrumentation > Synth",
+            "url": "https://ocremix.org/tag/synth"
+        }
+    ],
     "title": "Yellow Valkyrie",
     "url": "https://ocremix.org/remix/OCR01661"
 }

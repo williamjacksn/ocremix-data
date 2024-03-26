@@ -7,6 +7,23 @@
         }
     ],
     "primary_game": "The Legend of Zelda: A Link to the Past",
+    "tags": [
+        {
+            "id": "acoustic-guitar",
+            "path": "Instrumentation > Acoustic Guitar",
+            "url": "https://ocremix.org/tag/acoustic-guitar"
+        },
+        {
+            "id": "ambient",
+            "path": "Genre > Easy Listening > Ambient",
+            "url": "https://ocremix.org/tag/ambient"
+        },
+        {
+            "id": "electric-guitar",
+            "path": "Instrumentation > Electric Guitar",
+            "url": "https://ocremix.org/tag/electric-guitar"
+        }
+    ],
     "title": "A Rose for Zelda",
     "url": "https://ocremix.org/remix/OCR01428"
 }

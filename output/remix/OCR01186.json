@@ -7,6 +7,23 @@
         }
     ],
     "primary_game": "The Revenge of Shinobi",
+    "tags": [
+        {
+            "id": "funk",
+            "path": "Genre > R&B > Funk",
+            "url": "https://ocremix.org/tag/funk"
+        },
+        {
+            "id": "lyrics-original",
+            "path": "Lyrics > Lyrics: Original",
+            "url": "https://ocremix.org/tag/lyrics-original"
+        },
+        {
+            "id": "synth",
+            "path": "Instrumentation > Synth",
+            "url": "https://ocremix.org/tag/synth"
+        }
+    ],
     "title": "Consent (Make Me Dance)",
     "url": "https://ocremix.org/remix/OCR01186"
 }

@@ -7,6 +7,28 @@
         }
     ],
     "primary_game": "Mega Man 3",
+    "tags": [
+        {
+            "id": "jazz",
+            "path": "Genre > Jazz",
+            "url": "https://ocremix.org/tag/jazz"
+        },
+        {
+            "id": "live-recording",
+            "path": "Production > Live Recording",
+            "url": "https://ocremix.org/tag/live-recording"
+        },
+        {
+            "id": "piano",
+            "path": "Instrumentation > Piano",
+            "url": "https://ocremix.org/tag/piano"
+        },
+        {
+            "id": "woodwinds",
+            "path": "Instrumentation > Woodwinds",
+            "url": "https://ocremix.org/tag/woodwinds"
+        }
+    ],
     "title": "Intro Jazz",
     "url": "https://ocremix.org/remix/OCR01221"
 }

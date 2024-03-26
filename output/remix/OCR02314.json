@@ -7,6 +7,33 @@
         }
     ],
     "primary_game": "Metroid Prime",
+    "tags": [
+        {
+            "id": "electronic",
+            "path": "Instrumentation > Electronic",
+            "url": "https://ocremix.org/tag/electronic"
+        },
+        {
+            "id": "funky",
+            "path": "Mood > Funky",
+            "url": "https://ocremix.org/tag/funky"
+        },
+        {
+            "id": "halloween",
+            "path": "Usage > Halloween",
+            "url": "https://ocremix.org/tag/halloween"
+        },
+        {
+            "id": "industrial",
+            "path": "Genre > EDM > Industrial",
+            "url": "https://ocremix.org/tag/industrial"
+        },
+        {
+            "id": "synth",
+            "path": "Instrumentation > Synth",
+            "url": "https://ocremix.org/tag/synth"
+        }
+    ],
     "title": "Parasite X",
     "url": "https://ocremix.org/remix/OCR02314"
 }

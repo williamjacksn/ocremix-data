@@ -7,6 +7,18 @@
         }
     ],
     "primary_game": "Castlevania: Order of Ecclesia",
+    "tags": [
+        {
+            "id": "funky",
+            "path": "Mood > Funky",
+            "url": "https://ocremix.org/tag/funky"
+        },
+        {
+            "id": "jazz",
+            "path": "Genre > Jazz",
+            "url": "https://ocremix.org/tag/jazz"
+        }
+    ],
     "title": "Sparkle",
     "url": "https://ocremix.org/remix/OCR02015"
 }

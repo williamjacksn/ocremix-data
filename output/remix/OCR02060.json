@@ -7,6 +7,18 @@
         }
     ],
     "primary_game": "Mighty Morphin Power Rangers",
+    "tags": [
+        {
+            "id": "electric-guitar",
+            "path": "Instrumentation > Electric Guitar",
+            "url": "https://ocremix.org/tag/electric-guitar"
+        },
+        {
+            "id": "rock",
+            "path": "Genre > Rock",
+            "url": "https://ocremix.org/tag/rock"
+        }
+    ],
     "title": "It's Morphin Time!",
     "url": "https://ocremix.org/remix/OCR02060"
 }

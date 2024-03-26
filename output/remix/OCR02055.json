@@ -7,6 +7,23 @@
         }
     ],
     "primary_game": "The Legend of Zelda: Oracle of Ages",
+    "tags": [
+        {
+            "id": "chiptune",
+            "path": "Instrumentation > Chiptune",
+            "url": "https://ocremix.org/tag/chiptune"
+        },
+        {
+            "id": "piano",
+            "path": "Instrumentation > Piano",
+            "url": "https://ocremix.org/tag/piano"
+        },
+        {
+            "id": "synth",
+            "path": "Instrumentation > Synth",
+            "url": "https://ocremix.org/tag/synth"
+        }
+    ],
     "title": "Past, Present, and Future Perfect",
     "url": "https://ocremix.org/remix/OCR02055"
 }

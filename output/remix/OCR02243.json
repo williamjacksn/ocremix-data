@@ -7,6 +7,33 @@
         }
     ],
     "primary_game": "The Legend of Zelda: Oracle of Ages",
+    "tags": [
+        {
+            "id": "aggressive",
+            "path": "Mood > Aggressive",
+            "url": "https://ocremix.org/tag/aggressive"
+        },
+        {
+            "id": "breakbeats",
+            "path": "Instrumentation > Breakbeats",
+            "url": "https://ocremix.org/tag/breakbeats"
+        },
+        {
+            "id": "dark",
+            "path": "Mood > Dark",
+            "url": "https://ocremix.org/tag/dark"
+        },
+        {
+            "id": "electronic",
+            "path": "Instrumentation > Electronic",
+            "url": "https://ocremix.org/tag/electronic"
+        },
+        {
+            "id": "synth",
+            "path": "Instrumentation > Synth",
+            "url": "https://ocremix.org/tag/synth"
+        }
+    ],
     "title": "Keep Your Nightmares",
     "url": "https://ocremix.org/remix/OCR02243"
 }

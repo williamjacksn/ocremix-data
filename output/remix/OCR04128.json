@@ -7,6 +7,53 @@
         }
     ],
     "primary_game": "Pok\u00e9mon Diamond Version",
+    "tags": [
+        {
+            "id": "accordion",
+            "path": "Instrumentation > Accordion",
+            "url": "https://ocremix.org/tag/accordion"
+        },
+        {
+            "id": "ballad",
+            "path": "Genre > Easy Listening > Ballad",
+            "url": "https://ocremix.org/tag/ballad"
+        },
+        {
+            "id": "carribean",
+            "path": "Regional > Carribean",
+            "url": "https://ocremix.org/tag/carribean"
+        },
+        {
+            "id": "chill",
+            "path": "Mood > Chill",
+            "url": "https://ocremix.org/tag/chill"
+        },
+        {
+            "id": "chromatic-percussion",
+            "path": "Instrumentation > Chromatic Percussion",
+            "url": "https://ocremix.org/tag/chromatic-percussion"
+        },
+        {
+            "id": "easy-listening",
+            "path": "Genre > Easy Listening",
+            "url": "https://ocremix.org/tag/easy-listening"
+        },
+        {
+            "id": "folk",
+            "path": "Genre > Folk",
+            "url": "https://ocremix.org/tag/folk"
+        },
+        {
+            "id": "mellow",
+            "path": "Mood > Mellow",
+            "url": "https://ocremix.org/tag/mellow"
+        },
+        {
+            "id": "sound-fx",
+            "path": "Instrumentation > Sound FX",
+            "url": "https://ocremix.org/tag/sound-fx"
+        }
+    ],
     "title": "On the Shores of Canalave",
     "url": "https://ocremix.org/remix/OCR04128"
 }

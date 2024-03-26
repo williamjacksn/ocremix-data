@@ -7,6 +7,18 @@
         }
     ],
     "primary_game": "Metal Slug 2: Super Vehicle-001/II",
+    "tags": [
+        {
+            "id": "rock",
+            "path": "Genre > Rock",
+            "url": "https://ocremix.org/tag/rock"
+        },
+        {
+            "id": "synth",
+            "path": "Instrumentation > Synth",
+            "url": "https://ocremix.org/tag/synth"
+        }
+    ],
     "title": "No Need to Reload",
     "url": "https://ocremix.org/remix/OCR01482"
 }

@@ -7,6 +7,18 @@
         }
     ],
     "primary_game": "Secret of Mana",
+    "tags": [
+        {
+            "id": "piano",
+            "path": "Instrumentation > Piano",
+            "url": "https://ocremix.org/tag/piano"
+        },
+        {
+            "id": "solo",
+            "path": "Arrangement > Solo",
+            "url": "https://ocremix.org/tag/solo"
+        }
+    ],
     "title": "Dark Star Scherzo",
     "url": "https://ocremix.org/remix/OCR01487"
 }

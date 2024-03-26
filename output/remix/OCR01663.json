@@ -7,6 +7,38 @@
         }
     ],
     "primary_game": "Final Fantasy VII",
+    "tags": [
+        {
+            "id": "ambient",
+            "path": "Genre > Easy Listening > Ambient",
+            "url": "https://ocremix.org/tag/ambient"
+        },
+        {
+            "id": "mellow",
+            "path": "Mood > Mellow",
+            "url": "https://ocremix.org/tag/mellow"
+        },
+        {
+            "id": "piano",
+            "path": "Instrumentation > Piano",
+            "url": "https://ocremix.org/tag/piano"
+        },
+        {
+            "id": "sad",
+            "path": "Mood > Sad",
+            "url": "https://ocremix.org/tag/sad"
+        },
+        {
+            "id": "synth",
+            "path": "Instrumentation > Synth",
+            "url": "https://ocremix.org/tag/synth"
+        },
+        {
+            "id": "winter-holiday",
+            "path": "Usage > Winter Holiday",
+            "url": "https://ocremix.org/tag/winter-holiday"
+        }
+    ],
     "title": "Frozen Landscape",
     "url": "https://ocremix.org/remix/OCR01663"
 }

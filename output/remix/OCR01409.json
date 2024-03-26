@@ -7,6 +7,33 @@
         }
     ],
     "primary_game": "Mega Man 6",
+    "tags": [
+        {
+            "id": "mediterranean",
+            "path": "Regional > Mediterranean",
+            "url": "https://ocremix.org/tag/mediterranean"
+        },
+        {
+            "id": "new-age",
+            "path": "Genre > Easy Listening > New Age",
+            "url": "https://ocremix.org/tag/new-age"
+        },
+        {
+            "id": "strings",
+            "path": "Instrumentation > Strings",
+            "url": "https://ocremix.org/tag/strings"
+        },
+        {
+            "id": "woodwinds",
+            "path": "Instrumentation > Woodwinds",
+            "url": "https://ocremix.org/tag/woodwinds"
+        },
+        {
+            "id": "world",
+            "path": "Regional > World",
+            "url": "https://ocremix.org/tag/world"
+        }
+    ],
     "title": "Odyssey Beyond the Falls",
     "url": "https://ocremix.org/remix/OCR01409"
 }

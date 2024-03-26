@@ -7,6 +7,53 @@
         }
     ],
     "primary_game": "Super Mario RPG: Legend of the Seven Stars",
+    "tags": [
+        {
+            "id": "clarinet",
+            "path": "Instrumentation > Clarinet",
+            "url": "https://ocremix.org/tag/clarinet"
+        },
+        {
+            "id": "french-horn",
+            "path": "Instrumentation > French Horn",
+            "url": "https://ocremix.org/tag/french-horn"
+        },
+        {
+            "id": "impressionist",
+            "path": "Genre > Classical > Impressionist",
+            "url": "https://ocremix.org/tag/impressionist"
+        },
+        {
+            "id": "mellow",
+            "path": "Mood > Mellow",
+            "url": "https://ocremix.org/tag/mellow"
+        },
+        {
+            "id": "oboe",
+            "path": "Instrumentation > Oboe",
+            "url": "https://ocremix.org/tag/oboe"
+        },
+        {
+            "id": "piano",
+            "path": "Instrumentation > Piano",
+            "url": "https://ocremix.org/tag/piano"
+        },
+        {
+            "id": "romantic",
+            "path": "Mood > Romantic",
+            "url": "https://ocremix.org/tag/romantic"
+        },
+        {
+            "id": "strings",
+            "path": "Instrumentation > Strings",
+            "url": "https://ocremix.org/tag/strings"
+        },
+        {
+            "id": "woodwinds",
+            "path": "Instrumentation > Woodwinds",
+            "url": "https://ocremix.org/tag/woodwinds"
+        }
+    ],
     "title": "Just One Wish",
     "url": "https://ocremix.org/remix/OCR03489"
 }

@@ -7,6 +7,23 @@
         }
     ],
     "primary_game": "Final Fantasy Adventure",
+    "tags": [
+        {
+            "id": "hip-hop",
+            "path": "Genre > Hip Hop",
+            "url": "https://ocremix.org/tag/hip-hop"
+        },
+        {
+            "id": "piano",
+            "path": "Instrumentation > Piano",
+            "url": "https://ocremix.org/tag/piano"
+        },
+        {
+            "id": "strings",
+            "path": "Instrumentation > Strings",
+            "url": "https://ocremix.org/tag/strings"
+        }
+    ],
     "title": "A Dream Is Not a Mission",
     "url": "https://ocremix.org/remix/OCR01540"
 }

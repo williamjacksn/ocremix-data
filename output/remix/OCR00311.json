@@ -7,6 +7,13 @@
         }
     ],
     "primary_game": "Final Fantasy VII",
+    "tags": [
+        {
+            "id": "duration-short",
+            "path": "Time > Duration: Short",
+            "url": "https://ocremix.org/tag/duration-short"
+        }
+    ],
     "title": "Red XIII Redux",
     "url": "https://ocremix.org/remix/OCR00311"
 }

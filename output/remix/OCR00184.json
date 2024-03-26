@@ -7,6 +7,38 @@
         }
     ],
     "primary_game": "Super Mario World 2: Yoshi's Island",
+    "tags": [
+        {
+            "id": "chill",
+            "path": "Mood > Chill",
+            "url": "https://ocremix.org/tag/chill"
+        },
+        {
+            "id": "indian",
+            "path": "Regional > Indian",
+            "url": "https://ocremix.org/tag/indian"
+        },
+        {
+            "id": "new-age",
+            "path": "Genre > Easy Listening > New Age",
+            "url": "https://ocremix.org/tag/new-age"
+        },
+        {
+            "id": "sitar",
+            "path": "Instrumentation > Sitar",
+            "url": "https://ocremix.org/tag/sitar"
+        },
+        {
+            "id": "tempo-moderate",
+            "path": "Time > Tempo: Moderate",
+            "url": "https://ocremix.org/tag/tempo-moderate"
+        },
+        {
+            "id": "woodwinds",
+            "path": "Instrumentation > Woodwinds",
+            "url": "https://ocremix.org/tag/woodwinds"
+        }
+    ],
     "title": "Indian Ragga",
     "url": "https://ocremix.org/remix/OCR00184"
 }

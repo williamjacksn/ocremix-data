@@ -12,6 +12,63 @@
         }
     ],
     "primary_game": "Deus Ex",
+    "tags": [
+        {
+            "id": "aggressive",
+            "path": "Mood > Aggressive",
+            "url": "https://ocremix.org/tag/aggressive"
+        },
+        {
+            "id": "collab",
+            "path": "Origin > Collaboration",
+            "url": "https://ocremix.org/tag/collab"
+        },
+        {
+            "id": "dark",
+            "path": "Mood > Dark",
+            "url": "https://ocremix.org/tag/dark"
+        },
+        {
+            "id": "electronic",
+            "path": "Instrumentation > Electronic",
+            "url": "https://ocremix.org/tag/electronic"
+        },
+        {
+            "id": "energetic",
+            "path": "Mood > Energetic",
+            "url": "https://ocremix.org/tag/energetic"
+        },
+        {
+            "id": "glitching",
+            "path": "Effects > Glitching",
+            "url": "https://ocremix.org/tag/glitching"
+        },
+        {
+            "id": "lyrics-existing",
+            "path": "Lyrics > Lyrics: Existing",
+            "url": "https://ocremix.org/tag/lyrics-existing"
+        },
+        {
+            "id": "psytrance",
+            "path": "Genre > EDM > Psytrance",
+            "url": "https://ocremix.org/tag/psytrance"
+        },
+        {
+            "id": "synth",
+            "path": "Instrumentation > Synth",
+            "url": "https://ocremix.org/tag/synth"
+        },
+        {
+            "id": "vocals-voice-acting",
+            "path": "Instrumentation > Vocals: Voice Acting",
+            "url": "https://ocremix.org/tag/vocals-voice-acting"
+        },
+        {
+            "id": "workout",
+            "path": "Usage > Workout",
+            "url": "https://ocremix.org/tag/workout"
+        }
+    ],
     "title": "Holographic Projection",
     "url": "https://ocremix.org/remix/OCR03846"
 }

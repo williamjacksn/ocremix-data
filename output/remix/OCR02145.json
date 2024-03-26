@@ -7,6 +7,33 @@
         }
     ],
     "primary_game": "PaRappa the Rapper",
+    "tags": [
+        {
+            "id": "hip-hop",
+            "path": "Genre > Hip Hop",
+            "url": "https://ocremix.org/tag/hip-hop"
+        },
+        {
+            "id": "lyrics-existing",
+            "path": "Lyrics > Lyrics: Existing",
+            "url": "https://ocremix.org/tag/lyrics-existing"
+        },
+        {
+            "id": "lyrics-original",
+            "path": "Lyrics > Lyrics: Original",
+            "url": "https://ocremix.org/tag/lyrics-original"
+        },
+        {
+            "id": "vocals-male",
+            "path": "Instrumentation > Vocals: Male",
+            "url": "https://ocremix.org/tag/vocals-male"
+        },
+        {
+            "id": "vocals-rapping",
+            "path": "Instrumentation > Vocals: Rapping",
+            "url": "https://ocremix.org/tag/vocals-rapping"
+        }
+    ],
     "title": "Cookin' with Fire",
     "url": "https://ocremix.org/remix/OCR02145"
 }

@@ -7,6 +7,13 @@
         }
     ],
     "primary_game": "Super Mario 64",
+    "tags": [
+        {
+            "id": "duration-long",
+            "path": "Time > Duration: Long",
+            "url": "https://ocremix.org/tag/duration-long"
+        }
+    ],
     "title": "Grab the Blue Coin!",
     "url": "https://ocremix.org/remix/OCR02908"
 }

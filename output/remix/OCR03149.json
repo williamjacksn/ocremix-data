@@ -7,6 +7,73 @@
         }
     ],
     "primary_game": "Final Fantasy I & II: Dawn of Souls",
+    "tags": [
+        {
+            "id": "accordion",
+            "path": "Instrumentation > Accordion",
+            "url": "https://ocremix.org/tag/accordion"
+        },
+        {
+            "id": "acoustic-guitar",
+            "path": "Instrumentation > Acoustic Guitar",
+            "url": "https://ocremix.org/tag/acoustic-guitar"
+        },
+        {
+            "id": "brass",
+            "path": "Instrumentation > Brass",
+            "url": "https://ocremix.org/tag/brass"
+        },
+        {
+            "id": "breakbeat",
+            "path": "Genre > EDM > Breakbeat",
+            "url": "https://ocremix.org/tag/breakbeat"
+        },
+        {
+            "id": "choir",
+            "path": "Instrumentation > Choir",
+            "url": "https://ocremix.org/tag/choir"
+        },
+        {
+            "id": "chromatic-percussion",
+            "path": "Instrumentation > Chromatic Percussion",
+            "url": "https://ocremix.org/tag/chromatic-percussion"
+        },
+        {
+            "id": "energetic",
+            "path": "Mood > Energetic",
+            "url": "https://ocremix.org/tag/energetic"
+        },
+        {
+            "id": "goofy",
+            "path": "Mood > Goofy",
+            "url": "https://ocremix.org/tag/goofy"
+        },
+        {
+            "id": "lyrics-original",
+            "path": "Lyrics > Lyrics: Original",
+            "url": "https://ocremix.org/tag/lyrics-original"
+        },
+        {
+            "id": "singing",
+            "path": "Instrumentation > Singing",
+            "url": "https://ocremix.org/tag/singing"
+        },
+        {
+            "id": "synth",
+            "path": "Instrumentation > Synth",
+            "url": "https://ocremix.org/tag/synth"
+        },
+        {
+            "id": "vocals-male",
+            "path": "Instrumentation > Vocals: Male",
+            "url": "https://ocremix.org/tag/vocals-male"
+        },
+        {
+            "id": "vocals-voice-acting",
+            "path": "Instrumentation > Vocals: Voice Acting",
+            "url": "https://ocremix.org/tag/vocals-voice-acting"
+        }
+    ],
     "title": "the final WON",
     "url": "https://ocremix.org/remix/OCR03149"
 }

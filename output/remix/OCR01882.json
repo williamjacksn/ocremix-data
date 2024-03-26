@@ -7,6 +7,18 @@
         }
     ],
     "primary_game": "Final Fantasy IV",
+    "tags": [
+        {
+            "id": "acoustic-guitar",
+            "path": "Instrumentation > Acoustic Guitar",
+            "url": "https://ocremix.org/tag/acoustic-guitar"
+        },
+        {
+            "id": "duet",
+            "path": "Arrangement > Duet",
+            "url": "https://ocremix.org/tag/duet"
+        }
+    ],
     "title": "Theme of Love for Guitar Duet",
     "url": "https://ocremix.org/remix/OCR01882"
 }

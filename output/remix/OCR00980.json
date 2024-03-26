@@ -7,6 +7,18 @@
         }
     ],
     "primary_game": "Donkey Kong Country 2: Diddy's Kong Quest",
+    "tags": [
+        {
+            "id": "industrial",
+            "path": "Genre > EDM > Industrial",
+            "url": "https://ocremix.org/tag/industrial"
+        },
+        {
+            "id": "synth",
+            "path": "Instrumentation > Synth",
+            "url": "https://ocremix.org/tag/synth"
+        }
+    ],
     "title": "Assembly Line Apparitions",
     "url": "https://ocremix.org/remix/OCR00980"
 }

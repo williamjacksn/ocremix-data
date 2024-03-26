@@ -7,6 +7,18 @@
         }
     ],
     "primary_game": "NiGHTS into dreams...",
+    "tags": [
+        {
+            "id": "tempo-fast",
+            "path": "Time > Tempo: Fast",
+            "url": "https://ocremix.org/tag/tempo-fast"
+        },
+        {
+            "id": "world",
+            "path": "Regional > World",
+            "url": "https://ocremix.org/tag/world"
+        }
+    ],
     "title": "The Desert Had a Strange Dream",
     "url": "https://ocremix.org/remix/OCR02446"
 }

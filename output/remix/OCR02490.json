@@ -7,6 +7,33 @@
         }
     ],
     "primary_game": "Shadowrun",
+    "tags": [
+        {
+            "id": "duration-long",
+            "path": "Time > Duration: Long",
+            "url": "https://ocremix.org/tag/duration-long"
+        },
+        {
+            "id": "electronic",
+            "path": "Instrumentation > Electronic",
+            "url": "https://ocremix.org/tag/electronic"
+        },
+        {
+            "id": "synth",
+            "path": "Instrumentation > Synth",
+            "url": "https://ocremix.org/tag/synth"
+        },
+        {
+            "id": "tempo-fast",
+            "path": "Time > Tempo: Fast",
+            "url": "https://ocremix.org/tag/tempo-fast"
+        },
+        {
+            "id": "trance",
+            "path": "Genre > EDM > Trance",
+            "url": "https://ocremix.org/tag/trance"
+        }
+    ],
     "title": "Running the Cyberpunks",
     "url": "https://ocremix.org/remix/OCR02490"
 }

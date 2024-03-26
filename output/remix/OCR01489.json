@@ -7,6 +7,23 @@
         }
     ],
     "primary_game": "Zelda II: The Adventure of Link",
+    "tags": [
+        {
+            "id": "classical",
+            "path": "Genre > Classical",
+            "url": "https://ocremix.org/tag/classical"
+        },
+        {
+            "id": "orchestral",
+            "path": "Instrumentation > Orchestral",
+            "url": "https://ocremix.org/tag/orchestral"
+        },
+        {
+            "id": "piano",
+            "path": "Instrumentation > Piano",
+            "url": "https://ocremix.org/tag/piano"
+        }
+    ],
     "title": "Battle of the Hylian Hero",
     "url": "https://ocremix.org/remix/OCR01489"
 }

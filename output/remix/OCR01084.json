@@ -7,6 +7,13 @@
         }
     ],
     "primary_game": "Secret of Mana",
+    "tags": [
+        {
+            "id": "ambient",
+            "path": "Genre > Easy Listening > Ambient",
+            "url": "https://ocremix.org/tag/ambient"
+        }
+    ],
     "title": "Pure Lands (Total Darkness)",
     "url": "https://ocremix.org/remix/OCR01084"
 }

@@ -7,6 +7,18 @@
         }
     ],
     "primary_game": "Metroid",
+    "tags": [
+        {
+            "id": "piano",
+            "path": "Instrumentation > Piano",
+            "url": "https://ocremix.org/tag/piano"
+        },
+        {
+            "id": "solo",
+            "path": "Arrangement > Solo",
+            "url": "https://ocremix.org/tag/solo"
+        }
+    ],
     "title": "Sugar, Water, Purple",
     "url": "https://ocremix.org/remix/OCR01538"
 }

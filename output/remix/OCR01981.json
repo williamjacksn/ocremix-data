@@ -7,6 +7,23 @@
         }
     ],
     "primary_game": "Marvel vs. Capcom: Clash of Super Heroes",
+    "tags": [
+        {
+            "id": "electronic",
+            "path": "Instrumentation > Electronic",
+            "url": "https://ocremix.org/tag/electronic"
+        },
+        {
+            "id": "synth",
+            "path": "Instrumentation > Synth",
+            "url": "https://ocremix.org/tag/synth"
+        },
+        {
+            "id": "world",
+            "path": "Regional > World",
+            "url": "https://ocremix.org/tag/world"
+        }
+    ],
     "title": "Chun-Li (Nemesis Mix)",
     "url": "https://ocremix.org/remix/OCR01981"
 }

@@ -12,6 +12,33 @@
         }
     ],
     "primary_game": "Final Fantasy VII",
+    "tags": [
+        {
+            "id": "collab",
+            "path": "Origin > Collaboration",
+            "url": "https://ocremix.org/tag/collab"
+        },
+        {
+            "id": "electronic",
+            "path": "Instrumentation > Electronic",
+            "url": "https://ocremix.org/tag/electronic"
+        },
+        {
+            "id": "industrial",
+            "path": "Genre > EDM > Industrial",
+            "url": "https://ocremix.org/tag/industrial"
+        },
+        {
+            "id": "piano",
+            "path": "Instrumentation > Piano",
+            "url": "https://ocremix.org/tag/piano"
+        },
+        {
+            "id": "synth",
+            "path": "Instrumentation > Synth",
+            "url": "https://ocremix.org/tag/synth"
+        }
+    ],
     "title": "No Such Thing As the Promised Land",
     "url": "https://ocremix.org/remix/OCR01722"
 }

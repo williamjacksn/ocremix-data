@@ -7,6 +7,38 @@
         }
     ],
     "primary_game": "Doom II: Hell on Earth",
+    "tags": [
+        {
+            "id": "bells",
+            "path": "Instrumentation > Bells",
+            "url": "https://ocremix.org/tag/bells"
+        },
+        {
+            "id": "cello",
+            "path": "Instrumentation > Cello",
+            "url": "https://ocremix.org/tag/cello"
+        },
+        {
+            "id": "halloween",
+            "path": "Usage > Halloween",
+            "url": "https://ocremix.org/tag/halloween"
+        },
+        {
+            "id": "orchestral",
+            "path": "Instrumentation > Orchestral",
+            "url": "https://ocremix.org/tag/orchestral"
+        },
+        {
+            "id": "strings",
+            "path": "Instrumentation > Strings",
+            "url": "https://ocremix.org/tag/strings"
+        },
+        {
+            "id": "waltz",
+            "path": "Genre > Classical > Waltz",
+            "url": "https://ocremix.org/tag/waltz"
+        }
+    ],
     "title": "Red Waltz",
     "url": "https://ocremix.org/remix/OCR01740"
 }

@@ -7,6 +7,18 @@
         }
     ],
     "primary_game": "Castlevania",
+    "tags": [
+        {
+            "id": "piano",
+            "path": "Instrumentation > Piano",
+            "url": "https://ocremix.org/tag/piano"
+        },
+        {
+            "id": "solo",
+            "path": "Arrangement > Solo",
+            "url": "https://ocremix.org/tag/solo"
+        }
+    ],
     "title": "You Gon' Get Whipped",
     "url": "https://ocremix.org/remix/OCR02073"
 }

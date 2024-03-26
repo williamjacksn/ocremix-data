@@ -7,6 +7,23 @@
         }
     ],
     "primary_game": "Rygar",
+    "tags": [
+        {
+            "id": "acoustic-guitar",
+            "path": "Instrumentation > Acoustic Guitar",
+            "url": "https://ocremix.org/tag/acoustic-guitar"
+        },
+        {
+            "id": "brass",
+            "path": "Instrumentation > Brass",
+            "url": "https://ocremix.org/tag/brass"
+        },
+        {
+            "id": "goofy",
+            "path": "Mood > Goofy",
+            "url": "https://ocremix.org/tag/goofy"
+        }
+    ],
     "title": "Rygar's Anthem",
     "url": "https://ocremix.org/remix/OCR02016"
 }

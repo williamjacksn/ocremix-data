@@ -7,6 +7,18 @@
         }
     ],
     "primary_game": "Super Mario 64",
+    "tags": [
+        {
+            "id": "electronic",
+            "path": "Instrumentation > Electronic",
+            "url": "https://ocremix.org/tag/electronic"
+        },
+        {
+            "id": "synth",
+            "path": "Instrumentation > Synth",
+            "url": "https://ocremix.org/tag/synth"
+        }
+    ],
     "title": "The Alternate Route",
     "url": "https://ocremix.org/remix/OCR01252"
 }

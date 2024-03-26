@@ -7,6 +7,13 @@
         }
     ],
     "primary_game": "Super Smash Bros. Brawl",
+    "tags": [
+        {
+            "id": "lyrics-original",
+            "path": "Lyrics > Lyrics: Original",
+            "url": "https://ocremix.org/tag/lyrics-original"
+        }
+    ],
     "title": "Tengen Toppa Dairantou: Part 2 - Sudden Death",
     "url": "https://ocremix.org/remix/OCR02821"
 }

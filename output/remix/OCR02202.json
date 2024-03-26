@@ -7,6 +7,18 @@
         }
     ],
     "primary_game": "Tetris",
+    "tags": [
+        {
+            "id": "folk",
+            "path": "Genre > Folk",
+            "url": "https://ocremix.org/tag/folk"
+        },
+        {
+            "id": "slavic",
+            "path": "Regional > Slavic",
+            "url": "https://ocremix.org/tag/slavic"
+        }
+    ],
     "title": "The Peddler's Legacy",
     "url": "https://ocremix.org/remix/OCR02202"
 }

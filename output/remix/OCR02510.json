@@ -27,6 +27,38 @@
         }
     ],
     "primary_game": "New Super Mario Bros.",
+    "tags": [
+        {
+            "id": "happy",
+            "path": "Mood > Happy",
+            "url": "https://ocremix.org/tag/happy"
+        },
+        {
+            "id": "live-recording",
+            "path": "Production > Live Recording",
+            "url": "https://ocremix.org/tag/live-recording"
+        },
+        {
+            "id": "marimba",
+            "path": "Instrumentation > Marimba",
+            "url": "https://ocremix.org/tag/marimba"
+        },
+        {
+            "id": "medley",
+            "path": "Arrangement > Medley",
+            "url": "https://ocremix.org/tag/medley"
+        },
+        {
+            "id": "tempo-fast",
+            "path": "Time > Tempo: Fast",
+            "url": "https://ocremix.org/tag/tempo-fast"
+        },
+        {
+            "id": "xylophone",
+            "path": "Instrumentation > Xylophone",
+            "url": "https://ocremix.org/tag/xylophone"
+        }
+    ],
     "title": "Plains, Capes and Turnips",
     "url": "https://ocremix.org/remix/OCR02510"
 }

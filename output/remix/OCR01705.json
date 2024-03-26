@@ -7,6 +7,18 @@
         }
     ],
     "primary_game": "Xenogears",
+    "tags": [
+        {
+            "id": "piano",
+            "path": "Instrumentation > Piano",
+            "url": "https://ocremix.org/tag/piano"
+        },
+        {
+            "id": "solo",
+            "path": "Arrangement > Solo",
+            "url": "https://ocremix.org/tag/solo"
+        }
+    ],
     "title": "Babel: A Prison of Fate",
     "url": "https://ocremix.org/remix/OCR01705"
 }

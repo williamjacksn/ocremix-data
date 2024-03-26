@@ -7,6 +7,18 @@
         }
     ],
     "primary_game": "Solstice: The Quest for the Staff of Demnos",
+    "tags": [
+        {
+            "id": "jazz",
+            "path": "Genre > Jazz",
+            "url": "https://ocremix.org/tag/jazz"
+        },
+        {
+            "id": "saxophone",
+            "path": "Instrumentation > Saxophone",
+            "url": "https://ocremix.org/tag/saxophone"
+        }
+    ],
     "title": "Pegasus Boots",
     "url": "https://ocremix.org/remix/OCR01405"
 }

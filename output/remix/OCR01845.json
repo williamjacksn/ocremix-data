@@ -7,6 +7,18 @@
         }
     ],
     "primary_game": "The Legend of Zelda",
+    "tags": [
+        {
+            "id": "compo-dod",
+            "path": "Origin > Competition > Dwelling of Duels",
+            "url": "https://ocremix.org/tag/compo-dod"
+        },
+        {
+            "id": "woodwinds",
+            "path": "Instrumentation > Woodwinds",
+            "url": "https://ocremix.org/tag/woodwinds"
+        }
+    ],
     "title": "Zelda Heineken",
     "url": "https://ocremix.org/remix/OCR01845"
 }

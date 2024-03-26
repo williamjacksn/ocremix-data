@@ -7,6 +7,23 @@
         }
     ],
     "primary_game": "Sonic the Hedgehog",
+    "tags": [
+        {
+            "id": "chiptune",
+            "path": "Instrumentation > Chiptune",
+            "url": "https://ocremix.org/tag/chiptune"
+        },
+        {
+            "id": "electronic",
+            "path": "Instrumentation > Electronic",
+            "url": "https://ocremix.org/tag/electronic"
+        },
+        {
+            "id": "funky",
+            "path": "Mood > Funky",
+            "url": "https://ocremix.org/tag/funky"
+        }
+    ],
     "title": "Bubble Junkie",
     "url": "https://ocremix.org/remix/OCR02221"
 }

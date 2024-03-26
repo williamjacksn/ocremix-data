@@ -12,6 +12,23 @@
         }
     ],
     "primary_game": "Teenage Mutant Ninja Turtles IV: Turtles in Time",
+    "tags": [
+        {
+            "id": "aggressive",
+            "path": "Mood > Aggressive",
+            "url": "https://ocremix.org/tag/aggressive"
+        },
+        {
+            "id": "electric-guitar",
+            "path": "Instrumentation > Electric Guitar",
+            "url": "https://ocremix.org/tag/electric-guitar"
+        },
+        {
+            "id": "rock",
+            "path": "Genre > Rock",
+            "url": "https://ocremix.org/tag/rock"
+        }
+    ],
     "title": "Rock the Plank",
     "url": "https://ocremix.org/remix/OCR02863"
 }

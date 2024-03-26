@@ -7,6 +7,43 @@
         }
     ],
     "primary_game": "Mega Man 6",
+    "tags": [
+        {
+            "id": "electronic",
+            "path": "Instrumentation > Electronic",
+            "url": "https://ocremix.org/tag/electronic"
+        },
+        {
+            "id": "funk",
+            "path": "Genre > R&B > Funk",
+            "url": "https://ocremix.org/tag/funk"
+        },
+        {
+            "id": "japanese",
+            "path": "Regional > Japanese",
+            "url": "https://ocremix.org/tag/japanese"
+        },
+        {
+            "id": "jazz",
+            "path": "Genre > Jazz",
+            "url": "https://ocremix.org/tag/jazz"
+        },
+        {
+            "id": "koto",
+            "path": "Instrumentation > Koto",
+            "url": "https://ocremix.org/tag/koto"
+        },
+        {
+            "id": "tempo-fast",
+            "path": "Time > Tempo: Fast",
+            "url": "https://ocremix.org/tag/tempo-fast"
+        },
+        {
+            "id": "woodwinds",
+            "path": "Instrumentation > Woodwinds",
+            "url": "https://ocremix.org/tag/woodwinds"
+        }
+    ],
     "title": "Yamato Spear",
     "url": "https://ocremix.org/remix/OCR02210"
 }

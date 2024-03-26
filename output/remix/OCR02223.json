@@ -7,6 +7,23 @@
         }
     ],
     "primary_game": "Sonic the Hedgehog",
+    "tags": [
+        {
+            "id": "funk",
+            "path": "Genre > R&B > Funk",
+            "url": "https://ocremix.org/tag/funk"
+        },
+        {
+            "id": "jazz",
+            "path": "Genre > Jazz",
+            "url": "https://ocremix.org/tag/jazz"
+        },
+        {
+            "id": "synth",
+            "path": "Instrumentation > Synth",
+            "url": "https://ocremix.org/tag/synth"
+        }
+    ],
     "title": "Subsonic Sparkle",
     "url": "https://ocremix.org/remix/OCR02223"
 }

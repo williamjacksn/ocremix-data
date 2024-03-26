@@ -7,6 +7,13 @@
         }
     ],
     "primary_game": "Double Dragon",
+    "tags": [
+        {
+            "id": "duration-long",
+            "path": "Time > Duration: Long",
+            "url": "https://ocremix.org/tag/duration-long"
+        }
+    ],
     "title": "Enter the Guru",
     "url": "https://ocremix.org/remix/OCR00963"
 }

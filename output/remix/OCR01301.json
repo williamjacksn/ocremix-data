@@ -7,6 +7,18 @@
         }
     ],
     "primary_game": "Shining in the Darkness",
+    "tags": [
+        {
+            "id": "electric-guitar",
+            "path": "Instrumentation > Electric Guitar",
+            "url": "https://ocremix.org/tag/electric-guitar"
+        },
+        {
+            "id": "rock",
+            "path": "Genre > Rock",
+            "url": "https://ocremix.org/tag/rock"
+        }
+    ],
     "title": "Down in the Dungeon Just Creatures and Me",
     "url": "https://ocremix.org/remix/OCR01301"
 }

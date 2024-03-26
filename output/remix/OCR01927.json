@@ -7,6 +7,18 @@
         }
     ],
     "primary_game": "Castlevania",
+    "tags": [
+        {
+            "id": "funk",
+            "path": "Genre > R&B > Funk",
+            "url": "https://ocremix.org/tag/funk"
+        },
+        {
+            "id": "organ",
+            "path": "Instrumentation > Organ",
+            "url": "https://ocremix.org/tag/organ"
+        }
+    ],
     "title": "Vampire Snap",
     "url": "https://ocremix.org/remix/OCR01927"
 }

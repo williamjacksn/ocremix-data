@@ -7,6 +7,23 @@
         }
     ],
     "primary_game": "Top Gear",
+    "tags": [
+        {
+            "id": "duration-long",
+            "path": "Time > Duration: Long",
+            "url": "https://ocremix.org/tag/duration-long"
+        },
+        {
+            "id": "electric-guitar",
+            "path": "Instrumentation > Electric Guitar",
+            "url": "https://ocremix.org/tag/electric-guitar"
+        },
+        {
+            "id": "rock",
+            "path": "Genre > Rock",
+            "url": "https://ocremix.org/tag/rock"
+        }
+    ],
     "title": "Rockabilly ~ Dark Gears ~ Surfing Gear",
     "url": "https://ocremix.org/remix/OCR01674"
 }

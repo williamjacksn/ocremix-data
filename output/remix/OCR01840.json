@@ -7,6 +7,18 @@
         }
     ],
     "primary_game": "The Legend of Zelda: Link's Awakening",
+    "tags": [
+        {
+            "id": "rock",
+            "path": "Genre > Rock",
+            "url": "https://ocremix.org/tag/rock"
+        },
+        {
+            "id": "synth",
+            "path": "Instrumentation > Synth",
+            "url": "https://ocremix.org/tag/synth"
+        }
+    ],
     "title": "Mountain of Dreams",
     "url": "https://ocremix.org/remix/OCR01840"
 }

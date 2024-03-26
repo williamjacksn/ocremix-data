@@ -7,6 +7,33 @@
         }
     ],
     "primary_game": "Plants vs. Zombies",
+    "tags": [
+        {
+            "id": "chiptune",
+            "path": "Instrumentation > Chiptune",
+            "url": "https://ocremix.org/tag/chiptune"
+        },
+        {
+            "id": "energetic",
+            "path": "Mood > Energetic",
+            "url": "https://ocremix.org/tag/energetic"
+        },
+        {
+            "id": "happy",
+            "path": "Mood > Happy",
+            "url": "https://ocremix.org/tag/happy"
+        },
+        {
+            "id": "timesig-4-4",
+            "path": "Time > 4/4 Time Signature",
+            "url": "https://ocremix.org/tag/timesig-4-4"
+        },
+        {
+            "id": "trippy",
+            "path": "Mood > Trippy",
+            "url": "https://ocremix.org/tag/trippy"
+        }
+    ],
     "title": "Seedrun",
     "url": "https://ocremix.org/remix/OCR04503"
 }

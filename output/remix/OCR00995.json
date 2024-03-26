@@ -7,6 +7,13 @@
         }
     ],
     "primary_game": "Final Fantasy III",
+    "tags": [
+        {
+            "id": "duration-long",
+            "path": "Time > Duration: Long",
+            "url": "https://ocremix.org/tag/duration-long"
+        }
+    ],
     "title": "The Dark World (Crystal Abyss Mix)",
     "url": "https://ocremix.org/remix/OCR00995"
 }

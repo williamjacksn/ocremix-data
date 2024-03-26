@@ -7,6 +7,23 @@
         }
     ],
     "primary_game": "Jurassic Park",
+    "tags": [
+        {
+            "id": "resubmission",
+            "path": "Origin > Resubmission",
+            "url": "https://ocremix.org/tag/resubmission"
+        },
+        {
+            "id": "saxophone",
+            "path": "Instrumentation > Saxophone",
+            "url": "https://ocremix.org/tag/saxophone"
+        },
+        {
+            "id": "strings",
+            "path": "Instrumentation > Strings",
+            "url": "https://ocremix.org/tag/strings"
+        }
+    ],
     "title": "Concerto for Velociraptor",
     "url": "https://ocremix.org/remix/OCR01474"
 }

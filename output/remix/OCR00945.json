@@ -7,6 +7,33 @@
         }
     ],
     "primary_game": "Metal Gear Solid 2: Sons of Liberty",
+    "tags": [
+        {
+            "id": "jazz",
+            "path": "Genre > Jazz",
+            "url": "https://ocremix.org/tag/jazz"
+        },
+        {
+            "id": "piano",
+            "path": "Instrumentation > Piano",
+            "url": "https://ocremix.org/tag/piano"
+        },
+        {
+            "id": "timesig-4-4",
+            "path": "Time > 4/4 Time Signature",
+            "url": "https://ocremix.org/tag/timesig-4-4"
+        },
+        {
+            "id": "trip-hop",
+            "path": "Genre > Hip Hop > Trip Hop",
+            "url": "https://ocremix.org/tag/trip-hop"
+        },
+        {
+            "id": "vocals-female",
+            "path": "Instrumentation > Vocals: Female",
+            "url": "https://ocremix.org/tag/vocals-female"
+        }
+    ],
     "title": "Big Shell West Bristol",
     "url": "https://ocremix.org/remix/OCR00945"
 }

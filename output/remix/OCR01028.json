@@ -7,6 +7,23 @@
         }
     ],
     "primary_game": "Super Metroid",
+    "tags": [
+        {
+            "id": "ambient",
+            "path": "Genre > Easy Listening > Ambient",
+            "url": "https://ocremix.org/tag/ambient"
+        },
+        {
+            "id": "dark",
+            "path": "Mood > Dark",
+            "url": "https://ocremix.org/tag/dark"
+        },
+        {
+            "id": "halloween",
+            "path": "Usage > Halloween",
+            "url": "https://ocremix.org/tag/halloween"
+        }
+    ],
     "title": "Norfair (Frailty Awaiting)",
     "url": "https://ocremix.org/remix/OCR01028"
 }

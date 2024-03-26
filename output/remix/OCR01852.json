@@ -7,6 +7,23 @@
         }
     ],
     "primary_game": "Ecco: The Tides of Time",
+    "tags": [
+        {
+            "id": "ambient",
+            "path": "Genre > Easy Listening > Ambient",
+            "url": "https://ocremix.org/tag/ambient"
+        },
+        {
+            "id": "chill",
+            "path": "Mood > Chill",
+            "url": "https://ocremix.org/tag/chill"
+        },
+        {
+            "id": "electronic",
+            "path": "Instrumentation > Electronic",
+            "url": "https://ocremix.org/tag/electronic"
+        }
+    ],
     "title": "The World's Smallest Giant",
     "url": "https://ocremix.org/remix/OCR01852"
 }

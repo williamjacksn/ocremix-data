@@ -7,6 +7,23 @@
         }
     ],
     "primary_game": "Sonic & Knuckles",
+    "tags": [
+        {
+            "id": "funk",
+            "path": "Genre > R&B > Funk",
+            "url": "https://ocremix.org/tag/funk"
+        },
+        {
+            "id": "hip-hop",
+            "path": "Genre > Hip Hop",
+            "url": "https://ocremix.org/tag/hip-hop"
+        },
+        {
+            "id": "synth",
+            "path": "Instrumentation > Synth",
+            "url": "https://ocremix.org/tag/synth"
+        }
+    ],
     "title": "Sand in My Shoe",
     "url": "https://ocremix.org/remix/OCR01794"
 }

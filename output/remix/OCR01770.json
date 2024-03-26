@@ -7,6 +7,23 @@
         }
     ],
     "primary_game": "Super Metroid",
+    "tags": [
+        {
+            "id": "compo-dod",
+            "path": "Origin > Competition > Dwelling of Duels",
+            "url": "https://ocremix.org/tag/compo-dod"
+        },
+        {
+            "id": "funk",
+            "path": "Genre > R&B > Funk",
+            "url": "https://ocremix.org/tag/funk"
+        },
+        {
+            "id": "jazz",
+            "path": "Genre > Jazz",
+            "url": "https://ocremix.org/tag/jazz"
+        }
+    ],
     "title": "Samus Bubblebath",
     "url": "https://ocremix.org/remix/OCR01770"
 }

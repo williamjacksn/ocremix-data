@@ -7,6 +7,23 @@
         }
     ],
     "primary_game": "Oddworld: Abe's Oddysee",
+    "tags": [
+        {
+            "id": "ambient",
+            "path": "Genre > Easy Listening > Ambient",
+            "url": "https://ocremix.org/tag/ambient"
+        },
+        {
+            "id": "chill",
+            "path": "Mood > Chill",
+            "url": "https://ocremix.org/tag/chill"
+        },
+        {
+            "id": "new-age",
+            "path": "Genre > Easy Listening > New Age",
+            "url": "https://ocremix.org/tag/new-age"
+        }
+    ],
     "title": "The Monsaic",
     "url": "https://ocremix.org/remix/OCR01397"
 }

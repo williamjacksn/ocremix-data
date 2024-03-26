@@ -12,6 +12,43 @@
         }
     ],
     "primary_game": "Donkey Kong Country",
+    "tags": [
+        {
+            "id": "live-ensemble",
+            "path": "Production > Live Ensemble",
+            "url": "https://ocremix.org/tag/live-ensemble"
+        },
+        {
+            "id": "live-recording",
+            "path": "Production > Live Recording",
+            "url": "https://ocremix.org/tag/live-recording"
+        },
+        {
+            "id": "lyrics-original",
+            "path": "Lyrics > Lyrics: Original",
+            "url": "https://ocremix.org/tag/lyrics-original"
+        },
+        {
+            "id": "marimba",
+            "path": "Instrumentation > Marimba",
+            "url": "https://ocremix.org/tag/marimba"
+        },
+        {
+            "id": "quintet",
+            "path": "Arrangement > Quintet",
+            "url": "https://ocremix.org/tag/quintet"
+        },
+        {
+            "id": "tempo-fast",
+            "path": "Time > Tempo: Fast",
+            "url": "https://ocremix.org/tag/tempo-fast"
+        },
+        {
+            "id": "xylophone",
+            "path": "Instrumentation > Xylophone",
+            "url": "https://ocremix.org/tag/xylophone"
+        }
+    ],
     "title": "Percussion Hijinx",
     "url": "https://ocremix.org/remix/OCR02736"
 }

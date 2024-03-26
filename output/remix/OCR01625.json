@@ -7,6 +7,18 @@
         }
     ],
     "primary_game": "Syberia",
+    "tags": [
+        {
+            "id": "classical",
+            "path": "Genre > Classical",
+            "url": "https://ocremix.org/tag/classical"
+        },
+        {
+            "id": "orchestral",
+            "path": "Instrumentation > Orchestral",
+            "url": "https://ocremix.org/tag/orchestral"
+        }
+    ],
     "title": "To the Land of the Great Mammoths",
     "url": "https://ocremix.org/remix/OCR01625"
 }

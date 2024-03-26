@@ -7,6 +7,43 @@
         }
     ],
     "primary_game": "Bubble Bobble",
+    "tags": [
+        {
+            "id": "banjo",
+            "path": "Instrumentation > Banjo",
+            "url": "https://ocremix.org/tag/banjo"
+        },
+        {
+            "id": "bells",
+            "path": "Instrumentation > Bells",
+            "url": "https://ocremix.org/tag/bells"
+        },
+        {
+            "id": "chill",
+            "path": "Mood > Chill",
+            "url": "https://ocremix.org/tag/chill"
+        },
+        {
+            "id": "duration-short",
+            "path": "Time > Duration: Short",
+            "url": "https://ocremix.org/tag/duration-short"
+        },
+        {
+            "id": "hip-hop",
+            "path": "Genre > Hip Hop",
+            "url": "https://ocremix.org/tag/hip-hop"
+        },
+        {
+            "id": "steel-drum",
+            "path": "Instrumentation > Steel Drum",
+            "url": "https://ocremix.org/tag/steel-drum"
+        },
+        {
+            "id": "tempo-moderate",
+            "path": "Time > Tempo: Moderate",
+            "url": "https://ocremix.org/tag/tempo-moderate"
+        }
+    ],
     "title": "West Side Homies",
     "url": "https://ocremix.org/remix/OCR00212"
 }

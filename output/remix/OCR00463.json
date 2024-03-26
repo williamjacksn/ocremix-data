@@ -12,6 +12,13 @@
         }
     ],
     "primary_game": "Super Mario Land",
+    "tags": [
+        {
+            "id": "duration-short",
+            "path": "Time > Duration: Short",
+            "url": "https://ocremix.org/tag/duration-short"
+        }
+    ],
     "title": "Reel Big Mario",
     "url": "https://ocremix.org/remix/OCR00463"
 }

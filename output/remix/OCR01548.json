@@ -7,6 +7,23 @@
         }
     ],
     "primary_game": "Pictionary",
+    "tags": [
+        {
+            "id": "chill",
+            "path": "Mood > Chill",
+            "url": "https://ocremix.org/tag/chill"
+        },
+        {
+            "id": "piano",
+            "path": "Instrumentation > Piano",
+            "url": "https://ocremix.org/tag/piano"
+        },
+        {
+            "id": "pop",
+            "path": "Genre > Pop",
+            "url": "https://ocremix.org/tag/pop"
+        }
+    ],
     "title": "Person, Place, or Groove?",
     "url": "https://ocremix.org/remix/OCR01548"
 }

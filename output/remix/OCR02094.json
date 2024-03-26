@@ -7,6 +7,23 @@
         }
     ],
     "primary_game": "Final Fantasy V",
+    "tags": [
+        {
+            "id": "chinese",
+            "path": "Regional > Chinese",
+            "url": "https://ocremix.org/tag/chinese"
+        },
+        {
+            "id": "mellow",
+            "path": "Mood > Mellow",
+            "url": "https://ocremix.org/tag/mellow"
+        },
+        {
+            "id": "orchestral",
+            "path": "Instrumentation > Orchestral",
+            "url": "https://ocremix.org/tag/orchestral"
+        }
+    ],
     "title": "Gentle Fist",
     "url": "https://ocremix.org/remix/OCR02094"
 }

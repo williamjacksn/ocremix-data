@@ -7,6 +7,23 @@
         }
     ],
     "primary_game": "Super Dodge Ball",
+    "tags": [
+        {
+            "id": "hip-hop",
+            "path": "Genre > Hip Hop",
+            "url": "https://ocremix.org/tag/hip-hop"
+        },
+        {
+            "id": "jazz",
+            "path": "Genre > Jazz",
+            "url": "https://ocremix.org/tag/jazz"
+        },
+        {
+            "id": "piano",
+            "path": "Instrumentation > Piano",
+            "url": "https://ocremix.org/tag/piano"
+        }
+    ],
     "title": "Rove You Rong Time",
     "url": "https://ocremix.org/remix/OCR01774"
 }

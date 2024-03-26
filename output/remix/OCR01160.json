@@ -7,6 +7,13 @@
         }
     ],
     "primary_game": "Sonic Adventure",
+    "tags": [
+        {
+            "id": "collab",
+            "path": "Origin > Collaboration",
+            "url": "https://ocremix.org/tag/collab"
+        }
+    ],
     "title": "LightSpeed",
     "url": "https://ocremix.org/remix/OCR01160"
 }

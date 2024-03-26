@@ -7,6 +7,18 @@
         }
     ],
     "primary_game": "Castlevania: Symphony of the Night",
+    "tags": [
+        {
+            "id": "electronic",
+            "path": "Instrumentation > Electronic",
+            "url": "https://ocremix.org/tag/electronic"
+        },
+        {
+            "id": "synth",
+            "path": "Instrumentation > Synth",
+            "url": "https://ocremix.org/tag/synth"
+        }
+    ],
     "title": "Nothing but a Pile of Dance Moves!",
     "url": "https://ocremix.org/remix/OCR01576"
 }

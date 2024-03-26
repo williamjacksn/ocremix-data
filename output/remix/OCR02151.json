@@ -7,6 +7,28 @@
         }
     ],
     "primary_game": "Return All Robots!",
+    "tags": [
+        {
+            "id": "chill",
+            "path": "Mood > Chill",
+            "url": "https://ocremix.org/tag/chill"
+        },
+        {
+            "id": "dub",
+            "path": "Genre > Ska > Dub",
+            "url": "https://ocremix.org/tag/dub"
+        },
+        {
+            "id": "mellow",
+            "path": "Mood > Mellow",
+            "url": "https://ocremix.org/tag/mellow"
+        },
+        {
+            "id": "reggae",
+            "path": "Genre > Ska > Reggae",
+            "url": "https://ocremix.org/tag/reggae"
+        }
+    ],
     "title": "Robotastic Dub-o-Matic Genetic Lab",
     "url": "https://ocremix.org/remix/OCR02151"
 }

@@ -7,6 +7,13 @@
         }
     ],
     "primary_game": "Final Fantasy VII",
+    "tags": [
+        {
+            "id": "duration-long",
+            "path": "Time > Duration: Long",
+            "url": "https://ocremix.org/tag/duration-long"
+        }
+    ],
     "title": "Cid Sends a Dream to the Undersea Palace",
     "url": "https://ocremix.org/remix/OCR00956"
 }

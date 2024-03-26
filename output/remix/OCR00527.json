@@ -7,6 +7,18 @@
         }
     ],
     "primary_game": "Blaster Master",
+    "tags": [
+        {
+            "id": "electronic",
+            "path": "Instrumentation > Electronic",
+            "url": "https://ocremix.org/tag/electronic"
+        },
+        {
+            "id": "synth",
+            "path": "Instrumentation > Synth",
+            "url": "https://ocremix.org/tag/synth"
+        }
+    ],
     "title": "TI Blasta Party",
     "url": "https://ocremix.org/remix/OCR00527"
 }

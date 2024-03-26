@@ -7,6 +7,18 @@
         }
     ],
     "primary_game": "Star Fox 64",
+    "tags": [
+        {
+            "id": "classical",
+            "path": "Genre > Classical",
+            "url": "https://ocremix.org/tag/classical"
+        },
+        {
+            "id": "orchestral",
+            "path": "Instrumentation > Orchestral",
+            "url": "https://ocremix.org/tag/orchestral"
+        }
+    ],
     "title": "V to the X Power",
     "url": "https://ocremix.org/remix/OCR01488"
 }

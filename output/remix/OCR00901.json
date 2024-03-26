@@ -7,6 +7,13 @@
         }
     ],
     "primary_game": "SaGa Frontier",
+    "tags": [
+        {
+            "id": "duration-short",
+            "path": "Time > Duration: Short",
+            "url": "https://ocremix.org/tag/duration-short"
+        }
+    ],
     "title": "The Castle of Everlasting Night",
     "url": "https://ocremix.org/remix/OCR00901"
 }

@@ -7,6 +7,18 @@
         }
     ],
     "primary_game": "Return All Robots!",
+    "tags": [
+        {
+            "id": "rock",
+            "path": "Genre > Rock",
+            "url": "https://ocremix.org/tag/rock"
+        },
+        {
+            "id": "synth",
+            "path": "Instrumentation > Synth",
+            "url": "https://ocremix.org/tag/synth"
+        }
+    ],
     "title": "WillRocky",
     "url": "https://ocremix.org/remix/OCR02280"
 }

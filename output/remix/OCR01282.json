@@ -7,6 +7,18 @@
         }
     ],
     "primary_game": "Killer Instinct",
+    "tags": [
+        {
+            "id": "piano",
+            "path": "Instrumentation > Piano",
+            "url": "https://ocremix.org/tag/piano"
+        },
+        {
+            "id": "solo",
+            "path": "Arrangement > Solo",
+            "url": "https://ocremix.org/tag/solo"
+        }
+    ],
     "title": "The Wolf of the Opera",
     "url": "https://ocremix.org/remix/OCR01282"
 }

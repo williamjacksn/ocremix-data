@@ -7,6 +7,23 @@
         }
     ],
     "primary_game": "Kirby Super Star",
+    "tags": [
+        {
+            "id": "funky",
+            "path": "Mood > Funky",
+            "url": "https://ocremix.org/tag/funky"
+        },
+        {
+            "id": "middle-eastern",
+            "path": "Regional > Middle Eastern",
+            "url": "https://ocremix.org/tag/middle-eastern"
+        },
+        {
+            "id": "quirky",
+            "path": "Mood > Quirky",
+            "url": "https://ocremix.org/tag/quirky"
+        }
+    ],
     "title": "Mummy Dance",
     "url": "https://ocremix.org/remix/OCR02934"
 }

@@ -7,6 +7,18 @@
         }
     ],
     "primary_game": "Doom",
+    "tags": [
+        {
+            "id": "cinematic",
+            "path": "Genre > Cinematic",
+            "url": "https://ocremix.org/tag/cinematic"
+        },
+        {
+            "id": "dark",
+            "path": "Mood > Dark",
+            "url": "https://ocremix.org/tag/dark"
+        }
+    ],
     "title": "Ghosts of Mars",
     "url": "https://ocremix.org/remix/OCR01396"
 }

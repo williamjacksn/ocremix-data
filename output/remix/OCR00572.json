@@ -7,6 +7,13 @@
         }
     ],
     "primary_game": "Jurassic Park",
+    "tags": [
+        {
+            "id": "duration-short",
+            "path": "Time > Duration: Short",
+            "url": "https://ocremix.org/tag/duration-short"
+        }
+    ],
     "title": "Everything Remains Jurassic",
     "url": "https://ocremix.org/remix/OCR00572"
 }

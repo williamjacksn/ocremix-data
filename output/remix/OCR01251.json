@@ -7,6 +7,18 @@
         }
     ],
     "primary_game": "Terranigma",
+    "tags": [
+        {
+            "id": "chill",
+            "path": "Mood > Chill",
+            "url": "https://ocremix.org/tag/chill"
+        },
+        {
+            "id": "hip-hop",
+            "path": "Genre > Hip Hop",
+            "url": "https://ocremix.org/tag/hip-hop"
+        }
+    ],
     "title": "Blue (Shooting Star Mix)",
     "url": "https://ocremix.org/remix/OCR01251"
 }

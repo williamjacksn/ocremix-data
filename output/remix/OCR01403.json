@@ -7,6 +7,18 @@
         }
     ],
     "primary_game": "Pac-Man",
+    "tags": [
+        {
+            "id": "ambient",
+            "path": "Genre > Easy Listening > Ambient",
+            "url": "https://ocremix.org/tag/ambient"
+        },
+        {
+            "id": "strings",
+            "path": "Instrumentation > Strings",
+            "url": "https://ocremix.org/tag/strings"
+        }
+    ],
     "title": "Glass Cage",
     "url": "https://ocremix.org/remix/OCR01403"
 }

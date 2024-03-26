@@ -7,6 +7,23 @@
         }
     ],
     "primary_game": "Phoenix Wright: Ace Attorney",
+    "tags": [
+        {
+            "id": "happy",
+            "path": "Mood > Happy",
+            "url": "https://ocremix.org/tag/happy"
+        },
+        {
+            "id": "piano",
+            "path": "Instrumentation > Piano",
+            "url": "https://ocremix.org/tag/piano"
+        },
+        {
+            "id": "synth",
+            "path": "Instrumentation > Synth",
+            "url": "https://ocremix.org/tag/synth"
+        }
+    ],
     "title": "Holiday with Mia Fey",
     "url": "https://ocremix.org/remix/OCR01870"
 }

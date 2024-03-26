@@ -7,6 +7,23 @@
         }
     ],
     "primary_game": "Streets of Rage",
+    "tags": [
+        {
+            "id": "chill",
+            "path": "Mood > Chill",
+            "url": "https://ocremix.org/tag/chill"
+        },
+        {
+            "id": "hip-hop",
+            "path": "Genre > Hip Hop",
+            "url": "https://ocremix.org/tag/hip-hop"
+        },
+        {
+            "id": "jazz",
+            "path": "Genre > Jazz",
+            "url": "https://ocremix.org/tag/jazz"
+        }
+    ],
     "title": "Sensual Ippon",
     "url": "https://ocremix.org/remix/OCR01239"
 }

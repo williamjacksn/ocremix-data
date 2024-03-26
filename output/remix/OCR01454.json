@@ -7,6 +7,18 @@
         }
     ],
     "primary_game": "Baldur's Gate",
+    "tags": [
+        {
+            "id": "piano",
+            "path": "Instrumentation > Piano",
+            "url": "https://ocremix.org/tag/piano"
+        },
+        {
+            "id": "solo",
+            "path": "Arrangement > Solo",
+            "url": "https://ocremix.org/tag/solo"
+        }
+    ],
     "title": "Child of the Murder God",
     "url": "https://ocremix.org/remix/OCR01454"
 }

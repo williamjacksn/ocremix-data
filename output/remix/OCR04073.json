@@ -7,6 +7,63 @@
         }
     ],
     "primary_game": "Final Fantasy VII",
+    "tags": [
+        {
+            "id": "acoustic",
+            "path": "Instrumentation > Acoustic",
+            "url": "https://ocremix.org/tag/acoustic"
+        },
+        {
+            "id": "acoustic-guitar",
+            "path": "Instrumentation > Acoustic Guitar",
+            "url": "https://ocremix.org/tag/acoustic-guitar"
+        },
+        {
+            "id": "chill",
+            "path": "Mood > Chill",
+            "url": "https://ocremix.org/tag/chill"
+        },
+        {
+            "id": "djembe",
+            "path": "Instrumentation > Djembe",
+            "url": "https://ocremix.org/tag/djembe"
+        },
+        {
+            "id": "folk",
+            "path": "Genre > Folk",
+            "url": "https://ocremix.org/tag/folk"
+        },
+        {
+            "id": "hand-drums",
+            "path": "Instrumentation > Hand Drums",
+            "url": "https://ocremix.org/tag/hand-drums"
+        },
+        {
+            "id": "harmonica",
+            "path": "Instrumentation > Harmonica",
+            "url": "https://ocremix.org/tag/harmonica"
+        },
+        {
+            "id": "irish-whistle",
+            "path": "Instrumentation > Irish Whistle",
+            "url": "https://ocremix.org/tag/irish-whistle"
+        },
+        {
+            "id": "mbira",
+            "path": "Instrumentation > Mbira",
+            "url": "https://ocremix.org/tag/mbira"
+        },
+        {
+            "id": "melodica",
+            "path": "Instrumentation > Melodica",
+            "url": "https://ocremix.org/tag/melodica"
+        },
+        {
+            "id": "woodwinds",
+            "path": "Instrumentation > Woodwinds",
+            "url": "https://ocremix.org/tag/woodwinds"
+        }
+    ],
     "title": "Howling Winds",
     "url": "https://ocremix.org/remix/OCR04073"
 }

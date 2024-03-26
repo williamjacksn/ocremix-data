@@ -7,6 +7,28 @@
         }
     ],
     "primary_game": "Tecmo Bowl",
+    "tags": [
+        {
+            "id": "appalachian",
+            "path": "Regional > Appalachian",
+            "url": "https://ocremix.org/tag/appalachian"
+        },
+        {
+            "id": "banjo",
+            "path": "Instrumentation > Banjo",
+            "url": "https://ocremix.org/tag/banjo"
+        },
+        {
+            "id": "folk",
+            "path": "Genre > Folk",
+            "url": "https://ocremix.org/tag/folk"
+        },
+        {
+            "id": "happy",
+            "path": "Mood > Happy",
+            "url": "https://ocremix.org/tag/happy"
+        }
+    ],
     "title": "Touchdown Hoedown",
     "url": "https://ocremix.org/remix/OCR02133"
 }

@@ -7,6 +7,58 @@
         }
     ],
     "primary_game": "Golden Sun: The Lost Age",
+    "tags": [
+        {
+            "id": "acoustic-guitar",
+            "path": "Instrumentation > Acoustic Guitar",
+            "url": "https://ocremix.org/tag/acoustic-guitar"
+        },
+        {
+            "id": "chinese",
+            "path": "Regional > Chinese",
+            "url": "https://ocremix.org/tag/chinese"
+        },
+        {
+            "id": "erhu",
+            "path": "Instrumentation > Erhu",
+            "url": "https://ocremix.org/tag/erhu"
+        },
+        {
+            "id": "folk",
+            "path": "Genre > Folk",
+            "url": "https://ocremix.org/tag/folk"
+        },
+        {
+            "id": "guzheng",
+            "path": "Instrumentation > Guzheng",
+            "url": "https://ocremix.org/tag/guzheng"
+        },
+        {
+            "id": "live-instruments",
+            "path": "Production > Live Instruments",
+            "url": "https://ocremix.org/tag/live-instruments"
+        },
+        {
+            "id": "mellow",
+            "path": "Mood > Mellow",
+            "url": "https://ocremix.org/tag/mellow"
+        },
+        {
+            "id": "quartet",
+            "path": "Arrangement > Quartet",
+            "url": "https://ocremix.org/tag/quartet"
+        },
+        {
+            "id": "sad",
+            "path": "Mood > Sad",
+            "url": "https://ocremix.org/tag/sad"
+        },
+        {
+            "id": "solemn",
+            "path": "Mood > Solemn",
+            "url": "https://ocremix.org/tag/solemn"
+        }
+    ],
     "title": "Reflection of the Wolf Moon",
     "url": "https://ocremix.org/remix/OCR04095"
 }

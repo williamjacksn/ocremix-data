@@ -12,6 +12,13 @@
         }
     ],
     "primary_game": "Final Fantasy VIII",
+    "tags": [
+        {
+            "id": "lyrics-existing",
+            "path": "Lyrics > Lyrics: Existing",
+            "url": "https://ocremix.org/tag/lyrics-existing"
+        }
+    ],
     "title": "Eyes on Me (Obsession)",
     "url": "https://ocremix.org/remix/OCR00316"
 }

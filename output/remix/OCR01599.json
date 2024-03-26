@@ -7,6 +7,18 @@
         }
     ],
     "primary_game": "Super Mario Bros.",
+    "tags": [
+        {
+            "id": "classical",
+            "path": "Genre > Classical",
+            "url": "https://ocremix.org/tag/classical"
+        },
+        {
+            "id": "strings",
+            "path": "Instrumentation > Strings",
+            "url": "https://ocremix.org/tag/strings"
+        }
+    ],
     "title": "Mario Likes Thorazine",
     "url": "https://ocremix.org/remix/OCR01599"
 }

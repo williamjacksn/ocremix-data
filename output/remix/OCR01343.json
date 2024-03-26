@@ -7,6 +7,18 @@
         }
     ],
     "primary_game": "Secret of Evermore",
+    "tags": [
+        {
+            "id": "new-age",
+            "path": "Genre > Easy Listening > New Age",
+            "url": "https://ocremix.org/tag/new-age"
+        },
+        {
+            "id": "orchestral",
+            "path": "Instrumentation > Orchestral",
+            "url": "https://ocremix.org/tag/orchestral"
+        }
+    ],
     "title": "A Whisper and a Shadow",
     "url": "https://ocremix.org/remix/OCR01343"
 }

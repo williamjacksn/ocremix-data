@@ -7,6 +7,18 @@
         }
     ],
     "primary_game": "Super Mario RPG: Legend of the Seven Stars",
+    "tags": [
+        {
+            "id": "happy",
+            "path": "Mood > Happy",
+            "url": "https://ocremix.org/tag/happy"
+        },
+        {
+            "id": "tempo-fast",
+            "path": "Time > Tempo: Fast",
+            "url": "https://ocremix.org/tag/tempo-fast"
+        }
+    ],
     "title": "Mario's Tropical Paradise",
     "url": "https://ocremix.org/remix/OCR01108"
 }

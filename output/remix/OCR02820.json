@@ -7,6 +7,18 @@
         }
     ],
     "primary_game": "Super Smash Bros. Melee",
+    "tags": [
+        {
+            "id": "lyrics-explicit",
+            "path": "Lyrics > Lyrics: Explicit",
+            "url": "https://ocremix.org/tag/lyrics-explicit"
+        },
+        {
+            "id": "lyrics-original",
+            "path": "Lyrics > Lyrics: Original",
+            "url": "https://ocremix.org/tag/lyrics-original"
+        }
+    ],
     "title": "Tengen Toppa Dairantou: Part 1 - Game Set",
     "url": "https://ocremix.org/remix/OCR02820"
 }

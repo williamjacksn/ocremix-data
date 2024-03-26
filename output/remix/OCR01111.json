@@ -7,6 +7,23 @@
         }
     ],
     "primary_game": "Samurai Warrior: The Battles of Usagi Yojimbo",
+    "tags": [
+        {
+            "id": "electric-guitar",
+            "path": "Instrumentation > Electric Guitar",
+            "url": "https://ocremix.org/tag/electric-guitar"
+        },
+        {
+            "id": "funky",
+            "path": "Mood > Funky",
+            "url": "https://ocremix.org/tag/funky"
+        },
+        {
+            "id": "synth",
+            "path": "Instrumentation > Synth",
+            "url": "https://ocremix.org/tag/synth"
+        }
+    ],
     "title": "Homage to Amida Buddha",
     "url": "https://ocremix.org/remix/OCR01111"
 }

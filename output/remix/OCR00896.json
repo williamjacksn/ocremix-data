@@ -7,6 +7,13 @@
         }
     ],
     "primary_game": "Super Mario World",
+    "tags": [
+        {
+            "id": "halloween",
+            "path": "Usage > Halloween",
+            "url": "https://ocremix.org/tag/halloween"
+        }
+    ],
     "title": "Ghosts of the Marble Hall",
     "url": "https://ocremix.org/remix/OCR00896"
 }

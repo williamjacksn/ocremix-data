@@ -7,6 +7,33 @@
         }
     ],
     "primary_game": "Super Mario Bros.",
+    "tags": [
+        {
+            "id": "blues",
+            "path": "Genre > Blues",
+            "url": "https://ocremix.org/tag/blues"
+        },
+        {
+            "id": "lyrics-original",
+            "path": "Lyrics > Lyrics: Original",
+            "url": "https://ocremix.org/tag/lyrics-original"
+        },
+        {
+            "id": "piano",
+            "path": "Instrumentation > Piano",
+            "url": "https://ocremix.org/tag/piano"
+        },
+        {
+            "id": "singing",
+            "path": "Instrumentation > Singing",
+            "url": "https://ocremix.org/tag/singing"
+        },
+        {
+            "id": "vocals-male",
+            "path": "Instrumentation > Vocals: Male",
+            "url": "https://ocremix.org/tag/vocals-male"
+        }
+    ],
     "title": "The 2-2 Blues",
     "url": "https://ocremix.org/remix/OCR02031"
 }

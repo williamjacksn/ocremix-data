@@ -7,6 +7,18 @@
         }
     ],
     "primary_game": "Final Fantasy VI",
+    "tags": [
+        {
+            "id": "brass",
+            "path": "Instrumentation > Brass",
+            "url": "https://ocremix.org/tag/brass"
+        },
+        {
+            "id": "classical",
+            "path": "Genre > Classical",
+            "url": "https://ocremix.org/tag/classical"
+        }
+    ],
     "title": "Locke's Theme for Brass Quintet",
     "url": "https://ocremix.org/remix/OCR01604"
 }

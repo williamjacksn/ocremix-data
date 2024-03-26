@@ -7,6 +7,13 @@
         }
     ],
     "primary_game": "Street Fighter II: The World Warrior",
+    "tags": [
+        {
+            "id": "piano",
+            "path": "Instrumentation > Piano",
+            "url": "https://ocremix.org/tag/piano"
+        }
+    ],
     "title": "Ryu for Four Pianos",
     "url": "https://ocremix.org/remix/OCR01230"
 }

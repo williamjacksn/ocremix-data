@@ -7,6 +7,13 @@
         }
     ],
     "primary_game": "Mega Man 3",
+    "tags": [
+        {
+            "id": "duration-long",
+            "path": "Time > Duration: Long",
+            "url": "https://ocremix.org/tag/duration-long"
+        }
+    ],
     "title": "Blue Lightning",
     "url": "https://ocremix.org/remix/OCR00464"
 }

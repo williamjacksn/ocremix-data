@@ -12,6 +12,18 @@
         }
     ],
     "primary_game": "Dance Dance Revolution 4th Mix",
+    "tags": [
+        {
+            "id": "lyrics-existing",
+            "path": "Lyrics > Lyrics: Existing",
+            "url": "https://ocremix.org/tag/lyrics-existing"
+        },
+        {
+            "id": "lyrics-original",
+            "path": "Lyrics > Lyrics: Original",
+            "url": "https://ocremix.org/tag/lyrics-original"
+        }
+    ],
     "title": "4F73R M3",
     "url": "https://ocremix.org/remix/OCR01114"
 }

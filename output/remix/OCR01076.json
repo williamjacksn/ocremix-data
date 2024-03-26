@@ -7,6 +7,13 @@
         }
     ],
     "primary_game": "Tales of Phantasia",
+    "tags": [
+        {
+            "id": "duration-long",
+            "path": "Time > Duration: Long",
+            "url": "https://ocremix.org/tag/duration-long"
+        }
+    ],
     "title": "Emotions Lost in Time",
     "url": "https://ocremix.org/remix/OCR01076"
 }

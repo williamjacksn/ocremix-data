@@ -7,6 +7,18 @@
         }
     ],
     "primary_game": "X-Out",
+    "tags": [
+        {
+            "id": "electronic",
+            "path": "Instrumentation > Electronic",
+            "url": "https://ocremix.org/tag/electronic"
+        },
+        {
+            "id": "synth",
+            "path": "Instrumentation > Synth",
+            "url": "https://ocremix.org/tag/synth"
+        }
+    ],
     "title": "LiquidX",
     "url": "https://ocremix.org/remix/OCR01264"
 }

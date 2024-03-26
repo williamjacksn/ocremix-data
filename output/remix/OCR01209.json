@@ -7,6 +7,18 @@
         }
     ],
     "primary_game": "The Legend of Zelda",
+    "tags": [
+        {
+            "id": "cinematic",
+            "path": "Genre > Cinematic",
+            "url": "https://ocremix.org/tag/cinematic"
+        },
+        {
+            "id": "orchestral",
+            "path": "Instrumentation > Orchestral",
+            "url": "https://ocremix.org/tag/orchestral"
+        }
+    ],
     "title": "A Fate Preordained",
     "url": "https://ocremix.org/remix/OCR01209"
 }

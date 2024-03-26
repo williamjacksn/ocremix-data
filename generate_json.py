@@ -6,6 +6,7 @@ import json
 def get_data(cnx, ocr_id: int) -> dict:
     result = {}
     artists = []
+    tags = []
     remix_sql = '''
         select id, title, primary_game
         from remix
@@ -17,6 +18,13 @@ def get_data(cnx, ocr_id: int) -> dict:
         join artist a on a.id = ra.artist_id
         where ra.remix_id = :id
         order by a.id
+    '''
+    tags_sql = '''
+        select t.id, t.path, t.url
+        from remix_tag rt
+        join tag t on t.id = rt.tag_id
+        where rt.remix_id = :id
+        order by t.id
     '''
     params = {
         'id': ocr_id,
@@ -34,7 +42,14 @@ def get_data(cnx, ocr_id: int) -> dict:
                 'name': row['name'],
                 'url': row['url'],
             })
+        for row in cnx.execute(tags_sql, params):
+            tags.append({
+                'id': row['id'],
+                'path': row['path'],
+                'url': row['url'],
+            })
     result['artists'] = artists
+    result['tags'] = tags
     return result
 
 
