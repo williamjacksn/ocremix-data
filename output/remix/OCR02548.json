@@ -1,0 +1,17 @@
+{
+    "artists": [
+        {
+            "id": 100,
+            "name": "David Wise",
+            "url": "https://ocremix.org/artist/100/david-wise"
+        },
+        {
+            "id": 5179,
+            "name": "Monkey Kong",
+            "url": "https://ocremix.org/artist/5179/monkey-kong"
+        }
+    ],
+    "primary_game": "Donkey Kong Country 3",
+    "title": "Sea Breeze Concerto",
+    "url": "https://ocremix.org/remix/OCR02548"
+}

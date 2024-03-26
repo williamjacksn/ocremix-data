@@ -1,0 +1,22 @@
+{
+    "artists": [
+        {
+            "id": 4724,
+            "name": "DrumUltimA",
+            "url": "https://ocremix.org/artist/4724/drumultima"
+        },
+        {
+            "id": 4780,
+            "name": "MomUltimA",
+            "url": "https://ocremix.org/artist/4780/momultima"
+        },
+        {
+            "id": 5041,
+            "name": "Prince uf Darkness",
+            "url": "https://ocremix.org/artist/5041/prince-uf-darkness"
+        }
+    ],
+    "primary_game": "Reset Generation",
+    "title": "Remix Generation",
+    "url": "https://ocremix.org/remix/OCR02170"
+}

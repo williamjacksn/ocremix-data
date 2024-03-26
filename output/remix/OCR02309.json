@@ -1,0 +1,32 @@
+{
+    "artists": [
+        {
+            "id": 4668,
+            "name": "DCT",
+            "url": "https://ocremix.org/artist/4668/dct"
+        },
+        {
+            "id": 4720,
+            "name": "LuIzA",
+            "url": "https://ocremix.org/artist/4720/luiza"
+        },
+        {
+            "id": 8498,
+            "name": "Mega Ran",
+            "url": "https://ocremix.org/artist/8498/mega-ran"
+        },
+        {
+            "id": 10691,
+            "name": "Mr. Jones",
+            "url": "https://ocremix.org/artist/10691/mr-jones"
+        },
+        {
+            "id": 11082,
+            "name": "Khakolak Boy",
+            "url": "https://ocremix.org/artist/11082/khakolak-boy"
+        }
+    ],
+    "primary_game": "Super Dodge Ball",
+    "title": "Nairobi Hop",
+    "url": "https://ocremix.org/remix/OCR02309"
+}

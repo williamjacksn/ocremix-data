@@ -1,0 +1,62 @@
+{
+    "artists": [
+        {
+            "id": 100,
+            "name": "David Wise",
+            "url": "https://ocremix.org/artist/100/david-wise"
+        },
+        {
+            "id": 102,
+            "name": "Robin Beanland",
+            "url": "https://ocremix.org/artist/102/robin-beanland"
+        },
+        {
+            "id": 4540,
+            "name": "JJT",
+            "url": "https://ocremix.org/artist/4540/jjt"
+        },
+        {
+            "id": 4558,
+            "name": "zykO",
+            "url": "https://ocremix.org/artist/4558/zyko"
+        },
+        {
+            "id": 4595,
+            "name": "Diggi Dis",
+            "url": "https://ocremix.org/artist/4595/diggi-dis"
+        },
+        {
+            "id": 4661,
+            "name": "Harmony",
+            "url": "https://ocremix.org/artist/4661/harmony"
+        },
+        {
+            "id": 4695,
+            "name": "prophetik music",
+            "url": "https://ocremix.org/artist/4695/prophetik-music"
+        },
+        {
+            "id": 4729,
+            "name": "OceansAndrew",
+            "url": "https://ocremix.org/artist/4729/oceansandrew"
+        },
+        {
+            "id": 4749,
+            "name": "bustatunez",
+            "url": "https://ocremix.org/artist/4749/bustatunez"
+        },
+        {
+            "id": 5420,
+            "name": "Level 99",
+            "url": "https://ocremix.org/artist/5420/level-99"
+        },
+        {
+            "id": 12484,
+            "name": "Daniel Rosenqvist",
+            "url": "https://ocremix.org/artist/12484/daniel-rosenqvist"
+        }
+    ],
+    "primary_game": "Donkey Kong Country 3",
+    "title": "Spanish Jitters",
+    "url": "https://ocremix.org/remix/OCR02538"
+}

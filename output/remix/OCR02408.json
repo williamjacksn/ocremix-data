@@ -1,0 +1,27 @@
+{
+    "artists": [
+        {
+            "id": 4661,
+            "name": "Harmony",
+            "url": "https://ocremix.org/artist/4661/harmony"
+        },
+        {
+            "id": 5198,
+            "name": "audio fidelity",
+            "url": "https://ocremix.org/artist/5198/audio-fidelity"
+        },
+        {
+            "id": 5473,
+            "name": "Cyril the Wolf",
+            "url": "https://ocremix.org/artist/5473/cyril-the-wolf"
+        },
+        {
+            "id": 11799,
+            "name": "Martin Villanueva",
+            "url": "https://ocremix.org/artist/11799/martin-villanueva"
+        }
+    ],
+    "primary_game": "Mega Man X",
+    "title": "End of the Beginning",
+    "url": "https://ocremix.org/remix/OCR02408"
+}

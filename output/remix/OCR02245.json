@@ -1,0 +1,22 @@
+{
+    "artists": [
+        {
+            "id": 5012,
+            "name": "Joren de Bruin",
+            "url": "https://ocremix.org/artist/5012/joren-de-bruin"
+        },
+        {
+            "id": 5396,
+            "name": "Xenon Odyssey",
+            "url": "https://ocremix.org/artist/5396/xenon-odyssey"
+        },
+        {
+            "id": 10692,
+            "name": "melody",
+            "url": "https://ocremix.org/artist/10692/melody"
+        }
+    ],
+    "primary_game": "Donkey Kong Country 2: Diddy's Kong Quest",
+    "title": "Monsoon in the Concrete Jungle",
+    "url": "https://ocremix.org/remix/OCR02245"
+}

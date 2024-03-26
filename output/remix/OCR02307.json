@@ -1,0 +1,27 @@
+{
+    "artists": [
+        {
+            "id": 4293,
+            "name": "Protricity",
+            "url": "https://ocremix.org/artist/4293/protricity"
+        },
+        {
+            "id": 4749,
+            "name": "bustatunez",
+            "url": "https://ocremix.org/artist/4749/bustatunez"
+        },
+        {
+            "id": 5420,
+            "name": "Level 99",
+            "url": "https://ocremix.org/artist/5420/level-99"
+        },
+        {
+            "id": 10683,
+            "name": "Jeff Ball",
+            "url": "https://ocremix.org/artist/10683/jeff-ball"
+        }
+    ],
+    "primary_game": "Super Dodge Ball",
+    "title": "Dodge Mahal",
+    "url": "https://ocremix.org/remix/OCR02307"
+}

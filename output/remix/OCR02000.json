@@ -1,0 +1,22 @@
+{
+    "artists": [
+        {
+            "id": 21,
+            "name": "Grant Kirkhope",
+            "url": "https://ocremix.org/artist/21/grant-kirkhope"
+        },
+        {
+            "id": 100,
+            "name": "David Wise",
+            "url": "https://ocremix.org/artist/100/david-wise"
+        },
+        {
+            "id": 102,
+            "name": "Robin Beanland",
+            "url": "https://ocremix.org/artist/102/robin-beanland"
+        }
+    ],
+    "primary_game": "Donkey Kong Country 2: Diddy's Kong Quest",
+    "title": "Re-Skewed",
+    "url": "https://ocremix.org/remix/OCR02000"
+}

@@ -1,0 +1,32 @@
+{
+    "artists": [
+        {
+            "id": 4304,
+            "name": "Mustin",
+            "url": "https://ocremix.org/artist/4304/mustin"
+        },
+        {
+            "id": 4664,
+            "name": "ktriton",
+            "url": "https://ocremix.org/artist/4664/ktriton"
+        },
+        {
+            "id": 6131,
+            "name": "Jared Dunn",
+            "url": "https://ocremix.org/artist/6131/jared-dunn"
+        },
+        {
+            "id": 6132,
+            "name": "William Reyes",
+            "url": "https://ocremix.org/artist/6132/william-reyes"
+        },
+        {
+            "id": 8359,
+            "name": "The Crakaz",
+            "url": "https://ocremix.org/artist/8359/the-crakaz"
+        }
+    ],
+    "primary_game": "Final Fantasy IV",
+    "title": "Everclear Hangover IV",
+    "url": "https://ocremix.org/remix/OCR02071"
+}

@@ -1,0 +1,27 @@
+{
+    "artists": [
+        {
+            "id": 4655,
+            "name": "Rexy",
+            "url": "https://ocremix.org/artist/4655/rexy"
+        },
+        {
+            "id": 4726,
+            "name": "DragonAvenger",
+            "url": "https://ocremix.org/artist/4726/dragonavenger"
+        },
+        {
+            "id": 4729,
+            "name": "OceansAndrew",
+            "url": "https://ocremix.org/artist/4729/oceansandrew"
+        },
+        {
+            "id": 5409,
+            "name": "Brandon Strader",
+            "url": "https://ocremix.org/artist/5409/brandon-strader"
+        }
+    ],
+    "primary_game": "Faxanadu",
+    "title": "This Winding Road",
+    "url": "https://ocremix.org/remix/OCR02601"
+}

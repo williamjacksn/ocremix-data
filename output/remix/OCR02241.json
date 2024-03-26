@@ -1,0 +1,22 @@
+{
+    "artists": [
+        {
+            "id": 4625,
+            "name": "SnappleMan",
+            "url": "https://ocremix.org/artist/4625/snappleman"
+        },
+        {
+            "id": 4753,
+            "name": "norg",
+            "url": "https://ocremix.org/artist/4753/norg"
+        },
+        {
+            "id": 10667,
+            "name": "Lastair",
+            "url": "https://ocremix.org/artist/10667/lastair"
+        }
+    ],
+    "primary_game": "Final Fantasy VIII",
+    "title": "SeeK",
+    "url": "https://ocremix.org/remix/OCR02241"
+}

@@ -1,0 +1,27 @@
+{
+    "artists": [
+        {
+            "id": 4655,
+            "name": "Rexy",
+            "url": "https://ocremix.org/artist/4655/rexy"
+        },
+        {
+            "id": 5043,
+            "name": "WillRock",
+            "url": "https://ocremix.org/artist/5043/willrock"
+        },
+        {
+            "id": 5409,
+            "name": "Brandon Strader",
+            "url": "https://ocremix.org/artist/5409/brandon-strader"
+        },
+        {
+            "id": 10683,
+            "name": "Jeff Ball",
+            "url": "https://ocremix.org/artist/10683/jeff-ball"
+        }
+    ],
+    "primary_game": "Breath of Death VII: The Beginning",
+    "title": "Quest in Peace",
+    "url": "https://ocremix.org/remix/OCR02815"
+}

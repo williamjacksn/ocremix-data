@@ -1,0 +1,27 @@
+{
+    "artists": [
+        {
+            "id": 4291,
+            "name": "injury",
+            "url": "https://ocremix.org/artist/4291/injury"
+        },
+        {
+            "id": 4692,
+            "name": "Tepid",
+            "url": "https://ocremix.org/artist/4692/tepid"
+        },
+        {
+            "id": 4846,
+            "name": "Nicole Adams",
+            "url": "https://ocremix.org/artist/4846/nicole-adams"
+        },
+        {
+            "id": 5706,
+            "name": "M.J. Ault",
+            "url": "https://ocremix.org/artist/5706/mj-ault"
+        }
+    ],
+    "primary_game": "Donkey Kong Country 2: Diddy's Kong Quest",
+    "title": "A New Place",
+    "url": "https://ocremix.org/remix/OCR02003"
+}

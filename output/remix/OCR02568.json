@@ -1,0 +1,27 @@
+{
+    "artists": [
+        {
+            "id": 4605,
+            "name": "Theophany",
+            "url": "https://ocremix.org/artist/4605/theophany"
+        },
+        {
+            "id": 12064,
+            "name": "XPRTNovice",
+            "url": "https://ocremix.org/artist/12064/xprtnovice"
+        },
+        {
+            "id": 12546,
+            "name": "David Erick Ramos",
+            "url": "https://ocremix.org/artist/12546/david-erick-ramos"
+        },
+        {
+            "id": 12547,
+            "name": "FunkyEntropy",
+            "url": "https://ocremix.org/artist/12547/funkyentropy"
+        }
+    ],
+    "primary_game": "The Legend of Zelda: Majora's Mask",
+    "title": "Dawn of a New Day",
+    "url": "https://ocremix.org/remix/OCR02568"
+}

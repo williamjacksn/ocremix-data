@@ -1,0 +1,27 @@
+{
+    "artists": [
+        {
+            "id": 10222,
+            "name": "Dj Mystix",
+            "url": "https://ocremix.org/artist/10222/dj-mystix"
+        },
+        {
+            "id": 10671,
+            "name": "Chris ~ Amaterasu",
+            "url": "https://ocremix.org/artist/10671/chris-amaterasu"
+        },
+        {
+            "id": 11915,
+            "name": "Sabivee",
+            "url": "https://ocremix.org/artist/11915/sabivee"
+        },
+        {
+            "id": 11929,
+            "name": "Magellanic",
+            "url": "https://ocremix.org/artist/11929/magellanic"
+        }
+    ],
+    "primary_game": "Final Fantasy X",
+    "title": "Just This Once",
+    "url": "https://ocremix.org/remix/OCR02883"
+}
