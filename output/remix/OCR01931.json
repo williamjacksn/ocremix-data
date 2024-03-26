@@ -1,0 +1,27 @@
+{
+    "artists": [
+        {
+            "id": 4786,
+            "name": "Olarin",
+            "url": "https://ocremix.org/artist/4786/olarin"
+        },
+        {
+            "id": 5320,
+            "name": "Ari Kessler",
+            "url": "https://ocremix.org/artist/5320/ari-kessler"
+        },
+        {
+            "id": 5321,
+            "name": "Marshall Skinner",
+            "url": "https://ocremix.org/artist/5321/marshall-skinner"
+        },
+        {
+            "id": 5322,
+            "name": "Keith Maxwell Button",
+            "url": "https://ocremix.org/artist/5322/keith-maxwell-button"
+        }
+    ],
+    "primary_game": "The Legend of Zelda: A Link to the Past",
+    "title": "Exodus to Sanctuary",
+    "url": "https://ocremix.org/remix/OCR01931"
+}

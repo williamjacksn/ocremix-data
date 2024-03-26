@@ -1,0 +1,22 @@
+{
+    "artists": [
+        {
+            "id": 4608,
+            "name": "Reuben Kee",
+            "url": "https://ocremix.org/artist/4608/reuben-kee"
+        },
+        {
+            "id": 4659,
+            "name": "Jillian Aversa",
+            "url": "https://ocremix.org/artist/4659/jillian-aversa"
+        },
+        {
+            "id": 6015,
+            "name": "Claado Shou",
+            "url": "https://ocremix.org/artist/6015/claado-shou"
+        }
+    ],
+    "primary_game": "Chrono Trigger",
+    "title": "The Place We Knew",
+    "url": "https://ocremix.org/remix/OCR01458"
+}

@@ -1,0 +1,27 @@
+{
+    "artists": [
+        {
+            "id": 4291,
+            "name": "injury",
+            "url": "https://ocremix.org/artist/4291/injury"
+        },
+        {
+            "id": 4293,
+            "name": "Protricity",
+            "url": "https://ocremix.org/artist/4293/protricity"
+        },
+        {
+            "id": 4723,
+            "name": "AeroZ",
+            "url": "https://ocremix.org/artist/4723/aeroz"
+        },
+        {
+            "id": 5183,
+            "name": "Monobrow",
+            "url": "https://ocremix.org/artist/5183/monobrow"
+        }
+    ],
+    "primary_game": "Tales of Symphonia",
+    "title": "Altar Perception",
+    "url": "https://ocremix.org/remix/OCR01979"
+}

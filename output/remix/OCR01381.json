@@ -1,0 +1,22 @@
+{
+    "artists": [
+        {
+            "id": 4516,
+            "name": "GrayLightning",
+            "url": "https://ocremix.org/artist/4516/graylightning"
+        },
+        {
+            "id": 4587,
+            "name": "sephfire",
+            "url": "https://ocremix.org/artist/4587/sephfire"
+        },
+        {
+            "id": 4659,
+            "name": "Jillian Aversa",
+            "url": "https://ocremix.org/artist/4659/jillian-aversa"
+        }
+    ],
+    "primary_game": "Final Fantasy X",
+    "title": "Journey's End",
+    "url": "https://ocremix.org/remix/OCR01381"
+}

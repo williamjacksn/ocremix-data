@@ -1,0 +1,32 @@
+{
+    "artists": [
+        {
+            "id": 4628,
+            "name": "zircon",
+            "url": "https://ocremix.org/artist/4628/zircon"
+        },
+        {
+            "id": 4659,
+            "name": "Jillian Aversa",
+            "url": "https://ocremix.org/artist/4659/jillian-aversa"
+        },
+        {
+            "id": 4690,
+            "name": "D-Lux",
+            "url": "https://ocremix.org/artist/4690/d-lux"
+        },
+        {
+            "id": 4694,
+            "name": "Geoffrey Taucer",
+            "url": "https://ocremix.org/artist/4694/geoffrey-taucer"
+        },
+        {
+            "id": 4700,
+            "name": "Shonen Samurai",
+            "url": "https://ocremix.org/artist/4700/shonen-samurai"
+        }
+    ],
+    "primary_game": "Sonic & Knuckles",
+    "title": "Lover Reef",
+    "url": "https://ocremix.org/remix/OCR01465"
+}

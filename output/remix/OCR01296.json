@@ -1,0 +1,27 @@
+{
+    "artists": [
+        {
+            "id": 68,
+            "name": "George Alistair Sanger",
+            "url": "https://ocremix.org/artist/68/george-alistair-sanger"
+        },
+        {
+            "id": 171,
+            "name": "Joe McDermott",
+            "url": "https://ocremix.org/artist/171/joe-mcdermott"
+        },
+        {
+            "id": 226,
+            "name": "Dave Govett",
+            "url": "https://ocremix.org/artist/226/dave-govett"
+        },
+        {
+            "id": 328,
+            "name": "K. Weston Phelan",
+            "url": "https://ocremix.org/artist/328/k-weston-phelan"
+        }
+    ],
+    "primary_game": "Wing Commander",
+    "title": "Wing Theme Surf",
+    "url": "https://ocremix.org/remix/OCR01296"
+}

@@ -1,0 +1,22 @@
+{
+    "artists": [
+        {
+            "id": 4681,
+            "name": "MaJIN_SaN",
+            "url": "https://ocremix.org/artist/4681/majin-san"
+        },
+        {
+            "id": 4682,
+            "name": "ambient",
+            "url": "https://ocremix.org/artist/4682/ambient"
+        },
+        {
+            "id": 4683,
+            "name": "tomatsu",
+            "url": "https://ocremix.org/artist/4683/tomatsu"
+        }
+    ],
+    "primary_game": "Mega Man",
+    "title": "Electrolytic Man",
+    "url": "https://ocremix.org/remix/OCR01399"
+}

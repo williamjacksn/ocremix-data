@@ -1,0 +1,27 @@
+{
+    "artists": [
+        {
+            "id": 4304,
+            "name": "Mustin",
+            "url": "https://ocremix.org/artist/4304/mustin"
+        },
+        {
+            "id": 5901,
+            "name": "Jennifer Graham",
+            "url": "https://ocremix.org/artist/5901/jennifer-graham"
+        },
+        {
+            "id": 5902,
+            "name": "Lisa Leamons",
+            "url": "https://ocremix.org/artist/5902/lisa-leamons"
+        },
+        {
+            "id": 5903,
+            "name": "Tim Yarbrough",
+            "url": "https://ocremix.org/artist/5903/tim-yarbrough"
+        }
+    ],
+    "primary_game": "Final Fantasy VII",
+    "title": "Serenity",
+    "url": "https://ocremix.org/remix/OCR01618"
+}

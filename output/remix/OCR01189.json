@@ -1,0 +1,22 @@
+{
+    "artists": [
+        {
+            "id": 4511,
+            "name": "SGX",
+            "url": "https://ocremix.org/artist/4511/sgx"
+        },
+        {
+            "id": 4611,
+            "name": "destructo",
+            "url": "https://ocremix.org/artist/4611/destructo"
+        },
+        {
+            "id": 4616,
+            "name": "Aurora",
+            "url": "https://ocremix.org/artist/4616/aurora"
+        }
+    ],
+    "primary_game": "Beyond Good & Evil",
+    "title": "Frame of Mind",
+    "url": "https://ocremix.org/remix/OCR01189"
+}

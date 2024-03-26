@@ -1,0 +1,32 @@
+{
+    "artists": [
+        {
+            "id": 4290,
+            "name": "posu yan",
+            "url": "https://ocremix.org/artist/4290/posu-yan"
+        },
+        {
+            "id": 4304,
+            "name": "Mustin",
+            "url": "https://ocremix.org/artist/4304/mustin"
+        },
+        {
+            "id": 4427,
+            "name": "Nate Cloud",
+            "url": "https://ocremix.org/artist/4427/nate-cloud"
+        },
+        {
+            "id": 4540,
+            "name": "JJT",
+            "url": "https://ocremix.org/artist/4540/jjt"
+        },
+        {
+            "id": 4558,
+            "name": "zykO",
+            "url": "https://ocremix.org/artist/4558/zyko"
+        }
+    ],
+    "primary_game": "Super Dodge Ball",
+    "title": "Murder Your Friends Boogie",
+    "url": "https://ocremix.org/remix/OCR01713"
+}

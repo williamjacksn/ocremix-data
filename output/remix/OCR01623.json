@@ -1,0 +1,42 @@
+{
+    "artists": [
+        {
+            "id": 4381,
+            "name": "Steffan Andrews",
+            "url": "https://ocremix.org/artist/4381/steffan-andrews"
+        },
+        {
+            "id": 4440,
+            "name": "bLiNd",
+            "url": "https://ocremix.org/artist/4440/blind"
+        },
+        {
+            "id": 4515,
+            "name": "Suzumebachi",
+            "url": "https://ocremix.org/artist/4515/suzumebachi"
+        },
+        {
+            "id": 4613,
+            "name": "tefnek",
+            "url": "https://ocremix.org/artist/4613/tefnek"
+        },
+        {
+            "id": 4659,
+            "name": "Jillian Aversa",
+            "url": "https://ocremix.org/artist/4659/jillian-aversa"
+        },
+        {
+            "id": 4685,
+            "name": "Juan Medrano",
+            "url": "https://ocremix.org/artist/4685/juan-medrano"
+        },
+        {
+            "id": 4754,
+            "name": "Fishy",
+            "url": "https://ocremix.org/artist/4754/fishy"
+        }
+    ],
+    "primary_game": "Final Fantasy VII",
+    "title": "Black Wing Metamorphosis",
+    "url": "https://ocremix.org/remix/OCR01623"
+}
