@@ -1,0 +1,27 @@
+{
+    "artists": [
+        {
+            "id": 4304,
+            "name": "Mustin",
+            "url": "https://ocremix.org/artist/4304/mustin"
+        },
+        {
+            "id": 4318,
+            "name": "Dale North",
+            "url": "https://ocremix.org/artist/4318/dale-north"
+        },
+        {
+            "id": 4427,
+            "name": "Nate Cloud",
+            "url": "https://ocremix.org/artist/4427/nate-cloud"
+        },
+        {
+            "id": 4430,
+            "name": "nyKad",
+            "url": "https://ocremix.org/artist/4430/nykad"
+        }
+    ],
+    "primary_game": "Mega Man 3",
+    "title": "Needles",
+    "url": "https://ocremix.org/remix/OCR00295"
+}

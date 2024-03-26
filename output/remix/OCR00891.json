@@ -1,0 +1,22 @@
+{
+    "artists": [
+        {
+            "id": 4283,
+            "name": "Children of the Monkey Machine",
+            "url": "https://ocremix.org/artist/4283/children-of-the-monkey-machine"
+        },
+        {
+            "id": 4288,
+            "name": "K. Praslowicz",
+            "url": "https://ocremix.org/artist/4288/k-praslowicz"
+        },
+        {
+            "id": 4331,
+            "name": "Beatdrop",
+            "url": "https://ocremix.org/artist/4331/beatdrop"
+        }
+    ],
+    "primary_game": "Super Metroid",
+    "title": "Brinstar (Dreams in Red)",
+    "url": "https://ocremix.org/remix/OCR00891"
+}
