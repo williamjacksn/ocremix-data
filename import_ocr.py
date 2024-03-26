@@ -24,8 +24,11 @@ def do_import(ocr_id: int):
 
     artists = parse_remix_artists(tree)
     write_artist_batch(cnx, artists)
-
     write_remix_artist(cnx, ocr_id, [a.get('id') for a in artists])
+
+    tags = parse_remix_tags(tree)
+    write_tag_batch(cnx, tags)
+    write_remix_tags(cnx, ocr_id, [t.get('id') for t in tags])
 
     common.write_data_and_close(cnx)
 
@@ -69,6 +72,21 @@ def parse_remix_primary_game(tree: lxml.html.HtmlElement) -> str:
     return tree.xpath('//h1/a')[0].text
 
 
+def parse_remix_tags(tree: lxml.html.HtmlElement) -> list[dict]:
+    result = []
+    for t in tree.xpath('//a[starts-with(@href, "/tag/")]'):
+        tag_url = f'https://ocremix.org{t.get("href")}'
+        tag_id = t.text
+        tag_title = t.get('title')
+        if tag_id and tag_title:
+            result.append({
+                'id': tag_id,
+                'path': tag_title.strip(),
+                'url': tag_url,
+            })
+    return result
+
+
 def parse_remix_title(tree: lxml.html.HtmlElement) -> str:
     return tree.xpath('//h1/a')[0].tail[2:-2]
 
@@ -100,6 +118,27 @@ def write_remix_artist(cnx: sqlite3.Connection, remix_id: int, artist_ids: list[
             'insert into remix_artist (remix_id, artist_id) values (:remix_id, :artist_id)',
             [{'remix_id': remix_id, 'artist_id': a} for a in artist_ids]
         )
+
+
+def write_remix_tags(cnx: sqlite3.Connection, remix_id: int, tag_ids: list[str]):
+    with cnx:
+        cnx.execute(
+            'delete from remix_tag where remix_id = :remix_id',
+            {'remix_id': remix_id}
+        )
+        cnx.executemany(
+            'insert into remix_tag (remix_id, tag_id) values (:remix_id, :tag_id)',
+            [{'remix_id': remix_id, 'tag_id': t} for t in tag_ids]
+        )
+
+
+def write_tag_batch(cnx: sqlite3.Connection, params: list[dict]):
+    sql = '''
+        insert into tag (id, path, url) values (:id, :path, :url)
+        on conflict (id) do update set path = excluded.path, url = excluded.url
+    '''
+    with cnx:
+        cnx.executemany(sql, params)
 
 
 if __name__ == "__main__":
