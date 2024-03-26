@@ -1,0 +1,47 @@
+{
+    "artists": [
+        {
+            "id": 15913,
+            "name": "Matheus Souza",
+            "url": "https://ocremix.org/artist/15913/matheus-souza"
+        },
+        {
+            "id": 16113,
+            "name": "DS",
+            "url": "https://ocremix.org/artist/16113/ds"
+        },
+        {
+            "id": 16119,
+            "name": "Lucas Guimaraes",
+            "url": "https://ocremix.org/artist/16119/lucas-guimaraes"
+        },
+        {
+            "id": 16848,
+            "name": "TSori",
+            "url": "https://ocremix.org/artist/16848/tsori"
+        },
+        {
+            "id": 16855,
+            "name": "Damian Nguyen",
+            "url": "https://ocremix.org/artist/16855/damian-nguyen"
+        },
+        {
+            "id": 17489,
+            "name": "Alejandro Espinosa",
+            "url": "https://ocremix.org/artist/17489/alejandro-espinosa"
+        },
+        {
+            "id": 17490,
+            "name": "Jake Kargl",
+            "url": "https://ocremix.org/artist/17490/jake-kargl"
+        },
+        {
+            "id": 17491,
+            "name": "Nathan Madsen",
+            "url": "https://ocremix.org/artist/17491/nathan-madsen"
+        }
+    ],
+    "primary_game": "Golden Sun",
+    "title": "Hope in 8",
+    "url": "https://ocremix.org/remix/OCR04211"
+}

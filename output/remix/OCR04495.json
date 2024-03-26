@@ -1,0 +1,27 @@
+{
+    "artists": [
+        {
+            "id": 13668,
+            "name": "Bluelighter",
+            "url": "https://ocremix.org/artist/13668/bluelighter"
+        },
+        {
+            "id": 15234,
+            "name": "Bowlerhat",
+            "url": "https://ocremix.org/artist/15234/bowlerhat"
+        },
+        {
+            "id": 16848,
+            "name": "TSori",
+            "url": "https://ocremix.org/artist/16848/tsori"
+        },
+        {
+            "id": 18034,
+            "name": "Dewey Newt",
+            "url": "https://ocremix.org/artist/18034/dewey-newt"
+        }
+    ],
+    "primary_game": "Final Fantasy VII",
+    "title": "The First Playing",
+    "url": "https://ocremix.org/remix/OCR04495"
+}

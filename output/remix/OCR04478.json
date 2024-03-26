@@ -1,0 +1,32 @@
+{
+    "artists": [
+        {
+            "id": 9690,
+            "name": "tibonev",
+            "url": "https://ocremix.org/artist/9690/tibonev"
+        },
+        {
+            "id": 16119,
+            "name": "Lucas Guimaraes",
+            "url": "https://ocremix.org/artist/16119/lucas-guimaraes"
+        },
+        {
+            "id": 16615,
+            "name": "Gamer of the Winds",
+            "url": "https://ocremix.org/artist/16615/gamer-of-the-winds"
+        },
+        {
+            "id": 16935,
+            "name": "StormSkuggan",
+            "url": "https://ocremix.org/artist/16935/stormskuggan"
+        },
+        {
+            "id": 17052,
+            "name": "GuitarSVD",
+            "url": "https://ocremix.org/artist/17052/guitarsvd"
+        }
+    ],
+    "primary_game": "Golden Sun",
+    "title": "Isaac's Only Shot",
+    "url": "https://ocremix.org/remix/OCR04478"
+}

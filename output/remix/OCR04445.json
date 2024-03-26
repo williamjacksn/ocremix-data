@@ -1,0 +1,27 @@
+{
+    "artists": [
+        {
+            "id": 16103,
+            "name": "Andrew Steffen",
+            "url": "https://ocremix.org/artist/16103/andrew-steffen"
+        },
+        {
+            "id": 16119,
+            "name": "Lucas Guimaraes",
+            "url": "https://ocremix.org/artist/16119/lucas-guimaraes"
+        },
+        {
+            "id": 17324,
+            "name": "Chromatic Apparatus",
+            "url": "https://ocremix.org/artist/17324/chromatic-apparatus"
+        },
+        {
+            "id": 18601,
+            "name": "Shea's Violin",
+            "url": "https://ocremix.org/artist/18601/sheas-violin"
+        }
+    ],
+    "primary_game": "Final Fantasy VIII",
+    "title": "Song of the Desperado",
+    "url": "https://ocremix.org/remix/OCR04445"
+}

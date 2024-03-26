@@ -1,0 +1,27 @@
+{
+    "artists": [
+        {
+            "id": 14461,
+            "name": "Jorito",
+            "url": "https://ocremix.org/artist/14461/jorito"
+        },
+        {
+            "id": 17063,
+            "name": "ImAFutureGuitarHero",
+            "url": "https://ocremix.org/artist/17063/imafutureguitarhero"
+        },
+        {
+            "id": 17482,
+            "name": "Fiddledo",
+            "url": "https://ocremix.org/artist/17482/fiddledo"
+        },
+        {
+            "id": 17483,
+            "name": "subversiveasset",
+            "url": "https://ocremix.org/artist/17483/subversiveasset"
+        }
+    ],
+    "primary_game": "Xenogears",
+    "title": "Dancing in the Sky",
+    "url": "https://ocremix.org/remix/OCR04345"
+}

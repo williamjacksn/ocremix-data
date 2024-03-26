@@ -1,0 +1,47 @@
+{
+    "artists": [
+        {
+            "id": 5036,
+            "name": "Fredrik H\u00e4th\u00e9n",
+            "url": "https://ocremix.org/artist/5036/fredrik-hathen"
+        },
+        {
+            "id": 5269,
+            "name": "Andrew Thompson",
+            "url": "https://ocremix.org/artist/5269/andrew-thompson"
+        },
+        {
+            "id": 15203,
+            "name": "Thennecan",
+            "url": "https://ocremix.org/artist/15203/thennecan"
+        },
+        {
+            "id": 15473,
+            "name": "JohnStacy",
+            "url": "https://ocremix.org/artist/15473/johnstacy"
+        },
+        {
+            "id": 16533,
+            "name": "Matheus Manente",
+            "url": "https://ocremix.org/artist/16533/matheus-manente"
+        },
+        {
+            "id": 16615,
+            "name": "Gamer of the Winds",
+            "url": "https://ocremix.org/artist/16615/gamer-of-the-winds"
+        },
+        {
+            "id": 18756,
+            "name": "Cradius",
+            "url": "https://ocremix.org/artist/18756/cradius"
+        },
+        {
+            "id": 18757,
+            "name": "Leo Miyata",
+            "url": "https://ocremix.org/artist/18757/leo-miyata"
+        }
+    ],
+    "primary_game": "Monster Hunter",
+    "title": "Heroes",
+    "url": "https://ocremix.org/remix/OCR04598"
+}

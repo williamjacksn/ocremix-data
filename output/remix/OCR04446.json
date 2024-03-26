@@ -1,0 +1,27 @@
+{
+    "artists": [
+        {
+            "id": 4685,
+            "name": "Juan Medrano",
+            "url": "https://ocremix.org/artist/4685/juan-medrano"
+        },
+        {
+            "id": 14461,
+            "name": "Jorito",
+            "url": "https://ocremix.org/artist/14461/jorito"
+        },
+        {
+            "id": 17241,
+            "name": "Sirenstar",
+            "url": "https://ocremix.org/artist/17241/sirenstar"
+        },
+        {
+            "id": 17324,
+            "name": "Chromatic Apparatus",
+            "url": "https://ocremix.org/artist/17324/chromatic-apparatus"
+        }
+    ],
+    "primary_game": "Final Fantasy VIII",
+    "title": "SeeDs of Pandora",
+    "url": "https://ocremix.org/remix/OCR04446"
+}

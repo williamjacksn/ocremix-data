@@ -1,0 +1,32 @@
+{
+    "artists": [
+        {
+            "id": 13667,
+            "name": "ZackParrish",
+            "url": "https://ocremix.org/artist/13667/zackparrish"
+        },
+        {
+            "id": 16119,
+            "name": "Lucas Guimaraes",
+            "url": "https://ocremix.org/artist/16119/lucas-guimaraes"
+        },
+        {
+            "id": 16850,
+            "name": "Darkflamewolf",
+            "url": "https://ocremix.org/artist/16850/darkflamewolf"
+        },
+        {
+            "id": 18602,
+            "name": "Treyt",
+            "url": "https://ocremix.org/artist/18602/treyt"
+        },
+        {
+            "id": 18606,
+            "name": "The Vodo\u00fa Queen",
+            "url": "https://ocremix.org/artist/18606/the-vodou-queen"
+        }
+    ],
+    "primary_game": "Final Fantasy VIII",
+    "title": "The Definition of Insanity",
+    "url": "https://ocremix.org/remix/OCR04459"
+}

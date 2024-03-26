@@ -1,0 +1,27 @@
+{
+    "artists": [
+        {
+            "id": 10690,
+            "name": "Emunator",
+            "url": "https://ocremix.org/artist/10690/emunator"
+        },
+        {
+            "id": 16119,
+            "name": "Lucas Guimaraes",
+            "url": "https://ocremix.org/artist/16119/lucas-guimaraes"
+        },
+        {
+            "id": 16615,
+            "name": "Gamer of the Winds",
+            "url": "https://ocremix.org/artist/16615/gamer-of-the-winds"
+        },
+        {
+            "id": 18601,
+            "name": "Shea's Violin",
+            "url": "https://ocremix.org/artist/18601/sheas-violin"
+        }
+    ],
+    "primary_game": "Super Metroid",
+    "title": "Binary Stars",
+    "url": "https://ocremix.org/remix/OCR04533"
+}

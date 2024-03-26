@@ -1,0 +1,32 @@
+{
+    "artists": [
+        {
+            "id": 4724,
+            "name": "DrumUltimA",
+            "url": "https://ocremix.org/artist/4724/drumultima"
+        },
+        {
+            "id": 15062,
+            "name": "Outset Initiative",
+            "url": "https://ocremix.org/artist/15062/outset-initiative"
+        },
+        {
+            "id": 16103,
+            "name": "Andrew Steffen",
+            "url": "https://ocremix.org/artist/16103/andrew-steffen"
+        },
+        {
+            "id": 18580,
+            "name": "Joshua Du Chene",
+            "url": "https://ocremix.org/artist/18580/joshua-du-chene"
+        },
+        {
+            "id": 18581,
+            "name": "Ryan Ike",
+            "url": "https://ocremix.org/artist/18581/ryan-ike"
+        }
+    ],
+    "primary_game": "Metroid Prime",
+    "title": "Gravity Suit",
+    "url": "https://ocremix.org/remix/OCR04392"
+}

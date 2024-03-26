@@ -1,0 +1,27 @@
+{
+    "artists": [
+        {
+            "id": 16118,
+            "name": "Sagnewshreds",
+            "url": "https://ocremix.org/artist/16118/sagnewshreds"
+        },
+        {
+            "id": 16526,
+            "name": "Katajun",
+            "url": "https://ocremix.org/artist/16526/katajun"
+        },
+        {
+            "id": 17582,
+            "name": "Trohnics",
+            "url": "https://ocremix.org/artist/17582/trohnics"
+        },
+        {
+            "id": 17583,
+            "name": "Manny",
+            "url": "https://ocremix.org/artist/17583/manny"
+        }
+    ],
+    "primary_game": "Power Drift",
+    "title": "Velocity: Fueled by Sake",
+    "url": "https://ocremix.org/remix/OCR04118"
+}

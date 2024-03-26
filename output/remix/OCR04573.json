@@ -1,0 +1,37 @@
+{
+    "artists": [
+        {
+            "id": 5269,
+            "name": "Andrew Thompson",
+            "url": "https://ocremix.org/artist/5269/andrew-thompson"
+        },
+        {
+            "id": 14461,
+            "name": "Jorito",
+            "url": "https://ocremix.org/artist/14461/jorito"
+        },
+        {
+            "id": 16533,
+            "name": "Matheus Manente",
+            "url": "https://ocremix.org/artist/16533/matheus-manente"
+        },
+        {
+            "id": 16615,
+            "name": "Gamer of the Winds",
+            "url": "https://ocremix.org/artist/16615/gamer-of-the-winds"
+        },
+        {
+            "id": 16844,
+            "name": "Earth Kid",
+            "url": "https://ocremix.org/artist/16844/earth-kid"
+        },
+        {
+            "id": 17473,
+            "name": "thebitterroost",
+            "url": "https://ocremix.org/artist/17473/thebitterroost"
+        }
+    ],
+    "primary_game": "Secret of Mana",
+    "title": "Meister der Magie",
+    "url": "https://ocremix.org/remix/OCR04573"
+}

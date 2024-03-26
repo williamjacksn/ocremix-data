@@ -1,0 +1,42 @@
+{
+    "artists": [
+        {
+            "id": 15473,
+            "name": "JohnStacy",
+            "url": "https://ocremix.org/artist/15473/johnstacy"
+        },
+        {
+            "id": 16113,
+            "name": "DS",
+            "url": "https://ocremix.org/artist/16113/ds"
+        },
+        {
+            "id": 16615,
+            "name": "Gamer of the Winds",
+            "url": "https://ocremix.org/artist/16615/gamer-of-the-winds"
+        },
+        {
+            "id": 17037,
+            "name": "Alex Hill",
+            "url": "https://ocremix.org/artist/17037/alex-hill"
+        },
+        {
+            "id": 17584,
+            "name": "Lea Baumert",
+            "url": "https://ocremix.org/artist/17584/lea-baumert"
+        },
+        {
+            "id": 17585,
+            "name": "Andrew Filipski",
+            "url": "https://ocremix.org/artist/17585/andrew-filipski"
+        },
+        {
+            "id": 17586,
+            "name": "slamb0b",
+            "url": "https://ocremix.org/artist/17586/slamb0b"
+        }
+    ],
+    "primary_game": "Super Mario Galaxy",
+    "title": "Zacatecas",
+    "url": "https://ocremix.org/remix/OCR04119"
+}

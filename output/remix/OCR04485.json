@@ -1,0 +1,32 @@
+{
+    "artists": [
+        {
+            "id": 16615,
+            "name": "Gamer of the Winds",
+            "url": "https://ocremix.org/artist/16615/gamer-of-the-winds"
+        },
+        {
+            "id": 18653,
+            "name": "TheManPF",
+            "url": "https://ocremix.org/artist/18653/themanpf"
+        },
+        {
+            "id": 18654,
+            "name": "Zach Chapman",
+            "url": "https://ocremix.org/artist/18654/zach-chapman"
+        },
+        {
+            "id": 18730,
+            "name": "DakotaCityRag",
+            "url": "https://ocremix.org/artist/18730/dakotacityrag"
+        },
+        {
+            "id": 18731,
+            "name": "Chocobao",
+            "url": "https://ocremix.org/artist/18731/chocobao"
+        }
+    ],
+    "primary_game": "Mega Man 2",
+    "title": "wily theme",
+    "url": "https://ocremix.org/remix/OCR04485"
+}

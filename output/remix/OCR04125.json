@@ -1,0 +1,42 @@
+{
+    "artists": [
+        {
+            "id": 14357,
+            "name": "Deedubs",
+            "url": "https://ocremix.org/artist/14357/deedubs"
+        },
+        {
+            "id": 15473,
+            "name": "JohnStacy",
+            "url": "https://ocremix.org/artist/15473/johnstacy"
+        },
+        {
+            "id": 16112,
+            "name": "SirCorn",
+            "url": "https://ocremix.org/artist/16112/sircorn"
+        },
+        {
+            "id": 16848,
+            "name": "TSori",
+            "url": "https://ocremix.org/artist/16848/tsori"
+        },
+        {
+            "id": 17037,
+            "name": "Alex Hill",
+            "url": "https://ocremix.org/artist/17037/alex-hill"
+        },
+        {
+            "id": 17038,
+            "name": "dannymusic",
+            "url": "https://ocremix.org/artist/17038/dannymusic"
+        },
+        {
+            "id": 17473,
+            "name": "thebitterroost",
+            "url": "https://ocremix.org/artist/17473/thebitterroost"
+        }
+    ],
+    "primary_game": "Golden Sun",
+    "title": "Streets of Tolbi",
+    "url": "https://ocremix.org/remix/OCR04125"
+}

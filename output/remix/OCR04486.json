@@ -1,0 +1,37 @@
+{
+    "artists": [
+        {
+            "id": 13045,
+            "name": "Ivan Hak\u0161tok",
+            "url": "https://ocremix.org/artist/13045/ivan-hakstok"
+        },
+        {
+            "id": 13500,
+            "name": "jnWake",
+            "url": "https://ocremix.org/artist/13500/jnwake"
+        },
+        {
+            "id": 15473,
+            "name": "JohnStacy",
+            "url": "https://ocremix.org/artist/15473/johnstacy"
+        },
+        {
+            "id": 18737,
+            "name": "Brandon Harnish",
+            "url": "https://ocremix.org/artist/18737/brandon-harnish"
+        },
+        {
+            "id": 18738,
+            "name": "AarekMG",
+            "url": "https://ocremix.org/artist/18738/aarekmg"
+        },
+        {
+            "id": 18739,
+            "name": "DeLuxDolemite",
+            "url": "https://ocremix.org/artist/18739/deluxdolemite"
+        }
+    ],
+    "primary_game": "Okami",
+    "title": "Waka Waka",
+    "url": "https://ocremix.org/remix/OCR04486"
+}

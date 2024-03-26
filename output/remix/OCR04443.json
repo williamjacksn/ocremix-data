@@ -1,0 +1,27 @@
+{
+    "artists": [
+        {
+            "id": 17324,
+            "name": "Chromatic Apparatus",
+            "url": "https://ocremix.org/artist/17324/chromatic-apparatus"
+        },
+        {
+            "id": 18601,
+            "name": "Shea's Violin",
+            "url": "https://ocremix.org/artist/18601/sheas-violin"
+        },
+        {
+            "id": 18621,
+            "name": "Flake",
+            "url": "https://ocremix.org/artist/18621/flake"
+        },
+        {
+            "id": 18623,
+            "name": "colorado weeks",
+            "url": "https://ocremix.org/artist/18623/colorado-weeks"
+        }
+    ],
+    "primary_game": "Final Fantasy VIII",
+    "title": "A Scar to Match",
+    "url": "https://ocremix.org/remix/OCR04443"
+}

@@ -1,0 +1,37 @@
+{
+    "artists": [
+        {
+            "id": 4558,
+            "name": "zykO",
+            "url": "https://ocremix.org/artist/4558/zyko"
+        },
+        {
+            "id": 4699,
+            "name": "ilp0",
+            "url": "https://ocremix.org/artist/4699/ilp0"
+        },
+        {
+            "id": 13045,
+            "name": "Ivan Hak\u0161tok",
+            "url": "https://ocremix.org/artist/13045/ivan-hakstok"
+        },
+        {
+            "id": 13500,
+            "name": "jnWake",
+            "url": "https://ocremix.org/artist/13500/jnwake"
+        },
+        {
+            "id": 14461,
+            "name": "Jorito",
+            "url": "https://ocremix.org/artist/14461/jorito"
+        },
+        {
+            "id": 15682,
+            "name": "Trev Wignall",
+            "url": "https://ocremix.org/artist/15682/trev-wignall"
+        }
+    ],
+    "primary_game": "Terranigma",
+    "title": "Brave New World",
+    "url": "https://ocremix.org/remix/OCR04084"
+}

@@ -1,0 +1,32 @@
+{
+    "artists": [
+        {
+            "id": 15201,
+            "name": "Charles Ritz",
+            "url": "https://ocremix.org/artist/15201/charles-ritz"
+        },
+        {
+            "id": 16119,
+            "name": "Lucas Guimaraes",
+            "url": "https://ocremix.org/artist/16119/lucas-guimaraes"
+        },
+        {
+            "id": 18706,
+            "name": "Jess Destramp",
+            "url": "https://ocremix.org/artist/18706/jess-destramp"
+        },
+        {
+            "id": 18707,
+            "name": "Thomas Kresge",
+            "url": "https://ocremix.org/artist/18707/thomas-kresge"
+        },
+        {
+            "id": 18708,
+            "name": "Daniel Caton",
+            "url": "https://ocremix.org/artist/18708/daniel-caton"
+        }
+    ],
+    "primary_game": "Final Fantasy Tactics",
+    "title": "A Chronicle of Ivalice",
+    "url": "https://ocremix.org/remix/OCR04606"
+}

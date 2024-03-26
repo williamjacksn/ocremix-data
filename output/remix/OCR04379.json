@@ -1,0 +1,42 @@
+{
+    "artists": [
+        {
+            "id": 14461,
+            "name": "Jorito",
+            "url": "https://ocremix.org/artist/14461/jorito"
+        },
+        {
+            "id": 15473,
+            "name": "JohnStacy",
+            "url": "https://ocremix.org/artist/15473/johnstacy"
+        },
+        {
+            "id": 15681,
+            "name": "JoyDreamer",
+            "url": "https://ocremix.org/artist/15681/joydreamer"
+        },
+        {
+            "id": 16533,
+            "name": "Matheus Manente",
+            "url": "https://ocremix.org/artist/16533/matheus-manente"
+        },
+        {
+            "id": 16615,
+            "name": "Gamer of the Winds",
+            "url": "https://ocremix.org/artist/16615/gamer-of-the-winds"
+        },
+        {
+            "id": 16853,
+            "name": "Ronin Op F",
+            "url": "https://ocremix.org/artist/16853/ronin-op-f"
+        },
+        {
+            "id": 16855,
+            "name": "Damian Nguyen",
+            "url": "https://ocremix.org/artist/16855/damian-nguyen"
+        }
+    ],
+    "primary_game": "Final Fantasy XIII",
+    "title": "Until Dawn",
+    "url": "https://ocremix.org/remix/OCR04379"
+}

@@ -1,0 +1,22 @@
+{
+    "artists": [
+        {
+            "id": 5182,
+            "name": "Stemage",
+            "url": "https://ocremix.org/artist/5182/stemage"
+        },
+        {
+            "id": 16119,
+            "name": "Lucas Guimaraes",
+            "url": "https://ocremix.org/artist/16119/lucas-guimaraes"
+        },
+        {
+            "id": 17063,
+            "name": "ImAFutureGuitarHero",
+            "url": "https://ocremix.org/artist/17063/imafutureguitarhero"
+        }
+    ],
+    "primary_game": "Secret of Mana",
+    "title": "Hallucinatory Province",
+    "url": "https://ocremix.org/remix/OCR04023"
+}

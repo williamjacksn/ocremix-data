@@ -1,0 +1,22 @@
+{
+    "artists": [
+        {
+            "id": 18387,
+            "name": "donut",
+            "url": "https://ocremix.org/artist/18387/donut"
+        },
+        {
+            "id": 18388,
+            "name": "Sean R. Hanson",
+            "url": "https://ocremix.org/artist/18388/sean-r-hanson"
+        },
+        {
+            "id": 18391,
+            "name": "Deckels",
+            "url": "https://ocremix.org/artist/18391/deckels"
+        }
+    ],
+    "primary_game": "Hollow Knight",
+    "title": "Mystic Mycology",
+    "url": "https://ocremix.org/remix/OCR04361"
+}

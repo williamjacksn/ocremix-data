@@ -1,0 +1,27 @@
+{
+    "artists": [
+        {
+            "id": 18594,
+            "name": "SableProvidence",
+            "url": "https://ocremix.org/artist/18594/sableprovidence"
+        },
+        {
+            "id": 18701,
+            "name": "Roph",
+            "url": "https://ocremix.org/artist/18701/roph"
+        },
+        {
+            "id": 18702,
+            "name": "Harpsibored",
+            "url": "https://ocremix.org/artist/18702/harpsibored"
+        },
+        {
+            "id": 18703,
+            "name": "Dawnaria",
+            "url": "https://ocremix.org/artist/18703/dawnaria"
+        }
+    ],
+    "primary_game": "Final Fantasy IX",
+    "title": "Save Your Valediction",
+    "url": "https://ocremix.org/remix/OCR04469"
+}

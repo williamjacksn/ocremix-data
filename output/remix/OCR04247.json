@@ -1,0 +1,22 @@
+{
+    "artists": [
+        {
+            "id": 4685,
+            "name": "Juan Medrano",
+            "url": "https://ocremix.org/artist/4685/juan-medrano"
+        },
+        {
+            "id": 14461,
+            "name": "Jorito",
+            "url": "https://ocremix.org/artist/14461/jorito"
+        },
+        {
+            "id": 16615,
+            "name": "Gamer of the Winds",
+            "url": "https://ocremix.org/artist/16615/gamer-of-the-winds"
+        }
+    ],
+    "primary_game": "Okami",
+    "title": "Hanagasumi",
+    "url": "https://ocremix.org/remix/OCR04247"
+}

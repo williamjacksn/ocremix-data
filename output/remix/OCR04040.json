@@ -1,0 +1,32 @@
+{
+    "artists": [
+        {
+            "id": 14461,
+            "name": "Jorito",
+            "url": "https://ocremix.org/artist/14461/jorito"
+        },
+        {
+            "id": 15058,
+            "name": "Manji",
+            "url": "https://ocremix.org/artist/15058/manji"
+        },
+        {
+            "id": 15681,
+            "name": "JoyDreamer",
+            "url": "https://ocremix.org/artist/15681/joydreamer"
+        },
+        {
+            "id": 17246,
+            "name": "Catie Williams",
+            "url": "https://ocremix.org/artist/17246/catie-williams"
+        },
+        {
+            "id": 17247,
+            "name": "Richard Spencer",
+            "url": "https://ocremix.org/artist/17247/richard-spencer"
+        }
+    ],
+    "primary_game": "Terranigma",
+    "title": "Mother Earth (Bound by Fate)",
+    "url": "https://ocremix.org/remix/OCR04040"
+}

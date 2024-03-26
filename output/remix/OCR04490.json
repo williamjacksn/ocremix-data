@@ -1,0 +1,32 @@
+{
+    "artists": [
+        {
+            "id": 16119,
+            "name": "Lucas Guimaraes",
+            "url": "https://ocremix.org/artist/16119/lucas-guimaraes"
+        },
+        {
+            "id": 17063,
+            "name": "ImAFutureGuitarHero",
+            "url": "https://ocremix.org/artist/17063/imafutureguitarhero"
+        },
+        {
+            "id": 18300,
+            "name": "Cory Johnson",
+            "url": "https://ocremix.org/artist/18300/cory-johnson"
+        },
+        {
+            "id": 18737,
+            "name": "Brandon Harnish",
+            "url": "https://ocremix.org/artist/18737/brandon-harnish"
+        },
+        {
+            "id": 18741,
+            "name": "ThisIsJayC",
+            "url": "https://ocremix.org/artist/18741/thisisjayc"
+        }
+    ],
+    "primary_game": "Chrono Trigger",
+    "title": "Tyrano's Stash",
+    "url": "https://ocremix.org/remix/OCR04490"
+}

@@ -1,0 +1,67 @@
+{
+    "artists": [
+        {
+            "id": 12540,
+            "name": "Chernabogue",
+            "url": "https://ocremix.org/artist/12540/chernabogue"
+        },
+        {
+            "id": 16615,
+            "name": "Gamer of the Winds",
+            "url": "https://ocremix.org/artist/16615/gamer-of-the-winds"
+        },
+        {
+            "id": 16848,
+            "name": "TSori",
+            "url": "https://ocremix.org/artist/16848/tsori"
+        },
+        {
+            "id": 17058,
+            "name": "Psamathes",
+            "url": "https://ocremix.org/artist/17058/psamathes"
+        },
+        {
+            "id": 17059,
+            "name": "jmabate",
+            "url": "https://ocremix.org/artist/17059/jmabate"
+        },
+        {
+            "id": 17324,
+            "name": "Chromatic Apparatus",
+            "url": "https://ocremix.org/artist/17324/chromatic-apparatus"
+        },
+        {
+            "id": 18034,
+            "name": "Dewey Newt",
+            "url": "https://ocremix.org/artist/18034/dewey-newt"
+        },
+        {
+            "id": 18335,
+            "name": "Soul in Sadness",
+            "url": "https://ocremix.org/artist/18335/soul-in-sadness"
+        },
+        {
+            "id": 18362,
+            "name": "Ian Martyn",
+            "url": "https://ocremix.org/artist/18362/ian-martyn"
+        },
+        {
+            "id": 18716,
+            "name": "Terminated Weasel",
+            "url": "https://ocremix.org/artist/18716/terminated-weasel"
+        },
+        {
+            "id": 18717,
+            "name": "Matt Berra",
+            "url": "https://ocremix.org/artist/18717/matt-berra"
+        },
+        {
+            "id": 18718,
+            "name": "ViolinGamer",
+            "url": "https://ocremix.org/artist/18718/violingamer"
+        }
+    ],
+    "primary_game": "Golden Axe",
+    "title": "A Golden Axe Journey",
+    "url": "https://ocremix.org/remix/OCR04512"
+}
