@@ -38,7 +38,7 @@ def cli_write_sqlite(args: argparse.Namespace):
 def do_import(ocr_id: int):
     print(f'Processing OCR{ocr_id:05}')
 
-    html = get_tree(ocr_id)
+    html = get_html(ocr_id)
     if html is None:
         return
 
@@ -94,7 +94,7 @@ def get_last_published_remix_id() -> int:
         return int(link_el.text.split('/')[4][3:])
 
 
-def get_tree(ocr_id: int) -> lxml.html.HtmlElement:
+def get_html(ocr_id: int) -> lxml.html.HtmlElement:
     url = f'https://ocremix.org/remix/OCR{ocr_id:05}'
     try:
         data = urllib.request.urlopen(url)
