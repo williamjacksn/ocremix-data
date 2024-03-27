@@ -1,5 +1,6 @@
 import argparse
 import json
+import lxml.etree
 import lxml.html
 import pathlib
 import sqlite3
@@ -9,6 +10,15 @@ import urllib.request
 
 def cli_import(args: argparse.Namespace):
     do_import(args.ocr_id)
+
+
+def cli_import_missing(args: argparse.Namespace):
+    cnx = get_cnx()
+    last_local_id = get_last_local_remix_id(cnx)
+    last_published_id = get_last_published_remix_id()
+    while last_local_id < last_published_id:
+        last_local_id += 1
+        do_import(last_local_id)
 
 
 def cli_json(args: argparse.Namespace):
@@ -64,6 +74,22 @@ def get_cnx() -> sqlite3.Connection:
         cnx.executescript(f.read())
     cnx.row_factory = sqlite3.Row
     return cnx
+
+
+def get_last_local_remix_id(cnx: sqlite3.Connection) -> int:
+    sql = 'select max(id) max_id from remix'
+    for row in cnx.execute(sql):
+        return row['max_id']
+    return 0
+
+
+def get_last_published_remix_id() -> int:
+    url = 'https://ocremix.org/feeds/ten20/'
+    data = urllib.request.urlopen(url)
+    tree = lxml.etree.parse(data)
+    for item_el in tree.iter('item'):
+        link_el = item_el.find('link')
+        return int(link_el.text.split('/')[4][3:])
 
 
 def get_tree(ocr_id: int) -> lxml.html.HtmlElement:
@@ -135,9 +161,12 @@ def parse_args() -> argparse.Namespace:
     ap = argparse.ArgumentParser(description='work with a local OC ReMix metadata database')
     sp = ap.add_subparsers(dest='command', required=True, title='Available commands')
 
-    ps_import = sp.add_parser('import', description='fetch data from ocremix.org and store it in the local database')
+    ps_import = sp.add_parser('import', description='fetch data for a single ReMix from ocremix.org and store n the local database')
     ps_import.add_argument('ocr_id', help='the numeric ID of the ReMix to fetch', type=int)
     ps_import.set_defaults(func=cli_import)
+
+    ps_import_missing = sp.add_parser('import-missing', description='fetch data for all missing ReMixes from ocremix.org and store in the local database')
+    ps_import_missing.set_defaults(func=cli_import_missing)
 
     ps_json = sp.add_parser('json', description='print the JSON representation of a ReMix')
     ps_json.add_argument('ocr_id', help='the numeric ID of the ReMix to print', type=int)
