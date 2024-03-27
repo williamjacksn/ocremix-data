@@ -5943,6 +5943,7 @@ INSERT INTO "remix" VALUES(4609,'Birth of Knowledge','Threads of Fate','2024-03-
 INSERT INTO "remix" VALUES(4610,'See Me Again','Valis III','2024-03-26T17:03:49.427465+00:00');
 INSERT INTO "remix" VALUES(4611,'Set the Stage on Fire','Final Fantasy VIII','2024-03-26T17:03:49.427465+00:00');
 INSERT INTO "remix" VALUES(4612,'Branching Out to Adventure','Ori and the Blind Forest','2024-03-27T12:15:13.841584+00:00');
+INSERT INTO "remix" VALUES(4613,'La Danza Macabra del Tren de los Muertos','Cuphead','2024-03-27T15:39:52.839491+00:00');
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null
