@@ -1518,6 +1518,7 @@ INSERT INTO "artist" VALUES(18792,'Dane Jacobs','https://ocremix.org/artist/1879
 INSERT INTO "artist" VALUES(18794,'Dagger_G','https://ocremix.org/artist/18794/dagger-g');
 INSERT INTO "artist" VALUES(18795,'Don_Bozzi','https://ocremix.org/artist/18795/don-bozzi');
 INSERT INTO "artist" VALUES(18804,'Niki Yaghmaee','https://ocremix.org/artist/18804/niki-yaghmaee');
+INSERT INTO "artist" VALUES(18805,'BadHairlineProductions','https://ocremix.org/artist/18805/badhairlineproductions');
 INSERT INTO "artist" VALUES(18812,'Aeroprism','https://ocremix.org/artist/18812/aeroprism');
 INSERT INTO "artist" VALUES(18814,'Chelsea McBride','https://ocremix.org/artist/18814/chelsea-mcbride');
 INSERT INTO "artist" VALUES(18815,'John Robert Matz','https://ocremix.org/artist/18815/john-robert-matz');
@@ -5941,6 +5942,8 @@ INSERT INTO "remix" VALUES(4608,'Compression of Light and Shadow','Final Fantasy
 INSERT INTO "remix" VALUES(4609,'Birth of Knowledge','Threads of Fate','2024-03-26T17:03:49.427465+00:00');
 INSERT INTO "remix" VALUES(4610,'See Me Again','Valis III','2024-03-26T17:03:49.427465+00:00');
 INSERT INTO "remix" VALUES(4611,'Set the Stage on Fire','Final Fantasy VIII','2024-03-26T17:03:49.427465+00:00');
+INSERT INTO "remix" VALUES(4612,'Branching Out to Adventure','Ori and the Blind Forest','2024-03-27T12:15:13.841584+00:00');
+INSERT INTO "remix" VALUES(4613,'La Danza Macabra del Tren de los Muertos','Cuphead','2024-03-27T12:15:14.383235+00:00');
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null
@@ -11689,6 +11692,13 @@ INSERT INTO "remix_artist" VALUES(4608,18403);
 INSERT INTO "remix_artist" VALUES(4609,14375);
 INSERT INTO "remix_artist" VALUES(4610,9690);
 INSERT INTO "remix_artist" VALUES(4611,13667);
+INSERT INTO "remix_artist" VALUES(4612,18708);
+INSERT INTO "remix_artist" VALUES(4612,18739);
+INSERT INTO "remix_artist" VALUES(4612,18601);
+INSERT INTO "remix_artist" VALUES(4613,18653);
+INSERT INTO "remix_artist" VALUES(4613,18805);
+INSERT INTO "remix_artist" VALUES(4613,17038);
+INSERT INTO "remix_artist" VALUES(4613,18362);
 CREATE TABLE remix_tag (
             remix_id integer not null,
             tag_id text not null
@@ -40459,6 +40469,26 @@ INSERT INTO "remix_tag" VALUES(4611,'synth');
 INSERT INTO "remix_tag" VALUES(4611,'suspenseful');
 INSERT INTO "remix_tag" VALUES(4611,'live-instruments');
 INSERT INTO "remix_tag" VALUES(4611,'timesig-4-4');
+INSERT INTO "remix_tag" VALUES(4612,'cinematic');
+INSERT INTO "remix_tag" VALUES(4612,'chromatic-percussion');
+INSERT INTO "remix_tag" VALUES(4612,'orchestral');
+INSERT INTO "remix_tag" VALUES(4612,'piano');
+INSERT INTO "remix_tag" VALUES(4612,'strings');
+INSERT INTO "remix_tag" VALUES(4612,'violin');
+INSERT INTO "remix_tag" VALUES(4612,'epic');
+INSERT INTO "remix_tag" VALUES(4612,'collab');
+INSERT INTO "remix_tag" VALUES(4612,'compo-dod');
+INSERT INTO "remix_tag" VALUES(4612,'timesig-4-4');
+INSERT INTO "remix_tag" VALUES(4613,'cinematic');
+INSERT INTO "remix_tag" VALUES(4613,'rock');
+INSERT INTO "remix_tag" VALUES(4613,'electric-guitar');
+INSERT INTO "remix_tag" VALUES(4613,'piano');
+INSERT INTO "remix_tag" VALUES(4613,'strings');
+INSERT INTO "remix_tag" VALUES(4613,'theremin');
+INSERT INTO "remix_tag" VALUES(4613,'energetic');
+INSERT INTO "remix_tag" VALUES(4613,'suspenseful');
+INSERT INTO "remix_tag" VALUES(4613,'collab');
+INSERT INTO "remix_tag" VALUES(4613,'timesig-4-4');
 CREATE TABLE tag (
             id text primary key,
             path text not null,
