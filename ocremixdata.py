@@ -1,4 +1,5 @@
 import argparse
+import datetime
 import json
 import lxml.etree
 import lxml.html
@@ -45,8 +46,9 @@ def do_import(ocr_id: int):
 
     remix_params = {
         'id': ocr_id,
-        'title': parse_remix_title(tree),
+        'import_datetime': datetime.datetime.now(tz=datetime.UTC).isoformat(),
         'primary_game': parse_remix_primary_game(tree),
+        'title': parse_remix_title(tree),
     }
     write_remix(cnx, remix_params)
 
@@ -235,8 +237,12 @@ def write_data_and_close(cnx: sqlite3.Connection):
 
 def write_remix(cnx: sqlite3.Connection, params: dict):
     sql = '''
-        insert into remix (id, title, primary_game) values (:id, :title, :primary_game)
-        on conflict (id) do update set title = excluded.title, primary_game = excluded.primary_game
+        insert into remix (
+            id, import_datetime, primary_game, title
+        ) values (
+            :id, :import_datetime, :primary_game, :title)
+        on conflict (id) do update set
+            import_datetime = excluded.import_datetime, primary_game = excluded.primary_game, title = excluded.title
     '''
     with cnx:
         cnx.execute(sql, params)
