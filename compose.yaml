@@ -1,4 +1,15 @@
 services:
+  import-missing:
+    entrypoint:
+      - /home/python/venv/bin/python
+      - /home/python/ocremix-data/ocremixdata.py
+      - import-missing
+    image: ghcr.io/williamjacksn/ocremix-data
+    init: true
+    volumes:
+      - ./:/home/python/ocremix-data
+    working_dir: /home/python/ocremix-data
+
   shell:
     entrypoint:
       - /bin/bash

@@ -1,0 +1,26 @@
+name: Import missing ReMix info
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  import-missing:
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: Check out
+        uses: actions/checkout@v3
+
+      - name: Import missing ReMix info
+        run: docker compose run --no-TTY --rm --user="$(id --user):$(id --group)" import-missing
+
+      - name: Commit and push if changes
+        run: |-
+          git config user.name "GitHub Actions"
+          git config user.email "actions@users.noreply.github.com"
+          git add --all
+          git commit --message="Import missing ReMix info" || exit 0
+          git push
