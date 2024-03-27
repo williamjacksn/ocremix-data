@@ -88,8 +88,8 @@ def get_last_local_remix_id(cnx: sqlite3.Connection) -> int:
 def get_last_published_remix_id() -> int:
     url = 'https://ocremix.org/feeds/ten20/'
     data = urllib.request.urlopen(url)
-    tree = lxml.etree.parse(data)
-    for item_el in tree.iter('item'):
+    xml = lxml.etree.parse(data)
+    for item_el in xml.iter('item'):
         link_el = item_el.find('link')
         return int(link_el.text.split('/')[4][3:])
 
