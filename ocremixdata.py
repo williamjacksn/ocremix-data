@@ -15,6 +15,15 @@ def cli_json(args: argparse.Namespace):
     do_json(args.ocr_id)
 
 
+def cli_write_sqlite(args: argparse.Namespace):
+    cnx = get_cnx()
+    target = sqlite3.connect(args.file.resolve())
+    with target:
+        cnx.backup(target)
+    target.close()
+    cnx.close()
+
+
 def do_import(ocr_id: int):
     print(f'Processing OCR{ocr_id:05}')
 
@@ -124,15 +133,19 @@ def main():
 
 def parse_args() -> argparse.Namespace:
     ap = argparse.ArgumentParser(description='work with a local OC ReMix metadata database')
-    sp = ap.add_subparsers(title='Available commands', dest='command', required=True)
+    sp = ap.add_subparsers(dest='command', required=True, title='Available commands')
 
     ps_import = sp.add_parser('import', description='fetch data from ocremix.org and store it in the local database')
-    ps_import.add_argument('ocr_id', type=int, help='the numeric ID of the ReMix to fetch')
+    ps_import.add_argument('ocr_id', help='the numeric ID of the ReMix to fetch', type=int)
     ps_import.set_defaults(func=cli_import)
 
     ps_json = sp.add_parser('json', description='print the JSON representation of a ReMix')
-    ps_json.add_argument('ocr_id', type=int, help='the numeric ID of the ReMix to print')
+    ps_json.add_argument('ocr_id', help='the numeric ID of the ReMix to print', type=int)
     ps_json.set_defaults(func=cli_json)
+
+    ps_write_sqlite = sp.add_parser('write-sqlite', description='write local data to a SQLite database file')
+    ps_write_sqlite.add_argument('file', default='ocremix-data.sqlite', help='name of file to write',type=pathlib.Path)
+    ps_write_sqlite.set_defaults(func=cli_write_sqlite)
 
     return ap.parse_args()
 
