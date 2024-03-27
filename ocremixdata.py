@@ -181,9 +181,9 @@ def parse_args() -> argparse.Namespace:
     return ap.parse_args()
 
 
-def parse_remix_artists(tree: lxml.html.HtmlElement) -> list[dict]:
+def parse_remix_artists(html: lxml.html.HtmlElement) -> list[dict]:
     result = []
-    for a in tree.xpath('//h2/a[starts-with(@href, "/artist")]'):
+    for a in html.xpath('//h2/a[starts-with(@href, "/artist")]'):
         artist_name = a.text.replace('\ufeff', '')
         artist_url = f'https://ocremix.org{a.get("href")}'
         artist_id = int(a.get('href').split('/')[2])
@@ -195,13 +195,13 @@ def parse_remix_artists(tree: lxml.html.HtmlElement) -> list[dict]:
     return result
 
 
-def parse_remix_primary_game(tree: lxml.html.HtmlElement) -> str:
-    return tree.xpath('//h1/a')[0].text
+def parse_remix_primary_game(html: lxml.html.HtmlElement) -> str:
+    return html.xpath('//h1/a')[0].text
 
 
-def parse_remix_tags(tree: lxml.html.HtmlElement) -> list[dict]:
+def parse_remix_tags(html: lxml.html.HtmlElement) -> list[dict]:
     result = []
-    for t in tree.xpath('//a[starts-with(@href, "/tag/")]'):
+    for t in html.xpath('//a[starts-with(@href, "/tag/")]'):
         tag_url = f'https://ocremix.org{t.get("href")}'
         tag_id = t.text
         tag_title = t.get('title')
@@ -214,8 +214,8 @@ def parse_remix_tags(tree: lxml.html.HtmlElement) -> list[dict]:
     return result
 
 
-def parse_remix_title(tree: lxml.html.HtmlElement) -> str:
-    return tree.xpath('//h1/a')[0].tail[2:-2]
+def parse_remix_title(html: lxml.html.HtmlElement) -> str:
+    return html.xpath('//h1/a')[0].tail[2:-2]
 
 
 def write_artist_batch(cnx: sqlite3.Connection, params: list[dict]):
