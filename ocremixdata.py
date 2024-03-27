@@ -38,8 +38,8 @@ def cli_write_sqlite(args: argparse.Namespace):
 def do_import(ocr_id: int):
     print(f'Processing OCR{ocr_id:05}')
 
-    tree = get_tree(ocr_id)
-    if tree is None:
+    html = get_tree(ocr_id)
+    if html is None:
         return
 
     cnx = get_cnx()
@@ -47,16 +47,16 @@ def do_import(ocr_id: int):
     remix_params = {
         'id': ocr_id,
         'import_datetime': datetime.datetime.now(tz=datetime.UTC).isoformat(),
-        'primary_game': parse_remix_primary_game(tree),
-        'title': parse_remix_title(tree),
+        'primary_game': parse_remix_primary_game(html),
+        'title': parse_remix_title(html),
     }
     write_remix(cnx, remix_params)
 
-    artists = parse_remix_artists(tree)
+    artists = parse_remix_artists(html)
     write_artist_batch(cnx, artists)
     write_remix_artist(cnx, ocr_id, [a.get('id') for a in artists])
 
-    tags = parse_remix_tags(tree)
+    tags = parse_remix_tags(html)
     write_tag_batch(cnx, tags)
     write_remix_tags(cnx, ocr_id, [t.get('id') for t in tags])
 
