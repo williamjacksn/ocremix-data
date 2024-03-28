@@ -26,6 +26,12 @@ def cli_json(args: argparse.Namespace):
     do_json(args.ocr_id)
 
 
+def cli_update(args: argparse.Namespace):
+    cnx = get_cnx()
+    for remix_id in get_remix_ids_first_imported(cnx, args.limit):
+        do_import(remix_id)
+
+
 def cli_write_sqlite(args: argparse.Namespace):
     cnx = get_cnx()
     target = sqlite3.connect(args.file.resolve())
@@ -104,6 +110,18 @@ def get_last_published_remix_id() -> int:
         return int(link_el.text.split('/')[4][3:])
 
 
+def get_remix_ids_first_imported(cnx: sqlite3.Connection, limit: int = 20) -> list[int]:
+    sql = '''
+        select id from remix
+        order by import_datetime
+        limit :limit
+    '''
+    params = {
+        'limit': limit,
+    }
+    return [row['id'] for row in cnx.execute(sql, params)]
+
+
 def get_remix_data(cnx: sqlite3.Connection, ocr_id: int) -> dict:
     result = {}
     artists = []
@@ -173,6 +191,10 @@ def parse_args() -> argparse.Namespace:
     ps_json = sp.add_parser('json', description='print the JSON representation of a ReMix')
     ps_json.add_argument('ocr_id', help='the numeric ID of the ReMix to print', type=int)
     ps_json.set_defaults(func=cli_json)
+
+    ps_update = sp.add_parser('update', description='check and update data for ReMixes imported the longest ago')
+    ps_update.add_argument('-l', '--limit', default='10', help='the number of ReMixes to check, default 10', type=int)
+    ps_update.set_defaults(func=cli_update)
 
     ps_write_sqlite = sp.add_parser('write-sqlite', description='write local data to a SQLite database file')
     ps_write_sqlite.add_argument('file', default='ocremix-data.sqlite', help='name of file to write', type=pathlib.Path)
