@@ -78,6 +78,16 @@ def get_cnx() -> sqlite3.Connection:
     return cnx
 
 
+def get_html(ocr_id: int) -> lxml.html.HtmlElement:
+    url = f'https://ocremix.org/remix/OCR{ocr_id:05}'
+    try:
+        data = urllib.request.urlopen(url)
+        page = data.read().decode()
+        return lxml.html.fromstring(page)
+    except urllib.error.HTTPError:
+        print(f'There was a problem reading {url}')
+
+
 def get_last_local_remix_id(cnx: sqlite3.Connection) -> int:
     sql = 'select max(id) max_id from remix'
     for row in cnx.execute(sql):
@@ -92,16 +102,6 @@ def get_last_published_remix_id() -> int:
     for item_el in xml.iter('item'):
         link_el = item_el.find('link')
         return int(link_el.text.split('/')[4][3:])
-
-
-def get_html(ocr_id: int) -> lxml.html.HtmlElement:
-    url = f'https://ocremix.org/remix/OCR{ocr_id:05}'
-    try:
-        data = urllib.request.urlopen(url)
-        page = data.read().decode()
-        return lxml.html.fromstring(page)
-    except urllib.error.HTTPError:
-        print(f'There was a problem reading {url}')
 
 
 def get_remix_data(cnx: sqlite3.Connection, ocr_id: int) -> dict:
@@ -175,7 +175,7 @@ def parse_args() -> argparse.Namespace:
     ps_json.set_defaults(func=cli_json)
 
     ps_write_sqlite = sp.add_parser('write-sqlite', description='write local data to a SQLite database file')
-    ps_write_sqlite.add_argument('file', default='ocremix-data.sqlite', help='name of file to write',type=pathlib.Path)
+    ps_write_sqlite.add_argument('file', default='ocremix-data.sqlite', help='name of file to write', type=pathlib.Path)
     ps_write_sqlite.set_defaults(func=cli_write_sqlite)
 
     return ap.parse_args()
