@@ -18,3 +18,16 @@ services:
     volumes:
       - ./:/home/python/ocremix-data
     working_dir: /home/python/ocremix-data
+
+  update:
+    entrypoint:
+      - /home/python/venv/bin/python
+      - /home/python/ocremix-data/ocremixdata.py
+      - update
+      - --limit
+      - '20'
+    image: ghcr.io/williamjacksn/ocremix-data
+    init: true
+    volumes:
+      - ./:/home/python/ocremix-data
+    working_dir: /home/python/ocremix-data
