@@ -5944,6 +5944,7 @@ INSERT INTO "remix" VALUES(4610,'See Me Again','Valis III','2024-03-26T17:03:49.
 INSERT INTO "remix" VALUES(4611,'Set the Stage on Fire','Final Fantasy VIII','2024-03-26T17:03:49.427465+00:00');
 INSERT INTO "remix" VALUES(4612,'Branching Out to Adventure','Ori and the Blind Forest','2024-03-27T12:15:13.841584+00:00');
 INSERT INTO "remix" VALUES(4613,'La Danza Macabra del Tren de los Muertos','Cuphead','2024-03-27T15:39:52.839491+00:00');
+INSERT INTO "remix" VALUES(4614,'Eternal Reverie','Finding Paradise','2024-03-29T00:40:04.816797+00:00');
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null
@@ -11699,6 +11700,7 @@ INSERT INTO "remix_artist" VALUES(358,4338);
 INSERT INTO "remix_artist" VALUES(360,4335);
 INSERT INTO "remix_artist" VALUES(361,4307);
 INSERT INTO "remix_artist" VALUES(362,4287);
+INSERT INTO "remix_artist" VALUES(4614,18608);
 CREATE TABLE remix_tag (
             remix_id integer not null,
             tag_id text not null
@@ -40489,6 +40491,11 @@ INSERT INTO "remix_tag" VALUES(362,'distortion');
 INSERT INTO "remix_tag" VALUES(362,'tempo-moderate');
 INSERT INTO "remix_tag" VALUES(362,'timesig-4-4');
 INSERT INTO "remix_tag" VALUES(362,'workout');
+INSERT INTO "remix_tag" VALUES(4614,'chamber');
+INSERT INTO "remix_tag" VALUES(4614,'piano');
+INSERT INTO "remix_tag" VALUES(4614,'solo-piano');
+INSERT INTO "remix_tag" VALUES(4614,'peaceful');
+INSERT INTO "remix_tag" VALUES(4614,'romantic');
 CREATE TABLE tag (
             id text primary key,
             path text not null,
