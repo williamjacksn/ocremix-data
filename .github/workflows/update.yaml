@@ -9,7 +9,8 @@ permissions:
   contents: write
 
 jobs:
-  import-missing:
+  update-remix-info:
+    name: Update ReMix info
     runs-on: ubuntu-latest
     steps:
 
