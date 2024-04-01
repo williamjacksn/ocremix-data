@@ -5946,6 +5946,8 @@ INSERT INTO "remix" VALUES(4612,'Branching Out to Adventure','Ori and the Blind 
 INSERT INTO "remix" VALUES(4613,'La Danza Macabra del Tren de los Muertos','Cuphead','2024-03-27T15:39:52.839491+00:00');
 INSERT INTO "remix" VALUES(4614,'Eternal Reverie','Finding Paradise','2024-03-29T00:40:04.816797+00:00');
 INSERT INTO "remix" VALUES(4615,'Scars Worn by Time','Chrono Cross','2024-03-31T00:44:52.575050+00:00');
+INSERT INTO "remix" VALUES(4616,'The Blue Bomber','Mega Man 3','2024-04-01T00:44:56.915276+00:00');
+INSERT INTO "remix" VALUES(4617,'The Oud, The Santoor, and The Sitar','Dungeonmans','2024-04-01T00:44:57.507399+00:00');
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null
@@ -11703,6 +11705,8 @@ INSERT INTO "remix_artist" VALUES(1792,4730);
 INSERT INTO "remix_artist" VALUES(1793,4311);
 INSERT INTO "remix_artist" VALUES(1794,4598);
 INSERT INTO "remix_artist" VALUES(1795,4729);
+INSERT INTO "remix_artist" VALUES(4616,12314);
+INSERT INTO "remix_artist" VALUES(4617,13147);
 CREATE TABLE remix_tag (
             remix_id integer not null,
             tag_id text not null
@@ -40509,6 +40513,21 @@ INSERT INTO "remix_tag" VALUES(1795,'rock');
 INSERT INTO "remix_tag" VALUES(1795,'electric-guitar');
 INSERT INTO "remix_tag" VALUES(1795,'synth');
 INSERT INTO "remix_tag" VALUES(1795,'resubmission');
+INSERT INTO "remix_tag" VALUES(4616,'dance');
+INSERT INTO "remix_tag" VALUES(4616,'edm');
+INSERT INTO "remix_tag" VALUES(4616,'electronic');
+INSERT INTO "remix_tag" VALUES(4616,'synth');
+INSERT INTO "remix_tag" VALUES(4616,'energetic');
+INSERT INTO "remix_tag" VALUES(4616,'timesig-4-4');
+INSERT INTO "remix_tag" VALUES(4617,'dubstep');
+INSERT INTO "remix_tag" VALUES(4617,'edm');
+INSERT INTO "remix_tag" VALUES(4617,'oud');
+INSERT INTO "remix_tag" VALUES(4617,'santur');
+INSERT INTO "remix_tag" VALUES(4617,'sitar');
+INSERT INTO "remix_tag" VALUES(4617,'synth');
+INSERT INTO "remix_tag" VALUES(4617,'dark');
+INSERT INTO "remix_tag" VALUES(4617,'energetic');
+INSERT INTO "remix_tag" VALUES(4617,'timesig-4-4');
 CREATE TABLE tag (
             id text primary key,
             path text not null,
