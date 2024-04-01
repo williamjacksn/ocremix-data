@@ -55,6 +55,7 @@ def do_import(ocr_id: int):
         'import_datetime': datetime.datetime.now(tz=datetime.UTC).isoformat(),
         'primary_game': parse_remix_primary_game(html),
         'title': parse_remix_title(html),
+        'youtube_url': parse_youtube_url(html),
     }
     write_remix(cnx, remix_params)
 
@@ -240,6 +241,11 @@ def parse_remix_title(html: lxml.html.HtmlElement) -> str:
     return html.xpath('//h1/a')[0].tail[2:-2]
 
 
+def parse_youtube_url(html: lxml.html.HtmlElement) -> str:
+    el = html.xpath('//a[starts-with(@data-preview, "https://www.youtube.com/watch?v=")]')[0]
+    return el.get('data-preview')
+
+
 def write_artist_batch(cnx: sqlite3.Connection, params: list[dict]):
     sql = '''
         insert into artist (id, name, url) values (:id, :name, :url)
@@ -260,11 +266,12 @@ def write_data_and_close(cnx: sqlite3.Connection):
 def write_remix(cnx: sqlite3.Connection, params: dict):
     sql = '''
         insert into remix (
-            id, import_datetime, primary_game, title
+            id, import_datetime, primary_game, title, youtube_url
         ) values (
-            :id, :import_datetime, :primary_game, :title)
+            :id, :import_datetime, :primary_game, :title, :youtube_url)
         on conflict (id) do update set
-            import_datetime = excluded.import_datetime, primary_game = excluded.primary_game, title = excluded.title
+            import_datetime = excluded.import_datetime, primary_game = excluded.primary_game, title = excluded.title,
+            youtube_url = excluded.youtube_url
     '''
     with cnx:
         cnx.execute(sql, params)
