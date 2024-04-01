@@ -10,6 +10,7 @@ permissions:
 
 jobs:
   import-missing:
+    name: Import missing ReMix info
     runs-on: ubuntu-latest
     steps:
 
