@@ -263,6 +263,7 @@ def write_artist_batch(cnx: sqlite3.Connection, params: list[dict]):
 
 
 def write_data_and_close(cnx: sqlite3.Connection):
+    cnx.row_factory = sqlite3.Row
     ocremix_data_sql = pathlib.Path('ocremix-data.sql').resolve()
     with ocremix_data_sql.open('w') as f:
         for line in cnx.iterdump():
