@@ -1,4 +1,5 @@
 import argparse
+import collections
 import datetime
 import json
 import lxml.etree
@@ -79,9 +80,9 @@ def do_json(ocr_id: int):
 def get_cnx() -> sqlite3.Connection:
     ocremix_data_sql = pathlib.Path('ocremix-data.sql').resolve()
     cnx = sqlite3.connect(':memory:')
+    cnx.row_factory = namedtuple_factory
     with ocremix_data_sql.open() as f:
         cnx.executescript(f.read())
-    cnx.row_factory = sqlite3.Row
     return cnx
 
 
@@ -98,7 +99,7 @@ def get_html(ocr_id: int) -> lxml.html.HtmlElement:
 def get_last_local_remix_id(cnx: sqlite3.Connection) -> int:
     sql = 'select max(id) max_id from remix'
     for row in cnx.execute(sql):
-        return row['max_id']
+        return row.max_id
     return 0
 
 
@@ -120,7 +121,7 @@ def get_remix_ids_first_imported(cnx: sqlite3.Connection, limit: int = 20) -> li
     params = {
         'limit': limit,
     }
-    return [row['id'] for row in cnx.execute(sql, params)]
+    return [row.id for row in cnx.execute(sql, params)]
 
 
 def get_remix_data(cnx: sqlite3.Connection, ocr_id: int) -> dict:
@@ -152,21 +153,21 @@ def get_remix_data(cnx: sqlite3.Connection, ocr_id: int) -> dict:
     with cnx:
         for row in cnx.execute(remix_sql, params):
             result = {
-                'primary_game': row['primary_game'],
-                'title': row['title'],
-                'url': f'https://ocremix.org/remix/OCR{row["id"]:05}',
+                'primary_game': row.primary_game,
+                'title': row.title,
+                'url': f'https://ocremix.org/remix/OCR{row.id:05}',
             }
         for row in cnx.execute(artists_sql, params):
             artists.append({
-                'id': row['id'],
-                'name': row['name'],
-                'url': row['url'],
+                'id': row.id,
+                'name': row.name,
+                'url': row.url,
             })
         for row in cnx.execute(tags_sql, params):
             tags.append({
-                'id': row['id'],
-                'path': row['path'],
-                'url': row['url'],
+                'id': row.id,
+                'path': row.path,
+                'url': row.url,
             })
     result['artists'] = artists
     result['tags'] = tags
@@ -176,6 +177,12 @@ def get_remix_data(cnx: sqlite3.Connection, ocr_id: int) -> dict:
 def main():
     args = parse_args()
     args.func(args)
+
+
+def namedtuple_factory(cursor: sqlite3.Cursor, row: tuple):
+    fields = [c[0] for c in cursor.description]
+    cls = collections.namedtuple('Row', fields)
+    return cls(*row)
 
 
 def parse_args() -> argparse.Namespace:
