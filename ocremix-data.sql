@@ -3,7 +3,7 @@ CREATE TABLE artist (
     id integer primary key,
     name text not null,
     url text not null
-);
+) strict;
 INSERT INTO "artist" VALUES(21,'Grant Kirkhope','https://ocremix.org/artist/21/grant-kirkhope');
 INSERT INTO "artist" VALUES(36,'Jake Kaufman','https://ocremix.org/artist/36/jake-kaufman');
 INSERT INTO "artist" VALUES(51,'Jeremy Soule','https://ocremix.org/artist/51/jeremy-soule');
@@ -1528,8 +1528,10 @@ INSERT INTO "artist" VALUES(18817,'Ordonis','https://ocremix.org/artist/18817/or
 CREATE TABLE remix (
     id integer primary key,
     title text not null,
-    primary_game text not null
-, import_datetime text, youtube_url text);
+    primary_game text not null,
+    import_datetime text,
+    youtube_url text
+) strict;
 INSERT INTO "remix" VALUES(1,'Shin Shuriken Jam','Shinobi','2024-03-28T12:10:55.855911+00:00',NULL);
 INSERT INTO "remix" VALUES(2,'Prehistoric Xmas','Bonk''s Adventure','2024-03-28T12:10:56.502788+00:00',NULL);
 INSERT INTO "remix" VALUES(3,'Dorsal Dub','Ecco the Dolphin','2024-03-28T12:10:57.109964+00:00',NULL);
@@ -5956,7 +5958,7 @@ INSERT INTO "remix" VALUES(4620,'bLEEps and BlooPs','Pong','2024-04-02T00:42:13.
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null
-);
+) strict;
 INSERT INTO "remix_artist" VALUES(2637,5655);
 INSERT INTO "remix_artist" VALUES(2638,12355);
 INSERT INTO "remix_artist" VALUES(2639,5748);
@@ -11718,9 +11720,9 @@ INSERT INTO "remix_artist" VALUES(2633,12708);
 INSERT INTO "remix_artist" VALUES(2634,4313);
 INSERT INTO "remix_artist" VALUES(2636,4347);
 CREATE TABLE remix_tag (
-            remix_id integer not null,
-            tag_id text not null
-        );
+    remix_id integer not null,
+    tag_id text not null
+) strict;
 INSERT INTO "remix_tag" VALUES(2637,'electronic');
 INSERT INTO "remix_tag" VALUES(2637,'synth');
 INSERT INTO "remix_tag" VALUES(2637,'aggressive');
@@ -40576,10 +40578,10 @@ INSERT INTO "remix_tag" VALUES(2636,'electric-guitar');
 INSERT INTO "remix_tag" VALUES(2636,'electric-piano');
 INSERT INTO "remix_tag" VALUES(2636,'mellow');
 CREATE TABLE tag (
-            id text primary key,
-            path text not null,
-            url text not null
-        );
+    id text primary key,
+    path text not null,
+    url text not null
+) strict;
 INSERT INTO "tag" VALUES('funk','Genre > R&B > Funk','https://ocremix.org/tag/funk');
 INSERT INTO "tag" VALUES('electronic','Instrumentation > Electronic','https://ocremix.org/tag/electronic');
 INSERT INTO "tag" VALUES('flute','Instrumentation > Flute','https://ocremix.org/tag/flute');
