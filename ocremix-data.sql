@@ -1525,6 +1525,7 @@ INSERT INTO "artist" VALUES(18812,'Aeroprism','https://ocremix.org/artist/18812/
 INSERT INTO "artist" VALUES(18814,'Chelsea McBride','https://ocremix.org/artist/18814/chelsea-mcbride');
 INSERT INTO "artist" VALUES(18815,'John Robert Matz','https://ocremix.org/artist/18815/john-robert-matz');
 INSERT INTO "artist" VALUES(18817,'Ordonis','https://ocremix.org/artist/18817/ordonis');
+INSERT INTO "artist" VALUES(18823,'SovRin','https://ocremix.org/artist/18823/sovrin');
 INSERT INTO "artist" VALUES(18824,'bash explode','https://ocremix.org/artist/18824/bash-explode');
 CREATE TABLE remix (
     id integer primary key,
@@ -5959,6 +5960,8 @@ INSERT INTO "remix" VALUES(4620,'bLEEps and BlooPs','Pong','2024-04-02T00:42:13.
 INSERT INTO "remix" VALUES(4621,'Great Fairy''s Tribulation','The Legend of Zelda: Ocarina of Time','2024-04-05T00:41:05.439468+00:00','https://www.youtube.com/watch?v=lbpebJtfM_E');
 INSERT INTO "remix" VALUES(4622,'Back to the Sea, Black to the Fire','Xenogears','2024-04-05T00:41:05.922758+00:00','https://www.youtube.com/watch?v=OnvBbnlFVEk');
 INSERT INTO "remix" VALUES(4623,'Vigorous Pace','VVVVVV','2024-04-06T00:39:40.733666+00:00','https://www.youtube.com/watch?v=eERYM3GkSm8');
+INSERT INTO "remix" VALUES(4624,'Find the Frozen Flame','Chrono Trigger','2024-04-08T00:41:53.689392+00:00','https://www.youtube.com/watch?v=4zVkrTKSaJQ');
+INSERT INTO "remix" VALUES(4625,'Electric','Monkey Island 2: LeChuck''s Revenge','2024-04-08T00:41:54.285895+00:00','https://www.youtube.com/watch?v=3KZoJDrZxXE');
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null
@@ -11726,6 +11729,8 @@ INSERT INTO "remix_artist" VALUES(572,4290);
 INSERT INTO "remix_artist" VALUES(573,4363);
 INSERT INTO "remix_artist" VALUES(574,4295);
 INSERT INTO "remix_artist" VALUES(575,4326);
+INSERT INTO "remix_artist" VALUES(4624,13045);
+INSERT INTO "remix_artist" VALUES(4625,18823);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null
@@ -40609,6 +40614,26 @@ INSERT INTO "remix_tag" VALUES(569,'duration-long');
 INSERT INTO "remix_tag" VALUES(571,'duration-short');
 INSERT INTO "remix_tag" VALUES(572,'duration-short');
 INSERT INTO "remix_tag" VALUES(574,'duration-short');
+INSERT INTO "remix_tag" VALUES(4624,'prog-rock');
+INSERT INTO "remix_tag" VALUES(4624,'brass');
+INSERT INTO "remix_tag" VALUES(4624,'choir');
+INSERT INTO "remix_tag" VALUES(4624,'electric-guitar');
+INSERT INTO "remix_tag" VALUES(4624,'orchestral');
+INSERT INTO "remix_tag" VALUES(4624,'synth');
+INSERT INTO "remix_tag" VALUES(4624,'woodwinds');
+INSERT INTO "remix_tag" VALUES(4624,'energetic');
+INSERT INTO "remix_tag" VALUES(4624,'epic');
+INSERT INTO "remix_tag" VALUES(4624,'compo-dod');
+INSERT INTO "remix_tag" VALUES(4624,'live-instruments');
+INSERT INTO "remix_tag" VALUES(4624,'medley');
+INSERT INTO "remix_tag" VALUES(4624,'timesig-variable');
+INSERT INTO "remix_tag" VALUES(4625,'dubstep');
+INSERT INTO "remix_tag" VALUES(4625,'edm');
+INSERT INTO "remix_tag" VALUES(4625,'chiptune');
+INSERT INTO "remix_tag" VALUES(4625,'strings');
+INSERT INTO "remix_tag" VALUES(4625,'synth');
+INSERT INTO "remix_tag" VALUES(4625,'energetic');
+INSERT INTO "remix_tag" VALUES(4625,'timesig-4-4');
 CREATE TABLE tag (
     id text primary key,
     path text not null,
