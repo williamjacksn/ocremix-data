@@ -5962,6 +5962,7 @@ INSERT INTO "remix" VALUES(4622,'Back to the Sea, Black to the Fire','Xenogears'
 INSERT INTO "remix" VALUES(4623,'Vigorous Pace','VVVVVV','2024-04-06T00:39:40.733666+00:00','https://www.youtube.com/watch?v=eERYM3GkSm8');
 INSERT INTO "remix" VALUES(4624,'Find the Frozen Flame','Chrono Trigger','2024-04-08T00:41:53.689392+00:00','https://www.youtube.com/watch?v=4zVkrTKSaJQ');
 INSERT INTO "remix" VALUES(4625,'Electric','Monkey Island 2: LeChuck''s Revenge','2024-04-08T00:41:54.285895+00:00','https://www.youtube.com/watch?v=3KZoJDrZxXE');
+INSERT INTO "remix" VALUES(4626,'Ghost Touch','Sonic & Knuckles','2024-04-09T00:40:59.857402+00:00','https://www.youtube.com/watch?v=ITYbpc00-l0');
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null
@@ -11731,6 +11732,7 @@ INSERT INTO "remix_artist" VALUES(1050,10693);
 INSERT INTO "remix_artist" VALUES(1050,4548);
 INSERT INTO "remix_artist" VALUES(1052,4324);
 INSERT INTO "remix_artist" VALUES(1052,4511);
+INSERT INTO "remix_artist" VALUES(4626,11494);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null
@@ -40634,6 +40636,14 @@ INSERT INTO "remix_tag" VALUES(1052,'vocals-female');
 INSERT INTO "remix_tag" VALUES(1052,'vocals-voice-acting');
 INSERT INTO "remix_tag" VALUES(1052,'collab');
 INSERT INTO "remix_tag" VALUES(1052,'lyrics-original');
+INSERT INTO "remix_tag" VALUES(4626,'edm');
+INSERT INTO "remix_tag" VALUES(4626,'electronic');
+INSERT INTO "remix_tag" VALUES(4626,'sound-fx');
+INSERT INTO "remix_tag" VALUES(4626,'synth');
+INSERT INTO "remix_tag" VALUES(4626,'vocals-male');
+INSERT INTO "remix_tag" VALUES(4626,'energetic');
+INSERT INTO "remix_tag" VALUES(4626,'lang-english');
+INSERT INTO "remix_tag" VALUES(4626,'timesig-4-4');
 CREATE TABLE tag (
     id text primary key,
     path text not null,
