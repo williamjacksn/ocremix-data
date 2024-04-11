@@ -5963,6 +5963,7 @@ INSERT INTO "remix" VALUES(4623,'Vigorous Pace','VVVVVV','2024-04-06T00:39:40.73
 INSERT INTO "remix" VALUES(4624,'Find the Frozen Flame','Chrono Trigger','2024-04-08T00:41:53.689392+00:00','https://www.youtube.com/watch?v=4zVkrTKSaJQ');
 INSERT INTO "remix" VALUES(4625,'Electric','Monkey Island 2: LeChuck''s Revenge','2024-04-08T00:41:54.285895+00:00','https://www.youtube.com/watch?v=3KZoJDrZxXE');
 INSERT INTO "remix" VALUES(4626,'Ghost Touch','Sonic & Knuckles','2024-04-09T00:40:59.857402+00:00','https://www.youtube.com/watch?v=ITYbpc00-l0');
+INSERT INTO "remix" VALUES(4627,'An Endless Sleep','Metroid Prime 3: Corruption','2024-04-11T00:41:16.322500+00:00','https://www.youtube.com/watch?v=nmgBEwKFoKw');
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null
@@ -11733,6 +11734,10 @@ INSERT INTO "remix_artist" VALUES(1973,4664);
 INSERT INTO "remix_artist" VALUES(1974,4594);
 INSERT INTO "remix_artist" VALUES(1975,5473);
 INSERT INTO "remix_artist" VALUES(1975,5474);
+INSERT INTO "remix_artist" VALUES(4627,13667);
+INSERT INTO "remix_artist" VALUES(4627,17324);
+INSERT INTO "remix_artist" VALUES(4627,18702);
+INSERT INTO "remix_artist" VALUES(4627,17058);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null
@@ -40644,6 +40649,16 @@ INSERT INTO "remix_tag" VALUES(1975,'singing');
 INSERT INTO "remix_tag" VALUES(1975,'vocals-male');
 INSERT INTO "remix_tag" VALUES(1975,'collab');
 INSERT INTO "remix_tag" VALUES(1975,'lyrics-existing');
+INSERT INTO "remix_tag" VALUES(4627,'cinematic');
+INSERT INTO "remix_tag" VALUES(4627,'cello');
+INSERT INTO "remix_tag" VALUES(4627,'harp');
+INSERT INTO "remix_tag" VALUES(4627,'orchestral');
+INSERT INTO "remix_tag" VALUES(4627,'piano');
+INSERT INTO "remix_tag" VALUES(4627,'vocals-female');
+INSERT INTO "remix_tag" VALUES(4627,'mystical');
+INSERT INTO "remix_tag" VALUES(4627,'collab');
+INSERT INTO "remix_tag" VALUES(4627,'live-instruments');
+INSERT INTO "remix_tag" VALUES(4627,'timesig-3-4');
 CREATE TABLE tag (
     id text primary key,
     path text not null,
