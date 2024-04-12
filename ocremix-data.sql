@@ -5964,6 +5964,7 @@ INSERT INTO "remix" VALUES(4624,'Find the Frozen Flame','Chrono Trigger','2024-0
 INSERT INTO "remix" VALUES(4625,'Electric','Monkey Island 2: LeChuck''s Revenge','2024-04-08T00:41:54.285895+00:00','https://www.youtube.com/watch?v=3KZoJDrZxXE');
 INSERT INTO "remix" VALUES(4626,'Ghost Touch','Sonic & Knuckles','2024-04-09T00:40:59.857402+00:00','https://www.youtube.com/watch?v=ITYbpc00-l0');
 INSERT INTO "remix" VALUES(4627,'An Endless Sleep','Metroid Prime 3: Corruption','2024-04-11T00:41:16.322500+00:00','https://www.youtube.com/watch?v=nmgBEwKFoKw');
+INSERT INTO "remix" VALUES(4628,'Truthful Symphony','Donkey Kong Country 2: Diddy''s Kong Quest','2024-04-12T00:44:55.568572+00:00','https://www.youtube.com/watch?v=Auv7V5SPRaE');
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null
@@ -11737,6 +11738,7 @@ INSERT INTO "remix_artist" VALUES(2438,4726);
 INSERT INTO "remix_artist" VALUES(2438,4729);
 INSERT INTO "remix_artist" VALUES(2439,5420);
 INSERT INTO "remix_artist" VALUES(2440,4685);
+INSERT INTO "remix_artist" VALUES(4628,16951);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null
@@ -40654,6 +40656,14 @@ INSERT INTO "remix_tag" VALUES(2440,'rock');
 INSERT INTO "remix_tag" VALUES(2440,'electric-guitar');
 INSERT INTO "remix_tag" VALUES(2440,'aggressive');
 INSERT INTO "remix_tag" VALUES(2440,'tempo-fast');
+INSERT INTO "remix_tag" VALUES(4628,'rock');
+INSERT INTO "remix_tag" VALUES(4628,'electric-guitar');
+INSERT INTO "remix_tag" VALUES(4628,'electronic');
+INSERT INTO "remix_tag" VALUES(4628,'saxophone');
+INSERT INTO "remix_tag" VALUES(4628,'synth');
+INSERT INTO "remix_tag" VALUES(4628,'energetic');
+INSERT INTO "remix_tag" VALUES(4628,'extended-soloing');
+INSERT INTO "remix_tag" VALUES(4628,'timesig-4-4');
 CREATE TABLE tag (
     id text primary key,
     path text not null,
