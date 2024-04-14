@@ -5966,6 +5966,7 @@ INSERT INTO "remix" VALUES(4626,'Ghost Touch','Sonic & Knuckles','2024-04-09T00:
 INSERT INTO "remix" VALUES(4627,'An Endless Sleep','Metroid Prime 3: Corruption','2024-04-11T00:41:16.322500+00:00','https://www.youtube.com/watch?v=nmgBEwKFoKw');
 INSERT INTO "remix" VALUES(4628,'Truthful Symphony','Donkey Kong Country 2: Diddy''s Kong Quest','2024-04-12T00:44:55.568572+00:00','https://www.youtube.com/watch?v=Auv7V5SPRaE');
 INSERT INTO "remix" VALUES(4629,'A Breath of Fresh Air','Mega Man 2','2024-04-13T00:34:48.284730+00:00','https://www.youtube.com/watch?v=z1TSDs0en8o');
+INSERT INTO "remix" VALUES(4630,'Antipyretic for Your Precipitous Apoplexy','Final Fantasy Tactics','2024-04-14T00:48:36.174361+00:00','https://www.youtube.com/watch?v=r8RfB75lhRE');
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null
@@ -11742,6 +11743,8 @@ INSERT INTO "remix_artist" VALUES(3443,4543);
 INSERT INTO "remix_artist" VALUES(3443,15320);
 INSERT INTO "remix_artist" VALUES(3443,5043);
 INSERT INTO "remix_artist" VALUES(3444,14734);
+INSERT INTO "remix_artist" VALUES(4630,13500);
+INSERT INTO "remix_artist" VALUES(4630,18724);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null
@@ -40675,6 +40678,19 @@ INSERT INTO "remix_tag" VALUES(3444,'dark');
 INSERT INTO "remix_tag" VALUES(3444,'energetic');
 INSERT INTO "remix_tag" VALUES(3444,'spooky');
 INSERT INTO "remix_tag" VALUES(3444,'glitching');
+INSERT INTO "remix_tag" VALUES(4630,'prog-rock');
+INSERT INTO "remix_tag" VALUES(4630,'brass');
+INSERT INTO "remix_tag" VALUES(4630,'electric-guitar');
+INSERT INTO "remix_tag" VALUES(4630,'orchestral');
+INSERT INTO "remix_tag" VALUES(4630,'piano');
+INSERT INTO "remix_tag" VALUES(4630,'strings');
+INSERT INTO "remix_tag" VALUES(4630,'synth');
+INSERT INTO "remix_tag" VALUES(4630,'violin');
+INSERT INTO "remix_tag" VALUES(4630,'energetic');
+INSERT INTO "remix_tag" VALUES(4630,'collab');
+INSERT INTO "remix_tag" VALUES(4630,'compo-dod');
+INSERT INTO "remix_tag" VALUES(4630,'extended-soloing');
+INSERT INTO "remix_tag" VALUES(4630,'live-instruments');
 CREATE TABLE tag (
     id text primary key,
     path text not null,
