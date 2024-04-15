@@ -175,6 +175,12 @@ def get_remix_data(cnx: sqlite3.Connection, ocr_id: int) -> dict:
     return result
 
 
+def get_remix_ids(cnx: sqlite3.Connection) -> list[int]:
+    sql = 'select id from remix order by id'
+    with cnx:
+        return [row.id for row in cnx.execute(sql)]
+
+
 def main():
     args = parse_args()
     args.func(args)
