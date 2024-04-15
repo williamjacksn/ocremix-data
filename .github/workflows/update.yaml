@@ -27,3 +27,6 @@ jobs:
           git add --all
           git commit --message="Update ReMix info" || exit 0
           git push
+
+      - name: Dispatch workflow to build pages
+        run: gh workflow run github-pages.yaml
