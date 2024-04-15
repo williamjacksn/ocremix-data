@@ -26,6 +26,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Build pages content
+        run: docker compose run --no-TTY --rm --user="$(id --user):$(id --group)" build-pages
+
       - name: Configure Pages
         uses: actions/configure-pages@v5
 
