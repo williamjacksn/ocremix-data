@@ -129,7 +129,7 @@ def get_remix_data(cnx: sqlite3.Connection, ocr_id: int) -> dict:
     artists = []
     tags = []
     remix_sql = '''
-        select id, title, primary_game
+        select id, title, primary_game, youtube_url
         from remix
         where id = :id
     '''
@@ -156,6 +156,7 @@ def get_remix_data(cnx: sqlite3.Connection, ocr_id: int) -> dict:
                 'primary_game': row.primary_game,
                 'title': row.title,
                 'url': f'https://ocremix.org/remix/OCR{row.id:05}',
+                'youtube_url': row.youtube_url,
             }
         for row in cnx.execute(artists_sql, params):
             artists.append({
