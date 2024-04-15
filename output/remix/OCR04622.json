@@ -1,0 +1,64 @@
+{
+    "artists": [
+        {
+            "id": 18403,
+            "name": "H36T",
+            "url": "https://ocremix.org/artist/18403/h36t"
+        }
+    ],
+    "primary_game": "Xenogears",
+    "tags": [
+        {
+            "id": "bells",
+            "path": "Instrumentation > Bells",
+            "url": "https://ocremix.org/tag/bells"
+        },
+        {
+            "id": "choir",
+            "path": "Instrumentation > Choir",
+            "url": "https://ocremix.org/tag/choir"
+        },
+        {
+            "id": "flute",
+            "path": "Instrumentation > Flute",
+            "url": "https://ocremix.org/tag/flute"
+        },
+        {
+            "id": "mystical",
+            "path": "Mood > Mystical",
+            "url": "https://ocremix.org/tag/mystical"
+        },
+        {
+            "id": "new-age",
+            "path": "Genre > Easy Listening > New Age",
+            "url": "https://ocremix.org/tag/new-age"
+        },
+        {
+            "id": "oboe",
+            "path": "Instrumentation > Oboe",
+            "url": "https://ocremix.org/tag/oboe"
+        },
+        {
+            "id": "resubmission",
+            "path": "Origin > Resubmission",
+            "url": "https://ocremix.org/tag/resubmission"
+        },
+        {
+            "id": "solemn",
+            "path": "Mood > Solemn",
+            "url": "https://ocremix.org/tag/solemn"
+        },
+        {
+            "id": "strings",
+            "path": "Instrumentation > Strings",
+            "url": "https://ocremix.org/tag/strings"
+        },
+        {
+            "id": "timesig-6-8",
+            "path": "Time > 6/8 Time Signature",
+            "url": "https://ocremix.org/tag/timesig-6-8"
+        }
+    ],
+    "title": "Back to the Sea, Black to the Fire",
+    "url": "https://ocremix.org/remix/OCR04622"
+}

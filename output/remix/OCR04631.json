@@ -1,0 +1,49 @@
+{
+    "artists": [
+        {
+            "id": 14375,
+            "name": "RebeccaETripp",
+            "url": "https://ocremix.org/artist/14375/rebeccaetripp"
+        }
+    ],
+    "primary_game": "The Legend of Zelda: Tears of the Kingdom",
+    "tags": [
+        {
+            "id": "ambient",
+            "path": "Genre > Easy Listening > Ambient",
+            "url": "https://ocremix.org/tag/ambient"
+        },
+        {
+            "id": "dark",
+            "path": "Mood > Dark",
+            "url": "https://ocremix.org/tag/dark"
+        },
+        {
+            "id": "mystical",
+            "path": "Mood > Mystical",
+            "url": "https://ocremix.org/tag/mystical"
+        },
+        {
+            "id": "new-age",
+            "path": "Genre > Easy Listening > New Age",
+            "url": "https://ocremix.org/tag/new-age"
+        },
+        {
+            "id": "spooky",
+            "path": "Mood > Spooky",
+            "url": "https://ocremix.org/tag/spooky"
+        },
+        {
+            "id": "strings",
+            "path": "Instrumentation > Strings",
+            "url": "https://ocremix.org/tag/strings"
+        },
+        {
+            "id": "synth",
+            "path": "Instrumentation > Synth",
+            "url": "https://ocremix.org/tag/synth"
+        }
+    ],
+    "title": "Sacred Core",
+    "url": "https://ocremix.org/remix/OCR04631"
+}

@@ -1,0 +1,59 @@
+{
+    "artists": [
+        {
+            "id": 18824,
+            "name": "bash explode",
+            "url": "https://ocremix.org/artist/18824/bash-explode"
+        }
+    ],
+    "primary_game": "The Legend of Zelda: Ocarina of Time",
+    "tags": [
+        {
+            "id": "dubstep",
+            "path": "Genre > EDM > Dubstep",
+            "url": "https://ocremix.org/tag/dubstep"
+        },
+        {
+            "id": "electronic",
+            "path": "Instrumentation > Electronic",
+            "url": "https://ocremix.org/tag/electronic"
+        },
+        {
+            "id": "energetic",
+            "path": "Mood > Energetic",
+            "url": "https://ocremix.org/tag/energetic"
+        },
+        {
+            "id": "glitching",
+            "path": "Effects > Glitching",
+            "url": "https://ocremix.org/tag/glitching"
+        },
+        {
+            "id": "ingame-fx",
+            "path": "Instrumentation > In-game FX",
+            "url": "https://ocremix.org/tag/ingame-fx"
+        },
+        {
+            "id": "synth",
+            "path": "Instrumentation > Synth",
+            "url": "https://ocremix.org/tag/synth"
+        },
+        {
+            "id": "timesig-4-4",
+            "path": "Time > 4/4 Time Signature",
+            "url": "https://ocremix.org/tag/timesig-4-4"
+        },
+        {
+            "id": "trip-hop",
+            "path": "Genre > Hip Hop > Trip Hop",
+            "url": "https://ocremix.org/tag/trip-hop"
+        },
+        {
+            "id": "trippy",
+            "path": "Mood > Trippy",
+            "url": "https://ocremix.org/tag/trippy"
+        }
+    ],
+    "title": "Great Fairy's Tribulation",
+    "url": "https://ocremix.org/remix/OCR04621"
+}

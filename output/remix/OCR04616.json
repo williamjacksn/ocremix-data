@@ -1,0 +1,44 @@
+{
+    "artists": [
+        {
+            "id": 12314,
+            "name": "PsyNES",
+            "url": "https://ocremix.org/artist/12314/psynes"
+        }
+    ],
+    "primary_game": "Mega Man 3",
+    "tags": [
+        {
+            "id": "dance",
+            "path": "Genre > EDM > Dance",
+            "url": "https://ocremix.org/tag/dance"
+        },
+        {
+            "id": "edm",
+            "path": "Genre > EDM",
+            "url": "https://ocremix.org/tag/edm"
+        },
+        {
+            "id": "electronic",
+            "path": "Instrumentation > Electronic",
+            "url": "https://ocremix.org/tag/electronic"
+        },
+        {
+            "id": "energetic",
+            "path": "Mood > Energetic",
+            "url": "https://ocremix.org/tag/energetic"
+        },
+        {
+            "id": "synth",
+            "path": "Instrumentation > Synth",
+            "url": "https://ocremix.org/tag/synth"
+        },
+        {
+            "id": "timesig-4-4",
+            "path": "Time > 4/4 Time Signature",
+            "url": "https://ocremix.org/tag/timesig-4-4"
+        }
+    ],
+    "title": "The Blue Bomber",
+    "url": "https://ocremix.org/remix/OCR04616"
+}
