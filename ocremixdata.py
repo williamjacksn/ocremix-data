@@ -153,6 +153,8 @@ def get_remix_data(cnx: sqlite3.Connection, ocr_id: int) -> dict:
     with cnx:
         for row in cnx.execute(remix_sql, params):
             result = {
+                'id': row.id,
+                'ocr_id': f'OCR{row.id:05}',
                 'primary_game': row.primary_game,
                 'title': row.title,
                 'url': f'https://ocremix.org/remix/OCR{row.id:05}',
