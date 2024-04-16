@@ -183,6 +183,47 @@ def get_remix_ids(cnx: sqlite3.Connection) -> list[int]:
         return [row.id for row in cnx.execute(sql)]
 
 
+def get_tag_data(cnx: sqlite3.Connection, tag_id: str) -> dict:
+    result = {}
+    remixes = []
+    tag_sql = 'select id, path, url from tag where id = :id'
+    remix_sql = '''
+        select r.id, r.title, r.primary_game, r.youtube_url
+        from tag t
+        join remix_tag rt on rt.tag_id = t.id
+        join remix r on r.id = rt.remix_id
+        where t.id = :id
+        order by r.id
+    '''
+    params = {
+        'id': tag_id,
+    }
+    with cnx:
+        for row in cnx.execute(tag_sql, params):
+            result = {
+                'id': row.id,
+                'path': row.path,
+                'url': row.url,
+            }
+        for row in cnx.execute(remix_sql, params):
+            remixes.append({
+                'id': row.id,
+                'ocr_id': f'OCR{row.id:05}',
+                'primary_game': row.primary_game,
+                'title': row.title,
+                'url': f'https://ocremix.org/remix/OCR{row.id:05}',
+                'youtube_url': row.youtube_url,
+            })
+    result['remixes'] = remixes
+    return result
+
+
+def get_tag_ids(cnx: sqlite3.Connection) -> list[str]:
+    sql = 'select id from tag order by id'
+    with cnx:
+        return [row.id for row in cnx.execute(sql)]
+
+
 def main():
     args = parse_args()
     args.func(args)
