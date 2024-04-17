@@ -1,6 +1,7 @@
 import json
 import ocremixdata
 import pathlib
+import sqlite3
 
 cnx = ocremixdata.get_cnx()
 
@@ -17,3 +18,9 @@ for tag_id in ocremixdata.get_tag_ids(cnx):
     with target.open('w') as f:
         print(f'writing to {target}')
         json.dump(ocremixdata.get_tag_data(cnx, tag_id), f, indent=4, sort_keys=True)
+
+target = sqlite3.connect(pathlib.Path('output/ocremix-data.db'))
+with target:
+    print(f'writing to {target}')
+    cnx.backup(target)
+target.close()
