@@ -2,7 +2,8 @@ services:
   build-pages:
     entrypoint:
       - /home/python/venv/bin/python
-      - /home/python/ocremix-data/build-pages.py
+      - /home/python/ocremix-data/ocremixdata.py
+      - build-pages
     image: ghcr.io/williamjacksn/ocremix-data
     init: true
     volumes:

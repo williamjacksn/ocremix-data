@@ -10,6 +10,28 @@ import urllib.error
 import urllib.request
 
 
+def cli_build_pages(args: argparse.Namespace):
+    cnx = get_cnx()
+
+    for ocr_id in get_remix_ids(cnx):
+        target = args.directory / f'remix/OCR{ocr_id:05}.json'
+        target.parent.mkdir(parents=True, exist_ok=True)
+        with target.open('w') as f:
+            print(f'writing to {target}')
+            json.dump(get_remix_data(cnx, ocr_id), f, indent=4, sort_keys=True)
+
+    for tag_id in get_tag_ids(cnx):
+        target = args.directory / f'tag/{tag_id}.json'
+        target.parent.mkdir(parents=True, exist_ok=True)
+        with target.open('w') as f:
+            print(f'writing to {target}')
+            json.dump(get_tag_data(cnx, tag_id), f, indent=4, sort_keys=True)
+
+    target = args.directory / 'ocremix-data.db'
+    print(f'writing to {target}')
+    do_write_sqlite(cnx, target)
+
+
 def cli_import(args: argparse.Namespace):
     do_import(args.ocr_id)
 
@@ -35,10 +57,7 @@ def cli_update(args: argparse.Namespace):
 
 def cli_write_sqlite(args: argparse.Namespace):
     cnx = get_cnx()
-    target = sqlite3.connect(args.file.resolve())
-    with target:
-        cnx.backup(target)
-    target.close()
+    do_write_sqlite(cnx, args.file)
     cnx.close()
 
 
@@ -75,6 +94,13 @@ def do_json(ocr_id: int):
     cnx = get_cnx()
     data = get_remix_data(cnx, ocr_id)
     print(json.dumps(data, indent=4, sort_keys=True))
+
+
+def do_write_sqlite(cnx: sqlite3.Connection, target: pathlib.Path):
+    target_cnx = sqlite3.connect(target)
+    with target_cnx:
+        cnx.backup(target_cnx)
+    target_cnx.close()
 
 
 def get_cnx() -> sqlite3.Connection:
@@ -239,7 +265,11 @@ def parse_args() -> argparse.Namespace:
     ap = argparse.ArgumentParser(description='work with a local OC ReMix metadata database')
     sp = ap.add_subparsers(dest='command', required=True, title='Available commands')
 
-    ps_import = sp.add_parser('import', description='fetch data for a single ReMix from ocremix.org and store n the local database')
+    ps_build = sp.add_parser('build-pages', description='build output JSON for all data')
+    ps_build.add_argument('-d', '--directory', default='output', help='output directory, default ./output', type=pathlib.Path)
+    ps_build.set_defaults(func=cli_build_pages)
+
+    ps_import = sp.add_parser('import', description='fetch data for a single ReMix from ocremix.org and store in the local database')
     ps_import.add_argument('ocr_id', help='the numeric ID of the ReMix to fetch', type=int)
     ps_import.set_defaults(func=cli_import)
 
