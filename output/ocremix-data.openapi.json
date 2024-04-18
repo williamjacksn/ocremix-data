@@ -36,7 +36,7 @@
         }
       }
     },
-    "/remix/{remixId}.json": {
+    "/remix/{remix_id}.json": {
       "get": {
         "tags": ["Endpoints"],
         "description": "Returns information about a single remix, including all associated artists and tags",
@@ -121,7 +121,7 @@
       },
       "parameters": [
         {
-          "name": "remixId",
+          "name": "remix_id",
           "in": "path",
           "description": "The remix ID",
           "required": true,
@@ -132,7 +132,7 @@
         }
       ]
     },
-    "/tag/{tagId}.json": {
+    "/tag/{tag_id}.json": {
       "get": {
         "tags": ["Endpoints"],
         "description": "Returns information about a single tag, including all associated remixes",
@@ -193,7 +193,7 @@
       },
       "parameters": [
         {
-          "name": "tagId",
+          "name": "tag_id",
           "in": "path",
           "description": "The tag ID",
           "required": true,
