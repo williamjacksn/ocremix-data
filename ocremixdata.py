@@ -70,10 +70,13 @@ def do_import(ocr_id: int):
 
     cnx = get_cnx()
 
+    primary_game = parse_remix_primary_game(html)
+    write_game(cnx, primary_game)
+
     remix_params = {
         'id': ocr_id,
         'import_datetime': datetime.datetime.now(tz=datetime.UTC).isoformat(),
-        'primary_game': parse_remix_primary_game(html),
+        'primary_game': primary_game.get('name'),
         'title': parse_remix_title(html),
         'youtube_url': parse_youtube_url(html),
     }
@@ -305,8 +308,17 @@ def parse_remix_artists(html: lxml.html.HtmlElement) -> list[dict]:
     return result
 
 
-def parse_remix_primary_game(html: lxml.html.HtmlElement) -> str:
-    return html.xpath('//h1/a')[0].text
+def parse_remix_primary_game(html: lxml.html.HtmlElement) -> dict:
+    el = html.xpath('//h1/a')[0]
+    game_name = el.text
+    href = el.get('href')
+    game_url = f'https://ocremix.org{href}'
+    game_id = int(href.split('/')[2])
+    return {
+        'id': game_id,
+        'name': game_name,
+        'url': game_url,
+    }
 
 
 def parse_remix_tags(html: lxml.html.HtmlElement) -> list[dict]:
@@ -349,6 +361,19 @@ def write_data_and_close(cnx: sqlite3.Connection):
         for line in cnx.iterdump():
             f.write(f'{line}\n')
     cnx.close()
+
+
+def write_game(cnx: sqlite3.Connection, params: dict):
+    sql = '''
+        insert into game (
+            id, name, url
+        ) values (
+            :id, :name, :url
+        ) on conflict (id) do update set
+            name = excluded.name, url = excluded.url
+    '''
+    with cnx:
+        cnx.execute(sql, params)
 
 
 def write_remix(cnx: sqlite3.Connection, params: dict):

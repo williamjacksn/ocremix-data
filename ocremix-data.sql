@@ -1528,6 +1528,12 @@ INSERT INTO "artist" VALUES(18817,'Ordonis','https://ocremix.org/artist/18817/or
 INSERT INTO "artist" VALUES(18819,'Michelle Dreyband','https://ocremix.org/artist/18819/michelle-dreyband');
 INSERT INTO "artist" VALUES(18823,'SovRin','https://ocremix.org/artist/18823/sovrin');
 INSERT INTO "artist" VALUES(18824,'bash explode','https://ocremix.org/artist/18824/bash-explode');
+CREATE TABLE game (
+    id integer primary key,
+    name text not null,
+    url text not null
+) strict;
+INSERT INTO "game" VALUES(81,'Shinobi','https://ocremix.org/game/81/shinobi-sms');
 CREATE TABLE remix (
     id integer primary key,
     title text not null,
