@@ -1,0 +1,180 @@
+{
+  "info": {
+    "title": "OverClocked ReMix Data",
+    "version": "2024.1"
+  },
+  "openapi": "3.1.0",
+  "paths": {
+    "/remix/{remixId}.json": {
+      "get": {
+        "description": "Returns information about a single remix, including all associated artists and tags",
+        "responses": {
+          "default": {
+            "description": "Information about a single remix",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "artists": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "id": {
+                            "type": "integer",
+                            "example": 4279
+                          },
+                          "name": {
+                            "type": "string",
+                            "example": "djpretzel"
+                          },
+                          "url": {
+                            "type": "string",
+                            "example": "https://ocremix.org/artist/4279/djpretzel"
+                          }
+                        }
+                      }
+                    },
+                    "id": {
+                      "type": "integer",
+                      "example": 1
+                    },
+                    "ocr_id": {
+                      "type": "string",
+                      "example": "OCR00001"
+                    },
+                    "primary_game": {
+                      "type": "string",
+                      "example": "Shinobi"
+                    },
+                    "tags": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "id": {
+                            "type": "string",
+                            "example": "electronic"
+                          },
+                          "path": {
+                            "type": "string",
+                            "example": "Instrumentation > Electronic"
+                          },
+                          "url": {
+                            "type": "string",
+                            "example": "https://ocremix.org/tag/electronic"
+                          }
+                        }
+                      }
+                    },
+                    "title": {
+                      "type": "string",
+                      "example": "Shin Shuriken Jam"
+                    },
+                    "url": {
+                      "type": "string",
+                      "example": "https://ocremix.org/remix/OCR00001"
+                    },
+                    "youtube_url": {
+                      "type": "string",
+                      "example": "https://www.youtube.com/watch?v=z4D7oqxWS4M"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "parameters": [
+        {
+          "name": "remixId",
+          "in": "path",
+          "description": "The remix ID",
+          "required": true,
+          "schema": {
+            "type": "string"
+          },
+          "example": "OCR00001"
+        }
+      ]
+    },
+    "/tag/{tagId}.json": {
+      "get": {
+        "description": "Returns information about a single tag, including all associated remixes",
+        "responses": {
+          "default": {
+            "description": "Information about a single tag",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string",
+                      "example": "electronic"
+                    },
+                    "path": {
+                      "type": "string",
+                      "example": "Instrumentation > Electronic"
+                    },
+                    "remixes": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "id": {
+                            "type": "integer",
+                            "example": 1
+                          },
+                          "ocr_id": {
+                            "type": "string",
+                            "example": "OCR00001"
+                          },
+                          "primary_game": {
+                            "type": "string",
+                            "example": "Shinobi"
+                          },
+                          "title": {
+                            "type": "string",
+                            "example": "Shin Shuriken Jam"
+                          },
+                          "url": {
+                            "type": "string",
+                            "example": "https://ocremix.org/remix/OCR00001"
+                          },
+                          "youtube_url": {
+                            "type": "string",
+                            "example": "https://www.youtube.com/watch?v=z4D7oqxWS4M"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "parameters": [
+        {
+          "name": "tagId",
+          "in": "path",
+          "description": "The tag ID",
+          "required": true,
+          "schema": {
+            "type": "string"
+          },
+          "example": "electronic"
+        }
+      ]
+    }
+  },
+  "servers": [
+    {
+      "url": "https://williamjacksn.github.io/ocremix-data"
+    }
+  ]
+}
