@@ -77,6 +77,7 @@ def do_import(ocr_id: int):
         'id': ocr_id,
         'import_datetime': datetime.datetime.now(tz=datetime.UTC).isoformat(),
         'primary_game': primary_game.get('name'),
+        'primary_game_id': primary_game.get('id'),
         'title': parse_remix_title(html),
         'youtube_url': parse_youtube_url(html),
     }
@@ -379,12 +380,12 @@ def write_game(cnx: sqlite3.Connection, params: dict):
 def write_remix(cnx: sqlite3.Connection, params: dict):
     sql = '''
         insert into remix (
-            id, import_datetime, primary_game, title, youtube_url
+            id, import_datetime, primary_game, primary_game_id, title, youtube_url
         ) values (
-            :id, :import_datetime, :primary_game, :title, :youtube_url)
+            :id, :import_datetime, :primary_game, :primary_game_id, :title, :youtube_url)
         on conflict (id) do update set
-            import_datetime = excluded.import_datetime, primary_game = excluded.primary_game, title = excluded.title,
-            youtube_url = excluded.youtube_url
+            import_datetime = excluded.import_datetime, primary_game = excluded.primary_game,
+            primary_game_id = excluded.primary_game_id, title = excluded.title, youtube_url = excluded.youtube_url
     '''
     with cnx:
         cnx.execute(sql, params)
