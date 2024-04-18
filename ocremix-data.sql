@@ -5971,6 +5971,7 @@ INSERT INTO "remix" VALUES(4630,'Antipyretic for Your Precipitous Apoplexy','Fin
 INSERT INTO "remix" VALUES(4631,'Sacred Core','The Legend of Zelda: Tears of the Kingdom','2024-04-15T03:08:35.262772+00:00','https://www.youtube.com/watch?v=mJxr484B7mU');
 INSERT INTO "remix" VALUES(4632,'Mega Jam Disco Network','Mega Man Battle Network','2024-04-15T20:54:13.280249+00:00','https://www.youtube.com/watch?v=yKmDtJZwrLo');
 INSERT INTO "remix" VALUES(4633,'The Lonely Lover','The Revenge of Shinobi','2024-04-15T20:54:13.799475+00:00','https://www.youtube.com/watch?v=3NPDewZcnX8');
+INSERT INTO "remix" VALUES(4634,'Mysterious Woods','The Legend of Zelda: Ocarina of Time','2024-04-18T00:40:30.764003+00:00','https://www.youtube.com/watch?v=ofEd6gvA9yw');
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null
@@ -11756,6 +11757,7 @@ INSERT INTO "remix_artist" VALUES(480,4286);
 INSERT INTO "remix_artist" VALUES(481,4401);
 INSERT INTO "remix_artist" VALUES(482,4288);
 INSERT INTO "remix_artist" VALUES(483,4300);
+INSERT INTO "remix_artist" VALUES(4634,17929);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null
@@ -40731,6 +40733,16 @@ INSERT INTO "remix_tag" VALUES(474,'winter-holiday');
 INSERT INTO "remix_tag" VALUES(476,'duration-short');
 INSERT INTO "remix_tag" VALUES(479,'duration-short');
 INSERT INTO "remix_tag" VALUES(483,'duration-short');
+INSERT INTO "remix_tag" VALUES(4634,'ambient');
+INSERT INTO "remix_tag" VALUES(4634,'cinematic');
+INSERT INTO "remix_tag" VALUES(4634,'electronic');
+INSERT INTO "remix_tag" VALUES(4634,'sound-fx');
+INSERT INTO "remix_tag" VALUES(4634,'strings');
+INSERT INTO "remix_tag" VALUES(4634,'synth');
+INSERT INTO "remix_tag" VALUES(4634,'dark');
+INSERT INTO "remix_tag" VALUES(4634,'mystical');
+INSERT INTO "remix_tag" VALUES(4634,'suspenseful');
+INSERT INTO "remix_tag" VALUES(4634,'medley');
 CREATE TABLE tag (
     id text primary key,
     path text not null,
