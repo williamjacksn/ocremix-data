@@ -1,24 +1,18 @@
 <html lang="en">
-<head><title>OC ReMix Data</title></head>
+<head>
+    <title>OverClocked ReMix Data</title>
+    <link rel="stylesheet" href="https://unpkg.com/swagger-ui-dist@5.11.0/swagger-ui.css">
+</head>
 <body>
-
-<h1>OC ReMix Data</h1>
-<p>
-    This project provides data about songs published by <a href="https://ocremix.org/">OverClocked ReMix</a>. The data
-    is available in JSON and SQLite format.
-</p>
-
-<h2>ReMix data</h2>
-<p>Example URL for data about a single ReMix:</p>
-<ul><li><code>https://williamjacksn.github.io/ocremix-data/remix/OCR00001.json</code></li></ul>
-
-<h2>Tag data</h2>
-<p>Example URL for data about a single tag:</p>
-<ul><li><code>https://williamjacksn.github.io/ocremix-data/tag/electronic.json</code></li></ul>
-
-<h2>SQLite</h2>
-<p>Download all data as a SQLite database from this url:</p>
-<ul><li><code><a href="https://williamjacksn.github.io/ocremix-data/ocremix-data.db">https://williamjacksn.github.io/ocremix-data/ocremix-data.db</a></code></li></ul>
-
+<div id="swagger-ui"></div>
+<script src="https://unpkg.com/swagger-ui-dist@5.11.0/swagger-ui-bundle.js" crossorigin></script>
+<script>
+    window.onload = () => {
+        window.ui = SwaggerUIBundle({
+            url: 'ocremix-data.openapi.json',
+            dom_id: '#swagger-ui'
+        });
+    };
+</script>
 </body>
 </html>

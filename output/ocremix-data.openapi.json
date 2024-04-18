@@ -1,15 +1,47 @@
 {
+  "openapi": "3.1.0",
   "info": {
     "title": "OverClocked ReMix Data",
+    "description": "This project provides data about remixes published by [OverClocked ReMix](https://ocremix.org/). The data is available in JSON and SQLite format.",
     "version": "2024.1"
   },
-  "openapi": "3.1.0",
+  "externalDocs": {
+    "description": "View the project on GitHUb",
+    "url": "https://github.com/williamjacksn/ocremix-data"
+  },
+  "tags": [
+    {
+      "name": "Endpoints",
+      "description": "All available API endpoints"
+    }
+  ],
   "paths": {
+    "/ocremix-data.db": {
+      "get": {
+        "tags": ["Endpoints"],
+        "description": "Returns all available data in a SQLite database file",
+        "responses": {
+          "200": {
+            "description": "A SQLite database file containing all available data",
+            "content": {
+              "application/octet-stream": {
+                "schema": {
+                  "type": "string",
+                  "format": "binary",
+                  "example": "<a sqlite database file>"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/remix/{remixId}.json": {
       "get": {
+        "tags": ["Endpoints"],
         "description": "Returns information about a single remix, including all associated artists and tags",
         "responses": {
-          "default": {
+          "200": {
             "description": "Information about a single remix",
             "content": {
               "application/json": {
@@ -102,9 +134,10 @@
     },
     "/tag/{tagId}.json": {
       "get": {
+        "tags": ["Endpoints"],
         "description": "Returns information about a single tag, including all associated remixes",
         "responses": {
-          "default": {
+          "200": {
             "description": "Information about a single tag",
             "content": {
               "application/json": {
