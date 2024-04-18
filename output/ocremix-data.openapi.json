@@ -28,7 +28,7 @@
                 "schema": {
                   "type": "string",
                   "format": "binary",
-                  "example": "<a sqlite database file>"
+                  "example": "[a sqlite database file]"
                 }
               }
             }
