@@ -1557,6 +1557,7 @@ INSERT INTO "game" VALUES(31,'Arkanoid','https://ocremix.org/game/31/arkanoid-c6
 INSERT INTO "game" VALUES(47,'Donkey Kong Country','https://ocremix.org/game/47/donkey-kong-country-snes');
 INSERT INTO "game" VALUES(48,'Donkey Kong Country 2: Diddy''s Kong Quest','https://ocremix.org/game/48/donkey-kong-country-2-diddys-kong-quest-snes');
 INSERT INTO "game" VALUES(49,'Dragon Warrior','https://ocremix.org/game/49/dragon-warrior-nes');
+INSERT INTO "game" VALUES(50,'DuckTales','https://ocremix.org/game/50/ducktales-nes');
 INSERT INTO "game" VALUES(51,'EarthBound','https://ocremix.org/game/51/earthbound-snes');
 INSERT INTO "game" VALUES(53,'Radical Dreamers: Nusumenai Houseki','https://ocremix.org/game/53/radical-dreamers-nusumenai-houseki-snes');
 INSERT INTO "game" VALUES(54,'Street Fighter II: The World Warrior','https://ocremix.org/game/54/street-fighter-ii-the-world-warrior-arc');
@@ -1586,6 +1587,7 @@ INSERT INTO "game" VALUES(98,'Super Mario World','https://ocremix.org/game/98/su
 INSERT INTO "game" VALUES(102,'Wizards & Warriors','https://ocremix.org/game/102/wizards-and-warriors-nes');
 INSERT INTO "game" VALUES(105,'Castlevania: Symphony of the Night','https://ocremix.org/game/105/castlevania-symphony-of-the-night-ps1');
 INSERT INTO "game" VALUES(115,'Final Fantasy Adventure','https://ocremix.org/game/115/final-fantasy-adventure-gb');
+INSERT INTO "game" VALUES(121,'Kid Icarus','https://ocremix.org/game/121/kid-icarus-nes');
 INSERT INTO "game" VALUES(125,'Maniac Mansion','https://ocremix.org/game/125/maniac-mansion-nes');
 INSERT INTO "game" VALUES(128,'Star Fox','https://ocremix.org/game/128/star-fox-snes');
 INSERT INTO "game" VALUES(134,'Ninja Gaiden','https://ocremix.org/game/134/ninja-gaiden-nes');
@@ -1622,6 +1624,7 @@ INSERT INTO "game" VALUES(270,'Metal Gear Solid 2: Sons of Liberty','https://ocr
 INSERT INTO "game" VALUES(279,'Final Fantasy Tactics','https://ocremix.org/game/279/final-fantasy-tactics-ps1');
 INSERT INTO "game" VALUES(280,'Castlevania III: Dracula''s Curse','https://ocremix.org/game/280/castlevania-iii-draculas-curse-nes');
 INSERT INTO "game" VALUES(283,'Star Ocean: The Second Story','https://ocremix.org/game/283/star-ocean-the-second-story-ps1');
+INSERT INTO "game" VALUES(286,'Marble Madness','https://ocremix.org/game/286/marble-madness-nes');
 INSERT INTO "game" VALUES(288,'Magical Drop III','https://ocremix.org/game/288/magical-drop-iii-ng');
 INSERT INTO "game" VALUES(291,'Castlevania: Circle of the Moon','https://ocremix.org/game/291/castlevania-circle-of-the-moon-gba');
 INSERT INTO "game" VALUES(295,'Hang-On','https://ocremix.org/game/295/hang-on-sms');
@@ -1696,6 +1699,7 @@ INSERT INTO "game" VALUES(374,'The Last Ninja','https://ocremix.org/game/374/las
 INSERT INTO "game" VALUES(375,'Hitman: Codename 47','https://ocremix.org/game/375/hitman-codename-47-win');
 INSERT INTO "game" VALUES(376,'Star Ocean','https://ocremix.org/game/376/star-ocean-snes');
 INSERT INTO "game" VALUES(377,'The Legend of Zelda: The Wind Waker','https://ocremix.org/game/377/legend-of-zelda-the-wind-waker-gcn');
+INSERT INTO "game" VALUES(378,'Darius','https://ocremix.org/game/378/darius-arc');
 INSERT INTO "game" VALUES(472,'Super Street Fighter II Turbo','https://ocremix.org/game/472/super-street-fighter-ii-turbo-arc');
 INSERT INTO "game" VALUES(482,'Metroid Prime 2: Echoes','https://ocremix.org/game/482/metroid-prime-2-echoes-gcn');
 INSERT INTO "game" VALUES(510,'Tetris','https://ocremix.org/game/510/tetris-gb');
@@ -1704,6 +1708,7 @@ INSERT INTO "game" VALUES(841,'Doom II: Hell on Earth','https://ocremix.org/game
 INSERT INTO "game" VALUES(958,'King''s Quest V: Absence Makes the Heart Go Yonder','https://ocremix.org/game/958/kings-quest-v-absence-makes-the-heart-go-yonder-dos');
 INSERT INTO "game" VALUES(959,'Double Dragon','https://ocremix.org/game/959/double-dragon-arc');
 INSERT INTO "game" VALUES(3137,'Turok: Dinosaur Hunter','https://ocremix.org/game/3137/turok-dinosaur-hunter-n64');
+INSERT INTO "game" VALUES(14512,'Doom','https://ocremix.org/game/14512/doom-dos');
 CREATE TABLE remix (
     id integer primary key,
     title text not null,
@@ -2676,26 +2681,26 @@ INSERT INTO "remix" VALUES(1081,'Anthem of Exile','Final Fantasy VI','2024-04-19
 INSERT INTO "remix" VALUES(1082,'Thunderous Dawn','Raiden Trad','2024-04-19T06:38:09.907545+00:00','https://www.youtube.com/watch?v=K0iFDN9S3sI',323);
 INSERT INTO "remix" VALUES(1083,'Space Cowboys','Star Fox','2024-04-19T06:38:10.661127+00:00','https://www.youtube.com/watch?v=kJgoeirlBx4',128);
 INSERT INTO "remix" VALUES(1084,'Pure Lands (Total Darkness)','Secret of Mana','2024-04-19T06:38:11.408998+00:00','https://www.youtube.com/watch?v=cpF4c2mt1Ps',61);
-INSERT INTO "remix" VALUES(1085,'Magnet Man Goes West','Mega Man 3','2024-04-09T02:37:04.986578+00:00','https://www.youtube.com/watch?v=Jwo9tJUnBi8',NULL);
-INSERT INTO "remix" VALUES(1086,'Secret Seashells','The Legend of Zelda: Link''s Awakening','2024-04-09T02:37:05.527976+00:00','https://www.youtube.com/watch?v=7rVpcHnvEpY',NULL);
-INSERT INTO "remix" VALUES(1087,'Lava Reef Zone (Las Trompetas Maravillosas Mix)','Sonic & Knuckles','2024-04-09T02:37:06.019793+00:00','https://www.youtube.com/watch?v=ssrMdJtdBFQ',NULL);
-INSERT INTO "remix" VALUES(1088,'Megalo Kid March','Kid Icarus','2024-04-09T02:37:06.545005+00:00','https://www.youtube.com/watch?v=AdYL0qsA70Y',NULL);
-INSERT INTO "remix" VALUES(1089,'Snow Motion','Sonic the Hedgehog 3','2024-04-09T02:37:07.225393+00:00','https://www.youtube.com/watch?v=3U_ForGzQj4',NULL);
-INSERT INTO "remix" VALUES(1091,'Funky Bookas','EarthBound','2024-04-09T02:37:07.749450+00:00','https://www.youtube.com/watch?v=LXhsD8Z4_WU',NULL);
-INSERT INTO "remix" VALUES(1092,'Electric Clouds','Chrono Trigger','2024-04-09T02:37:08.265020+00:00','https://www.youtube.com/watch?v=MAfV3zaLS1A',NULL);
-INSERT INTO "remix" VALUES(1093,'His First Good Deed','Breath of Fire','2024-04-09T02:37:08.786282+00:00','https://www.youtube.com/watch?v=6X2tYKkYsfE',NULL);
-INSERT INTO "remix" VALUES(1094,'Silent Ascent','Perfect Dark','2024-04-09T02:37:09.246730+00:00','https://www.youtube.com/watch?v=nGLcCS9mViQ',NULL);
-INSERT INTO "remix" VALUES(1095,'Blue Skies over Guardia','Chrono Trigger','2024-04-09T03:36:41.531124+00:00','https://www.youtube.com/watch?v=1e1jmur2PWA',NULL);
-INSERT INTO "remix" VALUES(1096,'Moondust','DuckTales','2024-04-09T03:36:42.177253+00:00','https://www.youtube.com/watch?v=Gblg9txAtAA',NULL);
-INSERT INTO "remix" VALUES(1097,'Umaro Uematsu','Final Fantasy VI','2024-04-09T03:36:42.798252+00:00','https://www.youtube.com/watch?v=N6kMwDWSNBs',NULL);
-INSERT INTO "remix" VALUES(1098,'demonik elektronik','Doom','2024-04-09T03:36:43.450955+00:00','https://www.youtube.com/watch?v=3CusTxjJR1c',NULL);
-INSERT INTO "remix" VALUES(1099,'Tears for a Girl','Chrono Trigger','2024-04-09T03:36:44.154779+00:00','https://www.youtube.com/watch?v=VYEIDzaYPsQ',NULL);
-INSERT INTO "remix" VALUES(1100,'Internal Affliction','Final Fantasy VII','2024-04-09T03:36:44.849034+00:00','https://www.youtube.com/watch?v=8NJBzm9FbIU',NULL);
-INSERT INTO "remix" VALUES(1102,'Marble Dancefloor','Marble Madness','2024-04-09T03:36:45.505991+00:00','https://www.youtube.com/watch?v=E9cjTySuX_4',NULL);
-INSERT INTO "remix" VALUES(1103,'Within the Fable','Seiken Densetsu 3','2024-04-09T03:36:46.206733+00:00','https://www.youtube.com/watch?v=dmKAq_OXFPk',NULL);
-INSERT INTO "remix" VALUES(1104,'Nanaki Searches for Truth','Final Fantasy VII','2024-04-09T03:36:46.732125+00:00','https://www.youtube.com/watch?v=nEJ3-uA-9G8',NULL);
-INSERT INTO "remix" VALUES(1105,'Tickle My Wily','Mega Man 2','2024-04-09T03:36:47.265348+00:00','https://www.youtube.com/watch?v=CQE4ZjzCNEg',NULL);
-INSERT INTO "remix" VALUES(1106,'Silver Hawk Legacy','Darius','2024-04-09T03:36:47.797913+00:00','https://www.youtube.com/watch?v=7e9p5VIfxaY',NULL);
+INSERT INTO "remix" VALUES(1085,'Magnet Man Goes West','Mega Man 3','2024-04-19T07:35:37.870363+00:00','https://www.youtube.com/watch?v=Jwo9tJUnBi8',3);
+INSERT INTO "remix" VALUES(1086,'Secret Seashells','The Legend of Zelda: Link''s Awakening','2024-04-19T07:35:38.548265+00:00','https://www.youtube.com/watch?v=7rVpcHnvEpY',68);
+INSERT INTO "remix" VALUES(1087,'Lava Reef Zone (Las Trompetas Maravillosas Mix)','Sonic & Knuckles','2024-04-19T07:35:39.180343+00:00','https://www.youtube.com/watch?v=ssrMdJtdBFQ',147);
+INSERT INTO "remix" VALUES(1088,'Megalo Kid March','Kid Icarus','2024-04-19T07:35:39.686741+00:00','https://www.youtube.com/watch?v=AdYL0qsA70Y',121);
+INSERT INTO "remix" VALUES(1089,'Snow Motion','Sonic the Hedgehog 3','2024-04-19T07:35:40.200972+00:00','https://www.youtube.com/watch?v=3U_ForGzQj4',24);
+INSERT INTO "remix" VALUES(1091,'Funky Bookas','EarthBound','2024-04-19T07:35:40.712816+00:00','https://www.youtube.com/watch?v=LXhsD8Z4_WU',51);
+INSERT INTO "remix" VALUES(1092,'Electric Clouds','Chrono Trigger','2024-04-19T07:35:41.223238+00:00','https://www.youtube.com/watch?v=MAfV3zaLS1A',16);
+INSERT INTO "remix" VALUES(1093,'His First Good Deed','Breath of Fire','2024-04-19T07:35:41.734239+00:00','https://www.youtube.com/watch?v=6X2tYKkYsfE',259);
+INSERT INTO "remix" VALUES(1094,'Silent Ascent','Perfect Dark','2024-04-19T07:35:42.264403+00:00','https://www.youtube.com/watch?v=nGLcCS9mViQ',252);
+INSERT INTO "remix" VALUES(1095,'Blue Skies over Guardia','Chrono Trigger','2024-04-19T07:35:42.911916+00:00','https://www.youtube.com/watch?v=1e1jmur2PWA',16);
+INSERT INTO "remix" VALUES(1096,'Moondust','DuckTales','2024-04-19T07:35:43.400936+00:00','https://www.youtube.com/watch?v=Gblg9txAtAA',50);
+INSERT INTO "remix" VALUES(1097,'Umaro Uematsu','Final Fantasy VI','2024-04-19T07:35:43.877278+00:00','https://www.youtube.com/watch?v=N6kMwDWSNBs',6);
+INSERT INTO "remix" VALUES(1098,'demonik elektronik','Doom','2024-04-19T07:35:44.386166+00:00','https://www.youtube.com/watch?v=3CusTxjJR1c',14512);
+INSERT INTO "remix" VALUES(1099,'Tears for a Girl','Chrono Trigger','2024-04-19T07:35:44.925523+00:00','https://www.youtube.com/watch?v=VYEIDzaYPsQ',16);
+INSERT INTO "remix" VALUES(1100,'Internal Affliction','Final Fantasy VII','2024-04-19T07:35:45.462890+00:00','https://www.youtube.com/watch?v=8NJBzm9FbIU',7);
+INSERT INTO "remix" VALUES(1102,'Marble Dancefloor','Marble Madness','2024-04-19T07:35:45.985485+00:00','https://www.youtube.com/watch?v=E9cjTySuX_4',286);
+INSERT INTO "remix" VALUES(1103,'Within the Fable','Seiken Densetsu 3','2024-04-19T07:35:46.483174+00:00','https://www.youtube.com/watch?v=dmKAq_OXFPk',149);
+INSERT INTO "remix" VALUES(1104,'Nanaki Searches for Truth','Final Fantasy VII','2024-04-19T07:35:46.972287+00:00','https://www.youtube.com/watch?v=nEJ3-uA-9G8',7);
+INSERT INTO "remix" VALUES(1105,'Tickle My Wily','Mega Man 2','2024-04-19T07:35:47.618973+00:00','https://www.youtube.com/watch?v=CQE4ZjzCNEg',2);
+INSERT INTO "remix" VALUES(1106,'Silver Hawk Legacy','Darius','2024-04-19T07:35:48.115621+00:00','https://www.youtube.com/watch?v=7e9p5VIfxaY',378);
 INSERT INTO "remix" VALUES(1107,'Frappe Cafe Vibe','Mario Kart 64','2024-04-09T03:36:48.325198+00:00','https://www.youtube.com/watch?v=Ln1pzz9l5p0',NULL);
 INSERT INTO "remix" VALUES(1108,'Mario''s Tropical Paradise','Super Mario RPG: Legend of the Seven Stars','2024-04-09T03:36:48.873675+00:00','https://www.youtube.com/watch?v=uPcdaedB9cQ',NULL);
 INSERT INTO "remix" VALUES(1109,'Horteka Stomp','Skies of Arcadia','2024-04-09T03:36:49.551042+00:00','https://www.youtube.com/watch?v=cf3Y2b9UtPs',NULL);
@@ -6155,27 +6160,6 @@ CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null
 ) strict;
-INSERT INTO "remix_artist" VALUES(1085,4285);
-INSERT INTO "remix_artist" VALUES(1086,4583);
-INSERT INTO "remix_artist" VALUES(1087,4297);
-INSERT INTO "remix_artist" VALUES(1088,4584);
-INSERT INTO "remix_artist" VALUES(1089,4585);
-INSERT INTO "remix_artist" VALUES(1091,4546);
-INSERT INTO "remix_artist" VALUES(1092,4290);
-INSERT INTO "remix_artist" VALUES(1093,4586);
-INSERT INTO "remix_artist" VALUES(1094,4501);
-INSERT INTO "remix_artist" VALUES(1095,4482);
-INSERT INTO "remix_artist" VALUES(1096,4461);
-INSERT INTO "remix_artist" VALUES(1097,4463);
-INSERT INTO "remix_artist" VALUES(1098,4518);
-INSERT INTO "remix_artist" VALUES(1099,4562);
-INSERT INTO "remix_artist" VALUES(1099,4516);
-INSERT INTO "remix_artist" VALUES(1100,4587);
-INSERT INTO "remix_artist" VALUES(1102,4588);
-INSERT INTO "remix_artist" VALUES(1103,4589);
-INSERT INTO "remix_artist" VALUES(1104,4514);
-INSERT INTO "remix_artist" VALUES(1105,4403);
-INSERT INTO "remix_artist" VALUES(1106,4510);
 INSERT INTO "remix_artist" VALUES(1107,4553);
 INSERT INTO "remix_artist" VALUES(1108,4168);
 INSERT INTO "remix_artist" VALUES(1109,4590);
@@ -11941,27 +11925,31 @@ INSERT INTO "remix_artist" VALUES(1081,4540);
 INSERT INTO "remix_artist" VALUES(1082,4331);
 INSERT INTO "remix_artist" VALUES(1083,4440);
 INSERT INTO "remix_artist" VALUES(1084,4283);
+INSERT INTO "remix_artist" VALUES(1085,4285);
+INSERT INTO "remix_artist" VALUES(1086,4583);
+INSERT INTO "remix_artist" VALUES(1087,4297);
+INSERT INTO "remix_artist" VALUES(1088,4584);
+INSERT INTO "remix_artist" VALUES(1089,4585);
+INSERT INTO "remix_artist" VALUES(1091,4546);
+INSERT INTO "remix_artist" VALUES(1092,4290);
+INSERT INTO "remix_artist" VALUES(1093,4586);
+INSERT INTO "remix_artist" VALUES(1094,4501);
+INSERT INTO "remix_artist" VALUES(1095,4482);
+INSERT INTO "remix_artist" VALUES(1096,4461);
+INSERT INTO "remix_artist" VALUES(1097,4463);
+INSERT INTO "remix_artist" VALUES(1098,4518);
+INSERT INTO "remix_artist" VALUES(1099,4562);
+INSERT INTO "remix_artist" VALUES(1099,4516);
+INSERT INTO "remix_artist" VALUES(1100,4587);
+INSERT INTO "remix_artist" VALUES(1102,4588);
+INSERT INTO "remix_artist" VALUES(1103,4589);
+INSERT INTO "remix_artist" VALUES(1104,4514);
+INSERT INTO "remix_artist" VALUES(1105,4403);
+INSERT INTO "remix_artist" VALUES(1106,4510);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null
 ) strict;
-INSERT INTO "remix_tag" VALUES(1088,'duration-short');
-INSERT INTO "remix_tag" VALUES(1089,'acoustic-guitar');
-INSERT INTO "remix_tag" VALUES(1089,'synth');
-INSERT INTO "remix_tag" VALUES(1089,'chill');
-INSERT INTO "remix_tag" VALUES(1089,'mellow');
-INSERT INTO "remix_tag" VALUES(1089,'resubmission');
-INSERT INTO "remix_tag" VALUES(1089,'tempo-slow');
-INSERT INTO "remix_tag" VALUES(1089,'winter-holiday');
-INSERT INTO "remix_tag" VALUES(1095,'timesig-7-8');
-INSERT INTO "remix_tag" VALUES(1098,'industrial');
-INSERT INTO "remix_tag" VALUES(1098,'electronic');
-INSERT INTO "remix_tag" VALUES(1098,'synth');
-INSERT INTO "remix_tag" VALUES(1098,'angry');
-INSERT INTO "remix_tag" VALUES(1098,'lyrics-original');
-INSERT INTO "remix_tag" VALUES(1100,'piano');
-INSERT INTO "remix_tag" VALUES(1100,'strings');
-INSERT INTO "remix_tag" VALUES(1100,'resubmission');
 INSERT INTO "remix_tag" VALUES(1107,'jazz');
 INSERT INTO "remix_tag" VALUES(1107,'electric-piano');
 INSERT INTO "remix_tag" VALUES(1107,'saxophone');
@@ -40942,6 +40930,23 @@ INSERT INTO "remix_tag" VALUES(1083,'electronic');
 INSERT INTO "remix_tag" VALUES(1083,'ingame-fx');
 INSERT INTO "remix_tag" VALUES(1083,'synth');
 INSERT INTO "remix_tag" VALUES(1084,'ambient');
+INSERT INTO "remix_tag" VALUES(1088,'duration-short');
+INSERT INTO "remix_tag" VALUES(1089,'acoustic-guitar');
+INSERT INTO "remix_tag" VALUES(1089,'synth');
+INSERT INTO "remix_tag" VALUES(1089,'chill');
+INSERT INTO "remix_tag" VALUES(1089,'mellow');
+INSERT INTO "remix_tag" VALUES(1089,'resubmission');
+INSERT INTO "remix_tag" VALUES(1089,'tempo-slow');
+INSERT INTO "remix_tag" VALUES(1089,'winter-holiday');
+INSERT INTO "remix_tag" VALUES(1095,'timesig-7-8');
+INSERT INTO "remix_tag" VALUES(1098,'industrial');
+INSERT INTO "remix_tag" VALUES(1098,'electronic');
+INSERT INTO "remix_tag" VALUES(1098,'synth');
+INSERT INTO "remix_tag" VALUES(1098,'angry');
+INSERT INTO "remix_tag" VALUES(1098,'lyrics-original');
+INSERT INTO "remix_tag" VALUES(1100,'piano');
+INSERT INTO "remix_tag" VALUES(1100,'strings');
+INSERT INTO "remix_tag" VALUES(1100,'resubmission');
 CREATE TABLE tag (
     id text primary key,
     path text not null,
