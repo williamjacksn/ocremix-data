@@ -1651,11 +1651,13 @@ INSERT INTO "game" VALUES(352,'Socket','https://ocremix.org/game/352/socket-gen'
 INSERT INTO "game" VALUES(353,'Shinobi III: Return of the Ninja Master','https://ocremix.org/game/353/shinobi-iii-return-of-the-ninja-master-gen');
 INSERT INTO "game" VALUES(354,'Panzer Dragoon Orta','https://ocremix.org/game/354/panzer-dragoon-orta-xbox');
 INSERT INTO "game" VALUES(355,'E.V.O.: Search for Eden','https://ocremix.org/game/355/evo-search-for-eden-snes');
+INSERT INTO "game" VALUES(482,'Metroid Prime 2: Echoes','https://ocremix.org/game/482/metroid-prime-2-echoes-gcn');
 INSERT INTO "game" VALUES(510,'Tetris','https://ocremix.org/game/510/tetris-gb');
 INSERT INTO "game" VALUES(808,'Age of Empires: The Rise of Rome','https://ocremix.org/game/808/age-of-empires-the-rise-of-rome-win');
 INSERT INTO "game" VALUES(841,'Doom II: Hell on Earth','https://ocremix.org/game/841/doom-ii-hell-on-earth-dos');
 INSERT INTO "game" VALUES(958,'King''s Quest V: Absence Makes the Heart Go Yonder','https://ocremix.org/game/958/kings-quest-v-absence-makes-the-heart-go-yonder-dos');
 INSERT INTO "game" VALUES(959,'Double Dragon','https://ocremix.org/game/959/double-dragon-arc');
+INSERT INTO "game" VALUES(3137,'Turok: Dinosaur Hunter','https://ocremix.org/game/3137/turok-dinosaur-hunter-n64');
 CREATE TABLE remix (
     id integer primary key,
     title text not null,
@@ -6101,6 +6103,8 @@ INSERT INTO "remix" VALUES(4631,'Sacred Core','The Legend of Zelda: Tears of the
 INSERT INTO "remix" VALUES(4632,'Mega Jam Disco Network','Mega Man Battle Network','2024-04-15T20:54:13.280249+00:00','https://www.youtube.com/watch?v=yKmDtJZwrLo',NULL);
 INSERT INTO "remix" VALUES(4633,'The Lonely Lover','The Revenge of Shinobi','2024-04-15T20:54:13.799475+00:00','https://www.youtube.com/watch?v=3NPDewZcnX8',NULL);
 INSERT INTO "remix" VALUES(4634,'Mysterious Woods','The Legend of Zelda: Ocarina of Time','2024-04-18T00:40:30.764003+00:00','https://www.youtube.com/watch?v=ofEd6gvA9yw',NULL);
+INSERT INTO "remix" VALUES(4635,'Catacumbas Subterraneas','Turok: Dinosaur Hunter','2024-04-19T00:41:07.718391+00:00','https://www.youtube.com/watch?v=HLpkuhcFp2k',3137);
+INSERT INTO "remix" VALUES(4636,'Black Ice Mire','Metroid Prime 2: Echoes','2024-04-19T00:41:08.422573+00:00','https://www.youtube.com/watch?v=qkg4qoJ5-Wc',482);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null
@@ -11887,6 +11891,10 @@ INSERT INTO "remix_artist" VALUES(957,4526);
 INSERT INTO "remix_artist" VALUES(958,4541);
 INSERT INTO "remix_artist" VALUES(959,4313);
 INSERT INTO "remix_artist" VALUES(960,4443);
+INSERT INTO "remix_artist" VALUES(4635,16101);
+INSERT INTO "remix_artist" VALUES(4636,10690);
+INSERT INTO "remix_artist" VALUES(4636,16615);
+INSERT INTO "remix_artist" VALUES(4636,17241);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null
@@ -40872,6 +40880,22 @@ INSERT INTO "remix_tag" VALUES(953,'electronic');
 INSERT INTO "remix_tag" VALUES(953,'synth');
 INSERT INTO "remix_tag" VALUES(953,'happy');
 INSERT INTO "remix_tag" VALUES(956,'duration-long');
+INSERT INTO "remix_tag" VALUES(4635,'metal');
+INSERT INTO "remix_tag" VALUES(4635,'electric-guitar');
+INSERT INTO "remix_tag" VALUES(4635,'energetic');
+INSERT INTO "remix_tag" VALUES(4635,'live-instruments');
+INSERT INTO "remix_tag" VALUES(4635,'timesig-4-4');
+INSERT INTO "remix_tag" VALUES(4636,'ambient');
+INSERT INTO "remix_tag" VALUES(4636,'cinematic');
+INSERT INTO "remix_tag" VALUES(4636,'new-age');
+INSERT INTO "remix_tag" VALUES(4636,'flute');
+INSERT INTO "remix_tag" VALUES(4636,'piano');
+INSERT INTO "remix_tag" VALUES(4636,'synth');
+INSERT INTO "remix_tag" VALUES(4636,'vocals-female');
+INSERT INTO "remix_tag" VALUES(4636,'mystical');
+INSERT INTO "remix_tag" VALUES(4636,'solemn');
+INSERT INTO "remix_tag" VALUES(4636,'collab');
+INSERT INTO "remix_tag" VALUES(4636,'timesig-4-4');
 CREATE TABLE tag (
     id text primary key,
     path text not null,
