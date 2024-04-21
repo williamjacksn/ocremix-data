@@ -6379,6 +6379,7 @@ INSERT INTO "remix" VALUES(4633,'The Lonely Lover','The Revenge of Shinobi','202
 INSERT INTO "remix" VALUES(4634,'Mysterious Woods','The Legend of Zelda: Ocarina of Time','2024-04-18T00:40:30.764003+00:00','https://www.youtube.com/watch?v=ofEd6gvA9yw',NULL);
 INSERT INTO "remix" VALUES(4635,'Catacumbas Subterraneas','Turok: Dinosaur Hunter','2024-04-19T00:41:07.718391+00:00','https://www.youtube.com/watch?v=HLpkuhcFp2k',3137);
 INSERT INTO "remix" VALUES(4636,'Black Ice Mire','Metroid Prime 2: Echoes','2024-04-19T00:41:08.422573+00:00','https://www.youtube.com/watch?v=qkg4qoJ5-Wc',482);
+INSERT INTO "remix" VALUES(4637,'Dreams; Nightmares','Final Fantasy VII','2024-04-21T00:44:29.280958+00:00','https://www.youtube.com/watch?v=LY17Fe7QpVI',7);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null
@@ -12169,6 +12170,7 @@ INSERT INTO "remix_artist" VALUES(1885,5198);
 INSERT INTO "remix_artist" VALUES(1885,4749);
 INSERT INTO "remix_artist" VALUES(1885,5201);
 INSERT INTO "remix_artist" VALUES(1886,4730);
+INSERT INTO "remix_artist" VALUES(4637,18403);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null
@@ -41170,6 +41172,16 @@ INSERT INTO "remix_tag" VALUES(1885,'world');
 INSERT INTO "remix_tag" VALUES(1886,'classical');
 INSERT INTO "remix_tag" VALUES(1886,'orchestral');
 INSERT INTO "remix_tag" VALUES(1886,'strings');
+INSERT INTO "remix_tag" VALUES(4637,'ambient');
+INSERT INTO "remix_tag" VALUES(4637,'new-age');
+INSERT INTO "remix_tag" VALUES(4637,'acoustic-guitar');
+INSERT INTO "remix_tag" VALUES(4637,'piano');
+INSERT INTO "remix_tag" VALUES(4637,'strings');
+INSERT INTO "remix_tag" VALUES(4637,'synth');
+INSERT INTO "remix_tag" VALUES(4637,'vocals-female');
+INSERT INTO "remix_tag" VALUES(4637,'dark');
+INSERT INTO "remix_tag" VALUES(4637,'suspenseful');
+INSERT INTO "remix_tag" VALUES(4637,'timesig-3-4');
 CREATE TABLE tag (
     id text primary key,
     path text not null,
