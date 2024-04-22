@@ -6500,6 +6500,8 @@ INSERT INTO "remix" VALUES(4634,'Mysterious Woods','The Legend of Zelda: Ocarina
 INSERT INTO "remix" VALUES(4635,'Catacumbas Subterraneas','Turok: Dinosaur Hunter','2024-04-19T00:41:07.718391+00:00','https://www.youtube.com/watch?v=HLpkuhcFp2k',3137);
 INSERT INTO "remix" VALUES(4636,'Black Ice Mire','Metroid Prime 2: Echoes','2024-04-19T00:41:08.422573+00:00','https://www.youtube.com/watch?v=qkg4qoJ5-Wc',482);
 INSERT INTO "remix" VALUES(4637,'Dreams; Nightmares','Final Fantasy VII','2024-04-21T00:44:29.280958+00:00','https://www.youtube.com/watch?v=LY17Fe7QpVI',7);
+INSERT INTO "remix" VALUES(4638,'Heads or Tails','Final Fantasy VI','2024-04-22T00:42:46.446182+00:00','https://www.youtube.com/watch?v=KeycYsziFl0',6);
+INSERT INTO "remix" VALUES(4639,'Phytotoxin','Super Metroid','2024-04-22T00:42:47.076481+00:00','https://www.youtube.com/watch?v=V_mrEe5s8q0',74);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null
@@ -12291,6 +12293,8 @@ INSERT INTO "remix_artist" VALUES(2345,10656);
 INSERT INTO "remix_artist" VALUES(2346,4655);
 INSERT INTO "remix_artist" VALUES(2347,10988);
 INSERT INTO "remix_artist" VALUES(2348,5420);
+INSERT INTO "remix_artist" VALUES(4638,13667);
+INSERT INTO "remix_artist" VALUES(4639,15770);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null
@@ -41302,6 +41306,26 @@ INSERT INTO "remix_tag" VALUES(2348,'acoustic-guitar');
 INSERT INTO "remix_tag" VALUES(2348,'electric-guitar');
 INSERT INTO "remix_tag" VALUES(2348,'aggressive');
 INSERT INTO "remix_tag" VALUES(2348,'chill');
+INSERT INTO "remix_tag" VALUES(4638,'cinematic');
+INSERT INTO "remix_tag" VALUES(4638,'electric-guitar');
+INSERT INTO "remix_tag" VALUES(4638,'electronic');
+INSERT INTO "remix_tag" VALUES(4638,'orchestral');
+INSERT INTO "remix_tag" VALUES(4638,'piano');
+INSERT INTO "remix_tag" VALUES(4638,'synth');
+INSERT INTO "remix_tag" VALUES(4638,'energetic');
+INSERT INTO "remix_tag" VALUES(4638,'suspenseful');
+INSERT INTO "remix_tag" VALUES(4638,'compo');
+INSERT INTO "remix_tag" VALUES(4638,'timesig-4-4');
+INSERT INTO "remix_tag" VALUES(4639,'cinematic');
+INSERT INTO "remix_tag" VALUES(4639,'breakbeats');
+INSERT INTO "remix_tag" VALUES(4639,'electric-guitar');
+INSERT INTO "remix_tag" VALUES(4639,'electronic');
+INSERT INTO "remix_tag" VALUES(4639,'ingame-fx');
+INSERT INTO "remix_tag" VALUES(4639,'piano');
+INSERT INTO "remix_tag" VALUES(4639,'strings');
+INSERT INTO "remix_tag" VALUES(4639,'synth');
+INSERT INTO "remix_tag" VALUES(4639,'energetic');
+INSERT INTO "remix_tag" VALUES(4639,'timesig-4-4');
 CREATE TABLE tag (
     id text primary key,
     path text not null,
