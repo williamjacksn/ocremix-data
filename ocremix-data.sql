@@ -1443,6 +1443,7 @@ INSERT INTO "artist" VALUES(18629,'Daphne F.','https://ocremix.org/artist/18629/
 INSERT INTO "artist" VALUES(18630,'William Sandberg','https://ocremix.org/artist/18630/william-sandberg');
 INSERT INTO "artist" VALUES(18631,'KestrelGirl','https://ocremix.org/artist/18631/kestrelgirl');
 INSERT INTO "artist" VALUES(18632,'Mel Decision','https://ocremix.org/artist/18632/mel-decision');
+INSERT INTO "artist" VALUES(18633,'Jabo','https://ocremix.org/artist/18633/jabo');
 INSERT INTO "artist" VALUES(18634,'metamoogle','https://ocremix.org/artist/18634/metamoogle');
 INSERT INTO "artist" VALUES(18636,'Drakeld','https://ocremix.org/artist/18636/drakeld');
 INSERT INTO "artist" VALUES(18637,'Wurtzel','https://ocremix.org/artist/18637/wurtzel');
@@ -6688,6 +6689,7 @@ INSERT INTO "remix" VALUES(4636,'Black Ice Mire','Metroid Prime 2: Echoes','2024
 INSERT INTO "remix" VALUES(4637,'Dreams; Nightmares','Final Fantasy VII','2024-04-21T00:44:29.280958+00:00','https://www.youtube.com/watch?v=LY17Fe7QpVI',7);
 INSERT INTO "remix" VALUES(4638,'Heads or Tails','Final Fantasy VI','2024-04-22T00:42:46.446182+00:00','https://www.youtube.com/watch?v=KeycYsziFl0',6);
 INSERT INTO "remix" VALUES(4639,'Phytotoxin','Super Metroid','2024-04-22T00:42:47.076481+00:00','https://www.youtube.com/watch?v=V_mrEe5s8q0',74);
+INSERT INTO "remix" VALUES(4640,'This Boss Are Sick','Final Fantasy VII','2024-04-24T00:41:25.756035+00:00','https://www.youtube.com/watch?v=XwyHkiI9cis',7);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null
@@ -12481,6 +12483,8 @@ INSERT INTO "remix_artist" VALUES(3325,5473);
 INSERT INTO "remix_artist" VALUES(3326,4767);
 INSERT INTO "remix_artist" VALUES(3327,14976);
 INSERT INTO "remix_artist" VALUES(3328,13740);
+INSERT INTO "remix_artist" VALUES(4640,13500);
+INSERT INTO "remix_artist" VALUES(4640,18633);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null
@@ -41512,6 +41516,15 @@ INSERT INTO "remix_tag" VALUES(3328,'strings');
 INSERT INTO "remix_tag" VALUES(3328,'jazzy');
 INSERT INTO "remix_tag" VALUES(3328,'spooky');
 INSERT INTO "remix_tag" VALUES(3328,'halloween');
+INSERT INTO "remix_tag" VALUES(4640,'prog-rock');
+INSERT INTO "remix_tag" VALUES(4640,'electric-guitar');
+INSERT INTO "remix_tag" VALUES(4640,'electronic');
+INSERT INTO "remix_tag" VALUES(4640,'organ');
+INSERT INTO "remix_tag" VALUES(4640,'synth');
+INSERT INTO "remix_tag" VALUES(4640,'energetic');
+INSERT INTO "remix_tag" VALUES(4640,'collab');
+INSERT INTO "remix_tag" VALUES(4640,'compo-dod');
+INSERT INTO "remix_tag" VALUES(4640,'live-instruments');
 CREATE TABLE tag (
     id text primary key,
     path text not null,
