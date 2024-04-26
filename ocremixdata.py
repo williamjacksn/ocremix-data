@@ -74,6 +74,7 @@ def do_import(ocr_id: int):
     write_game(cnx, primary_game)
 
     remix_params = {
+        'download_url': parse_download_url(html),
         'id': ocr_id,
         'import_datetime': datetime.datetime.now(tz=datetime.UTC).isoformat(),
         'primary_game': primary_game.get('name'),
@@ -159,7 +160,7 @@ def get_remix_data(cnx: sqlite3.Connection, ocr_id: int) -> dict:
     artists = []
     tags = []
     remix_sql = '''
-        select id, title, primary_game, youtube_url
+        select download_url, id, title, primary_game, youtube_url
         from remix
         where id = :id
     '''
@@ -183,6 +184,7 @@ def get_remix_data(cnx: sqlite3.Connection, ocr_id: int) -> dict:
     with cnx:
         for row in cnx.execute(remix_sql, params):
             result = {
+                'download_url': row.download_url,
                 'id': row.id,
                 'ocr_id': f'OCR{row.id:05}',
                 'primary_game': row.primary_game,
@@ -309,6 +311,10 @@ def parse_remix_artists(html: lxml.html.HtmlElement) -> list[dict]:
     return result
 
 
+def parse_download_url(html: lxml.html.HtmlElement) -> str:
+    return html.xpath('//div[@id="modalDownload"]//a[contains(@href, "ocrmirror.org")]/@href')[0]
+
+
 def parse_remix_primary_game(html: lxml.html.HtmlElement) -> dict:
     el = html.xpath('//h1/a')[0]
     game_name = el.text
@@ -380,12 +386,13 @@ def write_game(cnx: sqlite3.Connection, params: dict):
 def write_remix(cnx: sqlite3.Connection, params: dict):
     sql = '''
         insert into remix (
-            id, import_datetime, primary_game, primary_game_id, title, youtube_url
+            download_url, id, import_datetime, primary_game, primary_game_id, title, youtube_url
         ) values (
-            :id, :import_datetime, :primary_game, :primary_game_id, :title, :youtube_url)
+            :download_url, :id, :import_datetime, :primary_game, :primary_game_id, :title, :youtube_url)
         on conflict (id) do update set
-            import_datetime = excluded.import_datetime, primary_game = excluded.primary_game,
-            primary_game_id = excluded.primary_game_id, title = excluded.title, youtube_url = excluded.youtube_url
+            download_url = excluded.download_url, import_datetime = excluded.import_datetime,
+            primary_game = excluded.primary_game, primary_game_id = excluded.primary_game_id, title = excluded.title,
+            youtube_url = excluded.youtube_url
     '''
     with cnx:
         cnx.execute(sql, params)
