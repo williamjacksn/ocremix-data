@@ -2699,7 +2699,7 @@ INSERT INTO "remix" VALUES(227,'Controlled Jazz','GoldenEye 007','2024-04-26T21:
 INSERT INTO "remix" VALUES(228,'Blue-Minded God','Chrono Trigger','2024-04-26T21:36:54.335902+00:00','https://www.youtube.com/watch?v=Gj2-h1zseeA',16,'https://ocrmirror.org/files/music/remixes/Chrono_Trigger_Blue-Minded_God_OC_ReMix.mp3');
 INSERT INTO "remix" VALUES(229,'Dancefloor','Shadowgate','2024-04-26T21:36:54.914185+00:00','https://www.youtube.com/watch?v=OMoXXckByJI',152,'https://ocrmirror.org/files/music/remixes/Shadowgate_Dancefloor_OC_ReMix.mp3');
 INSERT INTO "remix" VALUES(231,'Doomed','Doom','2024-04-26T21:36:55.634559+00:00','https://www.youtube.com/watch?v=BtdvQkLGmGQ',14512,'https://ocrmirror.org/files/music/remixes/Doom_Doomed_OC_ReMix.mp3');
-INSERT INTO "remix" VALUES(232,'2001 Elastic New Year','Super Mario World 2: Yoshi''s Island','2024-04-17T12:48:21.913743+00:00','https://www.youtube.com/watch?v=GqrUmAiN-FY',NULL,NULL);
+INSERT INTO "remix" VALUES(232,'2001 Elastic New Year','Super Mario World 2: Yoshi''s Island','2024-04-26T21:43:57.709281+00:00','https://www.youtube.com/watch?v=GqrUmAiN-FY',71,'https://ocrmirror.org/files/music/remixes/Super_Mario_World_2_Yoshi''s_Island_2001_Elastic_New_Year_OC_ReMix.mp3');
 INSERT INTO "remix" VALUES(233,'Neoteric Assembly','Final Fantasy VII','2024-04-17T12:48:22.437459+00:00','https://www.youtube.com/watch?v=a7Y1Ai6-4PA',NULL,NULL);
 INSERT INTO "remix" VALUES(234,'Rocket','Blaster Master','2024-04-17T12:48:23.079069+00:00','https://www.youtube.com/watch?v=Fy3PKSkCO_c',NULL,NULL);
 INSERT INTO "remix" VALUES(235,'Tina, Don''t Fall','Final Fantasy VI','2024-04-17T12:48:23.603329+00:00','https://www.youtube.com/watch?v=GXT3ee3MyH0',NULL,NULL);
@@ -6986,7 +6986,7 @@ CREATE TABLE remix_artist (
     _synced integer,
     primary key (remix_id, artist_id)
 ) strict;
-INSERT INTO "remix_artist" VALUES(232,4279,NULL);
+INSERT INTO "remix_artist" VALUES(232,4279,1);
 INSERT INTO "remix_artist" VALUES(233,4306,NULL);
 INSERT INTO "remix_artist" VALUES(234,4429,NULL);
 INSERT INTO "remix_artist" VALUES(235,4282,NULL);
@@ -12794,13 +12794,13 @@ CREATE TABLE remix_tag (
     _synced integer,
     primary key (remix_id, tag_id)
 ) strict;
-INSERT INTO "remix_tag" VALUES(232,'dance',NULL);
-INSERT INTO "remix_tag" VALUES(232,'edm',NULL);
-INSERT INTO "remix_tag" VALUES(232,'synth',NULL);
-INSERT INTO "remix_tag" VALUES(232,'happy',NULL);
-INSERT INTO "remix_tag" VALUES(232,'quirky',NULL);
-INSERT INTO "remix_tag" VALUES(232,'distortion',NULL);
-INSERT INTO "remix_tag" VALUES(232,'tempo-moderate',NULL);
+INSERT INTO "remix_tag" VALUES(232,'dance',1);
+INSERT INTO "remix_tag" VALUES(232,'edm',1);
+INSERT INTO "remix_tag" VALUES(232,'synth',1);
+INSERT INTO "remix_tag" VALUES(232,'happy',1);
+INSERT INTO "remix_tag" VALUES(232,'quirky',1);
+INSERT INTO "remix_tag" VALUES(232,'distortion',1);
+INSERT INTO "remix_tag" VALUES(232,'tempo-moderate',1);
 INSERT INTO "remix_tag" VALUES(233,'edm',NULL);
 INSERT INTO "remix_tag" VALUES(233,'house',NULL);
 INSERT INTO "remix_tag" VALUES(233,'electric-guitar',NULL);

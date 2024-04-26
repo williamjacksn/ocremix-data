@@ -401,23 +401,37 @@ def write_remix(cnx: sqlite3.Connection, params: dict):
 def write_remix_artist(cnx: sqlite3.Connection, remix_id: int, artist_ids: list[int]):
     with cnx:
         cnx.execute(
-            'delete from remix_artist where remix_id = :remix_id',
+            'update remix_artist set _synced = 0 where remix_id = :remix_id',
             {'remix_id': remix_id})
         cnx.executemany(
-            'insert into remix_artist (remix_id, artist_id) values (:remix_id, :artist_id)',
+            '''
+                insert into remix_artist (remix_id, artist_id, _synced) values (:remix_id, :artist_id, 1)
+                on conflict (remix_id, artist_id) do update set _synced = excluded._synced
+            ''',
             [{'remix_id': remix_id, 'artist_id': a} for a in artist_ids]
+        )
+        cnx.execute(
+            'delete from remix_artist where remix_id = :remix_id and _synced = 0',
+            {'remix_id': remix_id}
         )
 
 
 def write_remix_tags(cnx: sqlite3.Connection, remix_id: int, tag_ids: list[str]):
     with cnx:
         cnx.execute(
-            'delete from remix_tag where remix_id = :remix_id',
+            'update remix_tag set _synced = 0 where remix_id = :remix_id',
             {'remix_id': remix_id}
         )
         cnx.executemany(
-            'insert into remix_tag (remix_id, tag_id) values (:remix_id, :tag_id)',
+            '''
+                insert into remix_tag (remix_id, tag_id, _synced) values (:remix_id, :tag_id, 1)
+                on conflict (remix_id, tag_id) do update set _synced = excluded._synced
+            ''',
             [{'remix_id': remix_id, 'tag_id': t} for t in tag_ids]
+        )
+        cnx.execute(
+            'delete from remix_tag where remix_id = :remix_id and _synced = 0',
+            {'remix_id': remix_id}
         )
 
 
