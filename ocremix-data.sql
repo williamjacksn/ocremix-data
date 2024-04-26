@@ -6983,7 +6983,8 @@ INSERT INTO "remix" VALUES(4642,'Net Fish and Chill','Final Fantasy VIII','2024-
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
-    _synced integer
+    _synced integer,
+    primary key (remix_id, artist_id)
 ) strict;
 INSERT INTO "remix_artist" VALUES(232,4279,NULL);
 INSERT INTO "remix_artist" VALUES(233,4306,NULL);
@@ -12790,7 +12791,8 @@ INSERT INTO "remix_artist" VALUES(231,4319,NULL);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
-    _synced integer
+    _synced integer,
+    primary key (remix_id, tag_id)
 ) strict;
 INSERT INTO "remix_tag" VALUES(232,'dance',NULL);
 INSERT INTO "remix_tag" VALUES(232,'edm',NULL);
