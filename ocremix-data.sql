@@ -1450,6 +1450,7 @@ INSERT INTO "artist" VALUES(18637,'Wurtzel','https://ocremix.org/artist/18637/wu
 INSERT INTO "artist" VALUES(18638,'Dionté George','https://ocremix.org/artist/18638/dionte-george');
 INSERT INTO "artist" VALUES(18639,'Becky Reid','https://ocremix.org/artist/18639/becky-reid');
 INSERT INTO "artist" VALUES(18640,'John Bishop','https://ocremix.org/artist/18640/john-bishop');
+INSERT INTO "artist" VALUES(18642,'Numoon','https://ocremix.org/artist/18642/numoon');
 INSERT INTO "artist" VALUES(18648,'sui','https://ocremix.org/artist/18648/sui');
 INSERT INTO "artist" VALUES(18651,'Error 47','https://ocremix.org/artist/18651/error-47');
 INSERT INTO "artist" VALUES(18652,'shieldeater','https://ocremix.org/artist/18652/shieldeater');
@@ -6881,6 +6882,8 @@ INSERT INTO "remix" VALUES(4637,'Dreams; Nightmares','Final Fantasy VII','2024-0
 INSERT INTO "remix" VALUES(4638,'Heads or Tails','Final Fantasy VI','2024-04-22T00:42:46.446182+00:00','https://www.youtube.com/watch?v=KeycYsziFl0',6);
 INSERT INTO "remix" VALUES(4639,'Phytotoxin','Super Metroid','2024-04-22T00:42:47.076481+00:00','https://www.youtube.com/watch?v=V_mrEe5s8q0',74);
 INSERT INTO "remix" VALUES(4640,'This Boss Are Sick','Final Fantasy VII','2024-04-24T00:41:25.756035+00:00','https://www.youtube.com/watch?v=XwyHkiI9cis',7);
+INSERT INTO "remix" VALUES(4641,'We Are the Winners','Final Fantasy VIII','2024-04-26T00:41:38.772930+00:00','https://www.youtube.com/watch?v=IIgkCyamsZk',13);
+INSERT INTO "remix" VALUES(4642,'Net Fish and Chill','Final Fantasy VIII','2024-04-26T00:41:39.527989+00:00','https://www.youtube.com/watch?v=Y1Z1GTjCmsc',13);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null
@@ -12676,6 +12679,17 @@ INSERT INTO "remix_artist" VALUES(4242,18166);
 INSERT INTO "remix_artist" VALUES(4243,4655);
 INSERT INTO "remix_artist" VALUES(4244,4440);
 INSERT INTO "remix_artist" VALUES(4245,16429);
+INSERT INTO "remix_artist" VALUES(4641,14461);
+INSERT INTO "remix_artist" VALUES(4641,18034);
+INSERT INTO "remix_artist" VALUES(4641,18642);
+INSERT INTO "remix_artist" VALUES(4641,17241);
+INSERT INTO "remix_artist" VALUES(4641,16848);
+INSERT INTO "remix_artist" VALUES(4641,5473);
+INSERT INTO "remix_artist" VALUES(4642,18632);
+INSERT INTO "remix_artist" VALUES(4642,16615);
+INSERT INTO "remix_artist" VALUES(4642,13667);
+INSERT INTO "remix_artist" VALUES(4642,10690);
+INSERT INTO "remix_artist" VALUES(4642,16119);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null
@@ -41716,6 +41730,30 @@ INSERT INTO "remix_tag" VALUES(4245,'synth');
 INSERT INTO "remix_tag" VALUES(4245,'aggressive');
 INSERT INTO "remix_tag" VALUES(4245,'epic');
 INSERT INTO "remix_tag" VALUES(4245,'timesig-4-4');
+INSERT INTO "remix_tag" VALUES(4641,'hip-hop');
+INSERT INTO "remix_tag" VALUES(4641,'rap');
+INSERT INTO "remix_tag" VALUES(4641,'synth');
+INSERT INTO "remix_tag" VALUES(4641,'vocals-female');
+INSERT INTO "remix_tag" VALUES(4641,'vocals-male');
+INSERT INTO "remix_tag" VALUES(4641,'vocals-rapping');
+INSERT INTO "remix_tag" VALUES(4641,'funny');
+INSERT INTO "remix_tag" VALUES(4641,'quirky');
+INSERT INTO "remix_tag" VALUES(4641,'collab');
+INSERT INTO "remix_tag" VALUES(4641,'lang-english');
+INSERT INTO "remix_tag" VALUES(4641,'lyrics-original');
+INSERT INTO "remix_tag" VALUES(4642,'hip-hop');
+INSERT INTO "remix_tag" VALUES(4642,'clarinet');
+INSERT INTO "remix_tag" VALUES(4642,'electric-guitar');
+INSERT INTO "remix_tag" VALUES(4642,'piano');
+INSERT INTO "remix_tag" VALUES(4642,'saxophone');
+INSERT INTO "remix_tag" VALUES(4642,'synth');
+INSERT INTO "remix_tag" VALUES(4642,'vocals-male');
+INSERT INTO "remix_tag" VALUES(4642,'chill');
+INSERT INTO "remix_tag" VALUES(4642,'mellow');
+INSERT INTO "remix_tag" VALUES(4642,'collab');
+INSERT INTO "remix_tag" VALUES(4642,'lo-fi');
+INSERT INTO "remix_tag" VALUES(4642,'resubmission');
+INSERT INTO "remix_tag" VALUES(4642,'timesig-4-4');
 CREATE TABLE tag (
     id text primary key,
     path text not null,
