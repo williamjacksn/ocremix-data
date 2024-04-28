@@ -45,8 +45,6 @@ services:
       - /home/python/venv/bin/python
       - /home/python/ocremix-data/ocremixdata.py
       - update
-      - --limit
-      - '300'
     image: ghcr.io/williamjacksn/ocremix-data
     init: true
     volumes:
