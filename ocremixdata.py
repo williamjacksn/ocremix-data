@@ -1,5 +1,6 @@
 import argparse
 import collections
+import concurrent.futures
 import datetime
 import json
 import lxml.etree
@@ -51,8 +52,17 @@ def cli_json(args: argparse.Namespace):
 
 def cli_update(args: argparse.Namespace):
     cnx = get_cnx()
-    for remix_id in get_remix_ids_first_imported(cnx, args.limit):
-        do_import(remix_id)
+    with concurrent.futures.ThreadPoolExecutor() as ex:
+        future_to_ocr_id = {}
+        count = 0
+        for remix_id in get_remix_ids_first_imported(cnx, args.limit):
+            count += 1
+            print(f'Queueing {count}')
+            future_to_ocr_id[ex.submit(get_html, remix_id)] = remix_id
+        for future in concurrent.futures.as_completed(future_to_ocr_id):
+            remix_id = future_to_ocr_id[future]
+            print(f'Processing OCR{remix_id:05}')
+            do_import_html(remix_id, future.result())
 
 
 def cli_write_sqlite(args: argparse.Namespace):
@@ -68,6 +78,10 @@ def do_import(ocr_id: int):
     if html is None:
         return
 
+    do_import_html(ocr_id, html)
+
+
+def do_import_html(ocr_id: int, html: lxml.html.HtmlElement):
     cnx = get_cnx()
 
     primary_game = parse_remix_primary_game(html)
