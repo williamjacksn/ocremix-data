@@ -3,7 +3,7 @@
   "info": {
     "title": "OverClocked ReMix Data",
     "description": "This project provides data about remixes published by [OverClocked ReMix](https://ocremix.org/). The data is available in JSON and SQLite format.",
-    "version": "2024.1"
+    "version": "2024.2"
   },
   "externalDocs": {
     "description": "View the project on GitHUb",
@@ -67,6 +67,14 @@
                           }
                         }
                       }
+                    },
+                    "download_url": {
+                      "type": "string",
+                      "example": "https://ocrmirror.org/files/music/remixes/Shinobi_Shin_Shuriken_Jam_OC_ReMix.mp3"
+                    },
+                    "has_lyrics": {
+                      "type": "boolean",
+                      "example": false
                     },
                     "id": {
                       "type": "integer",
