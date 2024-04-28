@@ -19,7 +19,7 @@
     "/ocremix-data.db": {
       "get": {
         "tags": ["Endpoints"],
-        "description": "Returns all available data in a SQLite database file",
+        "description": "This endpoint returns a SQLite database file with all available data. The table schema in the database is as follows:\n\n```\nCREATE TABLE artist (\n    id integer primary key,\n    name text not null,\n    url text not null\n) strict;\n\nCREATE TABLE game (\n    id integer primary key,\n    name text not null,\n    url text not null\n) strict;\n\nCREATE TABLE remix (\n    id integer primary key,\n    title text not null,\n    primary_game text not null,\n    import_datetime text,\n    youtube_url text,\n    primary_game_id int,\n    download_url text,\n    has_lyrics integer\n) strict;\n\nCREATE TABLE remix_artist (\n    remix_id integer not null,\n    artist_id integer not null,\n    _synced integer,\n    primary key (remix_id, artist_id)\n) strict;\n\nCREATE TABLE remix_tag (\n    remix_id integer not null,\n    tag_id text not null,\n    _synced integer,\n    primary key (remix_id, tag_id)\n) strict;\n\nCREATE TABLE tag (\n    id text primary key,\n    path text not null,\n    url text not null\n) strict;\n```\n",
         "responses": {
           "200": {
             "description": "A SQLite database file containing all available data",
