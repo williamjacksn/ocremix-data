@@ -4,6 +4,12 @@ on:
   schedule:
     - cron: '30 * * * *'
   workflow_dispatch:
+    inputs:
+      limit:
+        default: 10
+        description: Number of ReMixes to update
+        required: true
+        type: number
 
 permissions:
   actions: write
@@ -18,8 +24,13 @@ jobs:
       - name: Check out
         uses: actions/checkout@v4
 
-      - name: Update ReMix info
+      - name: Update ReMix info (on schedule)
+        if: github.event_name == 'schedule'
         run: docker compose run --no-TTY --rm --user="$(id --user):$(id --group)" update
+
+      - name: Update ReMix info (on workflow_dispatch)
+        if: github.event_name == 'workflow_dispatch'
+        run: docker compose run --no-TTY --rm --user="$(id --user):$(id --group)" update --limit ${{ inputs.limit }}
 
       - name: Commit and push if changes
         id: commit
