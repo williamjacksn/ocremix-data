@@ -7044,6 +7044,7 @@ INSERT INTO "remix" VALUES(4640,'This Boss Are Sick','Final Fantasy VII','2024-0
 INSERT INTO "remix" VALUES(4641,'We Are the Winners','Final Fantasy VIII','2024-04-27T03:42:35.455913+00:00','https://www.youtube.com/watch?v=IIgkCyamsZk',13,'https://ocrmirror.org/files/music/remixes/Final_Fantasy_8_We_Are_the_Winners_OC_ReMix.mp3');
 INSERT INTO "remix" VALUES(4642,'Net Fish and Chill','Final Fantasy VIII','2024-04-26T00:41:39.527989+00:00','https://www.youtube.com/watch?v=Y1Z1GTjCmsc',13,NULL);
 INSERT INTO "remix" VALUES(4643,'Diablo Has to Synth','Diablo','2024-04-27T00:41:18.233330+00:00','https://www.youtube.com/watch?v=8_eC3UVHb3c',108,'https://ocrmirror.org/files/music/remixes/Diablo_Diablo_Has_to_Synth_OC_ReMix.mp3');
+INSERT INTO "remix" VALUES(4644,'Mechanical Delights (NeverEnding Love Mix)','Final Fantasy IV','2024-04-28T00:45:15.576996+00:00','https://www.youtube.com/watch?v=xIQ-1SCAXDE',11,'https://ocrmirror.org/files/music/remixes/Final_Fantasy_4_Mechanical_Delights_(NeverEnding_Love_Mix)_OC_ReMix.mp3');
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -12853,6 +12854,8 @@ INSERT INTO "remix_artist" VALUES(228,4292,NULL);
 INSERT INTO "remix_artist" VALUES(229,4281,NULL);
 INSERT INTO "remix_artist" VALUES(231,4319,NULL);
 INSERT INTO "remix_artist" VALUES(4643,18832,1);
+INSERT INTO "remix_artist" VALUES(4644,18606,1);
+INSERT INTO "remix_artist" VALUES(4644,13667,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -41926,6 +41929,20 @@ INSERT INTO "remix_tag" VALUES(4643,'synth',1);
 INSERT INTO "remix_tag" VALUES(4643,'quirky',1);
 INSERT INTO "remix_tag" VALUES(4643,'detuning',1);
 INSERT INTO "remix_tag" VALUES(4643,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4644,'edm',1);
+INSERT INTO "remix_tag" VALUES(4644,'experimental',1);
+INSERT INTO "remix_tag" VALUES(4644,'electric-guitar',1);
+INSERT INTO "remix_tag" VALUES(4644,'electronic',1);
+INSERT INTO "remix_tag" VALUES(4644,'sound-fx',1);
+INSERT INTO "remix_tag" VALUES(4644,'synth',1);
+INSERT INTO "remix_tag" VALUES(4644,'vocals-female',1);
+INSERT INTO "remix_tag" VALUES(4644,'aggressive',1);
+INSERT INTO "remix_tag" VALUES(4644,'energetic',1);
+INSERT INTO "remix_tag" VALUES(4644,'collab',1);
+INSERT INTO "remix_tag" VALUES(4644,'compo',1);
+INSERT INTO "remix_tag" VALUES(4644,'distortion',1);
+INSERT INTO "remix_tag" VALUES(4644,'lang-english',1);
+INSERT INTO "remix_tag" VALUES(4644,'timesig-4-4',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
