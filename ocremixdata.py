@@ -75,6 +75,7 @@ def do_import(ocr_id: int):
 
     remix_params = {
         'download_url': parse_download_url(html),
+        'has_lyrics': 1 if parse_has_lyrics(html) else 0,
         'id': ocr_id,
         'import_datetime': datetime.datetime.now(tz=datetime.UTC).isoformat(),
         'primary_game': primary_game.get('name'),
@@ -160,7 +161,7 @@ def get_remix_data(cnx: sqlite3.Connection, ocr_id: int) -> dict:
     artists = []
     tags = []
     remix_sql = '''
-        select download_url, id, title, primary_game, youtube_url
+        select download_url, has_lyrics, id, title, primary_game, youtube_url
         from remix
         where id = :id
     '''
@@ -185,6 +186,7 @@ def get_remix_data(cnx: sqlite3.Connection, ocr_id: int) -> dict:
         for row in cnx.execute(remix_sql, params):
             result = {
                 'download_url': row.download_url,
+                'has_lyrics': bool(row.has_lyrics),
                 'id': row.id,
                 'ocr_id': f'OCR{row.id:05}',
                 'primary_game': row.primary_game,
@@ -297,6 +299,10 @@ def parse_args() -> argparse.Namespace:
     return ap.parse_args()
 
 
+def parse_has_lyrics(html: lxml.html.HtmlElement) -> bool:
+    return bool(html.xpath('//a[@href="#tab-lyrics"]'))
+
+
 def parse_remix_artists(html: lxml.html.HtmlElement) -> list[dict]:
     result = []
     for a in html.xpath('//h2/a[starts-with(@href, "/artist")]'):
@@ -386,13 +392,13 @@ def write_game(cnx: sqlite3.Connection, params: dict):
 def write_remix(cnx: sqlite3.Connection, params: dict):
     sql = '''
         insert into remix (
-            download_url, id, import_datetime, primary_game, primary_game_id, title, youtube_url
+            download_url, has_lyrics, id, import_datetime, primary_game, primary_game_id, title, youtube_url
         ) values (
-            :download_url, :id, :import_datetime, :primary_game, :primary_game_id, :title, :youtube_url)
+            :download_url, :has_lyrics, :id, :import_datetime, :primary_game, :primary_game_id, :title, :youtube_url)
         on conflict (id) do update set
-            download_url = excluded.download_url, import_datetime = excluded.import_datetime,
-            primary_game = excluded.primary_game, primary_game_id = excluded.primary_game_id, title = excluded.title,
-            youtube_url = excluded.youtube_url
+            download_url = excluded.download_url, has_lyrics = excluded.has_lyrics,
+            import_datetime = excluded.import_datetime, primary_game = excluded.primary_game,
+            primary_game_id = excluded.primary_game_id, title = excluded.title, youtube_url = excluded.youtube_url
     '''
     with cnx:
         cnx.execute(sql, params)
