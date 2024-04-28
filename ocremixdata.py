@@ -54,10 +54,7 @@ def cli_update(args: argparse.Namespace):
     cnx = get_cnx()
     with concurrent.futures.ThreadPoolExecutor() as ex:
         future_to_ocr_id = {}
-        count = 0
         for remix_id in get_remix_ids_first_imported(cnx, args.limit):
-            count += 1
-            print(f'Queueing {count}')
             future_to_ocr_id[ex.submit(get_html, remix_id)] = remix_id
         for future in concurrent.futures.as_completed(future_to_ocr_id):
             remix_id = future_to_ocr_id[future]
