@@ -30,7 +30,7 @@ jobs:
         run: docker compose run --no-TTY --rm --user="$(id --user):$(id --group)" build-pages
 
       - name: Generate OpenAPI spec
-        run: docker compose run --no-TTY --rem --user="$(id --user):$(id --group)" gen-openapi-spec
+        run: docker compose run --no-TTY --rm --user="$(id --user):$(id --group)" gen-openapi-spec
 
       - name: Configure Pages
         uses: actions/configure-pages@v5
