@@ -7048,6 +7048,7 @@ INSERT INTO "remix" VALUES(4643,'Diablo Has to Synth','Diablo','2024-04-28T17:56
 INSERT INTO "remix" VALUES(4644,'Mechanical Delights (NeverEnding Love Mix)','Final Fantasy IV','2024-04-28T18:56:09.251099+00:00','https://www.youtube.com/watch?v=I1XHzFp8_-k',11,'https://ocrmirror.org/files/music/remixes/Final_Fantasy_4_Mechanical_Delights_(NeverEnding_Love_Mix)_OC_ReMix.mp3',1);
 INSERT INTO "remix" VALUES(4645,'Into the Horizon','Final Fantasy V','2024-04-28T16:10:25.674210+00:00','https://www.youtube.com/watch?v=mSg345EoSdY',12,'https://ocrmirror.org/files/music/remixes/Final_Fantasy_5_Into_the_Horizon_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4646,'The Parallax Effect','Final Fantasy VI','2024-04-28T16:10:26.296526+00:00','https://www.youtube.com/watch?v=uMPYBCf0NFM',6,'https://ocrmirror.org/files/music/remixes/Final_Fantasy_6_The_Parallax_Effect_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4647,'Steeling Hearts','Final Fantasy VII','2024-04-30T00:41:48.566543+00:00','https://www.youtube.com/watch?v=xvcz0oYhjGc',7,'https://ocrmirror.org/files/music/remixes/Final_Fantasy_7_Steeling_Hearts_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -12863,6 +12864,7 @@ INSERT INTO "remix_artist" VALUES(4645,18403,1);
 INSERT INTO "remix_artist" VALUES(4646,10690,1);
 INSERT INTO "remix_artist" VALUES(4646,4750,1);
 INSERT INTO "remix_artist" VALUES(4646,18712,1);
+INSERT INTO "remix_artist" VALUES(4647,4750,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -41966,6 +41968,14 @@ INSERT INTO "remix_tag" VALUES(4646,'synth',1);
 INSERT INTO "remix_tag" VALUES(4646,'energetic',1);
 INSERT INTO "remix_tag" VALUES(4646,'live-instruments',1);
 INSERT INTO "remix_tag" VALUES(4646,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4647,'chamber',1);
+INSERT INTO "remix_tag" VALUES(4647,'piano',1);
+INSERT INTO "remix_tag" VALUES(4647,'solo-piano',1);
+INSERT INTO "remix_tag" VALUES(4647,'sad',1);
+INSERT INTO "remix_tag" VALUES(4647,'solemn',1);
+INSERT INTO "remix_tag" VALUES(4647,'resubmission',1);
+INSERT INTO "remix_tag" VALUES(4647,'solo',1);
+INSERT INTO "remix_tag" VALUES(4647,'timesig-4-4',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
