@@ -1529,6 +1529,7 @@ INSERT INTO "artist" VALUES(18815,'John Robert Matz','https://ocremix.org/artist
 INSERT INTO "artist" VALUES(18817,'Ordonis','https://ocremix.org/artist/18817/ordonis');
 INSERT INTO "artist" VALUES(18818,'Yami','https://ocremix.org/artist/18818/yami');
 INSERT INTO "artist" VALUES(18819,'Michelle Dreyband','https://ocremix.org/artist/18819/michelle-dreyband');
+INSERT INTO "artist" VALUES(18821,'endlessrepeat','https://ocremix.org/artist/18821/endlessrepeat');
 INSERT INTO "artist" VALUES(18823,'SovRin','https://ocremix.org/artist/18823/sovrin');
 INSERT INTO "artist" VALUES(18824,'bash explode','https://ocremix.org/artist/18824/bash-explode');
 INSERT INTO "artist" VALUES(18832,'7DD9','https://ocremix.org/artist/18832/7dd9');
@@ -7052,6 +7053,7 @@ INSERT INTO "remix" VALUES(4646,'The Parallax Effect','Final Fantasy VI','2024-0
 INSERT INTO "remix" VALUES(4647,'Steeling Hearts','Final Fantasy VII','2024-04-30T00:41:48.566543+00:00','https://www.youtube.com/watch?v=xvcz0oYhjGc',7,'https://ocrmirror.org/files/music/remixes/Final_Fantasy_7_Steeling_Hearts_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4648,'Infinite Collapse','Final Fantasy VIII','2024-05-02T00:41:17.015211+00:00','https://www.youtube.com/watch?v=09mH6Q1Pqsg',13,'https://ocrmirror.org/files/music/remixes/Final_Fantasy_8_Infinite_Collapse_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4649,'Freya''s Curse','Final Fantasy IX','2024-05-02T11:37:15.398110+00:00','https://www.youtube.com/watch?v=6eMdtQlJGGs',14,'https://ocrmirror.org/files/music/remixes/Final_Fantasy_9_Freya''s_Curse_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4650,'Valse di Scholastica','Octopath Traveler','2024-05-03T11:42:46.670717+00:00','https://www.youtube.com/watch?v=cDfDJgDbNEg',95560,'https://ocrmirror.org/files/music/remixes/Octopath_Traveler_Valse_di_Scholastica_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -12871,6 +12873,8 @@ INSERT INTO "remix_artist" VALUES(4647,4750,1);
 INSERT INTO "remix_artist" VALUES(4648,10690,1);
 INSERT INTO "remix_artist" VALUES(4649,13667,1);
 INSERT INTO "remix_artist" VALUES(4649,18818,1);
+INSERT INTO "remix_artist" VALUES(4650,18604,1);
+INSERT INTO "remix_artist" VALUES(4650,18821,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -42000,6 +42004,15 @@ INSERT INTO "remix_tag" VALUES(4649,'collab',1);
 INSERT INTO "remix_tag" VALUES(4649,'timesig-3-4',1);
 INSERT INTO "remix_tag" VALUES(4649,'timesig-4-4',1);
 INSERT INTO "remix_tag" VALUES(4649,'timesig-variable',1);
+INSERT INTO "remix_tag" VALUES(4650,'chamber',1);
+INSERT INTO "remix_tag" VALUES(4650,'waltz',1);
+INSERT INTO "remix_tag" VALUES(4650,'clarinet',1);
+INSERT INTO "remix_tag" VALUES(4650,'flute',1);
+INSERT INTO "remix_tag" VALUES(4650,'piano',1);
+INSERT INTO "remix_tag" VALUES(4650,'happy',1);
+INSERT INTO "remix_tag" VALUES(4650,'collab',1);
+INSERT INTO "remix_tag" VALUES(4650,'live-instruments',1);
+INSERT INTO "remix_tag" VALUES(4650,'timesig-3-4',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
