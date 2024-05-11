@@ -1520,6 +1520,8 @@ INSERT INTO "artist" VALUES(18792,'Dane Jacobs','https://ocremix.org/artist/1879
 INSERT INTO "artist" VALUES(18793,'T.O. Bassett','https://ocremix.org/artist/18793/to-bassett');
 INSERT INTO "artist" VALUES(18794,'Dagger_G','https://ocremix.org/artist/18794/dagger-g');
 INSERT INTO "artist" VALUES(18795,'Don_Bozzi','https://ocremix.org/artist/18795/don-bozzi');
+INSERT INTO "artist" VALUES(18802,'Sebastian Mårtensson','https://ocremix.org/artist/18802/sebastian-martensson');
+INSERT INTO "artist" VALUES(18803,'Tove Petersson','https://ocremix.org/artist/18803/tove-petersson');
 INSERT INTO "artist" VALUES(18804,'Niki Yaghmaee','https://ocremix.org/artist/18804/niki-yaghmaee');
 INSERT INTO "artist" VALUES(18805,'BadHairlineProductions','https://ocremix.org/artist/18805/badhairlineproductions');
 INSERT INTO "artist" VALUES(18806,'Insane Cup Posse','https://ocremix.org/artist/18806/insane-cup-posse');
@@ -2338,6 +2340,7 @@ INSERT INTO "game" VALUES(2955,'Donkey Kong 64','https://ocremix.org/game/2955/d
 INSERT INTO "game" VALUES(2956,'Doom 64','https://ocremix.org/game/2956/doom-64-n64');
 INSERT INTO "game" VALUES(3003,'Jet Force Gemini','https://ocremix.org/game/3003/jet-force-gemini-n64');
 INSERT INTO "game" VALUES(3031,'Mischief Makers','https://ocremix.org/game/3031/mischief-makers-n64');
+INSERT INTO "game" VALUES(3039,'Mystical Ninja Starring Goemon','https://ocremix.org/game/3039/mystical-ninja-starring-goemon-n64');
 INSERT INTO "game" VALUES(3070,'Paper Mario','https://ocremix.org/game/3070/paper-mario-n64');
 INSERT INTO "game" VALUES(3137,'Turok: Dinosaur Hunter','https://ocremix.org/game/3137/turok-dinosaur-hunter-n64');
 INSERT INTO "game" VALUES(3206,'A Nightmare on Elm Street','https://ocremix.org/game/3206/nightmare-on-elm-street-nes');
@@ -2486,6 +2489,7 @@ INSERT INTO "game" VALUES(52276,'Final Fantasy IV','https://ocremix.org/game/522
 INSERT INTO "game" VALUES(53998,'Dahna: Megami Tanjou','https://ocremix.org/game/53998/dahna-megami-tanjou-gen');
 INSERT INTO "game" VALUES(54064,'Earthworm Jim','https://ocremix.org/game/54064/earthworm-jim-gen');
 INSERT INTO "game" VALUES(57243,'Sonic Rush Adventure','https://ocremix.org/game/57243/sonic-rush-adventure-nds');
+INSERT INTO "game" VALUES(57617,'Pokémon Mystery Dungeon: Explorers of Sky','https://ocremix.org/game/57617/pokemon-mystery-dungeon-explorers-of-sky-nds');
 INSERT INTO "game" VALUES(57688,'The Legend of Zelda: Spirit Tracks','https://ocremix.org/game/57688/legend-of-zelda-spirit-tracks-nds');
 INSERT INTO "game" VALUES(59073,'Katamari Forever','https://ocremix.org/game/59073/katamari-forever-ps3');
 INSERT INTO "game" VALUES(61403,'Tintin: Prisoners of the Sun','https://ocremix.org/game/61403/tintin-prisoners-of-the-sun-gbc');
@@ -7062,6 +7066,9 @@ INSERT INTO "remix" VALUES(4653,'Mole Total Destroy','Shovel Knight','2024-05-09
 INSERT INTO "remix" VALUES(4654,'The World That Was','Bastion','2024-05-09T11:49:14.735532+00:00','https://www.youtube.com/watch?v=NS-Paw7iGpM',837,'https://ocrmirror.org/files/music/remixes/Bastion_The_World_That_Was_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4655,'Tell Me... Why?','Final Fantasy VIII','2024-05-09T11:49:15.628773+00:00','https://www.youtube.com/watch?v=11QWSeJJ52A',13,'https://ocrmirror.org/files/music/remixes/Final_Fantasy_8_Tell_Me_Why_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4656,'Brinstar Depths (Sin City Mix)','Super Metroid','2024-05-09T11:49:16.392727+00:00','https://www.youtube.com/watch?v=OBUloRmGNH4',74,'https://ocrmirror.org/files/music/remixes/Super_Metroid_Brinstar_Depths_(Sin_City_Mix)_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4657,'Photogenic Ghosts','Mystical Ninja Starring Goemon','2024-05-11T19:22:11.574849+00:00','https://www.youtube.com/watch?v=dUDvvWbFgrw',3039,'https://ocrmirror.org/files/music/remixes/Mystical_Ninja_Starring_Goemon_Photogenic_Ghosts_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4658,'The True Final Fight!','Pokémon Mystery Dungeon: Explorers of Sky','2024-05-11T19:22:12.335828+00:00','https://www.youtube.com/watch?v=3QGO-3jsJ1A',57617,'https://ocrmirror.org/files/music/remixes/Pokemon_Mystery_Dungeon_Explorers_of_Sky_The_True_Final_Fight_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4659,'Twilight Zone','Metroid Prime: Federation Force','2024-05-11T19:22:13.096885+00:00','https://www.youtube.com/watch?v=8qKt1DvTfaE',95784,'https://ocrmirror.org/files/music/remixes/Metroid_Prime_Federation_Force_Twilight_Zone_OC_ReMix.mp3',1);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -12892,6 +12899,13 @@ INSERT INTO "remix_artist" VALUES(4653,18601,1);
 INSERT INTO "remix_artist" VALUES(4654,15062,1);
 INSERT INTO "remix_artist" VALUES(4655,18403,1);
 INSERT INTO "remix_artist" VALUES(4656,4280,1);
+INSERT INTO "remix_artist" VALUES(4657,13500,1);
+INSERT INTO "remix_artist" VALUES(4657,18633,1);
+INSERT INTO "remix_artist" VALUES(4658,13147,1);
+INSERT INTO "remix_artist" VALUES(4659,13667,1);
+INSERT INTO "remix_artist" VALUES(4659,18802,1);
+INSERT INTO "remix_artist" VALUES(4659,14127,1);
+INSERT INTO "remix_artist" VALUES(4659,18803,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -42076,6 +42090,34 @@ INSERT INTO "remix_tag" VALUES(4655,'vocals-female',1);
 INSERT INTO "remix_tag" VALUES(4655,'mellow',1);
 INSERT INTO "remix_tag" VALUES(4655,'peaceful',1);
 INSERT INTO "remix_tag" VALUES(4655,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4657,'funk',1);
+INSERT INTO "remix_tag" VALUES(4657,'rock',1);
+INSERT INTO "remix_tag" VALUES(4657,'electric-guitar',1);
+INSERT INTO "remix_tag" VALUES(4657,'synth',1);
+INSERT INTO "remix_tag" VALUES(4657,'energetic',1);
+INSERT INTO "remix_tag" VALUES(4657,'funky',1);
+INSERT INTO "remix_tag" VALUES(4657,'collab',1);
+INSERT INTO "remix_tag" VALUES(4657,'compo-dod',1);
+INSERT INTO "remix_tag" VALUES(4657,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4657,'timesig-irregular',1);
+INSERT INTO "remix_tag" VALUES(4657,'timesig-variable',1);
+INSERT INTO "remix_tag" VALUES(4658,'fusion',1);
+INSERT INTO "remix_tag" VALUES(4658,'electronic',1);
+INSERT INTO "remix_tag" VALUES(4658,'synth',1);
+INSERT INTO "remix_tag" VALUES(4658,'energetic',1);
+INSERT INTO "remix_tag" VALUES(4658,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4659,'cinematic',1);
+INSERT INTO "remix_tag" VALUES(4659,'rock',1);
+INSERT INTO "remix_tag" VALUES(4659,'electric-guitar',1);
+INSERT INTO "remix_tag" VALUES(4659,'electronic',1);
+INSERT INTO "remix_tag" VALUES(4659,'strings',1);
+INSERT INTO "remix_tag" VALUES(4659,'synth',1);
+INSERT INTO "remix_tag" VALUES(4659,'vocals-voice-acting',1);
+INSERT INTO "remix_tag" VALUES(4659,'solemn',1);
+INSERT INTO "remix_tag" VALUES(4659,'suspenseful',1);
+INSERT INTO "remix_tag" VALUES(4659,'collab',1);
+INSERT INTO "remix_tag" VALUES(4659,'lang-english',1);
+INSERT INTO "remix_tag" VALUES(4659,'timesig-4-4',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
