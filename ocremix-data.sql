@@ -1528,6 +1528,7 @@ INSERT INTO "artist" VALUES(18806,'Insane Cup Posse','https://ocremix.org/artist
 INSERT INTO "artist" VALUES(18812,'Aeroprism','https://ocremix.org/artist/18812/aeroprism');
 INSERT INTO "artist" VALUES(18814,'Chelsea McBride','https://ocremix.org/artist/18814/chelsea-mcbride');
 INSERT INTO "artist" VALUES(18815,'John Robert Matz','https://ocremix.org/artist/18815/john-robert-matz');
+INSERT INTO "artist" VALUES(18816,'Blujak','https://ocremix.org/artist/18816/blujak');
 INSERT INTO "artist" VALUES(18817,'Ordonis','https://ocremix.org/artist/18817/ordonis');
 INSERT INTO "artist" VALUES(18818,'Yami','https://ocremix.org/artist/18818/yami');
 INSERT INTO "artist" VALUES(18819,'Michelle Dreyband','https://ocremix.org/artist/18819/michelle-dreyband');
@@ -7069,6 +7070,7 @@ INSERT INTO "remix" VALUES(4656,'Brinstar Depths (Sin City Mix)','Super Metroid'
 INSERT INTO "remix" VALUES(4657,'Photogenic Ghosts','Mystical Ninja Starring Goemon','2024-05-11T19:22:11.574849+00:00','https://www.youtube.com/watch?v=dUDvvWbFgrw',3039,'https://ocrmirror.org/files/music/remixes/Mystical_Ninja_Starring_Goemon_Photogenic_Ghosts_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4658,'The True Final Fight!','Pokémon Mystery Dungeon: Explorers of Sky','2024-05-11T19:22:12.335828+00:00','https://www.youtube.com/watch?v=3QGO-3jsJ1A',57617,'https://ocrmirror.org/files/music/remixes/Pokemon_Mystery_Dungeon_Explorers_of_Sky_The_True_Final_Fight_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4659,'Twilight Zone','Metroid Prime: Federation Force','2024-05-11T19:22:13.096885+00:00','https://www.youtube.com/watch?v=8qKt1DvTfaE',95784,'https://ocrmirror.org/files/music/remixes/Metroid_Prime_Federation_Force_Twilight_Zone_OC_ReMix.mp3',1);
+INSERT INTO "remix" VALUES(4660,'In My Mother''s Name','Castlevania II: Simon''s Quest','2024-05-13T18:22:24.642261+00:00','https://www.youtube.com/watch?v=z4ii1AkpEz4',19,'https://ocrmirror.org/files/music/remixes/Castlevania_2_In_My_Mother''s_Name_OC_ReMix.mp3',1);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -12906,6 +12908,7 @@ INSERT INTO "remix_artist" VALUES(4659,13667,1);
 INSERT INTO "remix_artist" VALUES(4659,18802,1);
 INSERT INTO "remix_artist" VALUES(4659,14127,1);
 INSERT INTO "remix_artist" VALUES(4659,18803,1);
+INSERT INTO "remix_artist" VALUES(4660,18816,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -42118,6 +42121,18 @@ INSERT INTO "remix_tag" VALUES(4659,'suspenseful',1);
 INSERT INTO "remix_tag" VALUES(4659,'collab',1);
 INSERT INTO "remix_tag" VALUES(4659,'lang-english',1);
 INSERT INTO "remix_tag" VALUES(4659,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4660,'hip-hop',1);
+INSERT INTO "remix_tag" VALUES(4660,'rap',1);
+INSERT INTO "remix_tag" VALUES(4660,'piano',1);
+INSERT INTO "remix_tag" VALUES(4660,'sound-fx',1);
+INSERT INTO "remix_tag" VALUES(4660,'synth',1);
+INSERT INTO "remix_tag" VALUES(4660,'vocals-male',1);
+INSERT INTO "remix_tag" VALUES(4660,'vocals-rapping',1);
+INSERT INTO "remix_tag" VALUES(4660,'aggressive',1);
+INSERT INTO "remix_tag" VALUES(4660,'angry',1);
+INSERT INTO "remix_tag" VALUES(4660,'lang-english',1);
+INSERT INTO "remix_tag" VALUES(4660,'lyrics-original',1);
+INSERT INTO "remix_tag" VALUES(4660,'timesig-4-4',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
