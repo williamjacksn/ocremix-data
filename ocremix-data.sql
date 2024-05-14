@@ -2369,6 +2369,7 @@ INSERT INTO "game" VALUES(4587,'Ys III: Wanderers from Ys','https://ocremix.org/
 INSERT INTO "game" VALUES(5234,'Cannon Fodder','https://ocremix.org/game/5234/cannon-fodder-amiga');
 INSERT INTO "game" VALUES(6031,'Lotus III: The Ultimate Challenge','https://ocremix.org/game/6031/lotus-iii-the-ultimate-challenge-amiga');
 INSERT INTO "game" VALUES(6059,'Marble Madness','https://ocremix.org/game/6059/marble-madness-amiga');
+INSERT INTO "game" VALUES(6081,'Menace','https://ocremix.org/game/6081/menace-amiga');
 INSERT INTO "game" VALUES(6158,'Nicky Boom','https://ocremix.org/game/6158/nicky-boom-amiga');
 INSERT INTO "game" VALUES(6256,'Bio-Hazard Battle','https://ocremix.org/game/6256/bio-hazard-battle-gen');
 INSERT INTO "game" VALUES(6308,'Comix Zone','https://ocremix.org/game/6308/comix-zone-gen');
@@ -7071,6 +7072,7 @@ INSERT INTO "remix" VALUES(4657,'Photogenic Ghosts','Mystical Ninja Starring Goe
 INSERT INTO "remix" VALUES(4658,'The True Final Fight!','Pokémon Mystery Dungeon: Explorers of Sky','2024-05-11T19:22:12.335828+00:00','https://www.youtube.com/watch?v=3QGO-3jsJ1A',57617,'https://ocrmirror.org/files/music/remixes/Pokemon_Mystery_Dungeon_Explorers_of_Sky_The_True_Final_Fight_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4659,'Twilight Zone','Metroid Prime: Federation Force','2024-05-11T19:22:13.096885+00:00','https://www.youtube.com/watch?v=8qKt1DvTfaE',95784,'https://ocrmirror.org/files/music/remixes/Metroid_Prime_Federation_Force_Twilight_Zone_OC_ReMix.mp3',1);
 INSERT INTO "remix" VALUES(4660,'In My Mother''s Name','Castlevania II: Simon''s Quest','2024-05-13T18:22:24.642261+00:00','https://www.youtube.com/watch?v=z4ii1AkpEz4',19,'https://ocrmirror.org/files/music/remixes/Castlevania_2_In_My_Mother''s_Name_OC_ReMix.mp3',1);
+INSERT INTO "remix" VALUES(4661,'Insidious Hazard','Menace','2024-05-14T11:30:32.673426+00:00','https://www.youtube.com/watch?v=cu_bIZ99_3Q',6081,'https://ocrmirror.org/files/music/remixes/Menace_Insidious_Hazard_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -12909,6 +12911,7 @@ INSERT INTO "remix_artist" VALUES(4659,18802,1);
 INSERT INTO "remix_artist" VALUES(4659,14127,1);
 INSERT INTO "remix_artist" VALUES(4659,18803,1);
 INSERT INTO "remix_artist" VALUES(4660,18816,1);
+INSERT INTO "remix_artist" VALUES(4661,17929,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -42133,6 +42136,13 @@ INSERT INTO "remix_tag" VALUES(4660,'angry',1);
 INSERT INTO "remix_tag" VALUES(4660,'lang-english',1);
 INSERT INTO "remix_tag" VALUES(4660,'lyrics-original',1);
 INSERT INTO "remix_tag" VALUES(4660,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4661,'synthwave',1);
+INSERT INTO "remix_tag" VALUES(4661,'electronic',1);
+INSERT INTO "remix_tag" VALUES(4661,'synth',1);
+INSERT INTO "remix_tag" VALUES(4661,'vocals-male',1);
+INSERT INTO "remix_tag" VALUES(4661,'energetic',1);
+INSERT INTO "remix_tag" VALUES(4661,'mellow',1);
+INSERT INTO "remix_tag" VALUES(4661,'timesig-4-4',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
