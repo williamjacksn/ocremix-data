@@ -7074,6 +7074,8 @@ INSERT INTO "remix" VALUES(4659,'Twilight Zone','Metroid Prime: Federation Force
 INSERT INTO "remix" VALUES(4660,'In My Mother''s Name','Castlevania II: Simon''s Quest','2024-05-13T18:22:24.642261+00:00','https://www.youtube.com/watch?v=z4ii1AkpEz4',19,'https://ocrmirror.org/files/music/remixes/Castlevania_2_In_My_Mother''s_Name_OC_ReMix.mp3',1);
 INSERT INTO "remix" VALUES(4661,'Insidious Hazard','Menace','2024-05-14T11:30:32.673426+00:00','https://www.youtube.com/watch?v=cu_bIZ99_3Q',6081,'https://ocrmirror.org/files/music/remixes/Menace_Insidious_Hazard_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4662,'Underwater Caves','Aquaria','2024-05-16T18:38:42.410106+00:00','https://www.youtube.com/watch?v=q3NEhBd71e8',585,'https://ocrmirror.org/files/music/remixes/Aquaria_Underwater_Caves_OC_ReMix.mp3',1);
+INSERT INTO "remix" VALUES(4663,'Jump and Flare','Super Mario Bros. 3','2024-05-19T00:46:49.288540+00:00','https://www.youtube.com/watch?v=niCgiFnI3H0',58,'https://ocrmirror.org/files/music/remixes/Super_Mario_Bros_3_Jump_and_Flare_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4664,'Raga Koopa','Super Mario 64','2024-05-19T00:46:49.931436+00:00','https://www.youtube.com/watch?v=zVv2cSrV7Oc',59,'https://ocrmirror.org/files/music/remixes/Super_Mario_64_Raga_Koopa_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -12914,6 +12916,8 @@ INSERT INTO "remix_artist" VALUES(4659,18803,1);
 INSERT INTO "remix_artist" VALUES(4660,18816,1);
 INSERT INTO "remix_artist" VALUES(4661,17929,1);
 INSERT INTO "remix_artist" VALUES(4662,17929,1);
+INSERT INTO "remix_artist" VALUES(4663,18724,1);
+INSERT INTO "remix_artist" VALUES(4664,18752,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -42156,6 +42160,24 @@ INSERT INTO "remix_tag" VALUES(4662,'dark',1);
 INSERT INTO "remix_tag" VALUES(4662,'lang-english',1);
 INSERT INTO "remix_tag" VALUES(4662,'lyrics-original',1);
 INSERT INTO "remix_tag" VALUES(4662,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4663,'death-metal',1);
+INSERT INTO "remix_tag" VALUES(4663,'metal',1);
+INSERT INTO "remix_tag" VALUES(4663,'electric-guitar',1);
+INSERT INTO "remix_tag" VALUES(4663,'electronic',1);
+INSERT INTO "remix_tag" VALUES(4663,'synth',1);
+INSERT INTO "remix_tag" VALUES(4663,'dark',1);
+INSERT INTO "remix_tag" VALUES(4663,'compo-dod',1);
+INSERT INTO "remix_tag" VALUES(4663,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4664,'flute',1);
+INSERT INTO "remix_tag" VALUES(4664,'hand-drums',1);
+INSERT INTO "remix_tag" VALUES(4664,'sitar',1);
+INSERT INTO "remix_tag" VALUES(4664,'tanpura',1);
+INSERT INTO "remix_tag" VALUES(4664,'vocals-male',1);
+INSERT INTO "remix_tag" VALUES(4664,'mellow',1);
+INSERT INTO "remix_tag" VALUES(4664,'compo-dod',1);
+INSERT INTO "remix_tag" VALUES(4664,'indian',1);
+INSERT INTO "remix_tag" VALUES(4664,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4664,'world',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
