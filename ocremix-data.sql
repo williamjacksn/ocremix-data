@@ -7082,6 +7082,7 @@ INSERT INTO "remix" VALUES(4665,'Flight of the Cosmonauts','Final Fantasy VII','
 INSERT INTO "remix" VALUES(4666,'Down Where Evil Dwells (El Hijo del Diablo)','Graffiti Kingdom','2024-05-20T11:59:51.772712+00:00','https://www.youtube.com/watch?v=7cfKKAnr--k',965,'https://ocrmirror.org/files/music/remixes/Graffiti_Kingdom_Down_Where_Evil_Dwells_(El_Hijo_del_Diablo)_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4667,'Time Flies','Final Fantasy IV','2024-05-20T11:59:52.452376+00:00','https://www.youtube.com/watch?v=bozQL4K5b88',11,'https://ocrmirror.org/files/music/remixes/Final_Fantasy_4_Time_Flies_OC_ReMix.mp3',1);
 INSERT INTO "remix" VALUES(4668,'To the Sky and the Stars','Child of Light','2024-05-22T11:48:15.424938+00:00','https://www.youtube.com/watch?v=Ce0yq6Dw818',95842,'https://ocrmirror.org/files/music/remixes/Child_of_Light_To_the_Sky_and_the_Stars_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4669,'The Healer of Worlds','Star Ocean: The Second Story','2024-05-23T11:58:25.204979+00:00','https://www.youtube.com/watch?v=JURarj5zD1U',283,'https://ocrmirror.org/files/music/remixes/Star_Ocean_The_Second_Story_The_Healer_of_Worlds_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -12935,6 +12936,8 @@ INSERT INTO "remix_artist" VALUES(4668,13668,1);
 INSERT INTO "remix_artist" VALUES(4668,15234,1);
 INSERT INTO "remix_artist" VALUES(4668,18034,1);
 INSERT INTO "remix_artist" VALUES(4668,18362,1);
+INSERT INTO "remix_artist" VALUES(4669,13667,1);
+INSERT INTO "remix_artist" VALUES(4669,14128,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -42240,6 +42243,16 @@ INSERT INTO "remix_tag" VALUES(4668,'collab',1);
 INSERT INTO "remix_tag" VALUES(4668,'live-instruments',1);
 INSERT INTO "remix_tag" VALUES(4668,'resubmission',1);
 INSERT INTO "remix_tag" VALUES(4668,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4669,'cinematic',1);
+INSERT INTO "remix_tag" VALUES(4669,'hand-drums',1);
+INSERT INTO "remix_tag" VALUES(4669,'irish-whistle',1);
+INSERT INTO "remix_tag" VALUES(4669,'piano',1);
+INSERT INTO "remix_tag" VALUES(4669,'strings',1);
+INSERT INTO "remix_tag" VALUES(4669,'epic',1);
+INSERT INTO "remix_tag" VALUES(4669,'sad',1);
+INSERT INTO "remix_tag" VALUES(4669,'solemn',1);
+INSERT INTO "remix_tag" VALUES(4669,'collab',1);
+INSERT INTO "remix_tag" VALUES(4669,'timesig-3-4',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
