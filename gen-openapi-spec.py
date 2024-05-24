@@ -8,7 +8,7 @@ info = {
 }
 
 external_docs = {
-    'description': 'View the project on GitHUb',
+    'description': 'View the project on GitHub',
     'url': 'https://github.com/williamjacksn/ocremix-data'
 }
 
