@@ -2601,6 +2601,7 @@ INSERT INTO "game" VALUES(95846,'Genshin Impact','https://ocremix.org/game/95846
 INSERT INTO "game" VALUES(95847,'Horizon Zero Dawn','https://ocremix.org/game/95847/horizon-zero-dawn-ps4');
 INSERT INTO "game" VALUES(95852,'Cuphead','https://ocremix.org/game/95852/cuphead-win');
 INSERT INTO "game" VALUES(95857,'Finding Paradise','https://ocremix.org/game/95857/finding-paradise-win');
+INSERT INTO "game" VALUES(95861,'Octopath Traveler II','https://ocremix.org/game/95861/octopath-traveler-ii-swtch');
 CREATE TABLE remix (
     id integer primary key,
     title text not null,
@@ -7083,6 +7084,8 @@ INSERT INTO "remix" VALUES(4666,'Down Where Evil Dwells (El Hijo del Diablo)','G
 INSERT INTO "remix" VALUES(4667,'Time Flies','Final Fantasy IV','2024-05-20T11:59:52.452376+00:00','https://www.youtube.com/watch?v=bozQL4K5b88',11,'https://ocrmirror.org/files/music/remixes/Final_Fantasy_4_Time_Flies_OC_ReMix.mp3',1);
 INSERT INTO "remix" VALUES(4668,'To the Sky and the Stars','Child of Light','2024-05-22T11:48:15.424938+00:00','https://www.youtube.com/watch?v=Ce0yq6Dw818',95842,'https://ocrmirror.org/files/music/remixes/Child_of_Light_To_the_Sky_and_the_Stars_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4669,'The Healer of Worlds','Star Ocean: The Second Story','2024-05-23T11:58:25.204979+00:00','https://www.youtube.com/watch?v=JURarj5zD1U',283,'https://ocrmirror.org/files/music/remixes/Star_Ocean_The_Second_Story_The_Healer_of_Worlds_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4670,'Top Gear in Mute City','F-Zero','2024-05-24T12:05:21.312059+00:00','https://www.youtube.com/watch?v=iJYLYde53XI',89,'https://ocrmirror.org/files/music/remixes/F-Zero_Top_Gear_in_Mute_City_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4671,'The Fountain of Doubt','Octopath Traveler II','2024-05-24T12:05:21.955367+00:00',NULL,95861,'https://ocrmirror.org/files/music/remixes/Octopath_Traveler_2_The_Fountain_of_Doubt_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -12938,6 +12941,8 @@ INSERT INTO "remix_artist" VALUES(4668,18034,1);
 INSERT INTO "remix_artist" VALUES(4668,18362,1);
 INSERT INTO "remix_artist" VALUES(4669,13667,1);
 INSERT INTO "remix_artist" VALUES(4669,14128,1);
+INSERT INTO "remix_artist" VALUES(4670,18732,1);
+INSERT INTO "remix_artist" VALUES(4671,9690,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -42253,6 +42258,25 @@ INSERT INTO "remix_tag" VALUES(4669,'sad',1);
 INSERT INTO "remix_tag" VALUES(4669,'solemn',1);
 INSERT INTO "remix_tag" VALUES(4669,'collab',1);
 INSERT INTO "remix_tag" VALUES(4669,'timesig-3-4',1);
+INSERT INTO "remix_tag" VALUES(4670,'synthwave',1);
+INSERT INTO "remix_tag" VALUES(4670,'electric-guitar',1);
+INSERT INTO "remix_tag" VALUES(4670,'electronic',1);
+INSERT INTO "remix_tag" VALUES(4670,'sound-fx',1);
+INSERT INTO "remix_tag" VALUES(4670,'synth',1);
+INSERT INTO "remix_tag" VALUES(4670,'chill',1);
+INSERT INTO "remix_tag" VALUES(4670,'energetic',1);
+INSERT INTO "remix_tag" VALUES(4670,'resubmission',1);
+INSERT INTO "remix_tag" VALUES(4670,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4671,'synthwave',1);
+INSERT INTO "remix_tag" VALUES(4671,'vaporwave',1);
+INSERT INTO "remix_tag" VALUES(4671,'electric-guitar',1);
+INSERT INTO "remix_tag" VALUES(4671,'electronic',1);
+INSERT INTO "remix_tag" VALUES(4671,'synth',1);
+INSERT INTO "remix_tag" VALUES(4671,'dark',1);
+INSERT INTO "remix_tag" VALUES(4671,'energetic',1);
+INSERT INTO "remix_tag" VALUES(4671,'suspenseful',1);
+INSERT INTO "remix_tag" VALUES(4671,'timesig-3-4',1);
+INSERT INTO "remix_tag" VALUES(4671,'timesig-4-4',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
