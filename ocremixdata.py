@@ -365,8 +365,8 @@ def parse_remix_title(html: lxml.html.HtmlElement) -> str:
 
 
 def parse_youtube_url(html: lxml.html.HtmlElement) -> str:
-    el = html.xpath('//a[starts-with(@data-preview, "https://www.youtube.com/watch?v=")]')[0]
-    return el.get('data-preview')
+    for el in html.xpath('//a[starts-with(@data-preview, "https://www.youtube.com/watch?v=")]'):
+        return el.get('data-preview')
 
 
 def write_artist_batch(cnx: sqlite3.Connection, params: list[dict]):
