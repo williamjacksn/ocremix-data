@@ -7088,6 +7088,8 @@ INSERT INTO "remix" VALUES(4669,'The Healer of Worlds','Star Ocean: The Second S
 INSERT INTO "remix" VALUES(4670,'Top Gear in Mute City','F-Zero','2024-05-24T12:05:21.312059+00:00','https://www.youtube.com/watch?v=iJYLYde53XI',89,'https://ocrmirror.org/files/music/remixes/F-Zero_Top_Gear_in_Mute_City_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4671,'The Fountain of Doubt','Octopath Traveler II','2024-05-24T12:05:21.955367+00:00',NULL,95861,'https://ocrmirror.org/files/music/remixes/Octopath_Traveler_2_The_Fountain_of_Doubt_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4672,'Forgotten Shrines','Octopath Traveler II','2024-05-26T00:47:30.242803+00:00','https://www.youtube.com/watch?v=wSpmngyTdBQ',95861,'https://ocrmirror.org/files/music/remixes/Octopath_Traveler_2_Forgotten_Shrines_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4673,'Watery Graves! Majestic Views!','Mario Kart 64','2024-05-27T00:44:19.206536+00:00','https://www.youtube.com/watch?v=Z6NhfD7Og3I',264,'https://ocrmirror.org/files/music/remixes/Mario_Kart_64_Watery_Graves_Majestic_Views_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4674,'Until the Very End','Pokémon Mystery Dungeon: Explorers of Sky','2024-05-27T00:44:19.677355+00:00','https://www.youtube.com/watch?v=ePGsAksIzJc',57617,'https://ocrmirror.org/files/music/remixes/Pokemon_Mystery_Dungeon_Explorers_of_Sky_Until_the_Very_End_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -12947,6 +12949,8 @@ INSERT INTO "remix_artist" VALUES(4670,18732,1);
 INSERT INTO "remix_artist" VALUES(4671,9690,1);
 INSERT INTO "remix_artist" VALUES(4672,18831,1);
 INSERT INTO "remix_artist" VALUES(4672,17937,1);
+INSERT INTO "remix_artist" VALUES(4673,17158,1);
+INSERT INTO "remix_artist" VALUES(4674,17324,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -42288,6 +42292,22 @@ INSERT INTO "remix_tag" VALUES(4672,'chill',1);
 INSERT INTO "remix_tag" VALUES(4672,'mellow',1);
 INSERT INTO "remix_tag" VALUES(4672,'collab',1);
 INSERT INTO "remix_tag" VALUES(4672,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4673,'ambient',1);
+INSERT INTO "remix_tag" VALUES(4673,'experimental',1);
+INSERT INTO "remix_tag" VALUES(4673,'electronic',1);
+INSERT INTO "remix_tag" VALUES(4673,'synth',1);
+INSERT INTO "remix_tag" VALUES(4673,'dark',1);
+INSERT INTO "remix_tag" VALUES(4673,'goofy',1);
+INSERT INTO "remix_tag" VALUES(4673,'quirky',1);
+INSERT INTO "remix_tag" VALUES(4673,'glitching',1);
+INSERT INTO "remix_tag" VALUES(4674,'chamber',1);
+INSERT INTO "remix_tag" VALUES(4674,'cello',1);
+INSERT INTO "remix_tag" VALUES(4674,'harp',1);
+INSERT INTO "remix_tag" VALUES(4674,'sound-fx',1);
+INSERT INTO "remix_tag" VALUES(4674,'mellow',1);
+INSERT INTO "remix_tag" VALUES(4674,'peaceful',1);
+INSERT INTO "remix_tag" VALUES(4674,'sexy',1);
+INSERT INTO "remix_tag" VALUES(4674,'live-instruments',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
