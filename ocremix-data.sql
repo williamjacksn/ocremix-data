@@ -7090,6 +7090,7 @@ INSERT INTO "remix" VALUES(4671,'The Fountain of Doubt','Octopath Traveler II','
 INSERT INTO "remix" VALUES(4672,'Forgotten Shrines','Octopath Traveler II','2024-05-26T00:47:30.242803+00:00','https://www.youtube.com/watch?v=wSpmngyTdBQ',95861,'https://ocrmirror.org/files/music/remixes/Octopath_Traveler_2_Forgotten_Shrines_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4673,'Watery Graves! Majestic Views!','Mario Kart 64','2024-05-27T00:44:19.206536+00:00','https://www.youtube.com/watch?v=Z6NhfD7Og3I',264,'https://ocrmirror.org/files/music/remixes/Mario_Kart_64_Watery_Graves_Majestic_Views_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4674,'Until the Very End','Pokémon Mystery Dungeon: Explorers of Sky','2024-05-27T00:44:19.677355+00:00','https://www.youtube.com/watch?v=ePGsAksIzJc',57617,'https://ocrmirror.org/files/music/remixes/Pokemon_Mystery_Dungeon_Explorers_of_Sky_Until_the_Very_End_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4675,'Unseen Realities','The Legend of Zelda: Twilight Princess','2024-05-28T21:13:16.746247+00:00','https://www.youtube.com/watch?v=qJ8uHJ8FHnY',505,'https://ocrmirror.org/files/music/remixes/Legend_of_Zelda_Twilight_Princess_Unseen_Realities_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -12951,6 +12952,8 @@ INSERT INTO "remix_artist" VALUES(4672,18831,1);
 INSERT INTO "remix_artist" VALUES(4672,17937,1);
 INSERT INTO "remix_artist" VALUES(4673,17158,1);
 INSERT INTO "remix_artist" VALUES(4674,17324,1);
+INSERT INTO "remix_artist" VALUES(4675,17929,1);
+INSERT INTO "remix_artist" VALUES(4675,18804,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -42308,6 +42311,15 @@ INSERT INTO "remix_tag" VALUES(4674,'mellow',1);
 INSERT INTO "remix_tag" VALUES(4674,'peaceful',1);
 INSERT INTO "remix_tag" VALUES(4674,'sexy',1);
 INSERT INTO "remix_tag" VALUES(4674,'live-instruments',1);
+INSERT INTO "remix_tag" VALUES(4675,'cinematic',1);
+INSERT INTO "remix_tag" VALUES(4675,'electro',1);
+INSERT INTO "remix_tag" VALUES(4675,'electronic',1);
+INSERT INTO "remix_tag" VALUES(4675,'strings',1);
+INSERT INTO "remix_tag" VALUES(4675,'synth',1);
+INSERT INTO "remix_tag" VALUES(4675,'violin',1);
+INSERT INTO "remix_tag" VALUES(4675,'dark',1);
+INSERT INTO "remix_tag" VALUES(4675,'energetic',1);
+INSERT INTO "remix_tag" VALUES(4675,'timesig-4-4',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
