@@ -7091,6 +7091,8 @@ INSERT INTO "remix" VALUES(4672,'Forgotten Shrines','Octopath Traveler II','2024
 INSERT INTO "remix" VALUES(4673,'Watery Graves! Majestic Views!','Mario Kart 64','2024-05-27T00:44:19.206536+00:00','https://www.youtube.com/watch?v=Z6NhfD7Og3I',264,'https://ocrmirror.org/files/music/remixes/Mario_Kart_64_Watery_Graves_Majestic_Views_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4674,'Until the Very End','Pokémon Mystery Dungeon: Explorers of Sky','2024-05-27T00:44:19.677355+00:00','https://www.youtube.com/watch?v=ePGsAksIzJc',57617,'https://ocrmirror.org/files/music/remixes/Pokemon_Mystery_Dungeon_Explorers_of_Sky_Until_the_Very_End_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4675,'Unseen Realities','The Legend of Zelda: Twilight Princess','2024-05-28T21:13:16.746247+00:00','https://www.youtube.com/watch?v=qJ8uHJ8FHnY',505,'https://ocrmirror.org/files/music/remixes/Legend_of_Zelda_Twilight_Princess_Unseen_Realities_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4676,'Solace','The Legend of Zelda: Twilight Princess','2024-05-30T23:21:45.443044+00:00','https://www.youtube.com/watch?v=STEKU1bmZ60',505,'https://ocrmirror.org/files/music/remixes/Legend_of_Zelda_Twilight_Princess_Solace_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4677,'Strange Abyss','The Legend of Zelda: Tears of the Kingdom','2024-05-30T23:21:46.072645+00:00','https://www.youtube.com/watch?v=6OqJvl3HsW0',95834,'https://ocrmirror.org/files/music/remixes/Legend_of_Zelda_Tears_of_the_Kingdom_Strange_Abyss_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -12954,6 +12956,8 @@ INSERT INTO "remix_artist" VALUES(4673,17158,1);
 INSERT INTO "remix_artist" VALUES(4674,17324,1);
 INSERT INTO "remix_artist" VALUES(4675,17929,1);
 INSERT INTO "remix_artist" VALUES(4675,18804,1);
+INSERT INTO "remix_artist" VALUES(4676,10690,1);
+INSERT INTO "remix_artist" VALUES(4677,17929,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -42326,6 +42330,22 @@ INSERT INTO "remix_tag" VALUES(4656,'electronic',1);
 INSERT INTO "remix_tag" VALUES(4656,'synth',1);
 INSERT INTO "remix_tag" VALUES(4656,'dark',1);
 INSERT INTO "remix_tag" VALUES(4656,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4676,'easy-listening',1);
+INSERT INTO "remix_tag" VALUES(4676,'electronic',1);
+INSERT INTO "remix_tag" VALUES(4676,'synth',1);
+INSERT INTO "remix_tag" VALUES(4676,'chill',1);
+INSERT INTO "remix_tag" VALUES(4676,'mellow',1);
+INSERT INTO "remix_tag" VALUES(4676,'lo-fi',1);
+INSERT INTO "remix_tag" VALUES(4676,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4677,'breakbeat',1);
+INSERT INTO "remix_tag" VALUES(4677,'breakbeats',1);
+INSERT INTO "remix_tag" VALUES(4677,'electronic',1);
+INSERT INTO "remix_tag" VALUES(4677,'piano',1);
+INSERT INTO "remix_tag" VALUES(4677,'synth',1);
+INSERT INTO "remix_tag" VALUES(4677,'dark',1);
+INSERT INTO "remix_tag" VALUES(4677,'energetic',1);
+INSERT INTO "remix_tag" VALUES(4677,'trippy',1);
+INSERT INTO "remix_tag" VALUES(4677,'timesig-4-4',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
