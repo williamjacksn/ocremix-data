@@ -7095,6 +7095,7 @@ INSERT INTO "remix" VALUES(4676,'Solace','The Legend of Zelda: Twilight Princess
 INSERT INTO "remix" VALUES(4677,'Strange Abyss','The Legend of Zelda: Tears of the Kingdom','2024-05-30T23:21:46.072645+00:00','https://www.youtube.com/watch?v=6OqJvl3HsW0',95834,'https://ocrmirror.org/files/music/remixes/Legend_of_Zelda_Tears_of_the_Kingdom_Strange_Abyss_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4678,'Withered and Forgotten','The Legend of Zelda: Majora''s Mask','2024-06-02T00:48:20.507583+00:00','https://www.youtube.com/watch?v=o14DyZJx_oQ',490,'https://ocrmirror.org/files/music/remixes/Legend_of_Zelda_Majora''s_Mask_Withered_and_Forgotten_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4679,'Cuccoo Feathers','The Legend of Zelda: Ocarina of Time','2024-06-02T00:48:21.008309+00:00','https://www.youtube.com/watch?v=ctm3VaBOFck',67,'https://ocrmirror.org/files/music/remixes/Legend_of_Zelda_Ocarina_of_Time_Cuccoo_Feathers_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4680,'Time Is of the Essence','The Legend of Zelda: Breath of the Wild','2024-06-03T00:45:16.410473+00:00','https://www.youtube.com/watch?v=3x2NM7RwAFg',95359,'https://ocrmirror.org/files/music/remixes/Legend_of_Zelda_Breath_of_the_Wild_Time_Is_of_the_Essence_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -12963,6 +12964,7 @@ INSERT INTO "remix_artist" VALUES(4677,17929,1);
 INSERT INTO "remix_artist" VALUES(4678,14328,1);
 INSERT INTO "remix_artist" VALUES(4679,16119,1);
 INSERT INTO "remix_artist" VALUES(4679,15201,1);
+INSERT INTO "remix_artist" VALUES(4680,13669,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -42367,6 +42369,13 @@ INSERT INTO "remix_tag" VALUES(4679,'detuning',1);
 INSERT INTO "remix_tag" VALUES(4679,'lo-fi',1);
 INSERT INTO "remix_tag" VALUES(4679,'resubmission',1);
 INSERT INTO "remix_tag" VALUES(4679,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4680,'cinematic',1);
+INSERT INTO "remix_tag" VALUES(4680,'brass',1);
+INSERT INTO "remix_tag" VALUES(4680,'orchestral',1);
+INSERT INTO "remix_tag" VALUES(4680,'strings',1);
+INSERT INTO "remix_tag" VALUES(4680,'woodwinds',1);
+INSERT INTO "remix_tag" VALUES(4680,'epic',1);
+INSERT INTO "remix_tag" VALUES(4680,'timesig-4-4',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
