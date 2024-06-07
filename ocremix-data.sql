@@ -1525,6 +1525,7 @@ INSERT INTO "artist" VALUES(18803,'Tove Petersson','https://ocremix.org/artist/1
 INSERT INTO "artist" VALUES(18804,'Niki Yaghmaee','https://ocremix.org/artist/18804/niki-yaghmaee');
 INSERT INTO "artist" VALUES(18805,'BadHairlineProductions','https://ocremix.org/artist/18805/badhairlineproductions');
 INSERT INTO "artist" VALUES(18806,'Insane Cup Posse','https://ocremix.org/artist/18806/insane-cup-posse');
+INSERT INTO "artist" VALUES(18810,'Crashlander','https://ocremix.org/artist/18810/crashlander');
 INSERT INTO "artist" VALUES(18812,'Aeroprism','https://ocremix.org/artist/18812/aeroprism');
 INSERT INTO "artist" VALUES(18814,'Chelsea McBride','https://ocremix.org/artist/18814/chelsea-mcbride');
 INSERT INTO "artist" VALUES(18815,'John Robert Matz','https://ocremix.org/artist/18815/john-robert-matz');
@@ -2604,6 +2605,7 @@ INSERT INTO "game" VALUES(95847,'Horizon Zero Dawn','https://ocremix.org/game/95
 INSERT INTO "game" VALUES(95852,'Cuphead','https://ocremix.org/game/95852/cuphead-win');
 INSERT INTO "game" VALUES(95857,'Finding Paradise','https://ocremix.org/game/95857/finding-paradise-win');
 INSERT INTO "game" VALUES(95859,'Balatro','https://ocremix.org/game/95859/balatro-win');
+INSERT INTO "game" VALUES(95860,'Super Hexagon','https://ocremix.org/game/95860/super-hexagon-ios');
 INSERT INTO "game" VALUES(95861,'Octopath Traveler II','https://ocremix.org/game/95861/octopath-traveler-ii-swtch');
 CREATE TABLE remix (
     id integer primary key,
@@ -7101,6 +7103,9 @@ INSERT INTO "remix" VALUES(4680,'Time Is of the Essence','The Legend of Zelda: B
 INSERT INTO "remix" VALUES(4681,'Two Tides (Sin City Mix)','Ecco: The Tides of Time','2024-06-03T15:11:02.806824+00:00','https://www.youtube.com/watch?v=zHeaaPrUpDc',607,'https://ocrmirror.org/files/music/remixes/Ecco_The_Tides_of_Time_Two_Tides_(Sin_City_Mix)_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4682,'Twin Fire','Streets of Rage','2024-06-04T14:03:31.288257+00:00','https://www.youtube.com/watch?v=yWnfOlw9244',79,'https://ocrmirror.org/files/music/remixes/Streets_of_Rage_Twin_Fire_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4683,'Upping the Ante','Balatro','2024-06-04T14:03:31.778512+00:00','https://www.youtube.com/watch?v=byQofKiHrLs',95859,'https://ocrmirror.org/files/music/remixes/Balatro_Upping_the_Ante_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4684,'The Slow Pull of the Space Docks','Super Mario 64','2024-06-07T03:06:32.426242+00:00','https://www.youtube.com/watch?v=RRqlfZJrNnI',59,'https://ocrmirror.org/files/music/remixes/Super_Mario_64_The_Slow_Pull_of_the_Space_Docks_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4685,'dataDyne Global HQ','Perfect Dark','2024-06-07T03:06:33.049887+00:00','https://www.youtube.com/watch?v=CGG8llGvbsU',252,'https://ocrmirror.org/files/music/remixes/Perfect_Dark_dataDyne_Global_HQ_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4686,'Focused','Super Hexagon','2024-06-07T03:06:33.659476+00:00','https://www.youtube.com/watch?v=hR_ES_yBmfY',95860,'https://ocrmirror.org/files/music/remixes/Super_Hexagon_Focused_OC_ReMix.mp3',1);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -12973,6 +12978,9 @@ INSERT INTO "remix_artist" VALUES(4680,13669,1);
 INSERT INTO "remix_artist" VALUES(4681,4280,1);
 INSERT INTO "remix_artist" VALUES(4682,11494,1);
 INSERT INTO "remix_artist" VALUES(4683,18839,1);
+INSERT INTO "remix_artist" VALUES(4684,18632,1);
+INSERT INTO "remix_artist" VALUES(4685,16101,1);
+INSERT INTO "remix_artist" VALUES(4686,18810,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -42408,6 +42416,32 @@ INSERT INTO "remix_tag" VALUES(4683,'funky',1);
 INSERT INTO "remix_tag" VALUES(4683,'compo-dod',1);
 INSERT INTO "remix_tag" VALUES(4683,'extended-soloing',1);
 INSERT INTO "remix_tag" VALUES(4683,'timesig-7-8',1);
+INSERT INTO "remix_tag" VALUES(4684,'ambient',1);
+INSERT INTO "remix_tag" VALUES(4684,'electronic',1);
+INSERT INTO "remix_tag" VALUES(4684,'piano',1);
+INSERT INTO "remix_tag" VALUES(4684,'sound-fx',1);
+INSERT INTO "remix_tag" VALUES(4684,'strings',1);
+INSERT INTO "remix_tag" VALUES(4684,'synth',1);
+INSERT INTO "remix_tag" VALUES(4684,'chill',1);
+INSERT INTO "remix_tag" VALUES(4684,'dark',1);
+INSERT INTO "remix_tag" VALUES(4684,'suspenseful',1);
+INSERT INTO "remix_tag" VALUES(4684,'resubmission',1);
+INSERT INTO "remix_tag" VALUES(4685,'metal',1);
+INSERT INTO "remix_tag" VALUES(4685,'electric-guitar',1);
+INSERT INTO "remix_tag" VALUES(4685,'aggressive',1);
+INSERT INTO "remix_tag" VALUES(4685,'dark',1);
+INSERT INTO "remix_tag" VALUES(4685,'energetic',1);
+INSERT INTO "remix_tag" VALUES(4685,'suspenseful',1);
+INSERT INTO "remix_tag" VALUES(4685,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4686,'post-rock',1);
+INSERT INTO "remix_tag" VALUES(4686,'rock',1);
+INSERT INTO "remix_tag" VALUES(4686,'singing',1);
+INSERT INTO "remix_tag" VALUES(4686,'vocals-male',1);
+INSERT INTO "remix_tag" VALUES(4686,'aggressive',1);
+INSERT INTO "remix_tag" VALUES(4686,'energetic',1);
+INSERT INTO "remix_tag" VALUES(4686,'lang-english',1);
+INSERT INTO "remix_tag" VALUES(4686,'lyrics-original',1);
+INSERT INTO "remix_tag" VALUES(4686,'timesig-4-4',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
