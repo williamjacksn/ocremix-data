@@ -1540,6 +1540,7 @@ INSERT INTO "artist" VALUES(18828,'Development of Avoid','https://ocremix.org/ar
 INSERT INTO "artist" VALUES(18831,'Hashel','https://ocremix.org/artist/18831/hashel');
 INSERT INTO "artist" VALUES(18832,'7DD9','https://ocremix.org/artist/18832/7dd9');
 INSERT INTO "artist" VALUES(18839,'Mattmatatt','https://ocremix.org/artist/18839/mattmatatt');
+INSERT INTO "artist" VALUES(18844,'100%ROEMER','https://ocremix.org/artist/18844/100-percentroemer');
 CREATE TABLE game (
     id integer primary key,
     name text not null,
@@ -7106,6 +7107,9 @@ INSERT INTO "remix" VALUES(4683,'Upping the Ante','Balatro','2024-06-04T14:03:31
 INSERT INTO "remix" VALUES(4684,'The Slow Pull of the Space Docks','Super Mario 64','2024-06-07T03:06:32.426242+00:00','https://www.youtube.com/watch?v=RRqlfZJrNnI',59,'https://ocrmirror.org/files/music/remixes/Super_Mario_64_The_Slow_Pull_of_the_Space_Docks_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4685,'dataDyne Global HQ','Perfect Dark','2024-06-07T03:06:33.049887+00:00','https://www.youtube.com/watch?v=CGG8llGvbsU',252,'https://ocrmirror.org/files/music/remixes/Perfect_Dark_dataDyne_Global_HQ_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4686,'Focused','Super Hexagon','2024-06-07T03:06:33.659476+00:00','https://www.youtube.com/watch?v=hR_ES_yBmfY',95860,'https://ocrmirror.org/files/music/remixes/Super_Hexagon_Focused_OC_ReMix.mp3',1);
+INSERT INTO "remix" VALUES(4687,'BLOOD CONSTRICTION','Super Metroid','2024-06-10T16:45:56.551811+00:00','https://www.youtube.com/watch?v=yYDvwTqTFTI',74,'https://ocrmirror.org/files/music/remixes/Super_Metroid_BLOOD_CONSTRICTION_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4688,'Hide & Seek','Luigi''s Mansion','2024-06-10T16:45:57.050562+00:00','https://www.youtube.com/watch?v=3AyD7J_pRco',305,'https://ocrmirror.org/files/music/remixes/Luigi''s_Mansion_Hide_&_Seek_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4689,'Forever Spirit','The Legend of Zelda: Ocarina of Time','2024-06-10T16:45:57.546646+00:00','https://www.youtube.com/watch?v=SOQvr321dJ4',67,'https://ocrmirror.org/files/music/remixes/Legend_of_Zelda_Ocarina_of_Time_Forever_Spirit_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -12981,6 +12985,9 @@ INSERT INTO "remix_artist" VALUES(4683,18839,1);
 INSERT INTO "remix_artist" VALUES(4684,18632,1);
 INSERT INTO "remix_artist" VALUES(4685,16101,1);
 INSERT INTO "remix_artist" VALUES(4686,18810,1);
+INSERT INTO "remix_artist" VALUES(4687,18844,1);
+INSERT INTO "remix_artist" VALUES(4688,17929,1);
+INSERT INTO "remix_artist" VALUES(4689,17158,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -42442,6 +42449,29 @@ INSERT INTO "remix_tag" VALUES(4686,'energetic',1);
 INSERT INTO "remix_tag" VALUES(4686,'lang-english',1);
 INSERT INTO "remix_tag" VALUES(4686,'lyrics-original',1);
 INSERT INTO "remix_tag" VALUES(4686,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4687,'ambient',1);
+INSERT INTO "remix_tag" VALUES(4687,'electronic',1);
+INSERT INTO "remix_tag" VALUES(4687,'piano',1);
+INSERT INTO "remix_tag" VALUES(4687,'synth',1);
+INSERT INTO "remix_tag" VALUES(4687,'dark',1);
+INSERT INTO "remix_tag" VALUES(4687,'suspenseful',1);
+INSERT INTO "remix_tag" VALUES(4687,'distortion',1);
+INSERT INTO "remix_tag" VALUES(4687,'resubmission',1);
+INSERT INTO "remix_tag" VALUES(4687,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4688,'big-beat',1);
+INSERT INTO "remix_tag" VALUES(4688,'breakbeats',1);
+INSERT INTO "remix_tag" VALUES(4688,'electronic',1);
+INSERT INTO "remix_tag" VALUES(4688,'ingame-fx',1);
+INSERT INTO "remix_tag" VALUES(4688,'synth',1);
+INSERT INTO "remix_tag" VALUES(4688,'whistling',1);
+INSERT INTO "remix_tag" VALUES(4688,'funky',1);
+INSERT INTO "remix_tag" VALUES(4688,'quirky',1);
+INSERT INTO "remix_tag" VALUES(4688,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4689,'experimental',1);
+INSERT INTO "remix_tag" VALUES(4689,'electronic',1);
+INSERT INTO "remix_tag" VALUES(4689,'synth',1);
+INSERT INTO "remix_tag" VALUES(4689,'dark',1);
+INSERT INTO "remix_tag" VALUES(4689,'solemn',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
