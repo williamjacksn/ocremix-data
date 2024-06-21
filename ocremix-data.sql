@@ -7113,6 +7113,7 @@ INSERT INTO "remix" VALUES(4687,'BLOOD CONSTRICTION','Super Metroid','2024-06-10
 INSERT INTO "remix" VALUES(4688,'Hide & Seek','Luigi''s Mansion','2024-06-10T16:45:57.050562+00:00','https://www.youtube.com/watch?v=3AyD7J_pRco',305,'https://ocrmirror.org/files/music/remixes/Luigi''s_Mansion_Hide_&_Seek_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4689,'Forever Spirit','The Legend of Zelda: Ocarina of Time','2024-06-10T16:45:57.546646+00:00','https://www.youtube.com/watch?v=SOQvr321dJ4',67,'https://ocrmirror.org/files/music/remixes/Legend_of_Zelda_Ocarina_of_Time_Forever_Spirit_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4690,'Going Deeper','Castlevania: Aria of Sorrow','2024-06-20T14:59:10.870753+00:00','https://www.youtube.com/watch?v=jRtiouRf_nU',541,'https://ocrmirror.org/files/music/remixes/Castlevania_Aria_of_Sorrow_Going_Deeper_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4691,'You''re in the Wilderness Now','RuneScape','2024-06-21T14:43:20.304039+00:00','https://www.youtube.com/watch?v=QtWUWZiq9vg',25584,'https://ocrmirror.org/files/music/remixes/RuneScape_You''re_in_the_Wilderness_Now_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -12996,6 +12997,8 @@ INSERT INTO "remix_artist" VALUES(4690,18705,1);
 INSERT INTO "remix_artist" VALUES(4690,18632,1);
 INSERT INTO "remix_artist" VALUES(4690,18847,1);
 INSERT INTO "remix_artist" VALUES(4690,18712,1);
+INSERT INTO "remix_artist" VALUES(4691,10690,1);
+INSERT INTO "remix_artist" VALUES(4691,5655,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -42489,6 +42492,16 @@ INSERT INTO "remix_tag" VALUES(4690,'dark',1);
 INSERT INTO "remix_tag" VALUES(4690,'collab',1);
 INSERT INTO "remix_tag" VALUES(4690,'compo',1);
 INSERT INTO "remix_tag" VALUES(4690,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4691,'downtempo',1);
+INSERT INTO "remix_tag" VALUES(4691,'acoustic-guitar',1);
+INSERT INTO "remix_tag" VALUES(4691,'electronic',1);
+INSERT INTO "remix_tag" VALUES(4691,'piano',1);
+INSERT INTO "remix_tag" VALUES(4691,'synth',1);
+INSERT INTO "remix_tag" VALUES(4691,'chill',1);
+INSERT INTO "remix_tag" VALUES(4691,'collab',1);
+INSERT INTO "remix_tag" VALUES(4691,'detuning',1);
+INSERT INTO "remix_tag" VALUES(4691,'lo-fi',1);
+INSERT INTO "remix_tag" VALUES(4691,'timesig-4-4',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
