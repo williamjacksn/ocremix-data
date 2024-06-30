@@ -1540,6 +1540,7 @@ INSERT INTO "artist" VALUES(18828,'Development of Avoid','https://ocremix.org/ar
 INSERT INTO "artist" VALUES(18831,'Hashel','https://ocremix.org/artist/18831/hashel');
 INSERT INTO "artist" VALUES(18832,'7DD9','https://ocremix.org/artist/18832/7dd9');
 INSERT INTO "artist" VALUES(18839,'Mattmatatt','https://ocremix.org/artist/18839/mattmatatt');
+INSERT INTO "artist" VALUES(18840,'Hotline Sehwani','https://ocremix.org/artist/18840/hotline-sehwani');
 INSERT INTO "artist" VALUES(18843,'Peter Wendin','https://ocremix.org/artist/18843/peter-wendin');
 INSERT INTO "artist" VALUES(18844,'100%ROEMER','https://ocremix.org/artist/18844/100-percentroemer');
 INSERT INTO "artist" VALUES(18847,'Moebius','https://ocremix.org/artist/18847/moebius');
@@ -2610,6 +2611,7 @@ INSERT INTO "game" VALUES(95857,'Finding Paradise','https://ocremix.org/game/958
 INSERT INTO "game" VALUES(95859,'Balatro','https://ocremix.org/game/95859/balatro-win');
 INSERT INTO "game" VALUES(95860,'Super Hexagon','https://ocremix.org/game/95860/super-hexagon-ios');
 INSERT INTO "game" VALUES(95861,'Octopath Traveler II','https://ocremix.org/game/95861/octopath-traveler-ii-swtch');
+INSERT INTO "game" VALUES(95869,'Elden Ring','https://ocremix.org/game/95869/elden-ring-win');
 CREATE TABLE remix (
     id integer primary key,
     title text not null,
@@ -7114,6 +7116,7 @@ INSERT INTO "remix" VALUES(4688,'Hide & Seek','Luigi''s Mansion','2024-06-10T16:
 INSERT INTO "remix" VALUES(4689,'Forever Spirit','The Legend of Zelda: Ocarina of Time','2024-06-10T16:45:57.546646+00:00','https://www.youtube.com/watch?v=SOQvr321dJ4',67,'https://ocrmirror.org/files/music/remixes/Legend_of_Zelda_Ocarina_of_Time_Forever_Spirit_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4690,'Going Deeper','Castlevania: Aria of Sorrow','2024-06-20T14:59:10.870753+00:00','https://www.youtube.com/watch?v=jRtiouRf_nU',541,'https://ocrmirror.org/files/music/remixes/Castlevania_Aria_of_Sorrow_Going_Deeper_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4691,'You''re in the Wilderness Now','RuneScape','2024-06-21T14:43:20.304039+00:00','https://www.youtube.com/watch?v=QtWUWZiq9vg',25584,'https://ocrmirror.org/files/music/remixes/RuneScape_You''re_in_the_Wilderness_Now_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4692,'Goldscourge','Elden Ring','2024-06-30T00:50:45.849165+00:00','https://www.youtube.com/watch?v=mQsMxEV0Zq8',95869,'https://ocrmirror.org/files/music/remixes/Elden_Ring_Goldscourge_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -12999,6 +13002,8 @@ INSERT INTO "remix_artist" VALUES(4690,18847,1);
 INSERT INTO "remix_artist" VALUES(4690,18712,1);
 INSERT INTO "remix_artist" VALUES(4691,10690,1);
 INSERT INTO "remix_artist" VALUES(4691,5655,1);
+INSERT INTO "remix_artist" VALUES(4692,10690,1);
+INSERT INTO "remix_artist" VALUES(4692,18840,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -42502,6 +42507,17 @@ INSERT INTO "remix_tag" VALUES(4691,'collab',1);
 INSERT INTO "remix_tag" VALUES(4691,'detuning',1);
 INSERT INTO "remix_tag" VALUES(4691,'lo-fi',1);
 INSERT INTO "remix_tag" VALUES(4691,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4692,'cinematic',1);
+INSERT INTO "remix_tag" VALUES(4692,'bells',1);
+INSERT INTO "remix_tag" VALUES(4692,'choir',1);
+INSERT INTO "remix_tag" VALUES(4692,'harp',1);
+INSERT INTO "remix_tag" VALUES(4692,'orchestral',1);
+INSERT INTO "remix_tag" VALUES(4692,'strings',1);
+INSERT INTO "remix_tag" VALUES(4692,'dark',1);
+INSERT INTO "remix_tag" VALUES(4692,'collab',1);
+INSERT INTO "remix_tag" VALUES(4692,'distortion',1);
+INSERT INTO "remix_tag" VALUES(4692,'lo-fi',1);
+INSERT INTO "remix_tag" VALUES(4692,'timesig-4-4',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
