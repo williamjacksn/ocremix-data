@@ -1270,6 +1270,7 @@ INSERT INTO "artist" VALUES(17146,'Pyrus','https://ocremix.org/artist/17146/pyru
 INSERT INTO "artist" VALUES(17147,'salle','https://ocremix.org/artist/17147/salle');
 INSERT INTO "artist" VALUES(17148,'Goathead','https://ocremix.org/artist/17148/goathead');
 INSERT INTO "artist" VALUES(17158,'Michael Hudak','https://ocremix.org/artist/17158/michael-hudak');
+INSERT INTO "artist" VALUES(17160,'EsperPhoenix','https://ocremix.org/artist/17160/esperphoenix');
 INSERT INTO "artist" VALUES(17237,'Kain White','https://ocremix.org/artist/17237/kain-white');
 INSERT INTO "artist" VALUES(17239,'Stahalamora','https://ocremix.org/artist/17239/stahalamora');
 INSERT INTO "artist" VALUES(17240,'Clément Panchout','https://ocremix.org/artist/17240/clement-panchout');
@@ -7117,6 +7118,7 @@ INSERT INTO "remix" VALUES(4689,'Forever Spirit','The Legend of Zelda: Ocarina o
 INSERT INTO "remix" VALUES(4690,'Going Deeper','Castlevania: Aria of Sorrow','2024-06-20T14:59:10.870753+00:00','https://www.youtube.com/watch?v=jRtiouRf_nU',541,'https://ocrmirror.org/files/music/remixes/Castlevania_Aria_of_Sorrow_Going_Deeper_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4691,'You''re in the Wilderness Now','RuneScape','2024-06-21T14:43:20.304039+00:00','https://www.youtube.com/watch?v=QtWUWZiq9vg',25584,'https://ocrmirror.org/files/music/remixes/RuneScape_You''re_in_the_Wilderness_Now_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4692,'Goldscourge','Elden Ring','2024-06-30T00:50:45.849165+00:00','https://www.youtube.com/watch?v=mQsMxEV0Zq8',95869,'https://ocrmirror.org/files/music/remixes/Elden_Ring_Goldscourge_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4693,'The Chill of the Rain','Mega Man ZX','2024-07-03T00:45:37.397779+00:00','https://www.youtube.com/watch?v=wqi1iTb2SyE',580,'https://ocrmirror.org/files/music/remixes/Mega_Man_ZX_The_Chill_of_the_Rain_OC_ReMix.mp3',1);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13004,6 +13006,8 @@ INSERT INTO "remix_artist" VALUES(4691,10690,1);
 INSERT INTO "remix_artist" VALUES(4691,5655,1);
 INSERT INTO "remix_artist" VALUES(4692,10690,1);
 INSERT INTO "remix_artist" VALUES(4692,18840,1);
+INSERT INTO "remix_artist" VALUES(4693,5473,1);
+INSERT INTO "remix_artist" VALUES(4693,17160,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -42519,6 +42523,21 @@ INSERT INTO "remix_tag" VALUES(4692,'lo-fi',1);
 INSERT INTO "remix_tag" VALUES(4692,'timesig-4-4',1);
 INSERT INTO "remix_tag" VALUES(4504,'resubmission',1);
 INSERT INTO "remix_tag" VALUES(4548,'lyrics-original',1);
+INSERT INTO "remix_tag" VALUES(4693,'rock',1);
+INSERT INTO "remix_tag" VALUES(4693,'acoustic-guitar',1);
+INSERT INTO "remix_tag" VALUES(4693,'electric-guitar',1);
+INSERT INTO "remix_tag" VALUES(4693,'electronic',1);
+INSERT INTO "remix_tag" VALUES(4693,'singing',1);
+INSERT INTO "remix_tag" VALUES(4693,'synth',1);
+INSERT INTO "remix_tag" VALUES(4693,'vocals-female',1);
+INSERT INTO "remix_tag" VALUES(4693,'vocals-male',1);
+INSERT INTO "remix_tag" VALUES(4693,'aggressive',1);
+INSERT INTO "remix_tag" VALUES(4693,'angry',1);
+INSERT INTO "remix_tag" VALUES(4693,'energetic',1);
+INSERT INTO "remix_tag" VALUES(4693,'collab',1);
+INSERT INTO "remix_tag" VALUES(4693,'dissonance',1);
+INSERT INTO "remix_tag" VALUES(4693,'lang-english',1);
+INSERT INTO "remix_tag" VALUES(4693,'lyrics-original',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
