@@ -7123,6 +7123,7 @@ INSERT INTO "remix" VALUES(4692,'Goldscourge','Elden Ring','2024-06-30T00:50:45.
 INSERT INTO "remix" VALUES(4693,'The Chill of the Rain','Mega Man ZX','2024-07-03T00:45:37.397779+00:00','https://www.youtube.com/watch?v=wqi1iTb2SyE',580,'https://ocrmirror.org/files/music/remixes/Mega_Man_ZX_The_Chill_of_the_Rain_OC_ReMix.mp3',1);
 INSERT INTO "remix" VALUES(4694,'Standard of Light','Final Fantasy V','2024-07-05T00:45:19.863926+00:00','https://www.youtube.com/watch?v=0STvya0wqd4',12,'https://ocrmirror.org/files/music/remixes/Final_Fantasy_5_Standard_of_Light_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4695,'Mission Final','Metroid Prime','2024-07-05T00:45:20.509147+00:00','https://www.youtube.com/watch?v=_eaIuoQ4LRE',425,'https://ocrmirror.org/files/music/remixes/Metroid_Prime_Mission_Final_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4696,'FATE has no forgiveness for those who dare stand against it...','Chrono Cross','2024-07-06T00:44:02.390859+00:00','https://www.youtube.com/watch?v=L0DZBr4jy3U',17,'https://ocrmirror.org/files/music/remixes/Chrono_Cross_FATE_has_no_forgiveness_for_those_who_dare_stand_against_it_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13021,6 +13022,11 @@ INSERT INTO "remix_artist" VALUES(4695,18845,1);
 INSERT INTO "remix_artist" VALUES(4695,17937,1);
 INSERT INTO "remix_artist" VALUES(4695,18846,1);
 INSERT INTO "remix_artist" VALUES(4695,4432,1);
+INSERT INTO "remix_artist" VALUES(4696,16119,1);
+INSERT INTO "remix_artist" VALUES(4696,17063,1);
+INSERT INTO "remix_artist" VALUES(4696,13045,1);
+INSERT INTO "remix_artist" VALUES(4696,13500,1);
+INSERT INTO "remix_artist" VALUES(4696,18839,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -42572,6 +42578,17 @@ INSERT INTO "remix_tag" VALUES(4695,'collab',1);
 INSERT INTO "remix_tag" VALUES(4695,'compo',1);
 INSERT INTO "remix_tag" VALUES(4695,'distortion',1);
 INSERT INTO "remix_tag" VALUES(4695,'glitching',1);
+INSERT INTO "remix_tag" VALUES(4696,'rock',1);
+INSERT INTO "remix_tag" VALUES(4696,'surf',1);
+INSERT INTO "remix_tag" VALUES(4696,'electric-guitar',1);
+INSERT INTO "remix_tag" VALUES(4696,'piano',1);
+INSERT INTO "remix_tag" VALUES(4696,'saxophone',1);
+INSERT INTO "remix_tag" VALUES(4696,'synth',1);
+INSERT INTO "remix_tag" VALUES(4696,'energetic',1);
+INSERT INTO "remix_tag" VALUES(4696,'trippy',1);
+INSERT INTO "remix_tag" VALUES(4696,'collab',1);
+INSERT INTO "remix_tag" VALUES(4696,'compo-dod',1);
+INSERT INTO "remix_tag" VALUES(4696,'timesig-4-4',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
