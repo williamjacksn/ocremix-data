@@ -7125,6 +7125,7 @@ INSERT INTO "remix" VALUES(4694,'Standard of Light','Final Fantasy V','2024-07-0
 INSERT INTO "remix" VALUES(4695,'Mission Final','Metroid Prime','2024-07-05T00:45:20.509147+00:00','https://www.youtube.com/watch?v=_eaIuoQ4LRE',425,'https://ocrmirror.org/files/music/remixes/Metroid_Prime_Mission_Final_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4696,'FATE has no forgiveness for those who dare stand against it...','Chrono Cross','2024-07-06T00:44:02.390859+00:00','https://www.youtube.com/watch?v=L0DZBr4jy3U',17,'https://ocrmirror.org/files/music/remixes/Chrono_Cross_FATE_has_no_forgiveness_for_those_who_dare_stand_against_it_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4697,'Fate of a Goddess','The Legend of Zelda: Oracle of Ages','2024-07-07T00:51:21.249213+00:00',NULL,456,'https://ocrmirror.org/files/music/remixes/Legend_of_Zelda_Oracle_of_Ages_Fate_of_a_Goddess_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4698,'Rain in Winter','NieR','2024-07-08T00:47:53.971869+00:00','https://www.youtube.com/watch?v=1XSkTMK7evw',758,'https://ocrmirror.org/files/music/remixes/NieR_Rain_in_Winter_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13029,6 +13030,9 @@ INSERT INTO "remix_artist" VALUES(4696,13045,1);
 INSERT INTO "remix_artist" VALUES(4696,13500,1);
 INSERT INTO "remix_artist" VALUES(4696,18839,1);
 INSERT INTO "remix_artist" VALUES(4697,17929,1);
+INSERT INTO "remix_artist" VALUES(4698,18606,1);
+INSERT INTO "remix_artist" VALUES(4698,13667,1);
+INSERT INTO "remix_artist" VALUES(4698,10690,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -42596,6 +42600,19 @@ INSERT INTO "remix_tag" VALUES(4697,'electronic',1);
 INSERT INTO "remix_tag" VALUES(4697,'synth',1);
 INSERT INTO "remix_tag" VALUES(4697,'solemn',1);
 INSERT INTO "remix_tag" VALUES(4697,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4698,'experimental',1);
+INSERT INTO "remix_tag" VALUES(4698,'glitch-hop',1);
+INSERT INTO "remix_tag" VALUES(4698,'acoustic-guitar',1);
+INSERT INTO "remix_tag" VALUES(4698,'bells',1);
+INSERT INTO "remix_tag" VALUES(4698,'cello',1);
+INSERT INTO "remix_tag" VALUES(4698,'choir',1);
+INSERT INTO "remix_tag" VALUES(4698,'organ',1);
+INSERT INTO "remix_tag" VALUES(4698,'sound-fx',1);
+INSERT INTO "remix_tag" VALUES(4698,'synth',1);
+INSERT INTO "remix_tag" VALUES(4698,'vocals-female',1);
+INSERT INTO "remix_tag" VALUES(4698,'collab',1);
+INSERT INTO "remix_tag" VALUES(4698,'reversing',1);
+INSERT INTO "remix_tag" VALUES(4698,'timesig-4-4',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
