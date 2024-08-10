@@ -7134,6 +7134,7 @@ INSERT INTO "remix" VALUES(4699,'N•E•O','Crash Bandicoot N. Sane Trilogy','2
 INSERT INTO "remix" VALUES(4700,'On the Shoulders of Giants','Shadow of the Colossus','2024-07-26T13:48:09.885911+00:00','https://www.youtube.com/watch?v=-ejtXrhdq7o',502,'https://ocrmirror.org/files/music/remixes/Shadow_of_the_Colossus_On_the_Shoulders_of_Giants_OC_ReMix.mp3',1);
 INSERT INTO "remix" VALUES(4701,'Don''t Leave Me','Final Fantasy IV','2024-08-08T00:48:26.944638+00:00','https://www.youtube.com/watch?v=mTes2fvMWTY',11,'https://ocrmirror.org/files/music/remixes/Final_Fantasy_4_Don''t_Leave_Me_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4702,'Cristal Galáctico','Bravely Second: End Layer','2024-08-09T00:49:21.996855+00:00','https://www.youtube.com/watch?v=9gvc7nxKJRA',95865,'https://ocrmirror.org/files/music/remixes/Bravely_Second_Cristal_Galactico_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4703,'You Can Always Come Back Here','Undertale','2024-08-10T00:48:31.829408+00:00','https://www.youtube.com/watch?v=BzyRC0iz9q0',95077,'https://ocrmirror.org/files/music/remixes/Undertale_You_Can_Always_Come_Back_Here_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13049,6 +13050,8 @@ INSERT INTO "remix_artist" VALUES(4700,18852,1);
 INSERT INTO "remix_artist" VALUES(4700,18654,1);
 INSERT INTO "remix_artist" VALUES(4701,18857,1);
 INSERT INTO "remix_artist" VALUES(4702,9690,1);
+INSERT INTO "remix_artist" VALUES(4703,10690,1);
+INSERT INTO "remix_artist" VALUES(4703,18840,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -42680,6 +42683,18 @@ INSERT INTO "remix_tag" VALUES(4702,'electronic',1);
 INSERT INTO "remix_tag" VALUES(4702,'synth',1);
 INSERT INTO "remix_tag" VALUES(4702,'chill',1);
 INSERT INTO "remix_tag" VALUES(4702,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4703,'downtempo',1);
+INSERT INTO "remix_tag" VALUES(4703,'hip-hop',1);
+INSERT INTO "remix_tag" VALUES(4703,'electronic',1);
+INSERT INTO "remix_tag" VALUES(4703,'piano',1);
+INSERT INTO "remix_tag" VALUES(4703,'sound-fx',1);
+INSERT INTO "remix_tag" VALUES(4703,'synth',1);
+INSERT INTO "remix_tag" VALUES(4703,'chill',1);
+INSERT INTO "remix_tag" VALUES(4703,'mellow',1);
+INSERT INTO "remix_tag" VALUES(4703,'collab',1);
+INSERT INTO "remix_tag" VALUES(4703,'lo-fi',1);
+INSERT INTO "remix_tag" VALUES(4703,'meditation',1);
+INSERT INTO "remix_tag" VALUES(4703,'timesig-4-4',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
