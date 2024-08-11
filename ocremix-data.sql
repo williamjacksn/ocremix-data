@@ -1346,6 +1346,7 @@ INSERT INTO "artist" VALUES(17948,'MET∆TRON','https://ocremix.org/artist/17948
 INSERT INTO "artist" VALUES(17966,'Julien Mulard','https://ocremix.org/artist/17966/julien-mulard');
 INSERT INTO "artist" VALUES(17976,'Schneider Souza','https://ocremix.org/artist/17976/schneider-souza');
 INSERT INTO "artist" VALUES(17977,'Grospixels','https://ocremix.org/artist/17977/grospixels');
+INSERT INTO "artist" VALUES(17980,'Kev Ragone','https://ocremix.org/artist/17980/kev-ragone');
 INSERT INTO "artist" VALUES(18029,'Kenny Jr.','https://ocremix.org/artist/18029/kenny-jr');
 INSERT INTO "artist" VALUES(18030,'Saxxon Fox','https://ocremix.org/artist/18030/saxxon-fox');
 INSERT INTO "artist" VALUES(18031,'Amerlyn Zeta','https://ocremix.org/artist/18031/amerlyn-zeta');
@@ -7135,6 +7136,7 @@ INSERT INTO "remix" VALUES(4700,'On the Shoulders of Giants','Shadow of the Colo
 INSERT INTO "remix" VALUES(4701,'Don''t Leave Me','Final Fantasy IV','2024-08-08T00:48:26.944638+00:00','https://www.youtube.com/watch?v=mTes2fvMWTY',11,'https://ocrmirror.org/files/music/remixes/Final_Fantasy_4_Don''t_Leave_Me_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4702,'Cristal Galáctico','Bravely Second: End Layer','2024-08-09T00:49:21.996855+00:00','https://www.youtube.com/watch?v=9gvc7nxKJRA',95865,'https://ocrmirror.org/files/music/remixes/Bravely_Second_Cristal_Galactico_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4703,'You Can Always Come Back Here','Undertale','2024-08-10T00:48:31.829408+00:00','https://www.youtube.com/watch?v=BzyRC0iz9q0',95077,'https://ocrmirror.org/files/music/remixes/Undertale_You_Can_Always_Come_Back_Here_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4704,'Battle Against a Sponge','Mega Man X2','2024-08-11T00:53:01.587820+00:00','https://www.youtube.com/watch?v=t1c6LJf4Lzw',412,'https://ocrmirror.org/files/music/remixes/Mega_Man_X2_Battle_Against_a_Sponge_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13052,6 +13054,9 @@ INSERT INTO "remix_artist" VALUES(4701,18857,1);
 INSERT INTO "remix_artist" VALUES(4702,9690,1);
 INSERT INTO "remix_artist" VALUES(4703,10690,1);
 INSERT INTO "remix_artist" VALUES(4703,18840,1);
+INSERT INTO "remix_artist" VALUES(4704,13500,1);
+INSERT INTO "remix_artist" VALUES(4704,17980,1);
+INSERT INTO "remix_artist" VALUES(4704,18839,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -42695,6 +42700,17 @@ INSERT INTO "remix_tag" VALUES(4703,'collab',1);
 INSERT INTO "remix_tag" VALUES(4703,'lo-fi',1);
 INSERT INTO "remix_tag" VALUES(4703,'meditation',1);
 INSERT INTO "remix_tag" VALUES(4703,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4704,'fusion',1);
+INSERT INTO "remix_tag" VALUES(4704,'prog-rock',1);
+INSERT INTO "remix_tag" VALUES(4704,'electric-guitar',1);
+INSERT INTO "remix_tag" VALUES(4704,'electric-piano',1);
+INSERT INTO "remix_tag" VALUES(4704,'synth',1);
+INSERT INTO "remix_tag" VALUES(4704,'energetic',1);
+INSERT INTO "remix_tag" VALUES(4704,'funky',1);
+INSERT INTO "remix_tag" VALUES(4704,'collab',1);
+INSERT INTO "remix_tag" VALUES(4704,'compo-dod',1);
+INSERT INTO "remix_tag" VALUES(4704,'live-instruments',1);
+INSERT INTO "remix_tag" VALUES(4704,'timesig-4-4',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
