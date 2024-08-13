@@ -2620,6 +2620,7 @@ INSERT INTO "game" VALUES(95861,'Octopath Traveler II','https://ocremix.org/game
 INSERT INTO "game" VALUES(95865,'Bravely Second: End Layer','https://ocremix.org/game/95865/bravely-second-end-layer-3ds');
 INSERT INTO "game" VALUES(95867,'Crash Bandicoot N. Sane Trilogy','https://ocremix.org/game/95867/crash-bandicoot-n-sane-trilogy-ps4');
 INSERT INTO "game" VALUES(95869,'Elden Ring','https://ocremix.org/game/95869/elden-ring-win');
+INSERT INTO "game" VALUES(95873,'Inscryption','https://ocremix.org/game/95873/inscryption-win');
 CREATE TABLE remix (
     id integer primary key,
     title text not null,
@@ -7138,6 +7139,8 @@ INSERT INTO "remix" VALUES(4702,'Cristal Galáctico','Bravely Second: End Layer'
 INSERT INTO "remix" VALUES(4703,'You Can Always Come Back Here','Undertale','2024-08-10T00:48:31.829408+00:00','https://www.youtube.com/watch?v=BzyRC0iz9q0',95077,'https://ocrmirror.org/files/music/remixes/Undertale_You_Can_Always_Come_Back_Here_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4704,'Battle Against a Sponge','Mega Man X2','2024-08-11T00:53:01.587820+00:00','https://www.youtube.com/watch?v=t1c6LJf4Lzw',412,'https://ocrmirror.org/files/music/remixes/Mega_Man_X2_Battle_Against_a_Sponge_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4705,'Berdly Unleashed','Deltarune','2024-08-12T00:50:35.566331+00:00','https://www.youtube.com/watch?v=Na-j5sVa934',95557,'https://ocrmirror.org/files/music/remixes/Deltarune_Berdly_Unleashed_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4706,'Fear of a Blank Deathcard','Inscryption','2024-08-13T00:49:57.989272+00:00','https://www.youtube.com/watch?v=TlqCICawxy4',95873,'https://ocrmirror.org/files/music/remixes/Inscryption_Fear_of_a_Blank_Deathcard_OC_ReMix.mp3',1);
+INSERT INTO "remix" VALUES(4707,'Home, Sweet Home','The Legend of Zelda: The Wind Waker','2024-08-13T00:49:58.605380+00:00','https://www.youtube.com/watch?v=Gv7UjL68lXs',377,'https://ocrmirror.org/files/music/remixes/Legend_of_Zelda_Wind_Waker_Home_Sweet_Home_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13059,6 +13062,10 @@ INSERT INTO "remix_artist" VALUES(4704,13500,1);
 INSERT INTO "remix_artist" VALUES(4704,17980,1);
 INSERT INTO "remix_artist" VALUES(4704,18839,1);
 INSERT INTO "remix_artist" VALUES(4705,18329,1);
+INSERT INTO "remix_artist" VALUES(4706,18724,1);
+INSERT INTO "remix_artist" VALUES(4706,13500,1);
+INSERT INTO "remix_artist" VALUES(4706,18601,1);
+INSERT INTO "remix_artist" VALUES(4707,17929,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -42722,6 +42729,34 @@ INSERT INTO "remix_tag" VALUES(4705,'synth',1);
 INSERT INTO "remix_tag" VALUES(4705,'energetic',1);
 INSERT INTO "remix_tag" VALUES(4705,'medley',1);
 INSERT INTO "remix_tag" VALUES(4705,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4706,'metal',1);
+INSERT INTO "remix_tag" VALUES(4706,'cello',1);
+INSERT INTO "remix_tag" VALUES(4706,'electric-guitar',1);
+INSERT INTO "remix_tag" VALUES(4706,'organ',1);
+INSERT INTO "remix_tag" VALUES(4706,'singing',1);
+INSERT INTO "remix_tag" VALUES(4706,'synth',1);
+INSERT INTO "remix_tag" VALUES(4706,'vocals-male',1);
+INSERT INTO "remix_tag" VALUES(4706,'aggressive',1);
+INSERT INTO "remix_tag" VALUES(4706,'angry',1);
+INSERT INTO "remix_tag" VALUES(4706,'dark',1);
+INSERT INTO "remix_tag" VALUES(4706,'collab',1);
+INSERT INTO "remix_tag" VALUES(4706,'compo-dod',1);
+INSERT INTO "remix_tag" VALUES(4706,'duration-long',1);
+INSERT INTO "remix_tag" VALUES(4706,'glitching',1);
+INSERT INTO "remix_tag" VALUES(4706,'lang-english',1);
+INSERT INTO "remix_tag" VALUES(4706,'live-instruments',1);
+INSERT INTO "remix_tag" VALUES(4706,'lyrics-original',1);
+INSERT INTO "remix_tag" VALUES(4706,'medley',1);
+INSERT INTO "remix_tag" VALUES(4706,'timesig-variable',1);
+INSERT INTO "remix_tag" VALUES(4707,'synthwave',1);
+INSERT INTO "remix_tag" VALUES(4707,'bells',1);
+INSERT INTO "remix_tag" VALUES(4707,'electronic',1);
+INSERT INTO "remix_tag" VALUES(4707,'synth',1);
+INSERT INTO "remix_tag" VALUES(4707,'energetic',1);
+INSERT INTO "remix_tag" VALUES(4707,'happy',1);
+INSERT INTO "remix_tag" VALUES(4707,'quirky',1);
+INSERT INTO "remix_tag" VALUES(4707,'medley',1);
+INSERT INTO "remix_tag" VALUES(4707,'timesig-4-4',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
