@@ -1453,6 +1453,7 @@ INSERT INTO "artist" VALUES(18638,'Dionté George','https://ocremix.org/artist/1
 INSERT INTO "artist" VALUES(18639,'Becky Reid','https://ocremix.org/artist/18639/becky-reid');
 INSERT INTO "artist" VALUES(18640,'John Bishop','https://ocremix.org/artist/18640/john-bishop');
 INSERT INTO "artist" VALUES(18642,'Numoon','https://ocremix.org/artist/18642/numoon');
+INSERT INTO "artist" VALUES(18643,'Erika Richards','https://ocremix.org/artist/18643/erika-richards');
 INSERT INTO "artist" VALUES(18648,'sui','https://ocremix.org/artist/18648/sui');
 INSERT INTO "artist" VALUES(18651,'Error 47','https://ocremix.org/artist/18651/error-47');
 INSERT INTO "artist" VALUES(18652,'shieldeater','https://ocremix.org/artist/18652/shieldeater');
@@ -7141,6 +7142,7 @@ INSERT INTO "remix" VALUES(4704,'Battle Against a Sponge','Mega Man X2','2024-08
 INSERT INTO "remix" VALUES(4705,'Berdly Unleashed','Deltarune','2024-08-12T00:50:35.566331+00:00','https://www.youtube.com/watch?v=Na-j5sVa934',95557,'https://ocrmirror.org/files/music/remixes/Deltarune_Berdly_Unleashed_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4706,'Fear of a Blank Deathcard','Inscryption','2024-08-13T00:49:57.989272+00:00','https://www.youtube.com/watch?v=TlqCICawxy4',95873,'https://ocrmirror.org/files/music/remixes/Inscryption_Fear_of_a_Blank_Deathcard_OC_ReMix.mp3',1);
 INSERT INTO "remix" VALUES(4707,'Home, Sweet Home','The Legend of Zelda: The Wind Waker','2024-08-13T00:49:58.605380+00:00','https://www.youtube.com/watch?v=Gv7UjL68lXs',377,'https://ocrmirror.org/files/music/remixes/Legend_of_Zelda_Wind_Waker_Home_Sweet_Home_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4708,'Howling and Hollow','Final Fantasy VII Remake','2024-08-15T00:45:59.429930+00:00','https://www.youtube.com/watch?v=jY0LFr-SZu8',95829,'https://ocrmirror.org/files/music/remixes/Final_Fantasy_7_Remake_Howling_and_Hollow_OC_ReMix.mp3',1);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13066,6 +13068,8 @@ INSERT INTO "remix_artist" VALUES(4706,18724,1);
 INSERT INTO "remix_artist" VALUES(4706,13500,1);
 INSERT INTO "remix_artist" VALUES(4706,18601,1);
 INSERT INTO "remix_artist" VALUES(4707,17929,1);
+INSERT INTO "remix_artist" VALUES(4708,16844,1);
+INSERT INTO "remix_artist" VALUES(4708,18643,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -42757,6 +42761,25 @@ INSERT INTO "remix_tag" VALUES(4707,'happy',1);
 INSERT INTO "remix_tag" VALUES(4707,'quirky',1);
 INSERT INTO "remix_tag" VALUES(4707,'medley',1);
 INSERT INTO "remix_tag" VALUES(4707,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4708,'ballad',1);
+INSERT INTO "remix_tag" VALUES(4708,'rock',1);
+INSERT INTO "remix_tag" VALUES(4708,'accordion',1);
+INSERT INTO "remix_tag" VALUES(4708,'acoustic-guitar',1);
+INSERT INTO "remix_tag" VALUES(4708,'bouzouki',1);
+INSERT INTO "remix_tag" VALUES(4708,'electric-guitar',1);
+INSERT INTO "remix_tag" VALUES(4708,'harp',1);
+INSERT INTO "remix_tag" VALUES(4708,'organ',1);
+INSERT INTO "remix_tag" VALUES(4708,'piano',1);
+INSERT INTO "remix_tag" VALUES(4708,'singing',1);
+INSERT INTO "remix_tag" VALUES(4708,'vocals-female',1);
+INSERT INTO "remix_tag" VALUES(4708,'energetic',1);
+INSERT INTO "remix_tag" VALUES(4708,'sad',1);
+INSERT INTO "remix_tag" VALUES(4708,'solemn',1);
+INSERT INTO "remix_tag" VALUES(4708,'collab',1);
+INSERT INTO "remix_tag" VALUES(4708,'compo-dod',1);
+INSERT INTO "remix_tag" VALUES(4708,'live-instruments',1);
+INSERT INTO "remix_tag" VALUES(4708,'lyrics-existing',1);
+INSERT INTO "remix_tag" VALUES(4708,'timesig-4-4',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
