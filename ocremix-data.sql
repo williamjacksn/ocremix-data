@@ -7144,6 +7144,7 @@ INSERT INTO "remix" VALUES(4705,'Berdly Unleashed','Deltarune','2024-08-12T00:50
 INSERT INTO "remix" VALUES(4706,'Fear of a Blank Deathcard','Inscryption','2024-08-13T00:49:57.989272+00:00','https://www.youtube.com/watch?v=TlqCICawxy4',95873,'https://ocrmirror.org/files/music/remixes/Inscryption_Fear_of_a_Blank_Deathcard_OC_ReMix.mp3',1);
 INSERT INTO "remix" VALUES(4707,'Home, Sweet Home','The Legend of Zelda: The Wind Waker','2024-08-13T00:49:58.605380+00:00','https://www.youtube.com/watch?v=Gv7UjL68lXs',377,'https://ocrmirror.org/files/music/remixes/Legend_of_Zelda_Wind_Waker_Home_Sweet_Home_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4708,'Howling and Hollow','Final Fantasy VII Remake','2024-08-15T00:45:59.429930+00:00','https://www.youtube.com/watch?v=jY0LFr-SZu8',95829,'https://ocrmirror.org/files/music/remixes/Final_Fantasy_7_Remake_Howling_and_Hollow_OC_ReMix.mp3',1);
+INSERT INTO "remix" VALUES(4709,'Legendary Depths','The Legend of Zelda: Ocarina of Time','2024-08-16T00:48:02.234388+00:00','https://www.youtube.com/watch?v=9eAIuPFvn5E',67,'https://ocrmirror.org/files/music/remixes/Legend_of_Zelda_Ocarina_of_Time_Legendary_Depths_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13072,6 +13073,10 @@ INSERT INTO "remix_artist" VALUES(4707,17929,1);
 INSERT INTO "remix_artist" VALUES(4708,16844,1);
 INSERT INTO "remix_artist" VALUES(4708,18643,1);
 INSERT INTO "remix_artist" VALUES(1368,18861,1);
+INSERT INTO "remix_artist" VALUES(4709,14375,1);
+INSERT INTO "remix_artist" VALUES(4709,16615,1);
+INSERT INTO "remix_artist" VALUES(4709,16937,1);
+INSERT INTO "remix_artist" VALUES(4709,18590,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -42782,6 +42787,21 @@ INSERT INTO "remix_tag" VALUES(4708,'compo-dod',1);
 INSERT INTO "remix_tag" VALUES(4708,'live-instruments',1);
 INSERT INTO "remix_tag" VALUES(4708,'lyrics-existing',1);
 INSERT INTO "remix_tag" VALUES(4708,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4709,'cinematic',1);
+INSERT INTO "remix_tag" VALUES(4709,'bells',1);
+INSERT INTO "remix_tag" VALUES(4709,'choir',1);
+INSERT INTO "remix_tag" VALUES(4709,'flute',1);
+INSERT INTO "remix_tag" VALUES(4709,'hand-drums',1);
+INSERT INTO "remix_tag" VALUES(4709,'oboe',1);
+INSERT INTO "remix_tag" VALUES(4709,'orchestral',1);
+INSERT INTO "remix_tag" VALUES(4709,'sound-fx',1);
+INSERT INTO "remix_tag" VALUES(4709,'strings',1);
+INSERT INTO "remix_tag" VALUES(4709,'woodwinds',1);
+INSERT INTO "remix_tag" VALUES(4709,'mystical',1);
+INSERT INTO "remix_tag" VALUES(4709,'peaceful',1);
+INSERT INTO "remix_tag" VALUES(4709,'collab',1);
+INSERT INTO "remix_tag" VALUES(4709,'medley',1);
+INSERT INTO "remix_tag" VALUES(4709,'tempo-variable',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
