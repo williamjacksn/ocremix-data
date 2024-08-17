@@ -7145,6 +7145,7 @@ INSERT INTO "remix" VALUES(4706,'Fear of a Blank Deathcard','Inscryption','2024-
 INSERT INTO "remix" VALUES(4707,'Home, Sweet Home','The Legend of Zelda: The Wind Waker','2024-08-13T00:49:58.605380+00:00','https://www.youtube.com/watch?v=Gv7UjL68lXs',377,'https://ocrmirror.org/files/music/remixes/Legend_of_Zelda_Wind_Waker_Home_Sweet_Home_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4708,'Howling and Hollow','Final Fantasy VII Remake','2024-08-15T00:45:59.429930+00:00','https://www.youtube.com/watch?v=jY0LFr-SZu8',95829,'https://ocrmirror.org/files/music/remixes/Final_Fantasy_7_Remake_Howling_and_Hollow_OC_ReMix.mp3',1);
 INSERT INTO "remix" VALUES(4709,'Legendary Depths','The Legend of Zelda: Ocarina of Time','2024-08-16T00:48:02.234388+00:00','https://www.youtube.com/watch?v=9eAIuPFvn5E',67,'https://ocrmirror.org/files/music/remixes/Legend_of_Zelda_Ocarina_of_Time_Legendary_Depths_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4710,'Big Apple Bass','Teenage Mutant Ninja Turtles IV: Turtles in Time','2024-08-17T00:46:21.582076+00:00','https://www.youtube.com/watch?v=3Gb-NCQhy44',421,'https://ocrmirror.org/files/music/remixes/Teenage_Mutant_Ninja_Turtles_4_Big_Apple_Bass_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13077,6 +13078,7 @@ INSERT INTO "remix_artist" VALUES(4709,14375,1);
 INSERT INTO "remix_artist" VALUES(4709,16615,1);
 INSERT INTO "remix_artist" VALUES(4709,16937,1);
 INSERT INTO "remix_artist" VALUES(4709,18590,1);
+INSERT INTO "remix_artist" VALUES(4710,18752,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -42802,6 +42804,13 @@ INSERT INTO "remix_tag" VALUES(4709,'peaceful',1);
 INSERT INTO "remix_tag" VALUES(4709,'collab',1);
 INSERT INTO "remix_tag" VALUES(4709,'medley',1);
 INSERT INTO "remix_tag" VALUES(4709,'tempo-variable',1);
+INSERT INTO "remix_tag" VALUES(4710,'jazz',1);
+INSERT INTO "remix_tag" VALUES(4710,'swing',1);
+INSERT INTO "remix_tag" VALUES(4710,'vibraphone',1);
+INSERT INTO "remix_tag" VALUES(4710,'energetic',1);
+INSERT INTO "remix_tag" VALUES(4710,'jazzy',1);
+INSERT INTO "remix_tag" VALUES(4710,'duration-short',1);
+INSERT INTO "remix_tag" VALUES(4710,'timesig-4-4',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
