@@ -2365,6 +2365,7 @@ INSERT INTO "game" VALUES(3214,'Arkista''s Ring','https://ocremix.org/game/3214/
 INSERT INTO "game" VALUES(3253,'Batman: Return of the Joker','https://ocremix.org/game/3253/batman-return-of-the-joker-nes');
 INSERT INTO "game" VALUES(3454,'The Goonies','https://ocremix.org/game/3454/goonies-nes');
 INSERT INTO "game" VALUES(3457,'Gremlins 2: The New Batch','https://ocremix.org/game/3457/gremlins-2-the-new-batch-nes');
+INSERT INTO "game" VALUES(3565,'Aleste 2','https://ocremix.org/game/3565/aleste-2-msx');
 INSERT INTO "game" VALUES(3723,'Dragon Slayer: The Legend of Heroes','https://ocremix.org/game/3723/dragon-slayer-the-legend-of-heroes-msx');
 INSERT INTO "game" VALUES(3804,'Nemesis','https://ocremix.org/game/3804/nemesis-msx');
 INSERT INTO "game" VALUES(3848,'Illusion City','https://ocremix.org/game/3848/illusion-city-msx');
@@ -7146,6 +7147,7 @@ INSERT INTO "remix" VALUES(4707,'Home, Sweet Home','The Legend of Zelda: The Win
 INSERT INTO "remix" VALUES(4708,'Howling and Hollow','Final Fantasy VII Remake','2024-08-15T00:45:59.429930+00:00','https://www.youtube.com/watch?v=jY0LFr-SZu8',95829,'https://ocrmirror.org/files/music/remixes/Final_Fantasy_7_Remake_Howling_and_Hollow_OC_ReMix.mp3',1);
 INSERT INTO "remix" VALUES(4709,'Legendary Depths','The Legend of Zelda: Ocarina of Time','2024-08-16T00:48:02.234388+00:00','https://www.youtube.com/watch?v=9eAIuPFvn5E',67,'https://ocrmirror.org/files/music/remixes/Legend_of_Zelda_Ocarina_of_Time_Legendary_Depths_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4710,'Big Apple Bass','Teenage Mutant Ninja Turtles IV: Turtles in Time','2024-08-17T00:46:21.582076+00:00','https://www.youtube.com/watch?v=3Gb-NCQhy44',421,'https://ocrmirror.org/files/music/remixes/Teenage_Mutant_Ninja_Turtles_4_Big_Apple_Bass_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4711,'Flying High','Aleste 2','2024-08-18T00:52:23.832362+00:00','https://www.youtube.com/watch?v=Rd2vru78-QY',3565,'https://ocrmirror.org/files/music/remixes/Aleste_2_Flying_High_OC_ReMix.mp3',1);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13079,6 +13081,7 @@ INSERT INTO "remix_artist" VALUES(4709,16615,1);
 INSERT INTO "remix_artist" VALUES(4709,16937,1);
 INSERT INTO "remix_artist" VALUES(4709,18590,1);
 INSERT INTO "remix_artist" VALUES(4710,18752,1);
+INSERT INTO "remix_artist" VALUES(4711,14461,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -42811,6 +42814,18 @@ INSERT INTO "remix_tag" VALUES(4710,'energetic',1);
 INSERT INTO "remix_tag" VALUES(4710,'jazzy',1);
 INSERT INTO "remix_tag" VALUES(4710,'duration-short',1);
 INSERT INTO "remix_tag" VALUES(4710,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4711,'synthwave',1);
+INSERT INTO "remix_tag" VALUES(4711,'electric-guitar',1);
+INSERT INTO "remix_tag" VALUES(4711,'electronic',1);
+INSERT INTO "remix_tag" VALUES(4711,'singing',1);
+INSERT INTO "remix_tag" VALUES(4711,'synth',1);
+INSERT INTO "remix_tag" VALUES(4711,'vocals-female',1);
+INSERT INTO "remix_tag" VALUES(4711,'energetic',1);
+INSERT INTO "remix_tag" VALUES(4711,'happy',1);
+INSERT INTO "remix_tag" VALUES(4711,'lang-english',1);
+INSERT INTO "remix_tag" VALUES(4711,'lyrics-original',1);
+INSERT INTO "remix_tag" VALUES(4711,'resubmission',1);
+INSERT INTO "remix_tag" VALUES(4711,'timesig-4-4',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
