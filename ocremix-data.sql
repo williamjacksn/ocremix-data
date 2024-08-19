@@ -7148,6 +7148,8 @@ INSERT INTO "remix" VALUES(4708,'Howling and Hollow','Final Fantasy VII Remake',
 INSERT INTO "remix" VALUES(4709,'Legendary Depths','The Legend of Zelda: Ocarina of Time','2024-08-16T00:48:02.234388+00:00','https://www.youtube.com/watch?v=9eAIuPFvn5E',67,'https://ocrmirror.org/files/music/remixes/Legend_of_Zelda_Ocarina_of_Time_Legendary_Depths_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4710,'Big Apple Bass','Teenage Mutant Ninja Turtles IV: Turtles in Time','2024-08-17T00:46:21.582076+00:00','https://www.youtube.com/watch?v=3Gb-NCQhy44',421,'https://ocrmirror.org/files/music/remixes/Teenage_Mutant_Ninja_Turtles_4_Big_Apple_Bass_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4711,'Flying High','Aleste 2','2024-08-18T00:52:23.832362+00:00','https://www.youtube.com/watch?v=Rd2vru78-QY',3565,'https://ocrmirror.org/files/music/remixes/Aleste_2_Flying_High_OC_ReMix.mp3',1);
+INSERT INTO "remix" VALUES(4712,'Cosmic Contemplation','Mass Effect','2024-08-19T00:49:47.238461+00:00','https://www.youtube.com/watch?v=r5YrQqunO2I',619,'https://ocrmirror.org/files/music/remixes/Mass_Effect_Cosmic_Contemplation_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4713,'Stuck in My Head','Touhou Fuujinroku: Mountain of Faith','2024-08-19T00:49:47.892071+00:00','https://www.youtube.com/watch?v=IgTo9lM7RGM',51885,'https://ocrmirror.org/files/music/remixes/Touhou_Fuujinroku_Mountain_of_Faith_Stuck_in_My_Head_OC_ReMix.mp3',1);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13082,6 +13084,9 @@ INSERT INTO "remix_artist" VALUES(4709,16937,1);
 INSERT INTO "remix_artist" VALUES(4709,18590,1);
 INSERT INTO "remix_artist" VALUES(4710,18752,1);
 INSERT INTO "remix_artist" VALUES(4711,14461,1);
+INSERT INTO "remix_artist" VALUES(4712,4695,1);
+INSERT INTO "remix_artist" VALUES(4713,12364,1);
+INSERT INTO "remix_artist" VALUES(4713,13046,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -42826,6 +42831,23 @@ INSERT INTO "remix_tag" VALUES(4711,'lang-english',1);
 INSERT INTO "remix_tag" VALUES(4711,'lyrics-original',1);
 INSERT INTO "remix_tag" VALUES(4711,'resubmission',1);
 INSERT INTO "remix_tag" VALUES(4711,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4712,'edm',1);
+INSERT INTO "remix_tag" VALUES(4712,'trance',1);
+INSERT INTO "remix_tag" VALUES(4712,'electronic',1);
+INSERT INTO "remix_tag" VALUES(4712,'synth',1);
+INSERT INTO "remix_tag" VALUES(4712,'dark',1);
+INSERT INTO "remix_tag" VALUES(4712,'timesig-3-4',1);
+INSERT INTO "remix_tag" VALUES(4713,'edm',1);
+INSERT INTO "remix_tag" VALUES(4713,'hip-hop',1);
+INSERT INTO "remix_tag" VALUES(4713,'electronic',1);
+INSERT INTO "remix_tag" VALUES(4713,'synth',1);
+INSERT INTO "remix_tag" VALUES(4713,'vocals-male',1);
+INSERT INTO "remix_tag" VALUES(4713,'sad',1);
+INSERT INTO "remix_tag" VALUES(4713,'solemn',1);
+INSERT INTO "remix_tag" VALUES(4713,'collab',1);
+INSERT INTO "remix_tag" VALUES(4713,'lang-english',1);
+INSERT INTO "remix_tag" VALUES(4713,'lyrics-original',1);
+INSERT INTO "remix_tag" VALUES(4713,'timesig-4-4',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
