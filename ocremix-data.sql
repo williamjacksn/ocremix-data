@@ -7150,6 +7150,7 @@ INSERT INTO "remix" VALUES(4710,'Big Apple Bass','Teenage Mutant Ninja Turtles I
 INSERT INTO "remix" VALUES(4711,'Flying High','Aleste 2','2024-08-18T00:52:23.832362+00:00','https://www.youtube.com/watch?v=Rd2vru78-QY',3565,'https://ocrmirror.org/files/music/remixes/Aleste_2_Flying_High_OC_ReMix.mp3',1);
 INSERT INTO "remix" VALUES(4712,'Cosmic Contemplation','Mass Effect','2024-08-19T00:49:47.238461+00:00','https://www.youtube.com/watch?v=r5YrQqunO2I',619,'https://ocrmirror.org/files/music/remixes/Mass_Effect_Cosmic_Contemplation_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4713,'Stuck in My Head','Touhou Fuujinroku: Mountain of Faith','2024-08-19T00:49:47.892071+00:00','https://www.youtube.com/watch?v=IgTo9lM7RGM',51885,'https://ocrmirror.org/files/music/remixes/Touhou_Fuujinroku_Mountain_of_Faith_Stuck_in_My_Head_OC_ReMix.mp3',1);
+INSERT INTO "remix" VALUES(4714,'Smoke & Marbles','Castlevania: Symphony of the Night','2024-08-20T00:48:08.719544+00:00','https://www.youtube.com/watch?v=zk-5uGKPurk',105,'https://ocrmirror.org/files/music/remixes/Castlevania_Symphony_of_the_Night_Smoke_&_Marbles_OC_ReMix.mp3',1);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13087,6 +13088,9 @@ INSERT INTO "remix_artist" VALUES(4711,14461,1);
 INSERT INTO "remix_artist" VALUES(4712,4695,1);
 INSERT INTO "remix_artist" VALUES(4713,12364,1);
 INSERT INTO "remix_artist" VALUES(4713,13046,1);
+INSERT INTO "remix_artist" VALUES(4714,10690,1);
+INSERT INTO "remix_artist" VALUES(4714,13667,1);
+INSERT INTO "remix_artist" VALUES(4714,16119,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -42848,6 +42852,17 @@ INSERT INTO "remix_tag" VALUES(4713,'collab',1);
 INSERT INTO "remix_tag" VALUES(4713,'lang-english',1);
 INSERT INTO "remix_tag" VALUES(4713,'lyrics-original',1);
 INSERT INTO "remix_tag" VALUES(4713,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4714,'jazz',1);
+INSERT INTO "remix_tag" VALUES(4714,'electric-guitar',1);
+INSERT INTO "remix_tag" VALUES(4714,'piano',1);
+INSERT INTO "remix_tag" VALUES(4714,'sound-fx',1);
+INSERT INTO "remix_tag" VALUES(4714,'vibraphone',1);
+INSERT INTO "remix_tag" VALUES(4714,'vocals-voice-acting',1);
+INSERT INTO "remix_tag" VALUES(4714,'chill',1);
+INSERT INTO "remix_tag" VALUES(4714,'jazzy',1);
+INSERT INTO "remix_tag" VALUES(4714,'mellow',1);
+INSERT INTO "remix_tag" VALUES(4714,'collab',1);
+INSERT INTO "remix_tag" VALUES(4714,'timesig-4-4',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
