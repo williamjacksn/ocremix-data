@@ -2428,6 +2428,7 @@ INSERT INTO "game" VALUES(11028,'Front Mission: Gun Hazard','https://ocremix.org
 INSERT INTO "game" VALUES(11121,'Kirby''s Dream Land 3','https://ocremix.org/game/11121/kirbys-dream-land-3-snes');
 INSERT INTO "game" VALUES(11134,'The Lawnmower Man','https://ocremix.org/game/11134/lawnmower-man-snes');
 INSERT INTO "game" VALUES(11250,'Paladin''s Quest','https://ocremix.org/game/11250/paladins-quest-snes');
+INSERT INTO "game" VALUES(11251,'Paperboy 2','https://ocremix.org/game/11251/paperboy-2-snes');
 INSERT INTO "game" VALUES(11252,'Parodius','https://ocremix.org/game/11252/parodius-snes');
 INSERT INTO "game" VALUES(11271,'Pop''n TwinBee: Rainbow Bell Adventures','https://ocremix.org/game/11271/popn-twinbee-rainbow-bell-adventures-snes');
 INSERT INTO "game" VALUES(11278,'Prince of Persia','https://ocremix.org/game/11278/prince-of-persia-snes');
@@ -7152,6 +7153,7 @@ INSERT INTO "remix" VALUES(4712,'Cosmic Contemplation','Mass Effect','2024-08-19
 INSERT INTO "remix" VALUES(4713,'Stuck in My Head','Touhou Fuujinroku: Mountain of Faith','2024-08-19T00:49:47.892071+00:00','https://www.youtube.com/watch?v=IgTo9lM7RGM',51885,'https://ocrmirror.org/files/music/remixes/Touhou_Fuujinroku_Mountain_of_Faith_Stuck_in_My_Head_OC_ReMix.mp3',1);
 INSERT INTO "remix" VALUES(4714,'Smoke & Marbles','Castlevania: Symphony of the Night','2024-08-20T00:48:08.719544+00:00','https://www.youtube.com/watch?v=zk-5uGKPurk',105,'https://ocrmirror.org/files/music/remixes/Castlevania_Symphony_of_the_Night_Smoke_&_Marbles_OC_ReMix.mp3',1);
 INSERT INTO "remix" VALUES(4715,'From the Edge of Defeat','Secret of Mana','2024-08-21T00:48:00.132242+00:00','https://www.youtube.com/watch?v=p_6p89Pqs_4',61,'https://ocrmirror.org/files/music/remixes/Secret_of_Mana_From_the_Edge_of_Defeat_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4716,'Stunt Course on Easy Street','Paperboy 2','2024-08-22T00:50:13.109618+00:00','https://www.youtube.com/watch?v=8g8A6KlJ610',11251,'https://ocrmirror.org/files/music/remixes/Paperboy_2_Stunt_Course_on_Easy_Street_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13095,6 +13097,8 @@ INSERT INTO "remix_artist" VALUES(4714,16119,1);
 INSERT INTO "remix_artist" VALUES(4715,13500,1);
 INSERT INTO "remix_artist" VALUES(4715,18724,1);
 INSERT INTO "remix_artist" VALUES(4715,18601,1);
+INSERT INTO "remix_artist" VALUES(4716,18724,1);
+INSERT INTO "remix_artist" VALUES(4716,18725,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -42880,6 +42884,14 @@ INSERT INTO "remix_tag" VALUES(4715,'collab',1);
 INSERT INTO "remix_tag" VALUES(4715,'compo-dod',1);
 INSERT INTO "remix_tag" VALUES(4715,'timesig-4-4',1);
 INSERT INTO "remix_tag" VALUES(4715,'timesig-variable',1);
+INSERT INTO "remix_tag" VALUES(4716,'blues',1);
+INSERT INTO "remix_tag" VALUES(4716,'brass',1);
+INSERT INTO "remix_tag" VALUES(4716,'electric-guitar',1);
+INSERT INTO "remix_tag" VALUES(4716,'energetic',1);
+INSERT INTO "remix_tag" VALUES(4716,'funky',1);
+INSERT INTO "remix_tag" VALUES(4716,'collab',1);
+INSERT INTO "remix_tag" VALUES(4716,'compo-dod',1);
+INSERT INTO "remix_tag" VALUES(4716,'timesig-4-4',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
