@@ -1550,6 +1550,8 @@ INSERT INTO "artist" VALUES(18845,'lunarice','https://ocremix.org/artist/18845/l
 INSERT INTO "artist" VALUES(18846,'Ronald Poe','https://ocremix.org/artist/18846/ronald-poe');
 INSERT INTO "artist" VALUES(18847,'Moebius','https://ocremix.org/artist/18847/moebius');
 INSERT INTO "artist" VALUES(18852,'Na Daoine Laghairt','https://ocremix.org/artist/18852/na-daoine-laghairt');
+INSERT INTO "artist" VALUES(18855,'Valentino Francavilla','https://ocremix.org/artist/18855/valentino-francavilla');
+INSERT INTO "artist" VALUES(18856,'Susanna Gray-Jones','https://ocremix.org/artist/18856/susanna-gray-jones');
 INSERT INTO "artist" VALUES(18857,'Chromatic Walnut','https://ocremix.org/artist/18857/chromatic-walnut');
 INSERT INTO "artist" VALUES(18861,'Stephanie Renshaw','https://ocremix.org/artist/18861/stephanie-renshaw');
 CREATE TABLE game (
@@ -7154,6 +7156,7 @@ INSERT INTO "remix" VALUES(4713,'Stuck in My Head','Touhou Fuujinroku: Mountain 
 INSERT INTO "remix" VALUES(4714,'Smoke & Marbles','Castlevania: Symphony of the Night','2024-08-20T00:48:08.719544+00:00','https://www.youtube.com/watch?v=zk-5uGKPurk',105,'https://ocrmirror.org/files/music/remixes/Castlevania_Symphony_of_the_Night_Smoke_&_Marbles_OC_ReMix.mp3',1);
 INSERT INTO "remix" VALUES(4715,'From the Edge of Defeat','Secret of Mana','2024-08-21T00:48:00.132242+00:00','https://www.youtube.com/watch?v=p_6p89Pqs_4',61,'https://ocrmirror.org/files/music/remixes/Secret_of_Mana_From_the_Edge_of_Defeat_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4716,'Stunt Course on Easy Street','Paperboy 2','2024-08-22T00:50:13.109618+00:00','https://www.youtube.com/watch?v=8g8A6KlJ610',11251,'https://ocrmirror.org/files/music/remixes/Paperboy_2_Stunt_Course_on_Easy_Street_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4717,'Just Like an Eagle','Shovel Knight','2024-08-23T00:48:55.580344+00:00','https://www.youtube.com/watch?v=I5qhtCEZyWI',95031,'https://ocrmirror.org/files/music/remixes/Shovel_Knight_Just_Like_an_Eagle_OC_ReMix.mp3',1);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13099,6 +13102,9 @@ INSERT INTO "remix_artist" VALUES(4715,18724,1);
 INSERT INTO "remix_artist" VALUES(4715,18601,1);
 INSERT INTO "remix_artist" VALUES(4716,18724,1);
 INSERT INTO "remix_artist" VALUES(4716,18725,1);
+INSERT INTO "remix_artist" VALUES(4717,5043,1);
+INSERT INTO "remix_artist" VALUES(4717,18855,1);
+INSERT INTO "remix_artist" VALUES(4717,18856,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -42892,6 +42898,16 @@ INSERT INTO "remix_tag" VALUES(4716,'funky',1);
 INSERT INTO "remix_tag" VALUES(4716,'collab',1);
 INSERT INTO "remix_tag" VALUES(4716,'compo-dod',1);
 INSERT INTO "remix_tag" VALUES(4716,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4717,'rock',1);
+INSERT INTO "remix_tag" VALUES(4717,'electric-guitar',1);
+INSERT INTO "remix_tag" VALUES(4717,'singing',1);
+INSERT INTO "remix_tag" VALUES(4717,'vocals-female',1);
+INSERT INTO "remix_tag" VALUES(4717,'vocals-male',1);
+INSERT INTO "remix_tag" VALUES(4717,'energetic',1);
+INSERT INTO "remix_tag" VALUES(4717,'collab',1);
+INSERT INTO "remix_tag" VALUES(4717,'lang-english',1);
+INSERT INTO "remix_tag" VALUES(4717,'lyrics-original',1);
+INSERT INTO "remix_tag" VALUES(4717,'timesig-4-4',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
