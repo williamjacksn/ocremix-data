@@ -7159,6 +7159,7 @@ INSERT INTO "remix" VALUES(4715,'From the Edge of Defeat','Secret of Mana','2024
 INSERT INTO "remix" VALUES(4716,'Stunt Course on Easy Street','Paperboy 2','2024-08-22T00:50:13.109618+00:00','https://www.youtube.com/watch?v=8g8A6KlJ610',11251,'https://ocrmirror.org/files/music/remixes/Paperboy_2_Stunt_Course_on_Easy_Street_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4717,'Just Like an Eagle','Shovel Knight','2024-08-23T00:48:55.580344+00:00','https://www.youtube.com/watch?v=I5qhtCEZyWI',95031,'https://ocrmirror.org/files/music/remixes/Shovel_Knight_Just_Like_an_Eagle_OC_ReMix.mp3',1);
 INSERT INTO "remix" VALUES(4718,'Banjo''s Signature Bar','Banjo-Kazooie','2024-08-25T00:53:27.261717+00:00','https://www.youtube.com/watch?v=LtpRDbVTOqI',36,'https://ocrmirror.org/files/music/remixes/Banjo-Kazooie_Banjo''s_Signature_Bar_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4719,'Love Thaws the Heart','The Legend of Zelda: A Link Between Worlds','2024-08-26T00:49:51.206133+00:00','https://www.youtube.com/watch?v=0pWu5h_MVik',94860,'https://ocrmirror.org/files/music/remixes/Legend_of_Zelda_A_Link_Between_Worlds_Love_Thaws_the_Heart_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13111,6 +13112,10 @@ INSERT INTO "remix_artist" VALUES(4718,16119,1);
 INSERT INTO "remix_artist" VALUES(4718,17489,1);
 INSERT INTO "remix_artist" VALUES(4718,17317,1);
 INSERT INTO "remix_artist" VALUES(4718,18859,1);
+INSERT INTO "remix_artist" VALUES(4719,14375,1);
+INSERT INTO "remix_artist" VALUES(4719,16615,1);
+INSERT INTO "remix_artist" VALUES(4719,16937,1);
+INSERT INTO "remix_artist" VALUES(4719,18590,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -42923,6 +42928,20 @@ INSERT INTO "remix_tag" VALUES(4718,'collab',1);
 INSERT INTO "remix_tag" VALUES(4718,'live-instruments',1);
 INSERT INTO "remix_tag" VALUES(4718,'timesig-4-4',1);
 INSERT INTO "remix_tag" VALUES(4718,'trio',1);
+INSERT INTO "remix_tag" VALUES(4719,'cinematic',1);
+INSERT INTO "remix_tag" VALUES(4719,'bells',1);
+INSERT INTO "remix_tag" VALUES(4719,'choir',1);
+INSERT INTO "remix_tag" VALUES(4719,'chromatic-percussion',1);
+INSERT INTO "remix_tag" VALUES(4719,'flute',1);
+INSERT INTO "remix_tag" VALUES(4719,'harp',1);
+INSERT INTO "remix_tag" VALUES(4719,'oboe',1);
+INSERT INTO "remix_tag" VALUES(4719,'orchestral',1);
+INSERT INTO "remix_tag" VALUES(4719,'strings',1);
+INSERT INTO "remix_tag" VALUES(4719,'woodwinds',1);
+INSERT INTO "remix_tag" VALUES(4719,'mystical',1);
+INSERT INTO "remix_tag" VALUES(4719,'collab',1);
+INSERT INTO "remix_tag" VALUES(4719,'dissonance',1);
+INSERT INTO "remix_tag" VALUES(4719,'medley',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
