@@ -7160,6 +7160,8 @@ INSERT INTO "remix" VALUES(4716,'Stunt Course on Easy Street','Paperboy 2','2024
 INSERT INTO "remix" VALUES(4717,'Just Like an Eagle','Shovel Knight','2024-08-23T00:48:55.580344+00:00','https://www.youtube.com/watch?v=I5qhtCEZyWI',95031,'https://ocrmirror.org/files/music/remixes/Shovel_Knight_Just_Like_an_Eagle_OC_ReMix.mp3',1);
 INSERT INTO "remix" VALUES(4718,'Banjo''s Signature Bar','Banjo-Kazooie','2024-08-25T00:53:27.261717+00:00','https://www.youtube.com/watch?v=LtpRDbVTOqI',36,'https://ocrmirror.org/files/music/remixes/Banjo-Kazooie_Banjo''s_Signature_Bar_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4719,'Love Thaws the Heart','The Legend of Zelda: A Link Between Worlds','2024-08-26T00:49:51.206133+00:00','https://www.youtube.com/watch?v=0pWu5h_MVik',94860,'https://ocrmirror.org/files/music/remixes/Legend_of_Zelda_A_Link_Between_Worlds_Love_Thaws_the_Heart_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4720,'Tangerines for Moose','Earthworm Jim 2','2024-08-27T00:50:15.946521+00:00','https://www.youtube.com/watch?v=-mXRW6a8qcc',189,'https://ocrmirror.org/files/music/remixes/Earthworm_Jim_2_Tangerines_for_Moose_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4721,'Red Harvest','Super Metroid','2024-08-27T00:50:16.618418+00:00','https://www.youtube.com/watch?v=5A2yLuhRniE',74,'https://ocrmirror.org/files/music/remixes/Super_Metroid_Red_Harvest_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13116,6 +13118,12 @@ INSERT INTO "remix_artist" VALUES(4719,14375,1);
 INSERT INTO "remix_artist" VALUES(4719,16615,1);
 INSERT INTO "remix_artist" VALUES(4719,16937,1);
 INSERT INTO "remix_artist" VALUES(4719,18590,1);
+INSERT INTO "remix_artist" VALUES(4720,4313,1);
+INSERT INTO "remix_artist" VALUES(4721,17937,1);
+INSERT INTO "remix_artist" VALUES(4721,10690,1);
+INSERT INTO "remix_artist" VALUES(4721,4432,1);
+INSERT INTO "remix_artist" VALUES(4721,18736,1);
+INSERT INTO "remix_artist" VALUES(4721,13667,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -42942,6 +42950,26 @@ INSERT INTO "remix_tag" VALUES(4719,'mystical',1);
 INSERT INTO "remix_tag" VALUES(4719,'collab',1);
 INSERT INTO "remix_tag" VALUES(4719,'dissonance',1);
 INSERT INTO "remix_tag" VALUES(4719,'medley',1);
+INSERT INTO "remix_tag" VALUES(4720,'funk',1);
+INSERT INTO "remix_tag" VALUES(4720,'brass',1);
+INSERT INTO "remix_tag" VALUES(4720,'electric-guitar',1);
+INSERT INTO "remix_tag" VALUES(4720,'electronic',1);
+INSERT INTO "remix_tag" VALUES(4720,'saxophone',1);
+INSERT INTO "remix_tag" VALUES(4720,'synth',1);
+INSERT INTO "remix_tag" VALUES(4720,'energetic',1);
+INSERT INTO "remix_tag" VALUES(4720,'funky',1);
+INSERT INTO "remix_tag" VALUES(4720,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4721,'edm',1);
+INSERT INTO "remix_tag" VALUES(4721,'trip-hop',1);
+INSERT INTO "remix_tag" VALUES(4721,'choir',1);
+INSERT INTO "remix_tag" VALUES(4721,'electric-guitar',1);
+INSERT INTO "remix_tag" VALUES(4721,'electronic',1);
+INSERT INTO "remix_tag" VALUES(4721,'organ',1);
+INSERT INTO "remix_tag" VALUES(4721,'sound-fx',1);
+INSERT INTO "remix_tag" VALUES(4721,'synth',1);
+INSERT INTO "remix_tag" VALUES(4721,'dark',1);
+INSERT INTO "remix_tag" VALUES(4721,'collab',1);
+INSERT INTO "remix_tag" VALUES(4721,'timesig-4-4',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
