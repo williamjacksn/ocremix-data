@@ -7162,6 +7162,7 @@ INSERT INTO "remix" VALUES(4718,'Banjo''s Signature Bar','Banjo-Kazooie','2024-0
 INSERT INTO "remix" VALUES(4719,'Love Thaws the Heart','The Legend of Zelda: A Link Between Worlds','2024-08-26T00:49:51.206133+00:00','https://www.youtube.com/watch?v=0pWu5h_MVik',94860,'https://ocrmirror.org/files/music/remixes/Legend_of_Zelda_A_Link_Between_Worlds_Love_Thaws_the_Heart_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4720,'Tangerines for Moose','Earthworm Jim 2','2024-08-27T00:50:15.946521+00:00','https://www.youtube.com/watch?v=-mXRW6a8qcc',189,'https://ocrmirror.org/files/music/remixes/Earthworm_Jim_2_Tangerines_for_Moose_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4721,'Red Harvest','Super Metroid','2024-08-27T00:50:16.618418+00:00','https://www.youtube.com/watch?v=5A2yLuhRniE',74,'https://ocrmirror.org/files/music/remixes/Super_Metroid_Red_Harvest_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4722,'Bonhomme de Neige','EarthBound','2024-08-29T00:50:54.756953+00:00','https://www.youtube.com/watch?v=0cLwT-vcMno',51,'https://ocrmirror.org/files/music/remixes/EarthBound_Bonhomme_de_Neige_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13124,6 +13125,8 @@ INSERT INTO "remix_artist" VALUES(4721,10690,1);
 INSERT INTO "remix_artist" VALUES(4721,4432,1);
 INSERT INTO "remix_artist" VALUES(4721,18736,1);
 INSERT INTO "remix_artist" VALUES(4721,13667,1);
+INSERT INTO "remix_artist" VALUES(4722,17937,1);
+INSERT INTO "remix_artist" VALUES(4722,16844,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -42970,6 +42973,16 @@ INSERT INTO "remix_tag" VALUES(4721,'synth',1);
 INSERT INTO "remix_tag" VALUES(4721,'dark',1);
 INSERT INTO "remix_tag" VALUES(4721,'collab',1);
 INSERT INTO "remix_tag" VALUES(4721,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4722,'hip-hop',1);
+INSERT INTO "remix_tag" VALUES(4722,'impressionist',1);
+INSERT INTO "remix_tag" VALUES(4722,'bells',1);
+INSERT INTO "remix_tag" VALUES(4722,'piano',1);
+INSERT INTO "remix_tag" VALUES(4722,'synth',1);
+INSERT INTO "remix_tag" VALUES(4722,'vocals-female',1);
+INSERT INTO "remix_tag" VALUES(4722,'chill',1);
+INSERT INTO "remix_tag" VALUES(4722,'collab',1);
+INSERT INTO "remix_tag" VALUES(4722,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4722,'winter-holiday',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
