@@ -1486,6 +1486,7 @@ INSERT INTO "artist" VALUES(18706,'Jess Destramp','https://ocremix.org/artist/18
 INSERT INTO "artist" VALUES(18707,'Thomas Kresge','https://ocremix.org/artist/18707/thomas-kresge');
 INSERT INTO "artist" VALUES(18708,'Daniel Caton','https://ocremix.org/artist/18708/daniel-caton');
 INSERT INTO "artist" VALUES(18710,'pixelseph','https://ocremix.org/artist/18710/pixelseph');
+INSERT INTO "artist" VALUES(18711,'paradiddlesjosh','https://ocremix.org/artist/18711/paradiddlesjosh');
 INSERT INTO "artist" VALUES(18712,'Pixels and Paradiddles','https://ocremix.org/artist/18712/pixels-and-paradiddles');
 INSERT INTO "artist" VALUES(18713,'Jeremy Lim','https://ocremix.org/artist/18713/jeremy-lim');
 INSERT INTO "artist" VALUES(18714,'Rahul Vanamali','https://ocremix.org/artist/18714/rahul-vanamali');
@@ -1561,6 +1562,7 @@ INSERT INTO "artist" VALUES(18863,'Andrew Gossett','https://ocremix.org/artist/1
 INSERT INTO "artist" VALUES(18864,'AnimeVivi','https://ocremix.org/artist/18864/animevivi');
 INSERT INTO "artist" VALUES(18865,'Kalen Scott Thomas','https://ocremix.org/artist/18865/kalen-scott-thomas');
 INSERT INTO "artist" VALUES(18866,'iCrescendo','https://ocremix.org/artist/18866/icrescendo');
+INSERT INTO "artist" VALUES(18868,'Whispy Woodwinds','https://ocremix.org/artist/18868/whispy-woodwinds');
 INSERT INTO "artist" VALUES(18886,'Connor Engstrom','https://ocremix.org/artist/18886/connor-engstrom');
 INSERT INTO "artist" VALUES(18889,'The Rocket Knights','https://ocremix.org/artist/18889/the-rocket-knights');
 CREATE TABLE game (
@@ -7174,6 +7176,8 @@ INSERT INTO "remix" VALUES(4721,'Red Harvest','Super Metroid','2024-08-27T00:50:
 INSERT INTO "remix" VALUES(4722,'Bonhomme de Neige','EarthBound','2024-08-29T00:50:54.756953+00:00','https://www.youtube.com/watch?v=0cLwT-vcMno',51,'https://ocrmirror.org/files/music/remixes/EarthBound_Bonhomme_de_Neige_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4723,'Think on Your Feet','Brain Age: Train Your Brain in Minutes a Day!','2024-09-04T00:51:35.502670+00:00','https://www.youtube.com/watch?v=JDa7fj5AjgM',38763,'https://ocrmirror.org/files/music/remixes/Brain_Age_Think_on_Your_Feet_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4724,'Wish You Were Here (Live from Balamb Garden)','Final Fantasy VIII','2024-09-09T00:53:33.588165+00:00','https://www.youtube.com/watch?v=AlhmDHUjacc',13,'https://ocrmirror.org/files/music/remixes/Final_Fantasy_8_Wish_You_Were_Here_(Live_from_Balamb_Garden)_OC_ReMix.mp3',1);
+INSERT INTO "remix" VALUES(4725,'Cybernetic Skullstorm','Mega Man 3','2024-09-09T18:51:45.878049+00:00','https://www.youtube.com/watch?v=aLoOMdKBb00',3,'https://ocrmirror.org/files/music/remixes/Mega_Man_3_Cybernetic_Skullstorm_OC_ReMix.mp3',1);
+INSERT INTO "remix" VALUES(4726,'Parasol to the Stars','Kirby''s Adventure','2024-09-09T18:51:46.409270+00:00','https://www.youtube.com/watch?v=tN66GEL49cc',442,'https://ocrmirror.org/files/music/remixes/Kirby''s_Adventure_Parasol_to_the_Stars_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13157,6 +13161,15 @@ INSERT INTO "remix_artist" VALUES(4724,18886,1);
 INSERT INTO "remix_artist" VALUES(4724,18739,1);
 INSERT INTO "remix_artist" VALUES(4724,17486,1);
 INSERT INTO "remix_artist" VALUES(4724,18387,1);
+INSERT INTO "remix_artist" VALUES(4725,4432,1);
+INSERT INTO "remix_artist" VALUES(4725,13667,1);
+INSERT INTO "remix_artist" VALUES(4725,18711,1);
+INSERT INTO "remix_artist" VALUES(4725,4455,1);
+INSERT INTO "remix_artist" VALUES(4726,16119,1);
+INSERT INTO "remix_artist" VALUES(4726,18868,1);
+INSERT INTO "remix_artist" VALUES(4726,18863,1);
+INSERT INTO "remix_artist" VALUES(4726,16615,1);
+INSERT INTO "remix_artist" VALUES(4726,18590,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -43044,6 +43057,36 @@ INSERT INTO "remix_tag" VALUES(4724,'lang-english',1);
 INSERT INTO "remix_tag" VALUES(4724,'live-instruments',1);
 INSERT INTO "remix_tag" VALUES(4724,'lyrics-existing',1);
 INSERT INTO "remix_tag" VALUES(4724,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4725,'metal',1);
+INSERT INTO "remix_tag" VALUES(4725,'acoustic-guitar',1);
+INSERT INTO "remix_tag" VALUES(4725,'banjo',1);
+INSERT INTO "remix_tag" VALUES(4725,'electric-guitar',1);
+INSERT INTO "remix_tag" VALUES(4725,'organ',1);
+INSERT INTO "remix_tag" VALUES(4725,'piano',1);
+INSERT INTO "remix_tag" VALUES(4725,'sound-fx',1);
+INSERT INTO "remix_tag" VALUES(4725,'synth',1);
+INSERT INTO "remix_tag" VALUES(4725,'vocals-voice-acting',1);
+INSERT INTO "remix_tag" VALUES(4725,'aggressive',1);
+INSERT INTO "remix_tag" VALUES(4725,'energetic',1);
+INSERT INTO "remix_tag" VALUES(4725,'collab',1);
+INSERT INTO "remix_tag" VALUES(4725,'compo-dod',1);
+INSERT INTO "remix_tag" VALUES(4725,'lang-english',1);
+INSERT INTO "remix_tag" VALUES(4725,'live-instruments',1);
+INSERT INTO "remix_tag" VALUES(4725,'medley',1);
+INSERT INTO "remix_tag" VALUES(4725,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4725,'timesig-7-4',1);
+INSERT INTO "remix_tag" VALUES(4725,'timesig-variable',1);
+INSERT INTO "remix_tag" VALUES(4726,'chamber',1);
+INSERT INTO "remix_tag" VALUES(4726,'bassoon',1);
+INSERT INTO "remix_tag" VALUES(4726,'clarinet',1);
+INSERT INTO "remix_tag" VALUES(4726,'flute',1);
+INSERT INTO "remix_tag" VALUES(4726,'saxophone',1);
+INSERT INTO "remix_tag" VALUES(4726,'woodwinds',1);
+INSERT INTO "remix_tag" VALUES(4726,'happy',1);
+INSERT INTO "remix_tag" VALUES(4726,'peaceful',1);
+INSERT INTO "remix_tag" VALUES(4726,'collab',1);
+INSERT INTO "remix_tag" VALUES(4726,'quartet',1);
+INSERT INTO "remix_tag" VALUES(4726,'timesig-4-4',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
