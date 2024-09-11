@@ -1555,6 +1555,7 @@ INSERT INTO "artist" VALUES(18852,'Na Daoine Laghairt','https://ocremix.org/arti
 INSERT INTO "artist" VALUES(18855,'Valentino Francavilla','https://ocremix.org/artist/18855/valentino-francavilla');
 INSERT INTO "artist" VALUES(18856,'Susanna Gray-Jones','https://ocremix.org/artist/18856/susanna-gray-jones');
 INSERT INTO "artist" VALUES(18857,'Chromatic Walnut','https://ocremix.org/artist/18857/chromatic-walnut');
+INSERT INTO "artist" VALUES(18858,'LadyReemz','https://ocremix.org/artist/18858/ladyreemz');
 INSERT INTO "artist" VALUES(18859,'Louie Aronowitz','https://ocremix.org/artist/18859/louie-aronowitz');
 INSERT INTO "artist" VALUES(18861,'Stephanie Renshaw','https://ocremix.org/artist/18861/stephanie-renshaw');
 INSERT INTO "artist" VALUES(18862,'zmand97','https://ocremix.org/artist/18862/zmand97');
@@ -7178,6 +7179,8 @@ INSERT INTO "remix" VALUES(4723,'Think on Your Feet','Brain Age: Train Your Brai
 INSERT INTO "remix" VALUES(4724,'Wish You Were Here (Live from Balamb Garden)','Final Fantasy VIII','2024-09-09T00:53:33.588165+00:00','https://www.youtube.com/watch?v=AlhmDHUjacc',13,'https://ocrmirror.org/files/music/remixes/Final_Fantasy_8_Wish_You_Were_Here_(Live_from_Balamb_Garden)_OC_ReMix.mp3',1);
 INSERT INTO "remix" VALUES(4725,'Cybernetic Skullstorm','Mega Man 3','2024-09-09T18:51:45.878049+00:00','https://www.youtube.com/watch?v=aLoOMdKBb00',3,'https://ocrmirror.org/files/music/remixes/Mega_Man_3_Cybernetic_Skullstorm_OC_ReMix.mp3',1);
 INSERT INTO "remix" VALUES(4726,'Parasol to the Stars','Kirby''s Adventure','2024-09-09T18:51:46.409270+00:00','https://www.youtube.com/watch?v=tN66GEL49cc',442,'https://ocrmirror.org/files/music/remixes/Kirby''s_Adventure_Parasol_to_the_Stars_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4727,'Beyond the Shores','Final Fantasy VIII','2024-09-11T00:51:53.814051+00:00','https://www.youtube.com/watch?v=kWlYvE7MyIY',13,'https://ocrmirror.org/files/music/remixes/Final_Fantasy_8_Beyond_the_Shores_OC_ReMix.mp3',1);
+INSERT INTO "remix" VALUES(4728,'The Sorceress''s Knight','Final Fantasy VIII','2024-09-11T00:51:54.452615+00:00','https://www.youtube.com/watch?v=arLJU66CeFE',13,'https://ocrmirror.org/files/music/remixes/Final_Fantasy_8_The_Sorceress''s_Knight_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13170,6 +13173,9 @@ INSERT INTO "remix_artist" VALUES(4726,18868,1);
 INSERT INTO "remix_artist" VALUES(4726,18863,1);
 INSERT INTO "remix_artist" VALUES(4726,16615,1);
 INSERT INTO "remix_artist" VALUES(4726,18590,1);
+INSERT INTO "remix_artist" VALUES(4727,15199,1);
+INSERT INTO "remix_artist" VALUES(4727,18858,1);
+INSERT INTO "remix_artist" VALUES(4728,14357,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -43087,6 +43093,30 @@ INSERT INTO "remix_tag" VALUES(4726,'peaceful',1);
 INSERT INTO "remix_tag" VALUES(4726,'collab',1);
 INSERT INTO "remix_tag" VALUES(4726,'quartet',1);
 INSERT INTO "remix_tag" VALUES(4726,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4727,'ballad',1);
+INSERT INTO "remix_tag" VALUES(4727,'brass',1);
+INSERT INTO "remix_tag" VALUES(4727,'orchestral',1);
+INSERT INTO "remix_tag" VALUES(4727,'organ',1);
+INSERT INTO "remix_tag" VALUES(4727,'singing',1);
+INSERT INTO "remix_tag" VALUES(4727,'strings',1);
+INSERT INTO "remix_tag" VALUES(4727,'synth',1);
+INSERT INTO "remix_tag" VALUES(4727,'vocals-female',1);
+INSERT INTO "remix_tag" VALUES(4727,'vocals-male',1);
+INSERT INTO "remix_tag" VALUES(4727,'woodwinds',1);
+INSERT INTO "remix_tag" VALUES(4727,'happy',1);
+INSERT INTO "remix_tag" VALUES(4727,'collab',1);
+INSERT INTO "remix_tag" VALUES(4727,'lang-english',1);
+INSERT INTO "remix_tag" VALUES(4727,'lyrics-original',1);
+INSERT INTO "remix_tag" VALUES(4728,'cinematic',1);
+INSERT INTO "remix_tag" VALUES(4728,'brass',1);
+INSERT INTO "remix_tag" VALUES(4728,'choir',1);
+INSERT INTO "remix_tag" VALUES(4728,'orchestral',1);
+INSERT INTO "remix_tag" VALUES(4728,'strings',1);
+INSERT INTO "remix_tag" VALUES(4728,'woodwinds',1);
+INSERT INTO "remix_tag" VALUES(4728,'aggressive',1);
+INSERT INTO "remix_tag" VALUES(4728,'energetic',1);
+INSERT INTO "remix_tag" VALUES(4728,'suspenseful',1);
+INSERT INTO "remix_tag" VALUES(4728,'timesig-variable',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
