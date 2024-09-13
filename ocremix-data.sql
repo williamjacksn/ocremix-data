@@ -2439,6 +2439,7 @@ INSERT INTO "game" VALUES(10878,'Battletoads in Battlemaniacs','https://ocremix.
 INSERT INTO "game" VALUES(10916,'Castlevania: Dracula X','https://ocremix.org/game/10916/castlevania-dracula-x-snes');
 INSERT INTO "game" VALUES(11016,'Fire Emblem: Genealogy of the Holy War','https://ocremix.org/game/11016/fire-emblem-genealogy-of-the-holy-war-snes');
 INSERT INTO "game" VALUES(11028,'Front Mission: Gun Hazard','https://ocremix.org/game/11028/front-mission-gun-hazard-snes');
+INSERT INTO "game" VALUES(11120,'Kirby''s Dream Course','https://ocremix.org/game/11120/kirbys-dream-course-snes');
 INSERT INTO "game" VALUES(11121,'Kirby''s Dream Land 3','https://ocremix.org/game/11121/kirbys-dream-land-3-snes');
 INSERT INTO "game" VALUES(11134,'The Lawnmower Man','https://ocremix.org/game/11134/lawnmower-man-snes');
 INSERT INTO "game" VALUES(11250,'Paladin''s Quest','https://ocremix.org/game/11250/paladins-quest-snes');
@@ -7183,6 +7184,7 @@ INSERT INTO "remix" VALUES(4726,'Parasol to the Stars','Kirby''s Adventure','202
 INSERT INTO "remix" VALUES(4727,'Beyond the Shores','Final Fantasy VIII','2024-09-11T00:51:53.814051+00:00','https://www.youtube.com/watch?v=kWlYvE7MyIY',13,'https://ocrmirror.org/files/music/remixes/Final_Fantasy_8_Beyond_the_Shores_OC_ReMix.mp3',1);
 INSERT INTO "remix" VALUES(4728,'The Sorceress''s Knight','Final Fantasy VIII','2024-09-11T00:51:54.452615+00:00','https://www.youtube.com/watch?v=arLJU66CeFE',13,'https://ocrmirror.org/files/music/remixes/Final_Fantasy_8_The_Sorceress''s_Knight_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4729,'Sportsball','Wii Sports','2024-09-12T00:51:56.749178+00:00','https://www.youtube.com/watch?v=5amEfBlrsmM',45424,'https://ocrmirror.org/files/music/remixes/Wii_Sports_Sportsball_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4730,'Funky Mountain Peaks','Kirby''s Dream Course','2024-09-13T00:52:07.236805+00:00','https://www.youtube.com/watch?v=Ja7Oq-IfPXQ',11120,'https://ocrmirror.org/files/music/remixes/Kirby''s_Dream_Course_Funky_Mountain_Peaks_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13183,6 +13185,9 @@ INSERT INTO "remix_artist" VALUES(4729,16615,1);
 INSERT INTO "remix_artist" VALUES(4729,16119,1);
 INSERT INTO "remix_artist" VALUES(4729,17322,1);
 INSERT INTO "remix_artist" VALUES(4729,16848,1);
+INSERT INTO "remix_artist" VALUES(4730,5473,1);
+INSERT INTO "remix_artist" VALUES(4730,16848,1);
+INSERT INTO "remix_artist" VALUES(4730,13667,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -43135,6 +43140,17 @@ INSERT INTO "remix_tag" VALUES(4729,'jazzy',1);
 INSERT INTO "remix_tag" VALUES(4729,'collab',1);
 INSERT INTO "remix_tag" VALUES(4729,'live-instruments',1);
 INSERT INTO "remix_tag" VALUES(4729,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4730,'funk',1);
+INSERT INTO "remix_tag" VALUES(4730,'electric-guitar',1);
+INSERT INTO "remix_tag" VALUES(4730,'synth',1);
+INSERT INTO "remix_tag" VALUES(4730,'trumpet',1);
+INSERT INTO "remix_tag" VALUES(4730,'funky',1);
+INSERT INTO "remix_tag" VALUES(4730,'goofy',1);
+INSERT INTO "remix_tag" VALUES(4730,'happy',1);
+INSERT INTO "remix_tag" VALUES(4730,'quirky',1);
+INSERT INTO "remix_tag" VALUES(4730,'collab',1);
+INSERT INTO "remix_tag" VALUES(4730,'live-instruments',1);
+INSERT INTO "remix_tag" VALUES(4730,'timesig-4-4',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
