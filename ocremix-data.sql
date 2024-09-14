@@ -7185,6 +7185,7 @@ INSERT INTO "remix" VALUES(4727,'Beyond the Shores','Final Fantasy VIII','2024-0
 INSERT INTO "remix" VALUES(4728,'The Sorceress''s Knight','Final Fantasy VIII','2024-09-11T00:51:54.452615+00:00','https://www.youtube.com/watch?v=arLJU66CeFE',13,'https://ocrmirror.org/files/music/remixes/Final_Fantasy_8_The_Sorceress''s_Knight_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4729,'Sportsball','Wii Sports','2024-09-12T00:51:56.749178+00:00','https://www.youtube.com/watch?v=5amEfBlrsmM',45424,'https://ocrmirror.org/files/music/remixes/Wii_Sports_Sportsball_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4730,'Funky Mountain Peaks','Kirby''s Dream Course','2024-09-13T00:52:07.236805+00:00','https://www.youtube.com/watch?v=Ja7Oq-IfPXQ',11120,'https://ocrmirror.org/files/music/remixes/Kirby''s_Dream_Course_Funky_Mountain_Peaks_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4731,'Ambience of the Forest','Chrono Trigger','2024-09-14T00:51:27.817149+00:00','https://www.youtube.com/watch?v=JOeHEgD47rA',16,'https://ocrmirror.org/files/music/remixes/Chrono_Trigger_Ambience_of_the_Forest_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13188,6 +13189,8 @@ INSERT INTO "remix_artist" VALUES(4729,16848,1);
 INSERT INTO "remix_artist" VALUES(4730,5473,1);
 INSERT INTO "remix_artist" VALUES(4730,16848,1);
 INSERT INTO "remix_artist" VALUES(4730,13667,1);
+INSERT INTO "remix_artist" VALUES(4731,13500,1);
+INSERT INTO "remix_artist" VALUES(4731,10690,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -43151,6 +43154,16 @@ INSERT INTO "remix_tag" VALUES(4730,'quirky',1);
 INSERT INTO "remix_tag" VALUES(4730,'collab',1);
 INSERT INTO "remix_tag" VALUES(4730,'live-instruments',1);
 INSERT INTO "remix_tag" VALUES(4730,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4731,'cinematic',1);
+INSERT INTO "remix_tag" VALUES(4731,'experimental',1);
+INSERT INTO "remix_tag" VALUES(4731,'electronic',1);
+INSERT INTO "remix_tag" VALUES(4731,'piano',1);
+INSERT INTO "remix_tag" VALUES(4731,'synth',1);
+INSERT INTO "remix_tag" VALUES(4731,'chill',1);
+INSERT INTO "remix_tag" VALUES(4731,'energetic',1);
+INSERT INTO "remix_tag" VALUES(4731,'collab',1);
+INSERT INTO "remix_tag" VALUES(4731,'compo-dod',1);
+INSERT INTO "remix_tag" VALUES(4731,'timesig-4-4',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
