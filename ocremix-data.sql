@@ -7191,6 +7191,8 @@ INSERT INTO "remix" VALUES(4731,'Ambience of the Forest','Chrono Trigger','2024-
 INSERT INTO "remix" VALUES(4732,'Gold Soul','Pokémon SoulSilver Version','2024-09-15T00:57:54.692398+00:00','https://www.youtube.com/watch?v=kUm1NemzkV8',57748,'https://ocrmirror.org/files/music/remixes/Pokemon_SoulSilver_Version_Gold_Soul_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4733,'Ashes in the Snow Man','EarthBound','2024-09-16T00:55:36.432920+00:00','https://www.youtube.com/watch?v=qBnx0O5F65s',51,'https://ocrmirror.org/files/music/remixes/EarthBound_Ashes_in_the_Snow_Man_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4734,'Eggerland Swagger','Eggerland Mystery','2024-09-17T00:42:20.331405+00:00','https://www.youtube.com/watch?v=z25j2dyMdtc',3738,'https://ocrmirror.org/files/music/remixes/Eggerland_Mystery_Eggerland_Swagger_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4735,'DIABLO ALADO','Metroid Fusion','2024-09-18T00:52:18.361159+00:00','https://www.youtube.com/watch?v=D1onQRPMTuM',843,'https://ocrmirror.org/files/music/remixes/Metroid_Fusion_DIABLO_ALADO_OC_ReMix.mp3',1);
+INSERT INTO "remix" VALUES(4736,'Guided to the Infinite','The Legend of Zelda: Breath of the Wild','2024-09-18T00:52:19.122335+00:00','https://www.youtube.com/watch?v=xPhg9kGLYcM',95359,'https://ocrmirror.org/files/music/remixes/Legend_of_Zelda_Breath_of_the_Wild_Guided_to_the_Infinite_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13212,6 +13214,14 @@ INSERT INTO "remix_artist" VALUES(4732,18868,1);
 INSERT INTO "remix_artist" VALUES(4732,13667,1);
 INSERT INTO "remix_artist" VALUES(4733,5386,1);
 INSERT INTO "remix_artist" VALUES(4734,14461,1);
+INSERT INTO "remix_artist" VALUES(4735,17937,1);
+INSERT INTO "remix_artist" VALUES(4735,10690,1);
+INSERT INTO "remix_artist" VALUES(4735,18736,1);
+INSERT INTO "remix_artist" VALUES(4735,16119,1);
+INSERT INTO "remix_artist" VALUES(4735,18845,1);
+INSERT INTO "remix_artist" VALUES(4735,4432,1);
+INSERT INTO "remix_artist" VALUES(4735,13667,1);
+INSERT INTO "remix_artist" VALUES(4736,17158,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -43222,6 +43232,26 @@ INSERT INTO "remix_tag" VALUES(4734,'funky',1);
 INSERT INTO "remix_tag" VALUES(4734,'goofy',1);
 INSERT INTO "remix_tag" VALUES(4734,'happy',1);
 INSERT INTO "remix_tag" VALUES(4734,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4735,'edm',1);
+INSERT INTO "remix_tag" VALUES(4735,'electronic',1);
+INSERT INTO "remix_tag" VALUES(4735,'synth',1);
+INSERT INTO "remix_tag" VALUES(4735,'dark',1);
+INSERT INTO "remix_tag" VALUES(4735,'collab',1);
+INSERT INTO "remix_tag" VALUES(4735,'compo',1);
+INSERT INTO "remix_tag" VALUES(4735,'lang-spanish',1);
+INSERT INTO "remix_tag" VALUES(4735,'lyrics-original',1);
+INSERT INTO "remix_tag" VALUES(4735,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4736,'ambient',1);
+INSERT INTO "remix_tag" VALUES(4736,'cinematic',1);
+INSERT INTO "remix_tag" VALUES(4736,'orchestral',1);
+INSERT INTO "remix_tag" VALUES(4736,'piano',1);
+INSERT INTO "remix_tag" VALUES(4736,'sound-fx',1);
+INSERT INTO "remix_tag" VALUES(4736,'strings',1);
+INSERT INTO "remix_tag" VALUES(4736,'synth',1);
+INSERT INTO "remix_tag" VALUES(4736,'peaceful',1);
+INSERT INTO "remix_tag" VALUES(4736,'solemn',1);
+INSERT INTO "remix_tag" VALUES(4736,'japanese',1);
+INSERT INTO "remix_tag" VALUES(4736,'timesig-4-4',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
