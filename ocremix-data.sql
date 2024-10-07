@@ -2495,6 +2495,7 @@ INSERT INTO "game" VALUES(38876,'Pokémon Mystery Dungeon: Blue Rescue Team','ht
 INSERT INTO "game" VALUES(38902,'Sonic Rush','https://ocremix.org/game/38902/sonic-rush-nds');
 INSERT INTO "game" VALUES(38947,'Yoshi''s Island DS','https://ocremix.org/game/38947/yoshis-island-ds-nds');
 INSERT INTO "game" VALUES(39576,'Silent Hill 2: Restless Dreams','https://ocremix.org/game/39576/silent-hill-2-restless-dreams-xbox');
+INSERT INTO "game" VALUES(40407,'Pokémon Pinball','https://ocremix.org/game/40407/pokemon-pinball-gbc');
 INSERT INTO "game" VALUES(40735,'The Legend of Heroes V: A Cagesong of the Ocean','https://ocremix.org/game/40735/legend-of-heroes-v-a-cagesong-of-the-ocean-psp');
 INSERT INTO "game" VALUES(41542,'Command & Conquer','https://ocremix.org/game/41542/command-and-conquer-ps1');
 INSERT INTO "game" VALUES(41568,'Crash Bandicoot 2: Cortex Strikes Back','https://ocremix.org/game/41568/crash-bandicoot-2-cortex-strikes-back-ps1');
@@ -7200,6 +7201,7 @@ INSERT INTO "remix" VALUES(4738,'Chozodynamic','Metroid Prime','2024-09-27T00:54
 INSERT INTO "remix" VALUES(4739,'When the Moon Shines','Flowstone Saga','2024-09-27T00:54:19.252549+00:00','https://www.youtube.com/watch?v=eneJXtKd_IA',95858,'https://ocrmirror.org/files/music/remixes/Flowstone_Saga_When_the_Moon_Shines_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4740,'Ruins of the Future','Flowstone Saga','2024-09-27T00:54:19.899835+00:00','https://www.youtube.com/watch?v=ifIpnFR5hDU',95858,'https://ocrmirror.org/files/music/remixes/Flowstone_Saga_Ruins_of_the_Future_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4741,'Hanagasumi ~ A Mist of White Upon the Lake','Flowstone Saga','2024-09-27T00:54:20.424121+00:00','https://www.youtube.com/watch?v=WOohyP--2ts',95858,'https://ocrmirror.org/files/music/remixes/Flowstone_Saga_Hanagasumi_A_Mist_of_White_Upon_the_Lake_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4742,'Pocket Arcade','Pokémon Pinball','2024-10-07T00:56:31.137291+00:00','https://www.youtube.com/watch?v=gHsUgOczyK0',40407,'https://ocrmirror.org/files/music/remixes/Pokemon_Pinball_Pocket_Arcade_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13242,6 +13244,7 @@ INSERT INTO "remix_artist" VALUES(4740,4695,1);
 INSERT INTO "remix_artist" VALUES(4741,10690,1);
 INSERT INTO "remix_artist" VALUES(4741,18711,1);
 INSERT INTO "remix_artist" VALUES(4741,13667,1);
+INSERT INTO "remix_artist" VALUES(4742,18602,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -43324,6 +43327,11 @@ INSERT INTO "remix_tag" VALUES(4741,'romantic',1);
 INSERT INTO "remix_tag" VALUES(4741,'collab',1);
 INSERT INTO "remix_tag" VALUES(4741,'meditation',1);
 INSERT INTO "remix_tag" VALUES(4741,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4742,'edm',1);
+INSERT INTO "remix_tag" VALUES(4742,'chiptune',1);
+INSERT INTO "remix_tag" VALUES(4742,'energetic',1);
+INSERT INTO "remix_tag" VALUES(4742,'happy',1);
+INSERT INTO "remix_tag" VALUES(4742,'timesig-4-4',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
