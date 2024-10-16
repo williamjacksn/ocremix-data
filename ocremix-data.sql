@@ -1542,6 +1542,8 @@ INSERT INTO "artist" VALUES(18821,'endlessrepeat','https://ocremix.org/artist/18
 INSERT INTO "artist" VALUES(18823,'SovRin','https://ocremix.org/artist/18823/sovrin');
 INSERT INTO "artist" VALUES(18824,'bash explode','https://ocremix.org/artist/18824/bash-explode');
 INSERT INTO "artist" VALUES(18828,'Development of Avoid','https://ocremix.org/artist/18828/development-of-avoid');
+INSERT INTO "artist" VALUES(18829,'ShinobiSyntax','https://ocremix.org/artist/18829/shinobisyntax');
+INSERT INTO "artist" VALUES(18830,'NiKo Vargas','https://ocremix.org/artist/18830/niko-vargas');
 INSERT INTO "artist" VALUES(18831,'Hashel','https://ocremix.org/artist/18831/hashel');
 INSERT INTO "artist" VALUES(18832,'7DD9','https://ocremix.org/artist/18832/7dd9');
 INSERT INTO "artist" VALUES(18839,'Mattmatatt','https://ocremix.org/artist/18839/mattmatatt');
@@ -7202,6 +7204,7 @@ INSERT INTO "remix" VALUES(4739,'When the Moon Shines','Flowstone Saga','2024-09
 INSERT INTO "remix" VALUES(4740,'Ruins of the Future','Flowstone Saga','2024-09-27T00:54:19.899835+00:00','https://www.youtube.com/watch?v=ifIpnFR5hDU',95858,'https://ocrmirror.org/files/music/remixes/Flowstone_Saga_Ruins_of_the_Future_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4741,'Hanagasumi ~ A Mist of White Upon the Lake','Flowstone Saga','2024-09-27T00:54:20.424121+00:00','https://www.youtube.com/watch?v=WOohyP--2ts',95858,'https://ocrmirror.org/files/music/remixes/Flowstone_Saga_Hanagasumi_A_Mist_of_White_Upon_the_Lake_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4742,'Pocket Arcade','Pokémon Pinball','2024-10-07T00:56:31.137291+00:00','https://www.youtube.com/watch?v=gHsUgOczyK0',40407,'https://ocrmirror.org/files/music/remixes/Pokemon_Pinball_Pocket_Arcade_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4743,'With a Little Help from My Friends','Super Smash Bros. Brawl','2024-10-16T00:55:19.339045+00:00','https://www.youtube.com/watch?v=M9yzz_QkbAs',879,'https://ocrmirror.org/files/music/remixes/Super_Smash_Bros_Brawl_With_a_Little_Help_from_My_Friends_OC_ReMix.mp3',1);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13245,6 +13248,10 @@ INSERT INTO "remix_artist" VALUES(4741,10690,1);
 INSERT INTO "remix_artist" VALUES(4741,18711,1);
 INSERT INTO "remix_artist" VALUES(4741,13667,1);
 INSERT INTO "remix_artist" VALUES(4742,18602,1);
+INSERT INTO "remix_artist" VALUES(4743,18653,1);
+INSERT INTO "remix_artist" VALUES(4743,18830,1);
+INSERT INTO "remix_artist" VALUES(4743,18829,1);
+INSERT INTO "remix_artist" VALUES(4743,18654,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -43332,6 +43339,22 @@ INSERT INTO "remix_tag" VALUES(4742,'chiptune',1);
 INSERT INTO "remix_tag" VALUES(4742,'energetic',1);
 INSERT INTO "remix_tag" VALUES(4742,'happy',1);
 INSERT INTO "remix_tag" VALUES(4742,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4743,'hip-hop',1);
+INSERT INTO "remix_tag" VALUES(4743,'pop',1);
+INSERT INTO "remix_tag" VALUES(4743,'electric-guitar',1);
+INSERT INTO "remix_tag" VALUES(4743,'electric-piano',1);
+INSERT INTO "remix_tag" VALUES(4743,'orchestral',1);
+INSERT INTO "remix_tag" VALUES(4743,'singing',1);
+INSERT INTO "remix_tag" VALUES(4743,'sound-fx',1);
+INSERT INTO "remix_tag" VALUES(4743,'vocals-female',1);
+INSERT INTO "remix_tag" VALUES(4743,'vocals-male',1);
+INSERT INTO "remix_tag" VALUES(4743,'vocals-rapping',1);
+INSERT INTO "remix_tag" VALUES(4743,'chill',1);
+INSERT INTO "remix_tag" VALUES(4743,'collab',1);
+INSERT INTO "remix_tag" VALUES(4743,'compo-dod',1);
+INSERT INTO "remix_tag" VALUES(4743,'lang-english',1);
+INSERT INTO "remix_tag" VALUES(4743,'lyrics-original',1);
+INSERT INTO "remix_tag" VALUES(4743,'timesig-4-4',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
