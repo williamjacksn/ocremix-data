@@ -31,6 +31,15 @@ services:
       - ./:/home/python/ocremix-data
     working_dir: /home/python/ocremix-data
 
+  pip-compile:
+    entrypoint:
+      - /home/python/venv/bin/pip-compile
+    image: ghcr.io/williamjacksn/pip-tools:py3.12
+    init: true
+    volumes:
+      - ./:/home/python/ocremix-data
+    working_dir: /home/python/ocremix-data
+
   shell:
     entrypoint:
       - /bin/bash
