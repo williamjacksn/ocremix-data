@@ -2435,6 +2435,7 @@ INSERT INTO "game" VALUES(9081,'The Legend of Zelda: The Minish Cap','https://oc
 INSERT INTO "game" VALUES(9399,'Yu-Gi-Oh! World Championship Tournament 2004','https://ocremix.org/game/9399/yu-gi-oh-world-championship-tournament-2004-gba');
 INSERT INTO "game" VALUES(9681,'Dragon Ball Z Budokai 2','https://ocremix.org/game/9681/dragon-ball-z-budokai-2-ps2');
 INSERT INTO "game" VALUES(9684,'Dragon Ball Z: Budokai Tenkaichi 2','https://ocremix.org/game/9684/dragon-ball-z-budokai-tenkaichi-2-ps2');
+INSERT INTO "game" VALUES(9705,'Dynasty Warriors 3','https://ocremix.org/game/9705/dynasty-warriors-3-ps2');
 INSERT INTO "game" VALUES(9998,'Kingdom Hearts II Final Mix','https://ocremix.org/game/9998/kingdom-hearts-ii-final-mix-ps2');
 INSERT INTO "game" VALUES(10142,'Monster Hunter','https://ocremix.org/game/10142/monster-hunter-ps2');
 INSERT INTO "game" VALUES(10484,'Silent Hill 3','https://ocremix.org/game/10484/silent-hill-3-ps2');
@@ -7215,6 +7216,7 @@ INSERT INTO "remix" VALUES(4747,'There Are No Angels Here Anymore','Silent Hill 
 INSERT INTO "remix" VALUES(4748,'Apparitions','Super Mario World','2024-11-03T00:58:57.539811+00:00','https://www.youtube.com/watch?v=WEEPj32VBFY',98,'https://ocrmirror.org/files/music/remixes/Super_Mario_World_Apparitions_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4749,'Mind Lost in a Program','Kirby: Planet Robobot','2024-11-03T00:58:58.164021+00:00','https://www.youtube.com/watch?v=I_iWv1fjs18',95162,'https://ocrmirror.org/files/music/remixes/Kirby_Planet_Robobot_Mind_Lost_in_a_Program_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4750,'Life Is Peachy','Super Mario Bros.','2024-11-03T00:58:58.843709+00:00','https://www.youtube.com/watch?v=pSV_OlNSLKQ',56,'https://ocrmirror.org/files/music/remixes/Super_Mario_Bros_Life_Is_Peachy_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4751,'Anachronistic Axes','Dynasty Warriors 3','2024-11-19T00:57:48.467270+00:00','https://www.youtube.com/watch?v=juxs4Y6oLBs',9705,'https://ocrmirror.org/files/music/remixes/Dynasty_Warriors_3_Anachronistic_Axes_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13284,6 +13286,9 @@ INSERT INTO "remix_artist" VALUES(4749,13045,1);
 INSERT INTO "remix_artist" VALUES(4749,18633,1);
 INSERT INTO "remix_artist" VALUES(4750,13667,1);
 INSERT INTO "remix_artist" VALUES(4750,10690,1);
+INSERT INTO "remix_artist" VALUES(4751,18724,1);
+INSERT INTO "remix_artist" VALUES(4751,18698,1);
+INSERT INTO "remix_artist" VALUES(4751,18828,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -43449,6 +43454,16 @@ INSERT INTO "remix_tag" VALUES(4750,'happy',1);
 INSERT INTO "remix_tag" VALUES(4750,'mellow',1);
 INSERT INTO "remix_tag" VALUES(4750,'collab',1);
 INSERT INTO "remix_tag" VALUES(4750,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4751,'metal',1);
+INSERT INTO "remix_tag" VALUES(4751,'rock',1);
+INSERT INTO "remix_tag" VALUES(4751,'electric-guitar',1);
+INSERT INTO "remix_tag" VALUES(4751,'synth',1);
+INSERT INTO "remix_tag" VALUES(4751,'energetic',1);
+INSERT INTO "remix_tag" VALUES(4751,'goofy',1);
+INSERT INTO "remix_tag" VALUES(4751,'collab',1);
+INSERT INTO "remix_tag" VALUES(4751,'compo-dod',1);
+INSERT INTO "remix_tag" VALUES(4751,'live-instruments',1);
+INSERT INTO "remix_tag" VALUES(4751,'timesig-4-4',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
