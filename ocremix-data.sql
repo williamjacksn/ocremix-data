@@ -1567,6 +1567,7 @@ INSERT INTO "artist" VALUES(18864,'AnimeVivi','https://ocremix.org/artist/18864/
 INSERT INTO "artist" VALUES(18865,'Kalen Scott Thomas','https://ocremix.org/artist/18865/kalen-scott-thomas');
 INSERT INTO "artist" VALUES(18866,'iCrescendo','https://ocremix.org/artist/18866/icrescendo');
 INSERT INTO "artist" VALUES(18868,'Whispy Woodwinds','https://ocremix.org/artist/18868/whispy-woodwinds');
+INSERT INTO "artist" VALUES(18869,'pointblanket','https://ocremix.org/artist/18869/pointblanket');
 INSERT INTO "artist" VALUES(18886,'Connor Engstrom','https://ocremix.org/artist/18886/connor-engstrom');
 INSERT INTO "artist" VALUES(18889,'The Rocket Knights','https://ocremix.org/artist/18889/the-rocket-knights');
 INSERT INTO "artist" VALUES(18890,'Flávio Teles','https://ocremix.org/artist/18890/flavio-teles');
@@ -7217,6 +7218,7 @@ INSERT INTO "remix" VALUES(4748,'Apparitions','Super Mario World','2024-11-22T19
 INSERT INTO "remix" VALUES(4749,'Mind Lost in a Program','Kirby: Planet Robobot','2024-11-22T19:36:09.666985+00:00','https://www.youtube.com/watch?v=I_iWv1fjs18',95162,'https://ocrmirror.org/files/music/remixes/Kirby_Planet_Robobot_Mind_Lost_in_a_Program_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4750,'Life Is Peachy','Super Mario Bros.','2024-11-22T19:36:10.251893+00:00','https://www.youtube.com/watch?v=pSV_OlNSLKQ',56,'https://ocrmirror.org/files/music/remixes/Super_Mario_Bros_Life_Is_Peachy_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4751,'Anachronistic Axes','Dynasty Warriors 3','2024-11-19T00:57:48.467270+00:00','https://www.youtube.com/watch?v=juxs4Y6oLBs',9705,'https://ocrmirror.org/files/music/remixes/Dynasty_Warriors_3_Anachronistic_Axes_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4752,'A Translator''s Tale','Dragon Warrior','2024-12-03T01:00:18.979593+00:00','https://www.youtube.com/watch?v=ZoKlAcReFa0',49,'https://ocrmirror.org/files/music/remixes/Dragon_Warrior_A_Translator''s_Tale_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13289,6 +13291,12 @@ INSERT INTO "remix_artist" VALUES(4750,10690,1);
 INSERT INTO "remix_artist" VALUES(4751,18724,1);
 INSERT INTO "remix_artist" VALUES(4751,18698,1);
 INSERT INTO "remix_artist" VALUES(4751,18828,1);
+INSERT INTO "remix_artist" VALUES(4752,4432,1);
+INSERT INTO "remix_artist" VALUES(4752,17324,1);
+INSERT INTO "remix_artist" VALUES(4752,18869,1);
+INSERT INTO "remix_artist" VALUES(4752,18594,1);
+INSERT INTO "remix_artist" VALUES(4752,17486,1);
+INSERT INTO "remix_artist" VALUES(4752,16848,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -43457,6 +43465,22 @@ INSERT INTO "remix_tag" VALUES(4751,'collab',1);
 INSERT INTO "remix_tag" VALUES(4751,'compo-dod',1);
 INSERT INTO "remix_tag" VALUES(4751,'live-instruments',1);
 INSERT INTO "remix_tag" VALUES(4751,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4752,'cinematic',1);
+INSERT INTO "remix_tag" VALUES(4752,'cello',1);
+INSERT INTO "remix_tag" VALUES(4752,'dizi',1);
+INSERT INTO "remix_tag" VALUES(4752,'electric-guitar',1);
+INSERT INTO "remix_tag" VALUES(4752,'flute',1);
+INSERT INTO "remix_tag" VALUES(4752,'orchestral',1);
+INSERT INTO "remix_tag" VALUES(4752,'piano',1);
+INSERT INTO "remix_tag" VALUES(4752,'strings',1);
+INSERT INTO "remix_tag" VALUES(4752,'trombone',1);
+INSERT INTO "remix_tag" VALUES(4752,'trumpet',1);
+INSERT INTO "remix_tag" VALUES(4752,'violin',1);
+INSERT INTO "remix_tag" VALUES(4752,'energetic',1);
+INSERT INTO "remix_tag" VALUES(4752,'epic',1);
+INSERT INTO "remix_tag" VALUES(4752,'collab',1);
+INSERT INTO "remix_tag" VALUES(4752,'medley',1);
+INSERT INTO "remix_tag" VALUES(4752,'timesig-4-4',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
