@@ -2624,6 +2624,7 @@ INSERT INTO "game" VALUES(95783,'Crash Bandicoot 4: It''s About Time','https://o
 INSERT INTO "game" VALUES(95784,'Metroid Prime: Federation Force','https://ocremix.org/game/95784/metroid-prime-federation-force-3ds');
 INSERT INTO "game" VALUES(95787,'The Binding of Isaac: Rebirth','https://ocremix.org/game/95787/binding-of-isaac-rebirth-win');
 INSERT INTO "game" VALUES(95810,'King''s Quest VI: Heir Today, Gone Tomorrow','https://ocremix.org/game/95810/kings-quest-vi-heir-today-gone-tomorrow-win');
+INSERT INTO "game" VALUES(95822,'Lyle in Cube Sector','https://ocremix.org/game/95822/lyle-in-cube-sector-win');
 INSERT INTO "game" VALUES(95823,'Pokémon Scarlet','https://ocremix.org/game/95823/pokemon-scarlet-swtch');
 INSERT INTO "game" VALUES(95825,'Ori and the Blind Forest','https://ocremix.org/game/95825/ori-and-the-blind-forest-win');
 INSERT INTO "game" VALUES(95826,'Ori and the Blind Forest: Definitive Edition','https://ocremix.org/game/95826/ori-and-the-blind-forest-definitive-edition-swtch');
@@ -7219,6 +7220,7 @@ INSERT INTO "remix" VALUES(4749,'Mind Lost in a Program','Kirby: Planet Robobot'
 INSERT INTO "remix" VALUES(4750,'Life Is Peachy','Super Mario Bros.','2024-11-22T19:36:10.251893+00:00','https://www.youtube.com/watch?v=pSV_OlNSLKQ',56,'https://ocrmirror.org/files/music/remixes/Super_Mario_Bros_Life_Is_Peachy_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4751,'Anachronistic Axes','Dynasty Warriors 3','2024-11-19T00:57:48.467270+00:00','https://www.youtube.com/watch?v=juxs4Y6oLBs',9705,'https://ocrmirror.org/files/music/remixes/Dynasty_Warriors_3_Anachronistic_Axes_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4752,'A Translator''s Tale','Dragon Warrior','2024-12-03T01:00:18.979593+00:00','https://www.youtube.com/watch?v=ZoKlAcReFa0',49,'https://ocrmirror.org/files/music/remixes/Dragon_Warrior_A_Translator''s_Tale_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4753,'Gimme Back My Cat','Lyle in Cube Sector','2024-12-04T01:00:14.107010+00:00','https://www.youtube.com/watch?v=M1FRHssy7Gs',95822,'https://ocrmirror.org/files/music/remixes/Lyle_in_Cube_Sector_Gimme_Back_My_Cat_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13297,6 +13299,7 @@ INSERT INTO "remix_artist" VALUES(4752,18869,1);
 INSERT INTO "remix_artist" VALUES(4752,18594,1);
 INSERT INTO "remix_artist" VALUES(4752,17486,1);
 INSERT INTO "remix_artist" VALUES(4752,16848,1);
+INSERT INTO "remix_artist" VALUES(4753,13052,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -43481,6 +43484,14 @@ INSERT INTO "remix_tag" VALUES(4752,'epic',1);
 INSERT INTO "remix_tag" VALUES(4752,'collab',1);
 INSERT INTO "remix_tag" VALUES(4752,'medley',1);
 INSERT INTO "remix_tag" VALUES(4752,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4753,'metal',1);
+INSERT INTO "remix_tag" VALUES(4753,'chiptune',1);
+INSERT INTO "remix_tag" VALUES(4753,'electric-guitar',1);
+INSERT INTO "remix_tag" VALUES(4753,'sound-fx',1);
+INSERT INTO "remix_tag" VALUES(4753,'synth',1);
+INSERT INTO "remix_tag" VALUES(4753,'energetic',1);
+INSERT INTO "remix_tag" VALUES(4753,'live-instruments',1);
+INSERT INTO "remix_tag" VALUES(4753,'timesig-4-4',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
