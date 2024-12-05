@@ -7221,6 +7221,7 @@ INSERT INTO "remix" VALUES(4750,'Life Is Peachy','Super Mario Bros.','2024-11-22
 INSERT INTO "remix" VALUES(4751,'Anachronistic Axes','Dynasty Warriors 3','2024-11-19T00:57:48.467270+00:00','https://www.youtube.com/watch?v=juxs4Y6oLBs',9705,'https://ocrmirror.org/files/music/remixes/Dynasty_Warriors_3_Anachronistic_Axes_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4752,'A Translator''s Tale','Dragon Warrior','2024-12-03T01:00:18.979593+00:00','https://www.youtube.com/watch?v=ZoKlAcReFa0',49,'https://ocrmirror.org/files/music/remixes/Dragon_Warrior_A_Translator''s_Tale_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4753,'Gimme Back My Cat','Lyle in Cube Sector','2024-12-04T01:00:14.107010+00:00','https://www.youtube.com/watch?v=M1FRHssy7Gs',95822,'https://ocrmirror.org/files/music/remixes/Lyle_in_Cube_Sector_Gimme_Back_My_Cat_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4754,'Lost Orphan','Chrono Cross','2024-12-05T01:00:13.882651+00:00','https://www.youtube.com/watch?v=XQgPHAHGYPs',17,'https://ocrmirror.org/files/music/remixes/Chrono_Cross_Lost_Orphan_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13300,6 +13301,7 @@ INSERT INTO "remix_artist" VALUES(4752,18594,1);
 INSERT INTO "remix_artist" VALUES(4752,17486,1);
 INSERT INTO "remix_artist" VALUES(4752,16848,1);
 INSERT INTO "remix_artist" VALUES(4753,13052,1);
+INSERT INTO "remix_artist" VALUES(4754,18600,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -43492,6 +43494,16 @@ INSERT INTO "remix_tag" VALUES(4753,'synth',1);
 INSERT INTO "remix_tag" VALUES(4753,'energetic',1);
 INSERT INTO "remix_tag" VALUES(4753,'live-instruments',1);
 INSERT INTO "remix_tag" VALUES(4753,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4754,'prog-rock',1);
+INSERT INTO "remix_tag" VALUES(4754,'rock',1);
+INSERT INTO "remix_tag" VALUES(4754,'electric-guitar',1);
+INSERT INTO "remix_tag" VALUES(4754,'organ',1);
+INSERT INTO "remix_tag" VALUES(4754,'piano',1);
+INSERT INTO "remix_tag" VALUES(4754,'strings',1);
+INSERT INTO "remix_tag" VALUES(4754,'chill',1);
+INSERT INTO "remix_tag" VALUES(4754,'mellow',1);
+INSERT INTO "remix_tag" VALUES(4754,'solemn',1);
+INSERT INTO "remix_tag" VALUES(4754,'timesig-6-8',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
