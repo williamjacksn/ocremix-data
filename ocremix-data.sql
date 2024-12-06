@@ -2522,6 +2522,7 @@ INSERT INTO "game" VALUES(45434,'Resident Evil: The Umbrella Chronicles','https:
 INSERT INTO "game" VALUES(45659,'Mario Kart Wii','https://ocremix.org/game/45659/mario-kart-wii-wii');
 INSERT INTO "game" VALUES(47072,'Shin Megami Tensei: Persona 4','https://ocremix.org/game/47072/shin-megami-tensei-persona-4-ps2');
 INSERT INTO "game" VALUES(47232,'Kyatto Ninden Teyandee','https://ocremix.org/game/47232/kyatto-ninden-teyandee-nes');
+INSERT INTO "game" VALUES(47578,'Aah! Harimanada','https://ocremix.org/game/47578/aah-harimanada-gen');
 INSERT INTO "game" VALUES(47705,'Jeanne d''Arc','https://ocremix.org/game/47705/jeanne-darc-psp');
 INSERT INTO "game" VALUES(47752,'Snowboard Kids','https://ocremix.org/game/47752/snowboard-kids-n64');
 INSERT INTO "game" VALUES(49613,'One Piece: Unlimited Cruise 1 - The Treasure Beneath the Waves','https://ocremix.org/game/49613/one-piece-unlimited-cruise-1-the-treasure-beneath-the-waves-wii');
@@ -7222,6 +7223,7 @@ INSERT INTO "remix" VALUES(4751,'Anachronistic Axes','Dynasty Warriors 3','2024-
 INSERT INTO "remix" VALUES(4752,'A Translator''s Tale','Dragon Warrior','2024-12-03T01:00:18.979593+00:00','https://www.youtube.com/watch?v=ZoKlAcReFa0',49,'https://ocrmirror.org/files/music/remixes/Dragon_Warrior_A_Translator''s_Tale_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4753,'Gimme Back My Cat','Lyle in Cube Sector','2024-12-04T01:00:14.107010+00:00','https://www.youtube.com/watch?v=M1FRHssy7Gs',95822,'https://ocrmirror.org/files/music/remixes/Lyle_in_Cube_Sector_Gimme_Back_My_Cat_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4754,'Lost Orphan','Chrono Cross','2024-12-05T01:00:13.882651+00:00','https://www.youtube.com/watch?v=XQgPHAHGYPs',17,'https://ocrmirror.org/files/music/remixes/Chrono_Cross_Lost_Orphan_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4755,'Sumo Swagger','Aah! Harimanada','2024-12-06T00:59:31.436571+00:00','https://www.youtube.com/watch?v=5ZLtrOxinuI',47578,'https://ocrmirror.org/files/music/remixes/Aah_Harimanada_Sumo_Swagger_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13302,6 +13304,9 @@ INSERT INTO "remix_artist" VALUES(4752,17486,1);
 INSERT INTO "remix_artist" VALUES(4752,16848,1);
 INSERT INTO "remix_artist" VALUES(4753,13052,1);
 INSERT INTO "remix_artist" VALUES(4754,18600,1);
+INSERT INTO "remix_artist" VALUES(4755,18724,1);
+INSERT INTO "remix_artist" VALUES(4755,18738,1);
+INSERT INTO "remix_artist" VALUES(4755,18730,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -43504,6 +43509,14 @@ INSERT INTO "remix_tag" VALUES(4754,'chill',1);
 INSERT INTO "remix_tag" VALUES(4754,'mellow',1);
 INSERT INTO "remix_tag" VALUES(4754,'solemn',1);
 INSERT INTO "remix_tag" VALUES(4754,'timesig-6-8',1);
+INSERT INTO "remix_tag" VALUES(4755,'metal',1);
+INSERT INTO "remix_tag" VALUES(4755,'saxophone',1);
+INSERT INTO "remix_tag" VALUES(4755,'dark',1);
+INSERT INTO "remix_tag" VALUES(4755,'energetic',1);
+INSERT INTO "remix_tag" VALUES(4755,'collab',1);
+INSERT INTO "remix_tag" VALUES(4755,'compo-dod',1);
+INSERT INTO "remix_tag" VALUES(4755,'live-instruments',1);
+INSERT INTO "remix_tag" VALUES(4755,'timesig-4-4',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
