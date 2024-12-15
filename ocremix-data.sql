@@ -7227,6 +7227,7 @@ INSERT INTO "remix" VALUES(4754,'Lost Orphan','Chrono Cross','2024-12-05T01:00:1
 INSERT INTO "remix" VALUES(4755,'Sumo Swagger','Aah! Harimanada','2024-12-06T00:59:31.436571+00:00','https://www.youtube.com/watch?v=5ZLtrOxinuI',47578,'https://ocrmirror.org/files/music/remixes/Aah_Harimanada_Sumo_Swagger_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4756,'Infinite Starship Sausage Journey','Skitchin''','2024-12-07T00:59:05.337783+00:00','https://www.youtube.com/watch?v=rDK27cDV-lE',6662,'https://ocrmirror.org/files/music/remixes/Skitchin''_Infinite_Starship_Sausage_Journey_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4757,'Corridors of TimeShift','Chrono Trigger','2024-12-13T01:00:58.464976+00:00','https://www.youtube.com/watch?v=uHiIeiLFR1U',16,'https://ocrmirror.org/files/music/remixes/Chrono_Trigger_Corridors_of_TimeShift_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4758,'Gallery of Mysteries','Castlevania: Symphony of the Night','2024-12-15T01:04:35.783312+00:00','https://www.youtube.com/watch?v=MZp5QUeOtw0',105,'https://ocrmirror.org/files/music/remixes/Castlevania_Symphony_of_the_Night_Gallery_of_Mysteries_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13312,6 +13313,10 @@ INSERT INTO "remix_artist" VALUES(4755,18738,1);
 INSERT INTO "remix_artist" VALUES(4755,18730,1);
 INSERT INTO "remix_artist" VALUES(4756,11494,1);
 INSERT INTO "remix_artist" VALUES(4757,18736,1);
+INSERT INTO "remix_artist" VALUES(4758,18847,1);
+INSERT INTO "remix_artist" VALUES(4758,5473,1);
+INSERT INTO "remix_artist" VALUES(4758,18712,1);
+INSERT INTO "remix_artist" VALUES(4758,18705,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -43542,6 +43547,14 @@ INSERT INTO "remix_tag" VALUES(1612,'synth',1);
 INSERT INTO "remix_tag" VALUES(1612,'vocals-female',1);
 INSERT INTO "remix_tag" VALUES(1612,'collab',1);
 INSERT INTO "remix_tag" VALUES(1612,'lyrics-original',1);
+INSERT INTO "remix_tag" VALUES(4758,'metal',1);
+INSERT INTO "remix_tag" VALUES(4758,'electric-guitar',1);
+INSERT INTO "remix_tag" VALUES(4758,'synth',1);
+INSERT INTO "remix_tag" VALUES(4758,'energetic',1);
+INSERT INTO "remix_tag" VALUES(4758,'collab',1);
+INSERT INTO "remix_tag" VALUES(4758,'compo',1);
+INSERT INTO "remix_tag" VALUES(4758,'live-instruments',1);
+INSERT INTO "remix_tag" VALUES(4758,'timesig-4-4',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
