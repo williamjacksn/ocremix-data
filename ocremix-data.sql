@@ -7233,6 +7233,7 @@ INSERT INTO "remix" VALUES(4758,'Gallery of Mysteries','Castlevania: Symphony of
 INSERT INTO "remix" VALUES(4759,'Flashback from the Future','Flashback','2024-12-18T00:57:41.197634+00:00','https://www.youtube.com/watch?v=CSwmJPfknms',5615,'https://ocrmirror.org/files/music/remixes/Flashback_Flashback_from_the_Future_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4760,'The Shrine of Twisted Shadows','Lufia II: Rise of the Sinistrals','2024-12-25T00:54:36.346932+00:00','https://www.youtube.com/watch?v=AEurRvwusu8',157,'https://ocrmirror.org/files/music/remixes/Lufia_2_The_Shrine_of_Twisted_Shadows_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4761,'A Little Bit of Mercy','Undertale','2024-12-25T00:54:36.815902+00:00','https://www.youtube.com/watch?v=VX1Ku5EvvaI',95077,'https://ocrmirror.org/files/music/remixes/Undertale_A_Little_Bit_of_Mercy_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4762,'Spacious Beauty','Pokémon Crystal Version','2024-12-31T00:54:50.947985+00:00','https://www.youtube.com/watch?v=ogv5ab1TV3o',573,'https://ocrmirror.org/files/music/remixes/Pokemon_Crystal_Version_Spacious_Beauty_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13325,6 +13326,7 @@ INSERT INTO "remix_artist" VALUES(4758,18705,1);
 INSERT INTO "remix_artist" VALUES(4759,18832,1);
 INSERT INTO "remix_artist" VALUES(4760,18895,1);
 INSERT INTO "remix_artist" VALUES(4761,4732,1);
+INSERT INTO "remix_artist" VALUES(4762,13147,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -43584,6 +43586,14 @@ INSERT INTO "remix_tag" VALUES(4761,'mellow',1);
 INSERT INTO "remix_tag" VALUES(4761,'lo-fi',1);
 INSERT INTO "remix_tag" VALUES(4761,'timesig-4-4',1);
 INSERT INTO "remix_tag" VALUES(4761,'winter-holiday',1);
+INSERT INTO "remix_tag" VALUES(4762,'easy-listening',1);
+INSERT INTO "remix_tag" VALUES(4762,'new-age',1);
+INSERT INTO "remix_tag" VALUES(4762,'electric-piano',1);
+INSERT INTO "remix_tag" VALUES(4762,'electronic',1);
+INSERT INTO "remix_tag" VALUES(4762,'synth',1);
+INSERT INTO "remix_tag" VALUES(4762,'chill',1);
+INSERT INTO "remix_tag" VALUES(4762,'mellow',1);
+INSERT INTO "remix_tag" VALUES(4762,'timesig-4-4',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
