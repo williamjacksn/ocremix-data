@@ -1572,6 +1572,7 @@ INSERT INTO "artist" VALUES(18886,'Connor Engstrom','https://ocremix.org/artist/
 INSERT INTO "artist" VALUES(18889,'The Rocket Knights','https://ocremix.org/artist/18889/the-rocket-knights');
 INSERT INTO "artist" VALUES(18890,'Flávio Teles','https://ocremix.org/artist/18890/flavio-teles');
 INSERT INTO "artist" VALUES(18895,'Docjekyll','https://ocremix.org/artist/18895/docjekyll');
+INSERT INTO "artist" VALUES(18896,'SupremoMusico400','https://ocremix.org/artist/18896/supremomusico400');
 CREATE TABLE game (
     id integer primary key,
     name text not null,
@@ -7234,6 +7235,8 @@ INSERT INTO "remix" VALUES(4759,'Flashback from the Future','Flashback','2024-12
 INSERT INTO "remix" VALUES(4760,'The Shrine of Twisted Shadows','Lufia II: Rise of the Sinistrals','2024-12-25T00:54:36.346932+00:00','https://www.youtube.com/watch?v=AEurRvwusu8',157,'https://ocrmirror.org/files/music/remixes/Lufia_2_The_Shrine_of_Twisted_Shadows_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4761,'A Little Bit of Mercy','Undertale','2024-12-25T00:54:36.815902+00:00','https://www.youtube.com/watch?v=VX1Ku5EvvaI',95077,'https://ocrmirror.org/files/music/remixes/Undertale_A_Little_Bit_of_Mercy_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4762,'Spacious Beauty','Pokémon Crystal Version','2024-12-31T00:54:50.947985+00:00','https://www.youtube.com/watch?v=ogv5ab1TV3o',573,'https://ocrmirror.org/files/music/remixes/Pokemon_Crystal_Version_Spacious_Beauty_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4763,'They Say Lightning Never Strikes 200 Times','Final Fantasy X','2025-01-01T01:00:20.049474+00:00','https://www.youtube.com/watch?v=RHtbxCrSqTc',15,'https://ocrmirror.org/files/music/remixes/Final_Fantasy_10_They_Say_Lightning_Never_Strikes_200_Times_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4764,'Dragonborn Symphony','The Elder Scrolls V: Skyrim','2025-01-01T01:00:20.568858+00:00','https://www.youtube.com/watch?v=EnC7oec9-5Y',721,'https://ocrmirror.org/files/music/remixes/Elder_Scrolls_5_Skyrim_Dragonborn_Symphony_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13327,6 +13330,8 @@ INSERT INTO "remix_artist" VALUES(4759,18832,1);
 INSERT INTO "remix_artist" VALUES(4760,18895,1);
 INSERT INTO "remix_artist" VALUES(4761,4732,1);
 INSERT INTO "remix_artist" VALUES(4762,13147,1);
+INSERT INTO "remix_artist" VALUES(4763,18724,1);
+INSERT INTO "remix_artist" VALUES(4764,18896,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -43594,6 +43599,24 @@ INSERT INTO "remix_tag" VALUES(4762,'synth',1);
 INSERT INTO "remix_tag" VALUES(4762,'chill',1);
 INSERT INTO "remix_tag" VALUES(4762,'mellow',1);
 INSERT INTO "remix_tag" VALUES(4762,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4763,'prog-rock',1);
+INSERT INTO "remix_tag" VALUES(4763,'electric-guitar',1);
+INSERT INTO "remix_tag" VALUES(4763,'piano',1);
+INSERT INTO "remix_tag" VALUES(4763,'energetic',1);
+INSERT INTO "remix_tag" VALUES(4763,'goofy',1);
+INSERT INTO "remix_tag" VALUES(4763,'compo-dod',1);
+INSERT INTO "remix_tag" VALUES(4763,'live-instruments',1);
+INSERT INTO "remix_tag" VALUES(4763,'timesig-variable',1);
+INSERT INTO "remix_tag" VALUES(4764,'cinematic',1);
+INSERT INTO "remix_tag" VALUES(4764,'brass',1);
+INSERT INTO "remix_tag" VALUES(4764,'choir',1);
+INSERT INTO "remix_tag" VALUES(4764,'harp',1);
+INSERT INTO "remix_tag" VALUES(4764,'orchestral',1);
+INSERT INTO "remix_tag" VALUES(4764,'strings',1);
+INSERT INTO "remix_tag" VALUES(4764,'woodwinds',1);
+INSERT INTO "remix_tag" VALUES(4764,'mystical',1);
+INSERT INTO "remix_tag" VALUES(4764,'solemn',1);
+INSERT INTO "remix_tag" VALUES(4764,'timesig-4-4',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
