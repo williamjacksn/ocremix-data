@@ -7237,6 +7237,8 @@ INSERT INTO "remix" VALUES(4761,'A Little Bit of Mercy','Undertale','2024-12-25T
 INSERT INTO "remix" VALUES(4762,'Spacious Beauty','Pokémon Crystal Version','2024-12-31T00:54:50.947985+00:00','https://www.youtube.com/watch?v=ogv5ab1TV3o',573,'https://ocrmirror.org/files/music/remixes/Pokemon_Crystal_Version_Spacious_Beauty_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4763,'They Say Lightning Never Strikes 200 Times','Final Fantasy X','2025-01-01T01:00:20.049474+00:00','https://www.youtube.com/watch?v=RHtbxCrSqTc',15,'https://ocrmirror.org/files/music/remixes/Final_Fantasy_10_They_Say_Lightning_Never_Strikes_200_Times_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4764,'Dragonborn Symphony','The Elder Scrolls V: Skyrim','2025-01-01T01:00:20.568858+00:00','https://www.youtube.com/watch?v=EnC7oec9-5Y',721,'https://ocrmirror.org/files/music/remixes/Elder_Scrolls_5_Skyrim_Dragonborn_Symphony_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4765,'Mysterious Forest: Witch''s Strut','The Legend of Zelda: Link''s Awakening','2025-01-02T00:54:35.206797+00:00','https://www.youtube.com/watch?v=psVahj731GM',68,'https://ocrmirror.org/files/music/remixes/Legend_of_Zelda_Link''s_Awakening_Mysterious_Forest_Witch''s_Strut_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4766,'Dawn of the Chosen','Final Fantasy V','2025-01-02T00:54:35.829497+00:00','https://www.youtube.com/watch?v=nfIQDk3O2XQ',12,'https://ocrmirror.org/files/music/remixes/Final_Fantasy_5_Dawn_of_the_Chosen_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13332,6 +13334,9 @@ INSERT INTO "remix_artist" VALUES(4761,4732,1);
 INSERT INTO "remix_artist" VALUES(4762,13147,1);
 INSERT INTO "remix_artist" VALUES(4763,18724,1);
 INSERT INTO "remix_artist" VALUES(4764,18896,1);
+INSERT INTO "remix_artist" VALUES(4765,18659,1);
+INSERT INTO "remix_artist" VALUES(4766,13667,1);
+INSERT INTO "remix_artist" VALUES(4766,18710,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -43617,6 +43622,23 @@ INSERT INTO "remix_tag" VALUES(4764,'woodwinds',1);
 INSERT INTO "remix_tag" VALUES(4764,'mystical',1);
 INSERT INTO "remix_tag" VALUES(4764,'solemn',1);
 INSERT INTO "remix_tag" VALUES(4764,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4765,'funk',1);
+INSERT INTO "remix_tag" VALUES(4765,'electronic',1);
+INSERT INTO "remix_tag" VALUES(4765,'synth',1);
+INSERT INTO "remix_tag" VALUES(4765,'energetic',1);
+INSERT INTO "remix_tag" VALUES(4765,'funky',1);
+INSERT INTO "remix_tag" VALUES(4765,'goofy',1);
+INSERT INTO "remix_tag" VALUES(4765,'medley',1);
+INSERT INTO "remix_tag" VALUES(4765,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4766,'chamber',1);
+INSERT INTO "remix_tag" VALUES(4766,'acoustic',1);
+INSERT INTO "remix_tag" VALUES(4766,'acoustic-guitar',1);
+INSERT INTO "remix_tag" VALUES(4766,'mellow',1);
+INSERT INTO "remix_tag" VALUES(4766,'peaceful',1);
+INSERT INTO "remix_tag" VALUES(4766,'collab',1);
+INSERT INTO "remix_tag" VALUES(4766,'live-instruments',1);
+INSERT INTO "remix_tag" VALUES(4766,'quartet',1);
+INSERT INTO "remix_tag" VALUES(4766,'timesig-4-4',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
