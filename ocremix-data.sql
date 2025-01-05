@@ -1573,6 +1573,7 @@ INSERT INTO "artist" VALUES(18889,'The Rocket Knights','https://ocremix.org/arti
 INSERT INTO "artist" VALUES(18890,'Flávio Teles','https://ocremix.org/artist/18890/flavio-teles');
 INSERT INTO "artist" VALUES(18895,'Docjekyll','https://ocremix.org/artist/18895/docjekyll');
 INSERT INTO "artist" VALUES(18896,'SupremoMusico400','https://ocremix.org/artist/18896/supremomusico400');
+INSERT INTO "artist" VALUES(18898,'Pipko Fanfare','https://ocremix.org/artist/18898/pipko-fanfare');
 CREATE TABLE game (
     id integer primary key,
     name text not null,
@@ -7240,6 +7241,7 @@ INSERT INTO "remix" VALUES(4764,'Dragonborn Symphony','The Elder Scrolls V: Skyr
 INSERT INTO "remix" VALUES(4765,'Mysterious Forest: Witch''s Strut','The Legend of Zelda: Link''s Awakening','2025-01-02T00:54:35.206797+00:00','https://www.youtube.com/watch?v=psVahj731GM',68,'https://ocrmirror.org/files/music/remixes/Legend_of_Zelda_Link''s_Awakening_Mysterious_Forest_Witch''s_Strut_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4766,'Dawn of the Chosen','Final Fantasy V','2025-01-02T00:54:35.829497+00:00','https://www.youtube.com/watch?v=nfIQDk3O2XQ',12,'https://ocrmirror.org/files/music/remixes/Final_Fantasy_5_Dawn_of_the_Chosen_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4767,'Down','The Legend of Zelda: Tears of the Kingdom','2025-01-04T00:54:02.578343+00:00','https://www.youtube.com/watch?v=ikPRJ_RShZ4',95834,'https://ocrmirror.org/files/music/remixes/Legend_of_Zelda_Tears_of_the_Kingdom_Down_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4768,'Frozen Light','Final Fantasy VI','2025-01-05T00:59:54.606941+00:00','https://www.youtube.com/watch?v=ndQ6ZFIMhpY',6,'https://ocrmirror.org/files/music/remixes/Final_Fantasy_6_Frozen_Light_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13340,6 +13342,7 @@ INSERT INTO "remix_artist" VALUES(4766,13667,1);
 INSERT INTO "remix_artist" VALUES(4766,18710,1);
 INSERT INTO "remix_artist" VALUES(4767,13046,1);
 INSERT INTO "remix_artist" VALUES(4767,10690,1);
+INSERT INTO "remix_artist" VALUES(4768,18898,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -43651,6 +43654,14 @@ INSERT INTO "remix_tag" VALUES(4767,'spooky',1);
 INSERT INTO "remix_tag" VALUES(4767,'collab',1);
 INSERT INTO "remix_tag" VALUES(4767,'reversing',1);
 INSERT INTO "remix_tag" VALUES(4767,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4768,'metal',1);
+INSERT INTO "remix_tag" VALUES(4768,'prog-rock',1);
+INSERT INTO "remix_tag" VALUES(4768,'electric-guitar',1);
+INSERT INTO "remix_tag" VALUES(4768,'synth',1);
+INSERT INTO "remix_tag" VALUES(4768,'dark',1);
+INSERT INTO "remix_tag" VALUES(4768,'spooky',1);
+INSERT INTO "remix_tag" VALUES(4768,'distortion',1);
+INSERT INTO "remix_tag" VALUES(4768,'timesig-7-8',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
