@@ -7250,6 +7250,8 @@ INSERT INTO "remix" VALUES(4769,'Sunshine Coaster','Sonic Heroes','2025-02-08T21
 INSERT INTO "remix" VALUES(4770,'{This Title Intentionally Left Blank}','Signalis','2025-01-26T00:55:36.038870+00:00','https://www.youtube.com/watch?v=RObRg2oQD-8',95868,'https://ocrmirror.org/files/music/remixes/Signalis_This_Title_Intentionally_Left_Blank_OC_ReMix.mp3',1);
 INSERT INTO "remix" VALUES(4771,'Livin'' Out Our Last Days','Metroid Prime','2025-01-26T00:55:36.692331+00:00','https://www.youtube.com/watch?v=RYmhx8_BCN4',425,'https://ocrmirror.org/files/music/remixes/Metroid_Prime_Livin''_Out_Our_Last_Days_OC_ReMix.mp3',1);
 INSERT INTO "remix" VALUES(4772,'Road Rage','Mach Rider','2025-02-01T00:57:19.676555+00:00','https://www.youtube.com/watch?v=gMWbsag4Zq0',285,'https://ocrmirror.org/files/music/remixes/Mach_Rider_Road_Rage_OC_ReMix.mp3',1);
+INSERT INTO "remix" VALUES(4773,'About to Turn It All Around!','Phoenix Wright: Ace Attorney','2025-02-13T00:55:24.055840+00:00','https://www.youtube.com/watch?v=YVm8ikWcoYs',493,'https://ocrmirror.org/files/music/remixes/Phoenix_Wright_Ace_Attorney_About_to_Turn_It_All_Around_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4774,'Thunderbird Rising','Genshin Impact','2025-02-13T00:55:24.567130+00:00','https://www.youtube.com/watch?v=Ol1tXZJ19GU',95846,'https://ocrmirror.org/files/music/remixes/Genshin_Impact_Thunderbird_Rising_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13361,6 +13363,14 @@ INSERT INTO "remix_artist" VALUES(4771,13667,1);
 INSERT INTO "remix_artist" VALUES(4771,17937,1);
 INSERT INTO "remix_artist" VALUES(4772,17486,1);
 INSERT INTO "remix_artist" VALUES(4772,18635,1);
+INSERT INTO "remix_artist" VALUES(4773,10690,1);
+INSERT INTO "remix_artist" VALUES(4773,18698,1);
+INSERT INTO "remix_artist" VALUES(4773,5655,1);
+INSERT INTO "remix_artist" VALUES(4773,13500,1);
+INSERT INTO "remix_artist" VALUES(4773,4729,1);
+INSERT INTO "remix_artist" VALUES(4773,13667,1);
+INSERT INTO "remix_artist" VALUES(4773,13046,1);
+INSERT INTO "remix_artist" VALUES(4774,4729,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -43786,6 +43796,19 @@ INSERT INTO "remix_tag" VALUES(4772,'collab',1);
 INSERT INTO "remix_tag" VALUES(4772,'live-instruments',1);
 INSERT INTO "remix_tag" VALUES(4772,'medley',1);
 INSERT INTO "remix_tag" VALUES(4772,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4773,'hip-hop',1);
+INSERT INTO "remix_tag" VALUES(4773,'electric-guitar',1);
+INSERT INTO "remix_tag" VALUES(4773,'electric-piano',1);
+INSERT INTO "remix_tag" VALUES(4773,'synth',1);
+INSERT INTO "remix_tag" VALUES(4773,'energetic',1);
+INSERT INTO "remix_tag" VALUES(4773,'funky',1);
+INSERT INTO "remix_tag" VALUES(4773,'sexy',1);
+INSERT INTO "remix_tag" VALUES(4773,'collab',1);
+INSERT INTO "remix_tag" VALUES(4773,'compo-dod',1);
+INSERT INTO "remix_tag" VALUES(4773,'live-instruments',1);
+INSERT INTO "remix_tag" VALUES(4773,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4774,'medley',1);
+INSERT INTO "remix_tag" VALUES(4774,'timesig-4-4',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
