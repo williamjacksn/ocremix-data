@@ -2661,6 +2661,7 @@ INSERT INTO "game" VALUES(95859,'Balatro','https://ocremix.org/game/95859/balatr
 INSERT INTO "game" VALUES(95860,'Super Hexagon','https://ocremix.org/game/95860/super-hexagon-ios');
 INSERT INTO "game" VALUES(95861,'Octopath Traveler II','https://ocremix.org/game/95861/octopath-traveler-ii-swtch');
 INSERT INTO "game" VALUES(95865,'Bravely Second: End Layer','https://ocremix.org/game/95865/bravely-second-end-layer-3ds');
+INSERT INTO "game" VALUES(95866,'Kirby and the Forgotten Land','https://ocremix.org/game/95866/kirby-and-the-forgotten-land-swtch');
 INSERT INTO "game" VALUES(95867,'Crash Bandicoot N. Sane Trilogy','https://ocremix.org/game/95867/crash-bandicoot-n-sane-trilogy-ps4');
 INSERT INTO "game" VALUES(95868,'Signalis','https://ocremix.org/game/95868/signalis-win');
 INSERT INTO "game" VALUES(95869,'Elden Ring','https://ocremix.org/game/95869/elden-ring-win');
@@ -7252,6 +7253,8 @@ INSERT INTO "remix" VALUES(4771,'Livin'' Out Our Last Days','Metroid Prime','202
 INSERT INTO "remix" VALUES(4772,'Road Rage','Mach Rider','2025-02-01T00:57:19.676555+00:00','https://www.youtube.com/watch?v=gMWbsag4Zq0',285,'https://ocrmirror.org/files/music/remixes/Mach_Rider_Road_Rage_OC_ReMix.mp3',1);
 INSERT INTO "remix" VALUES(4773,'About to Turn It All Around!','Phoenix Wright: Ace Attorney','2025-02-13T00:55:24.055840+00:00','https://www.youtube.com/watch?v=YVm8ikWcoYs',493,'https://ocrmirror.org/files/music/remixes/Phoenix_Wright_Ace_Attorney_About_to_Turn_It_All_Around_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4774,'Thunderbird Rising','Genshin Impact','2025-02-13T00:55:24.567130+00:00','https://www.youtube.com/watch?v=Ol1tXZJ19GU',95846,'https://ocrmirror.org/files/music/remixes/Genshin_Impact_Thunderbird_Rising_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4775,'Digital Saṃsāra','Genshin Impact','2025-02-15T00:54:24.655825+00:00','https://www.youtube.com/watch?v=DMkgn-hDfpc',95846,'https://ocrmirror.org/files/music/remixes/Genshin_Impact_Digital_Samsara_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4776,'World of Pink','Kirby and the Forgotten Land','2025-02-15T00:54:25.316526+00:00','https://www.youtube.com/watch?v=KYUOsbMcBH8',95866,'https://ocrmirror.org/files/music/remixes/Kirby_and_the_Forgotten_Land_World_of_Pink_OC_ReMix.mp3',1);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13371,6 +13374,11 @@ INSERT INTO "remix_artist" VALUES(4773,4729,1);
 INSERT INTO "remix_artist" VALUES(4773,13667,1);
 INSERT INTO "remix_artist" VALUES(4773,13046,1);
 INSERT INTO "remix_artist" VALUES(4774,4729,1);
+INSERT INTO "remix_artist" VALUES(4775,4729,1);
+INSERT INTO "remix_artist" VALUES(4776,18653,1);
+INSERT INTO "remix_artist" VALUES(4776,18623,1);
+INSERT INTO "remix_artist" VALUES(4776,18886,1);
+INSERT INTO "remix_artist" VALUES(4776,18654,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -43796,6 +43804,14 @@ INSERT INTO "remix_tag" VALUES(4773,'live-instruments',1);
 INSERT INTO "remix_tag" VALUES(4773,'timesig-4-4',1);
 INSERT INTO "remix_tag" VALUES(4774,'medley',1);
 INSERT INTO "remix_tag" VALUES(4774,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4775,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4776,'singing',1);
+INSERT INTO "remix_tag" VALUES(4776,'vocals-female',1);
+INSERT INTO "remix_tag" VALUES(4776,'vocals-male',1);
+INSERT INTO "remix_tag" VALUES(4776,'collab',1);
+INSERT INTO "remix_tag" VALUES(4776,'compo-dod',1);
+INSERT INTO "remix_tag" VALUES(4776,'lang-english',1);
+INSERT INTO "remix_tag" VALUES(4776,'lyrics-existing',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
