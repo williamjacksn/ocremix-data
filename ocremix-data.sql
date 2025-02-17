@@ -1279,7 +1279,7 @@ INSERT INTO "artist" VALUES(17244,'Troyificus','https://ocremix.org/artist/17244
 INSERT INTO "artist" VALUES(17245,'Gnegon Galek','https://ocremix.org/artist/17245/gnegon-galek');
 INSERT INTO "artist" VALUES(17246,'Catie Williams','https://ocremix.org/artist/17246/catie-williams');
 INSERT INTO "artist" VALUES(17247,'Richard Spencer','https://ocremix.org/artist/17247/richard-spencer');
-INSERT INTO "artist" VALUES(17316,'pingosimon','https://ocremix.org/artist/17316/pingosimon');
+INSERT INTO "artist" VALUES(17316,'Andre Beller','https://ocremix.org/artist/17316/andre-beller');
 INSERT INTO "artist" VALUES(17317,'DavidRussell323','https://ocremix.org/artist/17317/davidrussell323');
 INSERT INTO "artist" VALUES(17318,'Dean Nguyen','https://ocremix.org/artist/17318/dean-nguyen');
 INSERT INTO "artist" VALUES(17319,'Atsumu','https://ocremix.org/artist/17319/atsumu');
@@ -7255,6 +7255,7 @@ INSERT INTO "remix" VALUES(4773,'About to Turn It All Around!','Phoenix Wright: 
 INSERT INTO "remix" VALUES(4774,'Thunderbird Rising','Genshin Impact','2025-02-13T00:55:24.567130+00:00','https://www.youtube.com/watch?v=Ol1tXZJ19GU',95846,'https://ocrmirror.org/files/music/remixes/Genshin_Impact_Thunderbird_Rising_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4775,'Digital Saṃsāra','Genshin Impact','2025-02-15T00:54:24.655825+00:00','https://www.youtube.com/watch?v=DMkgn-hDfpc',95846,'https://ocrmirror.org/files/music/remixes/Genshin_Impact_Digital_Samsara_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4776,'World of Pink','Kirby and the Forgotten Land','2025-02-15T00:54:25.316526+00:00','https://www.youtube.com/watch?v=KYUOsbMcBH8',95866,'https://ocrmirror.org/files/music/remixes/Kirby_and_the_Forgotten_Land_World_of_Pink_OC_ReMix.mp3',1);
+INSERT INTO "remix" VALUES(4777,'A View from the Top (of Shinra HQ)','Final Fantasy VII Remake','2025-02-17T00:57:28.985592+00:00','https://www.youtube.com/watch?v=3xoFiJXkCdw',95829,'https://ocrmirror.org/files/music/remixes/Final_Fantasy_7_Remake_A_View_from_the_Top_(of_Shinra_HQ)_OC_ReMix.mp3',1);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13379,6 +13380,13 @@ INSERT INTO "remix_artist" VALUES(4776,18653,1);
 INSERT INTO "remix_artist" VALUES(4776,18623,1);
 INSERT INTO "remix_artist" VALUES(4776,18886,1);
 INSERT INTO "remix_artist" VALUES(4776,18654,1);
+INSERT INTO "remix_artist" VALUES(4777,18653,1);
+INSERT INTO "remix_artist" VALUES(4777,17316,1);
+INSERT INTO "remix_artist" VALUES(4777,13500,1);
+INSERT INTO "remix_artist" VALUES(4777,17980,1);
+INSERT INTO "remix_artist" VALUES(4777,18819,1);
+INSERT INTO "remix_artist" VALUES(4777,18655,1);
+INSERT INTO "remix_artist" VALUES(4777,16853,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -43812,6 +43820,24 @@ INSERT INTO "remix_tag" VALUES(4776,'collab',1);
 INSERT INTO "remix_tag" VALUES(4776,'compo-dod',1);
 INSERT INTO "remix_tag" VALUES(4776,'lang-english',1);
 INSERT INTO "remix_tag" VALUES(4776,'lyrics-existing',1);
+INSERT INTO "remix_tag" VALUES(4777,'ballad',1);
+INSERT INTO "remix_tag" VALUES(4777,'jazz',1);
+INSERT INTO "remix_tag" VALUES(4777,'electric-guitar',1);
+INSERT INTO "remix_tag" VALUES(4777,'piano',1);
+INSERT INTO "remix_tag" VALUES(4777,'saxophone',1);
+INSERT INTO "remix_tag" VALUES(4777,'violin',1);
+INSERT INTO "remix_tag" VALUES(4777,'vocals-female',1);
+INSERT INTO "remix_tag" VALUES(4777,'vocals-male',1);
+INSERT INTO "remix_tag" VALUES(4777,'jazzy',1);
+INSERT INTO "remix_tag" VALUES(4777,'mellow',1);
+INSERT INTO "remix_tag" VALUES(4777,'sexy',1);
+INSERT INTO "remix_tag" VALUES(4777,'collab',1);
+INSERT INTO "remix_tag" VALUES(4777,'compo-dod',1);
+INSERT INTO "remix_tag" VALUES(4777,'lang-english',1);
+INSERT INTO "remix_tag" VALUES(4777,'live-instruments',1);
+INSERT INTO "remix_tag" VALUES(4777,'lyrics-existing',1);
+INSERT INTO "remix_tag" VALUES(4777,'lyrics-original',1);
+INSERT INTO "remix_tag" VALUES(4777,'timesig-4-4',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
