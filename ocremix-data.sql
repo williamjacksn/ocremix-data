@@ -7257,6 +7257,7 @@ INSERT INTO "remix" VALUES(4775,'Digital Saṃsāra','Genshin Impact','2025-02-1
 INSERT INTO "remix" VALUES(4776,'World of Pink','Kirby and the Forgotten Land','2025-02-15T00:54:25.316526+00:00','https://www.youtube.com/watch?v=KYUOsbMcBH8',95866,'https://ocrmirror.org/files/music/remixes/Kirby_and_the_Forgotten_Land_World_of_Pink_OC_ReMix.mp3',1);
 INSERT INTO "remix" VALUES(4777,'A View from the Top (of Shinra HQ)','Final Fantasy VII Remake','2025-02-17T00:57:28.985592+00:00','https://www.youtube.com/watch?v=3xoFiJXkCdw',95829,'https://ocrmirror.org/files/music/remixes/Final_Fantasy_7_Remake_A_View_from_the_Top_(of_Shinra_HQ)_OC_ReMix.mp3',1);
 INSERT INTO "remix" VALUES(4778,'Hyōryū Kioku','Final Fantasy VIII','2025-02-18T00:54:53.691173+00:00','https://www.youtube.com/watch?v=cV3h8PKrvYM',13,'https://ocrmirror.org/files/music/remixes/Final_Fantasy_8_Hyoryu_Kioku_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4779,'Terra Calls','Final Fantasy IX','2025-02-19T00:55:27.065692+00:00','https://www.youtube.com/watch?v=aePwHyLrapw',14,'https://ocrmirror.org/files/music/remixes/Final_Fantasy_9_Terra_Calls_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13389,6 +13390,7 @@ INSERT INTO "remix_artist" VALUES(4777,18819,1);
 INSERT INTO "remix_artist" VALUES(4777,18655,1);
 INSERT INTO "remix_artist" VALUES(4777,16853,1);
 INSERT INTO "remix_artist" VALUES(4778,11967,1);
+INSERT INTO "remix_artist" VALUES(4779,14375,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -43850,6 +43852,20 @@ INSERT INTO "remix_tag" VALUES(4778,'japanese',1);
 INSERT INTO "remix_tag" VALUES(4778,'meditation',1);
 INSERT INTO "remix_tag" VALUES(4778,'timesig-4-4',1);
 INSERT INTO "remix_tag" VALUES(3468,'lang-esperanto',1);
+INSERT INTO "remix_tag" VALUES(4779,'bassoon',1);
+INSERT INTO "remix_tag" VALUES(4779,'bells',1);
+INSERT INTO "remix_tag" VALUES(4779,'clarinet',1);
+INSERT INTO "remix_tag" VALUES(4779,'flute',1);
+INSERT INTO "remix_tag" VALUES(4779,'harp',1);
+INSERT INTO "remix_tag" VALUES(4779,'oboe',1);
+INSERT INTO "remix_tag" VALUES(4779,'orchestral',1);
+INSERT INTO "remix_tag" VALUES(4779,'strings',1);
+INSERT INTO "remix_tag" VALUES(4779,'vocals-female',1);
+INSERT INTO "remix_tag" VALUES(4779,'woodwinds',1);
+INSERT INTO "remix_tag" VALUES(4779,'mystical',1);
+INSERT INTO "remix_tag" VALUES(4779,'timesig-3-4',1);
+INSERT INTO "remix_tag" VALUES(4779,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4779,'timesig-variable',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
