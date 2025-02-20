@@ -7258,6 +7258,7 @@ INSERT INTO "remix" VALUES(4776,'World of Pink','Kirby and the Forgotten Land','
 INSERT INTO "remix" VALUES(4777,'A View from the Top (of Shinra HQ)','Final Fantasy VII Remake','2025-02-17T00:57:28.985592+00:00','https://www.youtube.com/watch?v=3xoFiJXkCdw',95829,'https://ocrmirror.org/files/music/remixes/Final_Fantasy_7_Remake_A_View_from_the_Top_(of_Shinra_HQ)_OC_ReMix.mp3',1);
 INSERT INTO "remix" VALUES(4778,'Hyōryū Kioku','Final Fantasy VIII','2025-02-18T00:54:53.691173+00:00','https://www.youtube.com/watch?v=cV3h8PKrvYM',13,'https://ocrmirror.org/files/music/remixes/Final_Fantasy_8_Hyoryu_Kioku_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4779,'Terra Calls','Final Fantasy IX','2025-02-19T00:55:27.065692+00:00','https://www.youtube.com/watch?v=aePwHyLrapw',14,'https://ocrmirror.org/files/music/remixes/Final_Fantasy_9_Terra_Calls_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4780,'Lo-fi Musashi','Shinobi','2025-02-20T00:55:40.668272+00:00','https://www.youtube.com/watch?v=fsGQaPHabeM',666,'https://ocrmirror.org/files/music/remixes/Shinobi_Lo-fi_Musashi_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13391,6 +13392,7 @@ INSERT INTO "remix_artist" VALUES(4777,18655,1);
 INSERT INTO "remix_artist" VALUES(4777,16853,1);
 INSERT INTO "remix_artist" VALUES(4778,11967,1);
 INSERT INTO "remix_artist" VALUES(4779,14375,1);
+INSERT INTO "remix_artist" VALUES(4780,4617,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -43866,6 +43868,12 @@ INSERT INTO "remix_tag" VALUES(4779,'mystical',1);
 INSERT INTO "remix_tag" VALUES(4779,'timesig-3-4',1);
 INSERT INTO "remix_tag" VALUES(4779,'timesig-4-4',1);
 INSERT INTO "remix_tag" VALUES(4779,'timesig-variable',1);
+INSERT INTO "remix_tag" VALUES(4780,'synthwave',1);
+INSERT INTO "remix_tag" VALUES(4780,'synth',1);
+INSERT INTO "remix_tag" VALUES(4780,'chill',1);
+INSERT INTO "remix_tag" VALUES(4780,'mellow',1);
+INSERT INTO "remix_tag" VALUES(4780,'lo-fi',1);
+INSERT INTO "remix_tag" VALUES(4780,'timesig-4-4',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
