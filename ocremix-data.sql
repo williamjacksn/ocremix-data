@@ -7259,6 +7259,7 @@ INSERT INTO "remix" VALUES(4777,'A View from the Top (of Shinra HQ)','Final Fant
 INSERT INTO "remix" VALUES(4778,'Hyōryū Kioku','Final Fantasy VIII','2025-02-18T00:54:53.691173+00:00','https://www.youtube.com/watch?v=cV3h8PKrvYM',13,'https://ocrmirror.org/files/music/remixes/Final_Fantasy_8_Hyoryu_Kioku_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4779,'Terra Calls','Final Fantasy IX','2025-02-19T00:55:27.065692+00:00','https://www.youtube.com/watch?v=aePwHyLrapw',14,'https://ocrmirror.org/files/music/remixes/Final_Fantasy_9_Terra_Calls_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4780,'Lo-fi Musashi','Shinobi','2025-02-20T00:55:40.668272+00:00','https://www.youtube.com/watch?v=fsGQaPHabeM',666,'https://ocrmirror.org/files/music/remixes/Shinobi_Lo-fi_Musashi_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4781,'Zombie Chicken','Contra: Hard Corps','2025-02-21T00:55:38.046785+00:00','https://www.youtube.com/watch?v=F6Z7vz-FhtU',6309,'https://ocrmirror.org/files/music/remixes/Contra_Hard_Corps_Zombie_Chicken_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13393,6 +13394,7 @@ INSERT INTO "remix_artist" VALUES(4777,16853,1);
 INSERT INTO "remix_artist" VALUES(4778,11967,1);
 INSERT INTO "remix_artist" VALUES(4779,14375,1);
 INSERT INTO "remix_artist" VALUES(4780,4617,1);
+INSERT INTO "remix_artist" VALUES(4781,11494,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -43874,6 +43876,14 @@ INSERT INTO "remix_tag" VALUES(4780,'chill',1);
 INSERT INTO "remix_tag" VALUES(4780,'mellow',1);
 INSERT INTO "remix_tag" VALUES(4780,'lo-fi',1);
 INSERT INTO "remix_tag" VALUES(4780,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4781,'big-beat',1);
+INSERT INTO "remix_tag" VALUES(4781,'electro',1);
+INSERT INTO "remix_tag" VALUES(4781,'electronic',1);
+INSERT INTO "remix_tag" VALUES(4781,'sound-fx',1);
+INSERT INTO "remix_tag" VALUES(4781,'synth',1);
+INSERT INTO "remix_tag" VALUES(4781,'energetic',1);
+INSERT INTO "remix_tag" VALUES(4781,'funny',1);
+INSERT INTO "remix_tag" VALUES(4781,'timesig-4-4',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
