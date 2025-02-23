@@ -7260,6 +7260,8 @@ INSERT INTO "remix" VALUES(4778,'Hyōryū Kioku','Final Fantasy VIII','2025-02-1
 INSERT INTO "remix" VALUES(4779,'Terra Calls','Final Fantasy IX','2025-02-19T00:55:27.065692+00:00','https://www.youtube.com/watch?v=aePwHyLrapw',14,'https://ocrmirror.org/files/music/remixes/Final_Fantasy_9_Terra_Calls_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4780,'Lo-fi Musashi','Shinobi','2025-02-20T00:55:40.668272+00:00','https://www.youtube.com/watch?v=fsGQaPHabeM',666,'https://ocrmirror.org/files/music/remixes/Shinobi_Lo-fi_Musashi_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4781,'Zombie Chicken','Contra: Hard Corps','2025-02-21T00:55:38.046785+00:00','https://www.youtube.com/watch?v=F6Z7vz-FhtU',6309,'https://ocrmirror.org/files/music/remixes/Contra_Hard_Corps_Zombie_Chicken_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4782,'You Can''t Just Shoot a Hole into the Surface of Zebes','Super Metroid','2025-02-23T00:59:37.705430+00:00','https://www.youtube.com/watch?v=Ohs4jNrfui8',74,'https://ocrmirror.org/files/music/remixes/Super_Metroid_You_Can''t_Just_Shoot_a_Hole_into_the_Surface_of_Zebes_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4783,'No Eraser, 10B Only, Final Destination!','Pictionary','2025-02-23T00:59:38.374754+00:00','https://www.youtube.com/watch?v=XE6TcoHZTeY',492,'https://ocrmirror.org/files/music/remixes/Pictionary_No_Eraser_10B_Only_Final_Destination_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13395,6 +13397,12 @@ INSERT INTO "remix_artist" VALUES(4778,11967,1);
 INSERT INTO "remix_artist" VALUES(4779,14375,1);
 INSERT INTO "remix_artist" VALUES(4780,4617,1);
 INSERT INTO "remix_artist" VALUES(4781,11494,1);
+INSERT INTO "remix_artist" VALUES(4782,18602,1);
+INSERT INTO "remix_artist" VALUES(4782,18712,1);
+INSERT INTO "remix_artist" VALUES(4782,18623,1);
+INSERT INTO "remix_artist" VALUES(4782,16847,1);
+INSERT INTO "remix_artist" VALUES(4782,18705,1);
+INSERT INTO "remix_artist" VALUES(4783,13500,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -43884,6 +43892,24 @@ INSERT INTO "remix_tag" VALUES(4781,'synth',1);
 INSERT INTO "remix_tag" VALUES(4781,'energetic',1);
 INSERT INTO "remix_tag" VALUES(4781,'funny',1);
 INSERT INTO "remix_tag" VALUES(4781,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4782,'metal',1);
+INSERT INTO "remix_tag" VALUES(4782,'synthwave',1);
+INSERT INTO "remix_tag" VALUES(4782,'electric-guitar',1);
+INSERT INTO "remix_tag" VALUES(4782,'electronic',1);
+INSERT INTO "remix_tag" VALUES(4782,'sound-fx',1);
+INSERT INTO "remix_tag" VALUES(4782,'synth',1);
+INSERT INTO "remix_tag" VALUES(4782,'vocals-female',1);
+INSERT INTO "remix_tag" VALUES(4782,'aggressive',1);
+INSERT INTO "remix_tag" VALUES(4782,'dark',1);
+INSERT INTO "remix_tag" VALUES(4782,'energetic',1);
+INSERT INTO "remix_tag" VALUES(4782,'collab',1);
+INSERT INTO "remix_tag" VALUES(4782,'compo',1);
+INSERT INTO "remix_tag" VALUES(4782,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4783,'prog-rock',1);
+INSERT INTO "remix_tag" VALUES(4783,'synth',1);
+INSERT INTO "remix_tag" VALUES(4783,'energetic',1);
+INSERT INTO "remix_tag" VALUES(4783,'compo-dod',1);
+INSERT INTO "remix_tag" VALUES(4783,'timesig-4-4',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
