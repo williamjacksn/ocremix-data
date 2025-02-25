@@ -2452,6 +2452,7 @@ INSERT INTO "game" VALUES(10586,'Suikoden III','https://ocremix.org/game/10586/s
 INSERT INTO "game" VALUES(10810,'XGIII: Extreme G Racing','https://ocremix.org/game/10810/xgiii-extreme-g-racing-ps2');
 INSERT INTO "game" VALUES(10825,'Zone of the Enders: The 2nd Runner','https://ocremix.org/game/10825/zone-of-the-enders-the-2nd-runner-ps2');
 INSERT INTO "game" VALUES(10878,'Battletoads in Battlemaniacs','https://ocremix.org/game/10878/battletoads-in-battlemaniacs-snes');
+INSERT INTO "game" VALUES(10903,'Bubsy in: Claws Encounters of the Furred Kind','https://ocremix.org/game/10903/bubsy-in-claws-encounters-of-the-furred-kind-snes');
 INSERT INTO "game" VALUES(10916,'Castlevania: Dracula X','https://ocremix.org/game/10916/castlevania-dracula-x-snes');
 INSERT INTO "game" VALUES(11016,'Fire Emblem: Genealogy of the Holy War','https://ocremix.org/game/11016/fire-emblem-genealogy-of-the-holy-war-snes');
 INSERT INTO "game" VALUES(11028,'Front Mission: Gun Hazard','https://ocremix.org/game/11028/front-mission-gun-hazard-snes');
@@ -7262,6 +7263,7 @@ INSERT INTO "remix" VALUES(4780,'Lo-fi Musashi','Shinobi','2025-02-20T00:55:40.6
 INSERT INTO "remix" VALUES(4781,'Zombie Chicken','Contra: Hard Corps','2025-02-21T00:55:38.046785+00:00','https://www.youtube.com/watch?v=F6Z7vz-FhtU',6309,'https://ocrmirror.org/files/music/remixes/Contra_Hard_Corps_Zombie_Chicken_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4782,'You Can''t Just Shoot a Hole into the Surface of Zebes','Super Metroid','2025-02-23T00:59:37.705430+00:00','https://www.youtube.com/watch?v=Ohs4jNrfui8',74,'https://ocrmirror.org/files/music/remixes/Super_Metroid_You_Can''t_Just_Shoot_a_Hole_into_the_Surface_of_Zebes_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4783,'No Eraser, 10B Only, Final Destination!','Pictionary','2025-02-23T00:59:38.374754+00:00','https://www.youtube.com/watch?v=XE6TcoHZTeY',492,'https://ocrmirror.org/files/music/remixes/Pictionary_No_Eraser_10B_Only_Final_Destination_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4784,'Furry Beat','Bubsy in: Claws Encounters of the Furred Kind','2025-02-25T00:56:47.676641+00:00','https://www.youtube.com/watch?v=Wgh4MnFXzq8',10903,'https://ocrmirror.org/files/music/remixes/Bubsy_in_Claws_Encounters_of_the_Furred_Kind_Furry_Beat_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13403,6 +13405,7 @@ INSERT INTO "remix_artist" VALUES(4782,18623,1);
 INSERT INTO "remix_artist" VALUES(4782,16847,1);
 INSERT INTO "remix_artist" VALUES(4782,18705,1);
 INSERT INTO "remix_artist" VALUES(4783,13500,1);
+INSERT INTO "remix_artist" VALUES(4784,14495,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -43910,6 +43913,15 @@ INSERT INTO "remix_tag" VALUES(4783,'synth',1);
 INSERT INTO "remix_tag" VALUES(4783,'energetic',1);
 INSERT INTO "remix_tag" VALUES(4783,'compo-dod',1);
 INSERT INTO "remix_tag" VALUES(4783,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4784,'edm',1);
+INSERT INTO "remix_tag" VALUES(4784,'happy-hardcore',1);
+INSERT INTO "remix_tag" VALUES(4784,'electronic',1);
+INSERT INTO "remix_tag" VALUES(4784,'sound-fx',1);
+INSERT INTO "remix_tag" VALUES(4784,'synth',1);
+INSERT INTO "remix_tag" VALUES(4784,'energetic',1);
+INSERT INTO "remix_tag" VALUES(4784,'funky',1);
+INSERT INTO "remix_tag" VALUES(4784,'happy',1);
+INSERT INTO "remix_tag" VALUES(4784,'timesig-4-4',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
