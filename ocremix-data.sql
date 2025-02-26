@@ -7264,6 +7264,7 @@ INSERT INTO "remix" VALUES(4781,'Zombie Chicken','Contra: Hard Corps','2025-02-2
 INSERT INTO "remix" VALUES(4782,'You Can''t Just Shoot a Hole into the Surface of Zebes','Super Metroid','2025-02-23T00:59:37.705430+00:00','https://www.youtube.com/watch?v=Ohs4jNrfui8',74,'https://ocrmirror.org/files/music/remixes/Super_Metroid_You_Can''t_Just_Shoot_a_Hole_into_the_Surface_of_Zebes_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4783,'No Eraser, 10B Only, Final Destination!','Pictionary','2025-02-23T00:59:38.374754+00:00','https://www.youtube.com/watch?v=XE6TcoHZTeY',492,'https://ocrmirror.org/files/music/remixes/Pictionary_No_Eraser_10B_Only_Final_Destination_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4784,'Furry Beat','Bubsy in: Claws Encounters of the Furred Kind','2025-02-25T00:56:47.676641+00:00','https://www.youtube.com/watch?v=Wgh4MnFXzq8',10903,'https://ocrmirror.org/files/music/remixes/Bubsy_in_Claws_Encounters_of_the_Furred_Kind_Furry_Beat_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4785,'Big Earl Funk','ToeJam & Earl','2025-02-26T00:56:40.633003+00:00','https://www.youtube.com/watch?v=aULGg8wLknE',99,'https://ocrmirror.org/files/music/remixes/ToeJam_&_Earl_Big_Earl_Funk_OC_ReMix.mp3',1);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13406,6 +13407,11 @@ INSERT INTO "remix_artist" VALUES(4782,16847,1);
 INSERT INTO "remix_artist" VALUES(4782,18705,1);
 INSERT INTO "remix_artist" VALUES(4783,13500,1);
 INSERT INTO "remix_artist" VALUES(4784,14495,1);
+INSERT INTO "remix_artist" VALUES(4785,18654,1);
+INSERT INTO "remix_artist" VALUES(4785,18362,1);
+INSERT INTO "remix_artist" VALUES(4785,18655,1);
+INSERT INTO "remix_artist" VALUES(4785,16853,1);
+INSERT INTO "remix_artist" VALUES(4785,18653,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -43922,6 +43928,18 @@ INSERT INTO "remix_tag" VALUES(4784,'energetic',1);
 INSERT INTO "remix_tag" VALUES(4784,'funky',1);
 INSERT INTO "remix_tag" VALUES(4784,'happy',1);
 INSERT INTO "remix_tag" VALUES(4784,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4785,'funk',1);
+INSERT INTO "remix_tag" VALUES(4785,'hip-hop',1);
+INSERT INTO "remix_tag" VALUES(4785,'electric-guitar',1);
+INSERT INTO "remix_tag" VALUES(4785,'electric-piano',1);
+INSERT INTO "remix_tag" VALUES(4785,'saxophone',1);
+INSERT INTO "remix_tag" VALUES(4785,'vocals-male',1);
+INSERT INTO "remix_tag" VALUES(4785,'vocals-rapping',1);
+INSERT INTO "remix_tag" VALUES(4785,'funky',1);
+INSERT INTO "remix_tag" VALUES(4785,'collab',1);
+INSERT INTO "remix_tag" VALUES(4785,'compo-dod',1);
+INSERT INTO "remix_tag" VALUES(4785,'lang-english',1);
+INSERT INTO "remix_tag" VALUES(4785,'lyrics-original',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
