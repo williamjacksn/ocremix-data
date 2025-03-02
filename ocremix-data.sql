@@ -1578,6 +1578,7 @@ INSERT INTO "artist" VALUES(18895,'Docjekyll','https://ocremix.org/artist/18895/
 INSERT INTO "artist" VALUES(18896,'SupremoMusico400','https://ocremix.org/artist/18896/supremomusico400');
 INSERT INTO "artist" VALUES(18898,'Pipko Fanfare','https://ocremix.org/artist/18898/pipko-fanfare');
 INSERT INTO "artist" VALUES(18899,'com_poser','https://ocremix.org/artist/18899/com-poser');
+INSERT INTO "artist" VALUES(18907,'SQORE','https://ocremix.org/artist/18907/sqore');
 CREATE TABLE game (
     id integer primary key,
     name text not null,
@@ -7270,6 +7271,7 @@ INSERT INTO "remix" VALUES(4786,'A God from the Machine','Super Metroid','2025-0
 INSERT INTO "remix" VALUES(4787,'Lord Gwyn''s Age of Fire','Dark Souls','2025-02-28T17:30:05.454684+00:00','https://www.youtube.com/watch?v=fW_j10gATsk',976,'https://ocrmirror.org/files/music/remixes/Dark_Souls_Lord_Gwyn''s_Age_of_Fire_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4788,'Zelda''s Daydream','The Legend of Zelda: Ocarina of Time','2025-02-28T17:30:06.230264+00:00','https://www.youtube.com/watch?v=15liwW-Fssc',67,'https://ocrmirror.org/files/music/remixes/Legend_of_Zelda_Ocarina_of_Time_Zelda''s_Daydream_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4789,'Að leggja höfuðið í bleyti (Lay Your Head in the Water)','Chicory: A Colorful Tale','2025-02-28T17:30:07.005553+00:00','https://www.youtube.com/watch?v=baHOhWrjoME',95833,'https://ocrmirror.org/files/music/remixes/Chicory_Ao_leggja_hofuoio_i_bleyti_(Lay_Your_Head_in_the_Water)_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4790,'Leave Me Behind','Celeste','2025-03-02T01:00:02.778228+00:00','https://www.youtube.com/watch?v=1-hHPxgwn5g',95636,'https://ocrmirror.org/files/music/remixes/Celeste_Leave_Me_Behind_OC_ReMix.mp3',1);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13425,6 +13427,8 @@ INSERT INTO "remix_artist" VALUES(4788,18601,1);
 INSERT INTO "remix_artist" VALUES(4789,10690,1);
 INSERT INTO "remix_artist" VALUES(4789,12483,1);
 INSERT INTO "remix_artist" VALUES(4789,18712,1);
+INSERT INTO "remix_artist" VALUES(4790,4666,1);
+INSERT INTO "remix_artist" VALUES(4790,18907,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -43991,6 +43995,19 @@ INSERT INTO "remix_tag" VALUES(4789,'collab',1);
 INSERT INTO "remix_tag" VALUES(4789,'compo-dod',1);
 INSERT INTO "remix_tag" VALUES(4789,'meditation',1);
 INSERT INTO "remix_tag" VALUES(4789,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4790,'experimental',1);
+INSERT INTO "remix_tag" VALUES(4790,'hip-hop',1);
+INSERT INTO "remix_tag" VALUES(4790,'electric-piano',1);
+INSERT INTO "remix_tag" VALUES(4790,'screaming',1);
+INSERT INTO "remix_tag" VALUES(4790,'singing',1);
+INSERT INTO "remix_tag" VALUES(4790,'synth',1);
+INSERT INTO "remix_tag" VALUES(4790,'vibraphone',1);
+INSERT INTO "remix_tag" VALUES(4790,'vocals-male',1);
+INSERT INTO "remix_tag" VALUES(4790,'collab',1);
+INSERT INTO "remix_tag" VALUES(4790,'glitching',1);
+INSERT INTO "remix_tag" VALUES(4790,'lyrics-existing',1);
+INSERT INTO "remix_tag" VALUES(4790,'lyrics-original',1);
+INSERT INTO "remix_tag" VALUES(4790,'timesig-4-4',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
