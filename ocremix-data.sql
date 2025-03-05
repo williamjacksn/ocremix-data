@@ -7273,6 +7273,7 @@ INSERT INTO "remix" VALUES(4788,'Zelda''s Daydream','The Legend of Zelda: Ocarin
 INSERT INTO "remix" VALUES(4789,'Að leggja höfuðið í bleyti (Lay Your Head in the Water)','Chicory: A Colorful Tale','2025-02-28T17:30:07.005553+00:00','https://www.youtube.com/watch?v=baHOhWrjoME',95833,'https://ocrmirror.org/files/music/remixes/Chicory_Ao_leggja_hofuoio_i_bleyti_(Lay_Your_Head_in_the_Water)_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4790,'Leave Me Behind','Celeste','2025-03-02T01:00:02.778228+00:00','https://www.youtube.com/watch?v=1-hHPxgwn5g',95636,'https://ocrmirror.org/files/music/remixes/Celeste_Leave_Me_Behind_OC_ReMix.mp3',1);
 INSERT INTO "remix" VALUES(4791,'The Heart of Atlantis','Castlevania: Aria of Sorrow','2025-03-03T00:58:39.088671+00:00','https://www.youtube.com/watch?v=2vj1r5J3vl4',541,'https://ocrmirror.org/files/music/remixes/Castlevania_Aria_of_Sorrow_The_Heart_of_Atlantis_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4792,'War Eternal','Final Fantasy XIV','2025-03-05T00:57:39.949358+00:00','https://www.youtube.com/watch?v=v4u-ZYzowzI',95839,'https://ocrmirror.org/files/music/remixes/Final_Fantasy_14_War_Eternal_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13434,6 +13435,7 @@ INSERT INTO "remix_artist" VALUES(4791,16119,1);
 INSERT INTO "remix_artist" VALUES(4791,17937,1);
 INSERT INTO "remix_artist" VALUES(4791,13667,1);
 INSERT INTO "remix_artist" VALUES(4791,18736,1);
+INSERT INTO "remix_artist" VALUES(4792,18376,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -44031,6 +44033,12 @@ INSERT INTO "remix_tag" VALUES(4774,'strings',1);
 INSERT INTO "remix_tag" VALUES(4774,'energetic',1);
 INSERT INTO "remix_tag" VALUES(4774,'sad',1);
 INSERT INTO "remix_tag" VALUES(4774,'solemn',1);
+INSERT INTO "remix_tag" VALUES(4792,'ballad',1);
+INSERT INTO "remix_tag" VALUES(4792,'acoustic-guitar',1);
+INSERT INTO "remix_tag" VALUES(4792,'harp',1);
+INSERT INTO "remix_tag" VALUES(4792,'synth',1);
+INSERT INTO "remix_tag" VALUES(4792,'sad',1);
+INSERT INTO "remix_tag" VALUES(4792,'timesig-4-4',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
