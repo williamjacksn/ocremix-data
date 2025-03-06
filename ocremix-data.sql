@@ -1477,6 +1477,10 @@ INSERT INTO "artist" VALUES(18684,'Erik McClure','https://ocremix.org/artist/186
 INSERT INTO "artist" VALUES(18685,'Audiomint','https://ocremix.org/artist/18685/audiomint');
 INSERT INTO "artist" VALUES(18686,'Rekkinom','https://ocremix.org/artist/18686/rekkinom');
 INSERT INTO "artist" VALUES(18693,'Artificial Eye','https://ocremix.org/artist/18693/artificial-eye');
+INSERT INTO "artist" VALUES(18694,'Amaury Sabau','https://ocremix.org/artist/18694/amaury-sabau');
+INSERT INTO "artist" VALUES(18695,'Maxime Marion','https://ocremix.org/artist/18695/maxime-marion');
+INSERT INTO "artist" VALUES(18696,'François Kukla','https://ocremix.org/artist/18696/francois-kukla');
+INSERT INTO "artist" VALUES(18697,'Lydie Berthet','https://ocremix.org/artist/18697/lydie-berthet');
 INSERT INTO "artist" VALUES(18698,'Biggoron','https://ocremix.org/artist/18698/biggoron');
 INSERT INTO "artist" VALUES(18701,'Roph','https://ocremix.org/artist/18701/roph');
 INSERT INTO "artist" VALUES(18702,'Harpsibored','https://ocremix.org/artist/18702/harpsibored');
@@ -7274,6 +7278,8 @@ INSERT INTO "remix" VALUES(4789,'Að leggja höfuðið í bleyti (Lay Your Head 
 INSERT INTO "remix" VALUES(4790,'Leave Me Behind','Celeste','2025-03-02T01:00:02.778228+00:00','https://www.youtube.com/watch?v=1-hHPxgwn5g',95636,'https://ocrmirror.org/files/music/remixes/Celeste_Leave_Me_Behind_OC_ReMix.mp3',1);
 INSERT INTO "remix" VALUES(4791,'The Heart of Atlantis','Castlevania: Aria of Sorrow','2025-03-03T00:58:39.088671+00:00','https://www.youtube.com/watch?v=2vj1r5J3vl4',541,'https://ocrmirror.org/files/music/remixes/Castlevania_Aria_of_Sorrow_The_Heart_of_Atlantis_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4792,'War Eternal','Final Fantasy XIV','2025-03-05T00:57:39.949358+00:00','https://www.youtube.com/watch?v=v4u-ZYzowzI',95839,'https://ocrmirror.org/files/music/remixes/Final_Fantasy_14_War_Eternal_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4793,'Solid','Metal Gear Solid','2025-03-06T00:57:37.461638+00:00','https://www.youtube.com/watch?v=aTEIjWXxc1I',328,'https://ocrmirror.org/files/music/remixes/Metal_Gear_Solid_Solid_OC_ReMix.mp3',1);
+INSERT INTO "remix" VALUES(4794,'10 Years','EarthBound','2025-03-06T00:57:38.222819+00:00','https://www.youtube.com/watch?v=0Xrd4xRq7rM',51,'https://ocrmirror.org/files/music/remixes/EarthBound_10_Years_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13436,6 +13442,11 @@ INSERT INTO "remix_artist" VALUES(4791,17937,1);
 INSERT INTO "remix_artist" VALUES(4791,13667,1);
 INSERT INTO "remix_artist" VALUES(4791,18736,1);
 INSERT INTO "remix_artist" VALUES(4792,18376,1);
+INSERT INTO "remix_artist" VALUES(4793,18694,1);
+INSERT INTO "remix_artist" VALUES(4793,18696,1);
+INSERT INTO "remix_artist" VALUES(4793,18697,1);
+INSERT INTO "remix_artist" VALUES(4793,18695,1);
+INSERT INTO "remix_artist" VALUES(4794,18652,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -44052,6 +44063,26 @@ INSERT INTO "remix_tag" VALUES(2090,'acoustic',1);
 INSERT INTO "remix_tag" VALUES(2090,'acoustic-guitar',1);
 INSERT INTO "remix_tag" VALUES(2090,'vocals-male',1);
 INSERT INTO "remix_tag" VALUES(2090,'lyrics-original',1);
+INSERT INTO "remix_tag" VALUES(4793,'cinematic',1);
+INSERT INTO "remix_tag" VALUES(4793,'brass',1);
+INSERT INTO "remix_tag" VALUES(4793,'choir',1);
+INSERT INTO "remix_tag" VALUES(4793,'electric-guitar',1);
+INSERT INTO "remix_tag" VALUES(4793,'orchestral',1);
+INSERT INTO "remix_tag" VALUES(4793,'strings',1);
+INSERT INTO "remix_tag" VALUES(4793,'synth',1);
+INSERT INTO "remix_tag" VALUES(4793,'vocals-female',1);
+INSERT INTO "remix_tag" VALUES(4793,'epic',1);
+INSERT INTO "remix_tag" VALUES(4793,'collab',1);
+INSERT INTO "remix_tag" VALUES(4793,'lang-english',1);
+INSERT INTO "remix_tag" VALUES(4793,'lyrics-existing',1);
+INSERT INTO "remix_tag" VALUES(4793,'medley',1);
+INSERT INTO "remix_tag" VALUES(4794,'post-rock',1);
+INSERT INTO "remix_tag" VALUES(4794,'electric-guitar',1);
+INSERT INTO "remix_tag" VALUES(4794,'strings',1);
+INSERT INTO "remix_tag" VALUES(4794,'synth',1);
+INSERT INTO "remix_tag" VALUES(4794,'happy',1);
+INSERT INTO "remix_tag" VALUES(4794,'mystical',1);
+INSERT INTO "remix_tag" VALUES(4794,'timesig-4-4',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
