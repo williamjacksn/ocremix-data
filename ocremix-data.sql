@@ -7284,6 +7284,11 @@ INSERT INTO "remix" VALUES(4793,'Solid','Metal Gear Solid','2025-03-06T00:57:37.
 INSERT INTO "remix" VALUES(4794,'10 Years','EarthBound','2025-03-06T00:57:38.222819+00:00','https://www.youtube.com/watch?v=0Xrd4xRq7rM',51,'https://ocrmirror.org/files/music/remixes/EarthBound_10_Years_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4795,'Astral Projection','Globulous','2025-03-08T00:44:43.282040+00:00','https://www.youtube.com/watch?v=ifflZLPaUJM',95862,'https://ocrmirror.org/files/music/remixes/Globulous_Astral_Projection_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4796,'Circles in the Sand','Golden Sun','2025-03-08T00:44:44.069581+00:00','https://www.youtube.com/watch?v=2h3nrnHH0yk',433,'https://ocrmirror.org/files/music/remixes/Golden_Sun_Circles_in_the_Sand_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4797,'To Be Forgotten','Final Fantasy IX','2025-03-09T00:50:23.300148+00:00','https://www.youtube.com/watch?v=-mDHK-HBCAk',14,'https://ocrmirror.org/files/music/remixes/Final_Fantasy_9_To_Be_Forgotten_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4798,'Get Down with Your Bad Self, Mr. Saturn!','EarthBound','2025-03-09T00:50:23.939531+00:00','https://www.youtube.com/watch?v=S-oEDuuBsIM',51,'https://ocrmirror.org/files/music/remixes/EarthBound_Get_Down_with_Your_Bad_Self_Mr_Saturn_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4799,'Implements of War','Final Fantasy VI','2025-03-09T00:50:24.558206+00:00','https://www.youtube.com/watch?v=9-4nJYFdpXY',6,'https://ocrmirror.org/files/music/remixes/Final_Fantasy_6_Implements_of_War_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4800,'Riparian Rhythms','The Legend of Zelda: Twilight Princess','2025-03-09T00:50:25.217819+00:00','https://www.youtube.com/watch?v=PDJtKCZH2fk',505,'https://ocrmirror.org/files/music/remixes/Legend_of_Zelda_Twilight_Princess_Riparian_Rhythms_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4801,'Fountain of Youth','The Legend of Zelda: Link''s Awakening','2025-03-09T00:50:25.864057+00:00','https://www.youtube.com/watch?v=JHIMBDsJotk',68,'https://ocrmirror.org/files/music/remixes/Legend_of_Zelda_Link''s_Awakening_Fountain_of_Youth_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13458,6 +13463,15 @@ INSERT INTO "remix_artist" VALUES(4796,18908,1);
 INSERT INTO "remix_artist" VALUES(4796,16181,1);
 INSERT INTO "remix_artist" VALUES(4796,18388,1);
 INSERT INTO "remix_artist" VALUES(4796,10690,1);
+INSERT INTO "remix_artist" VALUES(4797,18898,1);
+INSERT INTO "remix_artist" VALUES(4798,18606,1);
+INSERT INTO "remix_artist" VALUES(4799,18632,1);
+INSERT INTO "remix_artist" VALUES(4800,13046,1);
+INSERT INTO "remix_artist" VALUES(4800,10690,1);
+INSERT INTO "remix_artist" VALUES(4801,14375,1);
+INSERT INTO "remix_artist" VALUES(4801,16615,1);
+INSERT INTO "remix_artist" VALUES(4801,16937,1);
+INSERT INTO "remix_artist" VALUES(4801,18590,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -44129,6 +44143,45 @@ INSERT INTO "remix_tag" VALUES(4796,'live-instruments',1);
 INSERT INTO "remix_tag" VALUES(4796,'middle-eastern',1);
 INSERT INTO "remix_tag" VALUES(4796,'resubmission',1);
 INSERT INTO "remix_tag" VALUES(4796,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4797,'cinematic',1);
+INSERT INTO "remix_tag" VALUES(4797,'brass',1);
+INSERT INTO "remix_tag" VALUES(4797,'choir',1);
+INSERT INTO "remix_tag" VALUES(4797,'orchestral',1);
+INSERT INTO "remix_tag" VALUES(4797,'strings',1);
+INSERT INTO "remix_tag" VALUES(4797,'woodwinds',1);
+INSERT INTO "remix_tag" VALUES(4797,'epic',1);
+INSERT INTO "remix_tag" VALUES(4797,'solemn',1);
+INSERT INTO "remix_tag" VALUES(4797,'timesig-6-8',1);
+INSERT INTO "remix_tag" VALUES(4798,'experimental',1);
+INSERT INTO "remix_tag" VALUES(4798,'glitch-hop',1);
+INSERT INTO "remix_tag" VALUES(4798,'piano',1);
+INSERT INTO "remix_tag" VALUES(4798,'sound-fx',1);
+INSERT INTO "remix_tag" VALUES(4798,'synth',1);
+INSERT INTO "remix_tag" VALUES(4798,'trumpet',1);
+INSERT INTO "remix_tag" VALUES(4798,'funky',1);
+INSERT INTO "remix_tag" VALUES(4798,'goofy',1);
+INSERT INTO "remix_tag" VALUES(4798,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4800,'dnb',1);
+INSERT INTO "remix_tag" VALUES(4800,'jungle',1);
+INSERT INTO "remix_tag" VALUES(4800,'breakbeats',1);
+INSERT INTO "remix_tag" VALUES(4800,'electronic',1);
+INSERT INTO "remix_tag" VALUES(4800,'sound-fx',1);
+INSERT INTO "remix_tag" VALUES(4800,'synth',1);
+INSERT INTO "remix_tag" VALUES(4800,'collab',1);
+INSERT INTO "remix_tag" VALUES(4800,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4801,'cinematic',1);
+INSERT INTO "remix_tag" VALUES(4801,'choir',1);
+INSERT INTO "remix_tag" VALUES(4801,'flute',1);
+INSERT INTO "remix_tag" VALUES(4801,'oboe',1);
+INSERT INTO "remix_tag" VALUES(4801,'orchestral',1);
+INSERT INTO "remix_tag" VALUES(4801,'strings',1);
+INSERT INTO "remix_tag" VALUES(4801,'woodwinds',1);
+INSERT INTO "remix_tag" VALUES(4801,'happy',1);
+INSERT INTO "remix_tag" VALUES(4801,'mystical',1);
+INSERT INTO "remix_tag" VALUES(4801,'collab',1);
+INSERT INTO "remix_tag" VALUES(4801,'live-instruments',1);
+INSERT INTO "remix_tag" VALUES(4801,'medley',1);
+INSERT INTO "remix_tag" VALUES(4801,'timesig-4-4',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
