@@ -1582,6 +1582,7 @@ INSERT INTO "artist" VALUES(18895,'Docjekyll','https://ocremix.org/artist/18895/
 INSERT INTO "artist" VALUES(18896,'SupremoMusico400','https://ocremix.org/artist/18896/supremomusico400');
 INSERT INTO "artist" VALUES(18898,'Pipko Fanfare','https://ocremix.org/artist/18898/pipko-fanfare');
 INSERT INTO "artist" VALUES(18899,'com_poser','https://ocremix.org/artist/18899/com-poser');
+INSERT INTO "artist" VALUES(18906,'p4p3r','https://ocremix.org/artist/18906/p4p3r');
 INSERT INTO "artist" VALUES(18907,'SQORE','https://ocremix.org/artist/18907/sqore');
 INSERT INTO "artist" VALUES(18908,'Giorgos Panagiotou','https://ocremix.org/artist/18908/giorgos-panagiotou');
 CREATE TABLE game (
@@ -7292,6 +7293,9 @@ INSERT INTO "remix" VALUES(4800,'Riparian Rhythms','The Legend of Zelda: Twiligh
 INSERT INTO "remix" VALUES(4801,'Fountain of Youth','The Legend of Zelda: Link''s Awakening','2025-03-09T00:50:25.864057+00:00','https://www.youtube.com/watch?v=JHIMBDsJotk',68,'https://ocrmirror.org/files/music/remixes/Legend_of_Zelda_Link''s_Awakening_Fountain_of_Youth_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4802,'Chrono Hopper','Ultimate Paintball Challenge','2025-03-10T17:18:35.814951+00:00','https://www.youtube.com/watch?v=G88yHrj2h_I',95874,'https://ocrmirror.org/files/music/remixes/Ultimate_Paintball_Challenge_Chrono_Hopper_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4803,'Dancing with the Wind','Super Mario Galaxy','2025-03-10T17:18:36.599847+00:00','https://www.youtube.com/watch?v=fWuISMO5RlM',581,'https://ocrmirror.org/files/music/remixes/Super_Mario_Galaxy_Dancing_with_the_Wind_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4804,'A Synonym for Death','Chrono Cross','2025-03-11T14:08:49.924685+00:00','https://www.youtube.com/watch?v=CtkNYKyZfoI',17,'https://ocrmirror.org/files/music/remixes/Chrono_Cross_A_Synonym_for_Death_OC_ReMix.mp3',1);
+INSERT INTO "remix" VALUES(4805,'Eschala Them','Chrono Trigger','2025-03-11T14:08:50.556512+00:00','https://www.youtube.com/watch?v=ez2DKdvtJc8',16,'https://ocrmirror.org/files/music/remixes/Chrono_Trigger_Eschala_Them_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4806,'Skylands','Chrono Trigger','2025-03-11T14:08:51.321774+00:00','https://www.youtube.com/watch?v=sCITgsLgU-Y',16,'https://ocrmirror.org/files/music/remixes/Chrono_Trigger_Skylands_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13484,6 +13488,10 @@ INSERT INTO "remix_artist" VALUES(4803,14127,1);
 INSERT INTO "remix_artist" VALUES(4803,18388,1);
 INSERT INTO "remix_artist" VALUES(4803,18601,1);
 INSERT INTO "remix_artist" VALUES(4803,16848,1);
+INSERT INTO "remix_artist" VALUES(4804,18724,1);
+INSERT INTO "remix_artist" VALUES(4804,18906,1);
+INSERT INTO "remix_artist" VALUES(4805,11932,1);
+INSERT INTO "remix_artist" VALUES(4806,4695,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -44220,6 +44228,21 @@ INSERT INTO "remix_tag" VALUES(4803,'compo-dod',1);
 INSERT INTO "remix_tag" VALUES(4803,'live-instruments',1);
 INSERT INTO "remix_tag" VALUES(4803,'timesig-4-4',1);
 INSERT INTO "remix_tag" VALUES(3588,'compo-dod',1);
+INSERT INTO "remix_tag" VALUES(4804,'prog-rock',1);
+INSERT INTO "remix_tag" VALUES(4804,'electric-guitar',1);
+INSERT INTO "remix_tag" VALUES(4804,'piano',1);
+INSERT INTO "remix_tag" VALUES(4804,'singing',1);
+INSERT INTO "remix_tag" VALUES(4804,'synth',1);
+INSERT INTO "remix_tag" VALUES(4804,'vocals-male',1);
+INSERT INTO "remix_tag" VALUES(4804,'dark',1);
+INSERT INTO "remix_tag" VALUES(4804,'sad',1);
+INSERT INTO "remix_tag" VALUES(4804,'solemn',1);
+INSERT INTO "remix_tag" VALUES(4804,'collab',1);
+INSERT INTO "remix_tag" VALUES(4804,'compo-dod',1);
+INSERT INTO "remix_tag" VALUES(4804,'lang-english',1);
+INSERT INTO "remix_tag" VALUES(4804,'lyrics-original',1);
+INSERT INTO "remix_tag" VALUES(4804,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4804,'timesig-variable',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
