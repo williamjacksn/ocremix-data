@@ -1582,6 +1582,7 @@ INSERT INTO "artist" VALUES(18895,'Docjekyll','https://ocremix.org/artist/18895/
 INSERT INTO "artist" VALUES(18896,'SupremoMusico400','https://ocremix.org/artist/18896/supremomusico400');
 INSERT INTO "artist" VALUES(18898,'Pipko Fanfare','https://ocremix.org/artist/18898/pipko-fanfare');
 INSERT INTO "artist" VALUES(18899,'com_poser','https://ocremix.org/artist/18899/com-poser');
+INSERT INTO "artist" VALUES(18901,'Inwayn','https://ocremix.org/artist/18901/inwayn');
 INSERT INTO "artist" VALUES(18906,'p4p3r','https://ocremix.org/artist/18906/p4p3r');
 INSERT INTO "artist" VALUES(18907,'SQORE','https://ocremix.org/artist/18907/sqore');
 INSERT INTO "artist" VALUES(18908,'Giorgos Panagiotou','https://ocremix.org/artist/18908/giorgos-panagiotou');
@@ -7296,6 +7297,7 @@ INSERT INTO "remix" VALUES(4803,'Dancing with the Wind','Super Mario Galaxy','20
 INSERT INTO "remix" VALUES(4804,'A Synonym for Death','Chrono Cross','2025-03-11T14:08:49.924685+00:00','https://www.youtube.com/watch?v=CtkNYKyZfoI',17,'https://ocrmirror.org/files/music/remixes/Chrono_Cross_A_Synonym_for_Death_OC_ReMix.mp3',1);
 INSERT INTO "remix" VALUES(4805,'Eschala Them','Chrono Trigger','2025-03-11T14:08:50.556512+00:00','https://www.youtube.com/watch?v=ez2DKdvtJc8',16,'https://ocrmirror.org/files/music/remixes/Chrono_Trigger_Eschala_Them_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4806,'Skylands','Chrono Trigger','2025-03-11T14:08:51.321774+00:00','https://www.youtube.com/watch?v=sCITgsLgU-Y',16,'https://ocrmirror.org/files/music/remixes/Chrono_Trigger_Skylands_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4807,'Whispers of Ash','Jazz Jackrabbit 2','2025-03-14T00:57:24.374370+00:00','https://www.youtube.com/watch?v=H7e1ddywFgM',506,'https://ocrmirror.org/files/music/remixes/Jazz_Jackrabbit_2_Whispers_of_Ash_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13492,6 +13494,7 @@ INSERT INTO "remix_artist" VALUES(4804,18724,1);
 INSERT INTO "remix_artist" VALUES(4804,18906,1);
 INSERT INTO "remix_artist" VALUES(4805,11932,1);
 INSERT INTO "remix_artist" VALUES(4806,4695,1);
+INSERT INTO "remix_artist" VALUES(4807,18901,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -44244,6 +44247,14 @@ INSERT INTO "remix_tag" VALUES(4804,'lyrics-original',1);
 INSERT INTO "remix_tag" VALUES(4804,'timesig-4-4',1);
 INSERT INTO "remix_tag" VALUES(4804,'timesig-variable',1);
 INSERT INTO "remix_tag" VALUES(4633,'compo-dod',1);
+INSERT INTO "remix_tag" VALUES(4807,'ambient',1);
+INSERT INTO "remix_tag" VALUES(4807,'downtempo',1);
+INSERT INTO "remix_tag" VALUES(4807,'electric-piano',1);
+INSERT INTO "remix_tag" VALUES(4807,'electronic',1);
+INSERT INTO "remix_tag" VALUES(4807,'sound-fx',1);
+INSERT INTO "remix_tag" VALUES(4807,'synth',1);
+INSERT INTO "remix_tag" VALUES(4807,'chill',1);
+INSERT INTO "remix_tag" VALUES(4807,'timesig-4-4',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
