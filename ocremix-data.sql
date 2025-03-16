@@ -7299,6 +7299,7 @@ INSERT INTO "remix" VALUES(4805,'Eschala Them','Chrono Trigger','2025-03-11T14:0
 INSERT INTO "remix" VALUES(4806,'Skylands','Chrono Trigger','2025-03-11T14:08:51.321774+00:00','https://www.youtube.com/watch?v=sCITgsLgU-Y',16,'https://ocrmirror.org/files/music/remixes/Chrono_Trigger_Skylands_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4807,'Whispers of Ash','Jazz Jackrabbit 2','2025-03-14T00:57:24.374370+00:00','https://www.youtube.com/watch?v=H7e1ddywFgM',506,'https://ocrmirror.org/files/music/remixes/Jazz_Jackrabbit_2_Whispers_of_Ash_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4808,'Waterfall (Sin City Mix)','Undertale','2025-03-15T00:56:59.622520+00:00','https://www.youtube.com/watch?v=e5uWTDiwgSQ',95077,'https://ocrmirror.org/files/music/remixes/Undertale_Waterfall_(Sin_City_Mix)_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4809,'Remachination','Super Mario RPG: Legend of the Seven Stars','2025-03-16T01:02:22.663218+00:00','https://www.youtube.com/watch?v=jpcrGnhlRFg',84,'https://ocrmirror.org/files/music/remixes/Super_Mario_RPG_Remachination_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13497,6 +13498,7 @@ INSERT INTO "remix_artist" VALUES(4805,11932,1);
 INSERT INTO "remix_artist" VALUES(4806,4695,1);
 INSERT INTO "remix_artist" VALUES(4807,18901,1);
 INSERT INTO "remix_artist" VALUES(4808,4280,1);
+INSERT INTO "remix_artist" VALUES(4809,11963,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -44266,6 +44268,14 @@ INSERT INTO "remix_tag" VALUES(4808,'dark',1);
 INSERT INTO "remix_tag" VALUES(4808,'timesig-3-4',1);
 INSERT INTO "remix_tag" VALUES(4808,'timesig-4-4',1);
 INSERT INTO "remix_tag" VALUES(4808,'timesig-variable',1);
+INSERT INTO "remix_tag" VALUES(4809,'dnb',1);
+INSERT INTO "remix_tag" VALUES(4809,'trap',1);
+INSERT INTO "remix_tag" VALUES(4809,'electronic',1);
+INSERT INTO "remix_tag" VALUES(4809,'ingame-fx',1);
+INSERT INTO "remix_tag" VALUES(4809,'synth',1);
+INSERT INTO "remix_tag" VALUES(4809,'dark',1);
+INSERT INTO "remix_tag" VALUES(4809,'energetic',1);
+INSERT INTO "remix_tag" VALUES(4809,'timesig-irregular',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
