@@ -1582,6 +1582,7 @@ INSERT INTO "artist" VALUES(18895,'Docjekyll','https://ocremix.org/artist/18895/
 INSERT INTO "artist" VALUES(18896,'SupremoMusico400','https://ocremix.org/artist/18896/supremomusico400');
 INSERT INTO "artist" VALUES(18898,'Pipko Fanfare','https://ocremix.org/artist/18898/pipko-fanfare');
 INSERT INTO "artist" VALUES(18899,'com_poser','https://ocremix.org/artist/18899/com-poser');
+INSERT INTO "artist" VALUES(18900,'shodan','https://ocremix.org/artist/18900/shodan');
 INSERT INTO "artist" VALUES(18901,'Inwayn','https://ocremix.org/artist/18901/inwayn');
 INSERT INTO "artist" VALUES(18906,'p4p3r','https://ocremix.org/artist/18906/p4p3r');
 INSERT INTO "artist" VALUES(18907,'SQORE','https://ocremix.org/artist/18907/sqore');
@@ -7303,6 +7304,8 @@ INSERT INTO "remix" VALUES(4808,'Waterfall (Sin City Mix)','Undertale','2025-03-
 INSERT INTO "remix" VALUES(4809,'Remachination','Super Mario RPG: Legend of the Seven Stars','2025-03-16T01:02:22.663218+00:00','https://www.youtube.com/watch?v=jpcrGnhlRFg',84,'https://ocrmirror.org/files/music/remixes/Super_Mario_RPG_Remachination_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4810,'Spiral Deepens','GoldenEye 007','2025-03-17T01:00:01.048459+00:00','https://www.youtube.com/watch?v=ckazFBC6CfU',120,'https://ocrmirror.org/files/music/remixes/GoldenEye_007_Spiral_Deepens_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4811,'Cave Diving','Spelunker','2025-03-18T00:58:09.562711+00:00','https://www.youtube.com/watch?v=6vPM40UU77w',4440,'https://ocrmirror.org/files/music/remixes/Spelunker_Cave_Diving_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4812,'Zelda by Lamplight','The Legend of Zelda','2025-03-19T00:58:36.033714+00:00','https://www.youtube.com/watch?v=xAF7PB3YJcY',64,'https://ocrmirror.org/files/music/remixes/Legend_of_Zelda_Zelda_by_Lamplight_OC_ReMix.mp3',1);
+INSERT INTO "remix" VALUES(4813,'Bard in the Rain','The Legend of Zelda: Breath of the Wild','2025-03-19T00:58:36.676163+00:00','https://www.youtube.com/watch?v=NMVPQLV3KZY',95359,'https://ocrmirror.org/files/music/remixes/Legend_of_Zelda_Breath_of_the_Wild_Bard_in_the_Rain_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13513,6 +13516,9 @@ INSERT INTO "remix_artist" VALUES(4811,16430,1);
 INSERT INTO "remix_artist" VALUES(4811,18388,1);
 INSERT INTO "remix_artist" VALUES(4811,17486,1);
 INSERT INTO "remix_artist" VALUES(4811,18668,1);
+INSERT INTO "remix_artist" VALUES(4812,18900,1);
+INSERT INTO "remix_artist" VALUES(4813,14375,1);
+INSERT INTO "remix_artist" VALUES(4813,16615,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -44310,6 +44316,27 @@ INSERT INTO "remix_tag" VALUES(4811,'collab',1);
 INSERT INTO "remix_tag" VALUES(4811,'live-instruments',1);
 INSERT INTO "remix_tag" VALUES(4811,'medley',1);
 INSERT INTO "remix_tag" VALUES(4811,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4812,'chamber',1);
+INSERT INTO "remix_tag" VALUES(4812,'cello',1);
+INSERT INTO "remix_tag" VALUES(4812,'strings',1);
+INSERT INTO "remix_tag" VALUES(4812,'viola',1);
+INSERT INTO "remix_tag" VALUES(4812,'violin',1);
+INSERT INTO "remix_tag" VALUES(4812,'funny',1);
+INSERT INTO "remix_tag" VALUES(4812,'solemn',1);
+INSERT INTO "remix_tag" VALUES(4812,'lang-english',1);
+INSERT INTO "remix_tag" VALUES(4812,'lyrics-original',1);
+INSERT INTO "remix_tag" VALUES(4812,'medley',1);
+INSERT INTO "remix_tag" VALUES(4812,'quartet',1);
+INSERT INTO "remix_tag" VALUES(4813,'chamber',1);
+INSERT INTO "remix_tag" VALUES(4813,'bells',1);
+INSERT INTO "remix_tag" VALUES(4813,'flute',1);
+INSERT INTO "remix_tag" VALUES(4813,'orchestral',1);
+INSERT INTO "remix_tag" VALUES(4813,'sound-fx',1);
+INSERT INTO "remix_tag" VALUES(4813,'woodwinds',1);
+INSERT INTO "remix_tag" VALUES(4813,'mystical',1);
+INSERT INTO "remix_tag" VALUES(4813,'sexy',1);
+INSERT INTO "remix_tag" VALUES(4813,'collab',1);
+INSERT INTO "remix_tag" VALUES(4813,'timesig-3-4',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
