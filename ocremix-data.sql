@@ -2517,6 +2517,7 @@ INSERT INTO "game" VALUES(32278,'Wangan Midnight Maximum Tune','https://ocremix.
 INSERT INTO "game" VALUES(33306,'Clystron','https://ocremix.org/game/33306/clystron-c64');
 INSERT INTO "game" VALUES(38763,'Brain Age: Train Your Brain in Minutes a Day!','https://ocremix.org/game/38763/brain-age-train-your-brain-in-minutes-a-day-nds');
 INSERT INTO "game" VALUES(38825,'The Legend of Zelda: Phantom Hourglass','https://ocremix.org/game/38825/legend-of-zelda-phantom-hourglass-nds');
+INSERT INTO "game" VALUES(38867,'Phoenix Wright: Ace Attorney - Justice for All','https://ocremix.org/game/38867/phoenix-wright-ace-attorney-justice-for-all-nds');
 INSERT INTO "game" VALUES(38876,'Pokémon Mystery Dungeon: Blue Rescue Team','https://ocremix.org/game/38876/pokemon-mystery-dungeon-blue-rescue-team-nds');
 INSERT INTO "game" VALUES(38902,'Sonic Rush','https://ocremix.org/game/38902/sonic-rush-nds');
 INSERT INTO "game" VALUES(38947,'Yoshi''s Island DS','https://ocremix.org/game/38947/yoshis-island-ds-nds');
@@ -7306,6 +7307,7 @@ INSERT INTO "remix" VALUES(4810,'Spiral Deepens','GoldenEye 007','2025-03-17T01:
 INSERT INTO "remix" VALUES(4811,'Cave Diving','Spelunker','2025-03-18T00:58:09.562711+00:00','https://www.youtube.com/watch?v=6vPM40UU77w',4440,'https://ocrmirror.org/files/music/remixes/Spelunker_Cave_Diving_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4812,'Zelda by Lamplight','The Legend of Zelda','2025-03-19T00:58:36.033714+00:00','https://www.youtube.com/watch?v=xAF7PB3YJcY',64,'https://ocrmirror.org/files/music/remixes/Legend_of_Zelda_Zelda_by_Lamplight_OC_ReMix.mp3',1);
 INSERT INTO "remix" VALUES(4813,'Bard in the Rain','The Legend of Zelda: Breath of the Wild','2025-03-19T00:58:36.676163+00:00','https://www.youtube.com/watch?v=NMVPQLV3KZY',95359,'https://ocrmirror.org/files/music/remixes/Legend_of_Zelda_Breath_of_the_Wild_Bard_in_the_Rain_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4814,'Omnia in Dubium Voca','Phoenix Wright: Ace Attorney - Justice for All','2025-03-21T00:59:00.515861+00:00','https://www.youtube.com/watch?v=MeIyplp67K0',38867,'https://ocrmirror.org/files/music/remixes/Phoenix_Wright_Ace_Attorney_Justice_for_All_Omnia_in_Dubium_Voca_OC_ReMix.mp3',1);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13519,6 +13521,12 @@ INSERT INTO "remix_artist" VALUES(4811,18668,1);
 INSERT INTO "remix_artist" VALUES(4812,18900,1);
 INSERT INTO "remix_artist" VALUES(4813,14375,1);
 INSERT INTO "remix_artist" VALUES(4813,16615,1);
+INSERT INTO "remix_artist" VALUES(4814,13667,1);
+INSERT INTO "remix_artist" VALUES(4814,18623,1);
+INSERT INTO "remix_artist" VALUES(4814,5473,1);
+INSERT INTO "remix_artist" VALUES(4814,18712,1);
+INSERT INTO "remix_artist" VALUES(4814,16848,1);
+INSERT INTO "remix_artist" VALUES(4814,10690,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -44337,6 +44345,20 @@ INSERT INTO "remix_tag" VALUES(4813,'mystical',1);
 INSERT INTO "remix_tag" VALUES(4813,'sexy',1);
 INSERT INTO "remix_tag" VALUES(4813,'collab',1);
 INSERT INTO "remix_tag" VALUES(4813,'timesig-3-4',1);
+INSERT INTO "remix_tag" VALUES(4814,'prog-rock',1);
+INSERT INTO "remix_tag" VALUES(4814,'electric-guitar',1);
+INSERT INTO "remix_tag" VALUES(4814,'piano',1);
+INSERT INTO "remix_tag" VALUES(4814,'saxophone',1);
+INSERT INTO "remix_tag" VALUES(4814,'trumpet',1);
+INSERT INTO "remix_tag" VALUES(4814,'vocals-female',1);
+INSERT INTO "remix_tag" VALUES(4814,'energetic',1);
+INSERT INTO "remix_tag" VALUES(4814,'collab',1);
+INSERT INTO "remix_tag" VALUES(4814,'compo-dod',1);
+INSERT INTO "remix_tag" VALUES(4814,'lang-latin',1);
+INSERT INTO "remix_tag" VALUES(4814,'live-instruments',1);
+INSERT INTO "remix_tag" VALUES(4814,'lyrics-original',1);
+INSERT INTO "remix_tag" VALUES(4814,'timesig-irregular',1);
+INSERT INTO "remix_tag" VALUES(4814,'timesig-variable',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
