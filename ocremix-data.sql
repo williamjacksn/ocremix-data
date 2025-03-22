@@ -1584,6 +1584,7 @@ INSERT INTO "artist" VALUES(18898,'Pipko Fanfare','https://ocremix.org/artist/18
 INSERT INTO "artist" VALUES(18899,'com_poser','https://ocremix.org/artist/18899/com-poser');
 INSERT INTO "artist" VALUES(18900,'shodan','https://ocremix.org/artist/18900/shodan');
 INSERT INTO "artist" VALUES(18901,'Inwayn','https://ocremix.org/artist/18901/inwayn');
+INSERT INTO "artist" VALUES(18904,'Unknown Pseudoartist','https://ocremix.org/artist/18904/unknown-pseudoartist');
 INSERT INTO "artist" VALUES(18906,'p4p3r','https://ocremix.org/artist/18906/p4p3r');
 INSERT INTO "artist" VALUES(18907,'SQORE','https://ocremix.org/artist/18907/sqore');
 INSERT INTO "artist" VALUES(18908,'Giorgos Panagiotou','https://ocremix.org/artist/18908/giorgos-panagiotou');
@@ -2681,6 +2682,7 @@ INSERT INTO "game" VALUES(95868,'Signalis','https://ocremix.org/game/95868/signa
 INSERT INTO "game" VALUES(95869,'Elden Ring','https://ocremix.org/game/95869/elden-ring-win');
 INSERT INTO "game" VALUES(95873,'Inscryption','https://ocremix.org/game/95873/inscryption-win');
 INSERT INTO "game" VALUES(95874,'Ultimate Paintball Challenge','https://ocremix.org/game/95874/ultimate-paintball-challenge-win');
+INSERT INTO "game" VALUES(95876,'The Great Ace Attorney 2: Resolve','https://ocremix.org/game/95876/great-ace-attorney-2-resolve-3ds');
 CREATE TABLE remix (
     id integer primary key,
     title text not null,
@@ -7308,6 +7310,9 @@ INSERT INTO "remix" VALUES(4811,'Cave Diving','Spelunker','2025-03-18T00:58:09.5
 INSERT INTO "remix" VALUES(4812,'Zelda by Lamplight','The Legend of Zelda','2025-03-19T00:58:36.033714+00:00','https://www.youtube.com/watch?v=xAF7PB3YJcY',64,'https://ocrmirror.org/files/music/remixes/Legend_of_Zelda_Zelda_by_Lamplight_OC_ReMix.mp3',1);
 INSERT INTO "remix" VALUES(4813,'Bard in the Rain','The Legend of Zelda: Breath of the Wild','2025-03-19T00:58:36.676163+00:00','https://www.youtube.com/watch?v=NMVPQLV3KZY',95359,'https://ocrmirror.org/files/music/remixes/Legend_of_Zelda_Breath_of_the_Wild_Bard_in_the_Rain_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4814,'Omnia in Dubium Voca','Phoenix Wright: Ace Attorney - Justice for All','2025-03-21T00:59:00.515861+00:00','https://www.youtube.com/watch?v=MeIyplp67K0',38867,'https://ocrmirror.org/files/music/remixes/Phoenix_Wright_Ace_Attorney_Justice_for_All_Omnia_in_Dubium_Voca_OC_ReMix.mp3',1);
+INSERT INTO "remix" VALUES(4815,'No More Games Now!','The Great Ace Attorney 2: Resolve','2025-03-22T00:57:16.932077+00:00','https://www.youtube.com/watch?v=XlkzodxRqOU',95876,'https://ocrmirror.org/files/music/remixes/Great_Ace_Attorney_2_No_More_Games_Now_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4816,'Bringer of Ruin','Final Fantasy VI','2025-03-22T00:57:17.588785+00:00','https://www.youtube.com/watch?v=6a0JCC0o4dQ',6,'https://ocrmirror.org/files/music/remixes/Final_Fantasy_6_Bringer_of_Ruin_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4817,'Quiet Wish','Final Fantasy VII','2025-03-22T00:57:18.262728+00:00','https://www.youtube.com/watch?v=4OA1d4g9BeA',7,'https://ocrmirror.org/files/music/remixes/Final_Fantasy_7_Quiet_Wish_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13527,6 +13532,16 @@ INSERT INTO "remix_artist" VALUES(4814,5473,1);
 INSERT INTO "remix_artist" VALUES(4814,18712,1);
 INSERT INTO "remix_artist" VALUES(4814,16848,1);
 INSERT INTO "remix_artist" VALUES(4814,10690,1);
+INSERT INTO "remix_artist" VALUES(4815,13500,1);
+INSERT INTO "remix_artist" VALUES(4815,16615,1);
+INSERT INTO "remix_artist" VALUES(4815,17980,1);
+INSERT INTO "remix_artist" VALUES(4815,18724,1);
+INSERT INTO "remix_artist" VALUES(4815,18601,1);
+INSERT INTO "remix_artist" VALUES(4816,13500,1);
+INSERT INTO "remix_artist" VALUES(4816,18633,1);
+INSERT INTO "remix_artist" VALUES(4816,18724,1);
+INSERT INTO "remix_artist" VALUES(4816,18904,1);
+INSERT INTO "remix_artist" VALUES(4817,14375,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -44359,6 +44374,41 @@ INSERT INTO "remix_tag" VALUES(4814,'live-instruments',1);
 INSERT INTO "remix_tag" VALUES(4814,'lyrics-original',1);
 INSERT INTO "remix_tag" VALUES(4814,'timesig-irregular',1);
 INSERT INTO "remix_tag" VALUES(4814,'timesig-variable',1);
+INSERT INTO "remix_tag" VALUES(4815,'prog-rock',1);
+INSERT INTO "remix_tag" VALUES(4815,'electric-guitar',1);
+INSERT INTO "remix_tag" VALUES(4815,'flute',1);
+INSERT INTO "remix_tag" VALUES(4815,'piano',1);
+INSERT INTO "remix_tag" VALUES(4815,'violin',1);
+INSERT INTO "remix_tag" VALUES(4815,'energetic',1);
+INSERT INTO "remix_tag" VALUES(4815,'happy',1);
+INSERT INTO "remix_tag" VALUES(4815,'collab',1);
+INSERT INTO "remix_tag" VALUES(4815,'compo-dod',1);
+INSERT INTO "remix_tag" VALUES(4815,'timesig-variable',1);
+INSERT INTO "remix_tag" VALUES(4816,'metal',1);
+INSERT INTO "remix_tag" VALUES(4816,'prog-rock',1);
+INSERT INTO "remix_tag" VALUES(4816,'electric-guitar',1);
+INSERT INTO "remix_tag" VALUES(4816,'orchestral',1);
+INSERT INTO "remix_tag" VALUES(4816,'organ',1);
+INSERT INTO "remix_tag" VALUES(4816,'piano',1);
+INSERT INTO "remix_tag" VALUES(4816,'synth',1);
+INSERT INTO "remix_tag" VALUES(4816,'vocals-voice-acting',1);
+INSERT INTO "remix_tag" VALUES(4816,'aggressive',1);
+INSERT INTO "remix_tag" VALUES(4816,'energetic',1);
+INSERT INTO "remix_tag" VALUES(4816,'collab',1);
+INSERT INTO "remix_tag" VALUES(4816,'compo-dod',1);
+INSERT INTO "remix_tag" VALUES(4816,'extended-soloing',1);
+INSERT INTO "remix_tag" VALUES(4816,'live-instruments',1);
+INSERT INTO "remix_tag" VALUES(4816,'tempo-variable',1);
+INSERT INTO "remix_tag" VALUES(4816,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4817,'ambient',1);
+INSERT INTO "remix_tag" VALUES(4817,'bells',1);
+INSERT INTO "remix_tag" VALUES(4817,'choir',1);
+INSERT INTO "remix_tag" VALUES(4817,'sound-fx',1);
+INSERT INTO "remix_tag" VALUES(4817,'strings',1);
+INSERT INTO "remix_tag" VALUES(4817,'synth',1);
+INSERT INTO "remix_tag" VALUES(4817,'peaceful',1);
+INSERT INTO "remix_tag" VALUES(4817,'minimalist',1);
+INSERT INTO "remix_tag" VALUES(4817,'timesig-4-4',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
