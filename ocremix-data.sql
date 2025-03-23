@@ -7313,6 +7313,7 @@ INSERT INTO "remix" VALUES(4814,'Omnia in Dubium Voca','Phoenix Wright: Ace Atto
 INSERT INTO "remix" VALUES(4815,'No More Games Now!','The Great Ace Attorney 2: Resolve','2025-03-22T00:57:16.932077+00:00','https://www.youtube.com/watch?v=XlkzodxRqOU',95876,'https://ocrmirror.org/files/music/remixes/Great_Ace_Attorney_2_No_More_Games_Now_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4816,'Bringer of Ruin','Final Fantasy VI','2025-03-22T00:57:17.588785+00:00','https://www.youtube.com/watch?v=6a0JCC0o4dQ',6,'https://ocrmirror.org/files/music/remixes/Final_Fantasy_6_Bringer_of_Ruin_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4817,'Quiet Wish','Final Fantasy VII','2025-03-22T00:57:18.262728+00:00','https://www.youtube.com/watch?v=4OA1d4g9BeA',7,'https://ocrmirror.org/files/music/remixes/Final_Fantasy_7_Quiet_Wish_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4818,'Adrift Eternal','Metroid Prime','2025-03-23T01:02:41.890770+00:00','https://www.youtube.com/watch?v=z7TQvvqP2YU',425,'https://ocrmirror.org/files/music/remixes/Metroid_Prime_Adrift_Eternal_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13542,6 +13543,11 @@ INSERT INTO "remix_artist" VALUES(4816,18633,1);
 INSERT INTO "remix_artist" VALUES(4816,18724,1);
 INSERT INTO "remix_artist" VALUES(4816,18904,1);
 INSERT INTO "remix_artist" VALUES(4817,14375,1);
+INSERT INTO "remix_artist" VALUES(4818,10690,1);
+INSERT INTO "remix_artist" VALUES(4818,13667,1);
+INSERT INTO "remix_artist" VALUES(4818,17937,1);
+INSERT INTO "remix_artist" VALUES(4818,4432,1);
+INSERT INTO "remix_artist" VALUES(4818,18846,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -44409,6 +44415,21 @@ INSERT INTO "remix_tag" VALUES(4817,'synth',1);
 INSERT INTO "remix_tag" VALUES(4817,'peaceful',1);
 INSERT INTO "remix_tag" VALUES(4817,'minimalist',1);
 INSERT INTO "remix_tag" VALUES(4817,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4818,'ambient',1);
+INSERT INTO "remix_tag" VALUES(4818,'cinematic',1);
+INSERT INTO "remix_tag" VALUES(4818,'acoustic-guitar',1);
+INSERT INTO "remix_tag" VALUES(4818,'cello',1);
+INSERT INTO "remix_tag" VALUES(4818,'choir',1);
+INSERT INTO "remix_tag" VALUES(4818,'electric-guitar',1);
+INSERT INTO "remix_tag" VALUES(4818,'piano',1);
+INSERT INTO "remix_tag" VALUES(4818,'strings',1);
+INSERT INTO "remix_tag" VALUES(4818,'synth',1);
+INSERT INTO "remix_tag" VALUES(4818,'vocals-voice-acting',1);
+INSERT INTO "remix_tag" VALUES(4818,'epic',1);
+INSERT INTO "remix_tag" VALUES(4818,'solemn',1);
+INSERT INTO "remix_tag" VALUES(4818,'collab',1);
+INSERT INTO "remix_tag" VALUES(4818,'compo',1);
+INSERT INTO "remix_tag" VALUES(4818,'compo-gsm',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
@@ -44651,4 +44672,5 @@ INSERT INTO "tag" VALUES('vocals-soprano','Instrumentation > Vocals: Soprano','h
 INSERT INTO "tag" VALUES('vocals-tenor','Instrumentation > Vocals: Tenor','https://ocremix.org/tag/vocals-tenor');
 INSERT INTO "tag" VALUES('lang-original','Lyrics > Language: Original','https://ocremix.org/tag/lang-original');
 INSERT INTO "tag" VALUES('lang-esperanto','Lyrics > Language: Esperanto','https://ocremix.org/tag/lang-esperanto');
+INSERT INTO "tag" VALUES('compo-gsm','Origin > Competition > Game Set Mash!!','https://ocremix.org/tag/compo-gsm');
 COMMIT;
