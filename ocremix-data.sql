@@ -7314,6 +7314,7 @@ INSERT INTO "remix" VALUES(4815,'No More Games Now!','The Great Ace Attorney 2: 
 INSERT INTO "remix" VALUES(4816,'Bringer of Ruin','Final Fantasy VI','2025-03-22T00:57:17.588785+00:00','https://www.youtube.com/watch?v=6a0JCC0o4dQ',6,'https://ocrmirror.org/files/music/remixes/Final_Fantasy_6_Bringer_of_Ruin_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4817,'Quiet Wish','Final Fantasy VII','2025-03-22T00:57:18.262728+00:00','https://www.youtube.com/watch?v=4OA1d4g9BeA',7,'https://ocrmirror.org/files/music/remixes/Final_Fantasy_7_Quiet_Wish_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4818,'Adrift Eternal','Metroid Prime','2025-03-23T01:02:41.890770+00:00','https://www.youtube.com/watch?v=z7TQvvqP2YU',425,'https://ocrmirror.org/files/music/remixes/Metroid_Prime_Adrift_Eternal_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4819,'Infected Waters','Super Metroid','2025-03-24T01:00:47.142558+00:00','https://www.youtube.com/watch?v=Zv-5lx2VoeI',74,'https://ocrmirror.org/files/music/remixes/Super_Metroid_Infected_Waters_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13548,6 +13549,12 @@ INSERT INTO "remix_artist" VALUES(4818,13667,1);
 INSERT INTO "remix_artist" VALUES(4818,17937,1);
 INSERT INTO "remix_artist" VALUES(4818,4432,1);
 INSERT INTO "remix_artist" VALUES(4818,18846,1);
+INSERT INTO "remix_artist" VALUES(4819,4432,1);
+INSERT INTO "remix_artist" VALUES(4819,10690,1);
+INSERT INTO "remix_artist" VALUES(4819,13667,1);
+INSERT INTO "remix_artist" VALUES(4819,18685,1);
+INSERT INTO "remix_artist" VALUES(4819,18845,1);
+INSERT INTO "remix_artist" VALUES(4819,16119,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -44431,6 +44438,18 @@ INSERT INTO "remix_tag" VALUES(4818,'collab',1);
 INSERT INTO "remix_tag" VALUES(4818,'compo',1);
 INSERT INTO "remix_tag" VALUES(4818,'compo-gsm',1);
 INSERT INTO "remix_tag" VALUES(4791,'compo-gsm',1);
+INSERT INTO "remix_tag" VALUES(4819,'edm',1);
+INSERT INTO "remix_tag" VALUES(4819,'psytrance',1);
+INSERT INTO "remix_tag" VALUES(4819,'acoustic-guitar',1);
+INSERT INTO "remix_tag" VALUES(4819,'electric-guitar',1);
+INSERT INTO "remix_tag" VALUES(4819,'electronic',1);
+INSERT INTO "remix_tag" VALUES(4819,'synth',1);
+INSERT INTO "remix_tag" VALUES(4819,'vocals-voice-acting',1);
+INSERT INTO "remix_tag" VALUES(4819,'energetic',1);
+INSERT INTO "remix_tag" VALUES(4819,'collab',1);
+INSERT INTO "remix_tag" VALUES(4819,'compo',1);
+INSERT INTO "remix_tag" VALUES(4819,'compo-gsm',1);
+INSERT INTO "remix_tag" VALUES(4819,'lyrics-original',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
