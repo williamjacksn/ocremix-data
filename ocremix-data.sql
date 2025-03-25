@@ -7315,6 +7315,7 @@ INSERT INTO "remix" VALUES(4816,'Bringer of Ruin','Final Fantasy VI','2025-03-22
 INSERT INTO "remix" VALUES(4817,'Quiet Wish','Final Fantasy VII','2025-03-22T00:57:18.262728+00:00','https://www.youtube.com/watch?v=4OA1d4g9BeA',7,'https://ocrmirror.org/files/music/remixes/Final_Fantasy_7_Quiet_Wish_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4818,'Adrift Eternal','Metroid Prime','2025-03-23T01:02:41.890770+00:00','https://www.youtube.com/watch?v=z7TQvvqP2YU',425,'https://ocrmirror.org/files/music/remixes/Metroid_Prime_Adrift_Eternal_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4819,'Infected Waters','Super Metroid','2025-03-24T01:00:47.142558+00:00','https://www.youtube.com/watch?v=Zv-5lx2VoeI',74,'https://ocrmirror.org/files/music/remixes/Super_Metroid_Infected_Waters_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4820,'Dark Toxin','Doom','2025-03-25T00:59:17.153058+00:00','https://www.youtube.com/watch?v=p5L2ROOkBZo',14512,'https://ocrmirror.org/files/music/remixes/Doom_Dark_Toxin_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13555,6 +13556,7 @@ INSERT INTO "remix_artist" VALUES(4819,13667,1);
 INSERT INTO "remix_artist" VALUES(4819,18685,1);
 INSERT INTO "remix_artist" VALUES(4819,18845,1);
 INSERT INTO "remix_artist" VALUES(4819,16119,1);
+INSERT INTO "remix_artist" VALUES(4820,15562,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -44452,6 +44454,12 @@ INSERT INTO "remix_tag" VALUES(4819,'compo-gsm',1);
 INSERT INTO "remix_tag" VALUES(4819,'lyrics-original',1);
 INSERT INTO "remix_tag" VALUES(4690,'compo-gsm',1);
 INSERT INTO "remix_tag" VALUES(4758,'compo-gsm',1);
+INSERT INTO "remix_tag" VALUES(4820,'edm',1);
+INSERT INTO "remix_tag" VALUES(4820,'electronic',1);
+INSERT INTO "remix_tag" VALUES(4820,'synth',1);
+INSERT INTO "remix_tag" VALUES(4820,'dark',1);
+INSERT INTO "remix_tag" VALUES(4820,'energetic',1);
+INSERT INTO "remix_tag" VALUES(4820,'timesig-4-4',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
