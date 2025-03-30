@@ -2523,6 +2523,7 @@ INSERT INTO "game" VALUES(38876,'Pokémon Mystery Dungeon: Blue Rescue Team','ht
 INSERT INTO "game" VALUES(38902,'Sonic Rush','https://ocremix.org/game/38902/sonic-rush-nds');
 INSERT INTO "game" VALUES(38947,'Yoshi''s Island DS','https://ocremix.org/game/38947/yoshis-island-ds-nds');
 INSERT INTO "game" VALUES(39576,'Silent Hill 2: Restless Dreams','https://ocremix.org/game/39576/silent-hill-2-restless-dreams-xbox');
+INSERT INTO "game" VALUES(40166,'Ys II: Ancient Ys Vanished - The Final Chapter','https://ocremix.org/game/40166/ys-ii-ancient-ys-vanished-the-final-chapter-pc88');
 INSERT INTO "game" VALUES(40407,'Pokémon Pinball','https://ocremix.org/game/40407/pokemon-pinball-gbc');
 INSERT INTO "game" VALUES(40735,'The Legend of Heroes V: A Cagesong of the Ocean','https://ocremix.org/game/40735/legend-of-heroes-v-a-cagesong-of-the-ocean-psp');
 INSERT INTO "game" VALUES(41542,'Command & Conquer','https://ocremix.org/game/41542/command-and-conquer-ps1');
@@ -7319,6 +7320,7 @@ INSERT INTO "remix" VALUES(4820,'Dark Toxin','Doom','2025-03-25T00:59:17.153058+
 INSERT INTO "remix" VALUES(4821,'Fight or Flight','Bloodborne','2025-03-27T00:58:44.075374+00:00','https://www.youtube.com/watch?v=4EcqSTsuRT4',95152,'https://ocrmirror.org/files/music/remixes/Bloodborne_Fight_or_Flight_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4822,'Witchcraft','Banjo-Kazooie','2025-03-28T00:58:45.629431+00:00','https://www.youtube.com/watch?v=MOnO8h062Nc',36,'https://ocrmirror.org/files/music/remixes/Banjo-Kazooie_Witchcraft_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4823,'Flashback','Final Fantasy VIII','2025-03-29T00:58:21.672672+00:00','https://www.youtube.com/watch?v=E2eP12GuIjs',13,'https://ocrmirror.org/files/music/remixes/Final_Fantasy_8_Flashback_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4824,'Still More Sailing','Ys II: Ancient Ys Vanished - The Final Chapter','2025-03-30T01:03:52.285589+00:00','https://www.youtube.com/watch?v=G-uN8I4XL78',40166,'https://ocrmirror.org/files/music/remixes/Ys_2_Still_More_Sailing_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13565,6 +13567,7 @@ INSERT INTO "remix_artist" VALUES(4821,18601,1);
 INSERT INTO "remix_artist" VALUES(4821,18654,1);
 INSERT INTO "remix_artist" VALUES(4822,14495,1);
 INSERT INTO "remix_artist" VALUES(4823,10669,1);
+INSERT INTO "remix_artist" VALUES(4824,13045,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -44496,6 +44499,19 @@ INSERT INTO "remix_tag" VALUES(4823,'synth',1);
 INSERT INTO "remix_tag" VALUES(4823,'energetic',1);
 INSERT INTO "remix_tag" VALUES(4823,'timesig-4-4',1);
 INSERT INTO "remix_tag" VALUES(4823,'workout',1);
+INSERT INTO "remix_tag" VALUES(4824,'cinematic',1);
+INSERT INTO "remix_tag" VALUES(4824,'prog-rock',1);
+INSERT INTO "remix_tag" VALUES(4824,'choir',1);
+INSERT INTO "remix_tag" VALUES(4824,'electric-guitar',1);
+INSERT INTO "remix_tag" VALUES(4824,'flute',1);
+INSERT INTO "remix_tag" VALUES(4824,'orchestral',1);
+INSERT INTO "remix_tag" VALUES(4824,'piano',1);
+INSERT INTO "remix_tag" VALUES(4824,'strings',1);
+INSERT INTO "remix_tag" VALUES(4824,'synth',1);
+INSERT INTO "remix_tag" VALUES(4824,'energetic',1);
+INSERT INTO "remix_tag" VALUES(4824,'epic',1);
+INSERT INTO "remix_tag" VALUES(4824,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4824,'timesig-variable',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
