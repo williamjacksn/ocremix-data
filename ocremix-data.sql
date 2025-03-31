@@ -7321,6 +7321,7 @@ INSERT INTO "remix" VALUES(4821,'Fight or Flight','Bloodborne','2025-03-27T00:58
 INSERT INTO "remix" VALUES(4822,'Witchcraft','Banjo-Kazooie','2025-03-28T00:58:45.629431+00:00','https://www.youtube.com/watch?v=MOnO8h062Nc',36,'https://ocrmirror.org/files/music/remixes/Banjo-Kazooie_Witchcraft_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4823,'Flashback','Final Fantasy VIII','2025-03-29T00:58:21.672672+00:00','https://www.youtube.com/watch?v=E2eP12GuIjs',13,'https://ocrmirror.org/files/music/remixes/Final_Fantasy_8_Flashback_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4824,'Still More Sailing','Ys II: Ancient Ys Vanished - The Final Chapter','2025-03-30T01:03:52.285589+00:00','https://www.youtube.com/watch?v=G-uN8I4XL78',40166,'https://ocrmirror.org/files/music/remixes/Ys_2_Still_More_Sailing_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4825,'Batallia Ruins','Final Fantasy XI Online','2025-03-31T01:02:27.694681+00:00',NULL,546,'https://ocrmirror.org/files/music/remixes/Final_Fantasy_11_Online_Batallia_Ruins_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13568,6 +13569,7 @@ INSERT INTO "remix_artist" VALUES(4821,18654,1);
 INSERT INTO "remix_artist" VALUES(4822,14495,1);
 INSERT INTO "remix_artist" VALUES(4823,10669,1);
 INSERT INTO "remix_artist" VALUES(4824,13045,1);
+INSERT INTO "remix_artist" VALUES(4825,13668,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
