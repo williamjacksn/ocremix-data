@@ -2261,6 +2261,7 @@ INSERT INTO "game" VALUES(758,'NieR','https://ocremix.org/game/758/nier-ps3');
 INSERT INTO "game" VALUES(759,'Doom Troopers: Mutant Chronicles','https://ocremix.org/game/759/doom-troopers-mutant-chronicles-gen');
 INSERT INTO "game" VALUES(761,'Puggsy','https://ocremix.org/game/761/puggsy-gen');
 INSERT INTO "game" VALUES(762,'Sonic the Hedgehog 4: Episode I','https://ocremix.org/game/762/sonic-the-hedgehog-4-episode-i-wii');
+INSERT INTO "game" VALUES(763,'Metal Gear 2: Solid Snake','https://ocremix.org/game/763/metal-gear-2-solid-snake-msx');
 INSERT INTO "game" VALUES(764,'Mega Man II','https://ocremix.org/game/764/mega-man-ii-gb');
 INSERT INTO "game" VALUES(765,'Pokémon Mystery Dungeon: Red Rescue Team','https://ocremix.org/game/765/pokemon-mystery-dungeon-red-rescue-team-gba');
 INSERT INTO "game" VALUES(766,'MapleStory','https://ocremix.org/game/766/maplestory-win');
@@ -7322,6 +7323,7 @@ INSERT INTO "remix" VALUES(4822,'Witchcraft','Banjo-Kazooie','2025-03-28T00:58:4
 INSERT INTO "remix" VALUES(4823,'Flashback','Final Fantasy VIII','2025-03-29T00:58:21.672672+00:00','https://www.youtube.com/watch?v=E2eP12GuIjs',13,'https://ocrmirror.org/files/music/remixes/Final_Fantasy_8_Flashback_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4824,'Still More Sailing','Ys II: Ancient Ys Vanished - The Final Chapter','2025-03-30T01:03:52.285589+00:00','https://www.youtube.com/watch?v=G-uN8I4XL78',40166,'https://ocrmirror.org/files/music/remixes/Ys_2_Still_More_Sailing_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4825,'Batallia Ruins','Final Fantasy XI Online','2025-03-31T01:02:27.694681+00:00',NULL,546,'https://ocrmirror.org/files/music/remixes/Final_Fantasy_11_Online_Batallia_Ruins_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4826,'The Darkening Sky','Metal Gear 2: Solid Snake','2025-04-01T01:06:40.125801+00:00','https://www.youtube.com/watch?v=f8K_zOyws2M',763,'https://ocrmirror.org/files/music/remixes/Metal_Gear_2_The_Darkening_Sky_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13570,6 +13572,7 @@ INSERT INTO "remix_artist" VALUES(4822,14495,1);
 INSERT INTO "remix_artist" VALUES(4823,10669,1);
 INSERT INTO "remix_artist" VALUES(4824,13045,1);
 INSERT INTO "remix_artist" VALUES(4825,13668,1);
+INSERT INTO "remix_artist" VALUES(4826,4734,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -44529,6 +44532,14 @@ INSERT INTO "remix_tag" VALUES(4806,'synth',1);
 INSERT INTO "remix_tag" VALUES(4806,'chill',1);
 INSERT INTO "remix_tag" VALUES(4806,'energetic',1);
 INSERT INTO "remix_tag" VALUES(4806,'timesig-6-8',1);
+INSERT INTO "remix_tag" VALUES(4826,'cinematic',1);
+INSERT INTO "remix_tag" VALUES(4826,'electronic',1);
+INSERT INTO "remix_tag" VALUES(4826,'flute',1);
+INSERT INTO "remix_tag" VALUES(4826,'piano',1);
+INSERT INTO "remix_tag" VALUES(4826,'sound-fx',1);
+INSERT INTO "remix_tag" VALUES(4826,'synth',1);
+INSERT INTO "remix_tag" VALUES(4826,'suspenseful',1);
+INSERT INTO "remix_tag" VALUES(4826,'timesig-4-4',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
