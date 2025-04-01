@@ -7324,6 +7324,7 @@ INSERT INTO "remix" VALUES(4823,'Flashback','Final Fantasy VIII','2025-03-29T00:
 INSERT INTO "remix" VALUES(4824,'Still More Sailing','Ys II: Ancient Ys Vanished - The Final Chapter','2025-03-30T01:03:52.285589+00:00','https://www.youtube.com/watch?v=G-uN8I4XL78',40166,'https://ocrmirror.org/files/music/remixes/Ys_2_Still_More_Sailing_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4825,'Batallia Ruins','Final Fantasy XI Online','2025-03-31T01:02:27.694681+00:00',NULL,546,'https://ocrmirror.org/files/music/remixes/Final_Fantasy_11_Online_Batallia_Ruins_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4826,'The Darkening Sky','Metal Gear 2: Solid Snake','2025-04-01T01:06:40.125801+00:00','https://www.youtube.com/watch?v=f8K_zOyws2M',763,'https://ocrmirror.org/files/music/remixes/Metal_Gear_2_The_Darkening_Sky_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4827,'Soul''s Mission','The Legend of Zelda: A Link to the Past','2025-04-01T15:46:27.062285+00:00','https://www.youtube.com/watch?v=V1XU6PiwUfs',66,'https://ocrmirror.org/files/music/remixes/Legend_of_Zelda_A_Link_to_the_Past_Soul''s_Mission_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13573,6 +13574,7 @@ INSERT INTO "remix_artist" VALUES(4823,10669,1);
 INSERT INTO "remix_artist" VALUES(4824,13045,1);
 INSERT INTO "remix_artist" VALUES(4825,13668,1);
 INSERT INTO "remix_artist" VALUES(4826,4734,1);
+INSERT INTO "remix_artist" VALUES(4827,14375,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -44541,6 +44543,16 @@ INSERT INTO "remix_tag" VALUES(4826,'synth',1);
 INSERT INTO "remix_tag" VALUES(4826,'suspenseful',1);
 INSERT INTO "remix_tag" VALUES(4826,'timesig-4-4',1);
 INSERT INTO "remix_tag" VALUES(4647,'compo-gsm',1);
+INSERT INTO "remix_tag" VALUES(4827,'cinematic',1);
+INSERT INTO "remix_tag" VALUES(4827,'bells',1);
+INSERT INTO "remix_tag" VALUES(4827,'brass',1);
+INSERT INTO "remix_tag" VALUES(4827,'harp',1);
+INSERT INTO "remix_tag" VALUES(4827,'orchestral',1);
+INSERT INTO "remix_tag" VALUES(4827,'strings',1);
+INSERT INTO "remix_tag" VALUES(4827,'woodwinds',1);
+INSERT INTO "remix_tag" VALUES(4827,'goofy',1);
+INSERT INTO "remix_tag" VALUES(4827,'mystical',1);
+INSERT INTO "remix_tag" VALUES(4827,'timesig-4-4',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
