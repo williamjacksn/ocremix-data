@@ -7330,6 +7330,7 @@ INSERT INTO "remix" VALUES(4827,'Soul''s Mission','The Legend of Zelda: A Link t
 INSERT INTO "remix" VALUES(4828,'Highway Star 20X6','Rad Racer','2025-04-02T19:40:59.086865+00:00','https://www.youtube.com/watch?v=wBjusR7teNs',4368,'https://ocrmirror.org/files/music/remixes/Rad_Racer_Highway_Star_20X6_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4829,'Sidon''s Serenade','The Legend of Zelda: Breath of the Wild','2025-04-03T17:53:06.900352+00:00','https://www.youtube.com/watch?v=QhcALwQSiZ0',95359,'https://ocrmirror.org/files/music/remixes/Legend_of_Zelda_Breath_of_the_Wild_Sidon''s_Serenade_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4830,'SIU MAI','Super Street Fighter II Turbo','2025-04-05T00:58:24.422058+00:00','https://www.youtube.com/watch?v=5Ma8fo-2Kx8',472,'https://ocrmirror.org/files/music/remixes/Super_Street_Fighter_2_Turbo_SIU_MAI_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4831,'So Good!','Puyo Puyo','2025-04-06T01:03:18.771183+00:00','https://www.youtube.com/watch?v=Jbx8hpLwm8k',6611,'https://ocrmirror.org/files/music/remixes/Puyo_Puyo_So_Good_OC_ReMix.mp3',1);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13584,6 +13585,7 @@ INSERT INTO "remix_artist" VALUES(4828,15770,1);
 INSERT INTO "remix_artist" VALUES(4829,13046,1);
 INSERT INTO "remix_artist" VALUES(4829,10690,1);
 INSERT INTO "remix_artist" VALUES(4830,18925,1);
+INSERT INTO "remix_artist" VALUES(4831,18653,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -44595,6 +44597,21 @@ INSERT INTO "remix_tag" VALUES(4830,'timesig-7-8',1);
 INSERT INTO "remix_tag" VALUES(4830,'timesig-variable',1);
 INSERT INTO "remix_tag" VALUES(4553,'compo-gsm',1);
 INSERT INTO "remix_tag" VALUES(4646,'compo-gsm',1);
+INSERT INTO "remix_tag" VALUES(4831,'edm',1);
+INSERT INTO "remix_tag" VALUES(4831,'electric-guitar',1);
+INSERT INTO "remix_tag" VALUES(4831,'electronic',1);
+INSERT INTO "remix_tag" VALUES(4831,'sound-fx',1);
+INSERT INTO "remix_tag" VALUES(4831,'synth',1);
+INSERT INTO "remix_tag" VALUES(4831,'vocals-male',1);
+INSERT INTO "remix_tag" VALUES(4831,'energetic',1);
+INSERT INTO "remix_tag" VALUES(4831,'goofy',1);
+INSERT INTO "remix_tag" VALUES(4831,'compo-dod',1);
+INSERT INTO "remix_tag" VALUES(4831,'extended-soloing',1);
+INSERT INTO "remix_tag" VALUES(4831,'glitching',1);
+INSERT INTO "remix_tag" VALUES(4831,'lang-english',1);
+INSERT INTO "remix_tag" VALUES(4831,'lyrics-original',1);
+INSERT INTO "remix_tag" VALUES(4831,'resubmission',1);
+INSERT INTO "remix_tag" VALUES(4831,'timesig-4-4',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
