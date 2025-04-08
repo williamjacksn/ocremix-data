@@ -7332,6 +7332,7 @@ INSERT INTO "remix" VALUES(4829,'Sidon''s Serenade','The Legend of Zelda: Breath
 INSERT INTO "remix" VALUES(4830,'SIU MAI','Super Street Fighter II Turbo','2025-04-05T00:58:24.422058+00:00','https://www.youtube.com/watch?v=5Ma8fo-2Kx8',472,'https://ocrmirror.org/files/music/remixes/Super_Street_Fighter_2_Turbo_SIU_MAI_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4831,'So Good!','Puyo Puyo','2025-04-06T01:03:18.771183+00:00','https://www.youtube.com/watch?v=Jbx8hpLwm8k',6611,'https://ocrmirror.org/files/music/remixes/Puyo_Puyo_So_Good_OC_ReMix.mp3',1);
 INSERT INTO "remix" VALUES(4832,'Stay Away','Final Fantasy VII','2025-04-07T01:01:32.203481+00:00','https://www.youtube.com/watch?v=u7l9aTYJZto',7,'https://ocrmirror.org/files/music/remixes/Final_Fantasy_7_Stay_Away_OC_ReMix.mp3',1);
+INSERT INTO "remix" VALUES(4833,'We Built an Edifice Towards a Dark Sky','Shinobi III: Return of the Ninja Master','2025-04-08T00:59:39.174520+00:00','https://www.youtube.com/watch?v=BM0uS-MUAQY',353,'https://ocrmirror.org/files/music/remixes/Shinobi_3_We_Built_an_Edifice_Towards_a_Dark_Sky_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13590,6 +13591,10 @@ INSERT INTO "remix_artist" VALUES(4831,18653,1);
 INSERT INTO "remix_artist" VALUES(4832,4432,1);
 INSERT INTO "remix_artist" VALUES(4832,18712,1);
 INSERT INTO "remix_artist" VALUES(4832,13667,1);
+INSERT INTO "remix_artist" VALUES(4833,18606,1);
+INSERT INTO "remix_artist" VALUES(4833,16615,1);
+INSERT INTO "remix_artist" VALUES(4833,18594,1);
+INSERT INTO "remix_artist" VALUES(4833,13667,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -44630,6 +44635,18 @@ INSERT INTO "remix_tag" VALUES(4832,'lyrics-original',1);
 INSERT INTO "remix_tag" VALUES(4832,'timesig-5-4',1);
 INSERT INTO "remix_tag" VALUES(4832,'timesig-7-4',1);
 INSERT INTO "remix_tag" VALUES(4832,'timesig-variable',1);
+INSERT INTO "remix_tag" VALUES(4833,'experimental',1);
+INSERT INTO "remix_tag" VALUES(4833,'glitch-hop',1);
+INSERT INTO "remix_tag" VALUES(4833,'electronic',1);
+INSERT INTO "remix_tag" VALUES(4833,'flute',1);
+INSERT INTO "remix_tag" VALUES(4833,'sound-fx',1);
+INSERT INTO "remix_tag" VALUES(4833,'synth',1);
+INSERT INTO "remix_tag" VALUES(4833,'violin',1);
+INSERT INTO "remix_tag" VALUES(4833,'dark',1);
+INSERT INTO "remix_tag" VALUES(4833,'collab',1);
+INSERT INTO "remix_tag" VALUES(4833,'compo',1);
+INSERT INTO "remix_tag" VALUES(4833,'glitching',1);
+INSERT INTO "remix_tag" VALUES(4833,'resubmission',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
