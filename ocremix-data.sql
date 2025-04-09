@@ -1588,6 +1588,7 @@ INSERT INTO "artist" VALUES(18904,'Unknown Pseudoartist','https://ocremix.org/ar
 INSERT INTO "artist" VALUES(18906,'p4p3r','https://ocremix.org/artist/18906/p4p3r');
 INSERT INTO "artist" VALUES(18907,'SQORE','https://ocremix.org/artist/18907/sqore');
 INSERT INTO "artist" VALUES(18908,'Giorgos Panagiotou','https://ocremix.org/artist/18908/giorgos-panagiotou');
+INSERT INTO "artist" VALUES(18913,'Roland N. Laracuente Martínez','https://ocremix.org/artist/18913/roland-n-laracuente-martinez');
 INSERT INTO "artist" VALUES(18925,'BANANA TRASH','https://ocremix.org/artist/18925/banana-trash');
 CREATE TABLE game (
     id integer primary key,
@@ -2349,6 +2350,7 @@ INSERT INTO "game" VALUES(927,'Linus Spacehead','https://ocremix.org/game/927/li
 INSERT INTO "game" VALUES(928,'Destiny','https://ocremix.org/game/928/destiny-ps4');
 INSERT INTO "game" VALUES(930,'The Walking Dead: Season One','https://ocremix.org/game/930/walking-dead-season-one-win');
 INSERT INTO "game" VALUES(931,'Shuttle Rush','https://ocremix.org/game/931/shuttle-rush-wiiu');
+INSERT INTO "game" VALUES(933,'Mario Party 2','https://ocremix.org/game/933/mario-party-2-n64');
 INSERT INTO "game" VALUES(935,'WinBack: Covert Operations','https://ocremix.org/game/935/winback-covert-operations-n64');
 INSERT INTO "game" VALUES(937,'Super Mario Sunshine','https://ocremix.org/game/937/super-mario-sunshine-gcn');
 INSERT INTO "game" VALUES(938,'Xenophobe','https://ocremix.org/game/938/xenophobe-amiga');
@@ -7333,6 +7335,7 @@ INSERT INTO "remix" VALUES(4830,'SIU MAI','Super Street Fighter II Turbo','2025-
 INSERT INTO "remix" VALUES(4831,'So Good!','Puyo Puyo','2025-04-06T01:03:18.771183+00:00','https://www.youtube.com/watch?v=Jbx8hpLwm8k',6611,'https://ocrmirror.org/files/music/remixes/Puyo_Puyo_So_Good_OC_ReMix.mp3',1);
 INSERT INTO "remix" VALUES(4832,'Stay Away','Final Fantasy VII','2025-04-07T01:01:32.203481+00:00','https://www.youtube.com/watch?v=u7l9aTYJZto',7,'https://ocrmirror.org/files/music/remixes/Final_Fantasy_7_Stay_Away_OC_ReMix.mp3',1);
 INSERT INTO "remix" VALUES(4833,'We Built an Edifice Towards a Dark Sky','Shinobi III: Return of the Ninja Master','2025-04-08T00:59:39.174520+00:00','https://www.youtube.com/watch?v=BM0uS-MUAQY',353,'https://ocrmirror.org/files/music/remixes/Shinobi_3_We_Built_an_Edifice_Towards_a_Dark_Sky_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4834,'In Space, No One Can Hear You Party','Mario Party 2','2025-04-09T00:59:45.812986+00:00','https://www.youtube.com/watch?v=Tz1VC_EjyZU',933,'https://ocrmirror.org/files/music/remixes/Mario_Party_2_In_Space_No_One_Can_Hear_You_Party_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13595,6 +13598,10 @@ INSERT INTO "remix_artist" VALUES(4833,18606,1);
 INSERT INTO "remix_artist" VALUES(4833,16615,1);
 INSERT INTO "remix_artist" VALUES(4833,18594,1);
 INSERT INTO "remix_artist" VALUES(4833,13667,1);
+INSERT INTO "remix_artist" VALUES(4834,18724,1);
+INSERT INTO "remix_artist" VALUES(4834,18886,1);
+INSERT INTO "remix_artist" VALUES(4834,13500,1);
+INSERT INTO "remix_artist" VALUES(4834,18913,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -44648,6 +44655,8 @@ INSERT INTO "remix_tag" VALUES(4833,'compo',1);
 INSERT INTO "remix_tag" VALUES(4833,'glitching',1);
 INSERT INTO "remix_tag" VALUES(4833,'resubmission',1);
 INSERT INTO "remix_tag" VALUES(4695,'compo-gsm',1);
+INSERT INTO "remix_tag" VALUES(4834,'collab',1);
+INSERT INTO "remix_tag" VALUES(4834,'compo-dod',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
