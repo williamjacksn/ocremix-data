@@ -1590,6 +1590,7 @@ INSERT INTO "artist" VALUES(18907,'SQORE','https://ocremix.org/artist/18907/sqor
 INSERT INTO "artist" VALUES(18908,'Giorgos Panagiotou','https://ocremix.org/artist/18908/giorgos-panagiotou');
 INSERT INTO "artist" VALUES(18913,'Roland N. Laracuente Martínez','https://ocremix.org/artist/18913/roland-n-laracuente-martinez');
 INSERT INTO "artist" VALUES(18925,'BANANA TRASH','https://ocremix.org/artist/18925/banana-trash');
+INSERT INTO "artist" VALUES(18927,'Sly Man','https://ocremix.org/artist/18927/sly-man');
 CREATE TABLE game (
     id integer primary key,
     name text not null,
@@ -7336,6 +7337,7 @@ INSERT INTO "remix" VALUES(4831,'So Good!','Puyo Puyo','2025-04-06T01:03:18.7711
 INSERT INTO "remix" VALUES(4832,'Stay Away','Final Fantasy VII','2025-04-07T01:01:32.203481+00:00','https://www.youtube.com/watch?v=u7l9aTYJZto',7,'https://ocrmirror.org/files/music/remixes/Final_Fantasy_7_Stay_Away_OC_ReMix.mp3',1);
 INSERT INTO "remix" VALUES(4833,'We Built an Edifice Towards a Dark Sky','Shinobi III: Return of the Ninja Master','2025-04-08T00:59:39.174520+00:00','https://www.youtube.com/watch?v=BM0uS-MUAQY',353,'https://ocrmirror.org/files/music/remixes/Shinobi_3_We_Built_an_Edifice_Towards_a_Dark_Sky_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4834,'In Space, No One Can Hear You Party','Mario Party 2','2025-04-09T00:59:45.812986+00:00','https://www.youtube.com/watch?v=Tz1VC_EjyZU',933,'https://ocrmirror.org/files/music/remixes/Mario_Party_2_In_Space_No_One_Can_Hear_You_Party_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4835,'Flipside Part L: The Jester and The Void','Super Paper Mario','2025-04-10T00:59:52.600252+00:00','https://www.youtube.com/watch?v=Fets2ycTv_4',45416,'https://ocrmirror.org/files/music/remixes/Super_Paper_Mario_Flipside_Part_L_The_Jester_and_The_Void_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13602,6 +13604,12 @@ INSERT INTO "remix_artist" VALUES(4834,18724,1);
 INSERT INTO "remix_artist" VALUES(4834,18886,1);
 INSERT INTO "remix_artist" VALUES(4834,13500,1);
 INSERT INTO "remix_artist" VALUES(4834,18913,1);
+INSERT INTO "remix_artist" VALUES(4835,16119,1);
+INSERT INTO "remix_artist" VALUES(4835,18737,1);
+INSERT INTO "remix_artist" VALUES(4835,17324,1);
+INSERT INTO "remix_artist" VALUES(4835,13500,1);
+INSERT INTO "remix_artist" VALUES(4835,18927,1);
+INSERT INTO "remix_artist" VALUES(4835,18653,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -44657,6 +44665,24 @@ INSERT INTO "remix_tag" VALUES(4833,'resubmission',1);
 INSERT INTO "remix_tag" VALUES(4695,'compo-gsm',1);
 INSERT INTO "remix_tag" VALUES(4834,'collab',1);
 INSERT INTO "remix_tag" VALUES(4834,'compo-dod',1);
+INSERT INTO "remix_tag" VALUES(4835,'prog-rock',1);
+INSERT INTO "remix_tag" VALUES(4835,'surf',1);
+INSERT INTO "remix_tag" VALUES(4835,'brass',1);
+INSERT INTO "remix_tag" VALUES(4835,'cello',1);
+INSERT INTO "remix_tag" VALUES(4835,'clarinet',1);
+INSERT INTO "remix_tag" VALUES(4835,'electric-guitar',1);
+INSERT INTO "remix_tag" VALUES(4835,'organ',1);
+INSERT INTO "remix_tag" VALUES(4835,'piano',1);
+INSERT INTO "remix_tag" VALUES(4835,'saxophone',1);
+INSERT INTO "remix_tag" VALUES(4835,'synth',1);
+INSERT INTO "remix_tag" VALUES(4835,'trombone',1);
+INSERT INTO "remix_tag" VALUES(4835,'vibraphone',1);
+INSERT INTO "remix_tag" VALUES(4835,'vocals-voice-acting',1);
+INSERT INTO "remix_tag" VALUES(4835,'energetic',1);
+INSERT INTO "remix_tag" VALUES(4835,'funny',1);
+INSERT INTO "remix_tag" VALUES(4835,'collab',1);
+INSERT INTO "remix_tag" VALUES(4835,'compo-dod',1);
+INSERT INTO "remix_tag" VALUES(4835,'tempo-variable',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
