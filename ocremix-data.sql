@@ -1347,6 +1347,7 @@ INSERT INTO "artist" VALUES(17966,'Julien Mulard','https://ocremix.org/artist/17
 INSERT INTO "artist" VALUES(17976,'Schneider Souza','https://ocremix.org/artist/17976/schneider-souza');
 INSERT INTO "artist" VALUES(17977,'Grospixels','https://ocremix.org/artist/17977/grospixels');
 INSERT INTO "artist" VALUES(17980,'Kev Ragone','https://ocremix.org/artist/17980/kev-ragone');
+INSERT INTO "artist" VALUES(17982,'darmock','https://ocremix.org/artist/17982/darmock');
 INSERT INTO "artist" VALUES(18029,'Kenny Jr.','https://ocremix.org/artist/18029/kenny-jr');
 INSERT INTO "artist" VALUES(18030,'Saxxon Fox','https://ocremix.org/artist/18030/saxxon-fox');
 INSERT INTO "artist" VALUES(18031,'Amerlyn Zeta','https://ocremix.org/artist/18031/amerlyn-zeta');
@@ -2398,6 +2399,7 @@ INSERT INTO "game" VALUES(2931,'Bomberman Hero','https://ocremix.org/game/2931/b
 INSERT INTO "game" VALUES(2955,'Donkey Kong 64','https://ocremix.org/game/2955/donkey-kong-64-n64');
 INSERT INTO "game" VALUES(2956,'Doom 64','https://ocremix.org/game/2956/doom-64-n64');
 INSERT INTO "game" VALUES(3003,'Jet Force Gemini','https://ocremix.org/game/3003/jet-force-gemini-n64');
+INSERT INTO "game" VALUES(3022,'Mario Party','https://ocremix.org/game/3022/mario-party-n64');
 INSERT INTO "game" VALUES(3031,'Mischief Makers','https://ocremix.org/game/3031/mischief-makers-n64');
 INSERT INTO "game" VALUES(3039,'Mystical Ninja Starring Goemon','https://ocremix.org/game/3039/mystical-ninja-starring-goemon-n64');
 INSERT INTO "game" VALUES(3070,'Paper Mario','https://ocremix.org/game/3070/paper-mario-n64');
@@ -7338,6 +7340,7 @@ INSERT INTO "remix" VALUES(4832,'Stay Away','Final Fantasy VII','2025-04-07T01:0
 INSERT INTO "remix" VALUES(4833,'We Built an Edifice Towards a Dark Sky','Shinobi III: Return of the Ninja Master','2025-04-08T00:59:39.174520+00:00','https://www.youtube.com/watch?v=BM0uS-MUAQY',353,'https://ocrmirror.org/files/music/remixes/Shinobi_3_We_Built_an_Edifice_Towards_a_Dark_Sky_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4834,'In Space, No One Can Hear You Party','Mario Party 2','2025-04-09T00:59:45.812986+00:00','https://www.youtube.com/watch?v=Tz1VC_EjyZU',933,'https://ocrmirror.org/files/music/remixes/Mario_Party_2_In_Space_No_One_Can_Hear_You_Party_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4835,'Flipside Part L: The Jester and The Void','Super Paper Mario','2025-04-10T00:59:52.600252+00:00','https://www.youtube.com/watch?v=Fets2ycTv_4',45416,'https://ocrmirror.org/files/music/remixes/Super_Paper_Mario_Flipside_Part_L_The_Jester_and_The_Void_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4836,'Put the lime in the Koopa shell and drink it all up','Mario Party','2025-04-11T01:00:19.622653+00:00','https://www.youtube.com/watch?v=Eiihko9FU9s',3022,'https://ocrmirror.org/files/music/remixes/Mario_Party_Put_the_lime_in_the_Koopa_shell_and_drink_it_all_up_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13610,6 +13613,10 @@ INSERT INTO "remix_artist" VALUES(4835,17324,1);
 INSERT INTO "remix_artist" VALUES(4835,13500,1);
 INSERT INTO "remix_artist" VALUES(4835,18927,1);
 INSERT INTO "remix_artist" VALUES(4835,18653,1);
+INSERT INTO "remix_artist" VALUES(4836,18632,1);
+INSERT INTO "remix_artist" VALUES(4836,17982,1);
+INSERT INTO "remix_artist" VALUES(4836,18739,1);
+INSERT INTO "remix_artist" VALUES(4836,17486,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -44683,6 +44690,9 @@ INSERT INTO "remix_tag" VALUES(4835,'funny',1);
 INSERT INTO "remix_tag" VALUES(4835,'collab',1);
 INSERT INTO "remix_tag" VALUES(4835,'compo-dod',1);
 INSERT INTO "remix_tag" VALUES(4835,'tempo-variable',1);
+INSERT INTO "remix_tag" VALUES(4836,'collab',1);
+INSERT INTO "remix_tag" VALUES(4836,'compo-dod',1);
+INSERT INTO "remix_tag" VALUES(4836,'resubmission',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
