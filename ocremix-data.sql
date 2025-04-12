@@ -2447,6 +2447,7 @@ INSERT INTO "game" VALUES(6662,'Skitchin''','https://ocremix.org/game/6662/skitc
 INSERT INTO "game" VALUES(6753,'Twin Cobra','https://ocremix.org/game/6753/twin-cobra-gen');
 INSERT INTO "game" VALUES(6763,'VectorMan 2','https://ocremix.org/game/6763/vectorman-2-gen');
 INSERT INTO "game" VALUES(6876,'Castlevania Legends','https://ocremix.org/game/6876/castlevania-legends-gb');
+INSERT INTO "game" VALUES(6929,'The Final Fantasy Legend','https://ocremix.org/game/6929/final-fantasy-legend-gb');
 INSERT INTO "game" VALUES(7140,'Wario Land: Super Mario Land 3','https://ocremix.org/game/7140/wario-land-super-mario-land-3-gb');
 INSERT INTO "game" VALUES(7279,'Final Fantasy Crystal Chronicles','https://ocremix.org/game/7279/final-fantasy-crystal-chronicles-gcn');
 INSERT INTO "game" VALUES(7334,'Kirby Air Ride','https://ocremix.org/game/7334/kirby-air-ride-gcn');
@@ -7342,6 +7343,7 @@ INSERT INTO "remix" VALUES(4834,'In Space, No One Can Hear You Party','Mario Par
 INSERT INTO "remix" VALUES(4835,'Flipside Part L: The Jester and The Void','Super Paper Mario','2025-04-10T00:59:52.600252+00:00','https://www.youtube.com/watch?v=Fets2ycTv_4',45416,'https://ocrmirror.org/files/music/remixes/Super_Paper_Mario_Flipside_Part_L_The_Jester_and_The_Void_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4836,'Put the lime in the Koopa shell and drink it all up','Mario Party','2025-04-11T01:00:19.622653+00:00','https://www.youtube.com/watch?v=Eiihko9FU9s',3022,'https://ocrmirror.org/files/music/remixes/Mario_Party_Put_the_lime_in_the_Koopa_shell_and_drink_it_all_up_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4837,'Smash Those Records!','Super Smash Bros. Melee','2025-04-12T00:59:08.339131+00:00','https://www.youtube.com/watch?v=2ZI5ct8s5e8',805,'https://ocrmirror.org/files/music/remixes/Super_Smash_Bros_Melee_Smash_Those_Records_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4838,'Door to the Unknown','The Final Fantasy Legend','2025-04-12T20:51:30.111510+00:00','https://www.youtube.com/watch?v=0GeO1e2-rCk',6929,'https://ocrmirror.org/files/music/remixes/Final_Fantasy_Legend_Door_to_the_Unknown_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13620,6 +13622,7 @@ INSERT INTO "remix_artist" VALUES(4836,18739,1);
 INSERT INTO "remix_artist" VALUES(4836,17486,1);
 INSERT INTO "remix_artist" VALUES(4837,13500,1);
 INSERT INTO "remix_artist" VALUES(4818,16119,1);
+INSERT INTO "remix_artist" VALUES(4838,4695,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -44697,6 +44700,7 @@ INSERT INTO "remix_tag" VALUES(4836,'collab',1);
 INSERT INTO "remix_tag" VALUES(4836,'compo-dod',1);
 INSERT INTO "remix_tag" VALUES(4836,'resubmission',1);
 INSERT INTO "remix_tag" VALUES(4837,'compo-dod',1);
+INSERT INTO "remix_tag" VALUES(4838,'resubmission',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
