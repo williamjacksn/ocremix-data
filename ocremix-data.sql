@@ -1592,6 +1592,7 @@ INSERT INTO "artist" VALUES(18908,'Giorgos Panagiotou','https://ocremix.org/arti
 INSERT INTO "artist" VALUES(18913,'Roland N. Laracuente Martínez','https://ocremix.org/artist/18913/roland-n-laracuente-martinez');
 INSERT INTO "artist" VALUES(18925,'BANANA TRASH','https://ocremix.org/artist/18925/banana-trash');
 INSERT INTO "artist" VALUES(18927,'Sly Man','https://ocremix.org/artist/18927/sly-man');
+INSERT INTO "artist" VALUES(18929,'Audiomancer','https://ocremix.org/artist/18929/audiomancer');
 CREATE TABLE game (
     id integer primary key,
     name text not null,
@@ -7346,6 +7347,7 @@ INSERT INTO "remix" VALUES(4837,'Smash Those Records!','Super Smash Bros. Melee'
 INSERT INTO "remix" VALUES(4838,'Door to the Unknown','The Final Fantasy Legend','2025-04-12T20:51:30.111510+00:00','https://www.youtube.com/watch?v=0GeO1e2-rCk',6929,'https://ocrmirror.org/files/music/remixes/Final_Fantasy_Legend_Door_to_the_Unknown_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4839,'The Castle Whispers','Kingdom Hearts','2025-04-14T01:02:42.825305+00:00','https://www.youtube.com/watch?v=0-trJHU0Ogg',409,'https://ocrmirror.org/files/music/remixes/Kingdom_Hearts_The_Castle_Whispers_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4840,'À Venda','EarthBound','2025-04-15T01:01:37.611387+00:00','https://www.youtube.com/watch?v=WuQrw9fzwiU',51,'https://ocrmirror.org/files/music/remixes/EarthBound_A_Venda_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4841,'Twisted Systerz','Dragon Warrior IV','2025-04-17T01:00:44.724155+00:00','https://www.youtube.com/watch?v=oMFfoq745ec',422,'https://ocrmirror.org/files/music/remixes/Dragon_Warrior_4_Twisted_Systerz_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13627,6 +13629,7 @@ INSERT INTO "remix_artist" VALUES(4818,16119,1);
 INSERT INTO "remix_artist" VALUES(4838,4695,1);
 INSERT INTO "remix_artist" VALUES(4839,18868,1);
 INSERT INTO "remix_artist" VALUES(4840,9690,1);
+INSERT INTO "remix_artist" VALUES(4841,18929,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -44706,6 +44709,13 @@ INSERT INTO "remix_tag" VALUES(4836,'resubmission',1);
 INSERT INTO "remix_tag" VALUES(4837,'compo-dod',1);
 INSERT INTO "remix_tag" VALUES(4838,'resubmission',1);
 INSERT INTO "remix_tag" VALUES(4840,'resubmission',1);
+INSERT INTO "remix_tag" VALUES(4841,'edm',1);
+INSERT INTO "remix_tag" VALUES(4841,'electronic',1);
+INSERT INTO "remix_tag" VALUES(4841,'synth',1);
+INSERT INTO "remix_tag" VALUES(4841,'energetic',1);
+INSERT INTO "remix_tag" VALUES(4841,'resubmission',1);
+INSERT INTO "remix_tag" VALUES(4841,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4841,'workout',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
