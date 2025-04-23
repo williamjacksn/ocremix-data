@@ -1595,6 +1595,7 @@ INSERT INTO "artist" VALUES(18927,'Sly Man','https://ocremix.org/artist/18927/sl
 INSERT INTO "artist" VALUES(18929,'Audiomancer','https://ocremix.org/artist/18929/audiomancer');
 INSERT INTO "artist" VALUES(18930,'CeCe Ennui','https://ocremix.org/artist/18930/cece-ennui');
 INSERT INTO "artist" VALUES(18941,'mo.oorgan','https://ocremix.org/artist/18941/mooorgan');
+INSERT INTO "artist" VALUES(18942,'DJ-J-RAD','https://ocremix.org/artist/18942/dj-j-rad');
 CREATE TABLE game (
     id integer primary key,
     name text not null,
@@ -7357,6 +7358,7 @@ INSERT INTO "remix" VALUES(4842,'Sacrulen Shroud','Skies of Arcadia','2025-04-21
 INSERT INTO "remix" VALUES(4843,'Ninjan graali','Ninja Gaiden','2025-04-21T01:04:05.689206+00:00','https://www.youtube.com/watch?v=FRwYPeT6V2s',39462,'https://ocrmirror.org/files/music/remixes/Ninja_Gaiden_Ninjan_graali_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4844,'First Death of the Heart','Disco Elysium','2025-04-21T01:04:06.324259+00:00','https://www.youtube.com/watch?v=qorkIw3taS4',95878,'https://ocrmirror.org/files/music/remixes/Disco_Elysium_First_Death_of_the_Heart_OC_ReMix.mp3',1);
 INSERT INTO "remix" VALUES(4845,'A Man from Outer Space','Pikmin','2025-04-21T01:04:06.791900+00:00','https://www.youtube.com/watch?v=PtSD7wfZndM',7456,'https://ocrmirror.org/files/music/remixes/Pikmin_A_Man_from_Outer_Space_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4846,'The Caterkiller''s Jam','Sonic the Hedgehog','2025-04-23T01:01:23.115644+00:00','https://www.youtube.com/watch?v=8tkweZpm1wA',22,'https://ocrmirror.org/files/music/remixes/Sonic_the_Hedgehog_The_Caterkiller''s_Jam_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13646,6 +13648,7 @@ INSERT INTO "remix_artist" VALUES(4844,18930,1);
 INSERT INTO "remix_artist" VALUES(4844,18300,1);
 INSERT INTO "remix_artist" VALUES(4844,18654,1);
 INSERT INTO "remix_artist" VALUES(4845,18941,1);
+INSERT INTO "remix_artist" VALUES(4846,18942,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -44774,6 +44777,14 @@ INSERT INTO "remix_tag" VALUES(4845,'trippy',1);
 INSERT INTO "remix_tag" VALUES(4845,'compo-dod',1);
 INSERT INTO "remix_tag" VALUES(4845,'distortion',1);
 INSERT INTO "remix_tag" VALUES(4845,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4846,'trip-hop',1);
+INSERT INTO "remix_tag" VALUES(4846,'electronic',1);
+INSERT INTO "remix_tag" VALUES(4846,'ingame-fx',1);
+INSERT INTO "remix_tag" VALUES(4846,'sound-fx',1);
+INSERT INTO "remix_tag" VALUES(4846,'synth',1);
+INSERT INTO "remix_tag" VALUES(4846,'funky',1);
+INSERT INTO "remix_tag" VALUES(4846,'trippy',1);
+INSERT INTO "remix_tag" VALUES(4846,'timesig-4-4',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
