@@ -2701,6 +2701,7 @@ INSERT INTO "game" VALUES(95873,'Inscryption','https://ocremix.org/game/95873/in
 INSERT INTO "game" VALUES(95874,'Ultimate Paintball Challenge','https://ocremix.org/game/95874/ultimate-paintball-challenge-win');
 INSERT INTO "game" VALUES(95876,'The Great Ace Attorney 2: Resolve','https://ocremix.org/game/95876/great-ace-attorney-2-resolve-3ds');
 INSERT INTO "game" VALUES(95878,'Disco Elysium','https://ocremix.org/game/95878/disco-elysium-win');
+INSERT INTO "game" VALUES(95882,'Pokémon Trading Card Game Pocket','https://ocremix.org/game/95882/pokemon-trading-card-game-pocket-ios');
 CREATE TABLE remix (
     id integer primary key,
     title text not null,
@@ -7362,6 +7363,7 @@ INSERT INTO "remix" VALUES(4845,'A Man from Outer Space','Pikmin','2025-04-21T01
 INSERT INTO "remix" VALUES(4846,'The Caterkiller''s Jam','Sonic the Hedgehog','2025-04-23T01:01:23.115644+00:00','https://www.youtube.com/watch?v=8tkweZpm1wA',22,'https://ocrmirror.org/files/music/remixes/Sonic_the_Hedgehog_The_Caterkiller''s_Jam_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4847,'Saving Private Raynor','StarCraft','2025-04-24T01:01:43.534124+00:00','https://www.youtube.com/watch?v=veosqx30pWM',220,'https://ocrmirror.org/files/music/remixes/StarCraft_Saving_Private_Raynor_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4848,'Daylight!','Metal Gear Solid','2025-05-03T01:00:36.565481+00:00','https://www.youtube.com/watch?v=vPDGKbNHjhI',328,'https://ocrmirror.org/files/music/remixes/Metal_Gear_Solid_Daylight_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4849,'At the Drop of a Coin Flip','Pokémon Trading Card Game Pocket','2025-05-04T01:08:33.606506+00:00','https://www.youtube.com/watch?v=BSEpUARWnsk',95882,'https://ocrmirror.org/files/music/remixes/Pokemon_Trading_Card_Game_Pocket_At_the_Drop_of_a_Coin_Flip_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13656,6 +13658,7 @@ INSERT INTO "remix_artist" VALUES(4847,13500,1);
 INSERT INTO "remix_artist" VALUES(4847,13045,1);
 INSERT INTO "remix_artist" VALUES(4847,18633,1);
 INSERT INTO "remix_artist" VALUES(4848,18943,1);
+INSERT INTO "remix_artist" VALUES(4849,13147,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
