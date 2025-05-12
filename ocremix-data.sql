@@ -2468,6 +2468,7 @@ INSERT INTO "game" VALUES(8437,'Zool: Ninja of the "Nth" Dimension','https://ocr
 INSERT INTO "game" VALUES(8748,'Thunder Force V','https://ocremix.org/game/8748/thunder-force-v-sat');
 INSERT INTO "game" VALUES(8800,'Advance Wars','https://ocremix.org/game/8800/advance-wars-gba');
 INSERT INTO "game" VALUES(9081,'The Legend of Zelda: The Minish Cap','https://ocremix.org/game/9081/legend-of-zelda-the-minish-cap-gba');
+INSERT INTO "game" VALUES(9159,'Mother 3','https://ocremix.org/game/9159/mother-3-gba');
 INSERT INTO "game" VALUES(9399,'Yu-Gi-Oh! World Championship Tournament 2004','https://ocremix.org/game/9399/yu-gi-oh-world-championship-tournament-2004-gba');
 INSERT INTO "game" VALUES(9681,'Dragon Ball Z Budokai 2','https://ocremix.org/game/9681/dragon-ball-z-budokai-2-ps2');
 INSERT INTO "game" VALUES(9684,'Dragon Ball Z: Budokai Tenkaichi 2','https://ocremix.org/game/9684/dragon-ball-z-budokai-tenkaichi-2-ps2');
@@ -7364,6 +7365,7 @@ INSERT INTO "remix" VALUES(4846,'The Caterkiller''s Jam','Sonic the Hedgehog','2
 INSERT INTO "remix" VALUES(4847,'Saving Private Raynor','StarCraft','2025-04-24T01:01:43.534124+00:00','https://www.youtube.com/watch?v=veosqx30pWM',220,'https://ocrmirror.org/files/music/remixes/StarCraft_Saving_Private_Raynor_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4848,'Daylight!','Metal Gear Solid','2025-05-03T01:00:36.565481+00:00','https://www.youtube.com/watch?v=vPDGKbNHjhI',328,'https://ocrmirror.org/files/music/remixes/Metal_Gear_Solid_Daylight_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4849,'At the Drop of a Coin Flip','Pokémon Trading Card Game Pocket','2025-05-04T01:08:33.606506+00:00','https://www.youtube.com/watch?v=BSEpUARWnsk',95882,'https://ocrmirror.org/files/music/remixes/Pokemon_Trading_Card_Game_Pocket_At_the_Drop_of_a_Coin_Flip_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4850,'Your Warmth','Mother 3','2025-05-12T01:05:33.274493+00:00','https://www.youtube.com/watch?v=urlXzb_1YLc',9159,'https://ocrmirror.org/files/music/remixes/Mother_3_Your_Warmth_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13659,6 +13661,7 @@ INSERT INTO "remix_artist" VALUES(4847,13045,1);
 INSERT INTO "remix_artist" VALUES(4847,18633,1);
 INSERT INTO "remix_artist" VALUES(4848,18943,1);
 INSERT INTO "remix_artist" VALUES(4849,13147,1);
+INSERT INTO "remix_artist" VALUES(4850,14328,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -44821,6 +44824,9 @@ INSERT INTO "remix_tag" VALUES(4840,'electronic',1);
 INSERT INTO "remix_tag" VALUES(4840,'synth',1);
 INSERT INTO "remix_tag" VALUES(4840,'happy',1);
 INSERT INTO "remix_tag" VALUES(4840,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4850,'piano',1);
+INSERT INTO "remix_tag" VALUES(4850,'solo-piano',1);
+INSERT INTO "remix_tag" VALUES(4850,'solo',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
