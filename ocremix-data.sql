@@ -7366,6 +7366,7 @@ INSERT INTO "remix" VALUES(4847,'Saving Private Raynor','StarCraft','2025-05-14T
 INSERT INTO "remix" VALUES(4848,'Daylight!','Metal Gear Solid','2025-05-03T01:00:36.565481+00:00','https://www.youtube.com/watch?v=vPDGKbNHjhI',328,'https://ocrmirror.org/files/music/remixes/Metal_Gear_Solid_Daylight_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4849,'At the Drop of a Coin Flip','Pokémon Trading Card Game Pocket','2025-05-04T01:08:33.606506+00:00','https://www.youtube.com/watch?v=BSEpUARWnsk',95882,'https://ocrmirror.org/files/music/remixes/Pokemon_Trading_Card_Game_Pocket_At_the_Drop_of_a_Coin_Flip_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4850,'Your Warmth','Mother 3','2025-05-12T01:05:33.274493+00:00','https://www.youtube.com/watch?v=urlXzb_1YLc',9159,'https://ocrmirror.org/files/music/remixes/Mother_3_Your_Warmth_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4851,'Doomonic Monarchia','Doom','2025-05-16T01:04:04.624775+00:00','https://www.youtube.com/watch?v=6BtKGD_55Ec',14512,'https://ocrmirror.org/files/music/remixes/Doom_Doomonic_Monarchia_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13662,6 +13663,7 @@ INSERT INTO "remix_artist" VALUES(4847,18633,1);
 INSERT INTO "remix_artist" VALUES(4848,18943,1);
 INSERT INTO "remix_artist" VALUES(4849,13147,1);
 INSERT INTO "remix_artist" VALUES(4850,14328,1);
+INSERT INTO "remix_artist" VALUES(4851,15562,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -44827,6 +44829,7 @@ INSERT INTO "remix_tag" VALUES(4840,'timesig-4-4',1);
 INSERT INTO "remix_tag" VALUES(4850,'piano',1);
 INSERT INTO "remix_tag" VALUES(4850,'solo-piano',1);
 INSERT INTO "remix_tag" VALUES(4850,'solo',1);
+INSERT INTO "remix_tag" VALUES(4851,'timesig-4-4',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
