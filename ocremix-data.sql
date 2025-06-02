@@ -7367,6 +7367,8 @@ INSERT INTO "remix" VALUES(4848,'Daylight!','Metal Gear Solid','2025-05-23T11:38
 INSERT INTO "remix" VALUES(4849,'At the Drop of a Coin Flip','Pokémon Trading Card Game Pocket','2025-05-24T11:37:11.370194+00:00','https://www.youtube.com/watch?v=BSEpUARWnsk',95882,'https://ocrmirror.org/files/music/remixes/Pokemon_Trading_Card_Game_Pocket_At_the_Drop_of_a_Coin_Flip_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4850,'Your Warmth','Mother 3','2025-06-01T16:46:07.732838+00:00','https://www.youtube.com/watch?v=urlXzb_1YLc',9159,'https://ocrmirror.org/files/music/remixes/Mother_3_Your_Warmth_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4851,'Doomonic Monarchia','Doom','2025-05-16T01:04:04.624775+00:00','https://www.youtube.com/watch?v=6BtKGD_55Ec',14512,'https://ocrmirror.org/files/music/remixes/Doom_Doomonic_Monarchia_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4852,'Mercurial Mechanisms','Golden Sun','2025-06-02T01:07:11.912743+00:00','https://www.youtube.com/watch?v=ivtU4MfF1Xc',433,'https://ocrmirror.org/files/music/remixes/Golden_Sun_Mercurial_Mechanisms_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4853,'That Night, 40 Years Ago','Golden Sun','2025-06-02T01:07:12.671168+00:00','https://www.youtube.com/watch?v=tlXBHwQrrA0',433,'https://ocrmirror.org/files/music/remixes/Golden_Sun_That_Night_40_Years_Ago_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13664,6 +13666,9 @@ INSERT INTO "remix_artist" VALUES(4848,18943,1);
 INSERT INTO "remix_artist" VALUES(4849,13147,1);
 INSERT INTO "remix_artist" VALUES(4850,14328,1);
 INSERT INTO "remix_artist" VALUES(4851,15562,1);
+INSERT INTO "remix_artist" VALUES(4852,16119,1);
+INSERT INTO "remix_artist" VALUES(4852,17485,1);
+INSERT INTO "remix_artist" VALUES(4853,9690,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -44868,6 +44873,24 @@ INSERT INTO "remix_tag" VALUES(3430,'happy',1);
 INSERT INTO "remix_tag" VALUES(4850,'chamber',1);
 INSERT INTO "remix_tag" VALUES(4850,'peaceful',1);
 INSERT INTO "remix_tag" VALUES(4850,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4852,'downtempo',1);
+INSERT INTO "remix_tag" VALUES(4852,'edm',1);
+INSERT INTO "remix_tag" VALUES(4852,'electronic',1);
+INSERT INTO "remix_tag" VALUES(4852,'synth',1);
+INSERT INTO "remix_tag" VALUES(4852,'dark',1);
+INSERT INTO "remix_tag" VALUES(4852,'collab',1);
+INSERT INTO "remix_tag" VALUES(4852,'resubmission',1);
+INSERT INTO "remix_tag" VALUES(4852,'tempo-variable',1);
+INSERT INTO "remix_tag" VALUES(4852,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4853,'synthwave',1);
+INSERT INTO "remix_tag" VALUES(4853,'electric-guitar',1);
+INSERT INTO "remix_tag" VALUES(4853,'electronic',1);
+INSERT INTO "remix_tag" VALUES(4853,'synth',1);
+INSERT INTO "remix_tag" VALUES(4853,'dark',1);
+INSERT INTO "remix_tag" VALUES(4853,'timesig-3-4',1);
+INSERT INTO "remix_tag" VALUES(4853,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4853,'timesig-5-4',1);
+INSERT INTO "remix_tag" VALUES(4853,'timesig-variable',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
