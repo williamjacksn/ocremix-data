@@ -1597,6 +1597,7 @@ INSERT INTO "artist" VALUES(18930,'CeCe Ennui','https://ocremix.org/artist/18930
 INSERT INTO "artist" VALUES(18941,'mo.oorgan','https://ocremix.org/artist/18941/mooorgan');
 INSERT INTO "artist" VALUES(18942,'DJ-J-RAD','https://ocremix.org/artist/18942/dj-j-rad');
 INSERT INTO "artist" VALUES(18943,'Alex Robinson','https://ocremix.org/artist/18943/alex-robinson');
+INSERT INTO "artist" VALUES(18964,'Triple B Music','https://ocremix.org/artist/18964/triple-b-music');
 CREATE TABLE game (
     id integer primary key,
     name text not null,
@@ -7369,6 +7370,7 @@ INSERT INTO "remix" VALUES(4850,'Your Warmth','Mother 3','2025-06-01T16:46:07.73
 INSERT INTO "remix" VALUES(4851,'Doomonic Monarchia','Doom','2025-05-16T01:04:04.624775+00:00','https://www.youtube.com/watch?v=6BtKGD_55Ec',14512,'https://ocrmirror.org/files/music/remixes/Doom_Doomonic_Monarchia_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4852,'Mercurial Mechanisms','Golden Sun','2025-06-02T01:07:11.912743+00:00','https://www.youtube.com/watch?v=ivtU4MfF1Xc',433,'https://ocrmirror.org/files/music/remixes/Golden_Sun_Mercurial_Mechanisms_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4853,'That Night, 40 Years Ago','Golden Sun','2025-06-02T01:07:12.671168+00:00','https://www.youtube.com/watch?v=tlXBHwQrrA0',433,'https://ocrmirror.org/files/music/remixes/Golden_Sun_That_Night_40_Years_Ago_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4854,'Dreamy Ring Around the Forest','Silent Hill 4: The Room','2025-06-03T01:05:26.538056+00:00','https://www.youtube.com/watch?v=FfHIO1b5TUo',854,'https://ocrmirror.org/files/music/remixes/Silent_Hill_4_Dreamy_Ring_Around_the_Forest_OC_ReMix.mp3',1);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13669,6 +13671,12 @@ INSERT INTO "remix_artist" VALUES(4851,15562,1);
 INSERT INTO "remix_artist" VALUES(4852,16119,1);
 INSERT INTO "remix_artist" VALUES(4852,17485,1);
 INSERT INTO "remix_artist" VALUES(4853,9690,1);
+INSERT INTO "remix_artist" VALUES(4854,18653,1);
+INSERT INTO "remix_artist" VALUES(4854,16844,1);
+INSERT INTO "remix_artist" VALUES(4854,16615,1);
+INSERT INTO "remix_artist" VALUES(4854,18388,1);
+INSERT INTO "remix_artist" VALUES(4854,18964,1);
+INSERT INTO "remix_artist" VALUES(4854,18654,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -44891,6 +44899,13 @@ INSERT INTO "remix_tag" VALUES(4853,'timesig-3-4',1);
 INSERT INTO "remix_tag" VALUES(4853,'timesig-4-4',1);
 INSERT INTO "remix_tag" VALUES(4853,'timesig-5-4',1);
 INSERT INTO "remix_tag" VALUES(4853,'timesig-variable',1);
+INSERT INTO "remix_tag" VALUES(4854,'singing',1);
+INSERT INTO "remix_tag" VALUES(4854,'vocals-female',1);
+INSERT INTO "remix_tag" VALUES(4854,'vocals-male',1);
+INSERT INTO "remix_tag" VALUES(4854,'collab',1);
+INSERT INTO "remix_tag" VALUES(4854,'lang-english',1);
+INSERT INTO "remix_tag" VALUES(4854,'lyrics-existing',1);
+INSERT INTO "remix_tag" VALUES(4854,'timesig-4-4',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
