@@ -966,6 +966,7 @@ INSERT INTO "artist" VALUES(14134,'Tetrimino','https://ocremix.org/artist/14134/
 INSERT INTO "artist" VALUES(14137,'mklachu','https://ocremix.org/artist/14137/mklachu');
 INSERT INTO "artist" VALUES(14139,'GaMetal','https://ocremix.org/artist/14139/gametal');
 INSERT INTO "artist" VALUES(14143,'jdaster64','https://ocremix.org/artist/14143/jdaster64');
+INSERT INTO "artist" VALUES(14148,'DarkDjinn','https://ocremix.org/artist/14148/darkdjinn');
 INSERT INTO "artist" VALUES(14328,'Sebastien Skaf','https://ocremix.org/artist/14328/sebastien-skaf');
 INSERT INTO "artist" VALUES(14329,'Thomas B. Yee','https://ocremix.org/artist/14329/thomas-b-yee');
 INSERT INTO "artist" VALUES(14330,'Marc-André Tremblay','https://ocremix.org/artist/14330/marc-andre-tremblay');
@@ -2338,6 +2339,7 @@ INSERT INTO "game" VALUES(884,'Final Fantasy Type-0','https://ocremix.org/game/8
 INSERT INTO "game" VALUES(885,'Darksiders II','https://ocremix.org/game/885/darksiders-ii-win');
 INSERT INTO "game" VALUES(886,'Super Spike V''Ball','https://ocremix.org/game/886/super-spike-vball-nes');
 INSERT INTO "game" VALUES(887,'Yoshi Touch & Go','https://ocremix.org/game/887/yoshi-touch-and-go-nds');
+INSERT INTO "game" VALUES(890,'The Last Story','https://ocremix.org/game/890/last-story-wii');
 INSERT INTO "game" VALUES(892,'Golden Sun: The Lost Age','https://ocremix.org/game/892/golden-sun-the-lost-age-gba');
 INSERT INTO "game" VALUES(893,'Sparkster','https://ocremix.org/game/893/sparkster-gen');
 INSERT INTO "game" VALUES(900,'Kunio Kun no Nekketsu Soccer League','https://ocremix.org/game/900/kunio-kun-no-nekketsu-soccer-league-nes');
@@ -7378,6 +7380,8 @@ INSERT INTO "remix" VALUES(4856,'Follow the Tornado','Shadow the Hedgehog','2025
 INSERT INTO "remix" VALUES(4857,'Death by Hammer (Mettaton vs. Smithy)','Undertale','2025-06-15T01:12:46.223781+00:00','https://www.youtube.com/watch?v=SDWxcKPWbww',95077,'https://ocrmirror.org/files/music/remixes/Undertale_Death_by_Hammer_(Mettaton_vs_Smithy)_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4858,'It All Ends Here','Super Smash Bros. Brawl','2025-06-16T01:07:52.948180+00:00','https://www.youtube.com/watch?v=_eE95XywZcY',879,'https://ocrmirror.org/files/music/remixes/Super_Smash_Bros_Brawl_It_All_Ends_Here_OC_ReMix.mp3',1);
 INSERT INTO "remix" VALUES(4859,'Where the Fire Burns Brightest','Final Fantasy IX','2025-06-20T01:05:17.524779+00:00','https://www.youtube.com/watch?v=6pBlUWVWVl0',14,'https://ocrmirror.org/files/music/remixes/Final_Fantasy_9_Where_the_Fire_Burns_Brightest_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4860,'Alone in the Stars','The Last Story','2025-07-02T01:06:24.108631+00:00','https://www.youtube.com/watch?v=iDv-JArq2ZU',890,'https://ocrmirror.org/files/music/remixes/Last_Story_Alone_in_the_Stars_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4861,'Chill Out, Smithy','Super Mario RPG: Legend of the Seven Stars','2025-07-02T01:06:24.734768+00:00','https://www.youtube.com/watch?v=1vj_2sYSDsw',84,'https://ocrmirror.org/files/music/remixes/Super_Mario_RPG_Chill_Out_Smithy_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13694,6 +13698,8 @@ INSERT INTO "remix_artist" VALUES(4858,18653,1);
 INSERT INTO "remix_artist" VALUES(4858,18940,1);
 INSERT INTO "remix_artist" VALUES(4858,18654,1);
 INSERT INTO "remix_artist" VALUES(4859,4695,1);
+INSERT INTO "remix_artist" VALUES(4860,13668,1);
+INSERT INTO "remix_artist" VALUES(4861,14148,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -44963,6 +44969,20 @@ INSERT INTO "remix_tag" VALUES(4854,'flute',1);
 INSERT INTO "remix_tag" VALUES(4854,'organ',1);
 INSERT INTO "remix_tag" VALUES(4854,'synth',1);
 INSERT INTO "remix_tag" VALUES(4854,'epic',1);
+INSERT INTO "remix_tag" VALUES(4860,'classical',1);
+INSERT INTO "remix_tag" VALUES(4860,'piano',1);
+INSERT INTO "remix_tag" VALUES(4860,'solo-piano',1);
+INSERT INTO "remix_tag" VALUES(4860,'sad',1);
+INSERT INTO "remix_tag" VALUES(4860,'solemn',1);
+INSERT INTO "remix_tag" VALUES(4860,'solo',1);
+INSERT INTO "remix_tag" VALUES(4860,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4861,'prog-rock',1);
+INSERT INTO "remix_tag" VALUES(4861,'electric-guitar',1);
+INSERT INTO "remix_tag" VALUES(4861,'organ',1);
+INSERT INTO "remix_tag" VALUES(4861,'synth',1);
+INSERT INTO "remix_tag" VALUES(4861,'energetic',1);
+INSERT INTO "remix_tag" VALUES(4861,'extended-soloing',1);
+INSERT INTO "remix_tag" VALUES(4861,'timesig-4-4',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
