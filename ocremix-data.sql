@@ -2545,6 +2545,7 @@ INSERT INTO "game" VALUES(38902,'Sonic Rush','https://ocremix.org/game/38902/son
 INSERT INTO "game" VALUES(38947,'Yoshi''s Island DS','https://ocremix.org/game/38947/yoshis-island-ds-nds');
 INSERT INTO "game" VALUES(39462,'Ninja Gaiden','https://ocremix.org/game/39462/ninja-gaiden-xbox');
 INSERT INTO "game" VALUES(39576,'Silent Hill 2: Restless Dreams','https://ocremix.org/game/39576/silent-hill-2-restless-dreams-xbox');
+INSERT INTO "game" VALUES(40026,'Snatcher','https://ocremix.org/game/40026/snatcher-pc88');
 INSERT INTO "game" VALUES(40166,'Ys II: Ancient Ys Vanished - The Final Chapter','https://ocremix.org/game/40166/ys-ii-ancient-ys-vanished-the-final-chapter-pc88');
 INSERT INTO "game" VALUES(40407,'Pokémon Pinball','https://ocremix.org/game/40407/pokemon-pinball-gbc');
 INSERT INTO "game" VALUES(40735,'The Legend of Heroes V: A Cagesong of the Ocean','https://ocremix.org/game/40735/legend-of-heroes-v-a-cagesong-of-the-ocean-psp');
@@ -7382,6 +7383,7 @@ INSERT INTO "remix" VALUES(4858,'It All Ends Here','Super Smash Bros. Brawl','20
 INSERT INTO "remix" VALUES(4859,'Where the Fire Burns Brightest','Final Fantasy IX','2025-06-20T01:05:17.524779+00:00','https://www.youtube.com/watch?v=6pBlUWVWVl0',14,'https://ocrmirror.org/files/music/remixes/Final_Fantasy_9_Where_the_Fire_Burns_Brightest_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4860,'Alone in the Stars','The Last Story','2025-07-02T01:06:24.108631+00:00','https://www.youtube.com/watch?v=iDv-JArq2ZU',890,'https://ocrmirror.org/files/music/remixes/Last_Story_Alone_in_the_Stars_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4861,'Chill Out, Smithy','Super Mario RPG: Legend of the Seven Stars','2025-07-02T01:06:24.734768+00:00','https://www.youtube.com/watch?v=1vj_2sYSDsw',84,'https://ocrmirror.org/files/music/remixes/Super_Mario_RPG_Chill_Out_Smithy_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4862,'The Imminent Arrival of the Bioroids','Snatcher','2025-07-03T01:06:01.446151+00:00','https://www.youtube.com/watch?v=EFB7j_6Bshk',40026,'https://ocrmirror.org/files/music/remixes/Snatcher_The_Imminent_Arrival_of_the_Bioroids_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13700,6 +13702,8 @@ INSERT INTO "remix_artist" VALUES(4858,18654,1);
 INSERT INTO "remix_artist" VALUES(4859,4695,1);
 INSERT INTO "remix_artist" VALUES(4860,13668,1);
 INSERT INTO "remix_artist" VALUES(4861,14148,1);
+INSERT INTO "remix_artist" VALUES(4862,13147,1);
+INSERT INTO "remix_artist" VALUES(4862,12064,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -44983,6 +44987,16 @@ INSERT INTO "remix_tag" VALUES(4861,'synth',1);
 INSERT INTO "remix_tag" VALUES(4861,'energetic',1);
 INSERT INTO "remix_tag" VALUES(4861,'extended-soloing',1);
 INSERT INTO "remix_tag" VALUES(4861,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4862,'cinematic',1);
+INSERT INTO "remix_tag" VALUES(4862,'electronic',1);
+INSERT INTO "remix_tag" VALUES(4862,'strings',1);
+INSERT INTO "remix_tag" VALUES(4862,'synth',1);
+INSERT INTO "remix_tag" VALUES(4862,'vocals-voice-acting',1);
+INSERT INTO "remix_tag" VALUES(4862,'dark',1);
+INSERT INTO "remix_tag" VALUES(4862,'suspenseful',1);
+INSERT INTO "remix_tag" VALUES(4862,'collab',1);
+INSERT INTO "remix_tag" VALUES(4862,'halloween',1);
+INSERT INTO "remix_tag" VALUES(4862,'timesig-4-4',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
