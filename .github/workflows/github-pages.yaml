@@ -26,11 +26,14 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Install uv
+        run: sh ci/install-uv.sh
+
       - name: Build pages content
-        run: docker compose run --no-TTY --rm --user="$(id --user):$(id --group)" build-pages
+        run: sh ci/build-pages.sh
 
       - name: Generate OpenAPI spec
-        run: docker compose run --no-TTY --rm --user="$(id --user):$(id --group)" gen-openapi-spec
+        run: sh ci/gen-openapi-spec.sh
 
       - name: Configure Pages
         uses: actions/configure-pages@v5
