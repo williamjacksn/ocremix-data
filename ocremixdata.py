@@ -124,7 +124,7 @@ def get_cnx() -> sqlite3.Connection:
     ocremix_data_sql = pathlib.Path("ocremix-data.sql").resolve()
     cnx = sqlite3.connect(":memory:")
     cnx.row_factory = namedtuple_factory
-    with ocremix_data_sql.open() as f:
+    with ocremix_data_sql.open(encoding="utf_8") as f:
         cnx.executescript(f.read())
     return cnx
 
@@ -433,7 +433,7 @@ def write_artist_batch(cnx: sqlite3.Connection, params: list[dict]):
 def write_data_and_close(cnx: sqlite3.Connection):
     cnx.row_factory = sqlite3.Row
     ocremix_data_sql = pathlib.Path("ocremix-data.sql").resolve()
-    with ocremix_data_sql.open("w") as f:
+    with ocremix_data_sql.open("w", encoding="utf_8") as f:
         for line in cnx.iterdump():
             f.write(f"{line}\n")
     cnx.close()
