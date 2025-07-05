@@ -1599,6 +1599,7 @@ INSERT INTO "artist" VALUES(18940,'Dog Food for Bananas','https://ocremix.org/ar
 INSERT INTO "artist" VALUES(18941,'mo.oorgan','https://ocremix.org/artist/18941/mooorgan');
 INSERT INTO "artist" VALUES(18942,'DJ-J-RAD','https://ocremix.org/artist/18942/dj-j-rad');
 INSERT INTO "artist" VALUES(18943,'Alex Robinson','https://ocremix.org/artist/18943/alex-robinson');
+INSERT INTO "artist" VALUES(18963,'Fataloror','https://ocremix.org/artist/18963/fataloror');
 INSERT INTO "artist" VALUES(18964,'Triple B Music','https://ocremix.org/artist/18964/triple-b-music');
 CREATE TABLE game (
     id integer primary key,
@@ -2546,6 +2547,7 @@ INSERT INTO "game" VALUES(38947,'Yoshi''s Island DS','https://ocremix.org/game/3
 INSERT INTO "game" VALUES(39462,'Ninja Gaiden','https://ocremix.org/game/39462/ninja-gaiden-xbox');
 INSERT INTO "game" VALUES(39576,'Silent Hill 2: Restless Dreams','https://ocremix.org/game/39576/silent-hill-2-restless-dreams-xbox');
 INSERT INTO "game" VALUES(40026,'Snatcher','https://ocremix.org/game/40026/snatcher-pc88');
+INSERT INTO "game" VALUES(40165,'Ys: Ancient Ys Vanished','https://ocremix.org/game/40165/ys-ancient-ys-vanished-pc88');
 INSERT INTO "game" VALUES(40166,'Ys II: Ancient Ys Vanished - The Final Chapter','https://ocremix.org/game/40166/ys-ii-ancient-ys-vanished-the-final-chapter-pc88');
 INSERT INTO "game" VALUES(40407,'Pokémon Pinball','https://ocremix.org/game/40407/pokemon-pinball-gbc');
 INSERT INTO "game" VALUES(40735,'The Legend of Heroes V: A Cagesong of the Ocean','https://ocremix.org/game/40735/legend-of-heroes-v-a-cagesong-of-the-ocean-psp');
@@ -2708,6 +2710,7 @@ INSERT INTO "game" VALUES(95873,'Inscryption','https://ocremix.org/game/95873/in
 INSERT INTO "game" VALUES(95874,'Ultimate Paintball Challenge','https://ocremix.org/game/95874/ultimate-paintball-challenge-win');
 INSERT INTO "game" VALUES(95876,'The Great Ace Attorney 2: Resolve','https://ocremix.org/game/95876/great-ace-attorney-2-resolve-3ds');
 INSERT INTO "game" VALUES(95878,'Disco Elysium','https://ocremix.org/game/95878/disco-elysium-win');
+INSERT INTO "game" VALUES(95880,'Helldivers II','https://ocremix.org/game/95880/helldivers-ii-ps5');
 INSERT INTO "game" VALUES(95882,'Pokémon Trading Card Game Pocket','https://ocremix.org/game/95882/pokemon-trading-card-game-pocket-ios');
 CREATE TABLE remix (
     id integer primary key,
@@ -7384,6 +7387,8 @@ INSERT INTO "remix" VALUES(4859,'Where the Fire Burns Brightest','Final Fantasy 
 INSERT INTO "remix" VALUES(4860,'Alone in the Stars','The Last Story','2025-07-02T01:06:24.108631+00:00','https://www.youtube.com/watch?v=iDv-JArq2ZU',890,'https://ocrmirror.org/files/music/remixes/Last_Story_Alone_in_the_Stars_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4861,'Chill Out, Smithy','Super Mario RPG: Legend of the Seven Stars','2025-07-02T01:06:24.734768+00:00','https://www.youtube.com/watch?v=1vj_2sYSDsw',84,'https://ocrmirror.org/files/music/remixes/Super_Mario_RPG_Chill_Out_Smithy_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4862,'The Imminent Arrival of the Bioroids','Snatcher','2025-07-03T01:06:01.446151+00:00','https://www.youtube.com/watch?v=EFB7j_6Bshk',40026,'https://ocrmirror.org/files/music/remixes/Snatcher_The_Imminent_Arrival_of_the_Bioroids_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4863,'Solid Center','Ys: Ancient Ys Vanished','2025-07-05T01:03:27.136928+00:00','https://www.youtube.com/watch?v=efYrUboVdbU',40165,'https://ocrmirror.org/files/music/remixes/Ys_Solid_Center_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4864,'Glorious Exercise of Freedom','Helldivers II','2025-07-05T01:03:27.738356+00:00','https://www.youtube.com/watch?v=5Ezf69PI2Tc',95880,'https://ocrmirror.org/files/music/remixes/Helldivers_2_Glorious_Exercise_of_Freedom_OC_ReMix.mp3',1);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13704,6 +13709,10 @@ INSERT INTO "remix_artist" VALUES(4860,13668,1);
 INSERT INTO "remix_artist" VALUES(4861,14148,1);
 INSERT INTO "remix_artist" VALUES(4862,13147,1);
 INSERT INTO "remix_artist" VALUES(4862,12064,1);
+INSERT INTO "remix_artist" VALUES(4863,10709,1);
+INSERT INTO "remix_artist" VALUES(4863,18963,1);
+INSERT INTO "remix_artist" VALUES(4864,13046,1);
+INSERT INTO "remix_artist" VALUES(4864,18602,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -44997,6 +45006,26 @@ INSERT INTO "remix_tag" VALUES(4862,'suspenseful',1);
 INSERT INTO "remix_tag" VALUES(4862,'collab',1);
 INSERT INTO "remix_tag" VALUES(4862,'halloween',1);
 INSERT INTO "remix_tag" VALUES(4862,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4863,'happy-hardcore',1);
+INSERT INTO "remix_tag" VALUES(4863,'trance',1);
+INSERT INTO "remix_tag" VALUES(4863,'electronic',1);
+INSERT INTO "remix_tag" VALUES(4863,'piano',1);
+INSERT INTO "remix_tag" VALUES(4863,'synth',1);
+INSERT INTO "remix_tag" VALUES(4863,'energetic',1);
+INSERT INTO "remix_tag" VALUES(4863,'collab',1);
+INSERT INTO "remix_tag" VALUES(4863,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4864,'edm',1);
+INSERT INTO "remix_tag" VALUES(4864,'electronic',1);
+INSERT INTO "remix_tag" VALUES(4864,'synth',1);
+INSERT INTO "remix_tag" VALUES(4864,'vocals-male',1);
+INSERT INTO "remix_tag" VALUES(4864,'vocals-voice-acting',1);
+INSERT INTO "remix_tag" VALUES(4864,'energetic',1);
+INSERT INTO "remix_tag" VALUES(4864,'collab',1);
+INSERT INTO "remix_tag" VALUES(4864,'lang-english',1);
+INSERT INTO "remix_tag" VALUES(4864,'lyrics-existing',1);
+INSERT INTO "remix_tag" VALUES(4864,'lyrics-original',1);
+INSERT INTO "remix_tag" VALUES(4864,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4864,'workout',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
