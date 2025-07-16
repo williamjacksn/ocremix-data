@@ -7392,6 +7392,7 @@ INSERT INTO "remix" VALUES(4863,'Solid Center','Ys: Ancient Ys Vanished','2025-0
 INSERT INTO "remix" VALUES(4864,'Glorious Exercise of Freedom','Helldivers II','2025-07-05T01:03:27.738356+00:00','https://www.youtube.com/watch?v=5Ezf69PI2Tc',95880,'https://ocrmirror.org/files/music/remixes/Helldivers_2_Glorious_Exercise_of_Freedom_OC_ReMix.mp3',1);
 INSERT INTO "remix" VALUES(4865,'Falling in Love, Under That Sky','Super Smash Bros. Brawl','2025-07-06T01:12:32.906988+00:00','https://www.youtube.com/watch?v=Pj1VtG7W5-s',879,'https://ocrmirror.org/files/music/remixes/Super_Smash_Bros_Brawl_Falling_in_Love_Under_That_Sky_OC_ReMix.mp3',1);
 INSERT INTO "remix" VALUES(4866,'Dragonborn Symphony, Movement 2','The Elder Scrolls V: Skyrim','2025-07-08T01:06:42.837989+00:00','https://www.youtube.com/watch?v=y7yUSTp1Q04',721,'https://ocrmirror.org/files/music/remixes/Elder_Scrolls_5_Skyrim_Dragonborn_Symphony_Movement_2_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4867,'Despair, Down at the Docks...','Super Mario 64','2025-07-16T01:09:30.379334+00:00','https://www.youtube.com/watch?v=RXZfrzhZSrY',59,'https://ocrmirror.org/files/music/remixes/Super_Mario_64_Despair_Down_at_the_Docks_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13725,6 +13726,7 @@ INSERT INTO "remix_artist" VALUES(4865,18601,1);
 INSERT INTO "remix_artist" VALUES(4865,4605,1);
 INSERT INTO "remix_artist" VALUES(4865,13667,1);
 INSERT INTO "remix_artist" VALUES(4866,18896,1);
+INSERT INTO "remix_artist" VALUES(4867,18941,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -45086,6 +45088,19 @@ INSERT INTO "remix_tag" VALUES(4866,'woodwinds',1);
 INSERT INTO "remix_tag" VALUES(4866,'epic',1);
 INSERT INTO "remix_tag" VALUES(4866,'duration-long',1);
 INSERT INTO "remix_tag" VALUES(4866,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4867,'downtempo',1);
+INSERT INTO "remix_tag" VALUES(4867,'metal',1);
+INSERT INTO "remix_tag" VALUES(4867,'electric-guitar',1);
+INSERT INTO "remix_tag" VALUES(4867,'electronic',1);
+INSERT INTO "remix_tag" VALUES(4867,'piano',1);
+INSERT INTO "remix_tag" VALUES(4867,'sound-fx',1);
+INSERT INTO "remix_tag" VALUES(4867,'synth',1);
+INSERT INTO "remix_tag" VALUES(4867,'dark',1);
+INSERT INTO "remix_tag" VALUES(4867,'energetic',1);
+INSERT INTO "remix_tag" VALUES(4867,'sad',1);
+INSERT INTO "remix_tag" VALUES(4867,'distortion',1);
+INSERT INTO "remix_tag" VALUES(4867,'glitching',1);
+INSERT INTO "remix_tag" VALUES(4867,'timesig-4-4',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
