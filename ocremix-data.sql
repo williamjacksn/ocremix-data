@@ -1593,6 +1593,7 @@ INSERT INTO "artist" VALUES(18908,'Giorgos Panagiotou','https://ocremix.org/arti
 INSERT INTO "artist" VALUES(18913,'Roland N. Laracuente Martínez','https://ocremix.org/artist/18913/roland-n-laracuente-martinez');
 INSERT INTO "artist" VALUES(18925,'BANANA TRASH','https://ocremix.org/artist/18925/banana-trash');
 INSERT INTO "artist" VALUES(18927,'Sly Man','https://ocremix.org/artist/18927/sly-man');
+INSERT INTO "artist" VALUES(18928,'angrypolarbear','https://ocremix.org/artist/18928/angrypolarbear');
 INSERT INTO "artist" VALUES(18929,'Audiomancer','https://ocremix.org/artist/18929/audiomancer');
 INSERT INTO "artist" VALUES(18930,'CeCe Ennui','https://ocremix.org/artist/18930/cece-ennui');
 INSERT INTO "artist" VALUES(18938,'maclaine grace','https://ocremix.org/artist/18938/maclaine-grace');
@@ -1602,6 +1603,8 @@ INSERT INTO "artist" VALUES(18942,'DJ-J-RAD','https://ocremix.org/artist/18942/d
 INSERT INTO "artist" VALUES(18943,'Alex Robinson','https://ocremix.org/artist/18943/alex-robinson');
 INSERT INTO "artist" VALUES(18963,'Fataloror','https://ocremix.org/artist/18963/fataloror');
 INSERT INTO "artist" VALUES(18964,'Triple B Music','https://ocremix.org/artist/18964/triple-b-music');
+INSERT INTO "artist" VALUES(18966,'Dylan William van de Wal','https://ocremix.org/artist/18966/dylan-william-van-de-wal');
+INSERT INTO "artist" VALUES(18967,'David Lallande','https://ocremix.org/artist/18967/david-lallande');
 CREATE TABLE game (
     id integer primary key,
     name text not null,
@@ -7393,6 +7396,7 @@ INSERT INTO "remix" VALUES(4864,'Glorious Exercise of Freedom','Helldivers II','
 INSERT INTO "remix" VALUES(4865,'Falling in Love, Under That Sky','Super Smash Bros. Brawl','2025-07-27T06:53:01.172881+00:00','https://www.youtube.com/watch?v=Pj1VtG7W5-s',879,'https://ocrmirror.org/files/music/remixes/Super_Smash_Bros_Brawl_Falling_in_Love_Under_That_Sky_OC_ReMix.mp3',1);
 INSERT INTO "remix" VALUES(4866,'Dragonborn Symphony, Movement 2','The Elder Scrolls V: Skyrim','2025-07-29T07:45:34.139427+00:00','https://www.youtube.com/watch?v=y7yUSTp1Q04',721,'https://ocrmirror.org/files/music/remixes/Elder_Scrolls_5_Skyrim_Dragonborn_Symphony_Movement_2_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4867,'Despair, Down at the Docks...','Super Mario 64','2025-07-16T01:09:30.379334+00:00','https://www.youtube.com/watch?v=RXZfrzhZSrY',59,'https://ocrmirror.org/files/music/remixes/Super_Mario_64_Despair_Down_at_the_Docks_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4868,'Kremland''s Stupid Happy Boat Ride (Komplete Ride Through Mix)','Donkey Kong Country 2: Diddy''s Kong Quest','2025-08-02T01:08:15.984257+00:00','https://www.youtube.com/watch?v=8hzAsFu8u7w',48,'https://ocrmirror.org/files/music/remixes/Donkey_Kong_Country_2_Kremland''s_Stupid_Happy_Boat_Ride_(Komplete_Ride_Through_Mix)_OC_ReMix.mp3',1);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13727,6 +13731,17 @@ INSERT INTO "remix_artist" VALUES(4865,4605,1);
 INSERT INTO "remix_artist" VALUES(4865,13667,1);
 INSERT INTO "remix_artist" VALUES(4866,18896,1);
 INSERT INTO "remix_artist" VALUES(4867,18941,1);
+INSERT INTO "remix_artist" VALUES(4868,18326,1);
+INSERT INTO "remix_artist" VALUES(4868,18928,1);
+INSERT INTO "remix_artist" VALUES(4868,18967,1);
+INSERT INTO "remix_artist" VALUES(4868,18739,1);
+INSERT INTO "remix_artist" VALUES(4868,18966,1);
+INSERT INTO "remix_artist" VALUES(4868,18362,1);
+INSERT INTO "remix_artist" VALUES(4868,18819,1);
+INSERT INTO "remix_artist" VALUES(4868,18742,1);
+INSERT INTO "remix_artist" VALUES(4868,18655,1);
+INSERT INTO "remix_artist" VALUES(4868,18601,1);
+INSERT INTO "remix_artist" VALUES(4868,18712,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -45113,6 +45128,22 @@ INSERT INTO "remix_tag" VALUES(4770,'compo-dod',1);
 INSERT INTO "remix_tag" VALUES(3151,'lang-latin',1);
 INSERT INTO "remix_tag" VALUES(3211,'collab',1);
 INSERT INTO "remix_tag" VALUES(3211,'lang-latin',1);
+INSERT INTO "remix_tag" VALUES(4868,'accordion',1);
+INSERT INTO "remix_tag" VALUES(4868,'ingame-fx',1);
+INSERT INTO "remix_tag" VALUES(4868,'singing',1);
+INSERT INTO "remix_tag" VALUES(4868,'trumpet',1);
+INSERT INTO "remix_tag" VALUES(4868,'viola',1);
+INSERT INTO "remix_tag" VALUES(4868,'violin',1);
+INSERT INTO "remix_tag" VALUES(4868,'vocals-female',1);
+INSERT INTO "remix_tag" VALUES(4868,'vocals-male',1);
+INSERT INTO "remix_tag" VALUES(4868,'vocals-voice-acting',1);
+INSERT INTO "remix_tag" VALUES(4868,'goofy',1);
+INSERT INTO "remix_tag" VALUES(4868,'happy',1);
+INSERT INTO "remix_tag" VALUES(4868,'collab',1);
+INSERT INTO "remix_tag" VALUES(4868,'compo-dod',1);
+INSERT INTO "remix_tag" VALUES(4868,'lang-english',1);
+INSERT INTO "remix_tag" VALUES(4868,'medley',1);
+INSERT INTO "remix_tag" VALUES(4868,'timesig-4-4',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
