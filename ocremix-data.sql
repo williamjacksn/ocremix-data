@@ -1592,6 +1592,7 @@ INSERT INTO "artist" VALUES(18907,'SQORE','https://ocremix.org/artist/18907/sqor
 INSERT INTO "artist" VALUES(18908,'Giorgos Panagiotou','https://ocremix.org/artist/18908/giorgos-panagiotou');
 INSERT INTO "artist" VALUES(18913,'Roland N. Laracuente Martínez','https://ocremix.org/artist/18913/roland-n-laracuente-martinez');
 INSERT INTO "artist" VALUES(18925,'BANANA TRASH','https://ocremix.org/artist/18925/banana-trash');
+INSERT INTO "artist" VALUES(18926,'Seveneyes','https://ocremix.org/artist/18926/seveneyes');
 INSERT INTO "artist" VALUES(18927,'Sly Man','https://ocremix.org/artist/18927/sly-man');
 INSERT INTO "artist" VALUES(18928,'angrypolarbear','https://ocremix.org/artist/18928/angrypolarbear');
 INSERT INTO "artist" VALUES(18929,'Audiomancer','https://ocremix.org/artist/18929/audiomancer');
@@ -2535,6 +2536,7 @@ INSERT INTO "game" VALUES(25537,'RollerCoaster Tycoon','https://ocremix.org/game
 INSERT INTO "game" VALUES(25584,'RuneScape','https://ocremix.org/game/25584/runescape-win');
 INSERT INTO "game" VALUES(27107,'Ys: The Oath in Felghana','https://ocremix.org/game/27107/ys-the-oath-in-felghana-win');
 INSERT INTO "game" VALUES(28094,'Dance Dance Revolution Extreme','https://ocremix.org/game/28094/dance-dance-revolution-extreme-arc');
+INSERT INTO "game" VALUES(28135,'Darkstalkers: The Night Warriors','https://ocremix.org/game/28135/darkstalkers-the-night-warriors-arc');
 INSERT INTO "game" VALUES(28149,'Daytona USA','https://ocremix.org/game/28149/daytona-usa-arc');
 INSERT INTO "game" VALUES(28497,'Fantasy Zone','https://ocremix.org/game/28497/fantasy-zone-arc');
 INSERT INTO "game" VALUES(29292,'Killer Instinct','https://ocremix.org/game/29292/killer-instinct-arc');
@@ -7397,6 +7399,7 @@ INSERT INTO "remix" VALUES(4865,'Falling in Love, Under That Sky','Super Smash B
 INSERT INTO "remix" VALUES(4866,'Dragonborn Symphony, Movement 2','The Elder Scrolls V: Skyrim','2025-07-29T07:45:34.139427+00:00','https://www.youtube.com/watch?v=y7yUSTp1Q04',721,'https://ocrmirror.org/files/music/remixes/Elder_Scrolls_5_Skyrim_Dragonborn_Symphony_Movement_2_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4867,'Despair, Down at the Docks...','Super Mario 64','2025-07-16T01:09:30.379334+00:00','https://www.youtube.com/watch?v=RXZfrzhZSrY',59,'https://ocrmirror.org/files/music/remixes/Super_Mario_64_Despair_Down_at_the_Docks_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4868,'Kremland''s Stupid Happy Boat Ride (Komplete Ride Through Mix)','Donkey Kong Country 2: Diddy''s Kong Quest','2025-08-02T01:08:15.984257+00:00','https://www.youtube.com/watch?v=8hzAsFu8u7w',48,'https://ocrmirror.org/files/music/remixes/Donkey_Kong_Country_2_Kremland''s_Stupid_Happy_Boat_Ride_(Komplete_Ride_Through_Mix)_OC_ReMix.mp3',1);
+INSERT INTO "remix" VALUES(4869,'Fiama de Vampiri','Darkstalkers: The Night Warriors','2025-08-03T01:17:44.711267+00:00','https://www.youtube.com/watch?v=zFCc8xpufH8',28135,'https://ocrmirror.org/files/music/remixes/Darkstalkers_Fiama_de_Vampiri_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13742,6 +13745,8 @@ INSERT INTO "remix_artist" VALUES(4868,18742,1);
 INSERT INTO "remix_artist" VALUES(4868,18655,1);
 INSERT INTO "remix_artist" VALUES(4868,18601,1);
 INSERT INTO "remix_artist" VALUES(4868,18712,1);
+INSERT INTO "remix_artist" VALUES(4869,18926,1);
+INSERT INTO "remix_artist" VALUES(4869,18710,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -45144,6 +45149,18 @@ INSERT INTO "remix_tag" VALUES(4868,'compo-dod',1);
 INSERT INTO "remix_tag" VALUES(4868,'lang-english',1);
 INSERT INTO "remix_tag" VALUES(4868,'medley',1);
 INSERT INTO "remix_tag" VALUES(4868,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4869,'cinematic',1);
+INSERT INTO "remix_tag" VALUES(4869,'synthwave',1);
+INSERT INTO "remix_tag" VALUES(4869,'electric-guitar',1);
+INSERT INTO "remix_tag" VALUES(4869,'electronic',1);
+INSERT INTO "remix_tag" VALUES(4869,'piano',1);
+INSERT INTO "remix_tag" VALUES(4869,'strings',1);
+INSERT INTO "remix_tag" VALUES(4869,'synth',1);
+INSERT INTO "remix_tag" VALUES(4869,'dark',1);
+INSERT INTO "remix_tag" VALUES(4869,'energetic',1);
+INSERT INTO "remix_tag" VALUES(4869,'sad',1);
+INSERT INTO "remix_tag" VALUES(4869,'collab',1);
+INSERT INTO "remix_tag" VALUES(4869,'timesig-4-4',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
