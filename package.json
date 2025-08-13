@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "swagger-ui-dist": "5.11.0"
+    "swagger-ui-dist": "5.27.1"
   },
   "license": "UNLICENSED",
   "name": "ocremix-data",
