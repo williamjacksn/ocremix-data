@@ -37,12 +37,9 @@ jobs:
 
       - name: Commit and push if changes
         id: commit
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add --all
-          git commit --message="Update ReMix info" && echo "pushed=true" >> $GITHUB_OUTPUT || exit 0
-          git push
+        run: sh ci/commit-and-push.sh
+        env:
+          COMMIT_MESSAGE: Update ReMix info
 
       - name: Dispatch workflow to build pages
         if: steps.commit.outputs.pushed == 'true'
