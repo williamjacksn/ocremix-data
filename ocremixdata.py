@@ -14,7 +14,8 @@ import urllib.request
 
 
 def _swagger_ui_version() -> str:
-    return "5.11.0"
+    data = json.loads(pathlib.Path("package.json").read_text())
+    return data.get("dependencies").get("swagger-ui-dist")
 
 
 def cli_build_pages(args: argparse.Namespace):
