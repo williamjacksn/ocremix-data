@@ -11,6 +11,8 @@ DISPATCH_BUILD_STEP = {
     "run": "gh workflow run github-pages.yaml",
     "env": {"GH_TOKEN": "${{ github.token }}"},
 }
+CRON_DAILY_0000 = {"cron": "0 0 * * *"}
+CRON_HOURLY_30 = {"cron": "30 * * * *"}
 
 
 def _commit_and_push_step(commit_message: str) -> dict:
@@ -53,7 +55,7 @@ def gen_import_workflow():
             "description": f"This workflow ({target}) was generated from {THIS_FILE}"
         },
         "name": "Import missing ReMix info",
-        "on": {"schedule": [{"cron": "0 0 * * *"}], "workflow_dispatch": {}},
+        "on": {"schedule": [CRON_DAILY_0000], "workflow_dispatch": {}},
         "jobs": {
             "import-missing": {
                 "name": "Import missing ReMix info",
@@ -132,11 +134,59 @@ def gen_publish_workflow():
     gen(content, target)
 
 
+def gen_update_workflow():
+    target = ".github/workflows/update.yaml"
+    content = {
+        "env": {
+            "description": f"This workflow ({target}) was generated from {THIS_FILE}",
+        },
+        "name": "Update ReMix info",
+        "on": {
+            "schedule": [CRON_HOURLY_30],
+            "workflow_dispatch": {
+                "inputs": {
+                    "limit": {
+                        "default": 10,
+                        "description": "Number of ReMixes to update",
+                        "required": True,
+                        "type": "number",
+                    }
+                }
+            },
+        },
+        "jobs": {
+            "update-remix-info": {
+                "name": "Update ReMix info",
+                "runs-on": "ubuntu-latest",
+                "permissions": {"actions": "write", "contents": "write"},
+                "steps": [
+                    ACTIONS_CHECKOUT,
+                    {"name": "Install uv", "run": "sh ci/install-uv.sh"},
+                    {
+                        "name": "Update ReMix info (on schedule)",
+                        "if": "github.event_name == 'schedule'",
+                        "run": "uv run ocremixdata.py update",
+                    },
+                    {
+                        "name": "Update ReMix info (on workflow_dispatch)",
+                        "if": "github.event_name == 'workflow_dispatch'",
+                        "run": "uv run ocremixdata.py update --limit ${{ inputs.limit }}",
+                    },
+                    _commit_and_push_step("Update ReMix info"),
+                    DISPATCH_BUILD_STEP,
+                ],
+            },
+        },
+    }
+    gen(content, target)
+
+
 def main():
     gen_dependabot()
     gen_import_workflow()
     gen_package_json()
     gen_publish_workflow()
+    gen_update_workflow()
 
 
 if __name__ == "__main__":
