@@ -60,6 +60,11 @@ def gen_publish_workflow():
                     "name": "github-pages",
                     "url": "${{ steps.deployment.outputs.page_url }}",
                 },
+                "permissions": {
+                    "contents": "read",
+                    "pages": "write",
+                    "id-token": "write",
+                },
                 "steps": [
                     ACTIONS_CHECKOUT,
                     {
