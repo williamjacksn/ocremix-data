@@ -43,9 +43,51 @@ def gen_package_json():
     gen(content, target)
 
 
+def gen_publish_workflow():
+    target = ".github/workflows/github-pages.yaml"
+    content = {
+        "env": {
+            "description": f"This workflow ({target}) was generated from {THIS_FILE}"
+        },
+        "name": "Deploy to GitHub Pages",
+        "on": {"push": {"branches": ["main"]}, "workflow_dispatch": {}},
+        "concurrency": {"cancel-in-progress": True, "group": "github-pages"},
+        "jobs": {
+            "deploy": {
+                "name": "Deploy to GitHub Pages",
+                "runs-on": "ubuntu-latest",
+                "environment": {
+                    "name": "github-pages",
+                    "url": "${{ steps.deployment.outputs.page_url }}",
+                },
+                "steps": [
+                    ACTIONS_CHECKOUT,
+                    {
+                        "name": "Configure GitHub Pages",
+                        "uses": "actions/configure-pages@v5",
+                    },
+                    {"name": "Build content", "run": "sh ci/build-pages.sh"},
+                    {
+                        "name": "Upload artifact",
+                        "uses": "actions/upload-pages-artifact@v3",
+                        "with": {"path": "output"},
+                    },
+                    {
+                        "name": "Deploy to GitHub Pages",
+                        "id": "deployment",
+                        "uses": "actions/deploy-pages@v4",
+                    },
+                ],
+            }
+        },
+    }
+    gen(content, target)
+
+
 def main():
     gen_dependabot()
     gen_package_json()
+    gen_publish_workflow()
 
 
 if __name__ == "__main__":
