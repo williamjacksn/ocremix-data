@@ -13,12 +13,16 @@ import urllib.error
 import urllib.request
 
 
+def _swagger_ui_version() -> str:
+    return "5.11.0"
+
+
 def cli_build_pages(args: argparse.Namespace):
     index_html = htpy.html(lang="en")[
         htpy.head[
             htpy.title["OverClocked ReMix Data"],
             htpy.link(
-                href="https://unpkg.com/swagger-ui-dist@5.11.0/swagger-ui.css",
+                href=f"https://unpkg.com/swagger-ui-dist@{_swagger_ui_version()}/swagger-ui.css",
                 rel="stylesheet",
             ),
         ],
@@ -26,7 +30,7 @@ def cli_build_pages(args: argparse.Namespace):
             htpy.div("#swagger-ui"),
             htpy.script(
                 crossorigin="anonymous",
-                src="https://unpkg.com/swagger-ui-dist@5.11.0/swagger-ui-bundle.js",
+                src=f"https://unpkg.com/swagger-ui-dist@{_swagger_ui_version()}/swagger-ui-bundle.js",
             ),
             htpy.script(src="index.js"),
         ],
