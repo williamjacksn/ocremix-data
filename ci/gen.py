@@ -25,7 +25,7 @@ def gen_dependabot():
                 "directory": "/",
                 "schedule": {"interval": "daily"},
             }
-            for e in ["github-actions", "uv"]
+            for e in ["github-actions", "npm", "uv"]
         ],
     }
     gen(content, target)
