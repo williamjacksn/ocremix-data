@@ -222,5 +222,11 @@ spec = {
     "servers": [{"url": "https://williamjacksn.github.io/ocremix-data"}],
 }
 
-with open("output/ocremix-data.openapi.json", "w") as f:
-    json.dump(spec, f, indent=2, sort_keys=True)
+
+def main():
+    with open("output/ocremix-data.openapi.json", "w") as f:
+        json.dump(spec, f, indent=2, sort_keys=True)
+
+
+if __name__ == "__main__":
+    main()
