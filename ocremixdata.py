@@ -36,11 +36,10 @@ def cli_build_pages(args: argparse.Namespace):
             htpy.script(src="index.js"),
         ],
     ]
-    target = args.directory / "index.html"
+    target: pathlib.Path = args.directory / "index.html"
     target.parent.mkdir(parents=True, exist_ok=True)
-    with target.open("w") as f:
-        print(f"writing to {target}")
-        f.write(str(index_html))
+    print(f"writing to {target}")
+    target.write_text(str(index_html), newline="\n")
 
     index_js = textwrap.dedent("""\
         window.onload = () => {
@@ -52,9 +51,8 @@ def cli_build_pages(args: argparse.Namespace):
     """)
     target = args.directory / "index.js"
     target.parent.mkdir(parents=True, exist_ok=True)
-    with target.open("w") as f:
-        print(f"writing to {target}")
-        f.write(index_js)
+    print(f"writing to {target}")
+    target.write_text(index_js, newline="\n")
 
     cnx = get_cnx()
 
