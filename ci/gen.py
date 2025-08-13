@@ -31,8 +31,21 @@ def gen_dependabot():
     gen(content, target)
 
 
+def gen_package_json():
+    target = "package.json"
+    content = {
+        "name": "ocremix-data",
+        "version": "1.0.0",
+        "license": "UNLICENSED",
+        "private": True,
+        "dependencies": {"swagger-ui-dist": "5.11.0"},
+    }
+    gen(content, target)
+
+
 def main():
     gen_dependabot()
+    gen_package_json()
 
 
 if __name__ == "__main__":
