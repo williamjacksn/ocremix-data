@@ -134,6 +134,41 @@ def gen_publish_workflow():
     gen(content, target)
 
 
+def gen_ruff_workflow():
+    target = ".github/workflows/ruff.yaml"
+    content = {
+        "env": {
+            "description": f"This workflow ({target}) was generated from {THIS_FILE}"
+        },
+        "name": "Ruff",
+        "on": {
+            "pull_request": {"branches": ["main"]},
+            "push": {"branches": ["main"]},
+        },
+        "permissions": {"contents": "read"},
+        "jobs": {
+            "ruff": {
+                "name": "Run ruff linting and formatting checks",
+                "runs-on": "ubuntu-latest",
+                "steps": [
+                    ACTIONS_CHECKOUT,
+                    {
+                        "name": "Run ruff check",
+                        "uses": "astral-sh/ruff-action@v3",
+                        "with": {"args": "check --output-format=github"},
+                    },
+                    {
+                        "name": "Run ruff format",
+                        "uses": "astral-sh/ruff-action@v3",
+                        "with": {"args": "format --check"},
+                    },
+                ],
+            }
+        },
+    }
+    gen(content, target)
+
+
 def gen_update_workflow():
     target = ".github/workflows/update.yaml"
     content = {
@@ -186,6 +221,7 @@ def main():
     gen_import_workflow()
     gen_package_json()
     gen_publish_workflow()
+    gen_ruff_workflow()
     gen_update_workflow()
 
 
