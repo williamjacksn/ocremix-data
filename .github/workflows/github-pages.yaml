@@ -26,14 +26,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Install uv
-        run: sh ci/install-uv.sh
-
       - name: Build pages content
         run: sh ci/build-pages.sh
-
-      - name: Generate OpenAPI spec
-        run: sh ci/gen-openapi-spec.sh
 
       - name: Configure Pages
         uses: actions/configure-pages@v5
