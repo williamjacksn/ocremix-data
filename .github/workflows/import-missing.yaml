@@ -1,37 +1,50 @@
-name: Import missing ReMix info
-
-on:
-  schedule:
-    - cron: '0 0 * * *'
-  workflow_dispatch:
-
-permissions:
-  actions: write
-  contents: write
-
-jobs:
-  import-missing:
-    name: Import missing ReMix info
-    runs-on: ubuntu-latest
-    steps:
-
-      - name: Check out
-        uses: actions/checkout@v4
-
-      - name: Install uv
-        run: sh ci/install-uv.sh
-
-      - name: Import missing ReMix info
-        run: sh ci/import-missing.sh
-
-      - name: Commit and push if changes
-        id: commit
-        run: sh ci/commit-and-push.sh
-        env:
-          COMMIT_MESSAGE: Import missing ReMix info
-
-      - name: Dispatch workflow to build pages
-        if: steps.commit.outputs.pushed == 'true'
-        run: gh workflow run github-pages.yaml
-        env:
-          GH_TOKEN: ${{ github.token }}
+{
+  "env": {
+    "description": "This workflow (.github/workflows/import-missing.yaml) was generated from ci/gen.py"
+  },
+  "jobs": {
+    "import-missing": {
+      "name": "Import missing ReMix info",
+      "permissions": {
+        "actions": "write",
+        "contents": "write"
+      },
+      "runs-on": "ubuntu-latest",
+      "steps": [
+        {
+          "name": "Check out repository",
+          "uses": "actions/checkout@v5"
+        },
+        {
+          "name": "Import missing ReMix info",
+          "run": "sh ci/import-missing.sh"
+        },
+        {
+          "env": {
+            "COMMIT_MESSAGE": "Import missing ReMix info"
+          },
+          "id": "commit",
+          "name": "Commit and push if changes",
+          "run": "sh ci/commit-and-push.sh"
+        },
+        {
+          "env": {
+            "GH_TOKEN": "${{ github.token }}"
+          },
+          "if": "steps.commit.outputs.pushed == 'true'",
+          "name": "Dispatch workflow to build pages",
+          "run": "gh workflow run github-pages.yaml"
+        }
+      ]
+    }
+  },
+  "name": "Import missing ReMix info",
+  "on": {
+    "schedule": [
+      {
+        "cron": "0 0 * * *"
+      }
+    ],
+    "workflow_dispatch": {}
+  }
+}

@@ -5,6 +5,21 @@ THIS_FILE = pathlib.PurePosixPath(
     pathlib.Path(__file__).relative_to(pathlib.Path().resolve())
 )
 ACTIONS_CHECKOUT = {"name": "Check out repository", "uses": "actions/checkout@v5"}
+DISPATCH_BUILD_STEP = {
+    "name": "Dispatch workflow to build pages",
+    "if": "steps.commit.outputs.pushed == 'true'",
+    "run": "gh workflow run github-pages.yaml",
+    "env": {"GH_TOKEN": "${{ github.token }}"},
+}
+
+
+def _commit_and_push_step(commit_message: str) -> dict:
+    return {
+        "name": "Commit and push if changes",
+        "id": "commit",
+        "run": "sh ci/commit-and-push.sh",
+        "env": {"COMMIT_MESSAGE": commit_message},
+    }
 
 
 def gen(content: dict, target: str):
@@ -27,6 +42,34 @@ def gen_dependabot():
             }
             for e in ["github-actions", "npm", "uv"]
         ],
+    }
+    gen(content, target)
+
+
+def gen_import_workflow():
+    target = ".github/workflows/import-missing.yaml"
+    content = {
+        "env": {
+            "description": f"This workflow ({target}) was generated from {THIS_FILE}"
+        },
+        "name": "Import missing ReMix info",
+        "on": {"schedule": [{"cron": "0 0 * * *"}], "workflow_dispatch": {}},
+        "jobs": {
+            "import-missing": {
+                "name": "Import missing ReMix info",
+                "runs-on": "ubuntu-latest",
+                "permissions": {"actions": "write", "contents": "write"},
+                "steps": [
+                    ACTIONS_CHECKOUT,
+                    {
+                        "name": "Import missing ReMix info",
+                        "run": "sh ci/import-missing.sh",
+                    },
+                    _commit_and_push_step("Import missing ReMix info"),
+                    DISPATCH_BUILD_STEP,
+                ],
+            }
+        },
     }
     gen(content, target)
 
@@ -91,6 +134,7 @@ def gen_publish_workflow():
 
 def main():
     gen_dependabot()
+    gen_import_workflow()
     gen_package_json()
     gen_publish_workflow()
 
