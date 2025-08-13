@@ -2,16 +2,55 @@ import argparse
 import collections
 import concurrent.futures
 import datetime
+import htpy
 import json
 import lxml.etree
 import lxml.html
 import pathlib
 import sqlite3
+import textwrap
 import urllib.error
 import urllib.request
 
 
 def cli_build_pages(args: argparse.Namespace):
+    index_html = htpy.html(lang="en")[
+        htpy.head[
+            htpy.title["OverClocked ReMix Data"],
+            htpy.link(
+                href="https://unpkg.com/swagger-ui-dist@5.11.0/swagger-ui.css",
+                rel="stylesheet",
+            ),
+        ],
+        htpy.body[
+            htpy.div("#swagger-ui"),
+            htpy.script(
+                crossorigin="anonymous",
+                src="https://unpkg.com/swagger-ui-dist@5.11.0/swagger-ui-bundle.js",
+            ),
+            htpy.script(src="index.js"),
+        ],
+    ]
+    target = args.directory / "index.html"
+    target.parent.mkdir(parents=True, exist_ok=True)
+    with target.open("w") as f:
+        print(f"writing to {target}")
+        f.write(str(index_html))
+
+    index_js = textwrap.dedent("""\
+        window.onload = () => {
+            window.ui = SwaggerUIBundle({
+                url: "ocremix-data.openapi.json",
+                dom_id: "#swagger-ui"
+            });
+        };
+    """)
+    target = args.directory / "index.js"
+    target.parent.mkdir(parents=True, exist_ok=True)
+    with target.open("w") as f:
+        print(f"writing to {target}")
+        f.write(index_js)
+
     cnx = get_cnx()
 
     for ocr_id in get_remix_ids(cnx):
