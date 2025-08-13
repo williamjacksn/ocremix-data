@@ -27,6 +27,8 @@ jobs:
       - name: Commit and push if changes
         id: commit
         run: sh ci/commit-and-push.sh
+        env:
+          COMMIT_MESSAGE: Import missing ReMix info
 
       - name: Dispatch workflow to build pages
         if: steps.commit.outputs.pushed == 'true'
