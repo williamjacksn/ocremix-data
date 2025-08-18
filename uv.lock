@@ -4,14 +4,14 @@ requires-python = ">=3.13"
 
 [[package]]
 name = "htpy"
-version = "25.8.0"
+version = "25.8.1"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "markupsafe" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/91/70/103c0944259911c36bc5f50c39a55326987e763c0ffcb7fdc5f88e90dd7a/htpy-25.8.0.tar.gz", hash = "sha256:e6b2336e8274138ad75b5fa887c97641cdc2575b00e3991dff9171c46c940c41", size = 287567, upload-time = "2025-08-05T12:23:29.511Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/45/bc/58f4b835e1ffec9441aa92f97d3ce38148fff7e46507e05f2436098db6dc/htpy-25.8.1.tar.gz", hash = "sha256:ba4ac83307cbcbf5cb2b08111f75bb978693ede1624bac75da01208882b3c48d", size = 287611, upload-time = "2025-08-15T11:34:23.732Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/bc/cc/251b596979f0362d7127af47ae2ee740372731dba00c9f1185baa8f1c4e0/htpy-25.8.0-py3-none-any.whl", hash = "sha256:e82f94e60938fb2bc82c570d4fbd3d7ca278f1662b28800c2f11c4aa8baed257", size = 18834, upload-time = "2025-08-05T12:23:27.496Z" },
+    { url = "https://files.pythonhosted.org/packages/f2/27/67b73c2399e1f9a27d4fa8ed6f0506302b927afc5e9c4d0e2c27ceeb0520/htpy-25.8.1-py3-none-any.whl", hash = "sha256:184dc98cb39e1157fcc66ce930e5dad222955b2d97c33612277a79d7b5d8ded3", size = 18945, upload-time = "2025-08-15T11:34:22.07Z" },
 ]
 
 [[package]]
