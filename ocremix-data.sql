@@ -7400,6 +7400,9 @@ INSERT INTO "remix" VALUES(4866,'Dragonborn Symphony, Movement 2','The Elder Scr
 INSERT INTO "remix" VALUES(4867,'Despair, Down at the Docks...','Super Mario 64','2025-08-06T11:42:02.317006+00:00','https://www.youtube.com/watch?v=RXZfrzhZSrY',59,'https://ocrmirror.org/files/music/remixes/Super_Mario_64_Despair_Down_at_the_Docks_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4868,'Kremland''s Stupid Happy Boat Ride (Komplete Ride Through Mix)','Donkey Kong Country 2: Diddy''s Kong Quest','2025-08-02T01:08:15.984257+00:00','https://www.youtube.com/watch?v=8hzAsFu8u7w',48,'https://ocrmirror.org/files/music/remixes/Donkey_Kong_Country_2_Kremland''s_Stupid_Happy_Boat_Ride_(Komplete_Ride_Through_Mix)_OC_ReMix.mp3',1);
 INSERT INTO "remix" VALUES(4869,'Fiama de Vampiri','Darkstalkers: The Night Warriors','2025-08-03T01:17:44.711267+00:00','https://www.youtube.com/watch?v=zFCc8xpufH8',28135,'https://ocrmirror.org/files/music/remixes/Darkstalkers_Fiama_de_Vampiri_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4870,'The Madness of Luca Blight','Suikoden II','2025-08-21T01:01:08.889013+00:00','https://www.youtube.com/watch?v=EK-dDyBFPH0',245,'https://ocrmirror.org/files/music/remixes/Suikoden_2_The_Madness_of_Luca_Blight_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4871,'Aurum Borealis','Kid Icarus: Uprising','2025-08-21T01:01:09.477047+00:00','https://www.youtube.com/watch?v=G1VftpwXowc',94601,'https://ocrmirror.org/files/music/remixes/Kid_Icarus_Uprising_Aurum_Borealis_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4872,'Up and Away','The Legend of Zelda: The Wind Waker','2025-08-21T01:01:10.082175+00:00','https://www.youtube.com/watch?v=rVbV3-Kz4Tw',377,'https://ocrmirror.org/files/music/remixes/Legend_of_Zelda_The_Wind_Waker_Up_and_Away_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13747,6 +13750,15 @@ INSERT INTO "remix_artist" VALUES(4868,18601,1);
 INSERT INTO "remix_artist" VALUES(4868,18712,1);
 INSERT INTO "remix_artist" VALUES(4869,18926,1);
 INSERT INTO "remix_artist" VALUES(4869,18710,1);
+INSERT INTO "remix_artist" VALUES(4870,18632,1);
+INSERT INTO "remix_artist" VALUES(4871,13500,1);
+INSERT INTO "remix_artist" VALUES(4871,18738,1);
+INSERT INTO "remix_artist" VALUES(4871,18633,1);
+INSERT INTO "remix_artist" VALUES(4871,18655,1);
+INSERT INTO "remix_artist" VALUES(4872,14375,1);
+INSERT INTO "remix_artist" VALUES(4872,16615,1);
+INSERT INTO "remix_artist" VALUES(4872,16937,1);
+INSERT INTO "remix_artist" VALUES(4872,18590,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -45163,6 +45175,41 @@ INSERT INTO "remix_tag" VALUES(4869,'collab',1);
 INSERT INTO "remix_tag" VALUES(4869,'timesig-4-4',1);
 INSERT INTO "remix_tag" VALUES(3808,'lang-latin',1);
 INSERT INTO "remix_tag" VALUES(4433,'lang-latin',1);
+INSERT INTO "remix_tag" VALUES(4870,'dnb',1);
+INSERT INTO "remix_tag" VALUES(4870,'electronic',1);
+INSERT INTO "remix_tag" VALUES(4870,'synth',1);
+INSERT INTO "remix_tag" VALUES(4870,'dark',1);
+INSERT INTO "remix_tag" VALUES(4870,'energetic',1);
+INSERT INTO "remix_tag" VALUES(4870,'trippy',1);
+INSERT INTO "remix_tag" VALUES(4870,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4870,'timesig-irregular',1);
+INSERT INTO "remix_tag" VALUES(4870,'timesig-variable',1);
+INSERT INTO "remix_tag" VALUES(4871,'prog-rock',1);
+INSERT INTO "remix_tag" VALUES(4871,'electric-guitar',1);
+INSERT INTO "remix_tag" VALUES(4871,'piano',1);
+INSERT INTO "remix_tag" VALUES(4871,'saxophone',1);
+INSERT INTO "remix_tag" VALUES(4871,'synth',1);
+INSERT INTO "remix_tag" VALUES(4871,'trumpet',1);
+INSERT INTO "remix_tag" VALUES(4871,'energetic',1);
+INSERT INTO "remix_tag" VALUES(4871,'funky',1);
+INSERT INTO "remix_tag" VALUES(4871,'collab',1);
+INSERT INTO "remix_tag" VALUES(4871,'compo-dod',1);
+INSERT INTO "remix_tag" VALUES(4871,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4871,'timesig-7-8',1);
+INSERT INTO "remix_tag" VALUES(4871,'timesig-variable',1);
+INSERT INTO "remix_tag" VALUES(4872,'cinematic',1);
+INSERT INTO "remix_tag" VALUES(4872,'choir',1);
+INSERT INTO "remix_tag" VALUES(4872,'clarinet',1);
+INSERT INTO "remix_tag" VALUES(4872,'flute',1);
+INSERT INTO "remix_tag" VALUES(4872,'hand-drums',1);
+INSERT INTO "remix_tag" VALUES(4872,'oboe',1);
+INSERT INTO "remix_tag" VALUES(4872,'orchestral',1);
+INSERT INTO "remix_tag" VALUES(4872,'strings',1);
+INSERT INTO "remix_tag" VALUES(4872,'woodwinds',1);
+INSERT INTO "remix_tag" VALUES(4872,'mystical',1);
+INSERT INTO "remix_tag" VALUES(4872,'peaceful',1);
+INSERT INTO "remix_tag" VALUES(4872,'collab',1);
+INSERT INTO "remix_tag" VALUES(4872,'medley',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
