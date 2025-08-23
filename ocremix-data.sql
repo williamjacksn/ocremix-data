@@ -7403,6 +7403,7 @@ INSERT INTO "remix" VALUES(4869,'Fiama de Vampiri','Darkstalkers: The Night Warr
 INSERT INTO "remix" VALUES(4870,'The Madness of Luca Blight','Suikoden II','2025-08-21T01:01:08.889013+00:00','https://www.youtube.com/watch?v=EK-dDyBFPH0',245,'https://ocrmirror.org/files/music/remixes/Suikoden_2_The_Madness_of_Luca_Blight_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4871,'Aurum Borealis','Kid Icarus: Uprising','2025-08-21T01:01:09.477047+00:00','https://www.youtube.com/watch?v=G1VftpwXowc',94601,'https://ocrmirror.org/files/music/remixes/Kid_Icarus_Uprising_Aurum_Borealis_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4872,'Up and Away','The Legend of Zelda: The Wind Waker','2025-08-21T01:01:10.082175+00:00','https://www.youtube.com/watch?v=rVbV3-Kz4Tw',377,'https://ocrmirror.org/files/music/remixes/Legend_of_Zelda_The_Wind_Waker_Up_and_Away_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4873,'The Kabuki Warrior Kicks Back','Mystical Ninja Starring Goemon','2025-08-23T00:59:34.538228+00:00','https://www.youtube.com/watch?v=VQxi_dFd1yI',3039,'https://ocrmirror.org/files/music/remixes/Mystical_Ninja_Starring_Goemon_The_Kabuki_Warrior_Kicks_Back_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13759,6 +13760,7 @@ INSERT INTO "remix_artist" VALUES(4872,14375,1);
 INSERT INTO "remix_artist" VALUES(4872,16615,1);
 INSERT INTO "remix_artist" VALUES(4872,16937,1);
 INSERT INTO "remix_artist" VALUES(4872,18590,1);
+INSERT INTO "remix_artist" VALUES(4873,13147,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -45210,6 +45212,7 @@ INSERT INTO "remix_tag" VALUES(4872,'mystical',1);
 INSERT INTO "remix_tag" VALUES(4872,'peaceful',1);
 INSERT INTO "remix_tag" VALUES(4872,'collab',1);
 INSERT INTO "remix_tag" VALUES(4872,'medley',1);
+INSERT INTO "remix_tag" VALUES(4873,'timesig-variable',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
