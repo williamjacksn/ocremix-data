@@ -7404,6 +7404,8 @@ INSERT INTO "remix" VALUES(4870,'The Madness of Luca Blight','Suikoden II','2025
 INSERT INTO "remix" VALUES(4871,'Aurum Borealis','Kid Icarus: Uprising','2025-08-21T01:01:09.477047+00:00','https://www.youtube.com/watch?v=G1VftpwXowc',94601,'https://ocrmirror.org/files/music/remixes/Kid_Icarus_Uprising_Aurum_Borealis_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4872,'Up and Away','The Legend of Zelda: The Wind Waker','2025-08-21T01:01:10.082175+00:00','https://www.youtube.com/watch?v=rVbV3-Kz4Tw',377,'https://ocrmirror.org/files/music/remixes/Legend_of_Zelda_The_Wind_Waker_Up_and_Away_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4873,'The Kabuki Warrior Kicks Back','Mystical Ninja Starring Goemon','2025-08-23T00:59:34.538228+00:00','https://www.youtube.com/watch?v=VQxi_dFd1yI',3039,'https://ocrmirror.org/files/music/remixes/Mystical_Ninja_Starring_Goemon_The_Kabuki_Warrior_Kicks_Back_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4874,'The Leaflands (Reflections Version)','Octopath Traveler II','2025-08-24T01:08:45.033584+00:00','https://www.youtube.com/watch?v=Y_AijmpfEqc',95861,'https://ocrmirror.org/files/music/remixes/Octopath_Traveler_2_The_Leaflands_(Reflections_Version)_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4875,'Eternal Summers of the Spotless Mind','EarthBound','2025-08-24T01:08:45.915594+00:00','https://www.youtube.com/watch?v=Nk92MMhbiOo',51,'https://ocrmirror.org/files/music/remixes/EarthBound_Eternal_Summers_of_the_Spotless_Mind_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13761,6 +13763,10 @@ INSERT INTO "remix_artist" VALUES(4872,16615,1);
 INSERT INTO "remix_artist" VALUES(4872,16937,1);
 INSERT INTO "remix_artist" VALUES(4872,18590,1);
 INSERT INTO "remix_artist" VALUES(4873,13147,1);
+INSERT INTO "remix_artist" VALUES(4874,4280,1);
+INSERT INTO "remix_artist" VALUES(4875,10690,1);
+INSERT INTO "remix_artist" VALUES(4875,18662,1);
+INSERT INTO "remix_artist" VALUES(4875,17937,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -45213,6 +45219,19 @@ INSERT INTO "remix_tag" VALUES(4872,'peaceful',1);
 INSERT INTO "remix_tag" VALUES(4872,'collab',1);
 INSERT INTO "remix_tag" VALUES(4872,'medley',1);
 INSERT INTO "remix_tag" VALUES(4873,'timesig-variable',1);
+INSERT INTO "remix_tag" VALUES(4874,'chamber',1);
+INSERT INTO "remix_tag" VALUES(4874,'piano',1);
+INSERT INTO "remix_tag" VALUES(4874,'solo-piano',1);
+INSERT INTO "remix_tag" VALUES(4874,'happy',1);
+INSERT INTO "remix_tag" VALUES(4874,'solo',1);
+INSERT INTO "remix_tag" VALUES(4874,'timesig-6-8',1);
+INSERT INTO "remix_tag" VALUES(4875,'trip-hop',1);
+INSERT INTO "remix_tag" VALUES(4875,'electronic',1);
+INSERT INTO "remix_tag" VALUES(4875,'synth',1);
+INSERT INTO "remix_tag" VALUES(4875,'chill',1);
+INSERT INTO "remix_tag" VALUES(4875,'trippy',1);
+INSERT INTO "remix_tag" VALUES(4875,'collab',1);
+INSERT INTO "remix_tag" VALUES(4875,'timesig-4-4',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
