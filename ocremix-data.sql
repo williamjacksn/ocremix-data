@@ -7406,6 +7406,7 @@ INSERT INTO "remix" VALUES(4872,'Up and Away','The Legend of Zelda: The Wind Wak
 INSERT INTO "remix" VALUES(4873,'The Kabuki Warrior Kicks Back','Mystical Ninja Starring Goemon','2025-08-23T00:59:34.538228+00:00','https://www.youtube.com/watch?v=VQxi_dFd1yI',3039,'https://ocrmirror.org/files/music/remixes/Mystical_Ninja_Starring_Goemon_The_Kabuki_Warrior_Kicks_Back_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4874,'The Leaflands (Reflections Version)','Octopath Traveler II','2025-08-24T01:08:45.033584+00:00','https://www.youtube.com/watch?v=Y_AijmpfEqc',95861,'https://ocrmirror.org/files/music/remixes/Octopath_Traveler_2_The_Leaflands_(Reflections_Version)_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4875,'Eternal Summers of the Spotless Mind','EarthBound','2025-08-24T01:08:45.915594+00:00','https://www.youtube.com/watch?v=Nk92MMhbiOo',51,'https://ocrmirror.org/files/music/remixes/EarthBound_Eternal_Summers_of_the_Spotless_Mind_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4876,'Ceremony at Terra','Final Fantasy IX','2025-08-26T01:02:49.212661+00:00','https://www.youtube.com/watch?v=kTgfNfo0GiA',14,'https://ocrmirror.org/files/music/remixes/Final_Fantasy_9_Ceremony_at_Terra_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13767,6 +13768,7 @@ INSERT INTO "remix_artist" VALUES(4874,4280,1);
 INSERT INTO "remix_artist" VALUES(4875,10690,1);
 INSERT INTO "remix_artist" VALUES(4875,18662,1);
 INSERT INTO "remix_artist" VALUES(4875,17937,1);
+INSERT INTO "remix_artist" VALUES(4876,13668,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -45232,6 +45234,9 @@ INSERT INTO "remix_tag" VALUES(4875,'chill',1);
 INSERT INTO "remix_tag" VALUES(4875,'trippy',1);
 INSERT INTO "remix_tag" VALUES(4875,'collab',1);
 INSERT INTO "remix_tag" VALUES(4875,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4876,'piano',1);
+INSERT INTO "remix_tag" VALUES(4876,'solo-piano',1);
+INSERT INTO "remix_tag" VALUES(4876,'solo',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
