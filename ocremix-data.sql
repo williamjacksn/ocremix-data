@@ -7413,6 +7413,8 @@ INSERT INTO "remix" VALUES(4878,'Inimical Planets','Metroid','2025-08-28T01:00:0
 INSERT INTO "remix" VALUES(4879,'A Stroll Down Memory Lane','Okami','2025-08-29T01:00:09.531519+00:00','https://www.youtube.com/watch?v=H0BH55s_nwk',537,'https://ocrmirror.org/files/music/remixes/Okami_A_Stroll_Down_Memory_Lane_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4880,'Who Needs Allies When You Have a Demon Sword?','Bloodstained: Curse of the Moon','2025-08-31T01:04:19.866756+00:00','https://www.youtube.com/watch?v=zUX7Ur00gI8',95896,'https://ocrmirror.org/files/music/remixes/Bloodstained_Curse_of_the_Moon_Who_Needs_Allies_When_You_Have_a_Demon_Sword_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4881,'The Snake Eater''s Palace, Outer Heaven (VGM CON 2025 Live Version)','Metal Gear Solid 3: Snake Eater','2025-08-31T01:04:20.591103+00:00','https://www.youtube.com/watch?v=_dy6W-DGzsI',481,'https://ocrmirror.org/files/music/remixes/Metal_Gear_Solid_3_The_Snake_Eater''s_Palace_Outer_Heaven_(VGM_CON_2025_Live_Version)_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4882,'Like Stars in the Ceiling','Super Mario World 2: Yoshi''s Island','2025-09-01T01:10:55.384750+00:00','https://www.youtube.com/watch?v=Iv3C299Y2n0',71,'https://ocrmirror.org/files/music/remixes/Super_Mario_World_2_Yoshi''s_Island_Like_Stars_in_the_Ceiling_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4883,'Nest of Dreams','The Legend of Zelda: Breath of the Wild','2025-09-01T01:10:56.140111+00:00','https://www.youtube.com/watch?v=z4tEijx_tUs',95359,'https://ocrmirror.org/files/music/remixes/Legend_of_Zelda_Breath_of_the_Wild_Nest_of_Dreams_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13784,6 +13786,11 @@ INSERT INTO "remix_artist" VALUES(4880,17473,1);
 INSERT INTO "remix_artist" VALUES(4881,15612,1);
 INSERT INTO "remix_artist" VALUES(4881,18864,1);
 INSERT INTO "remix_artist" VALUES(4881,18821,1);
+INSERT INTO "remix_artist" VALUES(4882,18941,1);
+INSERT INTO "remix_artist" VALUES(4883,14375,1);
+INSERT INTO "remix_artist" VALUES(4883,16615,1);
+INSERT INTO "remix_artist" VALUES(4883,16937,1);
+INSERT INTO "remix_artist" VALUES(4883,18590,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -45281,6 +45288,28 @@ INSERT INTO "remix_tag" VALUES(4881,'collab',1);
 INSERT INTO "remix_tag" VALUES(4881,'live-instruments',1);
 INSERT INTO "remix_tag" VALUES(4881,'live-recording',1);
 INSERT INTO "remix_tag" VALUES(4881,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4882,'dance',1);
+INSERT INTO "remix_tag" VALUES(4882,'experimental',1);
+INSERT INTO "remix_tag" VALUES(4882,'bells',1);
+INSERT INTO "remix_tag" VALUES(4882,'electronic',1);
+INSERT INTO "remix_tag" VALUES(4882,'synth',1);
+INSERT INTO "remix_tag" VALUES(4882,'dark',1);
+INSERT INTO "remix_tag" VALUES(4882,'energetic',1);
+INSERT INTO "remix_tag" VALUES(4882,'minimalist',1);
+INSERT INTO "remix_tag" VALUES(4882,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4883,'cinematic',1);
+INSERT INTO "remix_tag" VALUES(4883,'choir',1);
+INSERT INTO "remix_tag" VALUES(4883,'clarinet',1);
+INSERT INTO "remix_tag" VALUES(4883,'flute',1);
+INSERT INTO "remix_tag" VALUES(4883,'hand-drums',1);
+INSERT INTO "remix_tag" VALUES(4883,'oboe',1);
+INSERT INTO "remix_tag" VALUES(4883,'orchestral',1);
+INSERT INTO "remix_tag" VALUES(4883,'strings',1);
+INSERT INTO "remix_tag" VALUES(4883,'woodwinds',1);
+INSERT INTO "remix_tag" VALUES(4883,'mystical',1);
+INSERT INTO "remix_tag" VALUES(4883,'peaceful',1);
+INSERT INTO "remix_tag" VALUES(4883,'collab',1);
+INSERT INTO "remix_tag" VALUES(4883,'medley',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
