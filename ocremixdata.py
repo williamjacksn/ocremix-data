@@ -2,15 +2,16 @@ import argparse
 import collections
 import concurrent.futures
 import datetime
-import htpy
 import json
-import lxml.etree
-import lxml.html
 import pathlib
 import sqlite3
 import textwrap
 import urllib.error
 import urllib.request
+
+import htpy
+import lxml.etree
+import lxml.html
 
 
 def _swagger_ui_version() -> str:
