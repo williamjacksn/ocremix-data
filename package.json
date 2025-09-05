@@ -2,6 +2,7 @@
   "dependencies": {
     "swagger-ui-dist": "5.28.0"
   },
+  "description": "This file (package.json) was generated from ci/gen.py",
   "license": "UNLICENSED",
   "name": "ocremix-data",
   "private": true,

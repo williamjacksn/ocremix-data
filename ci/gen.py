@@ -79,6 +79,7 @@ def gen_import_workflow():
 def gen_package_json():
     target = "package.json"
     content = {
+        "description": f"This file ({target}) was generated from {THIS_FILE}",
         "name": "ocremix-data",
         "version": "1.0.0",
         "license": "UNLICENSED",
