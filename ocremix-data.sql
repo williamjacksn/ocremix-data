@@ -7416,6 +7416,7 @@ INSERT INTO "remix" VALUES(4881,'The Snake Eater''s Palace, Outer Heaven (VGM CO
 INSERT INTO "remix" VALUES(4882,'Like Stars in the Ceiling','Super Mario World 2: Yoshi''s Island','2025-09-01T01:10:55.384750+00:00','https://www.youtube.com/watch?v=Iv3C299Y2n0',71,'https://ocrmirror.org/files/music/remixes/Super_Mario_World_2_Yoshi''s_Island_Like_Stars_in_the_Ceiling_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4883,'Nest of Dreams','The Legend of Zelda: Breath of the Wild','2025-09-01T01:10:56.140111+00:00','https://www.youtube.com/watch?v=z4tEijx_tUs',95359,'https://ocrmirror.org/files/music/remixes/Legend_of_Zelda_Breath_of_the_Wild_Nest_of_Dreams_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4884,'A Dream','Hollow Knight','2025-09-06T00:57:18.954203+00:00','https://www.youtube.com/watch?v=Hzwog2S6PVA',95554,'https://ocrmirror.org/files/music/remixes/Hollow_Knight_A_Dream_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4885,'Valoo''s Big Gay Dance','The Legend of Zelda: The Wind Waker','2025-09-07T01:03:20.639043+00:00','https://www.youtube.com/watch?v=U2r9cDVqu_U',377,'https://ocrmirror.org/files/music/remixes/Legend_of_Zelda_The_Wind_Waker_Valoo''s_Big_Gay_Dance_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13794,6 +13795,7 @@ INSERT INTO "remix_artist" VALUES(4883,16937,1);
 INSERT INTO "remix_artist" VALUES(4883,18590,1);
 INSERT INTO "remix_artist" VALUES(4884,11940,1);
 INSERT INTO "remix_artist" VALUES(4884,16845,1);
+INSERT INTO "remix_artist" VALUES(4885,18606,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -45309,6 +45311,12 @@ INSERT INTO "remix_tag" VALUES(4884,'glitching',1);
 INSERT INTO "remix_tag" VALUES(4884,'live-instruments',1);
 INSERT INTO "remix_tag" VALUES(4884,'lo-fi',1);
 INSERT INTO "remix_tag" VALUES(4884,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4885,'edm',1);
+INSERT INTO "remix_tag" VALUES(4885,'experimental',1);
+INSERT INTO "remix_tag" VALUES(4885,'electronic',1);
+INSERT INTO "remix_tag" VALUES(4885,'synth',1);
+INSERT INTO "remix_tag" VALUES(4885,'energetic',1);
+INSERT INTO "remix_tag" VALUES(4885,'timesig-6-8',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
