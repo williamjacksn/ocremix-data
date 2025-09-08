@@ -1606,6 +1606,7 @@ INSERT INTO "artist" VALUES(18963,'Fataloror','https://ocremix.org/artist/18963/
 INSERT INTO "artist" VALUES(18964,'Triple B Music','https://ocremix.org/artist/18964/triple-b-music');
 INSERT INTO "artist" VALUES(18966,'Dylan William van de Wal','https://ocremix.org/artist/18966/dylan-william-van-de-wal');
 INSERT INTO "artist" VALUES(18967,'David Lallande','https://ocremix.org/artist/18967/david-lallande');
+INSERT INTO "artist" VALUES(18989,'The Key Combo','https://ocremix.org/artist/18989/the-key-combo');
 CREATE TABLE game (
     id integer primary key,
     name text not null,
@@ -7417,6 +7418,7 @@ INSERT INTO "remix" VALUES(4882,'Like Stars in the Ceiling','Super Mario World 2
 INSERT INTO "remix" VALUES(4883,'Nest of Dreams','The Legend of Zelda: Breath of the Wild','2025-09-01T01:10:56.140111+00:00','https://www.youtube.com/watch?v=z4tEijx_tUs',95359,'https://ocrmirror.org/files/music/remixes/Legend_of_Zelda_Breath_of_the_Wild_Nest_of_Dreams_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4884,'A Dream','Hollow Knight','2025-09-06T00:57:18.954203+00:00','https://www.youtube.com/watch?v=Hzwog2S6PVA',95554,'https://ocrmirror.org/files/music/remixes/Hollow_Knight_A_Dream_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4885,'Valoo''s Big Gay Dance','The Legend of Zelda: The Wind Waker','2025-09-07T01:03:20.639043+00:00','https://www.youtube.com/watch?v=U2r9cDVqu_U',377,'https://ocrmirror.org/files/music/remixes/Legend_of_Zelda_The_Wind_Waker_Valoo''s_Big_Gay_Dance_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4886,'I Can''t Be Your Ray of Hope','Final Fantasy VI','2025-09-08T01:02:13.701466+00:00','https://www.youtube.com/watch?v=XkC_dFrP2qI',6,'https://ocrmirror.org/files/music/remixes/Final_Fantasy_6_I_Can''t_Be_Your_Ray_of_Hope_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13796,6 +13798,7 @@ INSERT INTO "remix_artist" VALUES(4883,18590,1);
 INSERT INTO "remix_artist" VALUES(4884,11940,1);
 INSERT INTO "remix_artist" VALUES(4884,16845,1);
 INSERT INTO "remix_artist" VALUES(4885,18606,1);
+INSERT INTO "remix_artist" VALUES(4886,18989,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -45317,6 +45320,18 @@ INSERT INTO "remix_tag" VALUES(4885,'electronic',1);
 INSERT INTO "remix_tag" VALUES(4885,'synth',1);
 INSERT INTO "remix_tag" VALUES(4885,'energetic',1);
 INSERT INTO "remix_tag" VALUES(4885,'timesig-6-8',1);
+INSERT INTO "remix_tag" VALUES(4886,'jazz',1);
+INSERT INTO "remix_tag" VALUES(4886,'piano',1);
+INSERT INTO "remix_tag" VALUES(4886,'saxophone',1);
+INSERT INTO "remix_tag" VALUES(4886,'chill',1);
+INSERT INTO "remix_tag" VALUES(4886,'dark',1);
+INSERT INTO "remix_tag" VALUES(4886,'jazzy',1);
+INSERT INTO "remix_tag" VALUES(4886,'mellow',1);
+INSERT INTO "remix_tag" VALUES(4886,'collab',1);
+INSERT INTO "remix_tag" VALUES(4886,'extended-soloing',1);
+INSERT INTO "remix_tag" VALUES(4886,'live-instruments',1);
+INSERT INTO "remix_tag" VALUES(4886,'medley',1);
+INSERT INTO "remix_tag" VALUES(4886,'timesig-4-4',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
