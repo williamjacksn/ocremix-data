@@ -1608,6 +1608,7 @@ INSERT INTO "artist" VALUES(18965,'Linnea Burr','https://ocremix.org/artist/1896
 INSERT INTO "artist" VALUES(18966,'Dylan William van de Wal','https://ocremix.org/artist/18966/dylan-william-van-de-wal');
 INSERT INTO "artist" VALUES(18967,'David Lallande','https://ocremix.org/artist/18967/david-lallande');
 INSERT INTO "artist" VALUES(18989,'The Key Combo','https://ocremix.org/artist/18989/the-key-combo');
+INSERT INTO "artist" VALUES(19000,'The Crazy 8ths','https://ocremix.org/artist/19000/the-crazy-8ths');
 CREATE TABLE game (
     id integer primary key,
     name text not null,
@@ -7421,6 +7422,8 @@ INSERT INTO "remix" VALUES(4884,'A Dream','Hollow Knight','2025-09-06T00:57:18.9
 INSERT INTO "remix" VALUES(4885,'Valoo''s Big Gay Dance','The Legend of Zelda: The Wind Waker','2025-09-07T01:03:20.639043+00:00','https://www.youtube.com/watch?v=U2r9cDVqu_U',377,'https://ocrmirror.org/files/music/remixes/Legend_of_Zelda_The_Wind_Waker_Valoo''s_Big_Gay_Dance_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4886,'I Can''t Be Your Ray of Hope','Final Fantasy VI','2025-09-08T01:02:13.701466+00:00','https://www.youtube.com/watch?v=XkC_dFrP2qI',6,'https://ocrmirror.org/files/music/remixes/Final_Fantasy_6_I_Can''t_Be_Your_Ray_of_Hope_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4887,'Plus Musici, Plus Victoriae','Final Fantasy VII','2025-09-09T00:59:50.293852+00:00','https://www.youtube.com/watch?v=Jb65_V8dbcQ',7,'https://ocrmirror.org/files/music/remixes/Final_Fantasy_7_Plus_Musici_Plus_Victoriae_OC_ReMix.mp3',1);
+INSERT INTO "remix" VALUES(4888,'Death''s Last Dance','Shin Megami Tensei: Persona 3','2025-09-10T00:58:08.676580+00:00','https://www.youtube.com/watch?v=T6Ha0qkI_iE',736,'https://ocrmirror.org/files/music/remixes/Shin_Megami_Tensei_Persona_3_Death''s_Last_Dance_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4889,'Dearly Departing','Final Fantasy VI','2025-09-10T00:58:09.405501+00:00','https://www.youtube.com/watch?v=xV1FXiwKZQM',6,'https://ocrmirror.org/files/music/remixes/Final_Fantasy_6_Dearly_Departing_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13826,6 +13829,8 @@ INSERT INTO "remix_artist" VALUES(4887,17322,1);
 INSERT INTO "remix_artist" VALUES(4887,16848,1);
 INSERT INTO "remix_artist" VALUES(4887,4432,1);
 INSERT INTO "remix_artist" VALUES(4887,10690,1);
+INSERT INTO "remix_artist" VALUES(4888,19000,1);
+INSERT INTO "remix_artist" VALUES(4889,13667,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -45387,6 +45392,9 @@ INSERT INTO "remix_tag" VALUES(4887,'lang-latin',1);
 INSERT INTO "remix_tag" VALUES(4887,'live-instruments',1);
 INSERT INTO "remix_tag" VALUES(4887,'lyrics-original',1);
 INSERT INTO "remix_tag" VALUES(4887,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4888,'collab',1);
+INSERT INTO "remix_tag" VALUES(4888,'compo-dod',1);
+INSERT INTO "remix_tag" VALUES(4889,'compo-dod',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
