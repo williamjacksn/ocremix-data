@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "swagger-ui-dist": "5.28.1"
+    "swagger-ui-dist": "5.29.0"
   },
   "description": "This file (package.json) was generated from ci/gen.py",
   "license": "UNLICENSED",
