@@ -1608,6 +1608,9 @@ INSERT INTO "artist" VALUES(18965,'Linnea Burr','https://ocremix.org/artist/1896
 INSERT INTO "artist" VALUES(18966,'Dylan William van de Wal','https://ocremix.org/artist/18966/dylan-william-van-de-wal');
 INSERT INTO "artist" VALUES(18967,'David Lallande','https://ocremix.org/artist/18967/david-lallande');
 INSERT INTO "artist" VALUES(18989,'The Key Combo','https://ocremix.org/artist/18989/the-key-combo');
+INSERT INTO "artist" VALUES(18995,'Justin Wilbanks','https://ocremix.org/artist/18995/justin-wilbanks');
+INSERT INTO "artist" VALUES(18997,'roqdrummer','https://ocremix.org/artist/18997/roqdrummer');
+INSERT INTO "artist" VALUES(18998,'Nivan Sharma','https://ocremix.org/artist/18998/nivan-sharma');
 INSERT INTO "artist" VALUES(19000,'The Crazy 8ths','https://ocremix.org/artist/19000/the-crazy-8ths');
 CREATE TABLE game (
     id integer primary key,
@@ -7426,6 +7429,7 @@ INSERT INTO "remix" VALUES(4887,'Plus Musici, Plus Victoriae','Final Fantasy VII
 INSERT INTO "remix" VALUES(4888,'Death''s Last Dance','Shin Megami Tensei: Persona 3','2025-09-10T00:58:08.676580+00:00','https://www.youtube.com/watch?v=T6Ha0qkI_iE',736,'https://ocrmirror.org/files/music/remixes/Shin_Megami_Tensei_Persona_3_Death''s_Last_Dance_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4889,'Dearly Departing','Final Fantasy VI','2025-09-10T00:58:09.405501+00:00','https://www.youtube.com/watch?v=xV1FXiwKZQM',6,'https://ocrmirror.org/files/music/remixes/Final_Fantasy_6_Dearly_Departing_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4890,'Nightmare Glasses','Animal Well','2025-09-12T00:56:55.981582+00:00','https://www.youtube.com/watch?v=F4VCzi9o-u8',95899,'https://ocrmirror.org/files/music/remixes/Animal_Well_Nightmare_Glasses_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4891,'The Real Trigger Was the Friends We Made Along the Way','Chrono Trigger','2025-09-16T00:58:07.993087+00:00','https://www.youtube.com/watch?v=ugYLbq-Zpu4',16,'https://ocrmirror.org/files/music/remixes/Chrono_Trigger_The_Real_Trigger_Was_the_Friends_We_Made_Along_the_Way_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13834,6 +13838,12 @@ INSERT INTO "remix_artist" VALUES(4887,10690,1);
 INSERT INTO "remix_artist" VALUES(4888,19000,1);
 INSERT INTO "remix_artist" VALUES(4889,13667,1);
 INSERT INTO "remix_artist" VALUES(4890,17158,1);
+INSERT INTO "remix_artist" VALUES(4891,18964,1);
+INSERT INTO "remix_artist" VALUES(4891,13500,1);
+INSERT INTO "remix_artist" VALUES(4891,18998,1);
+INSERT INTO "remix_artist" VALUES(4891,18997,1);
+INSERT INTO "remix_artist" VALUES(4891,14464,1);
+INSERT INTO "remix_artist" VALUES(4891,18995,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -45415,6 +45425,8 @@ INSERT INTO "remix_tag" VALUES(4873,'synth',1);
 INSERT INTO "remix_tag" VALUES(4873,'energetic',1);
 INSERT INTO "remix_tag" VALUES(4873,'funky',1);
 INSERT INTO "remix_tag" VALUES(4873,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4891,'collab',1);
+INSERT INTO "remix_tag" VALUES(4891,'compo-dod',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
