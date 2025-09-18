@@ -2725,6 +2725,7 @@ INSERT INTO "game" VALUES(95876,'The Great Ace Attorney 2: Resolve','https://ocr
 INSERT INTO "game" VALUES(95878,'Disco Elysium','https://ocremix.org/game/95878/disco-elysium-win');
 INSERT INTO "game" VALUES(95880,'Helldivers II','https://ocremix.org/game/95880/helldivers-ii-ps5');
 INSERT INTO "game" VALUES(95882,'Pokémon Trading Card Game Pocket','https://ocremix.org/game/95882/pokemon-trading-card-game-pocket-ios');
+INSERT INTO "game" VALUES(95894,'Pokémon Sleep','https://ocremix.org/game/95894/pokemon-sleep-ios');
 INSERT INTO "game" VALUES(95896,'Bloodstained: Curse of the Moon','https://ocremix.org/game/95896/bloodstained-curse-of-the-moon-win');
 INSERT INTO "game" VALUES(95899,'Animal Well','https://ocremix.org/game/95899/animal-well-win');
 CREATE TABLE remix (
@@ -7432,6 +7433,7 @@ INSERT INTO "remix" VALUES(4889,'Dearly Departing','Final Fantasy VI','2025-09-1
 INSERT INTO "remix" VALUES(4890,'Nightmare Glasses','Animal Well','2025-09-12T00:56:55.981582+00:00','https://www.youtube.com/watch?v=F4VCzi9o-u8',95899,'https://ocrmirror.org/files/music/remixes/Animal_Well_Nightmare_Glasses_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4891,'The Real Trigger Was the Friends We Made Along the Way','Chrono Trigger','2025-09-16T00:58:07.993087+00:00','https://www.youtube.com/watch?v=ugYLbq-Zpu4',16,'https://ocrmirror.org/files/music/remixes/Chrono_Trigger_The_Real_Trigger_Was_the_Friends_We_Made_Along_the_Way_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4892,'Twili Lamentations','The Legend of Zelda: Twilight Princess','2025-09-17T00:58:01.356170+00:00','https://www.youtube.com/watch?v=_1jXpt2q-28',505,'https://ocrmirror.org/files/music/remixes/Legend_of_Zelda_Twilight_Princess_Twili_Lamentations_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4893,'Aeternal Wonder','Pokémon Sleep','2025-09-18T00:57:27.884932+00:00','https://www.youtube.com/watch?v=MfsAUJlXCK8',95894,'https://ocrmirror.org/files/music/remixes/Pokemon_Sleep_Aeternal_Wonder_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13847,6 +13849,7 @@ INSERT INTO "remix_artist" VALUES(4891,18997,1);
 INSERT INTO "remix_artist" VALUES(4891,14464,1);
 INSERT INTO "remix_artist" VALUES(4891,18995,1);
 INSERT INTO "remix_artist" VALUES(4892,19007,1);
+INSERT INTO "remix_artist" VALUES(4893,13147,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -45445,6 +45448,7 @@ INSERT INTO "remix_tag" VALUES(4892,'strings',1);
 INSERT INTO "remix_tag" VALUES(4892,'mystical',1);
 INSERT INTO "remix_tag" VALUES(4892,'resubmission',1);
 INSERT INTO "remix_tag" VALUES(4892,'timesig-6-8',1);
+INSERT INTO "remix_tag" VALUES(4893,'medley',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
