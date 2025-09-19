@@ -7434,6 +7434,7 @@ INSERT INTO "remix" VALUES(4890,'Nightmare Glasses','Animal Well','2025-09-12T00
 INSERT INTO "remix" VALUES(4891,'The Real Trigger Was the Friends We Made Along the Way','Chrono Trigger','2025-09-16T00:58:07.993087+00:00','https://www.youtube.com/watch?v=ugYLbq-Zpu4',16,'https://ocrmirror.org/files/music/remixes/Chrono_Trigger_The_Real_Trigger_Was_the_Friends_We_Made_Along_the_Way_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4892,'Twili Lamentations','The Legend of Zelda: Twilight Princess','2025-09-17T00:58:01.356170+00:00','https://www.youtube.com/watch?v=_1jXpt2q-28',505,'https://ocrmirror.org/files/music/remixes/Legend_of_Zelda_Twilight_Princess_Twili_Lamentations_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4893,'Aeternal Wonder','Pokémon Sleep','2025-09-18T00:57:27.884932+00:00','https://www.youtube.com/watch?v=MfsAUJlXCK8',95894,'https://ocrmirror.org/files/music/remixes/Pokemon_Sleep_Aeternal_Wonder_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4894,'Fight for My Friends','Flowstone Saga','2025-09-19T00:59:39.917488+00:00','https://www.youtube.com/watch?v=y-xM5Z9u8qU',95858,'https://ocrmirror.org/files/music/remixes/Flowstone_Saga_Fight_for_My_Friends_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13850,6 +13851,8 @@ INSERT INTO "remix_artist" VALUES(4891,14464,1);
 INSERT INTO "remix_artist" VALUES(4891,18995,1);
 INSERT INTO "remix_artist" VALUES(4892,19007,1);
 INSERT INTO "remix_artist" VALUES(4893,13147,1);
+INSERT INTO "remix_artist" VALUES(4894,4750,1);
+INSERT INTO "remix_artist" VALUES(4894,16848,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -45449,6 +45452,7 @@ INSERT INTO "remix_tag" VALUES(4892,'mystical',1);
 INSERT INTO "remix_tag" VALUES(4892,'resubmission',1);
 INSERT INTO "remix_tag" VALUES(4892,'timesig-6-8',1);
 INSERT INTO "remix_tag" VALUES(4893,'medley',1);
+INSERT INTO "remix_tag" VALUES(4894,'collab',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
