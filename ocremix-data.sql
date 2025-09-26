@@ -558,7 +558,7 @@ INSERT INTO "artist" VALUES(5037,'Gamer Symphony Orchestra','https://ocremix.org
 INSERT INTO "artist" VALUES(5038,'Jennerstein','https://ocremix.org/artist/5038/jennerstein');
 INSERT INTO "artist" VALUES(5039,'Kadmium','https://ocremix.org/artist/5039/kadmium');
 INSERT INTO "artist" VALUES(5040,'katethegreat19','https://ocremix.org/artist/5040/katethegreat19');
-INSERT INTO "artist" VALUES(5041,'Prince uf Darkness','https://ocremix.org/artist/5041/prince-uf-darkness');
+INSERT INTO "artist" VALUES(5041,'Tony Dickinson','https://ocremix.org/artist/5041/tony-dickinson');
 INSERT INTO "artist" VALUES(5042,'The Runaway Five','https://ocremix.org/artist/5042/the-runaway-five');
 INSERT INTO "artist" VALUES(5043,'WillRock','https://ocremix.org/artist/5043/willrock');
 INSERT INTO "artist" VALUES(5071,'AJiLe','https://ocremix.org/artist/5071/ajile');
@@ -1197,6 +1197,7 @@ INSERT INTO "artist" VALUES(16437,'Philippe Delage','https://ocremix.org/artist/
 INSERT INTO "artist" VALUES(16438,'Rotten Eggplant','https://ocremix.org/artist/16438/rotten-eggplant');
 INSERT INTO "artist" VALUES(16517,'Magnetic Ether','https://ocremix.org/artist/16517/magnetic-ether');
 INSERT INTO "artist" VALUES(16518,'The Hit Points','https://ocremix.org/artist/16518/the-hit-points');
+INSERT INTO "artist" VALUES(16519,'Eli Bishop','https://ocremix.org/artist/16519/eli-bishop');
 INSERT INTO "artist" VALUES(16525,'Jordan Chin','https://ocremix.org/artist/16525/jordan-chin');
 INSERT INTO "artist" VALUES(16526,'Katajun','https://ocremix.org/artist/16526/katajun');
 INSERT INTO "artist" VALUES(16530,'Triforce Quartet','https://ocremix.org/artist/16530/triforce-quartet');
@@ -1608,6 +1609,7 @@ INSERT INTO "artist" VALUES(18965,'Linnea Burr','https://ocremix.org/artist/1896
 INSERT INTO "artist" VALUES(18966,'Dylan William van de Wal','https://ocremix.org/artist/18966/dylan-william-van-de-wal');
 INSERT INTO "artist" VALUES(18967,'David Lallande','https://ocremix.org/artist/18967/david-lallande');
 INSERT INTO "artist" VALUES(18989,'The Key Combo','https://ocremix.org/artist/18989/the-key-combo');
+INSERT INTO "artist" VALUES(18991,'Dom Palombi','https://ocremix.org/artist/18991/dom-palombi');
 INSERT INTO "artist" VALUES(18995,'Justin Wilbanks','https://ocremix.org/artist/18995/justin-wilbanks');
 INSERT INTO "artist" VALUES(18997,'roqdrummer','https://ocremix.org/artist/18997/roqdrummer');
 INSERT INTO "artist" VALUES(18998,'Nivan Sharma','https://ocremix.org/artist/18998/nivan-sharma');
@@ -2730,6 +2732,7 @@ INSERT INTO "game" VALUES(95894,'Pokémon Sleep','https://ocremix.org/game/95894
 INSERT INTO "game" VALUES(95896,'Bloodstained: Curse of the Moon','https://ocremix.org/game/95896/bloodstained-curse-of-the-moon-win');
 INSERT INTO "game" VALUES(95899,'Animal Well','https://ocremix.org/game/95899/animal-well-win');
 INSERT INTO "game" VALUES(95902,'Crypt Custodian','https://ocremix.org/game/95902/crypt-custodian-win');
+INSERT INTO "game" VALUES(95903,'Fire Emblem Engage','https://ocremix.org/game/95903/fire-emblem-engage-swtch');
 CREATE TABLE remix (
     id integer primary key,
     title text not null,
@@ -7443,6 +7446,7 @@ INSERT INTO "remix" VALUES(4897,'Sweep Beyond','Crypt Custodian','2025-09-22T01:
 INSERT INTO "remix" VALUES(4898,'This Is My Memory!','Remember Me','2025-09-22T01:03:58.993023+00:00','https://www.youtube.com/watch?v=6HdYPwa0lZ8',95346,'https://ocrmirror.org/files/music/remixes/Remember_Me_This_Is_My_Memory_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4899,'A Choice','Hollow Knight','2025-09-23T00:58:06.039178+00:00','https://www.youtube.com/watch?v=_5HwrzPjb-M',95554,'https://ocrmirror.org/files/music/remixes/Hollow_Knight_A_Choice_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4900,'Bonkers!','Kirby: Triple Deluxe','2025-09-24T00:58:57.205869+00:00','https://www.youtube.com/watch?v=FG9wt-MAERo',94868,'https://ocrmirror.org/files/music/remixes/Kirby_Triple_Deluxe_Bonkers_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4901,'VTuber Emblem Enrage','Fire Emblem Engage','2025-09-26T00:58:43.107557+00:00','https://www.youtube.com/watch?v=75T0UIT4dOQ',95903,'https://ocrmirror.org/files/music/remixes/Fire_Emblem_Engage_VTuber_Emblem_Enrage_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13867,6 +13871,10 @@ INSERT INTO "remix_artist" VALUES(4897,17929,1);
 INSERT INTO "remix_artist" VALUES(4898,13668,1);
 INSERT INTO "remix_artist" VALUES(4899,11940,1);
 INSERT INTO "remix_artist" VALUES(4900,13500,1);
+INSERT INTO "remix_artist" VALUES(4901,5041,1);
+INSERT INTO "remix_artist" VALUES(4901,18991,1);
+INSERT INTO "remix_artist" VALUES(4901,16519,1);
+INSERT INTO "remix_artist" VALUES(4901,18655,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -45502,6 +45510,7 @@ INSERT INTO "remix_tag" VALUES(4899,'chill',1);
 INSERT INTO "remix_tag" VALUES(4899,'glitching',1);
 INSERT INTO "remix_tag" VALUES(4899,'timesig-4-4',1);
 INSERT INTO "remix_tag" VALUES(4900,'compo-dod',1);
+INSERT INTO "remix_tag" VALUES(4901,'collab',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
