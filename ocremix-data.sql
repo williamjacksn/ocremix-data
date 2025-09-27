@@ -7447,6 +7447,8 @@ INSERT INTO "remix" VALUES(4898,'This Is My Memory!','Remember Me','2025-09-22T0
 INSERT INTO "remix" VALUES(4899,'A Choice','Hollow Knight','2025-09-23T00:58:06.039178+00:00','https://www.youtube.com/watch?v=_5HwrzPjb-M',95554,'https://ocrmirror.org/files/music/remixes/Hollow_Knight_A_Choice_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4900,'Bonkers!','Kirby: Triple Deluxe','2025-09-24T00:58:57.205869+00:00','https://www.youtube.com/watch?v=FG9wt-MAERo',94868,'https://ocrmirror.org/files/music/remixes/Kirby_Triple_Deluxe_Bonkers_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4901,'VTuber Emblem Enrage','Fire Emblem Engage','2025-09-26T00:58:43.107557+00:00','https://www.youtube.com/watch?v=75T0UIT4dOQ',95903,'https://ocrmirror.org/files/music/remixes/Fire_Emblem_Engage_VTuber_Emblem_Enrage_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4902,'Temporary Tina','Final Fantasy VI','2025-09-27T00:56:41.707440+00:00','https://www.youtube.com/watch?v=xDwkKfia0uk',6,'https://ocrmirror.org/files/music/remixes/Final_Fantasy_6_Temporary_Tina_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4903,'Tron Looper','Command & Conquer: Tiberian Sun','2025-09-27T00:56:42.573701+00:00','https://www.youtube.com/watch?v=6Q_EYS-GjMo',373,'https://ocrmirror.org/files/music/remixes/Command_&_Conquer_Tiberian_Sun_Tron_Looper_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13875,6 +13877,8 @@ INSERT INTO "remix_artist" VALUES(4901,5041,1);
 INSERT INTO "remix_artist" VALUES(4901,18991,1);
 INSERT INTO "remix_artist" VALUES(4901,16519,1);
 INSERT INTO "remix_artist" VALUES(4901,18655,1);
+INSERT INTO "remix_artist" VALUES(4902,18929,1);
+INSERT INTO "remix_artist" VALUES(4903,15562,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -45511,6 +45515,8 @@ INSERT INTO "remix_tag" VALUES(4899,'glitching',1);
 INSERT INTO "remix_tag" VALUES(4899,'timesig-4-4',1);
 INSERT INTO "remix_tag" VALUES(4900,'compo-dod',1);
 INSERT INTO "remix_tag" VALUES(4901,'collab',1);
+INSERT INTO "remix_tag" VALUES(4902,'resubmission',1);
+INSERT INTO "remix_tag" VALUES(4903,'timesig-4-4',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
