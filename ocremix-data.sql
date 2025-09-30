@@ -7451,6 +7451,7 @@ INSERT INTO "remix" VALUES(4901,'VTuber Emblem Enrage','Fire Emblem Engage','202
 INSERT INTO "remix" VALUES(4902,'Temporary Tina','Final Fantasy VI','2025-09-27T00:56:41.707440+00:00','https://www.youtube.com/watch?v=xDwkKfia0uk',6,'https://ocrmirror.org/files/music/remixes/Final_Fantasy_6_Temporary_Tina_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4903,'Tron Looper','Command & Conquer: Tiberian Sun','2025-09-27T00:56:42.573701+00:00','https://www.youtube.com/watch?v=6Q_EYS-GjMo',373,'https://ocrmirror.org/files/music/remixes/Command_&_Conquer_Tiberian_Sun_Tron_Looper_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4904,'El Gran Timoteo Cayendo','Sky Shark','2025-09-29T01:00:48.228907+00:00','https://www.youtube.com/watch?v=7tKrRYSCC9U',4427,'https://ocrmirror.org/files/music/remixes/Sky_Shark_El_Gran_Timoteo_Cayendo_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4905,'Hoist the Sails!','Golden Sun: The Lost Age','2025-09-30T00:59:41.308546+00:00','https://www.youtube.com/watch?v=jfKfnu1m4SI',892,'https://ocrmirror.org/files/music/remixes/Golden_Sun_The_Lost_Age_Hoist_the_Sails_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13882,6 +13883,7 @@ INSERT INTO "remix_artist" VALUES(4901,18655,1);
 INSERT INTO "remix_artist" VALUES(4902,18929,1);
 INSERT INTO "remix_artist" VALUES(4903,15562,1);
 INSERT INTO "remix_artist" VALUES(4904,9690,1);
+INSERT INTO "remix_artist" VALUES(4905,18602,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -45528,6 +45530,13 @@ INSERT INTO "remix_tag" VALUES(4904,'live-instruments',1);
 INSERT INTO "remix_tag" VALUES(4904,'resubmission',1);
 INSERT INTO "remix_tag" VALUES(4904,'timesig-4-4',1);
 INSERT INTO "remix_tag" VALUES(4904,'world',1);
+INSERT INTO "remix_tag" VALUES(4905,'dance',1);
+INSERT INTO "remix_tag" VALUES(4905,'electronic',1);
+INSERT INTO "remix_tag" VALUES(4905,'sound-fx',1);
+INSERT INTO "remix_tag" VALUES(4905,'synth',1);
+INSERT INTO "remix_tag" VALUES(4905,'energetic',1);
+INSERT INTO "remix_tag" VALUES(4905,'resubmission',1);
+INSERT INTO "remix_tag" VALUES(4905,'timesig-4-4',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
