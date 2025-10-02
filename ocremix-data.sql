@@ -7453,6 +7453,7 @@ INSERT INTO "remix" VALUES(4903,'Tron Looper','Command & Conquer: Tiberian Sun',
 INSERT INTO "remix" VALUES(4904,'El Gran Timoteo Cayendo','Sky Shark','2025-09-29T01:00:48.228907+00:00','https://www.youtube.com/watch?v=7tKrRYSCC9U',4427,'https://ocrmirror.org/files/music/remixes/Sky_Shark_El_Gran_Timoteo_Cayendo_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4905,'Hoist the Sails!','Golden Sun: The Lost Age','2025-09-30T00:59:41.308546+00:00','https://www.youtube.com/watch?v=jfKfnu1m4SI',892,'https://ocrmirror.org/files/music/remixes/Golden_Sun_The_Lost_Age_Hoist_the_Sails_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4906,'Guardia at Peace','Chrono Trigger','2025-10-01T01:06:10.840649+00:00','https://www.youtube.com/watch?v=dH_dFQ-EUXA',16,'https://ocrmirror.org/files/music/remixes/Chrono_Trigger_Guardia_at_Peace_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4907,'The Dr. Is Back','Mega Man 2','2025-10-02T00:57:55.442581+00:00','https://www.youtube.com/watch?v=KaqJKzBs-VM',2,'https://ocrmirror.org/files/music/remixes/Mega_Man_2_The_Dr_Is_Back_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13886,6 +13887,7 @@ INSERT INTO "remix_artist" VALUES(4903,15562,1);
 INSERT INTO "remix_artist" VALUES(4904,9690,1);
 INSERT INTO "remix_artist" VALUES(4905,18602,1);
 INSERT INTO "remix_artist" VALUES(4906,12541,1);
+INSERT INTO "remix_artist" VALUES(4907,14047,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -45557,6 +45559,7 @@ INSERT INTO "remix_tag" VALUES(4888,'energetic',1);
 INSERT INTO "remix_tag" VALUES(4888,'timesig-4-4',1);
 INSERT INTO "remix_tag" VALUES(4888,'world',1);
 INSERT INTO "remix_tag" VALUES(4906,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4907,'timesig-4-4',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
