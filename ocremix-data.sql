@@ -2732,6 +2732,7 @@ INSERT INTO "game" VALUES(95882,'Pokémon Trading Card Game Pocket','https://ocr
 INSERT INTO "game" VALUES(95894,'Pokémon Sleep','https://ocremix.org/game/95894/pokemon-sleep-ios');
 INSERT INTO "game" VALUES(95896,'Bloodstained: Curse of the Moon','https://ocremix.org/game/95896/bloodstained-curse-of-the-moon-win');
 INSERT INTO "game" VALUES(95899,'Animal Well','https://ocremix.org/game/95899/animal-well-win');
+INSERT INTO "game" VALUES(95900,'A Short Hike','https://ocremix.org/game/95900/short-hike-win');
 INSERT INTO "game" VALUES(95902,'Crypt Custodian','https://ocremix.org/game/95902/crypt-custodian-win');
 INSERT INTO "game" VALUES(95903,'Fire Emblem Engage','https://ocremix.org/game/95903/fire-emblem-engage-swtch');
 CREATE TABLE remix (
@@ -7454,6 +7455,8 @@ INSERT INTO "remix" VALUES(4904,'El Gran Timoteo Cayendo','Sky Shark','2025-09-2
 INSERT INTO "remix" VALUES(4905,'Hoist the Sails!','Golden Sun: The Lost Age','2025-09-30T00:59:41.308546+00:00','https://www.youtube.com/watch?v=jfKfnu1m4SI',892,'https://ocrmirror.org/files/music/remixes/Golden_Sun_The_Lost_Age_Hoist_the_Sails_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4906,'Guardia at Peace','Chrono Trigger','2025-10-01T01:06:10.840649+00:00','https://www.youtube.com/watch?v=dH_dFQ-EUXA',16,'https://ocrmirror.org/files/music/remixes/Chrono_Trigger_Guardia_at_Peace_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4907,'The Dr. Is Back','Mega Man 2','2025-10-02T00:57:55.442581+00:00','https://www.youtube.com/watch?v=KaqJKzBs-VM',2,'https://ocrmirror.org/files/music/remixes/Mega_Man_2_The_Dr_Is_Back_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4908,'Slow Dancing at the End of the World','Gitaroo Man','2025-10-04T00:55:38.486062+00:00','https://www.youtube.com/watch?v=0IrsJnK6-zQ',719,'https://ocrmirror.org/files/music/remixes/Gitaroo_Man_Slow_Dancing_at_the_End_of_the_World_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4909,'Adventures Ahead','A Short Hike','2025-10-04T00:55:39.219683+00:00','https://www.youtube.com/watch?v=C4jsoRqe4x4',95900,'https://ocrmirror.org/files/music/remixes/Short_Hike_Adventures_Ahead_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13888,6 +13891,12 @@ INSERT INTO "remix_artist" VALUES(4904,9690,1);
 INSERT INTO "remix_artist" VALUES(4905,18602,1);
 INSERT INTO "remix_artist" VALUES(4906,12541,1);
 INSERT INTO "remix_artist" VALUES(4907,14047,1);
+INSERT INTO "remix_artist" VALUES(4908,10690,1);
+INSERT INTO "remix_artist" VALUES(4908,13500,1);
+INSERT INTO "remix_artist" VALUES(4908,13667,1);
+INSERT INTO "remix_artist" VALUES(4908,13046,1);
+INSERT INTO "remix_artist" VALUES(4908,5655,1);
+INSERT INTO "remix_artist" VALUES(4909,17929,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -45470,6 +45479,9 @@ INSERT INTO "remix_tag" VALUES(4888,'timesig-4-4',1);
 INSERT INTO "remix_tag" VALUES(4888,'world',1);
 INSERT INTO "remix_tag" VALUES(4906,'timesig-4-4',1);
 INSERT INTO "remix_tag" VALUES(4907,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4908,'collab',1);
+INSERT INTO "remix_tag" VALUES(4908,'compo-dod',1);
+INSERT INTO "remix_tag" VALUES(4908,'timesig-4-4',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
