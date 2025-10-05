@@ -7457,6 +7457,7 @@ INSERT INTO "remix" VALUES(4906,'Guardia at Peace','Chrono Trigger','2025-10-01T
 INSERT INTO "remix" VALUES(4907,'The Dr. Is Back','Mega Man 2','2025-10-02T00:57:55.442581+00:00','https://www.youtube.com/watch?v=KaqJKzBs-VM',2,'https://ocrmirror.org/files/music/remixes/Mega_Man_2_The_Dr_Is_Back_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4908,'Slow Dancing at the End of the World','Gitaroo Man','2025-10-04T00:55:38.486062+00:00','https://www.youtube.com/watch?v=0IrsJnK6-zQ',719,'https://ocrmirror.org/files/music/remixes/Gitaroo_Man_Slow_Dancing_at_the_End_of_the_World_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4909,'Adventures Ahead','A Short Hike','2025-10-04T00:55:39.219683+00:00','https://www.youtube.com/watch?v=C4jsoRqe4x4',95900,'https://ocrmirror.org/files/music/remixes/Short_Hike_Adventures_Ahead_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4910,'Nirvana','The Legend of Zelda: Tears of the Kingdom','2025-10-05T01:04:24.133609+00:00','https://www.youtube.com/watch?v=jccZyiax7Kw',95834,'https://ocrmirror.org/files/music/remixes/Legend_of_Zelda_Tears_of_the_Kingdom_Nirvana_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13897,6 +13898,10 @@ INSERT INTO "remix_artist" VALUES(4908,13667,1);
 INSERT INTO "remix_artist" VALUES(4908,13046,1);
 INSERT INTO "remix_artist" VALUES(4908,5655,1);
 INSERT INTO "remix_artist" VALUES(4909,17929,1);
+INSERT INTO "remix_artist" VALUES(4910,14375,1);
+INSERT INTO "remix_artist" VALUES(4910,16615,1);
+INSERT INTO "remix_artist" VALUES(4910,16937,1);
+INSERT INTO "remix_artist" VALUES(4910,18590,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -45482,6 +45487,18 @@ INSERT INTO "remix_tag" VALUES(4907,'timesig-4-4',1);
 INSERT INTO "remix_tag" VALUES(4908,'collab',1);
 INSERT INTO "remix_tag" VALUES(4908,'compo-dod',1);
 INSERT INTO "remix_tag" VALUES(4908,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4910,'cinematic',1);
+INSERT INTO "remix_tag" VALUES(4910,'choir',1);
+INSERT INTO "remix_tag" VALUES(4910,'clarinet',1);
+INSERT INTO "remix_tag" VALUES(4910,'flute',1);
+INSERT INTO "remix_tag" VALUES(4910,'oboe',1);
+INSERT INTO "remix_tag" VALUES(4910,'orchestral',1);
+INSERT INTO "remix_tag" VALUES(4910,'strings',1);
+INSERT INTO "remix_tag" VALUES(4910,'woodwinds',1);
+INSERT INTO "remix_tag" VALUES(4910,'mystical',1);
+INSERT INTO "remix_tag" VALUES(4910,'peaceful',1);
+INSERT INTO "remix_tag" VALUES(4910,'collab',1);
+INSERT INTO "remix_tag" VALUES(4910,'medley',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
