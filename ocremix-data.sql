@@ -2614,6 +2614,7 @@ INSERT INTO "game" VALUES(94508,'Kirby''s Return to Dream Land','https://ocremix
 INSERT INTO "game" VALUES(94601,'Kid Icarus: Uprising','https://ocremix.org/game/94601/kid-icarus-uprising-3ds');
 INSERT INTO "game" VALUES(94625,'Shin Megami Tensei: Persona 3 FES','https://ocremix.org/game/94625/shin-megami-tensei-persona-3-fes-ps2');
 INSERT INTO "game" VALUES(94775,'Mario Kart 7','https://ocremix.org/game/94775/mario-kart-7-3ds');
+INSERT INTO "game" VALUES(94790,'Fire Emblem: Awakening','https://ocremix.org/game/94790/fire-emblem-awakening-3ds');
 INSERT INTO "game" VALUES(94800,'Animal Crossing: New Leaf','https://ocremix.org/game/94800/animal-crossing-new-leaf-3ds');
 INSERT INTO "game" VALUES(94802,'Super Mario 3D Land','https://ocremix.org/game/94802/super-mario-3d-land-3ds');
 INSERT INTO "game" VALUES(94860,'The Legend of Zelda: A Link Between Worlds','https://ocremix.org/game/94860/legend-of-zelda-a-link-between-worlds-3ds');
@@ -7458,6 +7459,7 @@ INSERT INTO "remix" VALUES(4907,'The Dr. Is Back','Mega Man 2','2025-10-02T00:57
 INSERT INTO "remix" VALUES(4908,'Slow Dancing at the End of the World','Gitaroo Man','2025-10-04T00:55:38.486062+00:00','https://www.youtube.com/watch?v=0IrsJnK6-zQ',719,'https://ocrmirror.org/files/music/remixes/Gitaroo_Man_Slow_Dancing_at_the_End_of_the_World_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4909,'Adventures Ahead','A Short Hike','2025-10-04T00:55:39.219683+00:00','https://www.youtube.com/watch?v=C4jsoRqe4x4',95900,'https://ocrmirror.org/files/music/remixes/Short_Hike_Adventures_Ahead_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4910,'Nirvana','The Legend of Zelda: Tears of the Kingdom','2025-10-05T01:04:24.133609+00:00','https://www.youtube.com/watch?v=jccZyiax7Kw',95834,'https://ocrmirror.org/files/music/remixes/Legend_of_Zelda_Tears_of_the_Kingdom_Nirvana_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4911,'Never Forget Her Name','Fire Emblem: Awakening','2025-10-06T00:59:40.077586+00:00','https://www.youtube.com/watch?v=SSEDJ6PRtbs',94790,'https://ocrmirror.org/files/music/remixes/Fire_Emblem_Awakening_Never_Forget_Her_Name_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13902,6 +13904,11 @@ INSERT INTO "remix_artist" VALUES(4910,14375,1);
 INSERT INTO "remix_artist" VALUES(4910,16615,1);
 INSERT INTO "remix_artist" VALUES(4910,16937,1);
 INSERT INTO "remix_artist" VALUES(4910,18590,1);
+INSERT INTO "remix_artist" VALUES(4911,13500,1);
+INSERT INTO "remix_artist" VALUES(4911,18633,1);
+INSERT INTO "remix_artist" VALUES(4911,18724,1);
+INSERT INTO "remix_artist" VALUES(4911,16853,1);
+INSERT INTO "remix_artist" VALUES(4911,16848,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -45499,6 +45506,20 @@ INSERT INTO "remix_tag" VALUES(4910,'mystical',1);
 INSERT INTO "remix_tag" VALUES(4910,'peaceful',1);
 INSERT INTO "remix_tag" VALUES(4910,'collab',1);
 INSERT INTO "remix_tag" VALUES(4910,'medley',1);
+INSERT INTO "remix_tag" VALUES(4911,'metal',1);
+INSERT INTO "remix_tag" VALUES(4911,'prog-rock',1);
+INSERT INTO "remix_tag" VALUES(4911,'electric-guitar',1);
+INSERT INTO "remix_tag" VALUES(4911,'piano',1);
+INSERT INTO "remix_tag" VALUES(4911,'trumpet',1);
+INSERT INTO "remix_tag" VALUES(4911,'violin',1);
+INSERT INTO "remix_tag" VALUES(4911,'angry',1);
+INSERT INTO "remix_tag" VALUES(4911,'energetic',1);
+INSERT INTO "remix_tag" VALUES(4911,'sad',1);
+INSERT INTO "remix_tag" VALUES(4911,'collab',1);
+INSERT INTO "remix_tag" VALUES(4911,'compo-dod',1);
+INSERT INTO "remix_tag" VALUES(4911,'live-instruments',1);
+INSERT INTO "remix_tag" VALUES(4911,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4911,'timesig-variable',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
