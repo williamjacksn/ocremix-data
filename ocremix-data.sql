@@ -7462,6 +7462,7 @@ INSERT INTO "remix" VALUES(4909,'Adventures Ahead','A Short Hike','2025-10-04T00
 INSERT INTO "remix" VALUES(4910,'Nirvana','The Legend of Zelda: Tears of the Kingdom','2025-10-05T01:04:24.133609+00:00','https://www.youtube.com/watch?v=jccZyiax7Kw',95834,'https://ocrmirror.org/files/music/remixes/Legend_of_Zelda_Tears_of_the_Kingdom_Nirvana_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4911,'Never Forget Her Name','Fire Emblem: Awakening','2025-10-06T00:59:40.077586+00:00','https://www.youtube.com/watch?v=SSEDJ6PRtbs',94790,'https://ocrmirror.org/files/music/remixes/Fire_Emblem_Awakening_Never_Forget_Her_Name_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4912,'Gunslinger','La Tale','2025-10-07T00:58:37.797869+00:00','https://www.youtube.com/watch?v=_QTQ1zqB3SQ',703,'https://ocrmirror.org/files/music/remixes/La_Tale_Gunslinger_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4913,'A Path','Hollow Knight','2025-10-08T00:58:15.808366+00:00','https://www.youtube.com/watch?v=TzWWGOAs-c4',95554,'https://ocrmirror.org/files/music/remixes/Hollow_Knight_A_Path_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13912,6 +13913,7 @@ INSERT INTO "remix_artist" VALUES(4911,18724,1);
 INSERT INTO "remix_artist" VALUES(4911,16853,1);
 INSERT INTO "remix_artist" VALUES(4911,16848,1);
 INSERT INTO "remix_artist" VALUES(4912,4553,1);
+INSERT INTO "remix_artist" VALUES(4913,11940,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
