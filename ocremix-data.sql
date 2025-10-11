@@ -1616,6 +1616,7 @@ INSERT INTO "artist" VALUES(18998,'Nivan Sharma','https://ocremix.org/artist/189
 INSERT INTO "artist" VALUES(18999,'Seth Skoda','https://ocremix.org/artist/18999/seth-skoda');
 INSERT INTO "artist" VALUES(19000,'The Crazy 8ths','https://ocremix.org/artist/19000/the-crazy-8ths');
 INSERT INTO "artist" VALUES(19007,'Azina','https://ocremix.org/artist/19007/azina');
+INSERT INTO "artist" VALUES(19008,'Mark van Mechelen','https://ocremix.org/artist/19008/mark-van-mechelen');
 CREATE TABLE game (
     id integer primary key,
     name text not null,
@@ -7465,6 +7466,8 @@ INSERT INTO "remix" VALUES(4911,'Never Forget Her Name','Fire Emblem: Awakening'
 INSERT INTO "remix" VALUES(4912,'Gunslinger','La Tale','2025-10-07T00:58:37.797869+00:00','https://www.youtube.com/watch?v=_QTQ1zqB3SQ',703,'https://ocrmirror.org/files/music/remixes/La_Tale_Gunslinger_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4913,'A Path','Hollow Knight','2025-10-08T00:58:15.808366+00:00','https://www.youtube.com/watch?v=TzWWGOAs-c4',95554,'https://ocrmirror.org/files/music/remixes/Hollow_Knight_A_Path_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4914,'Million Dollar Death Trap','Sonic & Knuckles','2025-10-09T00:59:26.442359+00:00','https://www.youtube.com/watch?v=D2BURFuRp_E',147,'https://ocrmirror.org/files/music/remixes/Sonic_&_Knuckles_Million_Dollar_Death_Trap_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4915,'Into Darkness','Star Fox 64','2025-10-11T00:56:30.659429+00:00','https://www.youtube.com/watch?v=Uufpo0AHWOo',475,'https://ocrmirror.org/files/music/remixes/Star_Fox_64_Into_Darkness_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4916,'Memories of Mabe','The Legend of Zelda: Link''s Awakening','2025-10-11T00:56:31.378112+00:00','https://www.youtube.com/watch?v=0nZ4wv4oYo8',68,'https://ocrmirror.org/files/music/remixes/Legend_of_Zelda_Link''s_Awakening_Memories_of_Mabe_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13917,6 +13920,8 @@ INSERT INTO "remix_artist" VALUES(4911,16848,1);
 INSERT INTO "remix_artist" VALUES(4912,4553,1);
 INSERT INTO "remix_artist" VALUES(4913,11940,1);
 INSERT INTO "remix_artist" VALUES(4914,18999,1);
+INSERT INTO "remix_artist" VALUES(4915,19008,1);
+INSERT INTO "remix_artist" VALUES(4916,12541,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -45456,6 +45461,9 @@ INSERT INTO "remix_tag" VALUES(4895,'synth',1);
 INSERT INTO "remix_tag" VALUES(4895,'energetic',1);
 INSERT INTO "remix_tag" VALUES(4895,'funky',1);
 INSERT INTO "remix_tag" VALUES(4895,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4915,'cinematic',1);
+INSERT INTO "remix_tag" VALUES(4915,'medley',1);
+INSERT INTO "remix_tag" VALUES(4916,'timesig-4-4',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
