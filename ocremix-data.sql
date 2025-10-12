@@ -7468,6 +7468,7 @@ INSERT INTO "remix" VALUES(4913,'A Path','Hollow Knight','2025-10-08T00:58:15.80
 INSERT INTO "remix" VALUES(4914,'Million Dollar Death Trap','Sonic & Knuckles','2025-10-09T00:59:26.442359+00:00','https://www.youtube.com/watch?v=D2BURFuRp_E',147,'https://ocrmirror.org/files/music/remixes/Sonic_&_Knuckles_Million_Dollar_Death_Trap_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4915,'Into Darkness','Star Fox 64','2025-10-11T00:56:30.659429+00:00','https://www.youtube.com/watch?v=Uufpo0AHWOo',475,'https://ocrmirror.org/files/music/remixes/Star_Fox_64_Into_Darkness_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4916,'Memories of Mabe','The Legend of Zelda: Link''s Awakening','2025-10-11T00:56:31.378112+00:00','https://www.youtube.com/watch?v=0nZ4wv4oYo8',68,'https://ocrmirror.org/files/music/remixes/Legend_of_Zelda_Link''s_Awakening_Memories_of_Mabe_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4917,'Manoria Cathedral: Corruption','Chrono Trigger','2025-10-12T01:01:57.772552+00:00','https://www.youtube.com/watch?v=wkKm8k8XncU',16,'https://ocrmirror.org/files/music/remixes/Chrono_Trigger_Manoria_Cathedral_Corruption_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13922,6 +13923,7 @@ INSERT INTO "remix_artist" VALUES(4913,11940,1);
 INSERT INTO "remix_artist" VALUES(4914,18999,1);
 INSERT INTO "remix_artist" VALUES(4915,19008,1);
 INSERT INTO "remix_artist" VALUES(4916,12541,1);
+INSERT INTO "remix_artist" VALUES(4917,18403,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -45464,6 +45466,15 @@ INSERT INTO "remix_tag" VALUES(4895,'timesig-4-4',1);
 INSERT INTO "remix_tag" VALUES(4915,'cinematic',1);
 INSERT INTO "remix_tag" VALUES(4915,'medley',1);
 INSERT INTO "remix_tag" VALUES(4916,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4917,'cinematic',1);
+INSERT INTO "remix_tag" VALUES(4917,'cello',1);
+INSERT INTO "remix_tag" VALUES(4917,'choir',1);
+INSERT INTO "remix_tag" VALUES(4917,'orchestral',1);
+INSERT INTO "remix_tag" VALUES(4917,'piano',1);
+INSERT INTO "remix_tag" VALUES(4917,'vocals-female',1);
+INSERT INTO "remix_tag" VALUES(4917,'dark',1);
+INSERT INTO "remix_tag" VALUES(4917,'suspenseful',1);
+INSERT INTO "remix_tag" VALUES(4917,'timesig-6-8',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
