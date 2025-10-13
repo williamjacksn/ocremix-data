@@ -1,18 +1,18 @@
 import json
 import pathlib
 
-THIS_FILE = pathlib.PurePosixPath(
-    pathlib.Path(__file__).relative_to(pathlib.Path().resolve())
-)
 ACTIONS_CHECKOUT = {"name": "Check out repository", "uses": "actions/checkout@v5"}
+CRON_DAILY_0000 = {"cron": "0 0 * * *"}
+CRON_HOURLY_30 = {"cron": "30 * * * *"}
 DISPATCH_BUILD_STEP = {
     "name": "Dispatch workflow to build pages",
     "if": "steps.commit.outputs.pushed == 'true'",
     "run": "gh workflow run github-pages.yaml",
     "env": {"GH_TOKEN": "${{ github.token }}"},
 }
-CRON_DAILY_0000 = {"cron": "0 0 * * *"}
-CRON_HOURLY_30 = {"cron": "30 * * * *"}
+THIS_FILE = pathlib.PurePosixPath(
+    pathlib.Path(__file__).relative_to(pathlib.Path.cwd())
+)
 
 
 def _commit_and_push_step(commit_message: str) -> dict:
@@ -24,14 +24,14 @@ def _commit_and_push_step(commit_message: str) -> dict:
     }
 
 
-def gen(content: dict, target: str):
+def gen(content: dict, target: str) -> None:
     pathlib.Path(target).parent.mkdir(parents=True, exist_ok=True)
     pathlib.Path(target).write_text(
         json.dumps(content, indent=2, sort_keys=True), newline="\n"
     )
 
 
-def gen_dependabot():
+def gen_dependabot() -> None:
     target = ".github/dependabot.yaml"
     content = {
         "version": 2,
@@ -48,7 +48,7 @@ def gen_dependabot():
     gen(content, target)
 
 
-def gen_import_workflow():
+def gen_import_workflow() -> None:
     target = ".github/workflows/import-missing.yaml"
     content = {
         "env": {
@@ -76,7 +76,7 @@ def gen_import_workflow():
     gen(content, target)
 
 
-def gen_package_json():
+def gen_package_json() -> None:
     target = "package.json"
     content = {
         "description": f"This file ({target}) was generated from {THIS_FILE}",
@@ -89,7 +89,7 @@ def gen_package_json():
     gen(content, target)
 
 
-def gen_publish_workflow():
+def gen_publish_workflow() -> None:
     target = ".github/workflows/github-pages.yaml"
     content = {
         "env": {
@@ -135,7 +135,7 @@ def gen_publish_workflow():
     gen(content, target)
 
 
-def gen_ruff_workflow():
+def gen_ruff_workflow() -> None:
     target = ".github/workflows/ruff.yaml"
     content = {
         "name": "Ruff",
@@ -166,7 +166,7 @@ def gen_ruff_workflow():
     gen(content, target)
 
 
-def gen_update_workflow():
+def gen_update_workflow() -> None:
     target = ".github/workflows/update.yaml"
     content = {
         "env": {
@@ -202,7 +202,8 @@ def gen_update_workflow():
                     {
                         "name": "Update ReMix info (on workflow_dispatch)",
                         "if": "github.event_name == 'workflow_dispatch'",
-                        "run": "uv run ocremixdata.py update --limit ${{ inputs.limit }}",
+                        "run": "uv run ocremixdata.py update --limit "
+                        "${{ inputs.limit }}",
                     },
                     _commit_and_push_step("Update ReMix info"),
                     DISPATCH_BUILD_STEP,
@@ -213,7 +214,7 @@ def gen_update_workflow():
     gen(content, target)
 
 
-def main():
+def main() -> None:
     gen_dependabot()
     gen_import_workflow()
     gen_package_json()

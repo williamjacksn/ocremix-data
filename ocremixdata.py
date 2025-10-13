@@ -19,7 +19,7 @@ def _swagger_ui_version() -> str:
     return data.get("dependencies").get("swagger-ui-dist")
 
 
-def cli_build_pages(args: argparse.Namespace):
+def cli_build_pages(args: argparse.Namespace) -> None:
     index_html = htpy.html(lang="en")[
         htpy.head[
             htpy.title["OverClocked ReMix Data"],
@@ -76,11 +76,11 @@ def cli_build_pages(args: argparse.Namespace):
     do_write_sqlite(cnx, target)
 
 
-def cli_import(args: argparse.Namespace):
+def cli_import(args: argparse.Namespace) -> None:
     do_import(args.ocr_id)
 
 
-def cli_import_missing(args: argparse.Namespace):
+def cli_import_missing(args: argparse.Namespace) -> None:
     cnx = get_cnx()
     last_local_id = get_last_local_remix_id(cnx)
     last_published_id = get_last_published_remix_id()
@@ -89,11 +89,11 @@ def cli_import_missing(args: argparse.Namespace):
         do_import(last_local_id)
 
 
-def cli_json(args: argparse.Namespace):
+def cli_json(args: argparse.Namespace) -> None:
     do_json(args.ocr_id)
 
 
-def cli_update(args: argparse.Namespace):
+def cli_update(args: argparse.Namespace) -> None:
     cnx = get_cnx()
     with concurrent.futures.ThreadPoolExecutor() as ex:
         future_to_ocr_id = {}
@@ -105,13 +105,13 @@ def cli_update(args: argparse.Namespace):
             do_import_html(remix_id, future.result())
 
 
-def cli_write_sqlite(args: argparse.Namespace):
+def cli_write_sqlite(args: argparse.Namespace) -> None:
     cnx = get_cnx()
     do_write_sqlite(cnx, args.file)
     cnx.close()
 
 
-def do_import(ocr_id: int):
+def do_import(ocr_id: int) -> None:
     print(f"Processing OCR{ocr_id:05}")
 
     html = get_html(ocr_id)
@@ -121,7 +121,7 @@ def do_import(ocr_id: int):
     do_import_html(ocr_id, html)
 
 
-def do_import_html(ocr_id: int, html: lxml.html.HtmlElement):
+def do_import_html(ocr_id: int, html: lxml.html.HtmlElement) -> None:
     cnx = get_cnx()
 
     primary_game = parse_remix_primary_game(html)
@@ -150,13 +150,13 @@ def do_import_html(ocr_id: int, html: lxml.html.HtmlElement):
     write_data_and_close(cnx)
 
 
-def do_json(ocr_id: int):
+def do_json(ocr_id: int) -> None:
     cnx = get_cnx()
     data = get_remix_data(cnx, ocr_id)
     print(json.dumps(data, indent=4, sort_keys=True))
 
 
-def do_write_sqlite(cnx: sqlite3.Connection, target: pathlib.Path):
+def do_write_sqlite(cnx: sqlite3.Connection, target: pathlib.Path) -> None:
     target_cnx = sqlite3.connect(target)
     with target_cnx:
         cnx.backup(target_cnx)
@@ -175,7 +175,7 @@ def get_cnx() -> sqlite3.Connection:
 def get_html(ocr_id: int) -> lxml.html.HtmlElement:
     url = f"https://ocremix.org/remix/OCR{ocr_id:05}"
     try:
-        data = urllib.request.urlopen(url)
+        data = urllib.request.urlopen(url)  # noqa: S310
         page = data.read().decode()
         return lxml.html.fromstring(page)
     except urllib.error.HTTPError:
@@ -190,12 +190,12 @@ def get_last_local_remix_id(cnx: sqlite3.Connection) -> int:
 
 
 def get_last_published_remix_id() -> int:
-    url = "https://ocremix.org/feeds/ten20/"
-    data = urllib.request.urlopen(url)
+    data = urllib.request.urlopen("https://ocremix.org/feeds/ten20/")
     xml = lxml.etree.parse(data)
     for item_el in xml.iter("item"):
         link_el = item_el.find("link")
         return int(link_el.text.split("/")[4][3:])
+    return 0
 
 
 def get_remix_ids_first_imported(cnx: sqlite3.Connection, limit: int = 20) -> list[int]:
@@ -212,8 +212,6 @@ def get_remix_ids_first_imported(cnx: sqlite3.Connection, limit: int = 20) -> li
 
 def get_remix_data(cnx: sqlite3.Connection, ocr_id: int) -> dict:
     result = {}
-    artists = []
-    tags = []
     remix_sql = """
         select download_url, has_lyrics, id, title, primary_game, youtube_url
         from remix
@@ -248,22 +246,14 @@ def get_remix_data(cnx: sqlite3.Connection, ocr_id: int) -> dict:
                 "url": f"https://ocremix.org/remix/OCR{row.id:05}",
                 "youtube_url": row.youtube_url,
             }
-        for row in cnx.execute(artists_sql, params):
-            artists.append(
-                {
-                    "id": row.id,
-                    "name": row.name,
-                    "url": row.url,
-                }
-            )
-        for row in cnx.execute(tags_sql, params):
-            tags.append(
-                {
-                    "id": row.id,
-                    "path": row.path,
-                    "url": row.url,
-                }
-            )
+        artists = [
+            {"id": row.id, "name": row.name, "url": row.url}
+            for row in cnx.execute(artists_sql, params)
+        ]
+        tags = [
+            {"id": row.id, "path": row.path, "url": row.url}
+            for row in cnx.execute(tags_sql, params)
+        ]
     result["artists"] = artists
     result["tags"] = tags
     return result
@@ -276,8 +266,6 @@ def get_remix_ids(cnx: sqlite3.Connection) -> list[int]:
 
 
 def get_tag_data(cnx: sqlite3.Connection, tag_id: str) -> dict:
-    result = {}
-    remixes = []
     tag_sql = "select id, path, url from tag where id = :id"
     remix_sql = """
         select r.id, r.title, r.primary_game, r.youtube_url
@@ -292,22 +280,18 @@ def get_tag_data(cnx: sqlite3.Connection, tag_id: str) -> dict:
     }
     with cnx:
         for row in cnx.execute(tag_sql, params):
-            result = {
+            result = {"id": row.id, "path": row.path, "url": row.url}
+        remixes = [
+            {
                 "id": row.id,
-                "path": row.path,
-                "url": row.url,
+                "ocr_id": f"OCR{row.id:05}",
+                "primary_game": row.primary_game,
+                "title": row.title,
+                "url": f"https://ocremix.org/remix/OCR{row.id:05}",
+                "youtube_url": row.youtube_url,
             }
-        for row in cnx.execute(remix_sql, params):
-            remixes.append(
-                {
-                    "id": row.id,
-                    "ocr_id": f"OCR{row.id:05}",
-                    "primary_game": row.primary_game,
-                    "title": row.title,
-                    "url": f"https://ocremix.org/remix/OCR{row.id:05}",
-                    "youtube_url": row.youtube_url,
-                }
-            )
+            for row in cnx.execute(remix_sql, params)
+        ]
     result["remixes"] = remixes
     return result
 
@@ -318,12 +302,12 @@ def get_tag_ids(cnx: sqlite3.Connection) -> list[str]:
         return [row.id for row in cnx.execute(sql)]
 
 
-def main():
+def main() -> None:
     args = parse_args()
     args.func(args)
 
 
-def namedtuple_factory(cursor: sqlite3.Cursor, row: tuple):
+def namedtuple_factory(cursor: sqlite3.Cursor, row: tuple) -> tuple:
     fields = [c[0] for c in cursor.description]
     cls = collections.namedtuple("Row", fields)
     return cls(*row)
@@ -349,7 +333,8 @@ def parse_args() -> argparse.Namespace:
 
     ps_import = sp.add_parser(
         "import",
-        description="fetch data for a single ReMix from ocremix.org and store in the local database",
+        description="fetch data for a single ReMix from ocremix.org and store in the "
+        "local database",
     )
     ps_import.add_argument(
         "ocr_id", help="the numeric ID of the ReMix to fetch", type=int
@@ -358,7 +343,8 @@ def parse_args() -> argparse.Namespace:
 
     ps_import_missing = sp.add_parser(
         "import-missing",
-        description="fetch data for all missing ReMixes from ocremix.org and store in the local database",
+        description="fetch data for all missing ReMixes from ocremix.org and store in "
+        "the local database",
     )
     ps_import_missing.set_defaults(func=cli_import_missing)
 
@@ -464,7 +450,7 @@ def parse_youtube_url(html: lxml.html.HtmlElement) -> str:
         return el.get("data-preview")
 
 
-def write_artist_batch(cnx: sqlite3.Connection, params: list[dict]):
+def write_artist_batch(cnx: sqlite3.Connection, params: list[dict]) -> None:
     sql = """
         insert into artist (id, name, url) values (:id, :name, :url)
         on conflict (id) do update set name = excluded.name, url = excluded.url
@@ -473,7 +459,7 @@ def write_artist_batch(cnx: sqlite3.Connection, params: list[dict]):
         cnx.executemany(sql, params)
 
 
-def write_data_and_close(cnx: sqlite3.Connection):
+def write_data_and_close(cnx: sqlite3.Connection) -> None:
     cnx.row_factory = sqlite3.Row
     ocremix_data_sql = pathlib.Path("ocremix-data.sql").resolve()
     with ocremix_data_sql.open("w", encoding="utf_8") as f:
@@ -482,7 +468,7 @@ def write_data_and_close(cnx: sqlite3.Connection):
     cnx.close()
 
 
-def write_game(cnx: sqlite3.Connection, params: dict):
+def write_game(cnx: sqlite3.Connection, params: dict) -> None:
     sql = """
         insert into game (
             id, name, url
@@ -495,22 +481,28 @@ def write_game(cnx: sqlite3.Connection, params: dict):
         cnx.execute(sql, params)
 
 
-def write_remix(cnx: sqlite3.Connection, params: dict):
+def write_remix(cnx: sqlite3.Connection, params: dict) -> None:
     sql = """
         insert into remix (
-            download_url, has_lyrics, id, import_datetime, primary_game, primary_game_id, title, youtube_url
+            download_url, has_lyrics, id, import_datetime, primary_game,
+            primary_game_id, title, youtube_url
         ) values (
-            :download_url, :has_lyrics, :id, :import_datetime, :primary_game, :primary_game_id, :title, :youtube_url)
-        on conflict (id) do update set
+            :download_url, :has_lyrics, :id, :import_datetime, :primary_game,
+            :primary_game_id, :title, :youtube_url
+        ) on conflict (id) do update set
             download_url = excluded.download_url, has_lyrics = excluded.has_lyrics,
-            import_datetime = excluded.import_datetime, primary_game = excluded.primary_game,
-            primary_game_id = excluded.primary_game_id, title = excluded.title, youtube_url = excluded.youtube_url
+            import_datetime = excluded.import_datetime,
+            primary_game = excluded.primary_game,
+            primary_game_id = excluded.primary_game_id, title = excluded.title,
+            youtube_url = excluded.youtube_url
     """
     with cnx:
         cnx.execute(sql, params)
 
 
-def write_remix_artist(cnx: sqlite3.Connection, remix_id: int, artist_ids: list[int]):
+def write_remix_artist(
+    cnx: sqlite3.Connection, remix_id: int, artist_ids: list[int]
+) -> None:
     with cnx:
         cnx.execute(
             "update remix_artist set _synced = 0 where remix_id = :remix_id",
@@ -518,8 +510,12 @@ def write_remix_artist(cnx: sqlite3.Connection, remix_id: int, artist_ids: list[
         )
         cnx.executemany(
             """
-                insert into remix_artist (remix_id, artist_id, _synced) values (:remix_id, :artist_id, 1)
-                on conflict (remix_id, artist_id) do update set _synced = excluded._synced
+                insert into remix_artist (
+                    remix_id, artist_id, _synced
+                ) values (
+                    :remix_id, :artist_id, 1
+                ) on conflict (remix_id, artist_id) do update set
+                    _synced = excluded._synced
             """,
             [{"remix_id": remix_id, "artist_id": a} for a in artist_ids],
         )
@@ -529,7 +525,9 @@ def write_remix_artist(cnx: sqlite3.Connection, remix_id: int, artist_ids: list[
         )
 
 
-def write_remix_tags(cnx: sqlite3.Connection, remix_id: int, tag_ids: list[str]):
+def write_remix_tags(
+    cnx: sqlite3.Connection, remix_id: int, tag_ids: list[str]
+) -> None:
     with cnx:
         cnx.execute(
             "update remix_tag set _synced = 0 where remix_id = :remix_id",
@@ -537,8 +535,12 @@ def write_remix_tags(cnx: sqlite3.Connection, remix_id: int, tag_ids: list[str])
         )
         cnx.executemany(
             """
-                insert into remix_tag (remix_id, tag_id, _synced) values (:remix_id, :tag_id, 1)
-                on conflict (remix_id, tag_id) do update set _synced = excluded._synced
+                insert into remix_tag (
+                    remix_id, tag_id, _synced
+                ) values (
+                    :remix_id, :tag_id, 1
+                ) on conflict (remix_id, tag_id) do update set
+                    _synced = excluded._synced
             """,
             [{"remix_id": remix_id, "tag_id": t} for t in tag_ids],
         )
@@ -548,7 +550,7 @@ def write_remix_tags(cnx: sqlite3.Connection, remix_id: int, tag_ids: list[str])
         )
 
 
-def write_tag_batch(cnx: sqlite3.Connection, params: list[dict]):
+def write_tag_batch(cnx: sqlite3.Connection, params: list[dict]) -> None:
     sql = """
         insert into tag (id, path, url) values (:id, :path, :url)
         on conflict (id) do update set path = excluded.path, url = excluded.url

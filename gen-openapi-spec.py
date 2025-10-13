@@ -2,7 +2,8 @@ import json
 
 info = {
     "title": "OverClocked ReMix Data",
-    "description": "This project provides data about remixes published by [OverClocked ReMix](https://ocremix.org/). "
+    "description": "This project provides data about remixes published by "
+    "[OverClocked ReMix](https://ocremix.org/). "
     "The data is available in JSON and SQLite format.",
     "version": "2024.2",
 }
@@ -15,7 +16,8 @@ external_docs = {
 tags = [{"name": "Endpoints", "description": "All available API endpoints"}]
 
 ocremix_data_db_description = """
-This endpoint returns a SQLite database file with all available data. The table schema in the database is as follows:
+This endpoint returns a SQLite database file with all available data. The table schema
+in the database is as follows:
 
 ```
 CREATE TABLE artist (
@@ -146,7 +148,8 @@ spec = {
                 "description": ocremix_data_db_description,
                 "responses": {
                     "200": {
-                        "description": "A SQLite database file containing all available data",
+                        "description": "A SQLite database file containing all "
+                        "available data",
                         "content": {
                             "application/octet-stream": {
                                 "schema": {
@@ -163,7 +166,8 @@ spec = {
         "/remix/{remix_id}.json": {
             "get": {
                 "tags": ["Endpoints"],
-                "description": "Returns information about a single remix, including all associated artists and tags",
+                "description": "Returns information about a single remix, including "
+                "all associated artists and tags",
                 "responses": {
                     "200": {
                         "description": "Information about a single remix",
@@ -192,7 +196,8 @@ spec = {
         "/tag/{tag_id}.json": {
             "get": {
                 "tags": ["Endpoints"],
-                "description": "Returns information about a single tag, including all associated remixes",
+                "description": "Returns information about a single tag, including all "
+                "associated remixes",
                 "responses": {
                     "200": {
                         "description": "Information about a single tag",
@@ -223,7 +228,7 @@ spec = {
 }
 
 
-def main():
+def main() -> None:
     with open("output/ocremix-data.openapi.json", "w") as f:
         json.dump(spec, f, indent=2, sort_keys=True)
 
