@@ -2694,6 +2694,7 @@ INSERT INTO "game" VALUES(95783,'Crash Bandicoot 4: It''s About Time','https://o
 INSERT INTO "game" VALUES(95784,'Metroid Prime: Federation Force','https://ocremix.org/game/95784/metroid-prime-federation-force-3ds');
 INSERT INTO "game" VALUES(95787,'The Binding of Isaac: Rebirth','https://ocremix.org/game/95787/binding-of-isaac-rebirth-win');
 INSERT INTO "game" VALUES(95810,'King''s Quest VI: Heir Today, Gone Tomorrow','https://ocremix.org/game/95810/kings-quest-vi-heir-today-gone-tomorrow-win');
+INSERT INTO "game" VALUES(95821,'Tunic','https://ocremix.org/game/95821/tunic-win');
 INSERT INTO "game" VALUES(95822,'Lyle in Cube Sector','https://ocremix.org/game/95822/lyle-in-cube-sector-win');
 INSERT INTO "game" VALUES(95823,'Pokémon Scarlet','https://ocremix.org/game/95823/pokemon-scarlet-swtch');
 INSERT INTO "game" VALUES(95825,'Ori and the Blind Forest','https://ocremix.org/game/95825/ori-and-the-blind-forest-win');
@@ -7469,6 +7470,8 @@ INSERT INTO "remix" VALUES(4914,'Million Dollar Death Trap','Sonic & Knuckles','
 INSERT INTO "remix" VALUES(4915,'Into Darkness','Star Fox 64','2025-10-11T00:56:30.659429+00:00','https://www.youtube.com/watch?v=Uufpo0AHWOo',475,'https://ocrmirror.org/files/music/remixes/Star_Fox_64_Into_Darkness_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4916,'Memories of Mabe','The Legend of Zelda: Link''s Awakening','2025-10-11T00:56:31.378112+00:00','https://www.youtube.com/watch?v=0nZ4wv4oYo8',68,'https://ocrmirror.org/files/music/remixes/Legend_of_Zelda_Link''s_Awakening_Memories_of_Mabe_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4917,'Manoria Cathedral: Corruption','Chrono Trigger','2025-10-12T01:01:57.772552+00:00','https://www.youtube.com/watch?v=wkKm8k8XncU',16,'https://ocrmirror.org/files/music/remixes/Chrono_Trigger_Manoria_Cathedral_Corruption_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4918,'I''m Gonna DOUSE Dhaos!','Tales of Phantasia','2025-10-13T01:03:10.942465+00:00','https://www.youtube.com/watch?v=fUsgsmMk8wM',223,'https://ocrmirror.org/files/music/remixes/Tales_of_Phantasia_I''m_Gonna_DOUSE_Dhaos_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4919,'Dark Revelations','Tunic','2025-10-13T01:03:11.799786+00:00','https://www.youtube.com/watch?v=dQxNju79hzE',95821,'https://ocrmirror.org/files/music/remixes/Tunic_Dark_Revelations_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13924,6 +13927,11 @@ INSERT INTO "remix_artist" VALUES(4914,18999,1);
 INSERT INTO "remix_artist" VALUES(4915,19008,1);
 INSERT INTO "remix_artist" VALUES(4916,12541,1);
 INSERT INTO "remix_artist" VALUES(4917,18403,1);
+INSERT INTO "remix_artist" VALUES(4918,18904,1);
+INSERT INTO "remix_artist" VALUES(4918,13500,1);
+INSERT INTO "remix_artist" VALUES(4918,18724,1);
+INSERT INTO "remix_artist" VALUES(4918,18712,1);
+INSERT INTO "remix_artist" VALUES(4919,17929,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -45487,6 +45495,16 @@ INSERT INTO "remix_tag" VALUES(4898,'orchestral',1);
 INSERT INTO "remix_tag" VALUES(4898,'strings',1);
 INSERT INTO "remix_tag" VALUES(4898,'woodwinds',1);
 INSERT INTO "remix_tag" VALUES(4898,'suspenseful',1);
+INSERT INTO "remix_tag" VALUES(4918,'metal',1);
+INSERT INTO "remix_tag" VALUES(4918,'prog-rock',1);
+INSERT INTO "remix_tag" VALUES(4918,'electric-guitar',1);
+INSERT INTO "remix_tag" VALUES(4918,'synth',1);
+INSERT INTO "remix_tag" VALUES(4918,'energetic',1);
+INSERT INTO "remix_tag" VALUES(4918,'collab',1);
+INSERT INTO "remix_tag" VALUES(4918,'compo-dod',1);
+INSERT INTO "remix_tag" VALUES(4918,'live-instruments',1);
+INSERT INTO "remix_tag" VALUES(4918,'workout',1);
+INSERT INTO "remix_tag" VALUES(4919,'timesig-4-4',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
