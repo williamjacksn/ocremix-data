@@ -121,7 +121,7 @@ dev = [
 [package.metadata]
 requires-dist = [
     { name = "htpy", specifier = ">=25.10.0" },
-    { name = "lxml", specifier = ">=6.0.0" },
+    { name = "lxml", specifier = ">=6.0.2" },
 ]
 
 [package.metadata.requires-dev]
