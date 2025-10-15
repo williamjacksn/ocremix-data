@@ -2459,6 +2459,7 @@ INSERT INTO "game" VALUES(4495,'Teenage Mutant Ninja Turtles: Tournament Fighter
 INSERT INTO "game" VALUES(4541,'Uninvited','https://ocremix.org/game/4541/uninvited-nes');
 INSERT INTO "game" VALUES(4581,'Yie Ar Kung-Fu','https://ocremix.org/game/4581/yie-ar-kung-fu-nes');
 INSERT INTO "game" VALUES(4587,'Ys III: Wanderers from Ys','https://ocremix.org/game/4587/ys-iii-wanderers-from-ys-nes');
+INSERT INTO "game" VALUES(4799,'Bomberman ''93','https://ocremix.org/game/4799/bomberman-93-tg16');
 INSERT INTO "game" VALUES(5234,'Cannon Fodder','https://ocremix.org/game/5234/cannon-fodder-amiga');
 INSERT INTO "game" VALUES(5615,'Flashback','https://ocremix.org/game/5615/flashback-amiga');
 INSERT INTO "game" VALUES(6031,'Lotus III: The Ultimate Challenge','https://ocremix.org/game/6031/lotus-iii-the-ultimate-challenge-amiga');
@@ -7472,6 +7473,7 @@ INSERT INTO "remix" VALUES(4916,'Memories of Mabe','The Legend of Zelda: Link''s
 INSERT INTO "remix" VALUES(4917,'Manoria Cathedral: Corruption','Chrono Trigger','2025-10-12T01:01:57.772552+00:00','https://www.youtube.com/watch?v=wkKm8k8XncU',16,'https://ocrmirror.org/files/music/remixes/Chrono_Trigger_Manoria_Cathedral_Corruption_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4918,'I''m Gonna DOUSE Dhaos!','Tales of Phantasia','2025-10-13T01:03:10.942465+00:00','https://www.youtube.com/watch?v=fUsgsmMk8wM',223,'https://ocrmirror.org/files/music/remixes/Tales_of_Phantasia_I''m_Gonna_DOUSE_Dhaos_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4919,'Dark Revelations','Tunic','2025-10-13T01:03:11.799786+00:00','https://www.youtube.com/watch?v=dQxNju79hzE',95821,'https://ocrmirror.org/files/music/remixes/Tunic_Dark_Revelations_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4920,'Blood on the Riviera','Bomberman ''93','2025-10-15T01:00:26.820704+00:00','https://www.youtube.com/watch?v=qiJ0O3xPQDA',4799,'https://ocrmirror.org/files/music/remixes/Bomberman_''93_Blood_on_the_Riviera_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13932,6 +13934,7 @@ INSERT INTO "remix_artist" VALUES(4918,13500,1);
 INSERT INTO "remix_artist" VALUES(4918,18724,1);
 INSERT INTO "remix_artist" VALUES(4918,18712,1);
 INSERT INTO "remix_artist" VALUES(4919,17929,1);
+INSERT INTO "remix_artist" VALUES(4920,4558,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -45513,6 +45516,7 @@ INSERT INTO "remix_tag" VALUES(4900,'synth',1);
 INSERT INTO "remix_tag" VALUES(4900,'energetic',1);
 INSERT INTO "remix_tag" VALUES(4900,'extended-soloing',1);
 INSERT INTO "remix_tag" VALUES(4900,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4920,'timesig-4-4',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
