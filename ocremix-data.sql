@@ -1608,6 +1608,7 @@ INSERT INTO "artist" VALUES(18964,'Triple B Music','https://ocremix.org/artist/1
 INSERT INTO "artist" VALUES(18965,'Linnea Burr','https://ocremix.org/artist/18965/linnea-burr');
 INSERT INTO "artist" VALUES(18966,'Dylan William van de Wal','https://ocremix.org/artist/18966/dylan-william-van-de-wal');
 INSERT INTO "artist" VALUES(18967,'David Lallande','https://ocremix.org/artist/18967/david-lallande');
+INSERT INTO "artist" VALUES(18971,'Slowly Crushed','https://ocremix.org/artist/18971/slowly-crushed');
 INSERT INTO "artist" VALUES(18989,'The Key Combo','https://ocremix.org/artist/18989/the-key-combo');
 INSERT INTO "artist" VALUES(18991,'Dom Palombi','https://ocremix.org/artist/18991/dom-palombi');
 INSERT INTO "artist" VALUES(18995,'Justin Wilbanks','https://ocremix.org/artist/18995/justin-wilbanks');
@@ -7474,6 +7475,7 @@ INSERT INTO "remix" VALUES(4917,'Manoria Cathedral: Corruption','Chrono Trigger'
 INSERT INTO "remix" VALUES(4918,'I''m Gonna DOUSE Dhaos!','Tales of Phantasia','2025-10-13T01:03:10.942465+00:00','https://www.youtube.com/watch?v=fUsgsmMk8wM',223,'https://ocrmirror.org/files/music/remixes/Tales_of_Phantasia_I''m_Gonna_DOUSE_Dhaos_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4919,'Dark Revelations','Tunic','2025-10-13T01:03:11.799786+00:00','https://www.youtube.com/watch?v=dQxNju79hzE',95821,'https://ocrmirror.org/files/music/remixes/Tunic_Dark_Revelations_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4920,'Blood on the Riviera','Bomberman ''93','2025-10-15T01:00:26.820704+00:00','https://www.youtube.com/watch?v=qiJ0O3xPQDA',4799,'https://ocrmirror.org/files/music/remixes/Bomberman_''93_Blood_on_the_Riviera_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4921,'Ash','A Short Hike','2025-10-16T01:00:29.179169+00:00','https://www.youtube.com/watch?v=UJDFTqtqT5s',95900,'https://ocrmirror.org/files/music/remixes/Short_Hike_Ash_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13935,6 +13937,7 @@ INSERT INTO "remix_artist" VALUES(4918,18724,1);
 INSERT INTO "remix_artist" VALUES(4918,18712,1);
 INSERT INTO "remix_artist" VALUES(4919,17929,1);
 INSERT INTO "remix_artist" VALUES(4920,4558,1);
+INSERT INTO "remix_artist" VALUES(4921,18971,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -45517,6 +45520,7 @@ INSERT INTO "remix_tag" VALUES(4900,'energetic',1);
 INSERT INTO "remix_tag" VALUES(4900,'extended-soloing',1);
 INSERT INTO "remix_tag" VALUES(4900,'timesig-4-4',1);
 INSERT INTO "remix_tag" VALUES(4920,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4921,'compo-dod',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
