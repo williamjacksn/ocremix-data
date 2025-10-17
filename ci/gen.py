@@ -84,7 +84,7 @@ def gen_package_json() -> None:
         "version": "1.0.0",
         "license": "UNLICENSED",
         "private": True,
-        "dependencies": {"swagger-ui-dist": "5.29.4"},
+        "dependencies": {"swagger-ui-dist": "5.29.5"},
     }
     gen(content, target)
 
