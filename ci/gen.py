@@ -120,7 +120,7 @@ def gen_publish_workflow() -> None:
                     {"name": "Build content", "run": "sh ci/build-pages.sh"},
                     {
                         "name": "Upload artifact",
-                        "uses": "actions/upload-pages-artifact@v3",
+                        "uses": "actions/upload-pages-artifact@v4",
                         "with": {"path": "output"},
                     },
                     {
