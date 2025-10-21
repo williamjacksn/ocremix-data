@@ -7483,6 +7483,8 @@ INSERT INTO "remix" VALUES(4922,'Forest in the Night','Xenoblade Chronicles X','
 INSERT INTO "remix" VALUES(4923,'The Road Home','Xenoblade Chronicles','2025-10-18T00:57:35.288486+00:00','https://www.youtube.com/watch?v=7K4evWds8js',825,'https://ocrmirror.org/files/music/remixes/Xenoblade_Chronicles_The_Road_Home_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4924,'War Never Changes','Mega Man ZX','2025-10-18T00:57:35.952600+00:00','https://www.youtube.com/watch?v=qt4AgucPMHI',580,'https://ocrmirror.org/files/music/remixes/Mega_Man_ZX_War_Never_Changes_OC_ReMix.mp3',1);
 INSERT INTO "remix" VALUES(4925,'Cosmic Knowledge','Katamari Damacy','2025-10-20T01:05:16.713248+00:00','https://www.youtube.com/watch?v=VK4cGGLFMkw',702,'https://ocrmirror.org/files/music/remixes/Katamari_Damacy_Cosmic_Knowledge_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4926,'Guile''s Theme (Reflections Version)','Street Fighter II: The World Warrior','2025-10-21T01:01:50.346656+00:00','https://www.youtube.com/watch?v=mMqnEqWoD9w',54,'https://ocrmirror.org/files/music/remixes/Street_Fighter_2_Guile''s_Theme_(Reflections_Version)_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4927,'Prepare to Fry','Dark Souls','2025-10-21T01:01:51.001964+00:00','https://www.youtube.com/watch?v=VXl5G_CNpTI',976,'https://ocrmirror.org/files/music/remixes/Dark_Souls_Prepare_to_Fry_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13956,6 +13958,8 @@ INSERT INTO "remix_artist" VALUES(4923,16848,1);
 INSERT INTO "remix_artist" VALUES(4924,5473,1);
 INSERT INTO "remix_artist" VALUES(4924,13667,1);
 INSERT INTO "remix_artist" VALUES(4925,16412,1);
+INSERT INTO "remix_artist" VALUES(4926,4280,1);
+INSERT INTO "remix_artist" VALUES(4927,12541,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -45578,6 +45582,11 @@ INSERT INTO "remix_tag" VALUES(4924,'compo-dod',1);
 INSERT INTO "remix_tag" VALUES(4924,'lyrics-original',1);
 INSERT INTO "remix_tag" VALUES(4924,'timesig-4-4',1);
 INSERT INTO "remix_tag" VALUES(4925,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4926,'piano',1);
+INSERT INTO "remix_tag" VALUES(4926,'solo-piano',1);
+INSERT INTO "remix_tag" VALUES(4926,'solo',1);
+INSERT INTO "remix_tag" VALUES(4927,'jazzy',1);
+INSERT INTO "remix_tag" VALUES(4927,'timesig-4-4',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
