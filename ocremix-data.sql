@@ -7485,6 +7485,7 @@ INSERT INTO "remix" VALUES(4924,'War Never Changes','Mega Man ZX','2025-10-18T00
 INSERT INTO "remix" VALUES(4925,'Cosmic Knowledge','Katamari Damacy','2025-10-20T01:05:16.713248+00:00','https://www.youtube.com/watch?v=VK4cGGLFMkw',702,'https://ocrmirror.org/files/music/remixes/Katamari_Damacy_Cosmic_Knowledge_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4926,'Guile''s Theme (Reflections Version)','Street Fighter II: The World Warrior','2025-10-21T01:01:50.346656+00:00','https://www.youtube.com/watch?v=mMqnEqWoD9w',54,'https://ocrmirror.org/files/music/remixes/Street_Fighter_2_Guile''s_Theme_(Reflections_Version)_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4927,'Prepare to Fry','Dark Souls','2025-10-21T01:01:51.001964+00:00','https://www.youtube.com/watch?v=VXl5G_CNpTI',976,'https://ocrmirror.org/files/music/remixes/Dark_Souls_Prepare_to_Fry_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4928,'Dawn Chorus','Donkey Kong Country 2: Diddy''s Kong Quest','2025-10-23T01:01:17.809108+00:00','https://www.youtube.com/watch?v=TGIo9kPVBfc',48,'https://ocrmirror.org/files/music/remixes/Donkey_Kong_Country_2_Dawn_Chorus_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13960,6 +13961,9 @@ INSERT INTO "remix_artist" VALUES(4924,13667,1);
 INSERT INTO "remix_artist" VALUES(4925,16412,1);
 INSERT INTO "remix_artist" VALUES(4926,4280,1);
 INSERT INTO "remix_artist" VALUES(4927,12541,1);
+INSERT INTO "remix_artist" VALUES(4928,5043,1);
+INSERT INTO "remix_artist" VALUES(4928,16845,1);
+INSERT INTO "remix_artist" VALUES(4928,15850,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -45599,6 +45603,8 @@ INSERT INTO "remix_tag" VALUES(4907,'edm',1);
 INSERT INTO "remix_tag" VALUES(4907,'electronic',1);
 INSERT INTO "remix_tag" VALUES(4907,'synth',1);
 INSERT INTO "remix_tag" VALUES(4907,'energetic',1);
+INSERT INTO "remix_tag" VALUES(4928,'collab',1);
+INSERT INTO "remix_tag" VALUES(4928,'timesig-4-4',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
