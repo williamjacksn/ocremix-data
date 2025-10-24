@@ -2263,6 +2263,7 @@ INSERT INTO "game" VALUES(710,'Pokémon Trading Card Game','https://ocremix.org/
 INSERT INTO "game" VALUES(711,'Ufouria: The Saga','https://ocremix.org/game/711/ufouria-the-saga-nes');
 INSERT INTO "game" VALUES(714,'The Binding of Isaac','https://ocremix.org/game/714/binding-of-isaac-win');
 INSERT INTO "game" VALUES(715,'The Legend of Dragoon','https://ocremix.org/game/715/legend-of-dragoon-ps1');
+INSERT INTO "game" VALUES(717,'Altered Beast','https://ocremix.org/game/717/altered-beast-arc');
 INSERT INTO "game" VALUES(719,'Gitaroo Man','https://ocremix.org/game/719/gitaroo-man-ps2');
 INSERT INTO "game" VALUES(721,'The Elder Scrolls V: Skyrim','https://ocremix.org/game/721/elder-scrolls-v-skyrim-win');
 INSERT INTO "game" VALUES(724,'G.I. Joe: A Real American Hero','https://ocremix.org/game/724/gi-joe-a-real-american-hero-nes');
@@ -7486,6 +7487,7 @@ INSERT INTO "remix" VALUES(4925,'Cosmic Knowledge','Katamari Damacy','2025-10-20
 INSERT INTO "remix" VALUES(4926,'Guile''s Theme (Reflections Version)','Street Fighter II: The World Warrior','2025-10-21T01:01:50.346656+00:00','https://www.youtube.com/watch?v=mMqnEqWoD9w',54,'https://ocrmirror.org/files/music/remixes/Street_Fighter_2_Guile''s_Theme_(Reflections_Version)_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4927,'Prepare to Fry','Dark Souls','2025-10-21T01:01:51.001964+00:00','https://www.youtube.com/watch?v=VXl5G_CNpTI',976,'https://ocrmirror.org/files/music/remixes/Dark_Souls_Prepare_to_Fry_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4928,'Dawn Chorus','Donkey Kong Country 2: Diddy''s Kong Quest','2025-10-23T01:01:17.809108+00:00','https://www.youtube.com/watch?v=TGIo9kPVBfc',48,'https://ocrmirror.org/files/music/remixes/Donkey_Kong_Country_2_Dawn_Chorus_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4929,'Despierta la Bestia Que Hay en Ti','Altered Beast','2025-10-24T00:58:05.656288+00:00','https://www.youtube.com/watch?v=MnTfOa_9PFc',717,'https://ocrmirror.org/files/music/remixes/Altered_Beast_Despierta_la_Bestia_Que_Hay_en_Ti_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13964,6 +13966,7 @@ INSERT INTO "remix_artist" VALUES(4927,12541,1);
 INSERT INTO "remix_artist" VALUES(4928,5043,1);
 INSERT INTO "remix_artist" VALUES(4928,16845,1);
 INSERT INTO "remix_artist" VALUES(4928,15850,1);
+INSERT INTO "remix_artist" VALUES(4929,16101,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -45695,6 +45698,7 @@ INSERT INTO "remix_tag" VALUES(3131,'piano',1);
 INSERT INTO "remix_tag" VALUES(3131,'strings',1);
 INSERT INTO "remix_tag" VALUES(3131,'vocals-female',1);
 INSERT INTO "remix_tag" VALUES(3131,'solemn',1);
+INSERT INTO "remix_tag" VALUES(4929,'timesig-4-4',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
