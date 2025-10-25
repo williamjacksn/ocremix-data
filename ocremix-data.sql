@@ -7488,6 +7488,7 @@ INSERT INTO "remix" VALUES(4926,'Guile''s Theme (Reflections Version)','Street F
 INSERT INTO "remix" VALUES(4927,'Prepare to Fry','Dark Souls','2025-10-21T01:01:51.001964+00:00','https://www.youtube.com/watch?v=VXl5G_CNpTI',976,'https://ocrmirror.org/files/music/remixes/Dark_Souls_Prepare_to_Fry_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4928,'Dawn Chorus','Donkey Kong Country 2: Diddy''s Kong Quest','2025-10-23T01:01:17.809108+00:00','https://www.youtube.com/watch?v=TGIo9kPVBfc',48,'https://ocrmirror.org/files/music/remixes/Donkey_Kong_Country_2_Dawn_Chorus_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4929,'Despierta la Bestia Que Hay en Ti','Altered Beast','2025-10-24T00:58:05.656288+00:00','https://www.youtube.com/watch?v=MnTfOa_9PFc',717,'https://ocrmirror.org/files/music/remixes/Altered_Beast_Despierta_la_Bestia_Que_Hay_en_Ti_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4930,'Diamonds and Dust','Donkey Kong Country 2: Diddy''s Kong Quest','2025-10-25T00:59:34.036943+00:00','https://www.youtube.com/watch?v=vS0gdx_Qm3A',48,'https://ocrmirror.org/files/music/remixes/Donkey_Kong_Country_2_Diamonds_and_Dust_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13967,6 +13968,10 @@ INSERT INTO "remix_artist" VALUES(4928,5043,1);
 INSERT INTO "remix_artist" VALUES(4928,16845,1);
 INSERT INTO "remix_artist" VALUES(4928,15850,1);
 INSERT INTO "remix_artist" VALUES(4929,16101,1);
+INSERT INTO "remix_artist" VALUES(4930,10690,1);
+INSERT INTO "remix_artist" VALUES(4930,13046,1);
+INSERT INTO "remix_artist" VALUES(4930,18710,1);
+INSERT INTO "remix_artist" VALUES(4930,13667,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -45716,6 +45721,7 @@ INSERT INTO "remix_tag" VALUES(4908,'electric-piano',1);
 INSERT INTO "remix_tag" VALUES(4908,'electronic',1);
 INSERT INTO "remix_tag" VALUES(4908,'synth',1);
 INSERT INTO "remix_tag" VALUES(4908,'chill',1);
+INSERT INTO "remix_tag" VALUES(4930,'collab',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
