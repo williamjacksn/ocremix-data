@@ -1,59 +1,41 @@
-{
-  "concurrency": {
-    "cancel-in-progress": true,
-    "group": "github-pages"
-  },
-  "env": {
-    "description": "This workflow (.github/workflows/github-pages.yaml) was generated from ci/gen.py"
-  },
-  "jobs": {
-    "deploy": {
-      "environment": {
-        "name": "github-pages",
-        "url": "${{ steps.deployment.outputs.page_url }}"
-      },
-      "name": "Deploy to GitHub Pages",
-      "permissions": {
-        "contents": "read",
-        "id-token": "write",
-        "pages": "write"
-      },
-      "runs-on": "ubuntu-latest",
-      "steps": [
-        {
-          "name": "Check out repository",
-          "uses": "actions/checkout@v5"
-        },
-        {
-          "name": "Configure GitHub Pages",
-          "uses": "actions/configure-pages@v5"
-        },
-        {
-          "name": "Build content",
-          "run": "sh ci/build-pages.sh"
-        },
-        {
-          "name": "Upload artifact",
-          "uses": "actions/upload-pages-artifact@v4",
-          "with": {
-            "path": "output"
-          }
-        },
-        {
-          "id": "deployment",
-          "name": "Deploy to GitHub Pages",
-          "uses": "actions/deploy-pages@v4"
-        }
-      ]
-    }
-  },
-  "name": "Deploy to GitHub Pages",
-  "on": {
-    "push": {
-      "branches": [
-        "main"
-      ]
-    },
-    "workflow_dispatch": {}
-  }
-}
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+concurrency:
+  cancel-in-progress: true
+  group: github-pages
+
+jobs:
+  deploy:
+    name: Deploy to GitHub Pages
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: '${{ steps.deployment.outputs.page_url }}'
+    permissions:
+      contents: read
+      id-token: write
+      pages: write
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v5
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Build content
+        run: sh ci/build-pages.sh
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: output
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
