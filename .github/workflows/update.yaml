@@ -27,11 +27,11 @@ jobs:
 
       - name: Update ReMix info (on schedule)
         if: github.event_name == 'schedule'
-        run: uv run ocremixdata.py update
+        run: uv run --no-dev ocremixdata.py update
 
       - name: Update ReMix info (on workflow_dispatch)
         if: github.event_name == 'workflow_dispatch'
-        run: 'uv run ocremixdata.py update --limit ${{ inputs.limit }}'
+        run: uv run --no-dev ocremixdata.py update --limit ${{ inputs.limit }}
 
       - name: Commit and push if changes
         id: commit

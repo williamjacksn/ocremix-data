@@ -1,2 +1,2 @@
 pip install uv
-uv run ocremixdata.py import-missing
+uv run --no-dev ocremixdata.py import-missing

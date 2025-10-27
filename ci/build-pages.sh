@@ -1,3 +1,3 @@
 pip install uv
-uv run ocremixdata.py build-pages
-uv run gen-openapi-spec.py
+uv run --no-dev ocremixdata.py build-pages
+uv run --no-dev gen-openapi-spec.py
