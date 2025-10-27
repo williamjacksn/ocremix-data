@@ -2424,6 +2424,7 @@ INSERT INTO "game" VALUES(988,'Monarch: Heroes of a New Age','https://ocremix.or
 INSERT INTO "game" VALUES(1127,'Firelord','https://ocremix.org/game/1127/firelord-c64');
 INSERT INTO "game" VALUES(1135,'Flimbo''s Quest','https://ocremix.org/game/1135/flimbos-quest-c64');
 INSERT INTO "game" VALUES(1201,'Ghosts''n Goblins','https://ocremix.org/game/1201/ghostsn-goblins-c64');
+INSERT INTO "game" VALUES(1354,'Invaders of the Lost Tomb','https://ocremix.org/game/1354/invaders-of-the-lost-tomb-c64');
 INSERT INTO "game" VALUES(1682,'Operation Wolf','https://ocremix.org/game/1682/operation-wolf-c64');
 INSERT INTO "game" VALUES(1901,'R-Type','https://ocremix.org/game/1901/r-type-c64');
 INSERT INTO "game" VALUES(2203,'Terra Cresta','https://ocremix.org/game/2203/terra-cresta-c64');
@@ -2746,6 +2747,7 @@ INSERT INTO "game" VALUES(95900,'A Short Hike','https://ocremix.org/game/95900/s
 INSERT INTO "game" VALUES(95901,'Xenoblade Chronicles X','https://ocremix.org/game/95901/xenoblade-chronicles-x-wiiu');
 INSERT INTO "game" VALUES(95902,'Crypt Custodian','https://ocremix.org/game/95902/crypt-custodian-win');
 INSERT INTO "game" VALUES(95903,'Fire Emblem Engage','https://ocremix.org/game/95903/fire-emblem-engage-swtch');
+INSERT INTO "game" VALUES(95907,'Persona 5','https://ocremix.org/game/95907/persona-5-ps4');
 CREATE TABLE remix (
     id integer primary key,
     title text not null,
@@ -7489,6 +7491,10 @@ INSERT INTO "remix" VALUES(4927,'Prepare to Fry','Dark Souls','2025-10-21T01:01:
 INSERT INTO "remix" VALUES(4928,'Dawn Chorus','Donkey Kong Country 2: Diddy''s Kong Quest','2025-10-23T01:01:17.809108+00:00','https://www.youtube.com/watch?v=TGIo9kPVBfc',48,'https://ocrmirror.org/files/music/remixes/Donkey_Kong_Country_2_Dawn_Chorus_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4929,'Despierta la Bestia Que Hay en Ti','Altered Beast','2025-10-24T00:58:05.656288+00:00','https://www.youtube.com/watch?v=MnTfOa_9PFc',717,'https://ocrmirror.org/files/music/remixes/Altered_Beast_Despierta_la_Bestia_Que_Hay_en_Ti_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4930,'Diamonds and Dust','Donkey Kong Country 2: Diddy''s Kong Quest','2025-10-25T00:59:34.036943+00:00','https://www.youtube.com/watch?v=vS0gdx_Qm3A',48,'https://ocrmirror.org/files/music/remixes/Donkey_Kong_Country_2_Diamonds_and_Dust_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4931,'Illuminated Dystopia','Invaders of the Lost Tomb','2025-10-27T16:51:19.323245+00:00','https://www.youtube.com/watch?v=t6W8YBIqVnY',1354,'https://ocrmirror.org/files/music/remixes/Invaders_of_the_Lost_Tomb_Illuminated_Dystopia_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4932,'Make a Note','Persona 5','2025-10-27T16:51:20.307223+00:00','https://www.youtube.com/watch?v=RtqUHHHddsE',95907,'https://ocrmirror.org/files/music/remixes/Persona_5_Make_a_Note_OC_ReMix.mp3',1);
+INSERT INTO "remix" VALUES(4933,'Do You See?','The Legend of Zelda: Majora''s Mask','2025-10-27T16:51:21.236580+00:00','https://www.youtube.com/watch?v=fJBvioceKZA',490,'https://ocrmirror.org/files/music/remixes/Legend_of_Zelda_Majora''s_Mask_Do_You_See_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4934,'Healing Termina','The Legend of Zelda: Majora''s Mask','2025-10-27T16:51:22.142471+00:00','https://www.youtube.com/watch?v=Dm6dROSBhGs',490,'https://ocrmirror.org/files/music/remixes/Legend_of_Zelda_Majora''s_Mask_Healing_Termina_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13972,6 +13978,11 @@ INSERT INTO "remix_artist" VALUES(4930,10690,1);
 INSERT INTO "remix_artist" VALUES(4930,13046,1);
 INSERT INTO "remix_artist" VALUES(4930,18710,1);
 INSERT INTO "remix_artist" VALUES(4930,13667,1);
+INSERT INTO "remix_artist" VALUES(4931,18832,1);
+INSERT INTO "remix_artist" VALUES(4932,12364,1);
+INSERT INTO "remix_artist" VALUES(4932,13046,1);
+INSERT INTO "remix_artist" VALUES(4933,17158,1);
+INSERT INTO "remix_artist" VALUES(4934,18752,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -45828,6 +45839,13 @@ INSERT INTO "remix_tag" VALUES(4011,'epic',1);
 INSERT INTO "remix_tag" VALUES(4011,'suspenseful',1);
 INSERT INTO "remix_tag" VALUES(4011,'collab',1);
 INSERT INTO "remix_tag" VALUES(4011,'live-instruments',1);
+INSERT INTO "remix_tag" VALUES(4931,'synth',1);
+INSERT INTO "remix_tag" VALUES(4932,'vocals-male',1);
+INSERT INTO "remix_tag" VALUES(4932,'collab',1);
+INSERT INTO "remix_tag" VALUES(4932,'compo-dod',1);
+INSERT INTO "remix_tag" VALUES(4932,'lyrics-original',1);
+INSERT INTO "remix_tag" VALUES(4932,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4934,'duration-long',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
