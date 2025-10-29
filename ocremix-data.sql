@@ -1591,6 +1591,7 @@ INSERT INTO "artist" VALUES(18904,'Unknown Pseudoartist','https://ocremix.org/ar
 INSERT INTO "artist" VALUES(18906,'p4p3r','https://ocremix.org/artist/18906/p4p3r');
 INSERT INTO "artist" VALUES(18907,'SQORE','https://ocremix.org/artist/18907/sqore');
 INSERT INTO "artist" VALUES(18908,'Giorgos Panagiotou','https://ocremix.org/artist/18908/giorgos-panagiotou');
+INSERT INTO "artist" VALUES(18909,'M. Bulteau','https://ocremix.org/artist/18909/m-bulteau');
 INSERT INTO "artist" VALUES(18913,'Roland N. Laracuente Martínez','https://ocremix.org/artist/18913/roland-n-laracuente-martinez');
 INSERT INTO "artist" VALUES(18925,'BANANA TRASH','https://ocremix.org/artist/18925/banana-trash');
 INSERT INTO "artist" VALUES(18926,'Seveneyes','https://ocremix.org/artist/18926/seveneyes');
@@ -1620,6 +1621,7 @@ INSERT INTO "artist" VALUES(18999,'Seth Skoda','https://ocremix.org/artist/18999
 INSERT INTO "artist" VALUES(19000,'The Crazy 8ths','https://ocremix.org/artist/19000/the-crazy-8ths');
 INSERT INTO "artist" VALUES(19007,'Azina','https://ocremix.org/artist/19007/azina');
 INSERT INTO "artist" VALUES(19008,'Mark van Mechelen','https://ocremix.org/artist/19008/mark-van-mechelen');
+INSERT INTO "artist" VALUES(19011,'Tomás Costa','https://ocremix.org/artist/19011/tomas-costa');
 CREATE TABLE game (
     id integer primary key,
     name text not null,
@@ -7495,6 +7497,8 @@ INSERT INTO "remix" VALUES(4931,'Illuminated Dystopia','Invaders of the Lost Tom
 INSERT INTO "remix" VALUES(4932,'Make a Note','Persona 5','2025-10-27T16:51:20.307223+00:00','https://www.youtube.com/watch?v=RtqUHHHddsE',95907,'https://ocrmirror.org/files/music/remixes/Persona_5_Make_a_Note_OC_ReMix.mp3',1);
 INSERT INTO "remix" VALUES(4933,'Do You See?','The Legend of Zelda: Majora''s Mask','2025-10-27T16:51:21.236580+00:00','https://www.youtube.com/watch?v=fJBvioceKZA',490,'https://ocrmirror.org/files/music/remixes/Legend_of_Zelda_Majora''s_Mask_Do_You_See_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4934,'Healing Termina','The Legend of Zelda: Majora''s Mask','2025-10-27T16:51:22.142471+00:00','https://www.youtube.com/watch?v=Dm6dROSBhGs',490,'https://ocrmirror.org/files/music/remixes/Legend_of_Zelda_Majora''s_Mask_Healing_Termina_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4935,'Kremling Kraic','Donkey Kong Country 2: Diddy''s Kong Quest','2025-10-29T01:04:57.240335+00:00','https://www.youtube.com/watch?v=mP2iRU0v9Cw',48,'https://ocrmirror.org/files/music/remixes/Donkey_Kong_Country_2_Kremling_Kraic_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4936,'Do Re Dedede','Kirby Super Star','2025-10-29T01:04:57.917205+00:00','https://www.youtube.com/watch?v=dGkjIJeX1-c',199,'https://ocrmirror.org/files/music/remixes/Kirby_Super_Star_Do_Re_Dedede_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -13983,6 +13987,9 @@ INSERT INTO "remix_artist" VALUES(4932,12364,1);
 INSERT INTO "remix_artist" VALUES(4932,13046,1);
 INSERT INTO "remix_artist" VALUES(4933,17158,1);
 INSERT INTO "remix_artist" VALUES(4934,18752,1);
+INSERT INTO "remix_artist" VALUES(4935,18909,1);
+INSERT INTO "remix_artist" VALUES(4935,19011,1);
+INSERT INTO "remix_artist" VALUES(4936,16119,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -45864,6 +45871,9 @@ INSERT INTO "remix_tag" VALUES(4913,'vibraphone',1);
 INSERT INTO "remix_tag" VALUES(4913,'chill',1);
 INSERT INTO "remix_tag" VALUES(4913,'mellow',1);
 INSERT INTO "remix_tag" VALUES(4913,'timesig-6-8',1);
+INSERT INTO "remix_tag" VALUES(4935,'collab',1);
+INSERT INTO "remix_tag" VALUES(4935,'medley',1);
+INSERT INTO "remix_tag" VALUES(4936,'timesig-4-4',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
