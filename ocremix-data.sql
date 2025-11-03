@@ -7518,6 +7518,7 @@ INSERT INTO "remix" VALUES(4943,'Sell It to Me','The Legend of Zelda: Twilight P
 INSERT INTO "remix" VALUES(4944,'BLOOD','Castlevania: Dawn of Sorrow','2025-11-01T01:05:48.750285+00:00','https://www.youtube.com/watch?v=DP_q5Qw6X20',723,'https://ocrmirror.org/files/music/remixes/Castlevania_Dawn_of_Sorrow_BLOOD_OC_ReMix.mp3',1);
 INSERT INTO "remix" VALUES(4945,'You and Your Friends Are Dead.','Friday the 13th','2025-11-01T01:05:49.540040+00:00','https://www.youtube.com/watch?v=qc570TmgkR0',311,'https://ocrmirror.org/files/music/remixes/Friday_the_13th_You_and_Your_Friends_are_Dead_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4946,'Ancient Skyline','Final Fantasy XIV','2025-11-02T01:06:34.700706+00:00','https://www.youtube.com/watch?v=TJXki0pBXPM',95839,'https://ocrmirror.org/files/music/remixes/Final_Fantasy_14_Ancient_Skyline_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4947,'A Flower for Your Funeral','Undertale','2025-11-03T01:05:45.846512+00:00','https://www.youtube.com/watch?v=FZddJFzJyhM',95077,'https://ocrmirror.org/files/music/remixes/Undertale_A_Flower_for_Your_Funeral_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -14033,6 +14034,8 @@ INSERT INTO "remix_artist" VALUES(4944,13667,1);
 INSERT INTO "remix_artist" VALUES(4945,4685,1);
 INSERT INTO "remix_artist" VALUES(4946,18989,1);
 INSERT INTO "remix_artist" VALUES(4946,18711,1);
+INSERT INTO "remix_artist" VALUES(4947,13500,1);
+INSERT INTO "remix_artist" VALUES(4947,18653,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -45964,6 +45967,8 @@ INSERT INTO "remix_tag" VALUES(4945,'halloween',1);
 INSERT INTO "remix_tag" VALUES(4946,'jazz',1);
 INSERT INTO "remix_tag" VALUES(4946,'collab',1);
 INSERT INTO "remix_tag" VALUES(4946,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4947,'collab',1);
+INSERT INTO "remix_tag" VALUES(4947,'compo-dod',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
