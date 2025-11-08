@@ -1627,6 +1627,7 @@ INSERT INTO "artist" VALUES(19010,'N. Fanning','https://ocremix.org/artist/19010
 INSERT INTO "artist" VALUES(19011,'Tomás Costa','https://ocremix.org/artist/19011/tomas-costa');
 INSERT INTO "artist" VALUES(19017,'sallekhana','https://ocremix.org/artist/19017/sallekhana');
 INSERT INTO "artist" VALUES(19018,'Dyluck','https://ocremix.org/artist/19018/dyluck');
+INSERT INTO "artist" VALUES(19019,'pixeltea','https://ocremix.org/artist/19019/pixeltea');
 CREATE TABLE game (
     id integer primary key,
     name text not null,
@@ -2549,6 +2550,7 @@ INSERT INTO "game" VALUES(15050,'Heretic','https://ocremix.org/game/15050/hereti
 INSERT INTO "game" VALUES(15244,'Jazz Jackrabbit','https://ocremix.org/game/15244/jazz-jackrabbit-dos');
 INSERT INTO "game" VALUES(15247,'Jazz Jackrabbit: Holiday Hare 1995','https://ocremix.org/game/15247/jazz-jackrabbit-holiday-hare-1995-dos');
 INSERT INTO "game" VALUES(15297,'The Lord of the Rings, Vol. I','https://ocremix.org/game/15297/lord-of-the-rings-vol-i-dos');
+INSERT INTO "game" VALUES(15669,'MegaRace','https://ocremix.org/game/15669/megarace-dos');
 INSERT INTO "game" VALUES(16150,'Psycho Pinball','https://ocremix.org/game/16150/psycho-pinball-dos');
 INSERT INTO "game" VALUES(16178,'Quake','https://ocremix.org/game/16178/quake-dos');
 INSERT INTO "game" VALUES(16193,'Quest for Glory IV: Shadows of Darkness','https://ocremix.org/game/16193/quest-for-glory-iv-shadows-of-darkness-dos');
@@ -2759,6 +2761,7 @@ INSERT INTO "game" VALUES(95902,'Crypt Custodian','https://ocremix.org/game/9590
 INSERT INTO "game" VALUES(95903,'Fire Emblem Engage','https://ocremix.org/game/95903/fire-emblem-engage-swtch');
 INSERT INTO "game" VALUES(95907,'Persona 5','https://ocremix.org/game/95907/persona-5-ps4');
 INSERT INTO "game" VALUES(95911,'Look Outside','https://ocremix.org/game/95911/look-outside-win');
+INSERT INTO "game" VALUES(95913,'Pikmin 4','https://ocremix.org/game/95913/pikmin-4-swtch');
 CREATE TABLE remix (
     id integer primary key,
     title text not null,
@@ -7519,6 +7522,8 @@ INSERT INTO "remix" VALUES(4944,'BLOOD','Castlevania: Dawn of Sorrow','2025-11-0
 INSERT INTO "remix" VALUES(4945,'You and Your Friends Are Dead.','Friday the 13th','2025-11-01T01:05:49.540040+00:00','https://www.youtube.com/watch?v=qc570TmgkR0',311,'https://ocrmirror.org/files/music/remixes/Friday_the_13th_You_and_Your_Friends_are_Dead_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4946,'Ancient Skyline','Final Fantasy XIV','2025-11-02T01:06:34.700706+00:00','https://www.youtube.com/watch?v=TJXki0pBXPM',95839,'https://ocrmirror.org/files/music/remixes/Final_Fantasy_14_Ancient_Skyline_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4947,'A Flower for Your Funeral','Undertale','2025-11-03T01:05:45.846512+00:00','https://www.youtube.com/watch?v=FZddJFzJyhM',95077,'https://ocrmirror.org/files/music/remixes/Undertale_A_Flower_for_Your_Funeral_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4948,'Rescue Corps Anthem','Pikmin 4','2025-11-08T00:59:44.153665+00:00','https://www.youtube.com/watch?v=porzH7zegBY',95913,'https://ocrmirror.org/files/music/remixes/Pikmin_4_Rescue_Corps_Anthem_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4949,'In Memoriam','MegaRace','2025-11-08T00:59:44.912673+00:00','https://www.youtube.com/watch?v=vLvvhsx7Zwc',15669,'https://ocrmirror.org/files/music/remixes/MegaRace_In_Memoriam_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -14036,6 +14041,8 @@ INSERT INTO "remix_artist" VALUES(4946,18989,1);
 INSERT INTO "remix_artist" VALUES(4946,18711,1);
 INSERT INTO "remix_artist" VALUES(4947,13500,1);
 INSERT INTO "remix_artist" VALUES(4947,18653,1);
+INSERT INTO "remix_artist" VALUES(4948,19019,1);
+INSERT INTO "remix_artist" VALUES(4949,18724,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -45975,6 +45982,7 @@ INSERT INTO "remix_tag" VALUES(4919,'electronic',1);
 INSERT INTO "remix_tag" VALUES(4919,'synth',1);
 INSERT INTO "remix_tag" VALUES(4919,'chill',1);
 INSERT INTO "remix_tag" VALUES(4919,'suspenseful',1);
+INSERT INTO "remix_tag" VALUES(4949,'compo-dod',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
