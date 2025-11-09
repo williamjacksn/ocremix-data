@@ -1609,6 +1609,7 @@ INSERT INTO "artist" VALUES(18964,'Triple B Music','https://ocremix.org/artist/1
 INSERT INTO "artist" VALUES(18965,'Linnea Burr','https://ocremix.org/artist/18965/linnea-burr');
 INSERT INTO "artist" VALUES(18966,'Dylan William van de Wal','https://ocremix.org/artist/18966/dylan-william-van-de-wal');
 INSERT INTO "artist" VALUES(18967,'David Lallande','https://ocremix.org/artist/18967/david-lallande');
+INSERT INTO "artist" VALUES(18968,'Bharat Raman','https://ocremix.org/artist/18968/bharat-raman');
 INSERT INTO "artist" VALUES(18971,'Slowly Crushed','https://ocremix.org/artist/18971/slowly-crushed');
 INSERT INTO "artist" VALUES(18983,'Xander Plute','https://ocremix.org/artist/18983/xander-plute');
 INSERT INTO "artist" VALUES(18984,'Unfocused in IA','https://ocremix.org/artist/18984/unfocused-in-ia');
@@ -7524,6 +7525,9 @@ INSERT INTO "remix" VALUES(4946,'Ancient Skyline','Final Fantasy XIV','2025-11-0
 INSERT INTO "remix" VALUES(4947,'A Flower for Your Funeral','Undertale','2025-11-03T01:05:45.846512+00:00','https://www.youtube.com/watch?v=FZddJFzJyhM',95077,'https://ocrmirror.org/files/music/remixes/Undertale_A_Flower_for_Your_Funeral_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4948,'Rescue Corps Anthem','Pikmin 4','2025-11-08T00:59:44.153665+00:00','https://www.youtube.com/watch?v=porzH7zegBY',95913,'https://ocrmirror.org/files/music/remixes/Pikmin_4_Rescue_Corps_Anthem_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4949,'In Memoriam','MegaRace','2025-11-08T00:59:44.912673+00:00','https://www.youtube.com/watch?v=vLvvhsx7Zwc',15669,'https://ocrmirror.org/files/music/remixes/MegaRace_In_Memoriam_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4950,'A Memory','Hollow Knight','2025-11-09T01:06:13.015133+00:00','https://www.youtube.com/watch?v=-TuQKppqaAI',95554,'https://ocrmirror.org/files/music/remixes/Hollow_Knight_A_Memory_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4951,'If You Could Only See (The Best Is Yet to Come)','Metal Gear Solid','2025-11-09T01:06:13.942883+00:00','https://www.youtube.com/watch?v=wMUHN38Y0wA',328,'https://ocrmirror.org/files/music/remixes/Metal_Gear_Solid_If_You_Could_Only_See_(The_Best_Is_Yet_to_Come)_OC_ReMix.mp3',1);
+INSERT INTO "remix" VALUES(4952,'Rigging Rampage','Donkey Kong Country 2: Diddy''s Kong Quest','2025-11-09T01:06:14.731172+00:00','https://www.youtube.com/watch?v=9mFQtLotSSo',48,'https://ocrmirror.org/files/music/remixes/Donkey_Kong_Country_2_Rigging_Rampage_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -14043,6 +14047,15 @@ INSERT INTO "remix_artist" VALUES(4947,13500,1);
 INSERT INTO "remix_artist" VALUES(4947,18653,1);
 INSERT INTO "remix_artist" VALUES(4948,19019,1);
 INSERT INTO "remix_artist" VALUES(4949,18724,1);
+INSERT INTO "remix_artist" VALUES(4950,11940,1);
+INSERT INTO "remix_artist" VALUES(4950,16845,1);
+INSERT INTO "remix_artist" VALUES(4951,10690,1);
+INSERT INTO "remix_artist" VALUES(4951,18968,1);
+INSERT INTO "remix_artist" VALUES(4951,18724,1);
+INSERT INTO "remix_artist" VALUES(4951,18941,1);
+INSERT INTO "remix_artist" VALUES(4951,18742,1);
+INSERT INTO "remix_artist" VALUES(4951,13667,1);
+INSERT INTO "remix_artist" VALUES(4952,12541,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -45999,6 +46012,35 @@ INSERT INTO "remix_tag" VALUES(4923,'vocals-metal',1);
 INSERT INTO "remix_tag" VALUES(4923,'energetic',1);
 INSERT INTO "remix_tag" VALUES(4923,'compo-dod',1);
 INSERT INTO "remix_tag" VALUES(4923,'live-instruments',1);
+INSERT INTO "remix_tag" VALUES(4950,'new-age',1);
+INSERT INTO "remix_tag" VALUES(4950,'cello',1);
+INSERT INTO "remix_tag" VALUES(4950,'synth',1);
+INSERT INTO "remix_tag" VALUES(4950,'chill',1);
+INSERT INTO "remix_tag" VALUES(4950,'mellow',1);
+INSERT INTO "remix_tag" VALUES(4950,'collab',1);
+INSERT INTO "remix_tag" VALUES(4950,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4951,'cinematic',1);
+INSERT INTO "remix_tag" VALUES(4951,'post-rock',1);
+INSERT INTO "remix_tag" VALUES(4951,'electric-guitar',1);
+INSERT INTO "remix_tag" VALUES(4951,'piano',1);
+INSERT INTO "remix_tag" VALUES(4951,'singing',1);
+INSERT INTO "remix_tag" VALUES(4951,'viola',1);
+INSERT INTO "remix_tag" VALUES(4951,'violin',1);
+INSERT INTO "remix_tag" VALUES(4951,'vocals-female',1);
+INSERT INTO "remix_tag" VALUES(4951,'epic',1);
+INSERT INTO "remix_tag" VALUES(4951,'collab',1);
+INSERT INTO "remix_tag" VALUES(4951,'compo-dod',1);
+INSERT INTO "remix_tag" VALUES(4951,'live-instruments',1);
+INSERT INTO "remix_tag" VALUES(4951,'lyrics-existing',1);
+INSERT INTO "remix_tag" VALUES(4951,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4952,'folk',1);
+INSERT INTO "remix_tag" VALUES(4952,'metal',1);
+INSERT INTO "remix_tag" VALUES(4952,'acoustic-guitar',1);
+INSERT INTO "remix_tag" VALUES(4952,'electric-guitar',1);
+INSERT INTO "remix_tag" VALUES(4952,'flute',1);
+INSERT INTO "remix_tag" VALUES(4952,'violin',1);
+INSERT INTO "remix_tag" VALUES(4952,'energetic',1);
+INSERT INTO "remix_tag" VALUES(4952,'timesig-4-4',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
