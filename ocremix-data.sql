@@ -7528,6 +7528,8 @@ INSERT INTO "remix" VALUES(4949,'In Memoriam','MegaRace','2025-11-08T00:59:44.91
 INSERT INTO "remix" VALUES(4950,'A Memory','Hollow Knight','2025-11-09T01:06:13.015133+00:00','https://www.youtube.com/watch?v=-TuQKppqaAI',95554,'https://ocrmirror.org/files/music/remixes/Hollow_Knight_A_Memory_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4951,'If You Could Only See (The Best Is Yet to Come)','Metal Gear Solid','2025-11-09T01:06:13.942883+00:00','https://www.youtube.com/watch?v=wMUHN38Y0wA',328,'https://ocrmirror.org/files/music/remixes/Metal_Gear_Solid_If_You_Could_Only_See_(The_Best_Is_Yet_to_Come)_OC_ReMix.mp3',1);
 INSERT INTO "remix" VALUES(4952,'Rigging Rampage','Donkey Kong Country 2: Diddy''s Kong Quest','2025-11-09T01:06:14.731172+00:00','https://www.youtube.com/watch?v=9mFQtLotSSo',48,'https://ocrmirror.org/files/music/remixes/Donkey_Kong_Country_2_Rigging_Rampage_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4953,'Five More, Nevermore','Chrono Trigger','2025-11-10T01:06:11.438065+00:00','https://www.youtube.com/watch?v=29q8iVhgRE8',16,'https://ocrmirror.org/files/music/remixes/Chrono_Trigger_Five_More_Nevermore_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4954,'The 7 Habits of Highly Effective Weed Wackers','The Legend of Zelda: The Wind Waker','2025-11-10T01:06:12.239119+00:00','https://www.youtube.com/watch?v=tGcFaLOXPtg',377,'https://ocrmirror.org/files/music/remixes/Legend_of_Zelda_The_Wind_Waker_The_7_Habits_of_Highly_Effective_Weed_Wackers_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -14056,6 +14058,11 @@ INSERT INTO "remix_artist" VALUES(4951,18941,1);
 INSERT INTO "remix_artist" VALUES(4951,18742,1);
 INSERT INTO "remix_artist" VALUES(4951,13667,1);
 INSERT INTO "remix_artist" VALUES(4952,12541,1);
+INSERT INTO "remix_artist" VALUES(4953,13667,1);
+INSERT INTO "remix_artist" VALUES(4954,18913,1);
+INSERT INTO "remix_artist" VALUES(4954,13500,1);
+INSERT INTO "remix_artist" VALUES(4954,18724,1);
+INSERT INTO "remix_artist" VALUES(4954,18712,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -46041,6 +46048,28 @@ INSERT INTO "remix_tag" VALUES(4952,'flute',1);
 INSERT INTO "remix_tag" VALUES(4952,'violin',1);
 INSERT INTO "remix_tag" VALUES(4952,'energetic',1);
 INSERT INTO "remix_tag" VALUES(4952,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4953,'cinematic',1);
+INSERT INTO "remix_tag" VALUES(4953,'new-age',1);
+INSERT INTO "remix_tag" VALUES(4953,'piano',1);
+INSERT INTO "remix_tag" VALUES(4953,'sound-fx',1);
+INSERT INTO "remix_tag" VALUES(4953,'strings',1);
+INSERT INTO "remix_tag" VALUES(4953,'synth',1);
+INSERT INTO "remix_tag" VALUES(4953,'mystical',1);
+INSERT INTO "remix_tag" VALUES(4953,'solemn',1);
+INSERT INTO "remix_tag" VALUES(4953,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4954,'jazz',1);
+INSERT INTO "remix_tag" VALUES(4954,'metal',1);
+INSERT INTO "remix_tag" VALUES(4954,'prog-rock',1);
+INSERT INTO "remix_tag" VALUES(4954,'organ',1);
+INSERT INTO "remix_tag" VALUES(4954,'piano',1);
+INSERT INTO "remix_tag" VALUES(4954,'synth',1);
+INSERT INTO "remix_tag" VALUES(4954,'aggressive',1);
+INSERT INTO "remix_tag" VALUES(4954,'trippy',1);
+INSERT INTO "remix_tag" VALUES(4954,'collab',1);
+INSERT INTO "remix_tag" VALUES(4954,'compo-dod',1);
+INSERT INTO "remix_tag" VALUES(4954,'live-instruments',1);
+INSERT INTO "remix_tag" VALUES(4954,'timesig-irregular',1);
+INSERT INTO "remix_tag" VALUES(4954,'timesig-variable',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
