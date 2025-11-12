@@ -1629,6 +1629,8 @@ INSERT INTO "artist" VALUES(19011,'Tomás Costa','https://ocremix.org/artist/190
 INSERT INTO "artist" VALUES(19017,'sallekhana','https://ocremix.org/artist/19017/sallekhana');
 INSERT INTO "artist" VALUES(19018,'Dyluck','https://ocremix.org/artist/19018/dyluck');
 INSERT INTO "artist" VALUES(19019,'pixeltea','https://ocremix.org/artist/19019/pixeltea');
+INSERT INTO "artist" VALUES(19020,'LANparty','https://ocremix.org/artist/19020/lanparty');
+INSERT INTO "artist" VALUES(19021,'Theology','https://ocremix.org/artist/19021/theology');
 CREATE TABLE game (
     id integer primary key,
     name text not null,
@@ -7530,6 +7532,7 @@ INSERT INTO "remix" VALUES(4951,'If You Could Only See (The Best Is Yet to Come)
 INSERT INTO "remix" VALUES(4952,'Rigging Rampage','Donkey Kong Country 2: Diddy''s Kong Quest','2025-11-09T01:06:14.731172+00:00','https://www.youtube.com/watch?v=9mFQtLotSSo',48,'https://ocrmirror.org/files/music/remixes/Donkey_Kong_Country_2_Rigging_Rampage_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4953,'Five More, Nevermore','Chrono Trigger','2025-11-10T01:06:11.438065+00:00','https://www.youtube.com/watch?v=29q8iVhgRE8',16,'https://ocrmirror.org/files/music/remixes/Chrono_Trigger_Five_More_Nevermore_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4954,'The 7 Habits of Highly Effective Weed Wackers','The Legend of Zelda: The Wind Waker','2025-11-10T01:06:12.239119+00:00','https://www.youtube.com/watch?v=tGcFaLOXPtg',377,'https://ocrmirror.org/files/music/remixes/Legend_of_Zelda_The_Wind_Waker_The_7_Habits_of_Highly_Effective_Weed_Wackers_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4955,'A Walk in Snowpoint City','Pokémon Diamond Version','2025-11-12T01:03:30.790979+00:00','https://www.youtube.com/watch?v=QzI1fBNU6WM',635,'https://ocrmirror.org/files/music/remixes/Pokemon_Diamond_Version_A_Walk_in_Snowpoint_City_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -14063,6 +14066,8 @@ INSERT INTO "remix_artist" VALUES(4954,18913,1);
 INSERT INTO "remix_artist" VALUES(4954,13500,1);
 INSERT INTO "remix_artist" VALUES(4954,18724,1);
 INSERT INTO "remix_artist" VALUES(4954,18712,1);
+INSERT INTO "remix_artist" VALUES(4955,19020,1);
+INSERT INTO "remix_artist" VALUES(4955,19021,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -46084,6 +46089,7 @@ INSERT INTO "remix_tag" VALUES(4927,'marimba',1);
 INSERT INTO "remix_tag" VALUES(4927,'organ',1);
 INSERT INTO "remix_tag" VALUES(4927,'piano',1);
 INSERT INTO "remix_tag" VALUES(4927,'chill',1);
+INSERT INTO "remix_tag" VALUES(4955,'collab',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
