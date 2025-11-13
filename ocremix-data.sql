@@ -2762,6 +2762,7 @@ INSERT INTO "game" VALUES(95900,'A Short Hike','https://ocremix.org/game/95900/s
 INSERT INTO "game" VALUES(95901,'Xenoblade Chronicles X','https://ocremix.org/game/95901/xenoblade-chronicles-x-wiiu');
 INSERT INTO "game" VALUES(95902,'Crypt Custodian','https://ocremix.org/game/95902/crypt-custodian-win');
 INSERT INTO "game" VALUES(95903,'Fire Emblem Engage','https://ocremix.org/game/95903/fire-emblem-engage-swtch');
+INSERT INTO "game" VALUES(95906,'Microsoft Flight Simulator','https://ocremix.org/game/95906/microsoft-flight-simulator-win');
 INSERT INTO "game" VALUES(95907,'Persona 5','https://ocremix.org/game/95907/persona-5-ps4');
 INSERT INTO "game" VALUES(95911,'Look Outside','https://ocremix.org/game/95911/look-outside-win');
 INSERT INTO "game" VALUES(95913,'Pikmin 4','https://ocremix.org/game/95913/pikmin-4-swtch');
@@ -7533,6 +7534,7 @@ INSERT INTO "remix" VALUES(4952,'Rigging Rampage','Donkey Kong Country 2: Diddy'
 INSERT INTO "remix" VALUES(4953,'Five More, Nevermore','Chrono Trigger','2025-11-10T01:06:11.438065+00:00','https://www.youtube.com/watch?v=29q8iVhgRE8',16,'https://ocrmirror.org/files/music/remixes/Chrono_Trigger_Five_More_Nevermore_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4954,'The 7 Habits of Highly Effective Weed Wackers','The Legend of Zelda: The Wind Waker','2025-11-10T01:06:12.239119+00:00','https://www.youtube.com/watch?v=tGcFaLOXPtg',377,'https://ocrmirror.org/files/music/remixes/Legend_of_Zelda_The_Wind_Waker_The_7_Habits_of_Highly_Effective_Weed_Wackers_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4955,'A Walk in Snowpoint City','Pokémon Diamond Version','2025-11-12T01:03:30.790979+00:00','https://www.youtube.com/watch?v=QzI1fBNU6WM',635,'https://ocrmirror.org/files/music/remixes/Pokemon_Diamond_Version_A_Walk_in_Snowpoint_City_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4956,'Above the Borders','Microsoft Flight Simulator','2025-11-13T01:03:57.670659+00:00','https://www.youtube.com/watch?v=xdsW9TP1xPM',95906,'https://ocrmirror.org/files/music/remixes/Microsoft_Flight_Simulator_Above_the_Borders_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -14068,6 +14070,7 @@ INSERT INTO "remix_artist" VALUES(4954,18724,1);
 INSERT INTO "remix_artist" VALUES(4954,18712,1);
 INSERT INTO "remix_artist" VALUES(4955,19020,1);
 INSERT INTO "remix_artist" VALUES(4955,19021,1);
+INSERT INTO "remix_artist" VALUES(4956,9690,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -46090,6 +46093,7 @@ INSERT INTO "remix_tag" VALUES(4927,'organ',1);
 INSERT INTO "remix_tag" VALUES(4927,'piano',1);
 INSERT INTO "remix_tag" VALUES(4927,'chill',1);
 INSERT INTO "remix_tag" VALUES(4955,'collab',1);
+INSERT INTO "remix_tag" VALUES(4956,'compo-dod',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
