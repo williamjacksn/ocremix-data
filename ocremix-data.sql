@@ -7535,6 +7535,7 @@ INSERT INTO "remix" VALUES(4953,'Five More, Nevermore','Chrono Trigger','2025-11
 INSERT INTO "remix" VALUES(4954,'The 7 Habits of Highly Effective Weed Wackers','The Legend of Zelda: The Wind Waker','2025-11-10T01:06:12.239119+00:00','https://www.youtube.com/watch?v=tGcFaLOXPtg',377,'https://ocrmirror.org/files/music/remixes/Legend_of_Zelda_The_Wind_Waker_The_7_Habits_of_Highly_Effective_Weed_Wackers_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4955,'A Walk in Snowpoint City','Pokémon Diamond Version','2025-11-12T01:03:30.790979+00:00','https://www.youtube.com/watch?v=QzI1fBNU6WM',635,'https://ocrmirror.org/files/music/remixes/Pokemon_Diamond_Version_A_Walk_in_Snowpoint_City_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4956,'Above the Borders','Microsoft Flight Simulator','2025-11-13T01:03:57.670659+00:00','https://www.youtube.com/watch?v=xdsW9TP1xPM',95906,'https://ocrmirror.org/files/music/remixes/Microsoft_Flight_Simulator_Above_the_Borders_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4957,'We, Under the Stars','Shovel Knight','2025-11-14T01:03:49.046391+00:00','https://www.youtube.com/watch?v=C4EzM0oSEIY',95031,'https://ocrmirror.org/files/music/remixes/Shovel_Knight_We_Under_the_Stars_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -14071,6 +14072,8 @@ INSERT INTO "remix_artist" VALUES(4954,18712,1);
 INSERT INTO "remix_artist" VALUES(4955,19020,1);
 INSERT INTO "remix_artist" VALUES(4955,19021,1);
 INSERT INTO "remix_artist" VALUES(4956,9690,1);
+INSERT INTO "remix_artist" VALUES(4957,13500,1);
+INSERT INTO "remix_artist" VALUES(4957,10690,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -46104,6 +46107,8 @@ INSERT INTO "remix_tag" VALUES(4928,'chill',1);
 INSERT INTO "remix_tag" VALUES(4928,'mellow',1);
 INSERT INTO "remix_tag" VALUES(4928,'live-instruments',1);
 INSERT INTO "remix_tag" VALUES(4928,'meditation',1);
+INSERT INTO "remix_tag" VALUES(4957,'collab',1);
+INSERT INTO "remix_tag" VALUES(4957,'compo-dod',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
