@@ -1631,6 +1631,7 @@ INSERT INTO "artist" VALUES(19018,'Dyluck','https://ocremix.org/artist/19018/dyl
 INSERT INTO "artist" VALUES(19019,'pixeltea','https://ocremix.org/artist/19019/pixeltea');
 INSERT INTO "artist" VALUES(19020,'LANparty','https://ocremix.org/artist/19020/lanparty');
 INSERT INTO "artist" VALUES(19021,'Theology','https://ocremix.org/artist/19021/theology');
+INSERT INTO "artist" VALUES(19028,'Lady Varda','https://ocremix.org/artist/19028/lady-varda');
 CREATE TABLE game (
     id integer primary key,
     name text not null,
@@ -2764,6 +2765,7 @@ INSERT INTO "game" VALUES(95902,'Crypt Custodian','https://ocremix.org/game/9590
 INSERT INTO "game" VALUES(95903,'Fire Emblem Engage','https://ocremix.org/game/95903/fire-emblem-engage-swtch');
 INSERT INTO "game" VALUES(95906,'Microsoft Flight Simulator','https://ocremix.org/game/95906/microsoft-flight-simulator-win');
 INSERT INTO "game" VALUES(95907,'Persona 5','https://ocremix.org/game/95907/persona-5-ps4');
+INSERT INTO "game" VALUES(95910,'The Oregon Trail','https://ocremix.org/game/95910/oregon-trail-win');
 INSERT INTO "game" VALUES(95911,'Look Outside','https://ocremix.org/game/95911/look-outside-win');
 INSERT INTO "game" VALUES(95913,'Pikmin 4','https://ocremix.org/game/95913/pikmin-4-swtch');
 CREATE TABLE remix (
@@ -7536,6 +7538,8 @@ INSERT INTO "remix" VALUES(4954,'The 7 Habits of Highly Effective Weed Wackers',
 INSERT INTO "remix" VALUES(4955,'A Walk in Snowpoint City','Pokémon Diamond Version','2025-11-12T01:03:30.790979+00:00','https://www.youtube.com/watch?v=QzI1fBNU6WM',635,'https://ocrmirror.org/files/music/remixes/Pokemon_Diamond_Version_A_Walk_in_Snowpoint_City_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4956,'Above the Borders','Microsoft Flight Simulator','2025-11-13T01:03:57.670659+00:00','https://www.youtube.com/watch?v=xdsW9TP1xPM',95906,'https://ocrmirror.org/files/music/remixes/Microsoft_Flight_Simulator_Above_the_Borders_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4957,'We, Under the Stars','Shovel Knight','2025-11-14T01:03:49.046391+00:00','https://www.youtube.com/watch?v=C4EzM0oSEIY',95031,'https://ocrmirror.org/files/music/remixes/Shovel_Knight_We_Under_the_Stars_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4958,'House of Shadow','The Legend of Zelda: Ocarina of Time','2025-11-16T01:08:16.996181+00:00','https://www.youtube.com/watch?v=Rvy1JBzbPlk',67,'https://ocrmirror.org/files/music/remixes/Legend_of_Zelda_Ocarina_of_Time_House_of_Shadow_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4959,'Under a Summer Moon','The Oregon Trail','2025-11-16T01:08:17.789758+00:00','https://www.youtube.com/watch?v=mA-MNfMQ2rw',95910,'https://ocrmirror.org/files/music/remixes/Oregon_Trail_Under_a_Summer_Moon_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -14074,6 +14078,14 @@ INSERT INTO "remix_artist" VALUES(4955,19021,1);
 INSERT INTO "remix_artist" VALUES(4956,9690,1);
 INSERT INTO "remix_artist" VALUES(4957,13500,1);
 INSERT INTO "remix_artist" VALUES(4957,10690,1);
+INSERT INTO "remix_artist" VALUES(4958,13046,1);
+INSERT INTO "remix_artist" VALUES(4958,18941,1);
+INSERT INTO "remix_artist" VALUES(4959,18724,1);
+INSERT INTO "remix_artist" VALUES(4959,19028,1);
+INSERT INTO "remix_artist" VALUES(4959,18739,1);
+INSERT INTO "remix_artist" VALUES(4959,18839,1);
+INSERT INTO "remix_artist" VALUES(4959,18624,1);
+INSERT INTO "remix_artist" VALUES(4959,18590,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -46123,6 +46135,13 @@ INSERT INTO "remix_tag" VALUES(4930,'energetic',1);
 INSERT INTO "remix_tag" VALUES(4930,'extended-soloing',1);
 INSERT INTO "remix_tag" VALUES(4930,'glitching',1);
 INSERT INTO "remix_tag" VALUES(4930,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4958,'collab',1);
+INSERT INTO "remix_tag" VALUES(4958,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4959,'singing',1);
+INSERT INTO "remix_tag" VALUES(4959,'vocals-male',1);
+INSERT INTO "remix_tag" VALUES(4959,'collab',1);
+INSERT INTO "remix_tag" VALUES(4959,'compo-dod',1);
+INSERT INTO "remix_tag" VALUES(4959,'medley',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
