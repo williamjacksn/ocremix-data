@@ -7540,6 +7540,7 @@ INSERT INTO "remix" VALUES(4956,'Above the Borders','Microsoft Flight Simulator'
 INSERT INTO "remix" VALUES(4957,'We, Under the Stars','Shovel Knight','2025-11-14T01:03:49.046391+00:00','https://www.youtube.com/watch?v=C4EzM0oSEIY',95031,'https://ocrmirror.org/files/music/remixes/Shovel_Knight_We_Under_the_Stars_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4958,'House of Shadow','The Legend of Zelda: Ocarina of Time','2025-11-16T01:08:16.996181+00:00','https://www.youtube.com/watch?v=Rvy1JBzbPlk',67,'https://ocrmirror.org/files/music/remixes/Legend_of_Zelda_Ocarina_of_Time_House_of_Shadow_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4959,'Under a Summer Moon','The Oregon Trail','2025-11-16T01:08:17.789758+00:00','https://www.youtube.com/watch?v=mA-MNfMQ2rw',95910,'https://ocrmirror.org/files/music/remixes/Oregon_Trail_Under_a_Summer_Moon_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4960,'Howls of the Black Wind','Chrono Trigger','2025-11-17T01:04:48.878816+00:00','https://www.youtube.com/watch?v=p4Zc1fZPaPs',16,'https://ocrmirror.org/files/music/remixes/Chrono_Trigger_Howls_of_the_Black_Wind_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -14086,6 +14087,7 @@ INSERT INTO "remix_artist" VALUES(4959,18739,1);
 INSERT INTO "remix_artist" VALUES(4959,18839,1);
 INSERT INTO "remix_artist" VALUES(4959,18624,1);
 INSERT INTO "remix_artist" VALUES(4959,18590,1);
+INSERT INTO "remix_artist" VALUES(4960,18868,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -46142,6 +46144,7 @@ INSERT INTO "remix_tag" VALUES(4959,'vocals-male',1);
 INSERT INTO "remix_tag" VALUES(4959,'collab',1);
 INSERT INTO "remix_tag" VALUES(4959,'compo-dod',1);
 INSERT INTO "remix_tag" VALUES(4959,'medley',1);
+INSERT INTO "remix_tag" VALUES(4960,'timesig-4-4',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
