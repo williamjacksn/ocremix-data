@@ -6925,8 +6925,8 @@ INSERT INTO "remix" VALUES(4340,'Vision of Hades','Chrono Cross','2025-11-19T16:
 INSERT INTO "remix" VALUES(4341,'A Sacred Place','Star Fox Adventures','2025-11-19T20:38:44.196975+00:00','https://www.youtube.com/watch?v=DO-2MTkihRc',601,'https://ocrmirror.org/files/music/remixes/Star_Fox_Adventures_A_Sacred_Place_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4342,'Vice','Pac-Man','2025-11-19T10:45:42.843432+00:00','https://www.youtube.com/watch?v=6GU0dvCR4WA',142,'https://ocrmirror.org/files/music/remixes/Pac-Man_Vice_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4343,'You Had Me at Yellow','Pac-Man','2025-11-19T19:37:57.180844+00:00','https://www.youtube.com/watch?v=3iDlTyg2QHc',142,'https://ocrmirror.org/files/music/remixes/Pac-Man_You_Had_Me_at_Yellow_OC_ReMix.mp3',0);
-INSERT INTO "remix" VALUES(4344,'Catch the Fire','Journey to Silius','2025-10-28T23:38:28.358084+00:00','https://www.youtube.com/watch?v=k-XcwIGKLEk',154,'https://ocrmirror.org/files/music/remixes/Journey_to_Silius_Catch_the_Fire_OC_ReMix.mp3',1);
-INSERT INTO "remix" VALUES(4345,'Dancing in the Sky','Xenogears','2025-10-28T23:38:29.082527+00:00','https://www.youtube.com/watch?v=69vBWlODvNo',70,'https://ocrmirror.org/files/music/remixes/Xenogears_Dancing_in_the_Sky_OC_ReMix.mp3',1);
+INSERT INTO "remix" VALUES(4344,'Catch the Fire','Journey to Silius','2025-11-19T22:41:10.213573+00:00','https://www.youtube.com/watch?v=k-XcwIGKLEk',154,'https://ocrmirror.org/files/music/remixes/Journey_to_Silius_Catch_the_Fire_OC_ReMix.mp3',1);
+INSERT INTO "remix" VALUES(4345,'Dancing in the Sky','Xenogears','2025-11-19T22:41:10.635645+00:00','https://www.youtube.com/watch?v=69vBWlODvNo',70,'https://ocrmirror.org/files/music/remixes/Xenogears_Dancing_in_the_Sky_OC_ReMix.mp3',1);
 INSERT INTO "remix" VALUES(4346,'Chun-Li: Lady Dragon','Street Fighter II: The World Warrior','2025-10-29T03:35:00.144389+00:00','https://www.youtube.com/watch?v=oPp8Q0Cus-Q',54,'https://ocrmirror.org/files/music/remixes/Street_Fighter_2_Chun-Li_Lady_Dragon_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4347,'Qfwfq''s Origin of Birds','Paper Mario: The Thousand-Year Door','2025-10-29T03:35:00.978241+00:00','https://www.youtube.com/watch?v=UKn_bMESx-Q',804,'https://ocrmirror.org/files/music/remixes/Paper_Mario_The_Thousand-Year_Door_Qfwfq''s_Origin_of_Birds_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4348,'Immemorial Waters','Aquaria','2025-11-19T14:44:44.448108+00:00','https://www.youtube.com/watch?v=_qw3dgsAX-E',585,'https://ocrmirror.org/files/music/remixes/Aquaria_Immemorial_Waters_OC_ReMix.mp3',0);
@@ -6965,7 +6965,7 @@ INSERT INTO "remix" VALUES(4380,'Serene Spacefish','Metroid Fusion','2025-10-29T
 INSERT INTO "remix" VALUES(4381,'Dracula''s Tears','Castlevania II: Simon''s Quest','2025-10-29T05:42:44.822004+00:00','https://www.youtube.com/watch?v=i-MuLoTKMK0',19,'https://ocrmirror.org/files/music/remixes/Castlevania_2_Dracula''s_Tears_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4382,'The Shadow','Amnesia: The Dark Descent','2025-11-19T17:38:53.899256+00:00','https://www.youtube.com/watch?v=baBElMbf-Ds',95630,'https://ocrmirror.org/files/music/remixes/Amnesia_The_Dark_Descent_The_Shadow_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4383,'Ahh!! The Zombies Ate John Carpenter!','Terranigma','2025-10-29T08:48:46.645607+00:00','https://www.youtube.com/watch?v=ikjpL9oreJo',257,'https://ocrmirror.org/files/music/remixes/Terranigma_Ahh_The_Zombies_Ate_John_Carpenter_OC_ReMix.mp3',0);
-INSERT INTO "remix" VALUES(4384,'Violetville','Pokémon Red Version','2025-10-28T23:38:29.802156+00:00','https://www.youtube.com/watch?v=G_ulWxbmNgI',508,'https://ocrmirror.org/files/music/remixes/Pokemon_Red_Version_Violetville_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4384,'Violetville','Pokémon Red Version','2025-11-19T22:41:09.794868+00:00','https://www.youtube.com/watch?v=G_ulWxbmNgI',508,'https://ocrmirror.org/files/music/remixes/Pokemon_Red_Version_Violetville_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4385,'Pigmosh','Minecraft','2025-11-19T19:38:00.800126+00:00','https://www.youtube.com/watch?v=hghA9llsEI8',708,'https://ocrmirror.org/files/music/remixes/Minecraft_Pigmosh_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4386,'Black Moonrise (Midnight Mix)','Celeste','2025-11-19T17:38:53.489533+00:00','https://www.youtube.com/watch?v=R75ZVmv-qiE',95636,'https://ocrmirror.org/files/music/remixes/Celeste_Black_Moonrise_(Midnight_Mix)_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4387,'Live Mega, Live Más','Live A Live','2025-10-29T06:51:54.311873+00:00','https://www.youtube.com/watch?v=a3b2JaGerBI',556,'https://ocrmirror.org/files/music/remixes/Live_A_Live_Live_Mega_Live_Mas_OC_ReMix.mp3',0);
@@ -6976,7 +6976,7 @@ INSERT INTO "remix" VALUES(4391,'Reunion','Fire Emblem: Genealogy of the Holy Wa
 INSERT INTO "remix" VALUES(4392,'Gravity Suit','Metroid Prime','2025-10-29T11:38:10.250156+00:00','https://www.youtube.com/watch?v=6h_M5XRGmeo',425,'https://ocrmirror.org/files/music/remixes/Metroid_Prime_Gravity_Suit_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4393,'Chill Beats to Race To','Diddy Kong Racing','2025-10-29T02:21:26.039842+00:00','https://www.youtube.com/watch?v=kV7l7WyILWc',620,'https://ocrmirror.org/files/music/remixes/Diddy_Kong_Racing_Chill_Beats_to_Race_To_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4394,'A Different Kind of Dance','Octopath Traveler','2025-11-19T19:37:58.443642+00:00','https://www.youtube.com/watch?v=hcU9nX2oDqU',95560,'https://ocrmirror.org/files/music/remixes/Octopath_Traveler_A_Different_Kind_of_Dance_OC_ReMix.mp3',0);
-INSERT INTO "remix" VALUES(4395,'Nibelung Valesti','Valkyrie Profile','2025-10-28T23:38:28.720283+00:00','https://www.youtube.com/watch?v=HP-nDD05UYA',547,'https://ocrmirror.org/files/music/remixes/Valkyrie_Profile_Nibelung_Valesti_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4395,'Nibelung Valesti','Valkyrie Profile','2025-11-19T22:41:09.375982+00:00','https://www.youtube.com/watch?v=HP-nDD05UYA',547,'https://ocrmirror.org/files/music/remixes/Valkyrie_Profile_Nibelung_Valesti_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4396,'Dance of the Ant Spawn','Jet Force Gemini','2025-10-29T03:34:58.053847+00:00','https://www.youtube.com/watch?v=QvINFjY4T4s',3003,'https://ocrmirror.org/files/music/remixes/Jet_Force_Gemini_Dance_of_the_Ant_Spawn_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4397,'Subcon on Mushrooms','Super Mario Bros. 2','2025-11-19T20:38:43.777520+00:00','https://www.youtube.com/watch?v=WcYi9rBYTDY',57,'https://ocrmirror.org/files/music/remixes/Super_Mario_Bros_2_Subcon_on_Mushrooms_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4398,'Semper Saltare','Xenogears','2025-10-29T05:42:46.092916+00:00','https://www.youtube.com/watch?v=VqFcmOpgstk',70,'https://ocrmirror.org/files/music/remixes/Xenogears_Semper_Saltare_OC_ReMix.mp3',0);
@@ -6986,7 +6986,7 @@ INSERT INTO "remix" VALUES(4401,'J-Type','Tetris','2025-11-19T21:37:00.810426+00
 INSERT INTO "remix" VALUES(4402,'The Beginning','The Legend of Zelda: Skyward Sword','2025-10-29T05:42:46.514899+00:00','https://www.youtube.com/watch?v=eVg_UTIKOWQ',725,'https://ocrmirror.org/files/music/remixes/Legend_of_Zelda_Skyward_Sword_The_Beginning_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4403,'Run Pony Run','Pony Island','2025-10-29T03:35:00.561245+00:00','https://www.youtube.com/watch?v=-VJfSvlD4yA',95212,'https://ocrmirror.org/files/music/remixes/Pony_Island_Run_Pony_Run_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4404,'A Truth Found in Storms','Ori and the Blind Forest: Definitive Edition','2025-10-29T06:51:53.030002+00:00','https://www.youtube.com/watch?v=DJvgpPVOL5o',95826,'https://ocrmirror.org/files/music/remixes/Ori_and_the_Blind_Forest_Definitive_Edition_A_Truth_Found_in_Storms_OC_ReMix.mp3',0);
-INSERT INTO "remix" VALUES(4405,'Sovitus','Final Fantasy V','2025-10-28T23:38:27.635017+00:00','https://www.youtube.com/watch?v=DCWqRmdtuiQ',12,'https://ocrmirror.org/files/music/remixes/Final_Fantasy_5_Sovitus_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4405,'Sovitus','Final Fantasy V','2025-11-19T22:41:08.537505+00:00','https://www.youtube.com/watch?v=DCWqRmdtuiQ',12,'https://ocrmirror.org/files/music/remixes/Final_Fantasy_5_Sovitus_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4406,'Welcome to Pixeland','Final Fantasy X','2025-11-19T18:48:21.644130+00:00','https://www.youtube.com/watch?v=kS3vPSmOP8g',15,'https://ocrmirror.org/files/music/remixes/Final_Fantasy_10_Welcome_to_Pixeland_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4407,'Sands of Da''at','Shin Megami Tensei V','2025-11-19T21:37:00.077115+00:00','https://www.youtube.com/watch?v=xDRS4VswLoY',95827,'https://ocrmirror.org/files/music/remixes/Shin_Megami_Tensei_V_Sands_of_Da''at_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4408,'The Heart Beats with the Rhythm of the Rain','Goemon''s Great Adventure','2025-10-29T11:38:10.963347+00:00','https://www.youtube.com/watch?v=5DlSGUI_ZPk',548,'https://ocrmirror.org/files/music/remixes/Goemon%E2%80%99s_Great_Adventure_The_Heart_Beats_with_the_Rhythm_of_the_Rain_OC_ReMix.mp3',0);
@@ -6996,7 +6996,7 @@ INSERT INTO "remix" VALUES(4411,'A Hunter''s Epilogue','Super Metroid','2025-11-
 INSERT INTO "remix" VALUES(4412,'Postcards from Silius','Journey to Silius','2025-10-29T09:41:10.275479+00:00','https://www.youtube.com/watch?v=gkSXQD02Ctc',154,'https://ocrmirror.org/files/music/remixes/Journey_to_Silius_Postcards_from_Silius_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4413,'Hang Castle (Team Sonic Racing Mix)','Sonic Heroes','2025-10-29T05:42:45.668386+00:00','https://www.youtube.com/watch?v=jCFdNygkIQg',654,'https://ocrmirror.org/files/music/remixes/Sonic_Heroes_Hang_Castle_(Team_Sonic_Racing_Mix)_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4414,'Yuna at Zanarkand, Her Mind on Lost Friends','Final Fantasy X','2025-10-29T13:08:25.167364+00:00','https://www.youtube.com/watch?v=0m3f1-jt_Yo',15,'https://ocrmirror.org/files/music/remixes/Final_Fantasy_10_Yuna_at_Zanarkand_Her_Mind_on_Lost_Friends_OC_ReMix.mp3',0);
-INSERT INTO "remix" VALUES(4415,'A Broken Waltz','Final Fantasy VII Remake','2025-10-28T23:38:27.996370+00:00','https://www.youtube.com/watch?v=K1DTXWuY12k',95829,'https://ocrmirror.org/files/music/remixes/Final_Fantasy_7_Remake_A_Broken_Waltz_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4415,'A Broken Waltz','Final Fantasy VII Remake','2025-11-19T22:41:08.956744+00:00','https://www.youtube.com/watch?v=K1DTXWuY12k',95829,'https://ocrmirror.org/files/music/remixes/Final_Fantasy_7_Remake_A_Broken_Waltz_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4416,'Shadow Hunter','Gabriel Knight: Sins of the Fathers','2025-10-29T06:51:53.457189+00:00','https://www.youtube.com/watch?v=IgwAfFgZNcA',14871,'https://ocrmirror.org/files/music/remixes/Gabriel_Knight_Shadow_Hunter_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4417,'A Cursed Land','The Legend of Zelda: Majora''s Mask','2025-10-29T03:34:57.627454+00:00','https://www.youtube.com/watch?v=9nGT2h1eK44',490,'https://ocrmirror.org/files/music/remixes/Legend_of_Zelda_Majora''s_Mask_A_Cursed_Land_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4418,'W3 4RE TH3 ROB0TS','Stray','2025-10-29T14:45:27.885965+00:00','https://www.youtube.com/watch?v=jMWal2WJy7Y',95830,'https://ocrmirror.org/files/music/remixes/Stray_W3_4RE_TH3_ROB0TS_OC_ReMix.mp3',1);
@@ -7030,7 +7030,7 @@ INSERT INTO "remix" VALUES(4445,'Song of the Desperado','Final Fantasy VIII','20
 INSERT INTO "remix" VALUES(4446,'SeeDs of Pandora','Final Fantasy VIII','2025-10-29T13:08:26.007885+00:00','https://www.youtube.com/watch?v=zoUIcsBl7uE',13,'https://ocrmirror.org/files/music/remixes/Final_Fantasy_8_SeeDs_of_Pandora_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4447,'Swallowed by the Woods','The Legend of Zelda: Breath of the Wild','2025-10-29T09:41:11.537566+00:00','https://www.youtube.com/watch?v=vmkuCjKl0SU',95359,'https://ocrmirror.org/files/music/remixes/Legend_of_Zelda_Breath_of_the_Wild_Swallowed_by_the_Woods_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4448,'Hyrule Castle (Pulse Mix)','The Legend of Zelda: A Link to the Past','2025-10-29T07:39:42.964914+00:00','https://www.youtube.com/watch?v=A_8t1tbFlGw',66,'https://ocrmirror.org/files/music/remixes/Legend_of_Zelda_A_Link_to_the_Past_Hyrule_Castle_(Pulse_Mix)_OC_ReMix.mp3',0);
-INSERT INTO "remix" VALUES(4449,'Forgotten Ruins','The Legend of Zelda: Oracle of Seasons','2025-10-29T02:21:24.331934+00:00','https://www.youtube.com/watch?v=3l-klrxrAbQ',726,'https://ocrmirror.org/files/music/remixes/Legend_of_Zelda_Oracle_of_Seasons_Forgotten_Ruins_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4449,'Forgotten Ruins','The Legend of Zelda: Oracle of Seasons','2025-11-19T22:41:11.902180+00:00','https://www.youtube.com/watch?v=3l-klrxrAbQ',726,'https://ocrmirror.org/files/music/remixes/Legend_of_Zelda_Oracle_of_Seasons_Forgotten_Ruins_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4450,'Koholint Serenade','The Legend of Zelda: Link''s Awakening','2025-10-29T18:49:43.376190+00:00','https://www.youtube.com/watch?v=lPRe5zYy-S8',68,'https://ocrmirror.org/files/music/remixes/Legend_of_Zelda_Link''s_Awakening_Koholint_Serenade_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4451,'Potion','The Legend of Zelda: A Link Between Worlds','2025-10-29T08:48:44.514553+00:00','https://www.youtube.com/watch?v=jafWJUe2iBs',94860,'https://ocrmirror.org/files/music/remixes/Legend_of_Zelda_A_Link_Between_Worlds_Potion_OC_ReMix.mp3',1);
 INSERT INTO "remix" VALUES(4452,'Lost in Time','Final Fantasy VIII','2025-10-29T11:38:09.893004+00:00','https://www.youtube.com/watch?v=Q4aKF0NKeik',13,'https://ocrmirror.org/files/music/remixes/Final_Fantasy_8_Lost_in_Time_OC_ReMix.mp3',1);
@@ -7389,7 +7389,7 @@ INSERT INTO "remix" VALUES(4804,'A Synonym for Death','Chrono Cross','2025-11-16
 INSERT INTO "remix" VALUES(4805,'Eschala Them','Chrono Trigger','2025-11-15T23:37:34.547222+00:00','https://www.youtube.com/watch?v=ez2DKdvtJc8',16,'https://ocrmirror.org/files/music/remixes/Chrono_Trigger_Eschala_Them_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4806,'Skylands','Chrono Trigger','2025-11-15T23:37:36.492736+00:00','https://www.youtube.com/watch?v=sCITgsLgU-Y',16,'https://ocrmirror.org/files/music/remixes/Chrono_Trigger_Skylands_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4807,'Whispers of Ash','Jazz Jackrabbit 2','2025-11-18T16:51:31.791196+00:00','https://www.youtube.com/watch?v=H7e1ddywFgM',506,'https://ocrmirror.org/files/music/remixes/Jazz_Jackrabbit_2_Whispers_of_Ash_OC_ReMix.mp3',0);
-INSERT INTO "remix" VALUES(4808,'Waterfall (Sin City Mix)','Undertale','2025-10-28T23:38:29.441225+00:00','https://www.youtube.com/watch?v=e5uWTDiwgSQ',95077,'https://ocrmirror.org/files/music/remixes/Undertale_Waterfall_(Sin_City_Mix)_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4808,'Waterfall (Sin City Mix)','Undertale','2025-11-19T22:41:11.056711+00:00','https://www.youtube.com/watch?v=e5uWTDiwgSQ',95077,'https://ocrmirror.org/files/music/remixes/Undertale_Waterfall_(Sin_City_Mix)_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4809,'Remachination','Super Mario RPG: Legend of the Seven Stars','2025-10-30T02:19:26.215552+00:00','https://www.youtube.com/watch?v=jpcrGnhlRFg',84,'https://ocrmirror.org/files/music/remixes/Super_Mario_RPG_Remachination_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4810,'Spiral Deepens','GoldenEye 007','2025-10-31T04:45:17.077647+00:00','https://www.youtube.com/watch?v=ckazFBC6CfU',120,'https://ocrmirror.org/files/music/remixes/GoldenEye_007_Spiral_Deepens_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4811,'Cave Diving','Spelunker','2025-11-01T11:37:22.423842+00:00','https://www.youtube.com/watch?v=6vPM40UU77w',4440,'https://ocrmirror.org/files/music/remixes/Spelunker_Cave_Diving_OC_ReMix.mp3',0);
@@ -7516,8 +7516,8 @@ INSERT INTO "remix" VALUES(4931,'Illuminated Dystopia','Invaders of the Lost Tom
 INSERT INTO "remix" VALUES(4932,'Make a Note','Persona 5','2025-11-18T11:39:16.439857+00:00','https://www.youtube.com/watch?v=RtqUHHHddsE',95907,'https://ocrmirror.org/files/music/remixes/Persona_5_Make_a_Note_OC_ReMix.mp3',1);
 INSERT INTO "remix" VALUES(4933,'Do You See?','The Legend of Zelda: Majora''s Mask','2025-11-18T11:39:16.016438+00:00','https://www.youtube.com/watch?v=fJBvioceKZA',490,'https://ocrmirror.org/files/music/remixes/Legend_of_Zelda_Majora''s_Mask_Do_You_See_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4934,'Healing Termina','The Legend of Zelda: Majora''s Mask','2025-11-18T11:39:14.749680+00:00','https://www.youtube.com/watch?v=Dm6dROSBhGs',490,'https://ocrmirror.org/files/music/remixes/Legend_of_Zelda_Majora''s_Mask_Healing_Termina_OC_ReMix.mp3',0);
-INSERT INTO "remix" VALUES(4935,'Kremling Kraic','Donkey Kong Country 2: Diddy''s Kong Quest','2025-10-29T01:04:57.240335+00:00','https://www.youtube.com/watch?v=mP2iRU0v9Cw',48,'https://ocrmirror.org/files/music/remixes/Donkey_Kong_Country_2_Kremling_Kraic_OC_ReMix.mp3',0);
-INSERT INTO "remix" VALUES(4936,'Do Re Dedede','Kirby Super Star','2025-10-29T01:04:57.917205+00:00','https://www.youtube.com/watch?v=dGkjIJeX1-c',199,'https://ocrmirror.org/files/music/remixes/Kirby_Super_Star_Do_Re_Dedede_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4935,'Kremling Kraic','Donkey Kong Country 2: Diddy''s Kong Quest','2025-11-19T22:41:08.116046+00:00','https://www.youtube.com/watch?v=mP2iRU0v9Cw',48,'https://ocrmirror.org/files/music/remixes/Donkey_Kong_Country_2_Kremling_Kraic_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4936,'Do Re Dedede','Kirby Super Star','2025-11-19T22:41:11.480938+00:00','https://www.youtube.com/watch?v=dGkjIJeX1-c',199,'https://ocrmirror.org/files/music/remixes/Kirby_Super_Star_Do_Re_Dedede_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4937,'Tema de Amor','Final Fantasy IV','2025-10-31T01:02:26.446036+00:00','https://www.youtube.com/watch?v=43lfCKT2LqQ',11,'https://ocrmirror.org/files/music/remixes/Final_Fantasy_4_Tema_de_Amor_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4938,'Sakura Wa Karenai','Etrian Odyssey II: Heroes of Lagaard','2025-11-01T01:05:43.617441+00:00','https://www.youtube.com/watch?v=-7uNjP4NVCs',812,'https://ocrmirror.org/files/music/remixes/Etrian_Odyssey_2_Sakura_Wa_Karenai_OC_ReMix.mp3',1);
 INSERT INTO "remix" VALUES(4939,'This Ain''t Your Dracula''s Castle','Wizards & Warriors','2025-11-01T01:05:44.531268+00:00','https://www.youtube.com/watch?v=aTbI06R7wXs',102,'https://ocrmirror.org/files/music/remixes/Wizards_&_Warriors_This_Ain''t_Your_Dracula''s_Castle_OC_ReMix.mp3',0);
@@ -46175,6 +46175,21 @@ INSERT INTO "remix_tag" VALUES(4961,'compo-dod',1);
 INSERT INTO "remix_tag" VALUES(4961,'live-instruments',1);
 INSERT INTO "remix_tag" VALUES(4961,'timesig-6-8',1);
 INSERT INTO "remix_tag" VALUES(4962,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4935,'cinematic',1);
+INSERT INTO "remix_tag" VALUES(4935,'folk',1);
+INSERT INTO "remix_tag" VALUES(4935,'brass',1);
+INSERT INTO "remix_tag" VALUES(4935,'orchestral',1);
+INSERT INTO "remix_tag" VALUES(4935,'sound-fx',1);
+INSERT INTO "remix_tag" VALUES(4935,'strings',1);
+INSERT INTO "remix_tag" VALUES(4935,'violin',1);
+INSERT INTO "remix_tag" VALUES(4935,'woodwinds',1);
+INSERT INTO "remix_tag" VALUES(4935,'happy',1);
+INSERT INTO "remix_tag" VALUES(4935,'suspenseful',1);
+INSERT INTO "remix_tag" VALUES(4935,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4936,'synthwave',1);
+INSERT INTO "remix_tag" VALUES(4936,'electronic',1);
+INSERT INTO "remix_tag" VALUES(4936,'synth',1);
+INSERT INTO "remix_tag" VALUES(4936,'chill',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
