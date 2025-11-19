@@ -2768,6 +2768,7 @@ INSERT INTO "game" VALUES(95907,'Persona 5','https://ocremix.org/game/95907/pers
 INSERT INTO "game" VALUES(95910,'The Oregon Trail','https://ocremix.org/game/95910/oregon-trail-win');
 INSERT INTO "game" VALUES(95911,'Look Outside','https://ocremix.org/game/95911/look-outside-win');
 INSERT INTO "game" VALUES(95913,'Pikmin 4','https://ocremix.org/game/95913/pikmin-4-swtch');
+INSERT INTO "game" VALUES(95914,'Brothers: A Tale of Two Sons','https://ocremix.org/game/95914/brothers-a-tale-of-two-sons-xb360');
 CREATE TABLE remix (
     id integer primary key,
     title text not null,
@@ -7541,6 +7542,8 @@ INSERT INTO "remix" VALUES(4957,'We, Under the Stars','Shovel Knight','2025-11-1
 INSERT INTO "remix" VALUES(4958,'House of Shadow','The Legend of Zelda: Ocarina of Time','2025-11-16T01:08:16.996181+00:00','https://www.youtube.com/watch?v=Rvy1JBzbPlk',67,'https://ocrmirror.org/files/music/remixes/Legend_of_Zelda_Ocarina_of_Time_House_of_Shadow_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4959,'Under a Summer Moon','The Oregon Trail','2025-11-16T01:08:17.789758+00:00','https://www.youtube.com/watch?v=mA-MNfMQ2rw',95910,'https://ocrmirror.org/files/music/remixes/Oregon_Trail_Under_a_Summer_Moon_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4960,'Howls of the Black Wind','Chrono Trigger','2025-11-17T01:04:48.878816+00:00','https://www.youtube.com/watch?v=p4Zc1fZPaPs',16,'https://ocrmirror.org/files/music/remixes/Chrono_Trigger_Howls_of_the_Black_Wind_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4961,'Pasillo de los Hermanos','Brothers: A Tale of Two Sons','2025-11-19T01:03:24.134420+00:00','https://www.youtube.com/watch?v=3l2Jdt-IysE',95914,'https://ocrmirror.org/files/music/remixes/Brothers_A_Tale_of_Two_Sons_Pasillo_de_los_Hermanos_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4962,'Into the Icy Caverns','Pokémon Crystal Version','2025-11-19T01:03:24.869240+00:00','https://www.youtube.com/watch?v=gGOJxg0fK24',573,'https://ocrmirror.org/files/music/remixes/Pokemon_Crystal_Version_Into_the_Icy_Caverns_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -14088,6 +14091,8 @@ INSERT INTO "remix_artist" VALUES(4959,18839,1);
 INSERT INTO "remix_artist" VALUES(4959,18624,1);
 INSERT INTO "remix_artist" VALUES(4959,18590,1);
 INSERT INTO "remix_artist" VALUES(4960,18868,1);
+INSERT INTO "remix_artist" VALUES(4961,15612,1);
+INSERT INTO "remix_artist" VALUES(4962,13147,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -46166,6 +46171,10 @@ INSERT INTO "remix_tag" VALUES(4932,'hip-hop',1);
 INSERT INTO "remix_tag" VALUES(4932,'electronic',1);
 INSERT INTO "remix_tag" VALUES(4932,'synth',1);
 INSERT INTO "remix_tag" VALUES(4932,'chill',1);
+INSERT INTO "remix_tag" VALUES(4961,'compo-dod',1);
+INSERT INTO "remix_tag" VALUES(4961,'live-instruments',1);
+INSERT INTO "remix_tag" VALUES(4961,'timesig-6-8',1);
+INSERT INTO "remix_tag" VALUES(4962,'timesig-4-4',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
