@@ -1604,6 +1604,7 @@ INSERT INTO "artist" VALUES(18940,'Dog Food for Bananas','https://ocremix.org/ar
 INSERT INTO "artist" VALUES(18941,'mo.oorgan','https://ocremix.org/artist/18941/mooorgan');
 INSERT INTO "artist" VALUES(18942,'DJ-J-RAD','https://ocremix.org/artist/18942/dj-j-rad');
 INSERT INTO "artist" VALUES(18943,'Alex Robinson','https://ocremix.org/artist/18943/alex-robinson');
+INSERT INTO "artist" VALUES(18962,'PRIDASK','https://ocremix.org/artist/18962/pridask');
 INSERT INTO "artist" VALUES(18963,'Fataloror','https://ocremix.org/artist/18963/fataloror');
 INSERT INTO "artist" VALUES(18964,'Triple B Music','https://ocremix.org/artist/18964/triple-b-music');
 INSERT INTO "artist" VALUES(18965,'Linnea Burr','https://ocremix.org/artist/18965/linnea-burr');
@@ -7544,6 +7545,8 @@ INSERT INTO "remix" VALUES(4959,'Under a Summer Moon','The Oregon Trail','2025-1
 INSERT INTO "remix" VALUES(4960,'Howls of the Black Wind','Chrono Trigger','2025-11-17T01:04:48.878816+00:00','https://www.youtube.com/watch?v=p4Zc1fZPaPs',16,'https://ocrmirror.org/files/music/remixes/Chrono_Trigger_Howls_of_the_Black_Wind_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4961,'Pasillo de los Hermanos','Brothers: A Tale of Two Sons','2025-11-19T01:03:24.134420+00:00','https://www.youtube.com/watch?v=3l2Jdt-IysE',95914,'https://ocrmirror.org/files/music/remixes/Brothers_A_Tale_of_Two_Sons_Pasillo_de_los_Hermanos_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4962,'Into the Icy Caverns','Pokémon Crystal Version','2025-11-19T01:03:24.869240+00:00','https://www.youtube.com/watch?v=gGOJxg0fK24',573,'https://ocrmirror.org/files/music/remixes/Pokemon_Crystal_Version_Into_the_Icy_Caverns_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4963,'I Want to Go Home','Donkey Kong Country','2025-11-20T01:02:10.102518+00:00','https://www.youtube.com/watch?v=TwZrov6545A',47,'https://ocrmirror.org/files/music/remixes/Donkey_Kong_Country_I_Want_to_Go_Home_OC_ReMix.mp3',1);
+INSERT INTO "remix" VALUES(4964,'Rose Gray','Donkey Kong Country 2: Diddy''s Kong Quest','2025-11-20T01:02:10.785166+00:00','https://www.youtube.com/watch?v=YksvyQFt-5o',48,'https://ocrmirror.org/files/music/remixes/Donkey_Kong_Country_2_Rose_Gray_OC_ReMix.mp3',1);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -14093,6 +14096,10 @@ INSERT INTO "remix_artist" VALUES(4959,18590,1);
 INSERT INTO "remix_artist" VALUES(4960,18868,1);
 INSERT INTO "remix_artist" VALUES(4961,15612,1);
 INSERT INTO "remix_artist" VALUES(4962,13147,1);
+INSERT INTO "remix_artist" VALUES(4963,18632,1);
+INSERT INTO "remix_artist" VALUES(4963,18742,1);
+INSERT INTO "remix_artist" VALUES(4963,18711,1);
+INSERT INTO "remix_artist" VALUES(4964,18962,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -46190,6 +46197,18 @@ INSERT INTO "remix_tag" VALUES(4936,'synthwave',1);
 INSERT INTO "remix_tag" VALUES(4936,'electronic',1);
 INSERT INTO "remix_tag" VALUES(4936,'synth',1);
 INSERT INTO "remix_tag" VALUES(4936,'chill',1);
+INSERT INTO "remix_tag" VALUES(4963,'singing',1);
+INSERT INTO "remix_tag" VALUES(4963,'vocals-female',1);
+INSERT INTO "remix_tag" VALUES(4963,'collab',1);
+INSERT INTO "remix_tag" VALUES(4963,'compo-dod',1);
+INSERT INTO "remix_tag" VALUES(4963,'lang-english',1);
+INSERT INTO "remix_tag" VALUES(4963,'lyrics-original',1);
+INSERT INTO "remix_tag" VALUES(4964,'pop',1);
+INSERT INTO "remix_tag" VALUES(4964,'singing',1);
+INSERT INTO "remix_tag" VALUES(4964,'vocals-female',1);
+INSERT INTO "remix_tag" VALUES(4964,'lang-english',1);
+INSERT INTO "remix_tag" VALUES(4964,'lang-japanese',1);
+INSERT INTO "remix_tag" VALUES(4964,'lyrics-original',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
