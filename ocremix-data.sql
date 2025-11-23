@@ -7547,6 +7547,8 @@ INSERT INTO "remix" VALUES(4961,'Pasillo de los Hermanos','Brothers: A Tale of T
 INSERT INTO "remix" VALUES(4962,'Into the Icy Caverns','Pokémon Crystal Version','2025-11-19T01:03:24.869240+00:00','https://www.youtube.com/watch?v=gGOJxg0fK24',573,'https://ocrmirror.org/files/music/remixes/Pokemon_Crystal_Version_Into_the_Icy_Caverns_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4963,'I Want to Go Home','Donkey Kong Country','2025-11-20T01:02:10.102518+00:00','https://www.youtube.com/watch?v=TwZrov6545A',47,'https://ocrmirror.org/files/music/remixes/Donkey_Kong_Country_I_Want_to_Go_Home_OC_ReMix.mp3',1);
 INSERT INTO "remix" VALUES(4964,'Rose Gray','Donkey Kong Country 2: Diddy''s Kong Quest','2025-11-20T01:02:10.785166+00:00','https://www.youtube.com/watch?v=YksvyQFt-5o',48,'https://ocrmirror.org/files/music/remixes/Donkey_Kong_Country_2_Rose_Gray_OC_ReMix.mp3',1);
+INSERT INTO "remix" VALUES(4965,'Thalassophobia','Donkey Kong Country 3: Dixie Kong''s Double Trouble!','2025-11-23T01:12:05.136234+00:00','https://www.youtube.com/watch?v=IWUATmBGe4U',310,'https://ocrmirror.org/files/music/remixes/Donkey_Kong_Country_3_Thalassophobia_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4966,'Toyworks Terror','Donkey Kong 64','2025-11-23T01:12:05.461672+00:00','https://www.youtube.com/watch?v=2_YSLCkulsA',2955,'https://ocrmirror.org/files/music/remixes/Donkey_Kong_64_Toyworks_Terror_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -14100,6 +14102,9 @@ INSERT INTO "remix_artist" VALUES(4963,18632,1);
 INSERT INTO "remix_artist" VALUES(4963,18742,1);
 INSERT INTO "remix_artist" VALUES(4963,18711,1);
 INSERT INTO "remix_artist" VALUES(4964,18962,1);
+INSERT INTO "remix_artist" VALUES(4965,10690,1);
+INSERT INTO "remix_artist" VALUES(4965,18941,1);
+INSERT INTO "remix_artist" VALUES(4966,12541,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -46285,6 +46290,8 @@ INSERT INTO "remix_tag" VALUES(4938,'koto',1);
 INSERT INTO "remix_tag" VALUES(4938,'shakuhachi',1);
 INSERT INTO "remix_tag" VALUES(4938,'strings',1);
 INSERT INTO "remix_tag" VALUES(4938,'synth',1);
+INSERT INTO "remix_tag" VALUES(4965,'collab',1);
+INSERT INTO "remix_tag" VALUES(4966,'halloween',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
