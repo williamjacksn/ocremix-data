@@ -1617,6 +1617,7 @@ INSERT INTO "artist" VALUES(18984,'Unfocused in IA','https://ocremix.org/artist/
 INSERT INTO "artist" VALUES(18988,'Rally Cat','https://ocremix.org/artist/18988/rally-cat');
 INSERT INTO "artist" VALUES(18989,'The Key Combo','https://ocremix.org/artist/18989/the-key-combo');
 INSERT INTO "artist" VALUES(18991,'Dom Palombi','https://ocremix.org/artist/18991/dom-palombi');
+INSERT INTO "artist" VALUES(18992,'Steven Hewitt','https://ocremix.org/artist/18992/steven-hewitt');
 INSERT INTO "artist" VALUES(18995,'Justin Wilbanks','https://ocremix.org/artist/18995/justin-wilbanks');
 INSERT INTO "artist" VALUES(18997,'roqdrummer','https://ocremix.org/artist/18997/roqdrummer');
 INSERT INTO "artist" VALUES(18998,'Nivan Sharma','https://ocremix.org/artist/18998/nivan-sharma');
@@ -7549,6 +7550,8 @@ INSERT INTO "remix" VALUES(4963,'I Want to Go Home','Donkey Kong Country','2025-
 INSERT INTO "remix" VALUES(4964,'Rose Gray','Donkey Kong Country 2: Diddy''s Kong Quest','2025-11-20T01:02:10.785166+00:00','https://www.youtube.com/watch?v=YksvyQFt-5o',48,'https://ocrmirror.org/files/music/remixes/Donkey_Kong_Country_2_Rose_Gray_OC_ReMix.mp3',1);
 INSERT INTO "remix" VALUES(4965,'Thalassophobia','Donkey Kong Country 3: Dixie Kong''s Double Trouble!','2025-11-23T01:12:05.136234+00:00','https://www.youtube.com/watch?v=IWUATmBGe4U',310,'https://ocrmirror.org/files/music/remixes/Donkey_Kong_Country_3_Thalassophobia_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4966,'Toyworks Terror','Donkey Kong 64','2025-11-23T01:12:05.461672+00:00','https://www.youtube.com/watch?v=2_YSLCkulsA',2955,'https://ocrmirror.org/files/music/remixes/Donkey_Kong_64_Toyworks_Terror_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4967,'Kommand & Kongquer','Donkey Kong Country 2: Diddy''s Kong Quest','2025-11-24T01:07:57.282129+00:00','https://www.youtube.com/watch?v=Q3nWtLeImlU',48,'https://ocrmirror.org/files/music/remixes/Donkey_Kong_Country_2_Kommand_&_Kongquer_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4968,'Blackthorne','Donkey Kong Country 2: Diddy''s Kong Quest','2025-11-24T01:07:57.765631+00:00','https://www.youtube.com/watch?v=L3U3yY8Utjc',48,'https://ocrmirror.org/files/music/remixes/Donkey_Kong_Country_2_Blackthorne_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -14105,6 +14108,12 @@ INSERT INTO "remix_artist" VALUES(4964,18962,1);
 INSERT INTO "remix_artist" VALUES(4965,10690,1);
 INSERT INTO "remix_artist" VALUES(4965,18941,1);
 INSERT INTO "remix_artist" VALUES(4966,12541,1);
+INSERT INTO "remix_artist" VALUES(4967,13500,1);
+INSERT INTO "remix_artist" VALUES(4967,16853,1);
+INSERT INTO "remix_artist" VALUES(4967,18653,1);
+INSERT INTO "remix_artist" VALUES(4968,4750,1);
+INSERT INTO "remix_artist" VALUES(4968,4695,1);
+INSERT INTO "remix_artist" VALUES(4968,18992,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -46298,6 +46307,11 @@ INSERT INTO "remix_tag" VALUES(4946,'saxophone',1);
 INSERT INTO "remix_tag" VALUES(4946,'chill',1);
 INSERT INTO "remix_tag" VALUES(4946,'jazzy',1);
 INSERT INTO "remix_tag" VALUES(4946,'mellow',1);
+INSERT INTO "remix_tag" VALUES(4967,'collab',1);
+INSERT INTO "remix_tag" VALUES(4968,'jazz',1);
+INSERT INTO "remix_tag" VALUES(4968,'collab',1);
+INSERT INTO "remix_tag" VALUES(4968,'compo-dod',1);
+INSERT INTO "remix_tag" VALUES(4968,'timesig-9-8',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
@@ -46541,4 +46555,5 @@ INSERT INTO "tag" VALUES('vocals-tenor','Instrumentation > Vocals: Tenor','https
 INSERT INTO "tag" VALUES('lang-original','Lyrics > Language: Original','https://ocremix.org/tag/lang-original');
 INSERT INTO "tag" VALUES('lang-esperanto','Lyrics > Language: Esperanto','https://ocremix.org/tag/lang-esperanto');
 INSERT INTO "tag" VALUES('compo-gsm','Origin > Competition > Game Set Mash!!','https://ocremix.org/tag/compo-gsm');
+INSERT INTO "tag" VALUES('timesig-9-8','Time > 9/8 Time Signature','https://ocremix.org/tag/timesig-9-8');
 COMMIT;
