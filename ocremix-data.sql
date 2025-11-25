@@ -7552,6 +7552,7 @@ INSERT INTO "remix" VALUES(4965,'Thalassophobia','Donkey Kong Country 3: Dixie K
 INSERT INTO "remix" VALUES(4966,'Toyworks Terror','Donkey Kong 64','2025-11-23T01:12:05.461672+00:00','https://www.youtube.com/watch?v=2_YSLCkulsA',2955,'https://ocrmirror.org/files/music/remixes/Donkey_Kong_64_Toyworks_Terror_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4967,'Kommand & Kongquer','Donkey Kong Country 2: Diddy''s Kong Quest','2025-11-24T01:07:57.282129+00:00','https://www.youtube.com/watch?v=Q3nWtLeImlU',48,'https://ocrmirror.org/files/music/remixes/Donkey_Kong_Country_2_Kommand_&_Kongquer_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4968,'Blackthorne','Donkey Kong Country 2: Diddy''s Kong Quest','2025-11-24T01:07:57.765631+00:00','https://www.youtube.com/watch?v=L3U3yY8Utjc',48,'https://ocrmirror.org/files/music/remixes/Donkey_Kong_Country_2_Blackthorne_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4969,'Mechanomania','Donkey Kong Country','2025-11-25T01:03:39.693753+00:00','https://www.youtube.com/watch?v=VKosIibcm50',47,'https://ocrmirror.org/files/music/remixes/Donkey_Kong_Country_Mechanomania_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -14114,6 +14115,8 @@ INSERT INTO "remix_artist" VALUES(4967,18653,1);
 INSERT INTO "remix_artist" VALUES(4968,4750,1);
 INSERT INTO "remix_artist" VALUES(4968,4695,1);
 INSERT INTO "remix_artist" VALUES(4968,18992,1);
+INSERT INTO "remix_artist" VALUES(4969,18941,1);
+INSERT INTO "remix_artist" VALUES(4969,10690,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -46320,6 +46323,7 @@ INSERT INTO "remix_tag" VALUES(4947,'piano',1);
 INSERT INTO "remix_tag" VALUES(4947,'synth',1);
 INSERT INTO "remix_tag" VALUES(4947,'energetic',1);
 INSERT INTO "remix_tag" VALUES(4947,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4969,'collab',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
