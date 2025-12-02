@@ -2596,6 +2596,7 @@ INSERT INTO "game" VALUES(40735,'The Legend of Heroes V: A Cagesong of the Ocean
 INSERT INTO "game" VALUES(41542,'Command & Conquer','https://ocremix.org/game/41542/command-and-conquer-ps1');
 INSERT INTO "game" VALUES(41568,'Crash Bandicoot 2: Cortex Strikes Back','https://ocremix.org/game/41568/crash-bandicoot-2-cortex-strikes-back-ps1');
 INSERT INTO "game" VALUES(41569,'Crash Bandicoot: Warped','https://ocremix.org/game/41569/crash-bandicoot-warped-ps1');
+INSERT INTO "game" VALUES(41584,'Croc: Legend of the Gobbos','https://ocremix.org/game/41584/croc-legend-of-the-gobbos-ps1');
 INSERT INTO "game" VALUES(41698,'Digimon World','https://ocremix.org/game/41698/digimon-world-ps1');
 INSERT INTO "game" VALUES(41764,'Dragon Warrior VII','https://ocremix.org/game/41764/dragon-warrior-vii-ps1');
 INSERT INTO "game" VALUES(41871,'Final Fantasy','https://ocremix.org/game/41871/final-fantasy-ps1');
@@ -7554,6 +7555,8 @@ INSERT INTO "remix" VALUES(4967,'Kommand & Kongquer','Donkey Kong Country 2: Did
 INSERT INTO "remix" VALUES(4968,'Blackthorne','Donkey Kong Country 2: Diddy''s Kong Quest','2025-11-24T01:07:57.765631+00:00','https://www.youtube.com/watch?v=L3U3yY8Utjc',48,'https://ocrmirror.org/files/music/remixes/Donkey_Kong_Country_2_Blackthorne_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4969,'Mechanomania','Donkey Kong Country','2025-11-25T01:03:39.693753+00:00','https://www.youtube.com/watch?v=VKosIibcm50',47,'https://ocrmirror.org/files/music/remixes/Donkey_Kong_Country_Mechanomania_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4970,'At the Heart of Yggdrasil','Streets of Rage','2025-11-28T01:01:28.332834+00:00','https://www.youtube.com/watch?v=VWG9VOXb_98',79,'https://ocrmirror.org/files/music/remixes/Streets_of_Rage_At_the_Heart_of_Yggdrasil_OC_ReMix.mp3',1);
+INSERT INTO "remix" VALUES(4971,'YAZOO!','Croc: Legend of the Gobbos','2025-12-02T01:05:11.715639+00:00','https://www.youtube.com/watch?v=MxJZLCiS9p8',41584,'https://ocrmirror.org/files/music/remixes/Croc_Legend_of_the_Gobbos_YAZOO_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4972,'Asgore in Wonderland','Undertale','2025-12-02T01:05:12.065245+00:00','https://www.youtube.com/watch?v=WwRTWRuVfr8',95077,'https://ocrmirror.org/files/music/remixes/Undertale_Asgore_in_Wonderland_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -14123,6 +14126,11 @@ INSERT INTO "remix_artist" VALUES(4970,18860,1);
 INSERT INTO "remix_artist" VALUES(4970,18712,1);
 INSERT INTO "remix_artist" VALUES(4970,18846,1);
 INSERT INTO "remix_artist" VALUES(4970,18847,1);
+INSERT INTO "remix_artist" VALUES(4971,13667,1);
+INSERT INTO "remix_artist" VALUES(4971,16615,1);
+INSERT INTO "remix_artist" VALUES(4971,4695,1);
+INSERT INTO "remix_artist" VALUES(4971,16848,1);
+INSERT INTO "remix_artist" VALUES(4972,16119,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -46376,6 +46384,23 @@ INSERT INTO "remix_tag" VALUES(4949,'dark',1);
 INSERT INTO "remix_tag" VALUES(4949,'energetic',1);
 INSERT INTO "remix_tag" VALUES(4949,'glitching',1);
 INSERT INTO "remix_tag" VALUES(4949,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4971,'acoustic-guitar',1);
+INSERT INTO "remix_tag" VALUES(4971,'bells',1);
+INSERT INTO "remix_tag" VALUES(4971,'flute',1);
+INSERT INTO "remix_tag" VALUES(4971,'piano',1);
+INSERT INTO "remix_tag" VALUES(4971,'saxophone',1);
+INSERT INTO "remix_tag" VALUES(4971,'trumpet',1);
+INSERT INTO "remix_tag" VALUES(4971,'happy',1);
+INSERT INTO "remix_tag" VALUES(4971,'collab',1);
+INSERT INTO "remix_tag" VALUES(4971,'compo-dod',1);
+INSERT INTO "remix_tag" VALUES(4971,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4972,'vaporwave',1);
+INSERT INTO "remix_tag" VALUES(4972,'electronic',1);
+INSERT INTO "remix_tag" VALUES(4972,'synth',1);
+INSERT INTO "remix_tag" VALUES(4972,'chill',1);
+INSERT INTO "remix_tag" VALUES(4972,'mellow',1);
+INSERT INTO "remix_tag" VALUES(4972,'lo-fi',1);
+INSERT INTO "remix_tag" VALUES(4972,'timesig-4-4',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
