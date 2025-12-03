@@ -2772,6 +2772,7 @@ INSERT INTO "game" VALUES(95910,'The Oregon Trail','https://ocremix.org/game/959
 INSERT INTO "game" VALUES(95911,'Look Outside','https://ocremix.org/game/95911/look-outside-win');
 INSERT INTO "game" VALUES(95913,'Pikmin 4','https://ocremix.org/game/95913/pikmin-4-swtch');
 INSERT INTO "game" VALUES(95914,'Brothers: A Tale of Two Sons','https://ocremix.org/game/95914/brothers-a-tale-of-two-sons-xb360');
+INSERT INTO "game" VALUES(95916,'Chronicon','https://ocremix.org/game/95916/chronicon-win');
 CREATE TABLE remix (
     id integer primary key,
     title text not null,
@@ -7557,6 +7558,8 @@ INSERT INTO "remix" VALUES(4969,'Mechanomania','Donkey Kong Country','2025-11-25
 INSERT INTO "remix" VALUES(4970,'At the Heart of Yggdrasil','Streets of Rage','2025-11-28T01:01:28.332834+00:00','https://www.youtube.com/watch?v=VWG9VOXb_98',79,'https://ocrmirror.org/files/music/remixes/Streets_of_Rage_At_the_Heart_of_Yggdrasil_OC_ReMix.mp3',1);
 INSERT INTO "remix" VALUES(4971,'YAZOO!','Croc: Legend of the Gobbos','2025-12-02T01:05:11.715639+00:00','https://www.youtube.com/watch?v=MxJZLCiS9p8',41584,'https://ocrmirror.org/files/music/remixes/Croc_Legend_of_the_Gobbos_YAZOO_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4972,'Asgore in Wonderland','Undertale','2025-12-02T01:05:12.065245+00:00','https://www.youtube.com/watch?v=WwRTWRuVfr8',95077,'https://ocrmirror.org/files/music/remixes/Undertale_Asgore_in_Wonderland_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4973,'Midi''s Lament','The Legend of Zelda: Twilight Princess','2025-12-03T01:05:53.520293+00:00','https://www.youtube.com/watch?v=xXs24pejW7A',505,'https://ocrmirror.org/files/music/remixes/Legend_of_Zelda_Twilight_Princess_Midi''s_Lament_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4974,'Catactras','Chronicon','2025-12-03T01:05:54.201400+00:00','https://www.youtube.com/watch?v=qsvNFw6Nak4',95916,'https://ocrmirror.org/files/music/remixes/Chronicon_Catactras_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -14131,6 +14134,9 @@ INSERT INTO "remix_artist" VALUES(4971,16615,1);
 INSERT INTO "remix_artist" VALUES(4971,4695,1);
 INSERT INTO "remix_artist" VALUES(4971,16848,1);
 INSERT INTO "remix_artist" VALUES(4972,16119,1);
+INSERT INTO "remix_artist" VALUES(4973,13046,1);
+INSERT INTO "remix_artist" VALUES(4973,18602,1);
+INSERT INTO "remix_artist" VALUES(4974,11932,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -46401,6 +46407,24 @@ INSERT INTO "remix_tag" VALUES(4972,'chill',1);
 INSERT INTO "remix_tag" VALUES(4972,'mellow',1);
 INSERT INTO "remix_tag" VALUES(4972,'lo-fi',1);
 INSERT INTO "remix_tag" VALUES(4972,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4973,'edm',1);
+INSERT INTO "remix_tag" VALUES(4973,'electric-guitar',1);
+INSERT INTO "remix_tag" VALUES(4973,'electronic',1);
+INSERT INTO "remix_tag" VALUES(4973,'synth',1);
+INSERT INTO "remix_tag" VALUES(4973,'dark',1);
+INSERT INTO "remix_tag" VALUES(4973,'energetic',1);
+INSERT INTO "remix_tag" VALUES(4973,'collab',1);
+INSERT INTO "remix_tag" VALUES(4973,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4974,'breakbeat',1);
+INSERT INTO "remix_tag" VALUES(4974,'dnb',1);
+INSERT INTO "remix_tag" VALUES(4974,'breakbeats',1);
+INSERT INTO "remix_tag" VALUES(4974,'electric-guitar',1);
+INSERT INTO "remix_tag" VALUES(4974,'electronic',1);
+INSERT INTO "remix_tag" VALUES(4974,'piano',1);
+INSERT INTO "remix_tag" VALUES(4974,'synth',1);
+INSERT INTO "remix_tag" VALUES(4974,'dark',1);
+INSERT INTO "remix_tag" VALUES(4974,'energetic',1);
+INSERT INTO "remix_tag" VALUES(4974,'timesig-4-4',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
