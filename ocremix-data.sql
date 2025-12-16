@@ -2758,6 +2758,7 @@ INSERT INTO "game" VALUES(95876,'The Great Ace Attorney 2: Resolve','https://ocr
 INSERT INTO "game" VALUES(95878,'Disco Elysium','https://ocremix.org/game/95878/disco-elysium-win');
 INSERT INTO "game" VALUES(95880,'Helldivers II','https://ocremix.org/game/95880/helldivers-ii-ps5');
 INSERT INTO "game" VALUES(95882,'Pokémon Trading Card Game Pocket','https://ocremix.org/game/95882/pokemon-trading-card-game-pocket-ios');
+INSERT INTO "game" VALUES(95884,'Final Fantasy XVI','https://ocremix.org/game/95884/final-fantasy-xvi-ps5');
 INSERT INTO "game" VALUES(95894,'Pokémon Sleep','https://ocremix.org/game/95894/pokemon-sleep-ios');
 INSERT INTO "game" VALUES(95896,'Bloodstained: Curse of the Moon','https://ocremix.org/game/95896/bloodstained-curse-of-the-moon-win');
 INSERT INTO "game" VALUES(95898,'Grim Dawn','https://ocremix.org/game/95898/grim-dawn-win');
@@ -7560,6 +7561,7 @@ INSERT INTO "remix" VALUES(4971,'YAZOO!','Croc: Legend of the Gobbos','2025-12-0
 INSERT INTO "remix" VALUES(4972,'Asgore in Wonderland','Undertale','2025-12-02T01:05:12.065245+00:00','https://www.youtube.com/watch?v=WwRTWRuVfr8',95077,'https://ocrmirror.org/files/music/remixes/Undertale_Asgore_in_Wonderland_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4973,'Midi''s Lament','The Legend of Zelda: Twilight Princess','2025-12-03T01:05:53.520293+00:00','https://www.youtube.com/watch?v=xXs24pejW7A',505,'https://ocrmirror.org/files/music/remixes/Legend_of_Zelda_Twilight_Princess_Midi''s_Lament_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4974,'Catactras','Chronicon','2025-12-03T01:05:54.201400+00:00','https://www.youtube.com/watch?v=qsvNFw6Nak4',95916,'https://ocrmirror.org/files/music/remixes/Chronicon_Catactras_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4975,'Accept the Truth','Final Fantasy XVI','2025-12-16T01:08:24.815691+00:00','https://www.youtube.com/watch?v=iqtfBcmRhkk',95884,'https://ocrmirror.org/files/music/remixes/Final_Fantasy_16_Accept_the_Truth_OC_ReMix.mp3',1);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -14137,6 +14139,10 @@ INSERT INTO "remix_artist" VALUES(4972,16119,1);
 INSERT INTO "remix_artist" VALUES(4973,13046,1);
 INSERT INTO "remix_artist" VALUES(4973,18602,1);
 INSERT INTO "remix_artist" VALUES(4974,11932,1);
+INSERT INTO "remix_artist" VALUES(4975,4432,1);
+INSERT INTO "remix_artist" VALUES(4975,18685,1);
+INSERT INTO "remix_artist" VALUES(4975,8498,1);
+INSERT INTO "remix_artist" VALUES(4975,18869,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -46488,6 +46494,20 @@ INSERT INTO "remix_tag" VALUES(4963,'electronic',1);
 INSERT INTO "remix_tag" VALUES(4963,'piano',1);
 INSERT INTO "remix_tag" VALUES(4963,'strings',1);
 INSERT INTO "remix_tag" VALUES(4963,'synth',1);
+INSERT INTO "remix_tag" VALUES(4975,'hip-hop',1);
+INSERT INTO "remix_tag" VALUES(4975,'piano',1);
+INSERT INTO "remix_tag" VALUES(4975,'strings',1);
+INSERT INTO "remix_tag" VALUES(4975,'synth',1);
+INSERT INTO "remix_tag" VALUES(4975,'violin',1);
+INSERT INTO "remix_tag" VALUES(4975,'vocals-female',1);
+INSERT INTO "remix_tag" VALUES(4975,'vocals-male',1);
+INSERT INTO "remix_tag" VALUES(4975,'vocals-rapping',1);
+INSERT INTO "remix_tag" VALUES(4975,'solemn',1);
+INSERT INTO "remix_tag" VALUES(4975,'collab',1);
+INSERT INTO "remix_tag" VALUES(4975,'lang-english',1);
+INSERT INTO "remix_tag" VALUES(4975,'live-instruments',1);
+INSERT INTO "remix_tag" VALUES(4975,'lyrics-original',1);
+INSERT INTO "remix_tag" VALUES(4975,'timesig-4-4',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
