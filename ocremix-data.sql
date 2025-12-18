@@ -2616,6 +2616,7 @@ INSERT INTO "game" VALUES(47232,'Kyatto Ninden Teyandee','https://ocremix.org/ga
 INSERT INTO "game" VALUES(47578,'Aah! Harimanada','https://ocremix.org/game/47578/aah-harimanada-gen');
 INSERT INTO "game" VALUES(47705,'Jeanne d''Arc','https://ocremix.org/game/47705/jeanne-darc-psp');
 INSERT INTO "game" VALUES(47752,'Snowboard Kids','https://ocremix.org/game/47752/snowboard-kids-n64');
+INSERT INTO "game" VALUES(48217,'Castle Crashers','https://ocremix.org/game/48217/castle-crashers-xb360');
 INSERT INTO "game" VALUES(49613,'One Piece: Unlimited Cruise 1 - The Treasure Beneath the Waves','https://ocremix.org/game/49613/one-piece-unlimited-cruise-1-the-treasure-beneath-the-waves-wii');
 INSERT INTO "game" VALUES(50178,'Sonic Unleashed','https://ocremix.org/game/50178/sonic-unleashed-xb360');
 INSERT INTO "game" VALUES(51128,'Mario & Luigi: Bowser''s Inside Story','https://ocremix.org/game/51128/mario-and-luigi-bowsers-inside-story-nds');
@@ -7562,6 +7563,7 @@ INSERT INTO "remix" VALUES(4972,'Asgore in Wonderland','Undertale','2025-12-02T0
 INSERT INTO "remix" VALUES(4973,'Midi''s Lament','The Legend of Zelda: Twilight Princess','2025-12-03T01:05:53.520293+00:00','https://www.youtube.com/watch?v=xXs24pejW7A',505,'https://ocrmirror.org/files/music/remixes/Legend_of_Zelda_Twilight_Princess_Midi''s_Lament_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4974,'Catactras','Chronicon','2025-12-03T01:05:54.201400+00:00','https://www.youtube.com/watch?v=qsvNFw6Nak4',95916,'https://ocrmirror.org/files/music/remixes/Chronicon_Catactras_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4975,'Accept the Truth','Final Fantasy XVI','2025-12-16T01:08:24.815691+00:00','https://www.youtube.com/watch?v=iqtfBcmRhkk',95884,'https://ocrmirror.org/files/music/remixes/Final_Fantasy_16_Accept_the_Truth_OC_ReMix.mp3',1);
+INSERT INTO "remix" VALUES(4976,'All for One and One for All','Castle Crashers','2025-12-18T01:04:41.228286+00:00','https://www.youtube.com/watch?v=IHmjtjTK5TE',48217,'https://ocrmirror.org/files/music/remixes/Castle_Crashers_All_for_One_and_One_for_All_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -14143,6 +14145,7 @@ INSERT INTO "remix_artist" VALUES(4975,4432,1);
 INSERT INTO "remix_artist" VALUES(4975,18685,1);
 INSERT INTO "remix_artist" VALUES(4975,8498,1);
 INSERT INTO "remix_artist" VALUES(4975,18869,1);
+INSERT INTO "remix_artist" VALUES(4976,14607,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -46540,6 +46543,7 @@ INSERT INTO "remix_tag" VALUES(4968,'saxophone',1);
 INSERT INTO "remix_tag" VALUES(4968,'synth',1);
 INSERT INTO "remix_tag" VALUES(4968,'jazzy',1);
 INSERT INTO "remix_tag" VALUES(4968,'live-instruments',1);
+INSERT INTO "remix_tag" VALUES(4976,'timesig-4-4',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
