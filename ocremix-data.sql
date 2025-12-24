@@ -7569,6 +7569,8 @@ INSERT INTO "remix" VALUES(4976,'All for One and One for All','Castle Crashers',
 INSERT INTO "remix" VALUES(4977,'Known Unknowns','Outer Wilds','2025-12-21T01:11:54.554402+00:00','https://www.youtube.com/watch?v=WH9JM40S3yc',95888,'https://ocrmirror.org/files/music/remixes/Outer_Wilds_Known_Unknowns_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4978,'Beat of the Heart','Slay the Spire','2025-12-21T01:11:54.978168+00:00','https://www.youtube.com/watch?v=zGvALDACpLc',95889,'https://ocrmirror.org/files/music/remixes/Slay_the_Spire_Beat_of_the_Heart_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4979,'Children of Light','Final Fantasy XIV','2025-12-21T01:11:55.325803+00:00','https://www.youtube.com/watch?v=-RpwQlBBY08',95839,'https://ocrmirror.org/files/music/remixes/Final_Fantasy_14_Children_of_Light_OC_ReMix.mp3',1);
+INSERT INTO "remix" VALUES(4980,'Snowboarding Through a Mine Field','Bomberman Hero','2025-12-24T01:06:52.200338+00:00','https://www.youtube.com/watch?v=Lylqe7hPxeY',2931,'https://ocrmirror.org/files/music/remixes/Bomberman_Hero_Snowboarding_Through_a_Mine_Field_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4981,'Stupid Thorns!','Donkey Kong Country 2: Diddy''s Kong Quest','2025-12-24T01:06:52.509763+00:00','https://www.youtube.com/watch?v=z8uaWTRTXKA',48,'https://ocrmirror.org/files/music/remixes/Donkey_Kong_Country_2_Stupid_Thorns_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -14160,6 +14162,8 @@ INSERT INTO "remix_artist" VALUES(4979,18632,1);
 INSERT INTO "remix_artist" VALUES(4979,18837,1);
 INSERT INTO "remix_artist" VALUES(4979,18606,1);
 INSERT INTO "remix_artist" VALUES(4979,18847,1);
+INSERT INTO "remix_artist" VALUES(4980,16412,1);
+INSERT INTO "remix_artist" VALUES(4981,18736,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -46591,6 +46595,16 @@ INSERT INTO "remix_tag" VALUES(4979,'live-instruments',1);
 INSERT INTO "remix_tag" VALUES(4979,'lyrics-existing',1);
 INSERT INTO "remix_tag" VALUES(4979,'lyrics-original',1);
 INSERT INTO "remix_tag" VALUES(4979,'medley',1);
+INSERT INTO "remix_tag" VALUES(4980,'breakbeat',1);
+INSERT INTO "remix_tag" VALUES(4980,'fusion',1);
+INSERT INTO "remix_tag" VALUES(4980,'jazz',1);
+INSERT INTO "remix_tag" VALUES(4980,'electric-piano',1);
+INSERT INTO "remix_tag" VALUES(4980,'piano',1);
+INSERT INTO "remix_tag" VALUES(4980,'chill',1);
+INSERT INTO "remix_tag" VALUES(4980,'jazzy',1);
+INSERT INTO "remix_tag" VALUES(4980,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4981,'chiptune',1);
+INSERT INTO "remix_tag" VALUES(4981,'timesig-4-4',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
