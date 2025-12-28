@@ -1611,6 +1611,7 @@ INSERT INTO "artist" VALUES(18965,'Linnea Burr','https://ocremix.org/artist/1896
 INSERT INTO "artist" VALUES(18966,'Dylan William van de Wal','https://ocremix.org/artist/18966/dylan-william-van-de-wal');
 INSERT INTO "artist" VALUES(18967,'David Lallande','https://ocremix.org/artist/18967/david-lallande');
 INSERT INTO "artist" VALUES(18968,'Bharat Raman','https://ocremix.org/artist/18968/bharat-raman');
+INSERT INTO "artist" VALUES(18969,'Ariane Marchese','https://ocremix.org/artist/18969/ariane-marchese');
 INSERT INTO "artist" VALUES(18971,'Slowly Crushed','https://ocremix.org/artist/18971/slowly-crushed');
 INSERT INTO "artist" VALUES(18980,'Duel Tech','https://ocremix.org/artist/18980/duel-tech');
 INSERT INTO "artist" VALUES(18983,'Xander Plute','https://ocremix.org/artist/18983/xander-plute');
@@ -2758,6 +2759,7 @@ INSERT INTO "game" VALUES(95869,'Elden Ring','https://ocremix.org/game/95869/eld
 INSERT INTO "game" VALUES(95873,'Inscryption','https://ocremix.org/game/95873/inscryption-win');
 INSERT INTO "game" VALUES(95874,'Ultimate Paintball Challenge','https://ocremix.org/game/95874/ultimate-paintball-challenge-win');
 INSERT INTO "game" VALUES(95876,'The Great Ace Attorney 2: Resolve','https://ocremix.org/game/95876/great-ace-attorney-2-resolve-3ds');
+INSERT INTO "game" VALUES(95877,'Baldur''s Gate III','https://ocremix.org/game/95877/baldurs-gate-iii-win');
 INSERT INTO "game" VALUES(95878,'Disco Elysium','https://ocremix.org/game/95878/disco-elysium-win');
 INSERT INTO "game" VALUES(95880,'Helldivers II','https://ocremix.org/game/95880/helldivers-ii-ps5');
 INSERT INTO "game" VALUES(95882,'Pokémon Trading Card Game Pocket','https://ocremix.org/game/95882/pokemon-trading-card-game-pocket-ios');
@@ -7584,6 +7586,8 @@ INSERT INTO "remix" VALUES(4987,'Queen of the Groove','Final Fantasy VII Rebirth
 INSERT INTO "remix" VALUES(4988,'Time to Shuffle to Time to Shuffle to Time to Shuffle','Final Fantasy VI','2025-12-26T01:07:39.933489+00:00','https://www.youtube.com/watch?v=NboukKqBjbY',6,'https://ocrmirror.org/files/music/remixes/Final_Fantasy_6_Time_to_Shuffle_to_Time_to_Shuffle_to_Time_to_Shuffle_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4989,'Ancient Vessel','The Legend of Zelda: Tears of the Kingdom','2025-12-26T01:07:40.428989+00:00','https://www.youtube.com/watch?v=Z0VLYjbNx08',95834,'https://ocrmirror.org/files/music/remixes/Legend_of_Zelda_Tears_of_the_Kingdom_Ancient_Vessel_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4990,'Light a Torch, It''s Dark Down Here','Minecraft','2025-12-26T01:07:40.898263+00:00','https://www.youtube.com/watch?v=drCXpzOkOyM',708,'https://ocrmirror.org/files/music/remixes/Minecraft_Light_a_Torch_It''s_Dark_Down_Here_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4991,'Lead Where You Belong','Baldur''s Gate III','2025-12-28T01:15:46.647510+00:00','https://www.youtube.com/watch?v=o4660wl0Iuk',95877,'https://ocrmirror.org/files/music/remixes/Baldur''s_Gate_3_Lead_Where_You_Belong_OC_ReMix.mp3',1);
+INSERT INTO "remix" VALUES(4992,'Wadafuskle','The Legend of Zelda: Majora''s Mask','2025-12-28T01:15:46.954892+00:00','https://www.youtube.com/watch?v=7QyDhd-HnTI',490,'https://ocrmirror.org/files/music/remixes/Legend_of_Zelda_Majora''s_Mask_Wadafuskle_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -14192,6 +14196,12 @@ INSERT INTO "remix_artist" VALUES(4988,16103,1);
 INSERT INTO "remix_artist" VALUES(4989,14375,1);
 INSERT INTO "remix_artist" VALUES(4989,16615,1);
 INSERT INTO "remix_artist" VALUES(4990,13667,1);
+INSERT INTO "remix_artist" VALUES(4991,11774,1);
+INSERT INTO "remix_artist" VALUES(4991,18969,1);
+INSERT INTO "remix_artist" VALUES(4992,18913,1);
+INSERT INTO "remix_artist" VALUES(4992,18724,1);
+INSERT INTO "remix_artist" VALUES(4992,18712,1);
+INSERT INTO "remix_artist" VALUES(4992,4695,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -46699,6 +46709,17 @@ INSERT INTO "remix_tag" VALUES(4990,'strings',1);
 INSERT INTO "remix_tag" VALUES(4990,'synth',1);
 INSERT INTO "remix_tag" VALUES(4990,'dark',1);
 INSERT INTO "remix_tag" VALUES(4990,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4991,'electric-guitar',1);
+INSERT INTO "remix_tag" VALUES(4991,'singing',1);
+INSERT INTO "remix_tag" VALUES(4991,'vocals-female',1);
+INSERT INTO "remix_tag" VALUES(4991,'collab',1);
+INSERT INTO "remix_tag" VALUES(4991,'lang-english',1);
+INSERT INTO "remix_tag" VALUES(4991,'lyrics-existing',1);
+INSERT INTO "remix_tag" VALUES(4991,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4992,'collab',1);
+INSERT INTO "remix_tag" VALUES(4992,'compo-dod',1);
+INSERT INTO "remix_tag" VALUES(4992,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(4992,'timesig-irregular',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
