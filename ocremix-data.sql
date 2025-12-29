@@ -2778,6 +2778,7 @@ INSERT INTO "game" VALUES(95902,'Crypt Custodian','https://ocremix.org/game/9590
 INSERT INTO "game" VALUES(95903,'Fire Emblem Engage','https://ocremix.org/game/95903/fire-emblem-engage-swtch');
 INSERT INTO "game" VALUES(95906,'Microsoft Flight Simulator','https://ocremix.org/game/95906/microsoft-flight-simulator-win');
 INSERT INTO "game" VALUES(95907,'Persona 5','https://ocremix.org/game/95907/persona-5-ps4');
+INSERT INTO "game" VALUES(95908,'Shin Megami Tensei IV','https://ocremix.org/game/95908/shin-megami-tensei-iv-3ds');
 INSERT INTO "game" VALUES(95910,'The Oregon Trail','https://ocremix.org/game/95910/oregon-trail-win');
 INSERT INTO "game" VALUES(95911,'Look Outside','https://ocremix.org/game/95911/look-outside-win');
 INSERT INTO "game" VALUES(95913,'Pikmin 4','https://ocremix.org/game/95913/pikmin-4-swtch');
@@ -7588,6 +7589,8 @@ INSERT INTO "remix" VALUES(4989,'Ancient Vessel','The Legend of Zelda: Tears of 
 INSERT INTO "remix" VALUES(4990,'Light a Torch, It''s Dark Down Here','Minecraft','2025-12-26T01:07:40.898263+00:00','https://www.youtube.com/watch?v=drCXpzOkOyM',708,'https://ocrmirror.org/files/music/remixes/Minecraft_Light_a_Torch_It''s_Dark_Down_Here_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4991,'Lead Where You Belong','Baldur''s Gate III','2025-12-28T01:15:46.647510+00:00','https://www.youtube.com/watch?v=o4660wl0Iuk',95877,'https://ocrmirror.org/files/music/remixes/Baldur''s_Gate_3_Lead_Where_You_Belong_OC_ReMix.mp3',1);
 INSERT INTO "remix" VALUES(4992,'Wadafuskle','The Legend of Zelda: Majora''s Mask','2025-12-28T01:15:46.954892+00:00','https://www.youtube.com/watch?v=7QyDhd-HnTI',490,'https://ocrmirror.org/files/music/remixes/Legend_of_Zelda_Majora''s_Mask_Wadafuskle_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4993,'I''MMM THE BEST!','Mario Kart 64','2025-12-29T01:13:25.204514+00:00','https://www.youtube.com/watch?v=KHwyY_E6f7w',264,'https://ocrmirror.org/files/music/remixes/Mario_Kart_64_I''MMM_THE_BEST_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(4994,'Demon Fusion','Shin Megami Tensei IV','2025-12-29T01:13:25.475723+00:00','https://www.youtube.com/watch?v=kL-AfCm3A0Q',95908,'https://ocrmirror.org/files/music/remixes/Shin_Megami_Tensei_4_Demon_Fusion_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -14202,6 +14205,8 @@ INSERT INTO "remix_artist" VALUES(4992,18913,1);
 INSERT INTO "remix_artist" VALUES(4992,18724,1);
 INSERT INTO "remix_artist" VALUES(4992,18712,1);
 INSERT INTO "remix_artist" VALUES(4992,4695,1);
+INSERT INTO "remix_artist" VALUES(4993,16412,1);
+INSERT INTO "remix_artist" VALUES(4994,18980,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -46720,6 +46725,22 @@ INSERT INTO "remix_tag" VALUES(4992,'collab',1);
 INSERT INTO "remix_tag" VALUES(4992,'compo-dod',1);
 INSERT INTO "remix_tag" VALUES(4992,'timesig-4-4',1);
 INSERT INTO "remix_tag" VALUES(4992,'timesig-irregular',1);
+INSERT INTO "remix_tag" VALUES(4993,'fusion',1);
+INSERT INTO "remix_tag" VALUES(4993,'electronic',1);
+INSERT INTO "remix_tag" VALUES(4993,'piano',1);
+INSERT INTO "remix_tag" VALUES(4993,'synth',1);
+INSERT INTO "remix_tag" VALUES(4993,'energetic',1);
+INSERT INTO "remix_tag" VALUES(4993,'timesig-irregular',1);
+INSERT INTO "remix_tag" VALUES(4994,'prog-rock',1);
+INSERT INTO "remix_tag" VALUES(4994,'electric-guitar',1);
+INSERT INTO "remix_tag" VALUES(4994,'electronic',1);
+INSERT INTO "remix_tag" VALUES(4994,'organ',1);
+INSERT INTO "remix_tag" VALUES(4994,'synth',1);
+INSERT INTO "remix_tag" VALUES(4994,'energetic',1);
+INSERT INTO "remix_tag" VALUES(4994,'collab',1);
+INSERT INTO "remix_tag" VALUES(4994,'compo-dod',1);
+INSERT INTO "remix_tag" VALUES(4994,'tempo-variable',1);
+INSERT INTO "remix_tag" VALUES(4994,'timesig-4-4',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
