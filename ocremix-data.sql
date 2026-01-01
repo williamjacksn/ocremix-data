@@ -7597,6 +7597,7 @@ INSERT INTO "remix" VALUES(4996,'Once More, Into the Storm','Outer Wilds','2025-
 INSERT INTO "remix" VALUES(4997,'World 7/4','Super Mario Bros.','2025-12-31T01:09:34.517729+00:00','https://www.youtube.com/watch?v=TPM9xofsYXk',56,'https://ocrmirror.org/files/music/remixes/Super_Mario_Bros_World_7-4_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4998,'Cuando Cae la Noche','Castlevania: The Adventure','2025-12-31T01:09:34.883014+00:00','https://www.youtube.com/watch?v=soKw0A6bHvY',341,'https://ocrmirror.org/files/music/remixes/Castlevania_The_Adventure_Cuando_Cae_la_Noche_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4999,'A Brief Respite','Salt and Sanctuary','2025-12-31T01:09:35.211981+00:00','https://www.youtube.com/watch?v=Ss2Swznjk4M',95917,'https://ocrmirror.org/files/music/remixes/Salt_and_Sanctuary_A_Brief_Respite_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(5000,'Hotel Koholint','The Legend of Zelda: Link''s Awakening','2026-01-01T01:15:40.828395+00:00','https://www.youtube.com/watch?v=6rk1A3tSxHc',68,'https://ocrmirror.org/files/music/remixes/Legend_of_Zelda_Link''s_Awakening_Hotel_Koholint_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -14225,6 +14226,7 @@ INSERT INTO "remix_artist" VALUES(4997,4695,1);
 INSERT INTO "remix_artist" VALUES(4997,18654,1);
 INSERT INTO "remix_artist" VALUES(4998,16101,1);
 INSERT INTO "remix_artist" VALUES(4999,12541,1);
+INSERT INTO "remix_artist" VALUES(5000,4694,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -46797,6 +46799,12 @@ INSERT INTO "remix_tag" VALUES(4999,'synth',1);
 INSERT INTO "remix_tag" VALUES(4999,'chill',1);
 INSERT INTO "remix_tag" VALUES(4999,'lo-fi',1);
 INSERT INTO "remix_tag" VALUES(4999,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(5000,'rock',1);
+INSERT INTO "remix_tag" VALUES(5000,'acoustic-guitar',1);
+INSERT INTO "remix_tag" VALUES(5000,'electric-guitar',1);
+INSERT INTO "remix_tag" VALUES(5000,'trumpet',1);
+INSERT INTO "remix_tag" VALUES(5000,'live-instruments',1);
+INSERT INTO "remix_tag" VALUES(5000,'timesig-4-4',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
