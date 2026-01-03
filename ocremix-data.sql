@@ -1636,6 +1636,7 @@ INSERT INTO "artist" VALUES(19019,'pixeltea','https://ocremix.org/artist/19019/p
 INSERT INTO "artist" VALUES(19020,'LANparty','https://ocremix.org/artist/19020/lanparty');
 INSERT INTO "artist" VALUES(19021,'Theology','https://ocremix.org/artist/19021/theology');
 INSERT INTO "artist" VALUES(19028,'Lady Varda','https://ocremix.org/artist/19028/lady-varda');
+INSERT INTO "artist" VALUES(19030,'Audio Processing Unit','https://ocremix.org/artist/19030/audio-processing-unit');
 CREATE TABLE game (
     id integer primary key,
     name text not null,
@@ -2783,6 +2784,7 @@ INSERT INTO "game" VALUES(95910,'The Oregon Trail','https://ocremix.org/game/959
 INSERT INTO "game" VALUES(95911,'Look Outside','https://ocremix.org/game/95911/look-outside-win');
 INSERT INTO "game" VALUES(95913,'Pikmin 4','https://ocremix.org/game/95913/pikmin-4-swtch');
 INSERT INTO "game" VALUES(95914,'Brothers: A Tale of Two Sons','https://ocremix.org/game/95914/brothers-a-tale-of-two-sons-xb360');
+INSERT INTO "game" VALUES(95915,'I Was a Teenage Exocolonist','https://ocremix.org/game/95915/i-was-a-teenage-exocolonist-win');
 INSERT INTO "game" VALUES(95916,'Chronicon','https://ocremix.org/game/95916/chronicon-win');
 INSERT INTO "game" VALUES(95917,'Salt and Sanctuary','https://ocremix.org/game/95917/salt-and-sanctuary-ps4');
 CREATE TABLE remix (
@@ -7598,6 +7600,7 @@ INSERT INTO "remix" VALUES(4997,'World 7/4','Super Mario Bros.','2025-12-31T01:0
 INSERT INTO "remix" VALUES(4998,'Cuando Cae la Noche','Castlevania: The Adventure','2025-12-31T01:09:34.883014+00:00','https://www.youtube.com/watch?v=soKw0A6bHvY',341,'https://ocrmirror.org/files/music/remixes/Castlevania_The_Adventure_Cuando_Cae_la_Noche_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(4999,'A Brief Respite','Salt and Sanctuary','2025-12-31T01:09:35.211981+00:00','https://www.youtube.com/watch?v=Ss2Swznjk4M',95917,'https://ocrmirror.org/files/music/remixes/Salt_and_Sanctuary_A_Brief_Respite_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(5000,'Hotel Koholint','The Legend of Zelda: Link''s Awakening','2026-01-01T01:15:40.828395+00:00','https://www.youtube.com/watch?v=6rk1A3tSxHc',68,'https://ocrmirror.org/files/music/remixes/Legend_of_Zelda_Link''s_Awakening_Hotel_Koholint_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(5001,'The First Sip of Coffee As a Grown-Up','I Was a Teenage Exocolonist','2026-01-03T01:05:18.921952+00:00','https://www.youtube.com/watch?v=1OFNhnAxB3Q',95915,'https://ocrmirror.org/files/music/remixes/I_Was_a_Teenage_Exocolonist_The_First_Sip_of_Coffee_As_a_Grown-Up_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -14227,6 +14230,7 @@ INSERT INTO "remix_artist" VALUES(4997,18654,1);
 INSERT INTO "remix_artist" VALUES(4998,16101,1);
 INSERT INTO "remix_artist" VALUES(4999,12541,1);
 INSERT INTO "remix_artist" VALUES(5000,4694,1);
+INSERT INTO "remix_artist" VALUES(5001,19030,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -46805,6 +46809,14 @@ INSERT INTO "remix_tag" VALUES(5000,'electric-guitar',1);
 INSERT INTO "remix_tag" VALUES(5000,'trumpet',1);
 INSERT INTO "remix_tag" VALUES(5000,'live-instruments',1);
 INSERT INTO "remix_tag" VALUES(5000,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(5001,'prog-rock',1);
+INSERT INTO "remix_tag" VALUES(5001,'chiptune',1);
+INSERT INTO "remix_tag" VALUES(5001,'electric-guitar',1);
+INSERT INTO "remix_tag" VALUES(5001,'energetic',1);
+INSERT INTO "remix_tag" VALUES(5001,'collab',1);
+INSERT INTO "remix_tag" VALUES(5001,'compo-dod',1);
+INSERT INTO "remix_tag" VALUES(5001,'timesig-7-4',1);
+INSERT INTO "remix_tag" VALUES(5001,'timesig-7-8',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
