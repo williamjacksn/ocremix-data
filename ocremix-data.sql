@@ -2418,6 +2418,7 @@ INSERT INTO "game" VALUES(946,'Demon''s Souls','https://ocremix.org/game/946/dem
 INSERT INTO "game" VALUES(947,'Sonic and the Black Knight','https://ocremix.org/game/947/sonic-and-the-black-knight-wii');
 INSERT INTO "game" VALUES(948,'Guild Wars 2','https://ocremix.org/game/948/guild-wars-2-win');
 INSERT INTO "game" VALUES(950,'Breath of Fire','https://ocremix.org/game/950/breath-of-fire-gba');
+INSERT INTO "game" VALUES(954,'Mega Man Battle Network 5: Team Protoman','https://ocremix.org/game/954/mega-man-battle-network-5-team-protoman-gba');
 INSERT INTO "game" VALUES(956,'.hack//Infection - Part 1','https://ocremix.org/game/956/hackinfection-part-1-ps2');
 INSERT INTO "game" VALUES(958,'King''s Quest V: Absence Makes the Heart Go Yonder','https://ocremix.org/game/958/kings-quest-v-absence-makes-the-heart-go-yonder-dos');
 INSERT INTO "game" VALUES(959,'Double Dragon','https://ocremix.org/game/959/double-dragon-arc');
@@ -7601,6 +7602,8 @@ INSERT INTO "remix" VALUES(4998,'Cuando Cae la Noche','Castlevania: The Adventur
 INSERT INTO "remix" VALUES(4999,'A Brief Respite','Salt and Sanctuary','2026-01-22T13:26:50.962054+00:00','https://www.youtube.com/watch?v=Ss2Swznjk4M',95917,'https://ocrmirror.org/files/music/remixes/Salt_and_Sanctuary_A_Brief_Respite_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(5000,'Hotel Koholint','The Legend of Zelda: Link''s Awakening','2026-01-23T13:24:04.009495+00:00','https://www.youtube.com/watch?v=6rk1A3tSxHc',68,'https://ocrmirror.org/files/music/remixes/Legend_of_Zelda_Link''s_Awakening_Hotel_Koholint_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(5001,'The First Sip of Coffee As a Grown-Up','I Was a Teenage Exocolonist','2026-01-25T13:09:28.206957+00:00','https://www.youtube.com/watch?v=1OFNhnAxB3Q',95915,'https://ocrmirror.org/files/music/remixes/I_Was_a_Teenage_Exocolonist_The_First_Sip_of_Coffee_As_a_Grown-Up_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(5002,'Super Double Espresso','Super Double Dragon','2026-01-31T01:17:44.297166+00:00','https://www.youtube.com/watch?v=tLU8CxpKVqw',469,'https://ocrmirror.org/files/music/remixes/Super_Double_Dragon_Super_Double_Espresso_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(5003,'Hope You Brought Your Airshoes','Mega Man Battle Network 5: Team Protoman','2026-01-31T01:17:44.798952+00:00','https://www.youtube.com/watch?v=_YPQ43FPR1Q',954,'https://ocrmirror.org/files/music/remixes/Mega_Man_Battle_Network_5_Team_Protoman_Hope_You_Brought_Your_Airshoes_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -14231,6 +14234,10 @@ INSERT INTO "remix_artist" VALUES(4998,16101,1);
 INSERT INTO "remix_artist" VALUES(4999,12541,1);
 INSERT INTO "remix_artist" VALUES(5000,4694,1);
 INSERT INTO "remix_artist" VALUES(5001,19030,1);
+INSERT INTO "remix_artist" VALUES(5002,4313,1);
+INSERT INTO "remix_artist" VALUES(5003,18724,1);
+INSERT INTO "remix_artist" VALUES(5003,18837,1);
+INSERT INTO "remix_artist" VALUES(5003,16853,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -46828,6 +46835,11 @@ INSERT INTO "remix_tag" VALUES(4976,'live-instruments',1);
 INSERT INTO "remix_tag" VALUES(4976,'workout',1);
 INSERT INTO "remix_tag" VALUES(4979,'collab',1);
 INSERT INTO "remix_tag" VALUES(4981,'energetic',1);
+INSERT INTO "remix_tag" VALUES(5002,'jazzy',1);
+INSERT INTO "remix_tag" VALUES(5002,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(5003,'collab',1);
+INSERT INTO "remix_tag" VALUES(5003,'compo-dod',1);
+INSERT INTO "remix_tag" VALUES(5003,'medley',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
