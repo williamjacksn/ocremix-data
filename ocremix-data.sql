@@ -7604,6 +7604,8 @@ INSERT INTO "remix" VALUES(5000,'Hotel Koholint','The Legend of Zelda: Link''s A
 INSERT INTO "remix" VALUES(5001,'The First Sip of Coffee As a Grown-Up','I Was a Teenage Exocolonist','2026-01-25T13:09:28.206957+00:00','https://www.youtube.com/watch?v=1OFNhnAxB3Q',95915,'https://ocrmirror.org/files/music/remixes/I_Was_a_Teenage_Exocolonist_The_First_Sip_of_Coffee_As_a_Grown-Up_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(5002,'Super Double Espresso','Super Double Dragon','2026-01-31T01:17:44.297166+00:00','https://www.youtube.com/watch?v=tLU8CxpKVqw',469,'https://ocrmirror.org/files/music/remixes/Super_Double_Dragon_Super_Double_Espresso_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(5003,'Hope You Brought Your Airshoes','Mega Man Battle Network 5: Team Protoman','2026-01-31T01:17:44.798952+00:00','https://www.youtube.com/watch?v=_YPQ43FPR1Q',954,'https://ocrmirror.org/files/music/remixes/Mega_Man_Battle_Network_5_Team_Protoman_Hope_You_Brought_Your_Airshoes_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(5004,'Temple of the Space Angler','F-Zero','2026-02-03T01:25:24.181128+00:00','https://www.youtube.com/watch?v=PuU9mpQDNiw',89,'https://ocrmirror.org/files/music/remixes/F-Zero_Temple_of_the_Space_Angler_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(5005,'Endure and Survive','The Last of Us','2026-02-03T01:25:24.649882+00:00','https://www.youtube.com/watch?v=Fqgsn2a3RVo',913,'https://ocrmirror.org/files/music/remixes/Last_of_Us_Endure_and_Survive_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -14238,6 +14240,12 @@ INSERT INTO "remix_artist" VALUES(5002,4313,1);
 INSERT INTO "remix_artist" VALUES(5003,18724,1);
 INSERT INTO "remix_artist" VALUES(5003,18837,1);
 INSERT INTO "remix_artist" VALUES(5003,16853,1);
+INSERT INTO "remix_artist" VALUES(5004,11776,1);
+INSERT INTO "remix_artist" VALUES(5005,13667,1);
+INSERT INTO "remix_artist" VALUES(5005,13500,1);
+INSERT INTO "remix_artist" VALUES(5005,18837,1);
+INSERT INTO "remix_artist" VALUES(5005,18601,1);
+INSERT INTO "remix_artist" VALUES(5005,10690,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -46840,6 +46848,18 @@ INSERT INTO "remix_tag" VALUES(5002,'timesig-4-4',1);
 INSERT INTO "remix_tag" VALUES(5003,'collab',1);
 INSERT INTO "remix_tag" VALUES(5003,'compo-dod',1);
 INSERT INTO "remix_tag" VALUES(5003,'medley',1);
+INSERT INTO "remix_tag" VALUES(5004,'ambient',1);
+INSERT INTO "remix_tag" VALUES(5004,'new-age',1);
+INSERT INTO "remix_tag" VALUES(5004,'electronic',1);
+INSERT INTO "remix_tag" VALUES(5004,'flute',1);
+INSERT INTO "remix_tag" VALUES(5004,'piano',1);
+INSERT INTO "remix_tag" VALUES(5004,'sound-fx',1);
+INSERT INTO "remix_tag" VALUES(5004,'synth',1);
+INSERT INTO "remix_tag" VALUES(5004,'mellow',1);
+INSERT INTO "remix_tag" VALUES(5004,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(5005,'collab',1);
+INSERT INTO "remix_tag" VALUES(5005,'compo-dod',1);
+INSERT INTO "remix_tag" VALUES(5005,'timesig-4-4',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
