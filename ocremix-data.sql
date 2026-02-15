@@ -7609,6 +7609,7 @@ INSERT INTO "remix" VALUES(5004,'Temple of the Space Angler','F-Zero','2026-02-0
 INSERT INTO "remix" VALUES(5005,'Endure and Survive','The Last of Us','2026-02-03T01:25:24.649882+00:00','https://www.youtube.com/watch?v=Fqgsn2a3RVo',913,'https://ocrmirror.org/files/music/remixes/Last_of_Us_Endure_and_Survive_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(5006,'Adeptal Echoes','Genshin Impact','2026-02-06T01:21:27.527259+00:00','https://www.youtube.com/watch?v=Degyvxaml0U',95846,'https://ocrmirror.org/files/music/remixes/Genshin_Impact_Adeptal_Echoes_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(5007,'Pipe Frame Dreams','Mario Kart 64','2026-02-06T01:21:27.988129+00:00','https://www.youtube.com/watch?v=S3DEyd9C440',264,'https://ocrmirror.org/files/music/remixes/Mario_Kart_64_Pipe_Frame_Dreams_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(5008,'Sidon''s Wet Dream','The Legend of Zelda: Breath of the Wild','2026-02-15T01:41:54.422226+00:00','https://www.youtube.com/watch?v=P5ZfBEwS2ME',95359,'https://ocrmirror.org/files/music/remixes/Legend_of_Zelda_Breath_of_the_Wild_Sidon''s_Wet_Dream_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -14251,6 +14252,8 @@ INSERT INTO "remix_artist" VALUES(5005,18601,1);
 INSERT INTO "remix_artist" VALUES(5005,10690,1);
 INSERT INTO "remix_artist" VALUES(5006,19042,1);
 INSERT INTO "remix_artist" VALUES(5007,16412,1);
+INSERT INTO "remix_artist" VALUES(5008,18602,1);
+INSERT INTO "remix_artist" VALUES(5008,13046,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -46814,6 +46817,8 @@ INSERT INTO "remix_tag" VALUES(5006,'energetic',1);
 INSERT INTO "remix_tag" VALUES(5006,'timesig-4-4',1);
 INSERT INTO "remix_tag" VALUES(5007,'jazzy',1);
 INSERT INTO "remix_tag" VALUES(5007,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(5008,'collab',1);
+INSERT INTO "remix_tag" VALUES(5008,'timesig-4-4',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
