@@ -1637,6 +1637,7 @@ INSERT INTO "artist" VALUES(19020,'LANparty','https://ocremix.org/artist/19020/l
 INSERT INTO "artist" VALUES(19021,'Theology','https://ocremix.org/artist/19021/theology');
 INSERT INTO "artist" VALUES(19028,'Lady Varda','https://ocremix.org/artist/19028/lady-varda');
 INSERT INTO "artist" VALUES(19030,'Audio Processing Unit','https://ocremix.org/artist/19030/audio-processing-unit');
+INSERT INTO "artist" VALUES(19035,'Barbell Yaga','https://ocremix.org/artist/19035/barbell-yaga');
 INSERT INTO "artist" VALUES(19042,'Cinnamon Stone','https://ocremix.org/artist/19042/cinnamon-stone');
 CREATE TABLE game (
     id integer primary key,
@@ -2681,6 +2682,7 @@ INSERT INTO "game" VALUES(95344,'Halo 5: Guardians','https://ocremix.org/game/95
 INSERT INTO "game" VALUES(95346,'Remember Me','https://ocremix.org/game/95346/remember-me-xb360');
 INSERT INTO "game" VALUES(95347,'Undeadline','https://ocremix.org/game/95347/undeadline-msx');
 INSERT INTO "game" VALUES(95349,'The Witcher 3: Wild Hunt','https://ocremix.org/game/95349/witcher-3-wild-hunt-win');
+INSERT INTO "game" VALUES(95354,'Fire Emblem Heroes','https://ocremix.org/game/95354/fire-emblem-heroes-ios');
 INSERT INTO "game" VALUES(95356,'Warframe','https://ocremix.org/game/95356/warframe-win');
 INSERT INTO "game" VALUES(95359,'The Legend of Zelda: Breath of the Wild','https://ocremix.org/game/95359/legend-of-zelda-breath-of-the-wild-swtch');
 INSERT INTO "game" VALUES(95360,'The Legend of Zelda: Breath of the Wild','https://ocremix.org/game/95360/legend-of-zelda-breath-of-the-wild-wiiu');
@@ -7610,6 +7612,8 @@ INSERT INTO "remix" VALUES(5005,'Endure and Survive','The Last of Us','2026-02-0
 INSERT INTO "remix" VALUES(5006,'Adeptal Echoes','Genshin Impact','2026-02-06T01:21:27.527259+00:00','https://www.youtube.com/watch?v=Degyvxaml0U',95846,'https://ocrmirror.org/files/music/remixes/Genshin_Impact_Adeptal_Echoes_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(5007,'Pipe Frame Dreams','Mario Kart 64','2026-02-06T01:21:27.988129+00:00','https://www.youtube.com/watch?v=S3DEyd9C440',264,'https://ocrmirror.org/files/music/remixes/Mario_Kart_64_Pipe_Frame_Dreams_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(5008,'Sidon''s Wet Dream','The Legend of Zelda: Breath of the Wild','2026-02-15T01:41:54.422226+00:00','https://www.youtube.com/watch?v=P5ZfBEwS2ME',95359,'https://ocrmirror.org/files/music/remixes/Legend_of_Zelda_Breath_of_the_Wild_Sidon''s_Wet_Dream_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(5009,'Heroes of the Tempest','Fire Emblem Heroes','2026-02-16T01:25:29.209172+00:00','https://www.youtube.com/watch?v=y4bm-ws80cE',95354,'https://ocrmirror.org/files/music/remixes/Fire_Emblem_Heroes_Heroes_of_the_Tempest_OC_ReMix_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(5010,'The Universe Said I Love You','Minecraft','2026-02-16T01:25:29.633951+00:00','https://www.youtube.com/watch?v=B__s7lWs--c',708,'https://ocrmirror.org/files/music/remixes/Minecraft_The_Universe_Said_I_Love_You_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -14254,6 +14258,10 @@ INSERT INTO "remix_artist" VALUES(5006,19042,1);
 INSERT INTO "remix_artist" VALUES(5007,16412,1);
 INSERT INTO "remix_artist" VALUES(5008,18602,1);
 INSERT INTO "remix_artist" VALUES(5008,13046,1);
+INSERT INTO "remix_artist" VALUES(5009,13500,1);
+INSERT INTO "remix_artist" VALUES(5009,19035,1);
+INSERT INTO "remix_artist" VALUES(5009,18724,1);
+INSERT INTO "remix_artist" VALUES(5010,4732,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -46819,6 +46827,22 @@ INSERT INTO "remix_tag" VALUES(5007,'jazzy',1);
 INSERT INTO "remix_tag" VALUES(5007,'timesig-4-4',1);
 INSERT INTO "remix_tag" VALUES(5008,'collab',1);
 INSERT INTO "remix_tag" VALUES(5008,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(5009,'prog-rock',1);
+INSERT INTO "remix_tag" VALUES(5009,'electric-guitar',1);
+INSERT INTO "remix_tag" VALUES(5009,'piano',1);
+INSERT INTO "remix_tag" VALUES(5009,'violin',1);
+INSERT INTO "remix_tag" VALUES(5009,'energetic',1);
+INSERT INTO "remix_tag" VALUES(5009,'collab',1);
+INSERT INTO "remix_tag" VALUES(5009,'compo-dod',1);
+INSERT INTO "remix_tag" VALUES(5009,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(5010,'ambient',1);
+INSERT INTO "remix_tag" VALUES(5010,'electronic',1);
+INSERT INTO "remix_tag" VALUES(5010,'piano',1);
+INSERT INTO "remix_tag" VALUES(5010,'synth',1);
+INSERT INTO "remix_tag" VALUES(5010,'chill',1);
+INSERT INTO "remix_tag" VALUES(5010,'mellow',1);
+INSERT INTO "remix_tag" VALUES(5010,'lo-fi',1);
+INSERT INTO "remix_tag" VALUES(5010,'timesig-4-4',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
