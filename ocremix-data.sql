@@ -2250,6 +2250,7 @@ INSERT INTO "game" VALUES(666,'Shinobi','https://ocremix.org/game/666/shinobi-ar
 INSERT INTO "game" VALUES(667,'Super Smash Bros.','https://ocremix.org/game/667/super-smash-bros-n64');
 INSERT INTO "game" VALUES(668,'The Curse of Monkey Island','https://ocremix.org/game/668/curse-of-monkey-island-win');
 INSERT INTO "game" VALUES(670,'Missile Master','https://ocremix.org/game/670/missile-master-ios');
+INSERT INTO "game" VALUES(672,'Pokémon Emerald Version','https://ocremix.org/game/672/pokemon-emerald-version-gba');
 INSERT INTO "game" VALUES(673,'Pokémon Ruby Version','https://ocremix.org/game/673/pokemon-ruby-version-gba');
 INSERT INTO "game" VALUES(674,'Pokémon Silver Version','https://ocremix.org/game/674/pokemon-silver-version-gbc');
 INSERT INTO "game" VALUES(676,'Pokémon Blue Version','https://ocremix.org/game/676/pokemon-blue-version-gb');
@@ -7617,6 +7618,9 @@ INSERT INTO "remix" VALUES(5010,'The Universe Said I Love You','Minecraft','2026
 INSERT INTO "remix" VALUES(5011,'Hollow Nights','Star Fox Adventures','2026-02-22T01:25:47.017020+00:00','https://www.youtube.com/watch?v=WN40yzCkZPg',601,'https://ocrmirror.org/files/music/remixes/Star_Fox_Adventures_Hollow_Nights_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(5012,'Initiate Code Blue','Star Fox 64','2026-02-28T01:15:30.705867+00:00','https://www.youtube.com/watch?v=bcPvK7cyIX8',475,'https://ocrmirror.org/files/music/remixes/Star_Fox_64_Initiate_Code_Blue_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(5013,'Dark Star','Star Fox','2026-02-28T01:15:31.170932+00:00','https://www.youtube.com/watch?v=Jl4mRalWgtY',128,'https://ocrmirror.org/files/music/remixes/Star_Fox_Dark_Star_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(5014,'Cries from Crystal Eyes','Star Fox Adventures','2026-03-02T01:23:09.142676+00:00','https://www.youtube.com/watch?v=CvgMVZYvtKs',601,'https://ocrmirror.org/files/music/remixes/Star_Fox_Adventures_Cries_from_Crystal_Eyes_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(5015,'Weapon Warp Punk','Star Fox 64','2026-03-02T01:23:09.448609+00:00','https://www.youtube.com/watch?v=SIF5TkgTD1Y',475,'https://ocrmirror.org/files/music/remixes/Star_Fox_64_Weapon_Warp_Punk_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(5016,'Les Venimeux','Pokémon Emerald Version','2026-03-02T01:23:09.725970+00:00','https://www.youtube.com/watch?v=nsdJ9vMMY54',672,'https://ocrmirror.org/files/music/remixes/Pokemon_Emerald_Version_Les_Venimeux_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -14272,6 +14276,13 @@ INSERT INTO "remix_artist" VALUES(5011,16615,1);
 INSERT INTO "remix_artist" VALUES(5011,18601,1);
 INSERT INTO "remix_artist" VALUES(5012,18602,1);
 INSERT INTO "remix_artist" VALUES(5013,4432,1);
+INSERT INTO "remix_artist" VALUES(5014,18941,1);
+INSERT INTO "remix_artist" VALUES(5015,18621,1);
+INSERT INTO "remix_artist" VALUES(5015,16615,1);
+INSERT INTO "remix_artist" VALUES(5015,18633,1);
+INSERT INTO "remix_artist" VALUES(5015,18710,1);
+INSERT INTO "remix_artist" VALUES(5015,18601,1);
+INSERT INTO "remix_artist" VALUES(5016,17939,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -46886,6 +46897,27 @@ INSERT INTO "remix_tag" VALUES(5005,'synth',1);
 INSERT INTO "remix_tag" VALUES(5005,'violin',1);
 INSERT INTO "remix_tag" VALUES(5005,'solemn',1);
 INSERT INTO "remix_tag" VALUES(5005,'live-instruments',1);
+INSERT INTO "remix_tag" VALUES(5014,'dnb',1);
+INSERT INTO "remix_tag" VALUES(5014,'acoustic-guitar',1);
+INSERT INTO "remix_tag" VALUES(5014,'electronic',1);
+INSERT INTO "remix_tag" VALUES(5014,'sound-fx',1);
+INSERT INTO "remix_tag" VALUES(5014,'synth',1);
+INSERT INTO "remix_tag" VALUES(5014,'energetic',1);
+INSERT INTO "remix_tag" VALUES(5014,'detuning',1);
+INSERT INTO "remix_tag" VALUES(5014,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(5015,'folk',1);
+INSERT INTO "remix_tag" VALUES(5015,'klezmer',1);
+INSERT INTO "remix_tag" VALUES(5015,'punk',1);
+INSERT INTO "remix_tag" VALUES(5015,'accordion',1);
+INSERT INTO "remix_tag" VALUES(5015,'acoustic-guitar',1);
+INSERT INTO "remix_tag" VALUES(5015,'clarinet',1);
+INSERT INTO "remix_tag" VALUES(5015,'electric-guitar',1);
+INSERT INTO "remix_tag" VALUES(5015,'violin',1);
+INSERT INTO "remix_tag" VALUES(5015,'energetic',1);
+INSERT INTO "remix_tag" VALUES(5015,'collab',1);
+INSERT INTO "remix_tag" VALUES(5015,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(5016,'swing',1);
+INSERT INTO "remix_tag" VALUES(5016,'timesig-4-4',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
