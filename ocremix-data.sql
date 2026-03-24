@@ -7621,6 +7621,7 @@ INSERT INTO "remix" VALUES(5013,'Dark Star','Star Fox','2026-02-28T01:15:31.1709
 INSERT INTO "remix" VALUES(5014,'Cries from Crystal Eyes','Star Fox Adventures','2026-03-02T01:23:09.142676+00:00','https://www.youtube.com/watch?v=CvgMVZYvtKs',601,'https://ocrmirror.org/files/music/remixes/Star_Fox_Adventures_Cries_from_Crystal_Eyes_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(5015,'Weapon Warp Punk','Star Fox 64','2026-03-02T01:23:09.448609+00:00','https://www.youtube.com/watch?v=SIF5TkgTD1Y',475,'https://ocrmirror.org/files/music/remixes/Star_Fox_64_Weapon_Warp_Punk_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(5016,'Les Venimeux','Pokémon Emerald Version','2026-03-02T01:23:09.725970+00:00','https://www.youtube.com/watch?v=nsdJ9vMMY54',672,'https://ocrmirror.org/files/music/remixes/Pokemon_Emerald_Version_Les_Venimeux_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(5017,'V I R U L E N T','Star Fox 64','2026-03-24T01:22:28.398346+00:00','https://www.youtube.com/watch?v=Z6ZxfcxLuTM',475,'https://ocrmirror.org/files/music/remixes/Star_Fox_64_V_I_R_U_L_E_N_T_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -14283,6 +14284,9 @@ INSERT INTO "remix_artist" VALUES(5015,18633,1);
 INSERT INTO "remix_artist" VALUES(5015,18710,1);
 INSERT INTO "remix_artist" VALUES(5015,18601,1);
 INSERT INTO "remix_artist" VALUES(5016,17939,1);
+INSERT INTO "remix_artist" VALUES(5017,18606,1);
+INSERT INTO "remix_artist" VALUES(5017,17324,1);
+INSERT INTO "remix_artist" VALUES(5017,18631,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -46991,6 +46995,8 @@ INSERT INTO "remix_tag" VALUES(5008,'electronic',1);
 INSERT INTO "remix_tag" VALUES(5008,'synth',1);
 INSERT INTO "remix_tag" VALUES(5008,'energetic',1);
 INSERT INTO "remix_tag" VALUES(5008,'workout',1);
+INSERT INTO "remix_tag" VALUES(5017,'collab',1);
+INSERT INTO "remix_tag" VALUES(5017,'resubmission',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
