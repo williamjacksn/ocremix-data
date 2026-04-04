@@ -7622,6 +7622,7 @@ INSERT INTO "remix" VALUES(5014,'Cries from Crystal Eyes','Star Fox Adventures',
 INSERT INTO "remix" VALUES(5015,'Weapon Warp Punk','Star Fox 64','2026-03-28T22:56:06.952482+00:00','https://www.youtube.com/watch?v=SIF5TkgTD1Y',475,'https://ocrmirror.org/files/music/remixes/Star_Fox_64_Weapon_Warp_Punk_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(5016,'Les Venimeux','Pokémon Emerald Version','2026-03-28T22:56:08.141156+00:00','https://www.youtube.com/watch?v=nsdJ9vMMY54',672,'https://ocrmirror.org/files/music/remixes/Pokemon_Emerald_Version_Les_Venimeux_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(5017,'V I R U L E N T','Star Fox 64','2026-03-24T01:22:28.398346+00:00','https://www.youtube.com/watch?v=Z6ZxfcxLuTM',475,'https://ocrmirror.org/files/music/remixes/Star_Fox_64_V_I_R_U_L_E_N_T_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(5018,'Cinnamon Soil','Super Metroid','2026-04-04T01:27:08.513999+00:00','https://www.youtube.com/watch?v=U-VDoOI2fQg',74,'https://ocrmirror.org/files/music/remixes/Super_Metroid_Cinnamon_Soil_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -14287,6 +14288,7 @@ INSERT INTO "remix_artist" VALUES(5016,17939,1);
 INSERT INTO "remix_artist" VALUES(5017,18606,1);
 INSERT INTO "remix_artist" VALUES(5017,17324,1);
 INSERT INTO "remix_artist" VALUES(5017,18631,1);
+INSERT INTO "remix_artist" VALUES(5018,11932,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -47024,6 +47026,14 @@ INSERT INTO "remix_tag" VALUES(5016,'organ',1);
 INSERT INTO "remix_tag" VALUES(5016,'piano',1);
 INSERT INTO "remix_tag" VALUES(5016,'synth',1);
 INSERT INTO "remix_tag" VALUES(5016,'spooky',1);
+INSERT INTO "remix_tag" VALUES(5018,'dnb',1);
+INSERT INTO "remix_tag" VALUES(5018,'electronic',1);
+INSERT INTO "remix_tag" VALUES(5018,'synth',1);
+INSERT INTO "remix_tag" VALUES(5018,'aggressive',1);
+INSERT INTO "remix_tag" VALUES(5018,'dark',1);
+INSERT INTO "remix_tag" VALUES(5018,'energetic',1);
+INSERT INTO "remix_tag" VALUES(5018,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(5018,'workout',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
