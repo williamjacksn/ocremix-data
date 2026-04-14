@@ -7623,6 +7623,7 @@ INSERT INTO "remix" VALUES(5015,'Weapon Warp Punk','Star Fox 64','2026-03-28T22:
 INSERT INTO "remix" VALUES(5016,'Les Venimeux','Pokémon Emerald Version','2026-03-28T22:56:08.141156+00:00','https://www.youtube.com/watch?v=nsdJ9vMMY54',672,'https://ocrmirror.org/files/music/remixes/Pokemon_Emerald_Version_Les_Venimeux_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(5017,'V I R U L E N T','Star Fox 64','2026-03-24T01:22:28.398346+00:00','https://www.youtube.com/watch?v=Z6ZxfcxLuTM',475,'https://ocrmirror.org/files/music/remixes/Star_Fox_64_V_I_R_U_L_E_N_T_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(5018,'Cinnamon Soil','Super Metroid','2026-04-04T01:27:08.513999+00:00','https://www.youtube.com/watch?v=U-VDoOI2fQg',74,'https://ocrmirror.org/files/music/remixes/Super_Metroid_Cinnamon_Soil_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(5019,'Wing Men','Star Fox','2026-04-14T01:54:17.963695+00:00','https://www.youtube.com/watch?v=juNrlMuZmGw',128,'https://ocrmirror.org/files/music/remixes/Star_Fox_Wing_Men_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -14289,6 +14290,7 @@ INSERT INTO "remix_artist" VALUES(5017,18606,1);
 INSERT INTO "remix_artist" VALUES(5017,17324,1);
 INSERT INTO "remix_artist" VALUES(5017,18631,1);
 INSERT INTO "remix_artist" VALUES(5018,11932,1);
+INSERT INTO "remix_artist" VALUES(5019,4750,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -46972,6 +46974,7 @@ INSERT INTO "remix_tag" VALUES(5018,'dark',1);
 INSERT INTO "remix_tag" VALUES(5018,'energetic',1);
 INSERT INTO "remix_tag" VALUES(5018,'timesig-4-4',1);
 INSERT INTO "remix_tag" VALUES(5018,'workout',1);
+INSERT INTO "remix_tag" VALUES(5019,'synthwave',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
