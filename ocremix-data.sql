@@ -7626,6 +7626,7 @@ INSERT INTO "remix" VALUES(5017,'V I R U L E N T','Star Fox 64','2026-03-24T01:2
 INSERT INTO "remix" VALUES(5018,'Cinnamon Soil','Super Metroid','2026-04-04T01:27:08.513999+00:00','https://www.youtube.com/watch?v=U-VDoOI2fQg',74,'https://ocrmirror.org/files/music/remixes/Super_Metroid_Cinnamon_Soil_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(5019,'Wing Men','Star Fox','2026-04-14T01:54:17.963695+00:00','https://www.youtube.com/watch?v=juNrlMuZmGw',128,'https://ocrmirror.org/files/music/remixes/Star_Fox_Wing_Men_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(5020,'Prog Wrong/Enmity','ValiDate: Struggling Singles in Your Area','2026-04-19T01:59:07.445604+00:00','https://www.youtube.com/watch?v=QKTUj1igP2w',95893,'https://ocrmirror.org/files/music/remixes/ValiDate_Prog_Wrong-Enmity_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(5021,'Dunes of the Lost','Star Fox 2','2026-04-24T01:58:52.528422+00:00','https://www.youtube.com/watch?v=DaVb1xz6kxE',453,'https://ocrmirror.org/files/music/remixes/Star_Fox_2_Dunes_of_the_Lost_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -14294,6 +14295,7 @@ INSERT INTO "remix_artist" VALUES(5017,18631,1);
 INSERT INTO "remix_artist" VALUES(5018,11932,1);
 INSERT INTO "remix_artist" VALUES(5019,4750,1);
 INSERT INTO "remix_artist" VALUES(5020,18860,1);
+INSERT INTO "remix_artist" VALUES(5021,14064,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -46985,6 +46987,7 @@ INSERT INTO "remix_tag" VALUES(5020,'synth',1);
 INSERT INTO "remix_tag" VALUES(5020,'dark',1);
 INSERT INTO "remix_tag" VALUES(5020,'tempo-variable',1);
 INSERT INTO "remix_tag" VALUES(5020,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(5021,'timesig-4-4',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
