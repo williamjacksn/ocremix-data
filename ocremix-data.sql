@@ -1147,7 +1147,7 @@ INSERT INTO "artist" VALUES(16102,'Tiago Rodrigues','https://ocremix.org/artist/
 INSERT INTO "artist" VALUES(16103,'Andrew Steffen','https://ocremix.org/artist/16103/andrew-steffen');
 INSERT INTO "artist" VALUES(16104,'Shipluss','https://ocremix.org/artist/16104/shipluss');
 INSERT INTO "artist" VALUES(16112,'SirCorn','https://ocremix.org/artist/16112/sircorn');
-INSERT INTO "artist" VALUES(16113,'DS','https://ocremix.org/artist/16113/ds');
+INSERT INTO "artist" VALUES(16113,'DS Music','https://ocremix.org/artist/16113/ds-music');
 INSERT INTO "artist" VALUES(16114,'Bree','https://ocremix.org/artist/16114/bree');
 INSERT INTO "artist" VALUES(16117,'VGcellomusic','https://ocremix.org/artist/16117/vgcellomusic');
 INSERT INTO "artist" VALUES(16118,'Sagnewshreds','https://ocremix.org/artist/16118/sagnewshreds');
@@ -7628,6 +7628,9 @@ INSERT INTO "remix" VALUES(5019,'Wing Men','Star Fox','2026-04-14T01:54:17.96369
 INSERT INTO "remix" VALUES(5020,'Prog Wrong/Enmity','ValiDate: Struggling Singles in Your Area','2026-04-19T01:59:07.445604+00:00','https://www.youtube.com/watch?v=QKTUj1igP2w',95893,'https://ocrmirror.org/files/music/remixes/ValiDate_Prog_Wrong-Enmity_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(5021,'Dunes of the Lost','Star Fox 2','2026-04-24T01:58:52.528422+00:00','https://www.youtube.com/watch?v=DaVb1xz6kxE',453,'https://ocrmirror.org/files/music/remixes/Star_Fox_2_Dunes_of_the_Lost_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(5022,'Rock and Ice','Star Fox Adventures','2026-04-25T01:49:19.785501+00:00','https://www.youtube.com/watch?v=BNFJzth2oQU',601,'https://ocrmirror.org/files/music/remixes/Star_Fox_Adventures_Rock_and_Ice_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(5023,'Playing Crazy (with the 6th Blockade)','Star Fox 64','2026-04-26T02:02:16.606273+00:00','https://www.youtube.com/watch?v=iVH8HFORLHc',475,'https://ocrmirror.org/files/music/remixes/Star_Fox_64_Playing_Crazy_(with_the_6th_Blockade)_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(5024,'Now Boarding Flight 6 to Venom','Star Fox 64','2026-04-26T02:02:17.071272+00:00','https://www.youtube.com/watch?v=KLSWBvV5gZc',475,'https://ocrmirror.org/files/music/remixes/Star_Fox_64_Now_Boarding_Flight_6_to_Venom_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(5025,'Boundless Skies','Star Fox','2026-04-26T02:02:17.526840+00:00','https://www.youtube.com/watch?v=tvBa4ZNcdmA',128,'https://ocrmirror.org/files/music/remixes/Star_Fox_Boundless_Skies_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -14300,6 +14303,15 @@ INSERT INTO "remix_artist" VALUES(5021,14064,1);
 INSERT INTO "remix_artist" VALUES(5022,11932,1);
 INSERT INTO "remix_artist" VALUES(5022,18860,1);
 INSERT INTO "remix_artist" VALUES(5022,18198,1);
+INSERT INTO "remix_artist" VALUES(5023,18606,1);
+INSERT INTO "remix_artist" VALUES(5024,16119,1);
+INSERT INTO "remix_artist" VALUES(5024,16113,1);
+INSERT INTO "remix_artist" VALUES(5024,14463,1);
+INSERT INTO "remix_artist" VALUES(5024,10690,1);
+INSERT INTO "remix_artist" VALUES(5024,17937,1);
+INSERT INTO "remix_artist" VALUES(5025,13667,1);
+INSERT INTO "remix_artist" VALUES(5025,16615,1);
+INSERT INTO "remix_artist" VALUES(5025,16848,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -47008,6 +47020,9 @@ INSERT INTO "remix_tag" VALUES(607,'funky',1);
 INSERT INTO "remix_tag" VALUES(607,'mystical',1);
 INSERT INTO "remix_tag" VALUES(607,'solemn',1);
 INSERT INTO "remix_tag" VALUES(607,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(5024,'collab',1);
+INSERT INTO "remix_tag" VALUES(5024,'resubmission',1);
+INSERT INTO "remix_tag" VALUES(5025,'collab',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
