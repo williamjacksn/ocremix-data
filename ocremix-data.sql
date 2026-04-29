@@ -1639,6 +1639,7 @@ INSERT INTO "artist" VALUES(19028,'Lady Varda','https://ocremix.org/artist/19028
 INSERT INTO "artist" VALUES(19030,'Audio Processing Unit','https://ocremix.org/artist/19030/audio-processing-unit');
 INSERT INTO "artist" VALUES(19035,'Barbell Yaga','https://ocremix.org/artist/19035/barbell-yaga');
 INSERT INTO "artist" VALUES(19042,'Cinnamon Stone','https://ocremix.org/artist/19042/cinnamon-stone');
+INSERT INTO "artist" VALUES(19056,'Eltwish','https://ocremix.org/artist/19056/eltwish');
 CREATE TABLE game (
     id integer primary key,
     name text not null,
@@ -7631,6 +7632,7 @@ INSERT INTO "remix" VALUES(5022,'Rock and Ice','Star Fox Adventures','2026-04-25
 INSERT INTO "remix" VALUES(5023,'Playing Crazy (with the 6th Blockade)','Star Fox 64','2026-04-26T02:02:16.606273+00:00','https://www.youtube.com/watch?v=iVH8HFORLHc',475,'https://ocrmirror.org/files/music/remixes/Star_Fox_64_Playing_Crazy_(with_the_6th_Blockade)_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(5024,'Now Boarding Flight 6 to Venom','Star Fox 64','2026-04-26T02:02:17.071272+00:00','https://www.youtube.com/watch?v=KLSWBvV5gZc',475,'https://ocrmirror.org/files/music/remixes/Star_Fox_64_Now_Boarding_Flight_6_to_Venom_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(5025,'Boundless Skies','Star Fox','2026-04-26T02:02:17.526840+00:00','https://www.youtube.com/watch?v=tvBa4ZNcdmA',128,'https://ocrmirror.org/files/music/remixes/Star_Fox_Boundless_Skies_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(5026,'Star Fox Capture Plan','Star Fox 64','2026-04-29T02:12:07.609487+00:00','https://www.youtube.com/watch?v=NTP_D1H-YF4',475,'https://ocrmirror.org/files/music/remixes/Star_Fox_64_Star_Fox_Capture_Plan_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -14312,6 +14314,7 @@ INSERT INTO "remix_artist" VALUES(5024,17937,1);
 INSERT INTO "remix_artist" VALUES(5025,13667,1);
 INSERT INTO "remix_artist" VALUES(5025,16615,1);
 INSERT INTO "remix_artist" VALUES(5025,16848,1);
+INSERT INTO "remix_artist" VALUES(5026,19056,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -47025,6 +47028,7 @@ INSERT INTO "remix_tag" VALUES(5024,'resubmission',1);
 INSERT INTO "remix_tag" VALUES(5025,'collab',1);
 INSERT INTO "remix_tag" VALUES(881,'quirky',1);
 INSERT INTO "remix_tag" VALUES(881,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(5026,'resubmission',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
