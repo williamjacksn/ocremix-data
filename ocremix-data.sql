@@ -2794,6 +2794,7 @@ INSERT INTO "game" VALUES(95914,'Brothers: A Tale of Two Sons','https://ocremix.
 INSERT INTO "game" VALUES(95915,'I Was a Teenage Exocolonist','https://ocremix.org/game/95915/i-was-a-teenage-exocolonist-win');
 INSERT INTO "game" VALUES(95916,'Chronicon','https://ocremix.org/game/95916/chronicon-win');
 INSERT INTO "game" VALUES(95917,'Salt and Sanctuary','https://ocremix.org/game/95917/salt-and-sanctuary-ps4');
+INSERT INTO "game" VALUES(95925,'Neon White','https://ocremix.org/game/95925/neon-white-win');
 CREATE TABLE remix (
     id integer primary key,
     title text not null,
@@ -7633,6 +7634,7 @@ INSERT INTO "remix" VALUES(5023,'Playing Crazy (with the 6th Blockade)','Star Fo
 INSERT INTO "remix" VALUES(5024,'Now Boarding Flight 6 to Venom','Star Fox 64','2026-04-26T02:02:17.071272+00:00','https://www.youtube.com/watch?v=KLSWBvV5gZc',475,'https://ocrmirror.org/files/music/remixes/Star_Fox_64_Now_Boarding_Flight_6_to_Venom_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(5025,'Boundless Skies','Star Fox','2026-04-26T02:02:17.526840+00:00','https://www.youtube.com/watch?v=tvBa4ZNcdmA',128,'https://ocrmirror.org/files/music/remixes/Star_Fox_Boundless_Skies_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(5026,'Star Fox Capture Plan','Star Fox 64','2026-04-29T02:12:07.609487+00:00','https://www.youtube.com/watch?v=NTP_D1H-YF4',475,'https://ocrmirror.org/files/music/remixes/Star_Fox_64_Star_Fox_Capture_Plan_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(5027,'Unmoored, Undeserved','Neon White','2026-05-02T02:03:14.529380+00:00','https://www.youtube.com/watch?v=Ex-Tr6tq0rs',95925,'https://ocrmirror.org/files/music/remixes/Neon_White_Unmoored_Undeserved_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -14315,6 +14317,7 @@ INSERT INTO "remix_artist" VALUES(5025,13667,1);
 INSERT INTO "remix_artist" VALUES(5025,16615,1);
 INSERT INTO "remix_artist" VALUES(5025,16848,1);
 INSERT INTO "remix_artist" VALUES(5026,19056,1);
+INSERT INTO "remix_artist" VALUES(5027,17158,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
