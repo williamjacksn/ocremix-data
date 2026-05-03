@@ -1639,6 +1639,8 @@ INSERT INTO "artist" VALUES(19028,'Lady Varda','https://ocremix.org/artist/19028
 INSERT INTO "artist" VALUES(19030,'Audio Processing Unit','https://ocremix.org/artist/19030/audio-processing-unit');
 INSERT INTO "artist" VALUES(19035,'Barbell Yaga','https://ocremix.org/artist/19035/barbell-yaga');
 INSERT INTO "artist" VALUES(19042,'Cinnamon Stone','https://ocremix.org/artist/19042/cinnamon-stone');
+INSERT INTO "artist" VALUES(19050,'Sybil Grace','https://ocremix.org/artist/19050/sybil-grace');
+INSERT INTO "artist" VALUES(19051,'Riley Zielinski','https://ocremix.org/artist/19051/riley-zielinski');
 INSERT INTO "artist" VALUES(19056,'Eltwish','https://ocremix.org/artist/19056/eltwish');
 CREATE TABLE game (
     id integer primary key,
@@ -7635,6 +7637,7 @@ INSERT INTO "remix" VALUES(5024,'Now Boarding Flight 6 to Venom','Star Fox 64','
 INSERT INTO "remix" VALUES(5025,'Boundless Skies','Star Fox','2026-04-26T02:02:17.526840+00:00','https://www.youtube.com/watch?v=tvBa4ZNcdmA',128,'https://ocrmirror.org/files/music/remixes/Star_Fox_Boundless_Skies_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(5026,'Star Fox Capture Plan','Star Fox 64','2026-04-29T02:12:07.609487+00:00','https://www.youtube.com/watch?v=NTP_D1H-YF4',475,'https://ocrmirror.org/files/music/remixes/Star_Fox_64_Star_Fox_Capture_Plan_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(5027,'Unmoored, Undeserved','Neon White','2026-05-02T02:03:14.529380+00:00','https://www.youtube.com/watch?v=Ex-Tr6tq0rs',95925,'https://ocrmirror.org/files/music/remixes/Neon_White_Unmoored_Undeserved_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(5028,'Boss Bossanova (Bossanova Mix)','Donkey Kong Country 2: Diddy''s Kong Quest','2026-05-03T02:08:41.030294+00:00','https://www.youtube.com/watch?v=xah9NV-id_I',48,'https://ocrmirror.org/files/music/remixes/Donkey_Kong_Country_2_Boss_Bossanova_(Bossanova_Mix)_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -14318,6 +14321,14 @@ INSERT INTO "remix_artist" VALUES(5025,16615,1);
 INSERT INTO "remix_artist" VALUES(5025,16848,1);
 INSERT INTO "remix_artist" VALUES(5026,19056,1);
 INSERT INTO "remix_artist" VALUES(5027,17158,1);
+INSERT INTO "remix_artist" VALUES(5028,18653,1);
+INSERT INTO "remix_artist" VALUES(5028,18739,1);
+INSERT INTO "remix_artist" VALUES(5028,13500,1);
+INSERT INTO "remix_artist" VALUES(5028,19051,1);
+INSERT INTO "remix_artist" VALUES(5028,16853,1);
+INSERT INTO "remix_artist" VALUES(5028,19050,1);
+INSERT INTO "remix_artist" VALUES(5028,18983,1);
+INSERT INTO "remix_artist" VALUES(5028,18654,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -47032,6 +47043,7 @@ INSERT INTO "remix_tag" VALUES(5025,'collab',1);
 INSERT INTO "remix_tag" VALUES(881,'quirky',1);
 INSERT INTO "remix_tag" VALUES(881,'timesig-4-4',1);
 INSERT INTO "remix_tag" VALUES(5026,'resubmission',1);
+INSERT INTO "remix_tag" VALUES(5028,'collab',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
