@@ -7648,6 +7648,7 @@ INSERT INTO "remix" VALUES(5033,'Cliffhanger','Contra','2026-05-31T02:45:22.8178
 INSERT INTO "remix" VALUES(5034,'Fortuna Protocol','Star Fox Zero','2026-05-31T02:45:23.285906+00:00','https://www.youtube.com/watch?v=XSth7L6diNU',95159,'https://ocrmirror.org/files/music/remixes/Star_Fox_Zero_Fortuna_Protocol_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(5035,'The Summer Reefs by the Docks','Kirby 64: The Crystal Shards','2026-05-31T02:45:23.569972+00:00','https://www.youtube.com/watch?v=2BaNuPlfs1s',577,'https://ocrmirror.org/files/music/remixes/Kirby_64_The_Summer_Reefs_by_the_Docks_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(5036,'The Deepest Layer of the Kirby Iceberg','Kirby''s Dream Land 3','2026-05-31T02:45:23.853962+00:00','https://www.youtube.com/watch?v=14E17w-rW28',11121,'https://ocrmirror.org/files/music/remixes/Kirby''s_Dream_Land_3_The_Deepest_Layer_of_the_Kirby_Iceberg_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(5037,'Arwing Dreams','Star Fox','2026-06-01T02:54:08.182882+00:00','https://www.youtube.com/watch?v=pRbg9vubj7o',128,'https://ocrmirror.org/files/music/remixes/Star_Fox_Arwing_Dreams_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -14359,6 +14360,7 @@ INSERT INTO "remix_artist" VALUES(5035,16119,1);
 INSERT INTO "remix_artist" VALUES(5035,18913,1);
 INSERT INTO "remix_artist" VALUES(5035,10690,1);
 INSERT INTO "remix_artist" VALUES(5036,13500,1);
+INSERT INTO "remix_artist" VALUES(5037,4440,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -47095,6 +47097,13 @@ INSERT INTO "remix_tag" VALUES(5036,'compo-dod',1);
 INSERT INTO "remix_tag" VALUES(5036,'timesig-4-4',1);
 INSERT INTO "remix_tag" VALUES(5036,'timesig-5-4',1);
 INSERT INTO "remix_tag" VALUES(5036,'timesig-variable',1);
+INSERT INTO "remix_tag" VALUES(5037,'edm',1);
+INSERT INTO "remix_tag" VALUES(5037,'trance',1);
+INSERT INTO "remix_tag" VALUES(5037,'electronic',1);
+INSERT INTO "remix_tag" VALUES(5037,'synth',1);
+INSERT INTO "remix_tag" VALUES(5037,'energetic',1);
+INSERT INTO "remix_tag" VALUES(5037,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(5037,'workout',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
