@@ -7651,6 +7651,9 @@ INSERT INTO "remix" VALUES(5035,'The Summer Reefs by the Docks','Kirby 64: The C
 INSERT INTO "remix" VALUES(5036,'The Deepest Layer of the Kirby Iceberg','Kirby''s Dream Land 3','2026-05-31T02:45:23.853962+00:00','https://www.youtube.com/watch?v=14E17w-rW28',11121,'https://ocrmirror.org/files/music/remixes/Kirby''s_Dream_Land_3_The_Deepest_Layer_of_the_Kirby_Iceberg_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(5037,'Arwing Dreams','Star Fox','2026-06-01T02:54:08.182882+00:00','https://www.youtube.com/watch?v=pRbg9vubj7o',128,'https://ocrmirror.org/files/music/remixes/Star_Fox_Arwing_Dreams_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(5038,'Liyue''s Light','Genshin Impact','2026-06-02T02:51:05.245969+00:00','https://www.youtube.com/watch?v=hZ_bsyahCtU',95846,'https://ocrmirror.org/files/music/remixes/Genshin_Impact_Liyue''s_Light_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(5039,'Magnet Man Sonata','Mega Man 3','2026-06-05T02:42:56.112728+00:00','https://www.youtube.com/watch?v=d6EmVcAnImg',3,'https://ocrmirror.org/files/music/remixes/Mega_Man_3_Magnet_Man_Sonata_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(5040,'Mélange Brew','Banjo-Kazooie','2026-06-05T02:42:56.538600+00:00','https://www.youtube.com/watch?v=KyhAnft4Vwo',36,'https://ocrmirror.org/files/music/remixes/Banjo-Kazooie_Melange_Brew_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(5041,'Beasts All Over the Shop','Final Fantasy IX','2026-06-05T02:42:57.053732+00:00','https://www.youtube.com/watch?v=TMrKZoEQtAM',14,'https://ocrmirror.org/files/music/remixes/Final_Fantasy_9_Beasts_All_Over_the_Shop_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -14365,6 +14368,9 @@ INSERT INTO "remix_artist" VALUES(5036,13500,1);
 INSERT INTO "remix_artist" VALUES(5037,4440,1);
 INSERT INTO "remix_artist" VALUES(5038,4729,1);
 INSERT INTO "remix_artist" VALUES(5038,16541,1);
+INSERT INTO "remix_artist" VALUES(5039,4280,1);
+INSERT INTO "remix_artist" VALUES(5040,5748,1);
+INSERT INTO "remix_artist" VALUES(5041,4754,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -47116,6 +47122,12 @@ INSERT INTO "remix_tag" VALUES(5038,'electric-guitar',1);
 INSERT INTO "remix_tag" VALUES(5038,'piano',1);
 INSERT INTO "remix_tag" VALUES(5038,'happy',1);
 INSERT INTO "remix_tag" VALUES(5038,'collab',1);
+INSERT INTO "remix_tag" VALUES(5039,'piano',1);
+INSERT INTO "remix_tag" VALUES(5039,'solo-piano',1);
+INSERT INTO "remix_tag" VALUES(5039,'solo',1);
+INSERT INTO "remix_tag" VALUES(5039,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(5040,'medley',1);
+INSERT INTO "remix_tag" VALUES(5041,'electric-guitar',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
