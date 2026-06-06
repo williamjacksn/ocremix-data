@@ -7654,6 +7654,7 @@ INSERT INTO "remix" VALUES(5038,'Liyue''s Light','Genshin Impact','2026-06-02T02
 INSERT INTO "remix" VALUES(5039,'Magnet Man Sonata','Mega Man 3','2026-06-05T02:42:56.112728+00:00','https://www.youtube.com/watch?v=d6EmVcAnImg',3,'https://ocrmirror.org/files/music/remixes/Mega_Man_3_Magnet_Man_Sonata_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(5040,'Mélange Brew','Banjo-Kazooie','2026-06-05T02:42:56.538600+00:00','https://www.youtube.com/watch?v=KyhAnft4Vwo',36,'https://ocrmirror.org/files/music/remixes/Banjo-Kazooie_Melange_Brew_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(5041,'Beasts All Over the Shop','Final Fantasy IX','2026-06-05T02:42:57.053732+00:00','https://www.youtube.com/watch?v=TMrKZoEQtAM',14,'https://ocrmirror.org/files/music/remixes/Final_Fantasy_9_Beasts_All_Over_the_Shop_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(5042,'Rhythm of the Dream','The Legend of Zelda: Link''s Awakening','2026-06-06T02:30:27.179139+00:00','https://www.youtube.com/watch?v=pnNq9gw4O8Y',68,'https://ocrmirror.org/files/music/remixes/Legend_of_Zelda_Link''s_Awakening_Rhythm_of_the_Dream_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -14371,6 +14372,8 @@ INSERT INTO "remix_artist" VALUES(5038,16541,1);
 INSERT INTO "remix_artist" VALUES(5039,4280,1);
 INSERT INTO "remix_artist" VALUES(5040,5748,1);
 INSERT INTO "remix_artist" VALUES(5041,4754,1);
+INSERT INTO "remix_artist" VALUES(5042,13046,1);
+INSERT INTO "remix_artist" VALUES(5042,18602,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -47128,6 +47131,7 @@ INSERT INTO "remix_tag" VALUES(5039,'solo',1);
 INSERT INTO "remix_tag" VALUES(5039,'timesig-4-4',1);
 INSERT INTO "remix_tag" VALUES(5040,'medley',1);
 INSERT INTO "remix_tag" VALUES(5041,'electric-guitar',1);
+INSERT INTO "remix_tag" VALUES(5042,'collab',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
