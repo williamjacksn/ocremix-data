@@ -2595,6 +2595,7 @@ INSERT INTO "game" VALUES(33306,'Clystron','https://ocremix.org/game/33306/clyst
 INSERT INTO "game" VALUES(38752,'Animal Crossing: Wild World','https://ocremix.org/game/38752/animal-crossing-wild-world-nds');
 INSERT INTO "game" VALUES(38763,'Brain Age: Train Your Brain in Minutes a Day!','https://ocremix.org/game/38763/brain-age-train-your-brain-in-minutes-a-day-nds');
 INSERT INTO "game" VALUES(38825,'The Legend of Zelda: Phantom Hourglass','https://ocremix.org/game/38825/legend-of-zelda-phantom-hourglass-nds');
+INSERT INTO "game" VALUES(38846,'Mega Man Star Force: Pegasus','https://ocremix.org/game/38846/mega-man-star-force-pegasus-nds');
 INSERT INTO "game" VALUES(38867,'Phoenix Wright: Ace Attorney - Justice for All','https://ocremix.org/game/38867/phoenix-wright-ace-attorney-justice-for-all-nds');
 INSERT INTO "game" VALUES(38876,'Pokémon Mystery Dungeon: Blue Rescue Team','https://ocremix.org/game/38876/pokemon-mystery-dungeon-blue-rescue-team-nds');
 INSERT INTO "game" VALUES(38902,'Sonic Rush','https://ocremix.org/game/38902/sonic-rush-nds');
@@ -2800,6 +2801,7 @@ INSERT INTO "game" VALUES(95915,'I Was a Teenage Exocolonist','https://ocremix.o
 INSERT INTO "game" VALUES(95916,'Chronicon','https://ocremix.org/game/95916/chronicon-win');
 INSERT INTO "game" VALUES(95917,'Salt and Sanctuary','https://ocremix.org/game/95917/salt-and-sanctuary-ps4');
 INSERT INTO "game" VALUES(95925,'Neon White','https://ocremix.org/game/95925/neon-white-win');
+INSERT INTO "game" VALUES(95926,'Pyre','https://ocremix.org/game/95926/pyre-win');
 CREATE TABLE remix (
     id integer primary key,
     title text not null,
@@ -7655,6 +7657,9 @@ INSERT INTO "remix" VALUES(5039,'Magnet Man Sonata','Mega Man 3','2026-06-05T02:
 INSERT INTO "remix" VALUES(5040,'Mélange Brew','Banjo-Kazooie','2026-06-05T02:42:56.538600+00:00','https://www.youtube.com/watch?v=KyhAnft4Vwo',36,'https://ocrmirror.org/files/music/remixes/Banjo-Kazooie_Melange_Brew_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(5041,'Beasts All Over the Shop','Final Fantasy IX','2026-06-05T02:42:57.053732+00:00','https://www.youtube.com/watch?v=TMrKZoEQtAM',14,'https://ocrmirror.org/files/music/remixes/Final_Fantasy_9_Beasts_All_Over_the_Shop_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(5042,'Rhythm of the Dream','The Legend of Zelda: Link''s Awakening','2026-06-06T02:30:27.179139+00:00','https://www.youtube.com/watch?v=pnNq9gw4O8Y',68,'https://ocrmirror.org/files/music/remixes/Legend_of_Zelda_Link''s_Awakening_Rhythm_of_the_Dream_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(5043,'Under a Leaden Sky','Pyre','2026-06-26T02:39:45.424383+00:00','https://www.youtube.com/watch?v=JfpOL9ZDQ4M',95926,'https://ocrmirror.org/files/music/remixes/Pyre_Under_a_Leaden_Sky_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(5044,'Geo Stelar ~ Wave Rider!','Mega Man Star Force: Pegasus','2026-06-26T02:39:45.998775+00:00','https://www.youtube.com/watch?v=l9-XFLRG8rU',38846,'https://ocrmirror.org/files/music/remixes/Mega_Man_Star_Force_Pegasus_Geo_Stelar_Wave_Rider_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(5045,'Fighting Storms in Titania','Star Fox','2026-06-26T02:39:46.637790+00:00','https://www.youtube.com/watch?v=IU_2bWss2h8',128,'https://ocrmirror.org/files/music/remixes/Star_Fox_Fighting_Storms_in_Titania_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -14374,6 +14379,11 @@ INSERT INTO "remix_artist" VALUES(5040,5748,1);
 INSERT INTO "remix_artist" VALUES(5041,4754,1);
 INSERT INTO "remix_artist" VALUES(5042,13046,1);
 INSERT INTO "remix_artist" VALUES(5042,18602,1);
+INSERT INTO "remix_artist" VALUES(5043,4695,1);
+INSERT INTO "remix_artist" VALUES(5043,4694,1);
+INSERT INTO "remix_artist" VALUES(5044,13147,1);
+INSERT INTO "remix_artist" VALUES(5045,16438,1);
+INSERT INTO "remix_artist" VALUES(5045,18710,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -47149,6 +47159,10 @@ INSERT INTO "remix_tag" VALUES(5026,'chill',1);
 INSERT INTO "remix_tag" VALUES(5026,'energetic',1);
 INSERT INTO "remix_tag" VALUES(5026,'mellow',1);
 INSERT INTO "remix_tag" VALUES(5026,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(5043,'collab',1);
+INSERT INTO "remix_tag" VALUES(5044,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(5045,'psytrance',1);
+INSERT INTO "remix_tag" VALUES(5045,'collab',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
