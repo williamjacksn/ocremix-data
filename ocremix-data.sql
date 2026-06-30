@@ -4347,7 +4347,7 @@ INSERT INTO "remix" VALUES(1657,'Wanderer on the Offensive (Live Edit)','Shadow 
 INSERT INTO "remix" VALUES(1658,'A Life Without Parole','Final Fantasy VII','2026-06-29T05:11:40.885543+00:00','https://www.youtube.com/watch?v=VqZuh83ujUw',7,'https://ocrmirror.org/files/music/remixes/Final_Fantasy_7_A_Life_Without_Parole_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(1659,'The Forerunner Mix (Alpha)','Marathon','2026-06-30T04:44:37.423023+00:00','https://www.youtube.com/watch?v=THG0LjX0J_k',444,'https://ocrmirror.org/files/music/remixes/Marathon_The_Forerunner_Mix_(Alpha)_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(1660,'The Forerunner Mix (Beta)','Marathon','2026-06-29T14:33:10.248492+00:00','https://www.youtube.com/watch?v=MvmcP8bpwsk',444,'https://ocrmirror.org/files/music/remixes/Marathon_The_Forerunner_Mix_(Beta)_OC_ReMix.mp3',0);
-INSERT INTO "remix" VALUES(1661,'Yellow Valkyrie','Metroid Prime 3: Corruption','2026-05-04T04:26:51.073471+00:00','https://www.youtube.com/watch?v=fl0pg5IpPfA',518,'https://ocrmirror.org/files/music/remixes/Metroid_Prime_3_Yellow_Valkyrie_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(1661,'Yellow Valkyrie','Metroid Prime 3: Corruption','2026-06-30T11:57:29.119795+00:00','https://www.youtube.com/watch?v=fl0pg5IpPfA',518,'https://ocrmirror.org/files/music/remixes/Metroid_Prime_3_Yellow_Valkyrie_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(1662,'K-Pax for Evermore','Secret of Evermore','2026-05-04T04:26:51.761718+00:00','https://www.youtube.com/watch?v=owbGWCAK9EI',413,'https://ocrmirror.org/files/music/remixes/Secret_of_Evermore_K-Pax_for_Evermore_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(1663,'Frozen Landscape','Final Fantasy VII','2026-06-29T14:33:10.427577+00:00','https://www.youtube.com/watch?v=Spblw6tRlyM',7,'https://ocrmirror.org/files/music/remixes/Final_Fantasy_7_Frozen_Landscape_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(1664,'Alpha Blade','Guilty Gear X','2026-06-29T20:24:10.626488+00:00','https://www.youtube.com/watch?v=aYV7Rdehblk',520,'https://ocrmirror.org/files/music/remixes/Guilty_Gear_X_Alpha_Blade_OC_ReMix.mp3',0);
@@ -4370,7 +4370,7 @@ INSERT INTO "remix" VALUES(1680,'Realization','Final Fantasy VIII','2026-06-29T1
 INSERT INTO "remix" VALUES(1681,'Lost Dark World','The Legend of Zelda: A Link to the Past','2026-05-04T04:26:52.108248+00:00','https://www.youtube.com/watch?v=4xtPnOncpH4',66,'https://ocrmirror.org/files/music/remixes/Legend_of_Zelda_A_Link_to_the_Past_Lost_Dark_World_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(1682,'Jenova Returns','Final Fantasy VII','2026-05-04T10:31:25.224425+00:00','https://www.youtube.com/watch?v=A74Z8eoDAZI',7,'https://ocrmirror.org/files/music/remixes/Final_Fantasy_7_Jenova_Returns_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(1683,'Thicket','Secret of Mana','2026-06-30T04:44:36.904417+00:00','https://www.youtube.com/watch?v=RtlaPOsFFb0',61,'https://ocrmirror.org/files/music/remixes/Secret_of_Mana_Thicket_OC_ReMix.mp3',0);
-INSERT INTO "remix" VALUES(1684,'Traveling','Animal Crossing','2026-05-04T00:10:31.352816+00:00','https://www.youtube.com/watch?v=XR7q2DppYw0',521,'https://ocrmirror.org/files/music/remixes/Animal_Crossing_Traveling_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(1684,'Traveling','Animal Crossing','2026-06-30T11:57:29.470188+00:00','https://www.youtube.com/watch?v=XR7q2DppYw0',521,'https://ocrmirror.org/files/music/remixes/Animal_Crossing_Traveling_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(1685,'Dirt Devil','Final Fantasy VI','2026-05-04T20:47:11.369008+00:00','https://www.youtube.com/watch?v=loLUI3sxITk',6,'https://ocrmirror.org/files/music/remixes/Final_Fantasy_6_Dirt_Devil_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(1686,'Harden the Duck Up!','DuckTales','2026-06-30T08:41:13.684489+00:00','https://www.youtube.com/watch?v=b8FBLFnu1t8',50,'https://ocrmirror.org/files/music/remixes/DuckTales_Harden_the_Duck_Up_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(1687,'The Annihilation of Monsteropolis','Mega Man 2','2026-05-04T10:31:25.749024+00:00','https://www.youtube.com/watch?v=0bUnYcNc6YQ',2,'https://ocrmirror.org/files/music/remixes/Mega_Man_2_The_Annihilation_of_Monsteropolis_OC_ReMix.mp3',1);
@@ -4404,17 +4404,17 @@ INSERT INTO "remix" VALUES(1714,'All-Star Doskpop','Super Dodge Ball','2026-05-0
 INSERT INTO "remix" VALUES(1715,'Son of Chaos','Final Fantasy VII','2026-05-04T04:26:51.936294+00:00','https://www.youtube.com/watch?v=-pJFpG9oJ1A',7,'https://ocrmirror.org/files/music/remixes/Final_Fantasy_7_Son_of_Chaos_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(1716,'Dialima tu Kafé','EarthBound','2026-05-04T10:31:25.398334+00:00','https://www.youtube.com/watch?v=u_mVLbeaPkk',51,'https://ocrmirror.org/files/music/remixes/EarthBound_Dialima_tu_Kafe_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(1717,'Fuzzy Green Feeling','Super Metroid','2026-06-29T23:33:39.573355+00:00','https://www.youtube.com/watch?v=L1X931ui5Os',74,'https://ocrmirror.org/files/music/remixes/Super_Metroid_Fuzzy_Green_Feeling_OC_ReMix.mp3',0);
-INSERT INTO "remix" VALUES(1718,'My Home, My Friends','Final Fantasy V','2026-05-04T04:26:50.902094+00:00','https://www.youtube.com/watch?v=BGXKYwKoqpI',12,'https://ocrmirror.org/files/music/remixes/Final_Fantasy_5_My_Home_My_Friends_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(1718,'My Home, My Friends','Final Fantasy V','2026-06-30T11:57:29.818909+00:00','https://www.youtube.com/watch?v=BGXKYwKoqpI',12,'https://ocrmirror.org/files/music/remixes/Final_Fantasy_5_My_Home_My_Friends_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(1719,'The Winds of Inishmore','Final Fantasy XII','2026-05-04T17:13:55.235554+00:00','https://www.youtube.com/watch?v=9_2NCwvHX1E',525,'https://ocrmirror.org/files/music/remixes/Final_Fantasy_12_The_Winds_of_Inishmore_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(1720,'Hamadatan','Ragnarök Online','2026-05-04T19:03:43.739863+00:00','https://www.youtube.com/watch?v=a92nSw9j59Y',542,'https://ocrmirror.org/files/music/remixes/Ragnarok_Online_Hamadatan_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(1721,'Afternoon Tea with SnappleMan''s Mom','Terranigma','2026-05-04T17:13:54.719319+00:00','https://www.youtube.com/watch?v=h3L-bj-p_Jo',257,'https://ocrmirror.org/files/music/remixes/Terranigma_Afternoon_Tea_with_SnappleMan''s_Mom_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(1722,'No Such Thing As the Promised Land','Final Fantasy VII','2026-05-04T13:06:52.238782+00:00','https://www.youtube.com/watch?v=CSYtnyr_1Nc',7,'https://ocrmirror.org/files/music/remixes/Final_Fantasy_7_No_Such_Thing_As_the_Promised_Land_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(1723,'The Passing of the Blue Crown','Mega Man 3','2026-05-05T12:47:03.004997+00:00','https://www.youtube.com/watch?v=ix4FsgBi2AY',3,'https://ocrmirror.org/files/music/remixes/Mega_Man_3_The_Passing_of_the_Blue_Crown_OC_ReMix.mp3',0);
-INSERT INTO "remix" VALUES(1724,'Snake''s Revenge','Metal Gear','2026-05-04T04:26:50.725418+00:00','https://www.youtube.com/watch?v=0qKnFJlHXp4',140,'https://ocrmirror.org/files/music/remixes/Metal_Gear_Snake''s_Revenge_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(1724,'Snake''s Revenge','Metal Gear','2026-06-30T11:57:29.643922+00:00','https://www.youtube.com/watch?v=0qKnFJlHXp4',140,'https://ocrmirror.org/files/music/remixes/Metal_Gear_Snake''s_Revenge_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(1725,'Lanterns','Donkey Kong Country 2: Diddy''s Kong Quest','2026-05-04T07:35:23.081959+00:00','https://www.youtube.com/watch?v=nKts94hOCGg',48,'https://ocrmirror.org/files/music/remixes/Donkey_Kong_Country_2_Lanterns_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(1726,'Aqueous Transgression','Chrono Trigger','2026-05-04T10:31:25.048623+00:00','https://www.youtube.com/watch?v=3HSIHX_rzGU',16,'https://ocrmirror.org/files/music/remixes/Chrono_Trigger_Aqueous_Transgression_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(1727,'Revolutions','Mega Man X3','2026-05-04T19:03:42.721281+00:00','https://www.youtube.com/watch?v=CC-CtCBOmmM',177,'https://ocrmirror.org/files/music/remixes/Mega_Man_X3_Revolutions_OC_ReMix.mp3',0);
-INSERT INTO "remix" VALUES(1728,'Legend of Arcana ~ Tale of the Nagi','Jade Cocoon: Story of the Tamamayu','2026-05-04T04:26:51.417423+00:00','https://www.youtube.com/watch?v=jXxLb79m0hI',512,'https://ocrmirror.org/files/music/remixes/Jade_Cocoon_Legend_of_Arcana_Tale_of_the_Nagi_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(1728,'Legend of Arcana ~ Tale of the Nagi','Jade Cocoon: Story of the Tamamayu','2026-06-30T11:57:29.992719+00:00','https://www.youtube.com/watch?v=jXxLb79m0hI',512,'https://ocrmirror.org/files/music/remixes/Jade_Cocoon_Legend_of_Arcana_Tale_of_the_Nagi_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(1729,'That''s What You Get','Kingdom Hearts: Chain of Memories','2026-05-04T20:47:12.045073+00:00','https://www.youtube.com/watch?v=DS04jD4LNC0',527,'https://ocrmirror.org/files/music/remixes/Kingdom_Hearts_Chain_of_Memories_That''s_What_You_Get_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(1730,'Subterranean Kamikaze','Teenage Mutant Ninja Turtles IV: Turtles in Time','2026-05-05T07:30:16.376786+00:00','https://www.youtube.com/watch?v=K9wc5l4hUjQ',421,'https://ocrmirror.org/files/music/remixes/Teenage_Mutant_Ninja_Turtles_4_Subterranean_Kamikaze_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(1731,'Endless Skies','Final Fantasy X','2026-05-04T13:06:52.583982+00:00','https://www.youtube.com/watch?v=SMT9OHHwGKA',15,'https://ocrmirror.org/files/music/remixes/Final_Fantasy_10_Endless_Skies_OC_ReMix.mp3',0);
@@ -4437,7 +4437,7 @@ INSERT INTO "remix" VALUES(1747,'Zebes Rising','Super Metroid','2026-05-04T15:29
 INSERT INTO "remix" VALUES(1748,'While San d''Oria Sleeps','Final Fantasy XI Online','2026-05-04T15:29:34.751135+00:00','https://www.youtube.com/watch?v=-Nwtj5DduXU',546,'https://ocrmirror.org/files/music/remixes/Final_Fantasy_11_Online_While_San_d''Oria_Sleeps_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(1749,'American Wheels of Wonder','Myst III: Exile','2026-05-04T17:13:55.063629+00:00','https://www.youtube.com/watch?v=JaEnHayYnYw',539,'https://ocrmirror.org/files/music/remixes/Myst_3_American_Wheels_of_Wonder_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(1750,'Sly Thai Guy','Street Fighter II: The World Warrior','2026-05-04T19:03:42.376231+00:00','https://www.youtube.com/watch?v=9F68MdQHUYY',54,'https://ocrmirror.org/files/music/remixes/Street_Fighter_2_Sly_Thai_Guy_OC_ReMix.mp3',0);
-INSERT INTO "remix" VALUES(1751,'Puffball Promenade','Kirby''s Dream Land 2','2026-05-04T04:26:51.244714+00:00','https://www.youtube.com/watch?v=_U2xdbmifRs',497,'https://ocrmirror.org/files/music/remixes/Kirby''s_Dream_Land_2_Puffball_Promenade_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(1751,'Puffball Promenade','Kirby''s Dream Land 2','2026-06-30T11:57:30.167557+00:00','https://www.youtube.com/watch?v=_U2xdbmifRs',497,'https://ocrmirror.org/files/music/remixes/Kirby''s_Dream_Land_2_Puffball_Promenade_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(1752,'Searching the Woods','Final Fantasy VI','2026-05-04T15:29:34.402599+00:00','https://www.youtube.com/watch?v=I3B1_V1kiV8',6,'https://ocrmirror.org/files/music/remixes/Final_Fantasy_6_Searching_the_Woods_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(1753,'Diamond Worlds','Solar Jetman: Hunt for the Golden Warpship','2026-05-04T17:13:55.754878+00:00','https://www.youtube.com/watch?v=EL2JcKEMKbQ',545,'https://ocrmirror.org/files/music/remixes/Solar_Jetman_Diamond_Worlds_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(1754,'Castle of Tears','Castlevania II: Simon''s Quest','2026-05-04T19:03:42.549359+00:00','https://www.youtube.com/watch?v=18CfQ1CCCxE',19,'https://ocrmirror.org/files/music/remixes/Castlevania_2_Castle_of_Tears_OC_ReMix.mp3',0);
@@ -7643,10 +7643,10 @@ INSERT INTO "remix" VALUES(5025,'Boundless Skies','Star Fox','2026-06-17T12:35:0
 INSERT INTO "remix" VALUES(5026,'Star Fox Capture Plan','Star Fox 64','2026-06-22T18:55:27.781336+00:00','https://www.youtube.com/watch?v=NTP_D1H-YF4',475,'https://ocrmirror.org/files/music/remixes/Star_Fox_64_Star_Fox_Capture_Plan_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(5027,'Unmoored, Undeserved','Neon White','2026-06-26T20:16:56.781342+00:00','https://www.youtube.com/watch?v=Ex-Tr6tq0rs',95925,'https://ocrmirror.org/files/music/remixes/Neon_White_Unmoored_Undeserved_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(5028,'Boss Bossanova (Bossanova Mix)','Donkey Kong Country 2: Diddy''s Kong Quest','2026-06-28T14:22:19.772533+00:00','https://www.youtube.com/watch?v=xah9NV-id_I',48,'https://ocrmirror.org/files/music/remixes/Donkey_Kong_Country_2_Boss_Bossanova_(Bossanova_Mix)_OC_ReMix.mp3',0);
-INSERT INTO "remix" VALUES(5029,'Token Tango (Tango Mix)','Donkey Kong Country 2: Diddy''s Kong Quest','2026-05-04T02:07:58.466585+00:00','https://www.youtube.com/watch?v=6fuSbY46Qm0',48,'https://ocrmirror.org/files/music/remixes/Donkey_Kong_Country_2_Token_Tango_(Tango_Mix)_OC_ReMix.mp3',0);
-INSERT INTO "remix" VALUES(5030,'The 18th Greek Chad','Mega Man X','2026-05-04T02:07:58.840085+00:00','https://www.youtube.com/watch?v=nGYGsgTkv5w',138,'https://ocrmirror.org/files/music/remixes/Mega_Man_X_The_18th_Greek_Chad_OC_ReMix.mp3',0);
-INSERT INTO "remix" VALUES(5031,'Doma Doma','Hollow Knight','2026-05-04T02:07:59.273055+00:00','https://www.youtube.com/watch?v=nm1t6eGA4Jc',95554,'https://ocrmirror.org/files/music/remixes/Hollow_Knight_Doma_Doma_OC_ReMix.mp3',0);
-INSERT INTO "remix" VALUES(5032,'The Laboratory Liberator','Final Fantasy VIII','2026-05-04T02:07:59.711442+00:00','https://www.youtube.com/watch?v=L1vNry3SegI',13,'https://ocrmirror.org/files/music/remixes/Final_Fantasy_8_The_Laboratory_Liberator_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(5029,'Token Tango (Tango Mix)','Donkey Kong Country 2: Diddy''s Kong Quest','2026-06-30T11:57:28.588072+00:00','https://www.youtube.com/watch?v=6fuSbY46Qm0',48,'https://ocrmirror.org/files/music/remixes/Donkey_Kong_Country_2_Token_Tango_(Tango_Mix)_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(5030,'The 18th Greek Chad','Mega Man X','2026-06-30T11:57:29.296326+00:00','https://www.youtube.com/watch?v=nGYGsgTkv5w',138,'https://ocrmirror.org/files/music/remixes/Mega_Man_X_The_18th_Greek_Chad_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(5031,'Doma Doma','Hollow Knight','2026-06-30T11:57:28.943721+00:00','https://www.youtube.com/watch?v=nm1t6eGA4Jc',95554,'https://ocrmirror.org/files/music/remixes/Hollow_Knight_Doma_Doma_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(5032,'The Laboratory Liberator','Final Fantasy VIII','2026-06-30T11:57:28.766533+00:00','https://www.youtube.com/watch?v=L1vNry3SegI',13,'https://ocrmirror.org/files/music/remixes/Final_Fantasy_8_The_Laboratory_Liberator_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(5033,'Cliffhanger','Contra','2026-05-31T02:45:22.817820+00:00','https://www.youtube.com/watch?v=e0YsHLukZzM',21,'https://ocrmirror.org/files/music/remixes/Contra_Cliffhanger_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(5034,'Fortuna Protocol','Star Fox Zero','2026-05-31T02:45:23.285906+00:00','https://www.youtube.com/watch?v=XSth7L6diNU',95159,'https://ocrmirror.org/files/music/remixes/Star_Fox_Zero_Fortuna_Protocol_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(5035,'The Summer Reefs by the Docks','Kirby 64: The Crystal Shards','2026-05-31T02:45:23.569972+00:00','https://www.youtube.com/watch?v=2BaNuPlfs1s',577,'https://ocrmirror.org/files/music/remixes/Kirby_64_The_Summer_Reefs_by_the_Docks_OC_ReMix.mp3',0);
@@ -47177,6 +47177,23 @@ INSERT INTO "remix_tag" VALUES(5028,'saxophone',1);
 INSERT INTO "remix_tag" VALUES(5028,'violin',1);
 INSERT INTO "remix_tag" VALUES(5028,'live-instruments',1);
 INSERT INTO "remix_tag" VALUES(5028,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(5029,'tango',1);
+INSERT INTO "remix_tag" VALUES(5029,'acoustic-guitar',1);
+INSERT INTO "remix_tag" VALUES(5029,'violin',1);
+INSERT INTO "remix_tag" VALUES(5029,'happy',1);
+INSERT INTO "remix_tag" VALUES(5029,'live-instruments',1);
+INSERT INTO "remix_tag" VALUES(5029,'timesig-3-4',1);
+INSERT INTO "remix_tag" VALUES(5031,'metal',1);
+INSERT INTO "remix_tag" VALUES(5031,'energetic',1);
+INSERT INTO "remix_tag" VALUES(5031,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(5030,'metal',1);
+INSERT INTO "remix_tag" VALUES(5030,'prog-rock',1);
+INSERT INTO "remix_tag" VALUES(5030,'electric-guitar',1);
+INSERT INTO "remix_tag" VALUES(5030,'organ',1);
+INSERT INTO "remix_tag" VALUES(5030,'saxophone',1);
+INSERT INTO "remix_tag" VALUES(5030,'violin',1);
+INSERT INTO "remix_tag" VALUES(5030,'live-instruments',1);
+INSERT INTO "remix_tag" VALUES(5030,'tempo-variable',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
