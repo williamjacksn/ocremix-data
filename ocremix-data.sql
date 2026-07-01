@@ -7660,6 +7660,7 @@ INSERT INTO "remix" VALUES(5042,'Rhythm of the Dream','The Legend of Zelda: Link
 INSERT INTO "remix" VALUES(5043,'Under a Leaden Sky','Pyre','2026-06-26T02:39:45.424383+00:00','https://www.youtube.com/watch?v=JfpOL9ZDQ4M',95926,'https://ocrmirror.org/files/music/remixes/Pyre_Under_a_Leaden_Sky_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(5044,'Geo Stelar ~ Wave Rider!','Mega Man Star Force: Pegasus','2026-06-26T02:39:45.998775+00:00','https://www.youtube.com/watch?v=l9-XFLRG8rU',38846,'https://ocrmirror.org/files/music/remixes/Mega_Man_Star_Force_Pegasus_Geo_Stelar_Wave_Rider_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(5045,'Fighting Storms in Titania','Star Fox','2026-06-26T02:39:46.637790+00:00','https://www.youtube.com/watch?v=IU_2bWss2h8',128,'https://ocrmirror.org/files/music/remixes/Star_Fox_Fighting_Storms_in_Titania_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(5046,'Idura''s Desperation','Lufia II: Rise of the Sinistrals','2026-07-01T02:45:53.153539+00:00','https://www.youtube.com/watch?v=Fs2Ws7fSwZs',157,'https://ocrmirror.org/files/music/remixes/Lufia_2_Idura''s_Desperation_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -14384,6 +14385,7 @@ INSERT INTO "remix_artist" VALUES(5043,4694,1);
 INSERT INTO "remix_artist" VALUES(5044,13147,1);
 INSERT INTO "remix_artist" VALUES(5045,16438,1);
 INSERT INTO "remix_artist" VALUES(5045,18710,1);
+INSERT INTO "remix_artist" VALUES(5046,10866,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -47194,6 +47196,11 @@ INSERT INTO "remix_tag" VALUES(5030,'saxophone',1);
 INSERT INTO "remix_tag" VALUES(5030,'violin',1);
 INSERT INTO "remix_tag" VALUES(5030,'live-instruments',1);
 INSERT INTO "remix_tag" VALUES(5030,'tempo-variable',1);
+INSERT INTO "remix_tag" VALUES(5046,'edm',1);
+INSERT INTO "remix_tag" VALUES(5046,'electronic',1);
+INSERT INTO "remix_tag" VALUES(5046,'synth',1);
+INSERT INTO "remix_tag" VALUES(5046,'energetic',1);
+INSERT INTO "remix_tag" VALUES(5046,'timesig-4-4',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
