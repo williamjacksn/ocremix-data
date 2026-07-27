@@ -7663,6 +7663,7 @@ INSERT INTO "remix" VALUES(5045,'Fighting Storms in Titania','Star Fox','2026-06
 INSERT INTO "remix" VALUES(5046,'Idura''s Desperation','Lufia II: Rise of the Sinistrals','2026-07-01T02:45:53.153539+00:00','https://www.youtube.com/watch?v=Fs2Ws7fSwZs',157,'https://ocrmirror.org/files/music/remixes/Lufia_2_Idura''s_Desperation_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(5047,'Of Twin Compasses','Lufia II: Rise of the Sinistrals','2026-07-24T01:59:10.878223+00:00','https://www.youtube.com/watch?v=ef4BDcBwe1Q',157,'https://ocrmirror.org/files/music/remixes/Lufia_2_Of_Twin_Compasses_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(5048,'Hello, Goodbye','Lufia II: Rise of the Sinistrals','2026-07-26T02:02:51.520910+00:00','https://www.youtube.com/watch?v=0H7KMAjU_Gk',157,'https://ocrmirror.org/files/music/remixes/Lufia_2_Hello_Goodbye_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(5049,'Excerion Dives Under','Lufia II: Rise of the Sinistrals','2026-07-27T02:10:32.334050+00:00','https://www.youtube.com/watch?v=6Yzp5MIs5d4',157,'https://ocrmirror.org/files/music/remixes/Lufia_2_Excerion_Dives_Under_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -14390,6 +14391,7 @@ INSERT INTO "remix_artist" VALUES(5045,18710,1);
 INSERT INTO "remix_artist" VALUES(5046,10866,1);
 INSERT INTO "remix_artist" VALUES(5047,10896,1);
 INSERT INTO "remix_artist" VALUES(5048,4637,1);
+INSERT INTO "remix_artist" VALUES(5049,11937,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -47292,6 +47294,7 @@ INSERT INTO "remix_tag" VALUES(5047,'sad',1);
 INSERT INTO "remix_tag" VALUES(5047,'solo',1);
 INSERT INTO "remix_tag" VALUES(5047,'timesig-4-4',1);
 INSERT INTO "remix_tag" VALUES(5048,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(5049,'timesig-6-8',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
