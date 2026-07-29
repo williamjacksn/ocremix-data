@@ -1644,6 +1644,8 @@ INSERT INTO "artist" VALUES(19049,'Bryan Alvarez','https://ocremix.org/artist/19
 INSERT INTO "artist" VALUES(19050,'Sybil Grace','https://ocremix.org/artist/19050/sybil-grace');
 INSERT INTO "artist" VALUES(19051,'Riley Zielinski','https://ocremix.org/artist/19051/riley-zielinski');
 INSERT INTO "artist" VALUES(19056,'Eltwish','https://ocremix.org/artist/19056/eltwish');
+INSERT INTO "artist" VALUES(19084,'NarnianWarrior','https://ocremix.org/artist/19084/narnianwarrior');
+INSERT INTO "artist" VALUES(19095,'PerksJFP','https://ocremix.org/artist/19095/perksjfp');
 CREATE TABLE game (
     id integer primary key,
     name text not null,
@@ -7665,6 +7667,8 @@ INSERT INTO "remix" VALUES(5047,'Of Twin Compasses','Lufia II: Rise of the Sinis
 INSERT INTO "remix" VALUES(5048,'Hello, Goodbye','Lufia II: Rise of the Sinistrals','2026-07-26T02:02:51.520910+00:00','https://www.youtube.com/watch?v=0H7KMAjU_Gk',157,'https://ocrmirror.org/files/music/remixes/Lufia_2_Hello_Goodbye_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(5049,'Excerion Dives Under','Lufia II: Rise of the Sinistrals','2026-07-27T02:10:32.334050+00:00','https://www.youtube.com/watch?v=6Yzp5MIs5d4',157,'https://ocrmirror.org/files/music/remixes/Lufia_2_Excerion_Dives_Under_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(5050,'I''m Gonna Do What''s Called the World''s Most Difficult Trick (Mountain Mover RE:setMix)','Lufia II: Rise of the Sinistrals','2026-07-28T01:50:57.746008+00:00','https://www.youtube.com/watch?v=XYfq25V19Ak',157,'https://ocrmirror.org/files/music/remixes/Lufia_2_I''m_Gonna_Do_What''s_Called_the_World''s_Most_Difficult_Trick_(Mountain_Mover_RE-setMix)_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(5051,'What Has Been (And What Can Never Be)','Super Mario Galaxy','2026-07-29T01:54:08.322748+00:00','https://www.youtube.com/watch?v=8GMB7uxbLX4',581,'https://ocrmirror.org/files/music/remixes/Super_Mario_Galaxy_What_Has_Been_(And_What_Can_Never_Be)_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(5052,'The End of Fire','Dark Souls III','2026-07-29T01:54:08.795509+00:00','https://www.youtube.com/watch?v=3iCsxktSIAs',95446,'https://ocrmirror.org/files/music/remixes/Dark_Souls_3_The_End_of_Fire_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -14394,6 +14398,8 @@ INSERT INTO "remix_artist" VALUES(5047,10896,1);
 INSERT INTO "remix_artist" VALUES(5048,4637,1);
 INSERT INTO "remix_artist" VALUES(5049,11937,1);
 INSERT INTO "remix_artist" VALUES(5050,18606,1);
+INSERT INTO "remix_artist" VALUES(5051,19084,1);
+INSERT INTO "remix_artist" VALUES(5052,19095,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -47320,6 +47326,8 @@ INSERT INTO "remix_tag" VALUES(5041,'synth',1);
 INSERT INTO "remix_tag" VALUES(5041,'aggressive',1);
 INSERT INTO "remix_tag" VALUES(5041,'energetic',1);
 INSERT INTO "remix_tag" VALUES(5041,'live-instruments',1);
+INSERT INTO "remix_tag" VALUES(5051,'medley',1);
+INSERT INTO "remix_tag" VALUES(5051,'resubmission',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
