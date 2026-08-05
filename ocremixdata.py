@@ -175,7 +175,7 @@ def get_cnx() -> sqlite3.Connection:
 def get_html(ocr_id: int) -> lxml.html.HtmlElement:
     url = f"https://ocremix.org/remix/OCR{ocr_id:05}"
     try:
-        data = urllib.request.urlopen(url)  # noqa: S310
+        data = urllib.request.urlopen(url)
         page = data.read().decode()
         return lxml.html.fromstring(page)
     except urllib.error.HTTPError:
