@@ -7677,6 +7677,7 @@ INSERT INTO "remix" VALUES(5054,'A Dance into a Dream','Child of Light','2026-08
 INSERT INTO "remix" VALUES(5055,'Cinnamon Rolls','Valdis Story: Abyssal City','2026-08-02T02:02:11.936262+00:00','https://www.youtube.com/watch?v=aa0HjQEMjQ4',95928,'https://ocrmirror.org/files/music/remixes/Valdis_Story_Abyssal_City_Cinnamon_Rolls_OC_ReMix.mp3',1);
 INSERT INTO "remix" VALUES(5056,'Step to the Journey','Lufia II: Rise of the Sinistrals','2026-08-02T02:02:12.477215+00:00','https://www.youtube.com/watch?v=xQUDfUWCxAc',157,'https://ocrmirror.org/files/music/remixes/Lufia_2_Step_to_the_Journey_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(5057,'Cosmic Placidity','Lufia II: Rise of the Sinistrals','2026-08-03T02:04:28.907002+00:00','https://www.youtube.com/watch?v=2vv-UG7Oltk',157,'https://ocrmirror.org/files/music/remixes/Lufia_2_Cosmic_Placidity_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(5058,'Panic at the Disc Golf Course','Lufia II: Rise of the Sinistrals','2026-08-16T00:51:04.354454+00:00','https://www.youtube.com/watch?v=4G44yZyO3qI',157,'https://ocrmirror.org/files/music/remixes/Lufia_2_Panic_at_the_Disc_Golf_Course_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -14420,6 +14421,7 @@ INSERT INTO "remix_artist" VALUES(5055,13667,1);
 INSERT INTO "remix_artist" VALUES(5055,18736,1);
 INSERT INTO "remix_artist" VALUES(5056,11932,1);
 INSERT INTO "remix_artist" VALUES(5057,10990,1);
+INSERT INTO "remix_artist" VALUES(5058,13667,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -47434,6 +47436,7 @@ INSERT INTO "remix_tag" VALUES(2112,'electronic',1);
 INSERT INTO "remix_tag" VALUES(2112,'strings',1);
 INSERT INTO "remix_tag" VALUES(2112,'vocals-female',1);
 INSERT INTO "remix_tag" VALUES(2112,'indian',1);
+INSERT INTO "remix_tag" VALUES(5058,'timesig-4-4',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
