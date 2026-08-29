@@ -2583,6 +2583,7 @@ INSERT INTO "game" VALUES(21244,'Xenon','https://ocremix.org/game/21244/xenon-st
 INSERT INTO "game" VALUES(22756,'Mickey Saves the Day','https://ocremix.org/game/22756/mickey-saves-the-day-win');
 INSERT INTO "game" VALUES(23192,'Final Fantasy XI Online: Rise of the Zilart','https://ocremix.org/game/23192/final-fantasy-xi-online-rise-of-the-zilart-win');
 INSERT INTO "game" VALUES(24382,'Maui Mallard in Cold Shadow','https://ocremix.org/game/24382/maui-mallard-in-cold-shadow-win');
+INSERT INTO "game" VALUES(25325,'Quake II','https://ocremix.org/game/25325/quake-ii-win');
 INSERT INTO "game" VALUES(25537,'RollerCoaster Tycoon','https://ocremix.org/game/25537/rollercoaster-tycoon-win');
 INSERT INTO "game" VALUES(25584,'RuneScape','https://ocremix.org/game/25584/runescape-win');
 INSERT INTO "game" VALUES(27107,'Ys: The Oath in Felghana','https://ocremix.org/game/27107/ys-the-oath-in-felghana-win');
@@ -7681,6 +7682,7 @@ INSERT INTO "remix" VALUES(5058,'Panic at the Disc Golf Course','Lufia II: Rise 
 INSERT INTO "remix" VALUES(5059,'Savior of the World','Lufia II: Rise of the Sinistrals','2026-08-17T00:49:15.163701+00:00','https://www.youtube.com/watch?v=fYXgcelYTSk',157,'https://ocrmirror.org/files/music/remixes/Lufia_2_Savior_of_the_World_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(5060,'Toccata and Fugue in Dreams','Lufia II: Rise of the Sinistrals','2026-08-17T00:49:15.628355+00:00','https://www.youtube.com/watch?v=qUOjtgVepdw',157,'https://ocrmirror.org/files/music/remixes/Lufia_2_Toccata_and_Fugue_in_Dreams_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(5061,'Meteoric Slipstream','Star Fox','2026-08-17T00:49:15.910440+00:00','https://www.youtube.com/watch?v=brBEDE4TRwA',128,'https://ocrmirror.org/files/music/remixes/Star_Fox_Meteoric_Slipstream_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(5062,'Get Kill Ratio''d','Quake II','2026-08-29T05:01:34.303354+00:00','https://www.youtube.com/watch?v=m5jJxOpLFuk',25325,'https://ocrmirror.org/files/music/remixes/Quake_2_Get_Kill_Ratio''d_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -14431,6 +14433,10 @@ INSERT INTO "remix_artist" VALUES(5061,4432,1);
 INSERT INTO "remix_artist" VALUES(5061,18685,1);
 INSERT INTO "remix_artist" VALUES(5061,17324,1);
 INSERT INTO "remix_artist" VALUES(5061,13667,1);
+INSERT INTO "remix_artist" VALUES(5062,16853,1);
+INSERT INTO "remix_artist" VALUES(5062,17486,1);
+INSERT INTO "remix_artist" VALUES(5062,18889,1);
+INSERT INTO "remix_artist" VALUES(5062,18997,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -47484,6 +47490,8 @@ INSERT INTO "remix_tag" VALUES(5051,'electronic',1);
 INSERT INTO "remix_tag" VALUES(5051,'synth',1);
 INSERT INTO "remix_tag" VALUES(5051,'chill',1);
 INSERT INTO "remix_tag" VALUES(5051,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(5062,'collab',1);
+INSERT INTO "remix_tag" VALUES(5062,'compo-dod',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
