@@ -2809,6 +2809,7 @@ INSERT INTO "game" VALUES(95925,'Neon White','https://ocremix.org/game/95925/neo
 INSERT INTO "game" VALUES(95926,'Pyre','https://ocremix.org/game/95926/pyre-win');
 INSERT INTO "game" VALUES(95928,'Valdis Story: Abyssal City','https://ocremix.org/game/95928/valdis-story-abyssal-city-win');
 INSERT INTO "game" VALUES(95930,'Astrea: Six-Sided Oracles','https://ocremix.org/game/95930/astrea-six-sided-oracles-win');
+INSERT INTO "game" VALUES(95932,'Deep Sky Derelicts','https://ocremix.org/game/95932/deep-sky-derelicts-win');
 INSERT INTO "game" VALUES(95938,'Dungeon of the Endless','https://ocremix.org/game/95938/dungeon-of-the-endless-win');
 INSERT INTO "game" VALUES(95939,'Inkbound','https://ocremix.org/game/95939/inkbound-win');
 CREATE TABLE remix (
@@ -7689,6 +7690,7 @@ INSERT INTO "remix" VALUES(5062,'Get Kill Ratio''d','Quake II','2026-08-29T05:01
 INSERT INTO "remix" VALUES(5063,'Pulse of the Atheneum','Inkbound','2026-08-31T02:43:54.182721+00:00','https://www.youtube.com/watch?v=Sjiam4_zFmE',95939,'https://ocrmirror.org/files/music/remixes/Inkbound_Pulse_of_the_Atheneum_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(5064,'Oceans of the Stars','Astrea: Six-Sided Oracles','2026-08-31T02:43:54.667948+00:00','https://www.youtube.com/watch?v=9cgyvXdl5Yk',95930,'https://ocrmirror.org/files/music/remixes/Astrea_Oceans_of_the_Stars_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(5065,'Thrill of the Ascent','Dungeon of the Endless','2026-08-31T02:43:57.974545+00:00','https://www.youtube.com/watch?v=LoHxmI6FYWw',95938,'https://ocrmirror.org/files/music/remixes/Dungeon_of_the_Endless_Thrill_of_the_Ascent_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(5066,'Depth of the Void','Deep Sky Derelicts','2026-09-01T02:55:21.509911+00:00','https://www.youtube.com/watch?v=t5wWYvVXbK8',95932,'https://ocrmirror.org/files/music/remixes/Deep_Sky_Derelicts_Depth_of_the_Void_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -14446,6 +14448,7 @@ INSERT INTO "remix_artist" VALUES(5062,18997,1);
 INSERT INTO "remix_artist" VALUES(5063,4695,1);
 INSERT INTO "remix_artist" VALUES(5064,4695,1);
 INSERT INTO "remix_artist" VALUES(5065,4695,1);
+INSERT INTO "remix_artist" VALUES(5066,4695,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -47513,6 +47516,7 @@ INSERT INTO "remix_tag" VALUES(5064,'synth',1);
 INSERT INTO "remix_tag" VALUES(5064,'solemn',1);
 INSERT INTO "remix_tag" VALUES(5064,'timesig-4-4',1);
 INSERT INTO "remix_tag" VALUES(5065,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(5066,'timesig-4-4',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
