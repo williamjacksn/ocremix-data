@@ -2625,6 +2625,7 @@ INSERT INTO "game" VALUES(42328,'Lunar 2: Eternal Blue Complete','https://ocremi
 INSERT INTO "game" VALUES(42860,'R4: Ridge Racer Type 4','https://ocremix.org/game/42860/r4-ridge-racer-type-4-ps1');
 INSERT INTO "game" VALUES(43180,'Spyro the Dragon','https://ocremix.org/game/43180/spyro-the-dragon-ps1');
 INSERT INTO "game" VALUES(43637,'Yu-Gi-Oh!: Forbidden Memories','https://ocremix.org/game/43637/yu-gi-oh-forbidden-memories-ps1');
+INSERT INTO "game" VALUES(44138,'Uncharted: Drake''s Fortune','https://ocremix.org/game/44138/uncharted-drakes-fortune-ps3');
 INSERT INTO "game" VALUES(45416,'Super Paper Mario','https://ocremix.org/game/45416/super-paper-mario-wii');
 INSERT INTO "game" VALUES(45424,'Wii Sports','https://ocremix.org/game/45424/wii-sports-wii');
 INSERT INTO "game" VALUES(45434,'Resident Evil: The Umbrella Chronicles','https://ocremix.org/game/45434/resident-evil-the-umbrella-chronicles-wii');
@@ -7691,6 +7692,7 @@ INSERT INTO "remix" VALUES(5063,'Pulse of the Atheneum','Inkbound','2026-08-31T0
 INSERT INTO "remix" VALUES(5064,'Oceans of the Stars','Astrea: Six-Sided Oracles','2026-08-31T02:43:54.667948+00:00','https://www.youtube.com/watch?v=9cgyvXdl5Yk',95930,'https://ocrmirror.org/files/music/remixes/Astrea_Oceans_of_the_Stars_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(5065,'Thrill of the Ascent','Dungeon of the Endless','2026-08-31T02:43:57.974545+00:00','https://www.youtube.com/watch?v=LoHxmI6FYWw',95938,'https://ocrmirror.org/files/music/remixes/Dungeon_of_the_Endless_Thrill_of_the_Ascent_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(5066,'Depth of the Void','Deep Sky Derelicts','2026-09-01T02:55:21.509911+00:00','https://www.youtube.com/watch?v=t5wWYvVXbK8',95932,'https://ocrmirror.org/files/music/remixes/Deep_Sky_Derelicts_Depth_of_the_Void_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(5067,'Cassie''s Fortune','Uncharted: Drake''s Fortune','2026-09-02T02:15:30.504925+00:00','https://www.youtube.com/watch?v=p3S6jIFNhIM',44138,'https://ocrmirror.org/files/music/remixes/Uncharted_Drake''s_Fortune_Cassie''s_Fortune_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -14449,6 +14451,7 @@ INSERT INTO "remix_artist" VALUES(5063,4695,1);
 INSERT INTO "remix_artist" VALUES(5064,4695,1);
 INSERT INTO "remix_artist" VALUES(5065,4695,1);
 INSERT INTO "remix_artist" VALUES(5066,4695,1);
+INSERT INTO "remix_artist" VALUES(5067,18708,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -47517,6 +47520,7 @@ INSERT INTO "remix_tag" VALUES(5064,'solemn',1);
 INSERT INTO "remix_tag" VALUES(5064,'timesig-4-4',1);
 INSERT INTO "remix_tag" VALUES(5065,'timesig-4-4',1);
 INSERT INTO "remix_tag" VALUES(5066,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(5067,'timesig-4-4',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
