@@ -2818,6 +2818,7 @@ INSERT INTO "game" VALUES(95933,'Dome Keeper','https://ocremix.org/game/95933/do
 INSERT INTO "game" VALUES(95938,'Dungeon of the Endless','https://ocremix.org/game/95938/dungeon-of-the-endless-win');
 INSERT INTO "game" VALUES(95939,'Inkbound','https://ocremix.org/game/95939/inkbound-win');
 INSERT INTO "game" VALUES(95940,'Monster Train','https://ocremix.org/game/95940/monster-train-win');
+INSERT INTO "game" VALUES(95941,'Nowhere Prophet','https://ocremix.org/game/95941/nowhere-prophet-win');
 CREATE TABLE remix (
     id integer primary key,
     title text not null,
@@ -7706,6 +7707,7 @@ INSERT INTO "remix" VALUES(5072,'Azurite Horizons','Donkey Kong Country','2026-0
 INSERT INTO "remix" VALUES(5073,'Zoom! Zoom!','Gran Turismo','2026-09-29T03:34:14.151585+00:00','https://www.youtube.com/watch?v=yiRGJYDpNJU',465,'https://ocrmirror.org/files/music/remixes/Gran_Turismo_Zoom_Zoom_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(5074,'Pull of the Mines','Dome Keeper','2026-09-29T03:34:14.522037+00:00','https://www.youtube.com/watch?v=3S0fM1YW4B0',95933,'https://ocrmirror.org/files/music/remixes/Dome_Keeper_Pull_of_the_Mines_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(5075,'Of Souls and Shadows','Undertale','2026-09-29T03:34:14.810830+00:00','https://www.youtube.com/watch?v=cwG9UUfpyts',95077,'https://ocrmirror.org/files/music/remixes/Undertale_Of_Souls_and_Shadows_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(5076,'Speaker of the Dust','Nowhere Prophet','2026-09-30T03:19:51.371657+00:00','https://www.youtube.com/watch?v=BZ_V1Fvp6BE',95941,'https://ocrmirror.org/files/music/remixes/Nowhere_Prophet_Speaker_of_the_Dust_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -14477,6 +14479,7 @@ INSERT INTO "remix_artist" VALUES(5072,19097,1);
 INSERT INTO "remix_artist" VALUES(5073,19020,1);
 INSERT INTO "remix_artist" VALUES(5074,4695,1);
 INSERT INTO "remix_artist" VALUES(5075,13500,1);
+INSERT INTO "remix_artist" VALUES(5076,4695,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -47626,6 +47629,7 @@ INSERT INTO "remix_tag" VALUES(5075,'funky',1);
 INSERT INTO "remix_tag" VALUES(5075,'medley',1);
 INSERT INTO "remix_tag" VALUES(5075,'tempo-variable',1);
 INSERT INTO "remix_tag" VALUES(5075,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(5076,'timesig-4-4',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
