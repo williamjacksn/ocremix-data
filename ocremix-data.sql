@@ -2472,6 +2472,7 @@ INSERT INTO "game" VALUES(3137,'Turok: Dinosaur Hunter','https://ocremix.org/gam
 INSERT INTO "game" VALUES(3206,'A Nightmare on Elm Street','https://ocremix.org/game/3206/nightmare-on-elm-street-nes');
 INSERT INTO "game" VALUES(3214,'Arkista''s Ring','https://ocremix.org/game/3214/arkistas-ring-nes');
 INSERT INTO "game" VALUES(3253,'Batman: Return of the Joker','https://ocremix.org/game/3253/batman-return-of-the-joker-nes');
+INSERT INTO "game" VALUES(3388,'Dragon Warrior II','https://ocremix.org/game/3388/dragon-warrior-ii-nes');
 INSERT INTO "game" VALUES(3454,'The Goonies','https://ocremix.org/game/3454/goonies-nes');
 INSERT INTO "game" VALUES(3457,'Gremlins 2: The New Batch','https://ocremix.org/game/3457/gremlins-2-the-new-batch-nes');
 INSERT INTO "game" VALUES(3565,'Aleste 2','https://ocremix.org/game/3565/aleste-2-msx');
@@ -2819,6 +2820,7 @@ INSERT INTO "game" VALUES(95938,'Dungeon of the Endless','https://ocremix.org/ga
 INSERT INTO "game" VALUES(95939,'Inkbound','https://ocremix.org/game/95939/inkbound-win');
 INSERT INTO "game" VALUES(95940,'Monster Train','https://ocremix.org/game/95940/monster-train-win');
 INSERT INTO "game" VALUES(95941,'Nowhere Prophet','https://ocremix.org/game/95941/nowhere-prophet-win');
+INSERT INTO "game" VALUES(95947,'Mario Kart World','https://ocremix.org/game/95947/mario-kart-world-swch2');
 CREATE TABLE remix (
     id integer primary key,
     title text not null,
@@ -7712,6 +7714,8 @@ INSERT INTO "remix" VALUES(5077,'No More Secrets','Chrono Trigger','2026-10-01T0
 INSERT INTO "remix" VALUES(5078,'Fight for Their Lives','Lufia II: Rise of the Sinistrals','2026-10-19T02:39:58.993785+00:00','https://www.youtube.com/watch?v=geaFrAwoVHg',157,'https://ocrmirror.org/files/music/remixes/Lufia_2_Fight_for_Their_Lives_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(5079,'Super Meat Boy Presents: The Beat of the Meat (feat. Bandage Girl and Dr. Fetus) 2023 MEATCORE RE-REMIX','Super Meat Boy','2026-10-19T02:40:02.858440+00:00','https://www.youtube.com/watch?v=riu1T-erodk',644,'https://ocrmirror.org/files/music/remixes/Super_Meat_Boy_Super_Meat_Boy_Presents_The_Beat_of_the_Meat_(feat_Bandage_Girl_and_Dr_Fetus)_2023_MEATCORE_RE-REMIX_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(5080,'Eyes of Obsidian','Star Fox Adventures','2026-10-19T02:40:03.258734+00:00','https://www.youtube.com/watch?v=_z9k3tv5Q-4',601,'https://ocrmirror.org/files/music/remixes/Star_Fox_Adventures_Eyes_of_Obsidian_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(5081,'Epic FootSteps','Dragon Warrior II','2026-10-19T19:44:14.441902+00:00','https://www.youtube.com/watch?v=yJNvaCgB45k',3388,'https://ocrmirror.org/files/music/remixes/Dragon_Warrior_2_Epic_FootSteps_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(5082,'Le fantôme dans la machine du cinéma','Mario Kart World','2026-10-19T19:44:14.880274+00:00','https://www.youtube.com/watch?v=ScLsaFW7fT0',95947,'https://ocrmirror.org/files/music/remixes/Mario_Kart_World_Le_fantome_dans_la_machine_du_cinema_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -14494,6 +14498,12 @@ INSERT INTO "remix_artist" VALUES(5079,16844,1);
 INSERT INTO "remix_artist" VALUES(5079,18654,1);
 INSERT INTO "remix_artist" VALUES(5080,10690,1);
 INSERT INTO "remix_artist" VALUES(5080,13667,1);
+INSERT INTO "remix_artist" VALUES(5081,18929,1);
+INSERT INTO "remix_artist" VALUES(5082,19009,1);
+INSERT INTO "remix_artist" VALUES(5082,18387,1);
+INSERT INTO "remix_artist" VALUES(5082,16615,1);
+INSERT INTO "remix_artist" VALUES(5082,18866,1);
+INSERT INTO "remix_artist" VALUES(5082,18601,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -47660,6 +47670,9 @@ INSERT INTO "remix_tag" VALUES(5079,'compo-dod',1);
 INSERT INTO "remix_tag" VALUES(5079,'lang-english',1);
 INSERT INTO "remix_tag" VALUES(5079,'timesig-4-4',1);
 INSERT INTO "remix_tag" VALUES(5080,'collab',1);
+INSERT INTO "remix_tag" VALUES(5081,'resubmission',1);
+INSERT INTO "remix_tag" VALUES(5081,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(5082,'collab',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
