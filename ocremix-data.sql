@@ -7709,6 +7709,9 @@ INSERT INTO "remix" VALUES(5074,'Pull of the Mines','Dome Keeper','2026-09-29T03
 INSERT INTO "remix" VALUES(5075,'Of Souls and Shadows','Undertale','2026-09-29T03:34:14.810830+00:00','https://www.youtube.com/watch?v=cwG9UUfpyts',95077,'https://ocrmirror.org/files/music/remixes/Undertale_Of_Souls_and_Shadows_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(5076,'Speaker of the Dust','Nowhere Prophet','2026-09-30T03:19:51.371657+00:00','https://www.youtube.com/watch?v=BZ_V1Fvp6BE',95941,'https://ocrmirror.org/files/music/remixes/Nowhere_Prophet_Speaker_of_the_Dust_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(5077,'No More Secrets','Chrono Trigger','2026-10-01T03:26:06.765956+00:00','https://www.youtube.com/watch?v=jGsqNAuh9sU',16,'https://ocrmirror.org/files/music/remixes/Chrono_Trigger_No_More_Secrets_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(5078,'Fight for Their Lives','Lufia II: Rise of the Sinistrals','2026-10-19T02:39:58.993785+00:00','https://www.youtube.com/watch?v=geaFrAwoVHg',157,'https://ocrmirror.org/files/music/remixes/Lufia_2_Fight_for_Their_Lives_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(5079,'Super Meat Boy Presents: The Beat of the Meat (feat. Bandage Girl and Dr. Fetus) 2023 MEATCORE RE-REMIX','Super Meat Boy','2026-10-19T02:40:02.858440+00:00','https://www.youtube.com/watch?v=riu1T-erodk',644,'https://ocrmirror.org/files/music/remixes/Super_Meat_Boy_Super_Meat_Boy_Presents_The_Beat_of_the_Meat_(feat_Bandage_Girl_and_Dr_Fetus)_2023_MEATCORE_RE-REMIX_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(5080,'Eyes of Obsidian','Star Fox Adventures','2026-10-19T02:40:03.258734+00:00','https://www.youtube.com/watch?v=_z9k3tv5Q-4',601,'https://ocrmirror.org/files/music/remixes/Star_Fox_Adventures_Eyes_of_Obsidian_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -14483,6 +14486,14 @@ INSERT INTO "remix_artist" VALUES(5075,13500,1);
 INSERT INTO "remix_artist" VALUES(5076,4695,1);
 INSERT INTO "remix_artist" VALUES(5077,11940,1);
 INSERT INTO "remix_artist" VALUES(5077,13054,1);
+INSERT INTO "remix_artist" VALUES(5078,11940,1);
+INSERT INTO "remix_artist" VALUES(5078,13054,1);
+INSERT INTO "remix_artist" VALUES(5079,18653,1);
+INSERT INTO "remix_artist" VALUES(5079,18698,1);
+INSERT INTO "remix_artist" VALUES(5079,16844,1);
+INSERT INTO "remix_artist" VALUES(5079,18654,1);
+INSERT INTO "remix_artist" VALUES(5080,10690,1);
+INSERT INTO "remix_artist" VALUES(5080,13667,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -47640,6 +47651,15 @@ INSERT INTO "remix_tag" VALUES(5058,'strings',1);
 INSERT INTO "remix_tag" VALUES(5058,'synth',1);
 INSERT INTO "remix_tag" VALUES(5058,'solemn',1);
 INSERT INTO "remix_tag" VALUES(5061,'energetic',1);
+INSERT INTO "remix_tag" VALUES(5078,'collab',1);
+INSERT INTO "remix_tag" VALUES(5079,'singing',1);
+INSERT INTO "remix_tag" VALUES(5079,'vocals-female',1);
+INSERT INTO "remix_tag" VALUES(5079,'vocals-male',1);
+INSERT INTO "remix_tag" VALUES(5079,'collab',1);
+INSERT INTO "remix_tag" VALUES(5079,'compo-dod',1);
+INSERT INTO "remix_tag" VALUES(5079,'lang-english',1);
+INSERT INTO "remix_tag" VALUES(5079,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(5080,'collab',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
