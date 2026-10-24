@@ -1,7 +1,7 @@
 import argparse
 import collections
 import concurrent.futures
-import datetime
+import datetime as dt
 import json
 import pathlib
 import sqlite3
@@ -131,7 +131,7 @@ def do_import_html(ocr_id: int, html: lxml.html.HtmlElement) -> None:
         "download_url": parse_download_url(html),
         "has_lyrics": 1 if parse_has_lyrics(html) else 0,
         "id": ocr_id,
-        "import_datetime": datetime.datetime.now(tz=datetime.UTC).isoformat(),
+        "import_datetime": dt.datetime.now(tz=dt.UTC).isoformat(),
         "primary_game": primary_game.get("name"),
         "primary_game_id": primary_game.get("id"),
         "title": parse_remix_title(html),
