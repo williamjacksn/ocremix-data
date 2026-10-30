@@ -7716,6 +7716,7 @@ INSERT INTO "remix" VALUES(5079,'Super Meat Boy Presents: The Beat of the Meat (
 INSERT INTO "remix" VALUES(5080,'Eyes of Obsidian','Star Fox Adventures','2026-10-19T02:40:03.258734+00:00','https://www.youtube.com/watch?v=_z9k3tv5Q-4',601,'https://ocrmirror.org/files/music/remixes/Star_Fox_Adventures_Eyes_of_Obsidian_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(5081,'Epic FootSteps','Dragon Warrior II','2026-10-19T19:44:14.441902+00:00','https://www.youtube.com/watch?v=yJNvaCgB45k',3388,'https://ocrmirror.org/files/music/remixes/Dragon_Warrior_2_Epic_FootSteps_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(5082,'Le fantôme dans la machine du cinéma','Mario Kart World','2026-10-19T19:44:14.880274+00:00','https://www.youtube.com/watch?v=ScLsaFW7fT0',95947,'https://ocrmirror.org/files/music/remixes/Mario_Kart_World_Le_fantome_dans_la_machine_du_cinema_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(5083,'Sanguine Sanctum','Bloodborne','2026-10-30T03:49:14.759307+00:00','https://www.youtube.com/watch?v=gdgVAPEC61M',95152,'https://ocrmirror.org/files/music/remixes/Bloodborne_Sanguine_Sanctum_OC_ReMix.mp3',1);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -14504,6 +14505,8 @@ INSERT INTO "remix_artist" VALUES(5082,18387,1);
 INSERT INTO "remix_artist" VALUES(5082,16615,1);
 INSERT INTO "remix_artist" VALUES(5082,18866,1);
 INSERT INTO "remix_artist" VALUES(5082,18601,1);
+INSERT INTO "remix_artist" VALUES(5083,4754,1);
+INSERT INTO "remix_artist" VALUES(5083,5473,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -47673,6 +47676,11 @@ INSERT INTO "remix_tag" VALUES(5080,'collab',1);
 INSERT INTO "remix_tag" VALUES(5081,'resubmission',1);
 INSERT INTO "remix_tag" VALUES(5081,'timesig-4-4',1);
 INSERT INTO "remix_tag" VALUES(5082,'collab',1);
+INSERT INTO "remix_tag" VALUES(5083,'vocals-male',1);
+INSERT INTO "remix_tag" VALUES(5083,'compo-dod',1);
+INSERT INTO "remix_tag" VALUES(5083,'lang-english',1);
+INSERT INTO "remix_tag" VALUES(5083,'lang-latin',1);
+INSERT INTO "remix_tag" VALUES(5083,'lyrics-existing',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
