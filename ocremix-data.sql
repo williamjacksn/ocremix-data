@@ -7717,6 +7717,8 @@ INSERT INTO "remix" VALUES(5080,'Eyes of Obsidian','Star Fox Adventures','2026-1
 INSERT INTO "remix" VALUES(5081,'Epic FootSteps','Dragon Warrior II','2026-10-19T19:44:14.441902+00:00','https://www.youtube.com/watch?v=yJNvaCgB45k',3388,'https://ocrmirror.org/files/music/remixes/Dragon_Warrior_2_Epic_FootSteps_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(5082,'Le fantôme dans la machine du cinéma','Mario Kart World','2026-10-19T19:44:14.880274+00:00','https://www.youtube.com/watch?v=ScLsaFW7fT0',95947,'https://ocrmirror.org/files/music/remixes/Mario_Kart_World_Le_fantome_dans_la_machine_du_cinema_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(5083,'Sanguine Sanctum','Bloodborne','2026-10-30T03:49:14.759307+00:00','https://www.youtube.com/watch?v=gdgVAPEC61M',95152,'https://ocrmirror.org/files/music/remixes/Bloodborne_Sanguine_Sanctum_OC_ReMix.mp3',1);
+INSERT INTO "remix" VALUES(5084,'Rottenonion Temple','The Legend of Zelda: Ocarina of Time','2026-10-31T03:32:20.409739+00:00','https://www.youtube.com/watch?v=b01MWQ0ZmNw',67,'https://ocrmirror.org/files/music/remixes/Legend_of_Zelda_Ocarina_of_Time_Rottenonion_Temple_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(5085,'Jupiter Descending','Golden Sun: The Lost Age','2026-10-31T03:32:20.808715+00:00','https://www.youtube.com/watch?v=fgPnhLhOZQY',892,'https://ocrmirror.org/files/music/remixes/Golden_Sun_The_Lost_Age_Jupiter_Descending_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -14507,6 +14509,8 @@ INSERT INTO "remix_artist" VALUES(5082,18866,1);
 INSERT INTO "remix_artist" VALUES(5082,18601,1);
 INSERT INTO "remix_artist" VALUES(5083,4754,1);
 INSERT INTO "remix_artist" VALUES(5083,5473,1);
+INSERT INTO "remix_artist" VALUES(5084,18844,1);
+INSERT INTO "remix_artist" VALUES(5085,18860,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -47681,6 +47685,23 @@ INSERT INTO "remix_tag" VALUES(5083,'compo-dod',1);
 INSERT INTO "remix_tag" VALUES(5083,'lang-english',1);
 INSERT INTO "remix_tag" VALUES(5083,'lang-latin',1);
 INSERT INTO "remix_tag" VALUES(5083,'lyrics-existing',1);
+INSERT INTO "remix_tag" VALUES(5084,'ambient',1);
+INSERT INTO "remix_tag" VALUES(5084,'experimental',1);
+INSERT INTO "remix_tag" VALUES(5084,'electronic',1);
+INSERT INTO "remix_tag" VALUES(5084,'synth',1);
+INSERT INTO "remix_tag" VALUES(5084,'spooky',1);
+INSERT INTO "remix_tag" VALUES(5084,'compo-dod',1);
+INSERT INTO "remix_tag" VALUES(5084,'dissonance',1);
+INSERT INTO "remix_tag" VALUES(5084,'halloween',1);
+INSERT INTO "remix_tag" VALUES(5085,'cinematic',1);
+INSERT INTO "remix_tag" VALUES(5085,'brass',1);
+INSERT INTO "remix_tag" VALUES(5085,'electronic',1);
+INSERT INTO "remix_tag" VALUES(5085,'orchestral',1);
+INSERT INTO "remix_tag" VALUES(5085,'synth',1);
+INSERT INTO "remix_tag" VALUES(5085,'spooky',1);
+INSERT INTO "remix_tag" VALUES(5085,'halloween',1);
+INSERT INTO "remix_tag" VALUES(5085,'resubmission',1);
+INSERT INTO "remix_tag" VALUES(5085,'timesig-4-4',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
