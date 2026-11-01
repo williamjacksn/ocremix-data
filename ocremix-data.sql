@@ -1648,6 +1648,7 @@ INSERT INTO "artist" VALUES(19084,'NarnianWarrior','https://ocremix.org/artist/1
 INSERT INTO "artist" VALUES(19094,'Cameron Seitzman','https://ocremix.org/artist/19094/cameron-seitzman');
 INSERT INTO "artist" VALUES(19095,'PerksJFP','https://ocremix.org/artist/19095/perksjfp');
 INSERT INTO "artist" VALUES(19097,'Rom Tom','https://ocremix.org/artist/19097/rom-tom');
+INSERT INTO "artist" VALUES(19105,'The 3 Spooky 5 U Crew','https://ocremix.org/artist/19105/the-3-spooky-5-u-crew');
 CREATE TABLE game (
     id integer primary key,
     name text not null,
@@ -2469,6 +2470,7 @@ INSERT INTO "game" VALUES(3031,'Mischief Makers','https://ocremix.org/game/3031/
 INSERT INTO "game" VALUES(3039,'Mystical Ninja Starring Goemon','https://ocremix.org/game/3039/mystical-ninja-starring-goemon-n64');
 INSERT INTO "game" VALUES(3070,'Paper Mario','https://ocremix.org/game/3070/paper-mario-n64');
 INSERT INTO "game" VALUES(3137,'Turok: Dinosaur Hunter','https://ocremix.org/game/3137/turok-dinosaur-hunter-n64');
+INSERT INTO "game" VALUES(3176,'Adventures in the Magic Kingdom','https://ocremix.org/game/3176/adventures-in-the-magic-kingdom-nes');
 INSERT INTO "game" VALUES(3206,'A Nightmare on Elm Street','https://ocremix.org/game/3206/nightmare-on-elm-street-nes');
 INSERT INTO "game" VALUES(3214,'Arkista''s Ring','https://ocremix.org/game/3214/arkistas-ring-nes');
 INSERT INTO "game" VALUES(3253,'Batman: Return of the Joker','https://ocremix.org/game/3253/batman-return-of-the-joker-nes');
@@ -7719,6 +7721,8 @@ INSERT INTO "remix" VALUES(5082,'Le fantôme dans la machine du cinéma','Mario 
 INSERT INTO "remix" VALUES(5083,'Sanguine Sanctum','Bloodborne','2026-10-30T03:49:14.759307+00:00','https://www.youtube.com/watch?v=gdgVAPEC61M',95152,'https://ocrmirror.org/files/music/remixes/Bloodborne_Sanguine_Sanctum_OC_ReMix.mp3',1);
 INSERT INTO "remix" VALUES(5084,'Rottenonion Temple','The Legend of Zelda: Ocarina of Time','2026-10-31T03:32:20.409739+00:00','https://www.youtube.com/watch?v=b01MWQ0ZmNw',67,'https://ocrmirror.org/files/music/remixes/Legend_of_Zelda_Ocarina_of_Time_Rottenonion_Temple_OC_ReMix.mp3',0);
 INSERT INTO "remix" VALUES(5085,'Jupiter Descending','Golden Sun: The Lost Age','2026-10-31T03:32:20.808715+00:00','https://www.youtube.com/watch?v=fgPnhLhOZQY',892,'https://ocrmirror.org/files/music/remixes/Golden_Sun_The_Lost_Age_Jupiter_Descending_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(5086,'The Madness Machine','Chrono Trigger','2026-11-01T03:38:38.360927+00:00','https://www.youtube.com/watch?v=ZVJH4AjDcLQ',16,'https://ocrmirror.org/files/music/remixes/Chrono_Trigger_The_Madness_Machine_OC_ReMix.mp3',0);
+INSERT INTO "remix" VALUES(5087,'Get Haunted, Bro','Adventures in the Magic Kingdom','2026-11-01T03:38:38.810645+00:00','https://www.youtube.com/watch?v=yjE6k1vCCzo',3176,'https://ocrmirror.org/files/music/remixes/Adventures_in_the_Magic_Kingdom_Get_Haunted_Bro_OC_ReMix.mp3',0);
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -14511,6 +14515,8 @@ INSERT INTO "remix_artist" VALUES(5083,4754,1);
 INSERT INTO "remix_artist" VALUES(5083,5473,1);
 INSERT INTO "remix_artist" VALUES(5084,18844,1);
 INSERT INTO "remix_artist" VALUES(5085,18860,1);
+INSERT INTO "remix_artist" VALUES(5086,12541,1);
+INSERT INTO "remix_artist" VALUES(5087,19105,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -47702,6 +47708,9 @@ INSERT INTO "remix_tag" VALUES(5085,'spooky',1);
 INSERT INTO "remix_tag" VALUES(5085,'halloween',1);
 INSERT INTO "remix_tag" VALUES(5085,'resubmission',1);
 INSERT INTO "remix_tag" VALUES(5085,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(5086,'halloween',1);
+INSERT INTO "remix_tag" VALUES(5087,'collab',1);
+INSERT INTO "remix_tag" VALUES(5087,'halloween',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
