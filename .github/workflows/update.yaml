@@ -2,7 +2,7 @@ name: Update ReMix info
 
 on:
   schedule:
-    - cron: 30 * * * *
+    - cron: 52 * * * *
   workflow_dispatch:
     inputs:
       limit:
