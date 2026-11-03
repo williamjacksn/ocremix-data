@@ -5,7 +5,7 @@ info = {
     "description": "This project provides data about remixes published by "
     "[OverClocked ReMix](https://ocremix.org/). "
     "The data is available in JSON and SQLite format.",
-    "version": "2024.2",
+    "version": "2026.0",
 }
 
 external_docs = {
@@ -40,7 +40,8 @@ CREATE TABLE remix (
     youtube_url text,
     primary_game_id int,
     download_url text,
-    has_lyrics integer
+    has_lyrics integer,
+    download_urls text
 ) strict;
 
 CREATE TABLE remix_artist (
@@ -83,6 +84,13 @@ remix_json_properties = {
     "download_url": {
         "type": "string",
         "example": "https://ocrmirror.org/files/music/remixes/Shinobi_Shin_Shuriken_Jam_OC_ReMix.mp3",
+    },
+    "download_urls": {
+        "type": "array",
+        "items": {
+            "type": "string",
+            "example": "https://ocrmirror.org/files/music/remixes/Shinobi_Shin_Shuriken_Jam_OC_ReMix.mp3",
+        },
     },
     "has_lyrics": {"type": "boolean", "example": False},
     "id": {"type": "integer", "example": 1},

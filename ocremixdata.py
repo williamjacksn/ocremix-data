@@ -129,6 +129,7 @@ def do_import_html(ocr_id: int, html: lxml.html.HtmlElement) -> None:
 
     remix_params = {
         "download_url": parse_download_url(html),
+        "download_urls": parse_download_urls(html),
         "has_lyrics": 1 if parse_has_lyrics(html) else 0,
         "id": ocr_id,
         "import_datetime": dt.datetime.now(tz=dt.UTC).isoformat(),
@@ -213,7 +214,9 @@ def get_remix_ids_first_imported(cnx: sqlite3.Connection, limit: int = 20) -> li
 def get_remix_data(cnx: sqlite3.Connection, ocr_id: int) -> dict:
     result = {}
     remix_sql = """
-        select download_url, has_lyrics, id, title, primary_game, youtube_url
+        select
+            download_url, download_urls, has_lyrics, id, title, primary_game,
+            youtube_url
         from remix
         where id = :id
     """
@@ -238,6 +241,9 @@ def get_remix_data(cnx: sqlite3.Connection, ocr_id: int) -> dict:
         for row in cnx.execute(remix_sql, params):
             result = {
                 "download_url": row.download_url,
+                "download_urls": row.download_urls.split(",")
+                if row.download_urls
+                else [],
                 "has_lyrics": bool(row.has_lyrics),
                 "id": row.id,
                 "ocr_id": f"OCR{row.id:05}",
@@ -409,6 +415,13 @@ def parse_download_url(html: lxml.html.HtmlElement) -> str:
     )[0]
 
 
+def parse_download_urls(html: lxml.html.HtmlElement) -> str:
+    return ",".join(
+        html.xpath(f'//div[@id="modalDownload"]//a[contains(@href, "{host}")]/@href')[0]
+        for host in ("iterations.org", "ocr.blueblue.fr", "ocrmirror.org")
+    )
+
+
 def parse_remix_primary_game(html: lxml.html.HtmlElement) -> dict:
     el = html.xpath("//h1/a")[0]
     game_name = el.text
@@ -484,13 +497,15 @@ def write_game(cnx: sqlite3.Connection, params: dict) -> None:
 def write_remix(cnx: sqlite3.Connection, params: dict) -> None:
     sql = """
         insert into remix (
-            download_url, has_lyrics, id, import_datetime, primary_game,
-            primary_game_id, title, youtube_url
+            download_url, download_urls, has_lyrics, id, import_datetime,
+            primary_game, primary_game_id, title, youtube_url
         ) values (
-            :download_url, :has_lyrics, :id, :import_datetime, :primary_game,
-            :primary_game_id, :title, :youtube_url
+            :download_url, :download_urls, :has_lyrics, :id, :import_datetime,
+            :primary_game, :primary_game_id, :title, :youtube_url
         ) on conflict (id) do update set
-            download_url = excluded.download_url, has_lyrics = excluded.has_lyrics,
+            download_url = excluded.download_url,
+            download_urls = excluded.download_urls,
+            has_lyrics = excluded.has_lyrics,
             import_datetime = excluded.import_datetime,
             primary_game = excluded.primary_game,
             primary_game_id = excluded.primary_game_id, title = excluded.title,
