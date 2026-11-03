@@ -369,8 +369,8 @@ def parse_args() -> argparse.Namespace:
     ps_update.add_argument(
         "-l",
         "--limit",
-        default="10",
-        help="the number of ReMixes to check, default 10",
+        default="100",
+        help="the number of ReMixes to check, default 100",
         type=int,
     )
     ps_update.set_defaults(func=cli_update)

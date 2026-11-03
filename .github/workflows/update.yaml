@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
     inputs:
       limit:
-        default: 10
+        default: 100
         description: Number of ReMixes to update
         required: true
         type: number
