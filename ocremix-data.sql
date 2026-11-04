@@ -1644,6 +1644,7 @@ INSERT INTO "artist" VALUES(19049,'Bryan Alvarez','https://ocremix.org/artist/19
 INSERT INTO "artist" VALUES(19050,'Sybil Grace','https://ocremix.org/artist/19050/sybil-grace');
 INSERT INTO "artist" VALUES(19051,'Riley Zielinski','https://ocremix.org/artist/19051/riley-zielinski');
 INSERT INTO "artist" VALUES(19056,'Eltwish','https://ocremix.org/artist/19056/eltwish');
+INSERT INTO "artist" VALUES(19072,'Katy Scary','https://ocremix.org/artist/19072/katy-scary');
 INSERT INTO "artist" VALUES(19084,'NarnianWarrior','https://ocremix.org/artist/19084/narnianwarrior');
 INSERT INTO "artist" VALUES(19094,'Cameron Seitzman','https://ocremix.org/artist/19094/cameron-seitzman');
 INSERT INTO "artist" VALUES(19095,'PerksJFP','https://ocremix.org/artist/19095/perksjfp');
@@ -7724,6 +7725,7 @@ INSERT INTO "remix" VALUES(5084,'Rottenonion Temple','The Legend of Zelda: Ocari
 INSERT INTO "remix" VALUES(5085,'Jupiter Descending','Golden Sun: The Lost Age','2026-11-03T16:29:00.247973+00:00','https://www.youtube.com/watch?v=fgPnhLhOZQY',892,'https://ocrmirror.org/files/music/remixes/Golden_Sun_The_Lost_Age_Jupiter_Descending_OC_ReMix.mp3',0,'https://iterations.org/files/music/remixes/Golden_Sun_The_Lost_Age_Jupiter_Descending_OC_ReMix.mp3,https://ocr.blueblue.fr/files/music/remixes/Golden_Sun_The_Lost_Age_Jupiter_Descending_OC_ReMix.mp3,https://ocrmirror.org/files/music/remixes/Golden_Sun_The_Lost_Age_Jupiter_Descending_OC_ReMix.mp3');
 INSERT INTO "remix" VALUES(5086,'The Madness Machine','Chrono Trigger','2026-11-04T16:44:42.841399+00:00','https://www.youtube.com/watch?v=ZVJH4AjDcLQ',16,'https://ocrmirror.org/files/music/remixes/Chrono_Trigger_The_Madness_Machine_OC_ReMix.mp3',0,'https://iterations.org/files/music/remixes/Chrono_Trigger_The_Madness_Machine_OC_ReMix.mp3,https://ocr.blueblue.fr/files/music/remixes/Chrono_Trigger_The_Madness_Machine_OC_ReMix.mp3,https://ocrmirror.org/files/music/remixes/Chrono_Trigger_The_Madness_Machine_OC_ReMix.mp3');
 INSERT INTO "remix" VALUES(5087,'Get Haunted, Bro','Adventures in the Magic Kingdom','2026-11-04T16:47:48.373890+00:00','https://www.youtube.com/watch?v=yjE6k1vCCzo',3176,'https://ocrmirror.org/files/music/remixes/Adventures_in_the_Magic_Kingdom_Get_Haunted_Bro_OC_ReMix.mp3',0,'https://iterations.org/files/music/remixes/Adventures_in_the_Magic_Kingdom_Get_Haunted_Bro_OC_ReMix.mp3,https://ocr.blueblue.fr/files/music/remixes/Adventures_in_the_Magic_Kingdom_Get_Haunted_Bro_OC_ReMix.mp3,https://ocrmirror.org/files/music/remixes/Adventures_in_the_Magic_Kingdom_Get_Haunted_Bro_OC_ReMix.mp3');
+INSERT INTO "remix" VALUES(5088,'Lunar Apocalypse','Kingdom Hearts II','2026-11-04T16:49:46.969471+00:00','https://www.youtube.com/watch?v=JAF65PJ1BrI',549,'https://ocrmirror.org/files/music/remixes/Kingdom_Hearts_2_Lunar_Apocalypse_OC_ReMix.mp3',0,'https://iterations.org/files/music/remixes/Kingdom_Hearts_2_Lunar_Apocalypse_OC_ReMix.mp3,https://ocr.blueblue.fr/files/music/remixes/Kingdom_Hearts_2_Lunar_Apocalypse_OC_ReMix.mp3,https://ocrmirror.org/files/music/remixes/Kingdom_Hearts_2_Lunar_Apocalypse_OC_ReMix.mp3');
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -14518,6 +14520,9 @@ INSERT INTO "remix_artist" VALUES(5084,18844,1);
 INSERT INTO "remix_artist" VALUES(5085,18860,1);
 INSERT INTO "remix_artist" VALUES(5086,12541,1);
 INSERT INTO "remix_artist" VALUES(5087,19105,1);
+INSERT INTO "remix_artist" VALUES(5088,14126,1);
+INSERT INTO "remix_artist" VALUES(5088,19072,1);
+INSERT INTO "remix_artist" VALUES(5088,18601,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -47569,6 +47574,7 @@ INSERT INTO "remix_tag" VALUES(5085,'timesig-4-4',1);
 INSERT INTO "remix_tag" VALUES(5086,'halloween',1);
 INSERT INTO "remix_tag" VALUES(5087,'collab',1);
 INSERT INTO "remix_tag" VALUES(5087,'halloween',1);
+INSERT INTO "remix_tag" VALUES(5088,'collab',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
