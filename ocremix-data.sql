@@ -1459,6 +1459,7 @@ INSERT INTO "artist" VALUES(18639,'Becky Reid','https://ocremix.org/artist/18639
 INSERT INTO "artist" VALUES(18640,'John Bishop','https://ocremix.org/artist/18640/john-bishop');
 INSERT INTO "artist" VALUES(18642,'Numoon','https://ocremix.org/artist/18642/numoon');
 INSERT INTO "artist" VALUES(18643,'Erika Richards','https://ocremix.org/artist/18643/erika-richards');
+INSERT INTO "artist" VALUES(18645,'Ian Cowell','https://ocremix.org/artist/18645/ian-cowell');
 INSERT INTO "artist" VALUES(18648,'sui','https://ocremix.org/artist/18648/sui');
 INSERT INTO "artist" VALUES(18651,'Error 47','https://ocremix.org/artist/18651/error-47');
 INSERT INTO "artist" VALUES(18652,'shieldeater','https://ocremix.org/artist/18652/shieldeater');
@@ -7726,6 +7727,7 @@ INSERT INTO "remix" VALUES(5085,'Jupiter Descending','Golden Sun: The Lost Age',
 INSERT INTO "remix" VALUES(5086,'The Madness Machine','Chrono Trigger','2026-11-04T16:44:42.841399+00:00','https://www.youtube.com/watch?v=ZVJH4AjDcLQ',16,'https://ocrmirror.org/files/music/remixes/Chrono_Trigger_The_Madness_Machine_OC_ReMix.mp3',0,'https://iterations.org/files/music/remixes/Chrono_Trigger_The_Madness_Machine_OC_ReMix.mp3,https://ocr.blueblue.fr/files/music/remixes/Chrono_Trigger_The_Madness_Machine_OC_ReMix.mp3,https://ocrmirror.org/files/music/remixes/Chrono_Trigger_The_Madness_Machine_OC_ReMix.mp3');
 INSERT INTO "remix" VALUES(5087,'Get Haunted, Bro','Adventures in the Magic Kingdom','2026-11-04T16:47:48.373890+00:00','https://www.youtube.com/watch?v=yjE6k1vCCzo',3176,'https://ocrmirror.org/files/music/remixes/Adventures_in_the_Magic_Kingdom_Get_Haunted_Bro_OC_ReMix.mp3',0,'https://iterations.org/files/music/remixes/Adventures_in_the_Magic_Kingdom_Get_Haunted_Bro_OC_ReMix.mp3,https://ocr.blueblue.fr/files/music/remixes/Adventures_in_the_Magic_Kingdom_Get_Haunted_Bro_OC_ReMix.mp3,https://ocrmirror.org/files/music/remixes/Adventures_in_the_Magic_Kingdom_Get_Haunted_Bro_OC_ReMix.mp3');
 INSERT INTO "remix" VALUES(5088,'Lunar Apocalypse','Kingdom Hearts II','2026-11-04T16:49:46.969471+00:00','https://www.youtube.com/watch?v=JAF65PJ1BrI',549,'https://ocrmirror.org/files/music/remixes/Kingdom_Hearts_2_Lunar_Apocalypse_OC_ReMix.mp3',0,'https://iterations.org/files/music/remixes/Kingdom_Hearts_2_Lunar_Apocalypse_OC_ReMix.mp3,https://ocr.blueblue.fr/files/music/remixes/Kingdom_Hearts_2_Lunar_Apocalypse_OC_ReMix.mp3,https://ocrmirror.org/files/music/remixes/Kingdom_Hearts_2_Lunar_Apocalypse_OC_ReMix.mp3');
+INSERT INTO "remix" VALUES(5089,'Psy Want It That Way','Pokémon Blue Version','2026-11-16T12:54:24.409926+00:00','https://www.youtube.com/watch?v=xnyZ90lGhno',676,'https://ocrmirror.org/files/music/remixes/Pokemon_Blue_Version_Psy_Want_It_That_Way_OC_ReMix.mp3',0,'https://iterations.org/files/music/remixes/Pokemon_Blue_Version_Psy_Want_It_That_Way_OC_ReMix.mp3,https://ocr.blueblue.fr/files/music/remixes/Pokemon_Blue_Version_Psy_Want_It_That_Way_OC_ReMix.mp3,https://ocrmirror.org/files/music/remixes/Pokemon_Blue_Version_Psy_Want_It_That_Way_OC_ReMix.mp3');
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -14523,6 +14525,10 @@ INSERT INTO "remix_artist" VALUES(5087,19105,1);
 INSERT INTO "remix_artist" VALUES(5088,14126,1);
 INSERT INTO "remix_artist" VALUES(5088,19072,1);
 INSERT INTO "remix_artist" VALUES(5088,18601,1);
+INSERT INTO "remix_artist" VALUES(5089,10690,1);
+INSERT INTO "remix_artist" VALUES(5089,18698,1);
+INSERT INTO "remix_artist" VALUES(5089,18645,1);
+INSERT INTO "remix_artist" VALUES(5089,13667,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -47653,6 +47659,16 @@ INSERT INTO "remix_tag" VALUES(5082,'violin',1);
 INSERT INTO "remix_tag" VALUES(5082,'jazzy',1);
 INSERT INTO "remix_tag" VALUES(5082,'live-instruments',1);
 INSERT INTO "remix_tag" VALUES(5082,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(5089,'pop',1);
+INSERT INTO "remix_tag" VALUES(5089,'rock',1);
+INSERT INTO "remix_tag" VALUES(5089,'acoustic-guitar',1);
+INSERT INTO "remix_tag" VALUES(5089,'electric-guitar',1);
+INSERT INTO "remix_tag" VALUES(5089,'synth',1);
+INSERT INTO "remix_tag" VALUES(5089,'energetic',1);
+INSERT INTO "remix_tag" VALUES(5089,'sexy',1);
+INSERT INTO "remix_tag" VALUES(5089,'collab',1);
+INSERT INTO "remix_tag" VALUES(5089,'live-instruments',1);
+INSERT INTO "remix_tag" VALUES(5089,'timesig-4-4',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
