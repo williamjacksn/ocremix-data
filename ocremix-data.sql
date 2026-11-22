@@ -7728,6 +7728,9 @@ INSERT INTO "remix" VALUES(5086,'The Madness Machine','Chrono Trigger','2026-11-
 INSERT INTO "remix" VALUES(5087,'Get Haunted, Bro','Adventures in the Magic Kingdom','2026-11-18T03:54:49.292466+00:00','https://www.youtube.com/watch?v=yjE6k1vCCzo',3176,'https://ocrmirror.org/files/music/remixes/Adventures_in_the_Magic_Kingdom_Get_Haunted_Bro_OC_ReMix.mp3',0,'https://iterations.org/files/music/remixes/Adventures_in_the_Magic_Kingdom_Get_Haunted_Bro_OC_ReMix.mp3,https://ocr.blueblue.fr/files/music/remixes/Adventures_in_the_Magic_Kingdom_Get_Haunted_Bro_OC_ReMix.mp3,https://ocrmirror.org/files/music/remixes/Adventures_in_the_Magic_Kingdom_Get_Haunted_Bro_OC_ReMix.mp3');
 INSERT INTO "remix" VALUES(5088,'Lunar Apocalypse','Kingdom Hearts II','2026-11-18T03:54:49.534442+00:00','https://www.youtube.com/watch?v=JAF65PJ1BrI',549,'https://ocrmirror.org/files/music/remixes/Kingdom_Hearts_2_Lunar_Apocalypse_OC_ReMix.mp3',0,'https://iterations.org/files/music/remixes/Kingdom_Hearts_2_Lunar_Apocalypse_OC_ReMix.mp3,https://ocr.blueblue.fr/files/music/remixes/Kingdom_Hearts_2_Lunar_Apocalypse_OC_ReMix.mp3,https://ocrmirror.org/files/music/remixes/Kingdom_Hearts_2_Lunar_Apocalypse_OC_ReMix.mp3');
 INSERT INTO "remix" VALUES(5089,'Psy Want It That Way','Pokémon Blue Version','2026-11-16T12:54:24.409926+00:00','https://www.youtube.com/watch?v=xnyZ90lGhno',676,'https://ocrmirror.org/files/music/remixes/Pokemon_Blue_Version_Psy_Want_It_That_Way_OC_ReMix.mp3',0,'https://iterations.org/files/music/remixes/Pokemon_Blue_Version_Psy_Want_It_That_Way_OC_ReMix.mp3,https://ocr.blueblue.fr/files/music/remixes/Pokemon_Blue_Version_Psy_Want_It_That_Way_OC_ReMix.mp3,https://ocrmirror.org/files/music/remixes/Pokemon_Blue_Version_Psy_Want_It_That_Way_OC_ReMix.mp3');
+INSERT INTO "remix" VALUES(5090,'Free As a Bird','Star Fox 64','2026-11-22T04:25:14.222488+00:00','https://www.youtube.com/watch?v=aHYG7FKFygA',475,'https://ocrmirror.org/files/music/remixes/Star_Fox_64_Free_As_a_Bird_OC_ReMix.mp3',0,'https://iterations.org/files/music/remixes/Star_Fox_64_Free_As_a_Bird_OC_ReMix.mp3,https://ocr.blueblue.fr/files/music/remixes/Star_Fox_64_Free_As_a_Bird_OC_ReMix.mp3,https://ocrmirror.org/files/music/remixes/Star_Fox_64_Free_As_a_Bird_OC_ReMix.mp3');
+INSERT INTO "remix" VALUES(5091,'Heroes Fall','Cave Story','2026-11-22T04:25:14.485306+00:00','https://www.youtube.com/watch?v=kWDWU-Mxg3Q',486,'https://ocrmirror.org/files/music/remixes/Cave_Story_Heroes_Fall_OC_ReMix.mp3',0,'https://iterations.org/files/music/remixes/Cave_Story_Heroes_Fall_OC_ReMix.mp3,https://ocr.blueblue.fr/files/music/remixes/Cave_Story_Heroes_Fall_OC_ReMix.mp3,https://ocrmirror.org/files/music/remixes/Cave_Story_Heroes_Fall_OC_ReMix.mp3');
+INSERT INTO "remix" VALUES(5092,'Dream of Imil','Golden Sun','2026-11-22T04:25:14.752591+00:00','https://www.youtube.com/watch?v=ICD5HYk2ek4',433,'https://ocrmirror.org/files/music/remixes/Golden_Sun_Dream_of_Imil_OC_ReMix.mp3',0,'https://iterations.org/files/music/remixes/Golden_Sun_Dream_of_Imil_OC_ReMix.mp3,https://ocr.blueblue.fr/files/music/remixes/Golden_Sun_Dream_of_Imil_OC_ReMix.mp3,https://ocrmirror.org/files/music/remixes/Golden_Sun_Dream_of_Imil_OC_ReMix.mp3');
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -14529,6 +14532,19 @@ INSERT INTO "remix_artist" VALUES(5089,10690,1);
 INSERT INTO "remix_artist" VALUES(5089,18698,1);
 INSERT INTO "remix_artist" VALUES(5089,18645,1);
 INSERT INTO "remix_artist" VALUES(5089,13667,1);
+INSERT INTO "remix_artist" VALUES(5090,18606,1);
+INSERT INTO "remix_artist" VALUES(5090,16844,1);
+INSERT INTO "remix_artist" VALUES(5090,16615,1);
+INSERT INTO "remix_artist" VALUES(5090,18594,1);
+INSERT INTO "remix_artist" VALUES(5090,18601,1);
+INSERT INTO "remix_artist" VALUES(5090,16848,1);
+INSERT INTO "remix_artist" VALUES(5090,13667,1);
+INSERT INTO "remix_artist" VALUES(5090,11967,1);
+INSERT INTO "remix_artist" VALUES(5090,18711,1);
+INSERT INTO "remix_artist" VALUES(5091,4705,1);
+INSERT INTO "remix_artist" VALUES(5092,14375,1);
+INSERT INTO "remix_artist" VALUES(5092,16615,1);
+INSERT INTO "remix_artist" VALUES(5092,18382,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -47832,6 +47848,17 @@ INSERT INTO "remix_tag" VALUES(5088,'piano',1);
 INSERT INTO "remix_tag" VALUES(5088,'violin',1);
 INSERT INTO "remix_tag" VALUES(5088,'live-instruments',1);
 INSERT INTO "remix_tag" VALUES(5088,'timesig-6-8',1);
+INSERT INTO "remix_tag" VALUES(5090,'collab',1);
+INSERT INTO "remix_tag" VALUES(5091,'cinematic',1);
+INSERT INTO "remix_tag" VALUES(5091,'bells',1);
+INSERT INTO "remix_tag" VALUES(5091,'brass',1);
+INSERT INTO "remix_tag" VALUES(5091,'orchestral',1);
+INSERT INTO "remix_tag" VALUES(5091,'strings',1);
+INSERT INTO "remix_tag" VALUES(5091,'vocals-female',1);
+INSERT INTO "remix_tag" VALUES(5091,'xylophone',1);
+INSERT INTO "remix_tag" VALUES(5091,'epic',1);
+INSERT INTO "remix_tag" VALUES(5091,'medley',1);
+INSERT INTO "remix_tag" VALUES(5092,'collab',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
