@@ -2820,6 +2820,7 @@ INSERT INTO "game" VALUES(95928,'Valdis Story: Abyssal City','https://ocremix.or
 INSERT INTO "game" VALUES(95930,'Astrea: Six-Sided Oracles','https://ocremix.org/game/95930/astrea-six-sided-oracles-win');
 INSERT INTO "game" VALUES(95932,'Deep Sky Derelicts','https://ocremix.org/game/95932/deep-sky-derelicts-win');
 INSERT INTO "game" VALUES(95933,'Dome Keeper','https://ocremix.org/game/95933/dome-keeper-win');
+INSERT INTO "game" VALUES(95934,'Hades','https://ocremix.org/game/95934/hades-win');
 INSERT INTO "game" VALUES(95938,'Dungeon of the Endless','https://ocremix.org/game/95938/dungeon-of-the-endless-win');
 INSERT INTO "game" VALUES(95939,'Inkbound','https://ocremix.org/game/95939/inkbound-win');
 INSERT INTO "game" VALUES(95940,'Monster Train','https://ocremix.org/game/95940/monster-train-win');
@@ -7731,6 +7732,8 @@ INSERT INTO "remix" VALUES(5089,'Psy Want It That Way','Pokémon Blue Version','
 INSERT INTO "remix" VALUES(5090,'Free As a Bird','Star Fox 64','2026-11-22T04:25:14.222488+00:00','https://www.youtube.com/watch?v=aHYG7FKFygA',475,'https://ocrmirror.org/files/music/remixes/Star_Fox_64_Free_As_a_Bird_OC_ReMix.mp3',0,'https://iterations.org/files/music/remixes/Star_Fox_64_Free_As_a_Bird_OC_ReMix.mp3,https://ocr.blueblue.fr/files/music/remixes/Star_Fox_64_Free_As_a_Bird_OC_ReMix.mp3,https://ocrmirror.org/files/music/remixes/Star_Fox_64_Free_As_a_Bird_OC_ReMix.mp3');
 INSERT INTO "remix" VALUES(5091,'Heroes Fall','Cave Story','2026-11-22T04:25:14.485306+00:00','https://www.youtube.com/watch?v=kWDWU-Mxg3Q',486,'https://ocrmirror.org/files/music/remixes/Cave_Story_Heroes_Fall_OC_ReMix.mp3',0,'https://iterations.org/files/music/remixes/Cave_Story_Heroes_Fall_OC_ReMix.mp3,https://ocr.blueblue.fr/files/music/remixes/Cave_Story_Heroes_Fall_OC_ReMix.mp3,https://ocrmirror.org/files/music/remixes/Cave_Story_Heroes_Fall_OC_ReMix.mp3');
 INSERT INTO "remix" VALUES(5092,'Dream of Imil','Golden Sun','2026-11-22T04:25:14.752591+00:00','https://www.youtube.com/watch?v=ICD5HYk2ek4',433,'https://ocrmirror.org/files/music/remixes/Golden_Sun_Dream_of_Imil_OC_ReMix.mp3',0,'https://iterations.org/files/music/remixes/Golden_Sun_Dream_of_Imil_OC_ReMix.mp3,https://ocr.blueblue.fr/files/music/remixes/Golden_Sun_Dream_of_Imil_OC_ReMix.mp3,https://ocrmirror.org/files/music/remixes/Golden_Sun_Dream_of_Imil_OC_ReMix.mp3');
+INSERT INTO "remix" VALUES(5093,'A Journey''s Promise','Lufia II: Rise of the Sinistrals','2026-11-28T05:44:56.905627+00:00','https://www.youtube.com/watch?v=MuV2T8l8w8I',157,'https://ocrmirror.org/files/music/remixes/Lufia_2_A_Journey''s_Promise_OC_ReMix.mp3',1,'https://iterations.org/files/music/remixes/Lufia_2_A_Journey''s_Promise_OC_ReMix.mp3,https://ocr.blueblue.fr/files/music/remixes/Lufia_2_A_Journey''s_Promise_OC_ReMix.mp3,https://ocrmirror.org/files/music/remixes/Lufia_2_A_Journey''s_Promise_OC_ReMix.mp3');
+INSERT INTO "remix" VALUES(5094,'Breath of the Reaper','Hades','2026-11-28T05:44:57.331058+00:00','https://www.youtube.com/watch?v=VaNHKjiYoEU',95934,'https://ocrmirror.org/files/music/remixes/Hades_Breath_of_the_Reaper_OC_ReMix.mp3',0,'https://iterations.org/files/music/remixes/Hades_Breath_of_the_Reaper_OC_ReMix.mp3,https://ocr.blueblue.fr/files/music/remixes/Hades_Breath_of_the_Reaper_OC_ReMix.mp3,https://ocrmirror.org/files/music/remixes/Hades_Breath_of_the_Reaper_OC_ReMix.mp3');
 CREATE TABLE remix_artist (
     remix_id integer not null,
     artist_id integer not null,
@@ -14545,6 +14548,8 @@ INSERT INTO "remix_artist" VALUES(5091,4705,1);
 INSERT INTO "remix_artist" VALUES(5092,14375,1);
 INSERT INTO "remix_artist" VALUES(5092,16615,1);
 INSERT INTO "remix_artist" VALUES(5092,18382,1);
+INSERT INTO "remix_artist" VALUES(5093,5473,1);
+INSERT INTO "remix_artist" VALUES(5094,4695,1);
 CREATE TABLE remix_tag (
     remix_id integer not null,
     tag_id text not null,
@@ -47859,6 +47864,11 @@ INSERT INTO "remix_tag" VALUES(5091,'xylophone',1);
 INSERT INTO "remix_tag" VALUES(5091,'epic',1);
 INSERT INTO "remix_tag" VALUES(5091,'medley',1);
 INSERT INTO "remix_tag" VALUES(5092,'collab',1);
+INSERT INTO "remix_tag" VALUES(5093,'singing',1);
+INSERT INTO "remix_tag" VALUES(5093,'vocals-male',1);
+INSERT INTO "remix_tag" VALUES(5093,'lang-english',1);
+INSERT INTO "remix_tag" VALUES(5093,'timesig-4-4',1);
+INSERT INTO "remix_tag" VALUES(5094,'timesig-4-4',1);
 CREATE TABLE tag (
     id text primary key,
     path text not null,
